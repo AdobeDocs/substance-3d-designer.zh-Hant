@@ -34,13 +34,13 @@ ht-degree: 0%
 
 ### 參數欄位中的型別公式
 
-當你想輸入特定參數值時，不再需要用計算機或在腦中計算。 你現在可以在 Properties](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 及應用程式其他地方設定參數數值[時，直接輸入加法、除法、多數或減法等基本公式。
+當你想輸入特定參數值時，不再需要用計算機或在腦中計算。 你現在可以在 Properties[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 及應用程式其他地方設定參數數值時，直接輸入加法、除法、多數或減法等基本公式。
 
 ![](../../assets/final-formula.gif){width="640px"}
 
 ### 3D 視圖中的快速存取按鈕
 
-我們在 3D 視圖](../../interface/3d-view/3d-view.md)中新增了一個工具列[，對應顯示選單中[](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
+我們在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中新增了一個工具列，對應顯示選單中[&#128279;](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
 
 ![](../../assets/final-3dview.gif){width="640px"}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 選擇下游節點
 
-節點情境選單](../../interface/the-graph-view/the-graph-view.md)新增條目[，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
+節點情境選單[&#128279;](../../interface/the-graph-view/the-graph-view.md)新增條目，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
 
 ![](../../assets/final-downstream.gif){width="640px"}
 

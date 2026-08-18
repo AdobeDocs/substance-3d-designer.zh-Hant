@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 參數在預覽模式中無法運作，且已發佈的 Substance 3D 資產（SBSAR）
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
-在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈的 Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）參數清單[中，部分已暴露的圖形參數未&#x200B;*被列出*。
+在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈的 Substance 3D 資產[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
 
-<b>![（打勾）](../../assets/check.svg）建議步驟</b>
+<b>![（打勾）](../../assets/check.svg)建議步驟</b>
 
 缺少的參數很可能[是靜態參數](../../glossary/glossary.md)，*圖在處理*&#x200B;完成後無法即時編輯&#x200B;**，以快速且有效率地執行演算法。每次圖表被 *編輯* 或 *發佈*&#x200B;時，Designer 都會進行煮食。 受此類限制影響的參數列於[本文件「暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」頁面的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分。
 
@@ -47,10 +47,10 @@ ht-degree: 0%
 
 ## 對參數應用的實質函數圖結果錯誤
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 應用於節點參數的 Substance 函數圖，當使用負整數時，不會輸出預期值。
 
-<b>![（打了](../../assets/check.svg） 推薦步驟</b>
+<b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
-負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的[負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。
+負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2[&#128279;](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。

@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # 物質圖表與 MDL 材料
 
-本頁說明 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)與 MDL 圖之間的[協同效應，以及如何將 Substance 圖[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的紋理連接到 MDL 圖的輸入。
+本頁說明 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)與 MDL 圖之間的協同效應，以及如何將 Substance 圖[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的紋理連接到 MDL 圖的輸入。
 
 ## 概觀
 
 Substance 圖的輸出可 *透過兩種方式傳遞給 MDL 材料的公開參數* ，詳見本頁說明。
 
-如果目前在 3D 視圖中套用的 MDL 材質有暴露參數，而該類型會&#x200B;*[變化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*——這個類型可以透過暴露參數屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)中的[類型修改器</b>選項設定<b>，這些參數可以連接到&#x200B;*貼圖*：
+如果目前在 3D 視圖中套用的 MDL 材質有暴露參數，而該類型會&#x200B;*[變化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*——這個類型可以透過暴露參數屬性[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)中的類型修改器</b>選項設定<b>，這些參數可以連接到&#x200B;*貼圖*：
 
 * <b></b>顏色參數可以連接到 RGBA 材質
 * 灰 <b>階材質的浮點</b> 參數
@@ -52,7 +52,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 
 
 
-*[MDL [圖中 Substance 3D 檔案](../../getting-started/overview/overview.md)（SBS）中的 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)實例*
+*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)MDL [圖中 Substance 3D 檔案](../../getting-started/overview/overview.md)（SBS）中的 Substance 圖實例*
 
 +++
 
@@ -61,7 +61,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 
 
 
-*[](../../compositing-graphs/substance-compositing-graphs.md)來自 Substance 3D 資產](../../getting-started/overview/overview.md)（SBSAR）在 MDL 圖中的實例[*
+*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)來自 Substance 3D 資產[&#128279;](../../getting-started/overview/overview.md)（SBSAR）在 MDL 圖中的實例*
 
 +++
 

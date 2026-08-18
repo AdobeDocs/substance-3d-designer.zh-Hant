@@ -32,11 +32,11 @@ ht-degree: 0%
 
 ## 設計師 15.0 及以上版本
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 Designer 15.0 及以上版本無法在同時配備整合 GPU（iGPU）與獨立 GPU（dGPU）的系統上啟動。
 
-<b>![（打了](../../assets/check.svg） 推薦步驟</b>
+<b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
 更新 iGPU 的顯示卡驅動程式。 你可以在這裡找到最新的驅動程式： [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers) | [AMD](https://www.amd.com/en/support/download/drivers.html)
 
@@ -50,7 +50,7 @@ Substance 3D Designer 在使用 Windows 10 或 Windows 11 的系統上無法啟�
 
 舊版 Designer 可能因授權驗證過程中使用的過時&#x200B;*`libeay32.dll`函式庫而無法在 Windows 10 或 Windows 11*&#x200B;上啟動。
 
-你可以嘗試用&#x200B;*更新版本*&#x200B;取代函式庫，例如這裡](https://support.networkoptix.com/hc/en-us/articles/115015730007-Nx-Software-crashes-due-to-libeay32-dll-on-Windows)發佈[的版本（選擇 32-bit Windows 的檔案），方法是依照以下步驟操作：
+你可以嘗試用&#x200B;*更新版本*&#x200B;取代函式庫，例如這裡[&#128279;](https://support.networkoptix.com/hc/en-us/articles/115015730007-Nx-Software-crashes-due-to-libeay32-dll-on-Windows)發佈的版本（選擇 32-bit Windows 的檔案），方法是依照以下步驟操作：
 
 1. 在 Designer 的安裝目錄中找到該 `libeay32.dll` 檔案
 1. 如果以後需要還原，記得把檔案備份到安全的地方
@@ -86,11 +86,11 @@ Substance 3D Designer 在使用 Windows 7、Windows 8 或 Windows 8.1 的系統�
 
 ## Linux
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 關閉主畫面並顯示主視窗時會當機。
 
-<b>![（打了](../../assets/check.svg） 推薦步驟</b>
+<b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
 Designer 無法載入 Python 元件，因為它載入的是系統的 <b>libffi.so</b> 函式庫，而非系統自身。
 
@@ -125,14 +125,14 @@ Steam 版 Designer 無法啟動，且不會出現錯誤訊息。
 
 你可以透過登入 Steam 應用程式來獲取錯誤訊息。
 
-如這裡](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)建議[，完全關閉 Steam，然後從終端機執行以下指令（或為此指令建立捷徑）：
+如這裡[&#128279;](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)建議，完全關閉 Steam，然後從終端機執行以下指令（或為此指令建立捷徑）：
 
 ```
 steam 2>&1 | tee /path/to/logfile
 ```
 
 
-<b>![（錯誤）](../../資產/error.svg）Issu</b><b>e</b>
+<b>![（錯誤）](../../資產/error.svg)Issu</b><b>e</b>
 
 `<b>xcb</b>`外掛無法載入。命令列中顯示以下訊息：
 
@@ -174,7 +174,7 @@ apt-get install libxcb-xinput0
 ```
 
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 啟動 Designer 時會產生這個錯誤：
 
@@ -185,7 +185,7 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 
 由 Designer 載入的系統函式庫與 Designer 自有<b>的 libcrypto.so.1.1</b> 函式庫不相容。
 
-<b>![（打了](../../assets/check.svg） 推薦步驟</b>
+<b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
 將該函式庫從 Designer 的安裝目錄中移除 <b>`libcrypto.so.1.1`</b>，讓系統的函式庫被取代。
 
@@ -193,13 +193,13 @@ error while loading shared libraries: libcrypt.so.1: cannot open shared object f
 >
 > 這個解決方法只有在系統有自己的 libcrypto.so.1 函式庫時才有效。 在較新的發行版中，可能需要安裝像 <b>libxcrypt-compat</b> 這類相容套件。
 
-<b>![（錯誤）](../../assets/error.svg） 問題</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 Substance 3D Designer 在使用 *Arch* 架構的 Linux 發行版系統上無法啟動。
 
 **![（嘀嗒）](../../assets/check.svg) 建議步驟 *（![（警告）](../../assets/warning.svg) 不穩定，僅限 AMD 顯卡！）***
 
-試著安裝 **progl**（AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) 驅動程式的一部分[），然後透過它啟動 Designer。你可以透過應用程式 `progl` 啟動指令中的前綴來完成：
+試著安裝 **progl**（AMDGPU-PRO[&#128279;](https://wiki.archlinux.org/title/AMDGPU_PRO) 驅動程式的一部分），然後透過它啟動 Designer。你可以透過應用程式 `progl` 啟動指令中的前綴來完成：
 
 ```
 progl <designer-application-path>

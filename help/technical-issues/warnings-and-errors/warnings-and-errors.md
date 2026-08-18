@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 警告與錯誤
 
-本頁說明 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中可能出現[的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
+本頁說明 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中可能出現的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
 
 ## 概觀
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### 總管
 
-對於檔案總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中[任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](../../assets/warning-icon.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
+對於檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](../../assets/warning-icon.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
 
 他們遵循以下規則：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 * 如果該項目被置於其他項目下方（例如區塊標題），該項目若被摺疊，則會顯示警告。
 * 警告清單是 *累積性的*，因為它們是物品的警告 *與* 其子項目所有表面警告的總和。
-* 如果[應用於[輸入參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的函式圖](../../function-graphs/function-graphs.md)包含一個或多個警告，該參數項目將只有&#x200B;*一個*`The [x] parameter's function has some warnings`警告。
+* 如果[&#128279;](../../function-graphs/function-graphs.md)應用於[輸入參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的函式圖包含一個或多個警告，該參數項目將只有&#x200B;*一個*`The [x] parameter's function has some warnings`警告。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 ### 主機
 
-警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的 Windows** 選單[進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
+警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的 Windows** 選單進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
 
 >[!NOTE]
 >
-> 由於主控台中的所有文字皆可&#x200B;**&#x200B;選擇，您可以使用此面板&#x200B;*輕鬆複製警告與錯誤訊息*，並貼上至本文件的&#x200B;**本地搜尋**&#x200B;工具或任何網路搜尋引擎。這加快了尋找故障排除指引的過程。
+> 由於主控台中的所有文字皆可&#x200B;**&#x200B;選擇，您可以使用此面板&#x200B;*輕鬆複製警告與錯誤訊息*，並貼上至本文件的&#x200B;**&#x200B;本地搜尋**&#x200B;工具或任何網路搜尋引擎。這加快了尋找故障排除指引的過程。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

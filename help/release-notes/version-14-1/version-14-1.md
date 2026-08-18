@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 樣條與路徑更新
 
-樣條線和路徑節點是在 13.0 版本中引入的，感謝你的回饋，我們已經做了初步的改進。 首先，我們新增了 [散佈樣條](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)條節點上的散佈樣條，它將樣條線分布在父樣條線上，提供類似一般散佈節點的選項。 此外， [遮罩](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 路徑節點也被強化，能更好地控制路徑上第一個頂點的位置。 我們也讓 Spline Bridge List](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) 節點能引入隨機性[。
+樣條線和路徑節點是在 13.0 版本中引入的，感謝你的回饋，我們已經做了初步的改進。 首先，我們新增了 [散佈樣條](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md)條節點上的散佈樣條，它將樣條線分布在父樣條線上，提供類似一般散佈節點的選項。 此外， [遮罩](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 路徑節點也被強化，能更好地控制路徑上第一個頂點的位置。 我們也讓 Spline Bridge List[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) 節點能引入隨機性。
 
 <table>
 <tr style="border: 0;">

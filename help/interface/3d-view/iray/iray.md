@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 伊雷
 
-本頁介紹 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 3D 檢視面板[中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 3D 檢視面板中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
 
 >[!WARNING]
 > 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 由於 3D View 使用 Iray 的 *漸進式渲染器*，只要每個像素至少取樣一個，影像就會產生。 隨著抽樣迭代進行，影像會&#x200B;*自動更新*，導致初始粗略影像在每次迭代&#x200B;*中變得*&#x200B;更乾淨。
 
-渲染器可在 3D 檢視](../../../interface/3d-view/3d-view.md)面板中使用[：打開<b>渲染器</b>選單，選擇 <b>Iray</b> 選項，將該 3D 檢視面板中使用的渲染器切換到 Iray。\
+渲染器可在 3D 檢視[&#128279;](../../../interface/3d-view/3d-view.md)面板中使用：打開<b>渲染器</b>選單，選擇 <b>Iray</b> 選項，將該 3D 檢視面板中使用的渲染器切換到 Iray。\
 切換到 Iray 渲染器 *會改變部分 3D 視圖選單中的選項* 。 這些變更會在下方的 <b>3D 視角</b> 章節中說明。
 
 預設情況下，漸進式渲染會從選擇 Iray 渲染器後立即開始。 渲染過程會持續進行，直到 *滿足以下條件* 之一：
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![中世紀城堡牆材料以伊雷](../../../assets/iray-overview.png "繪製 中世紀城堡牆材料以伊雷繪製")
 
-*材質：[Mark Foreman* *](https://www.artstation.com/oggyart)製作[的中世紀城牆](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)**，可於我們的 [Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/assets.html)**庫取得*
+*材質：[Mark Foreman* *](https://www.artstation.com/oggyart)製作[的中世紀城牆](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)**，可於我們的 [Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/assets.html)**&#x200B;庫取得*
 
 </td>
 </tr>
@@ -102,7 +102,7 @@ ht-degree: 0%
 >[!WARNING]
 >
 > 將網格 *細分會在渲染前及渲染期間呈指數* 級增加處理時間。 我們建議在輸入價值時保持 *保守* 。\
-> 要小心參數方法使用&#x200B;*高***數字**&#x200B;值，而&#x200B;*長度方法使用低***最小長度**&#x200B;值。
+> 要小心參數方法使用&#x200B;*高&#x200B;***數字**&#x200B;值，而&#x200B;*長度方法使用低&#x200B;***最小長度**&#x200B;值。
 
 ![場景選項](../../../assets/iray-scene-subdivision.gif "場景選項")
 
@@ -382,7 +382,7 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 +++
 
-*材質：NVIDIA在MDL Core定義**中提供的厚玻璃MDL* **
+*材質：NVIDIA在MDL Core定義&#x200B;**中提供的厚玻璃MDL* &#x200B;**
 
 ## 硬體加速
 
@@ -391,7 +391,7 @@ Iray 渲染器僅在 NVIDIA GPU 上提供硬體加速，帶來以下優點：
 * 渲染速度顯著提升
 * [Optix AI 加速去噪](https://developer.nvidia.com/optix-denoiser)（詳見本頁渲染器</b>章節中的<b>「後去噪器」）
 
-你可以在<b>偏好設定](../../../interface/preferences-window/preferences-window.md)視窗的 [3D 檢視</b>區選擇 Iray 應該用於渲染的硬體，如右側圖片所示。
+你可以在<b>偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)視窗的 3D 檢視</b>區選擇 Iray 應該用於渲染的硬體，如右側圖片所示。
 
 當偵測到支援的 GPU 時，會在此區塊列出，預設自動 *選擇* ，CPU 則會被取消。 任何手動變更都會覆蓋這個自動行為，讓你的自訂變更能保存到未來的會話中。
 
@@ -401,7 +401,7 @@ Iray 渲染器僅在 NVIDIA GPU 上提供硬體加速，帶來以下優點：
 
 >[!WARNING]
 >
-> GPU 硬體加速採用 [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) 技術。 確保你的 *顯示卡驅動程式是最新的* ，以達到最佳的相容性和可靠性。 在這裡](https://www.nvidia.com/Download/index.aspx?lang=en-us)找到你 NVIDIA GPU [的最新驅動程式。\
+> GPU 硬體加速採用 [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) 技術。 確保你的 *顯示卡驅動程式是最新的* ，以達到最佳的相容性和可靠性。 在這裡[&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us)找到你 NVIDIA GPU 的最新驅動程式。\
 > 對於多GPU配置，建議關閉 *SLI* 並只選擇一顆GPU以達到最佳可靠性。
 
 ![Iray 偏好](../../../assets/iray-preferences-hardware.png "Iray 偏好")

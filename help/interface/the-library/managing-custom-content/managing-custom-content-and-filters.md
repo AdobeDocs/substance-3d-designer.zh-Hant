@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 概觀
 
-在新增自訂內容到圖書館](../../../interface/preferences-window/project-settings/project-settings.md)後[，你需要讓它&#x200B;*變得可*&#x200B;被發現。
+在新增自訂內容到圖書館[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)後，你需要讓它&#x200B;*變得可*&#x200B;被發現。
 
 圖書館使用多個 *資料點* 來識別內容，以便篩選並在搜尋中浮現。 這些數據點包括：
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 圖屬性
 
-SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](../../../compositing-graphs/graph-parameters/graph-parameters.md)集[進行篩選與搜尋*。](../../../getting-started/overview/overview.md) [](../../../getting-started/overview/overview.md)這些屬性中有些也可以設定在其他 [資源類型](../../../resources/resources.md)上。
+SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](../../../compositing-graphs/graph-parameters/graph-parameters.md)集[進行篩選與搜尋*。](../../../getting-started/overview/overview.md) [&#128279;](../../../getting-started/overview/overview.md)這些屬性中有些也可以設定在其他 [資源類型](../../../resources/resources.md)上。
 
 ## 自訂篩選器與資料夾
 
@@ -81,7 +81,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 **過濾器**&#x200B;通常需要設定&#x200B;**&#x200B;條件以達成過濾目的。這些條件依據以下標準進行配置：
 
 * **資源類型**：設定特定的 [資源類型](../../../resources/resources.md)，例如 [圖表](../../../compositing-graphs/substance-compositing-graphs.md)
-* ****&#x200B;屬性可套用條件 – 見上文列表
+* **&#x200B;**&#x200B;屬性可套用條件 – 見上文列表
 * **條件邏輯**：讓濾波器包含正、負、部分及全匹配結果
 * **條件關鍵字：** 用來 **測試屬性** 與 **條件邏輯** 標準的字串。 若留空，則包含符合這兩個條件的任何資源
 
@@ -89,7 +89,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 
 >[!NOTE]
 >
-> 若未設定&#x200B;****任何條件，則所有圖書館**&#x200B;內容都會被顯示。  
+> 若未設定&#x200B;**&#x200B;**&#x200B;任何條件，則所有圖書館**&#x200B;內容都會被顯示。  
 
 ## 最佳實務
 
@@ -99,7 +99,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 * 除非你 *明確* 想要，否則不要建立與預設函式庫混合的自訂節點。 如果你的節點 *匹配，它們會出現* 在預設篩選器下，所以你必須確保使用 *不同的標籤/命名系統* 以避免這種情況
 * 使用&#x200B;*獨特的*&#x200B;專案&#x200B;**&#x200B;識別碼。只要所有專案保持一致&#x200B;**，這些都可以放在你想要的任何地方（例如<b>描述</b>、<b>分類</b>或<b>使用者資料</b>）。這讓依專案&#x200B;*搜尋和篩選內容*&#x200B;變得更簡單
 * 使用 <b>作者</b> 屬性來追蹤最初負責內容的人，而不必翻閱版本控制紀錄
-* 建立<b>圖示</b>的有效方法是使用<b>圖示](../../../compositing-graphs/graph-parameters/graph-parameters.md)圖屬性中的[生成</b>選項，或建立[圖譜範本](../../../interface/preferences-window/project-settings/project-settings.md)來產生圖示。這樣你才能確保一致性，省下製作工作量。 所有預設的圖書館圖示都是這樣在 Designer 裡建立的！
+* 建立<b>圖示</b>的有效方法是使用<b>圖示[&#128279;](../../../compositing-graphs/graph-parameters/graph-parameters.md)圖屬性中的生成</b>選項，或建立[圖譜範本](../../../interface/preferences-window/project-settings/project-settings.md)來產生圖示。這樣你才能確保一致性，省下製作工作量。 所有預設的圖書館圖示都是這樣在 Designer 裡建立的！
 
 ### 管理不同範圍的內容
 

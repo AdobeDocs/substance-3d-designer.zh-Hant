@@ -22,7 +22,7 @@ ht-degree: 0%
 
 聲音是有機且混亂的程序生成圖像。 由噪音產生的輸出與 Patterns 類別中 [人工形狀的形狀截然不同。](../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/patterns.md)
 
-你可以在 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 裡用聲音[作為起點或細節圖層，處理像是顆粒、髒污、隨機生長、任何細微變化的分層等等......
+你可以在 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 裡用聲音作為起點或細節圖層，處理像是顆粒、髒污、隨機生長、任何細微變化的分層等等......
 
 所有噪音都完全不受解析度影響，因此你可以隨時調整效果，完全不用擔心品質會下降。
 
