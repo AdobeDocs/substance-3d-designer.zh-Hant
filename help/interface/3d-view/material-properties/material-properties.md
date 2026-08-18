@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 在 3D 視圖中設定材質屬性，預覽並調整 Substance 材質在 3D 物件上的呈現方式。
 helpx_creative_field: ""

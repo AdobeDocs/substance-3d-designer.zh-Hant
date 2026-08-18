@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取混合濾鏡節點，使用各種混合模式與操作來結合貼圖。
 helpx_creative_field: ""

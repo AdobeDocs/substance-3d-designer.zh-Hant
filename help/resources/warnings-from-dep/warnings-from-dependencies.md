@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/warnings-from-dependencies.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/warnings-from-dependencies.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 中資源依賴的警告，以及如何解決它們。
 helpx_creative_field: ""
@@ -36,16 +36,16 @@ ht-degree: 0%
 
    檢查相依套件是否存在於警告訊息中指定的位置。 如果沒有，就找到該檔案放回原位，或重新建立。 如果檔案存在，試 *著在 Designer 載入，* 並留意是否有與該套件相關的警告或錯誤。 參考針對這些特定問題的故障排除步驟，並相應地修正。
 
-   接著，在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
+   接著，在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
 
    ![「無效相依套件」解決方案 1](../../assets/warnings-dep-invalid-dependent-pkg.gif "&#39;無效相依套件」解決方案 1")
 1. <b>重新定位套件中的相依</b>
 
-   你可以用 [依賴管理器](../../interface/dependency-manager/dependency-manager.md) 重新定位相依。 在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，C 舔 主機套件的 RMB，然後在情境選單中選擇<b>相依性管理器</b>選項。
+   你可以用 [依賴管理器](../../interface/dependency-manager/dependency-manager.md) 重新定位相依。 在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，C 舔 主機套件的 RMB，然後在情境選單中選擇<b>相依性管理器</b>選項。
 
    在 Dependendy Manager 的清單中找到缺少的依賴，點選 RMB 並選擇 <b>「重新定位...</b> 」選項。 使用檔案瀏覽器對話框找到相依套件並點選 <b>「開啟</b>」。
 
-   接著，在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
+   接著，在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
 
    ![「無效相依套件」解決方案 2](../../assets/warnings-dep-invalid-dependent-pkg-2.gif "&#39; 無效相依套件」解決方案 2")
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    ![「沒有檔案匹配資源」解決方案1](../../assets/warnings-dep-udim-2.gif "「沒有檔案匹配資源」解決方案1")
 1. <b>重新定位檔案</b>
 
-   若檔案被移動或重新命名，請在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中點擊資源項目的 RMB 鍵，選擇<b>「重新定位</b>」選項，將該資源連結到&#x200B;*同一類型 UDIM 映像檔*&#x200B;中的第一個檔案。
+   若檔案被移動或重新命名，請在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中點擊資源項目的 RMB 鍵，選擇<b>「重新定位</b>」選項，將該資源連結到&#x200B;*同一類型 UDIM 映像檔*&#x200B;中的第一個檔案。
 
    ![「沒有符合資源的檔案」解決方案2](../../assets/warnings-dep-udim.gif "「沒有符合資源的檔案」解決方案2")
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    ![「找不到連結檔案」解決方案 1](../../assets/warnings-dep-file-not-found.gif "&#39;找不到連結檔案」解決方案 1")
 1. <b>重新定位檔案</b>
 
-   如果檔案被移動或重新命名，請在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中點擊資源項目的 RMB，並選擇<b>重新定位</b>選項，將該資源連結到同類型的另一個檔案。
+   如果檔案被移動或重新命名，請在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中點擊資源項目的 RMB，並選擇<b>重新定位</b>選項，將該資源連結到同類型的另一個檔案。
 
    ![「找不到連結檔案」解決方案 2](../../assets/warnings-dep-file-not-found-2.gif "&#39;找不到連結檔案」解決方案 2")
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ## ![（錯誤）](../../assets/error.svg)找不到參考資源
 
-分配給 3D 網格[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)資源 UV 圖塊的圖形，無法在警告中報告的位置找到。
+分配給 3D 網格[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)資源 UV 圖塊的圖形，無法在警告中報告的位置找到。
 
 <b>![（勾選）](../../assets/check.svg)解決方案</b>
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. <b>還原該圖</b>
 
-   請在 Explorer[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 面板中檢查 UV Tiles</b> 列表中指定的<b>圖表。如果不存在，就還原或重建它。
+   請在 Explorer[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 面板中檢查 UV Tiles</b> 列表中指定的<b>圖表。如果不存在，就還原或重建它。
 
    ![「找不到參考資源」解決方案 1](../../assets/warnings-dep-udim-graph-2.gif "&#39;找不到參考資源」解決方案 1")
 1. <b>選擇另一張圖</b>
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## ![（錯誤）](../../assets/error.svg)UV 圖塊會被多次指定
 
-3D 網格資源[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的 UV 圖塊會被多次指派到 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)。
+3D 網格資源[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的 UV 圖塊會被多次指派到 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)。
 
 <b>![（勾選）](../../assets/check.svg)解決方案</b>
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 ## ![（錯誤）](../../assets/error.svg)無效的 UV 圖塊
 
-3D 網格資源[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的 UV 圖塊在網格中沒有定義或損壞。
+3D 網格資源[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)的 UV 圖塊在網格中沒有定義或損壞。
 
 <b>![（勾選）](../../assets/check.svg)解決方案</b>
 

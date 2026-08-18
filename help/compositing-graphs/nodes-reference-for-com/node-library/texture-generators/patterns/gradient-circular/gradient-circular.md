@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-circular.html"
 breadcrumb-title: ''
 description: 使用漸層圓形節點來建立圓形漸層，用於圓形色彩過渡和效果。
 helpx_creative_field: ""

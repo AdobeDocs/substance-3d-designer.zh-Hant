@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的點陣圖繪製工具，直接在點陣資源上繪製貼圖以進行貼圖編輯。
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **&#x200B;新的點陣圖可透過以下方式建立：
 
-* 在[檔案總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;鍵，或套件內的&#x200B;*資料夾*，開啟其上下文選單，接著開啟<b>新子</b>選單並選擇<b>點陣圖</b>選項
+* 在[檔案總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;鍵，或套件內的&#x200B;*資料夾*，開啟其上下文選單，接著開啟<b>新子</b>選單並選擇<b>點陣圖</b>選項
 * 在圖表[&#128279;](../../../interface/the-graph-view/the-graph-view.md)中，建立一個[點陣圖節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，並在情境選單中選擇<b>「來自新資源...</b>」的選項
 
 <b>新點陣</b>圖視窗會開啟，讓你設定&#x200B;*新點陣資源的名稱*、*解析度*&#x200B;和&#x200B;*背景色*。

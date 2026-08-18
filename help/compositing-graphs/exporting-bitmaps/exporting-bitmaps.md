@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 學習如何從 Substance 合成圖中匯出材質與點陣圖，用於外部應用程式與工作流程。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 匯出點陣圖
 
-本頁說明 Substance 3D Designer 如何匯出至多種不同的點陣圖檔案格式，以及如何將多個 UV-Tile 分批匯出。[如果你想匯出成 PSD 檔案，](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [有專門的頁面。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+本頁說明 Substance 3D Designer 如何匯出至多種不同的點陣圖檔案格式，以及如何將多個 UV-Tile 分批匯出。[如果你想匯出成 PSD 檔案，](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html) [有專門的頁面。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![簡化](../../assets/exportflow.png "出口 簡化匯出")
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 你<b> 是從圖（Graph）匯出，不是從套件（Package</b>）匯出。 套件本身不會產生影像內容。
 * 匯出的位圖數量（及解析度）由 <b>圖的輸出</b> 決定。
 * 所有輸出/位圖的檔案類型都設定好了。
-* 匯出和出版[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)是不同的，務必清楚兩者的差異！
+* 匯出和出版[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)是不同的，務必清楚兩者的差異！
 
 ## 出口方法
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在 [檔案總管視窗](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右鍵點擊匯出圖，並選擇 **「匯出輸出為點陣圖」**
+在 [檔案總管視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右鍵點擊匯出圖，並選擇 **「匯出輸出為點陣圖」**
 
 ![](../../assets/export-explorer.gif)
 

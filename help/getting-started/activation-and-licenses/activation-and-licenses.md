@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ''
 description: 學習如何啟用 Substance 3D Designer 並管理所有功能與能力的授權。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 | 版本 | 啟動過程 |
 | --- | --- |
-| 創意雲端桌面 | 請參閱 HelpX 文件[&#128279;](https://helpx.adobe.com/support/substance-3d-designer.html)中的專屬頁面。若有任何問題，[Creative Cloud 的文件](https://helpx.adobe.com/creative-cloud/user-guide.html)可能會提供更多解答。 |
+| 創意雲端桌面 | 請參閱 HelpX 文件[&#128279;](https://helpx.adobe.com/tw/support/substance-3d-designer.html)中的專屬頁面。若有任何問題，[Creative Cloud 的文件](https://helpx.adobe.com/tw/creative-cloud/user-guide.html)可能會提供更多解答。 |
 | 蒸汽 | 直接從你的 Steam 遊戲庫啟動產品。 |
 | 實質（獨立作品） | 請參考下方說明的啟動流程。 |
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * <b>評估此產品</b>：舊有試驗已不再提供。 你可以在這裡或使用 Creative Cloud Desktop 開始為每個 Substance 3D 應用程式[&#128279;](https://www.adobe.com/creativecloud/3d-augmented-reality.html)開啟 30 天試用。每個試驗都獨立於其他Substance 3D應用程式，所以你可以一次嘗試一個或全部。
 * <b>使用授權檔案</b>啟用：請於 2022 年 9 月 30 日前，使用 Substance 3D 網站[&#128279;](https://store.substance3d.com/user)帳號頁面下載的授權檔案（<b>\*.key</b>）啟用產品。
-* <b>使用您的帳戶</b>啟用：舊有物質帳戶已無法再用於啟用。 [更多關於Substance帳戶的資訊請見此](https://helpx.adobe.com/substance-3d/unlisted/faq-end-of-life-accounts.html)處。
+* <b>使用您的帳戶</b>啟用：舊有物質帳戶已無法再用於啟用。 [更多關於Substance帳戶的資訊請見此](https://helpx.adobe.com/tw/substance-3d/unlisted/faq-end-of-life-accounts.html)處。
 
 >[!IMPORTANT]
 >

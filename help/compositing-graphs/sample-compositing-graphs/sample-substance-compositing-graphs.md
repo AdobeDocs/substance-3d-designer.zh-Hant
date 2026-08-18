@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/sample-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 探索 Designer 中的 Substance 合成圖表範例，學習進階技術與最佳實務。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 概觀
 
-本頁列出可下載的 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 範例[檔案。這些專案包含帶註解的圖表，介紹 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的基本工具與概念。
+本頁列出可下載的 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 範例[檔案。這些專案包含帶註解的圖表，介紹 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的基本工具與概念。
 
 <table>
 <tr style="border: 0;">

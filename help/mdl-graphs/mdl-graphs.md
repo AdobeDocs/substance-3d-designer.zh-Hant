@@ -56,7 +56,7 @@ MDL 代表 [Materials Definition Language](http://www.nvidia.com/object/material
 MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md)互補，後者輸出 *的紋理* 可 *被 MDL 材質取樣* ，以影響其行為與外觀。
 
 我們建議您閱讀本文件&#x200B;**&#x200B;的各章節，從下方 MDL 圖形資源的屬性開始，進行引導式學習路徑。\
-急著投入嗎？ 在 MDL 學習資源[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)區開始使用 MDL 圖表吧！
+急著投入嗎？ 在 MDL 學習資源[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)區開始使用 MDL 圖表吧！
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md
 
 ![MDL 圖屬性](../assets/mdl-main.png "MDL 圖屬性")
 
-*屬性[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中的 MDL 圖形屬性*
+*屬性[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中的 MDL 圖形屬性*
 
 ## MDL 圖性質
 
@@ -89,7 +89,7 @@ MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md
 
 ### 圖輸入
 
-本節列出與 [MDL 圖中暴露參數](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) 相關的互動參數，並定義其 *預設值*。 它們可以&#x200B;**&#x200B;隨時調整和&#x200B;*重新排序*。
+本節列出與 [MDL 圖中暴露參數](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) 相關的互動參數，並定義其 *預設值*。 它們可以&#x200B;**&#x200B;隨時調整和&#x200B;*重新排序*。
 
 這些輸入的介面與行為由 *它們所連接的參數的值型態* 與 *範圍* 所定義。 例如：
 

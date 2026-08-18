@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 概觀
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
+[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
 
 以下是它與其他應用的比較：
 
@@ -155,7 +155,7 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 
 * [位圖](../../resources/bitmap-resource/bitmap-resource.md)
 * [向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 網格與場景](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 網格與場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [洗禮盆](../../resources/font-resource/font-resource.md)
 * [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 

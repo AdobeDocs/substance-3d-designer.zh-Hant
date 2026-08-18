@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的主工具列，以存取你工作流程中常見的工具與指令。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 <b>新增：</b> 開啟子選單以建立圖表或套件：
 
-* <b>新物質圖......：</b>（Ctrl+N） 呈現[新物質圖](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)視窗，讓你可以設定新的[物質圖;](../../compositing-graphs/substance-compositing-graphs.md)
+* <b>新物質圖......：</b>（Ctrl+N） 呈現[新物質圖](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)視窗，讓你可以設定新的[物質圖;](../../compositing-graphs/substance-compositing-graphs.md)
 * <b>新 Substance 函數圖：</b> 建立一個包含 [Substance 函數圖](../../function-graphs/function-graphs.md)的新套件;
 * <b>Empty：</b> 產生一個空的套件。
 
@@ -110,11 +110,11 @@ ht-degree: 0%
 
 <b>視窗未最大化：</b>當任何面板被&#x200B;*最大化*&#x200B;時，此選項會將其恢復最大化，並恢復視窗最大化前&#x200B;*的*&#x200B;版面配置
 
-<b>Explorer：</b> 顯示/隱藏 [Explorer視窗。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>Explorer：</b> 顯示/隱藏 [Explorer視窗。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
 <b>圖表：</b> 顯示/隱藏 [圖表視窗](../../interface/the-graph-view/the-graph-view.md)。
 
-<b>參數：</b> 顯示/隱藏 [屬性視窗](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)。
+<b>參數：</b> 顯示/隱藏 [屬性視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)。
 
 <b>控制台：</b> 顯示/隱藏控制台視窗。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 <b>依賴管理工具：</b> 顯示/隱藏 [依賴管理工具](../../interface/dependency-manager/dependency-manager.md)。
 
-<b>2D 視圖：</b> 顯示/隱藏 [2D 視圖。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D 視圖：</b> 顯示/隱藏 [2D 視圖。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
 
 <b>圖書館：</b> 顯示/隱藏 [圖書館視窗。](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 <b>給予回饋......：</b> 在 Adobe [支援社群](https://www.adobe.com/go/Substance-3D-feedback-Designer) 首頁開啟你的瀏覽器。
 
-<b>Substance 3D 資產：</b> 瀏覽 [訂閱者的高級 3D 內容](https://helpx.adobe.com/substance-3d/unlisted/assets.html) （前稱 Substance Source）。
+<b>Substance 3D 資產：</b> 瀏覽 [訂閱者的高級 3D 內容](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html) （前稱 Substance Source）。
 
-<b>Substance 3D 社群資產：</b> 讓你瀏覽 [免費社群資產](https://helpx.adobe.com/substance-3d/unlisted/community-assets.html) （前稱 Substance Share）。
+<b>Substance 3D 社群資產：</b> 讓你瀏覽 [免費社群資產](https://helpx.adobe.com/tw/substance-3d/unlisted/community-assets.html) （前稱 Substance Share）。
 
 <b>管理我的帳號\*：</b> 開啟你的 Adobe 帳號網頁。
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 <b>新功能...：</b> 顯示一個螢幕，顯示 Designer 最新版本新增的功能
 
-<b>歡迎畫面......\*：</b> 顯示一個引導新用戶了解 Designer 的目的及其在 Substance 3D 生態系統中 [定位的畫面](https://helpx.adobe.com/substance-3d.html)
+<b>歡迎畫面......\*：</b> 顯示一個引導新用戶了解 Designer 的目的及其在 Substance 3D 生態系統中 [定位的畫面](https://helpx.adobe.com/tw/substance-3d.html)
 
 <b>合作夥伴：</b> 讓您在 Designer 中存取合作夥伴對第三方整合的免責聲明與通知。
 

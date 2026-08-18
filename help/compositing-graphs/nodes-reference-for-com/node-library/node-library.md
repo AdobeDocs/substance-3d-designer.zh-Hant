@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取完整的節點函式庫，以建立程序材質、材質與特效。
 helpx_creative_field: ""

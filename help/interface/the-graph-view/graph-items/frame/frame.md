@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖形檢視中使用框架來組織和分組節點，以提升視覺清晰度。
 helpx_creative_field: ""

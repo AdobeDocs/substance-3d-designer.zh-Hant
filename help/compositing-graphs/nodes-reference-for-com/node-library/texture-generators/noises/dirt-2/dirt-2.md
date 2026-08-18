@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
 breadcrumb-title: ''
 description: 使用 Dirt 2 節點來產生基本的泥土圖案，用來製作風化表面細節和累積效果。
 helpx_creative_field: ""

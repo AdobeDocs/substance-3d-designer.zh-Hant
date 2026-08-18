@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer 中的圖形檢視來建立和編輯基於節點的材質圖。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁介紹 Substance 3D Designer 的圖形檢視底座。
 
-圖視圖是 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的主要視窗，你可以在這裡撰寫和編輯圖表。圖視圖有兩個主要區域：頂部的工具列，提供快速存取特定功能，以及節點放置的實際圖區。
+圖視圖是 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的主要視窗，你可以在這裡撰寫和編輯圖表。圖視圖有兩個主要區域：頂部的工具列，提供快速存取特定功能，以及節點放置的實際圖區。
 
 圖形檢視適用於所有圖形類型，但在 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)、[函數圖](../../function-graphs/function-graphs.md)與 [FX-Map 圖](../../function-graphs/fxmaps/fxmaps.md)之間略有差異，主要在工具列區域。
 
@@ -387,7 +387,7 @@ ht-degree: 0%
 </b>*- 清潔：* 移除所有未連接 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點的串流節點。\
 *- 匯出輸出：* 開啟 [點陣圖匯出介面](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。\
 *- 重新匯出輸出：* 再次執行先前的匯出操作。\
-*- PSD 匯出器：* 開啟[PSD 匯出器介面。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
+*- PSD 匯出器：* 開啟[PSD 匯出器介面。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exporting-psd-186974407.html)
 
 ![](../../assets/image2020-6-26-16-37-16.png)  <b>節點影像快取\
 </b>切換節點影像快取切換的顯示，詳見下文。

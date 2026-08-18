@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用節點搜尋器快速搜尋並定位物質圖中的節點，提升效率。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入並使用3D場景資源，進行材質預覽與測試。
 helpx_creative_field: ""
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 3D 場景 *只能* 連結，也就是說它們會停留在磁碟上的位置，只是在應用程式中被參考。
 
-當包含 3D 場景資源的套件以 Substance 3D[&#128279;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 資產（SBSAR）發佈時，該網格不會被&#x200B;*嵌入*，而是被丟棄。
+當包含 3D 場景資源的套件以 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 資產（SBSAR）發佈時，該網格不會被&#x200B;*嵌入*，而是被丟棄。
 
 ## 烘焙網格貼圖
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 * 點選 *套件的 RMB* ，並在情境選單中選擇 <b>連結> 3D 網格</b> 選項
 * 選擇任何支援的 3D 場景檔案
 * 如果 <b>跳出「連結成 Udim 網格</b> 」對話框提示，請點擊 *「否* 」，除非你想烘焙 UV 圖塊
-* 在資源總管載[入後，點選&#x200B;*右鍵*，然後在情境選單中選擇<b>「烘焙模型資訊</b>](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)」選項
+* 在資源總管載[入後，點選&#x200B;*右鍵*，然後在情境選單中選擇<b>「烘焙模型資訊</b>](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)」選項
 * [會出現烘焙模型資訊](../../bakers/bakers.md)對話框，讓你可以設定並執行任何網格貼圖烘焙
 
 ![烘焙網格貼圖](../../assets/bake-model-information.gif "烘焙網格貼圖"){width="512px"}

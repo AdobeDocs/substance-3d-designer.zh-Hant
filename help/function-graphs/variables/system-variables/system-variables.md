@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/system-variables.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/variables/system-variables.html"
 breadcrumb-title: ''
 description: 了解Substance 3D Designer功能圖中內建的系統變數，方便進階工作流程使用。
 helpx_creative_field: ""

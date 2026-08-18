@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取基於網格的產生節點，根據 3D 網格幾何與屬性建立貼圖。
 helpx_creative_field: ""
@@ -30,5 +30,5 @@ ht-degree: 0%
   基於一個或多個烘焙地圖的黑白遮罩產生器。
 * [風化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
   基於烘焙地圖的全材質風化效果。
-* [公用事業](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [公用事業](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
   額外的工具和烘焙工具。

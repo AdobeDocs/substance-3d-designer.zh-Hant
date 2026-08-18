@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/substance-model-graph-eol.html"
 breadcrumb-title: ''
 description: 了解 Substance 模型圖特徵的生命週期終止狀態，並尋找替代方案。
 helpx_creative_field: ""

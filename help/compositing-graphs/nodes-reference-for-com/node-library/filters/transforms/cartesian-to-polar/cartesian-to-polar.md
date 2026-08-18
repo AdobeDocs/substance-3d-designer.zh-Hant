@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/cartesian-to-polar.html"
 breadcrumb-title: ''
 description: 使用笛卡爾座標到極座標節點，將貼圖從笛卡爾座標轉換成極座標系，以創造放射狀效果。
 helpx_creative_field: ""

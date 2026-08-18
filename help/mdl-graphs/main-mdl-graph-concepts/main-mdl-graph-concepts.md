@@ -54,7 +54,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 ![MDL 圖的根節點](../../assets/mdl-root-hl.png "MDL 圖的根節點")
 
-*MDL 圖中的根節點及其屬性在[屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)**面板中顯示*
+*MDL 圖中的根節點及其屬性在[屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)**面板中顯示*
 
 ## 連接器與類型
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/color-temperature-adjustment.html"
 breadcrumb-title: ''
 description: 使用 Color Temperature Adjustment 節點，在 HDRI 環境中調整暖光或冷光效果的色溫。
 helpx_creative_field: ""

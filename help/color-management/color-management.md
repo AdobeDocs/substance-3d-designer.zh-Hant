@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的色彩管理，包括色彩空間、設定檔及專色工作流程。
 helpx_creative_field: ""
@@ -161,7 +161,7 @@ Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩�
 
 ![匯出輸出對話框](../assets/2019-3-0-clr-mgt-export-outputs.png "匯出輸出對話框"){width="512px"}
 
-你也可以為從 2D View[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
+你也可以為從 2D View[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
 
 ![2D 檢視匯出選項](../assets/2019-3-0-clr-mgt-save-image.png "2D 檢視匯出選項")
 
@@ -209,7 +209,7 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 </tr>
 </table>
 
-這些工具在處理未使用&#x200B;*色彩管理或 [Substance 3D 素材](https://helpx.adobe.com/substance-3d/unlisted/assets.html)庫材質的*&#x200B;圖表時非常有用。
+這些工具在處理未使用&#x200B;*色彩管理或 [Substance 3D 素材](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html)庫材質的*&#x200B;圖表時非常有用。
 
 ![函式庫](../assets/2019-3-0-clr-mgt-nodes.png "中的色彩轉換節點函式庫中的色彩轉換節點"){width="512px"}
 

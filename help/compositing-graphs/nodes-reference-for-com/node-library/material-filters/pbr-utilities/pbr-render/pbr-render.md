@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: 使用 PBR 渲染節點來渲染基於物理的材質，並搭配逼真的光照來預覽材質外觀。
 helpx_creative_field: ""
@@ -228,7 +228,7 @@ ht-degree: 1%
 
 ## 範例圖片
 
-所有影像皆直接在 Designer 的 2D 視圖窗中產生，使用來自 [Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/assets.html) 庫的材質。
+所有影像皆直接在 Designer 的 2D 視圖窗中產生，使用來自 [Substance 3D 資產](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html) 庫的材質。
 
 | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/pbr-render-v2.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/sphere-thermal-insulation-panel.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/sphere-ominous-obsidian.jpg" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c3_image" src="../../../../../../assets/sphere-forest-gravel-1.jpg" width="300px"/></div> |
 | --- | --- | --- | --- |

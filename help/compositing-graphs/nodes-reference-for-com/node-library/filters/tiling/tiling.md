@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取平鋪濾鏡節點，建立無縫且平鋪的貼圖圖案。
 helpx_creative_field: ""
