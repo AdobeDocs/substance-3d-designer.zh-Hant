@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 說明
 
-Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本[。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
+Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
 
 Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸入映射驅動的特定參數。
 
@@ -123,7 +123,7 @@ Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸�
   * **色彩參數化模式**： *色彩輸入、縮放、線索引、列索引、圖案索引（磚塊取樣器）*\
     */ *色彩映射、縮放、線索引、列索引、圖案索引、圖案中心位置、圖案中心位置（RG） B球大小（B）（圖塊取樣器顏色）**設定色彩隨機化的精確參數化方式。
   * **色彩參數化乘法**： *0.0 - 1.0*&#x200B;上述參數化效果中的混合效果。
-  * **色彩參數化影響（僅限顏色）：****RGB+Alpha，僅RGB，僅** Alpha 設定參數化如何影響顏色。
+  * **色彩參數化影響（僅限顏色）：**&#x200B;**RGB+Alpha，僅RGB，僅** Alpha 設定參數化如何影響顏色。
   * **全域不透明度（僅限灰階）：***0.0 - 1.0*&#x200B;設定全域磚塊不透明度。
   * **背景色**：*（灰階值）/（色彩值）*設定純色背景色。
   * **反向渲染順序**： *False/True*&#x200B;反向從後到前的繪製順序。

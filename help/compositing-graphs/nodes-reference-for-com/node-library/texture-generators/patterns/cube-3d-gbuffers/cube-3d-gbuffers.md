@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-Cube 3D](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) 的進階版本[，還輸出位置圖和法線貼圖，而非僅是高度貼圖。
+Cube 3D[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) 的進階版本，還輸出位置圖和法線貼圖，而非僅是高度貼圖。
 
 ## 參數
 
