@@ -1,0 +1,80 @@
+---
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/clone-patch.html"
+breadcrumb-title: ''
+description: 使用 Clone Patch 節點來克隆並修補掃描材料中的區域，以移除瑕疵和瑕疵。
+helpx_creative_field: ""
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Material Filters > Scan Processing > Clone Patch
+helpx_experience_level: ""
+helpx_learn_topic: ""
+helpx_tags: ""
+title: 複製人補丁
+user-guide-description: ''
+user-guide-title: ''
+source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 0%
+
+---
+
+
+# 複製人補丁
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/clone-patch.png){width="128px"}
+
+![](../../../../../../assets/clone-patch-grayscale.png){width="128px"}
+
+## 複製補丁 / 複製補丁灰階
+
+**收錄於：***材料濾鏡/掃描處理*
+
+**複合體**
+
+</td>
+<td style="border: 0;" valign="top">
+
+## 說明
+
+Clone Patch 是一個程序化、參數化的「Clone Stamp」節點。 它將輸入的一個區域複製到另一個區域，隱藏可能不想要的細節。 雖然它不如在筆刷應用中使用熟悉工具那麼快速簡單，但它確實提供了非破壞性且能在節點式工作流程中運作的關鍵優勢。 此外，此節點會對目標區域與來源區域進行智慧分析，並嘗試根據對比度、明暗度與形狀盡可能融合。
+
+這主要是針對那些偶爾想手動修正特定區域的時刻，以防有不需要的細節。
+
+請注意，這並不像一般簡單的「印章」刷子那樣運作。 你混合區域的形狀是根據你處理區域的形狀和明暗來決定的，這代表這是一個相當沉重且需要耐心的節點，但效果非常出色。
+
+另一個重要的是，你可以用小工具移動目標區域，但來源區域必須透過更改「來源矩陣」參數來設定。
+
+>[!NOTE]
+>
+> 如果你想要完整材質（通常情況如此），請參考 [Material Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/material-clone-patch/material-clone-patch.md)。
+> 
+> 如果你想同時對多個輸入執行此操作（且不讓它成為材質），請參見 [多重複製補丁](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-clone-patch/multi-clone-patch.md)。
+
+## 參數
+
+* **是否正常（僅限顏色）：***假/真*\
+  設定輸入是否為法線貼圖，以及混合是否應以此方式處理。
+* **形狀**： *方形，郵票組圓盤*&#x200B;形狀。 只當作基礎使用。
+* **Edge**
+  * **閾值**： *0.0 - 1.0*&#x200B;設定混合區域應該達到的距離。 這種現象會沿著目標區域的形狀逐步成長，對於均勻背景幾乎沒有影響。
+  * **模糊**： *0.0 - 2.0*&#x200B;模糊印章區域邊緣，方便需要較柔和的過渡。
+  * **平滑度**： *0.0 - 2.0*&#x200B;郵票形狀邊緣會圓滑，使輪廓更流暢。
+  * **格點解析度**： *1 - 11*&#x200B;設定混合分析的品質解析度。 較高的數值代表融合更準確。
+* **變換**
+  * **來源矩陣**：*（轉換矩陣）*轉換來源（縮放與旋轉）。 無法在 Canvas 上進行，只能透過這些參數來改變。
+  * **來源偏移**： *-0.5 - 0.5*&#x200B;轉換來源位置。 無法在 Canvas 上進行，只能透過這些參數來改變。 *這個參數大概是你最想改變的！*
+  * **目標矩陣**：*（轉換矩陣）*轉換目標位置（縮放與旋轉）。 也可以用 Gizmo 在畫布上來完成。
+  * **目標偏移**： *-0.5 - 0.5*&#x200B;轉換目標位置。 也可以用 Gizmo 在畫布上來完成。
+
+## 範例圖片
+
+|  |
+| --- |
+| 本頁無附帶圖片。 |
+
+</td>
+</tr>
+</table>
