@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中匯入並使用字型資源，為材質添加文字與排版。
 helpx_creative_field: ""

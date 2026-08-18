@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Substance 圖的輸出可 *透過兩種方式傳遞給 MDL 材料的公開參數* ，詳見本頁說明。
 
-如果目前在 3D 視圖中套用的 MDL 材質有暴露參數，而該類型會&#x200B;*[變化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*——這個類型可以透過暴露參數屬性[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)中的類型修改器</b>選項設定<b>，這些參數可以連接到&#x200B;*貼圖*：
+如果目前在 3D 視圖中套用的 MDL 材質有暴露參數，而該類型會&#x200B;*[變化](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md)*——這個類型可以透過暴露參數屬性[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html)中的類型修改器</b>選項設定<b>，這些參數可以連接到&#x200B;*貼圖*：
 
 * <b></b>顏色參數可以連接到 RGBA 材質
 * 灰 <b>階材質的浮點</b> 參數

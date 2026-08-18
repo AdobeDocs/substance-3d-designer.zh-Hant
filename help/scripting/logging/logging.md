@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/logging.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/logging.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 插件中實作日誌功能，用於除錯與監控。
 helpx_creative_field: ""

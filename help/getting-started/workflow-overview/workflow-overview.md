@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ''
 description: 從頭到尾學習 Substance 3D Designer 中製作程序材質的基本工作流程。
 helpx_creative_field: ""
@@ -36,7 +36,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 ## 基於節點的工作流程
 
-在 Designer 中工作與其他 2D 影像編輯軟體（如 Photoshop）不同。 你不需要手動執行動作（例如透過選單選項調整飽和度並調整滑桿），而是 <b>建立編輯或建立影像的邏輯步驟</b> 。 這是透過建立一個由小積木組成的網絡來實現的，這些元件稱為「[節點](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」。 影像資料從<b> 左向右</b> 穿過各個組件，這些組件由連結連接，決定資訊的路徑。 每個節點若連接，都會對最終結果做出貢獻。
+在 Designer 中工作與其他 2D 影像編輯軟體（如 Photoshop）不同。 你不需要手動執行動作（例如透過選單選項調整飽和度並調整滑桿），而是 <b>建立編輯或建立影像的邏輯步驟</b> 。 這是透過建立一個由小積木組成的網絡來實現的，這些元件稱為「[節點](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」。 影像資料從<b> 左向右</b> 穿過各個組件，這些組件由連結連接，決定資訊的路徑。 每個節點若連接，都會對最終結果做出貢獻。
 
 主要優點是你的工作流程會變得 <b>非線性</b>。 與手動執行的操作進入歷史堆疊不同，你隨時可以更換或修改節點。 如果你覺得第一次調整對比度，影響了整個影像效果，結果一直到最後，還是可以回頭調整，甚至完全刪掉，而不會失去後續所做的所有工作。
 
@@ -129,7 +129,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 
 函式 <b>處理的是單一值</b> （整數、浮點數、向量），而非影像資料（整組像素）。 函數也是帶有節點網路的圖，但 [所用](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
 
-函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 
 </td>
 </tr>

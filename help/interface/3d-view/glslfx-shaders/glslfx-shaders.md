@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/glslfx-shaders.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 3D 視圖中使用 GLSLFX 著色器來自訂材質渲染與預覽效果。
 helpx_creative_field: ""

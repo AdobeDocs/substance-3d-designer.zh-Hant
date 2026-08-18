@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中使用 SBSPRJ 專案設定檔來管理專案設定。
 helpx_creative_field: ""
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 <b>一般：</b>圖形範本、切線空間插件、法線與影像格式預設。
 
-<b>圖書館：</b>在圖書館中顯示的觀看路徑， [以及圖書館檢視](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)的篩選器和分類。
+<b>圖書館：</b>在圖書館中顯示的觀看路徑， [以及圖書館檢視](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)的篩選器和分類。
 
 <b>MDL：</b>MDL觀察路徑。
 
@@ -79,7 +79,7 @@ ht-degree: 0%
 
 請參閱 [專案設定](../../interface/preferences-window/project-settings/project-settings.md) 頁面，了解如何管理專案檔案及更改專案設定。
 
-專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>[&#128279;](../../interface/the-library/the-library.md) [器，您可以在「管理自訂內容與篩選器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)」頁面了解更多。
+專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>[&#128279;](../../interface/the-library/the-library.md) [器，您可以在「管理自訂內容與篩選器](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)」頁面了解更多。
 
 ## 外部編輯 XML
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ''
 description: 排除 Substance 圖參數不正常的問題並尋找解決方案。
 helpx_creative_field: ""
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 <b>![（錯誤）](../../assets/error.svg) 問題</b>
 
-在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈的 Substance 3D 資產[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
+在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈的 Substance 3D 資產[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
 
 <b>![（打勾）](../../assets/check.svg)建議步驟</b>
 

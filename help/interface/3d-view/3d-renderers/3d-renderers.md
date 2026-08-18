@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在 3D 視圖中選擇光柵化器和路徑追蹤器渲染器，以提升不同的預覽品質與效能。
 helpx_creative_field: ""

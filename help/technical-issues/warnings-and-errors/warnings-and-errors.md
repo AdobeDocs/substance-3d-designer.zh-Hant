@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中尋找常見問題與錯誤的解決方案，快速排除問題。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 警告與錯誤
 
-本頁說明 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中可能出現的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
+本頁說明 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中可能出現的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
 
 ## 概觀
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### 總管
 
-對於檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](../../assets/warning-icon.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
+對於檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](../../assets/warning-icon.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
 
 他們遵循以下規則：
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ### 屬性
 
-對於屬性面板中[任何有警告的項目，該警告會在列表中該項目條目最右邊的圖示顯示![](../../assets/warning-icon.png)。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
+對於屬性面板中[任何有警告的項目，該警告會在列表中該項目條目最右邊的圖示顯示![](../../assets/warning-icon.png)。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
 
 他們遵循以下規則：
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ### 主機
 
-警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的 Windows** 選單進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
+警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的 Windows** 選單進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
 
 >[!NOTE]
 >

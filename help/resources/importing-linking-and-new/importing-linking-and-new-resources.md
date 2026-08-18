@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、連結並建立新資源，用於你的材料專案。
 helpx_creative_field: ""
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # 匯入、連結與新資源
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
+[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
 
-所有方法皆可透過 [在檔案總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [中點擊套件上的右鍵鍵存取。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+所有方法皆可透過 [在檔案總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [中點擊套件上的右鍵鍵存取。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
 下表簡要概述了兩種方法在功能上的差異。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 | 圖（[實體圖](../../compositing-graphs/substance-compositing-graphs.md)、[物質函數圖](../../function-graphs/function-graphs.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | [點陣圖](../../resources/bitmap-resource/bitmap-resource.md)、[向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [3D 場景](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| [3D 場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
 | 建立在 SBS 檔案旁邊 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | 可在 Designer 中編輯 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
 | 外部剪輯會自動同步 | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |

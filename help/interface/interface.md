@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的工作區介面，包括檢視、面板與自訂選項。
 helpx_creative_field: ""
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## 屬性
 
-[物業碼頭](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)是最技術性的窗口。 它始終具上下文敏感性，會呈現滑桿、下拉選單及其他改變所選資源或節點行為的元素。
+[物業碼頭](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)是最技術性的窗口。 它始終具上下文敏感性，會呈現滑桿、下拉選單及其他改變所選資源或節點行為的元素。
 
 ![性質](../assets/properties-15.jpg "性質")
 

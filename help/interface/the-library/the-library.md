@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的函式庫來存取和管理節點預設、材質及自訂內容。
 helpx_creative_field: ""
@@ -82,7 +82,7 @@ ht-degree: 0%
 
 * [SBS 與 SBSAR](../../getting-started/overview/overview.md) 檔案中的 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)以第一個&#x200B;*輸出*&#x200B;表示，若圖作者設定了自訂圖示，則以&#x200B;*圖示*&#x200B;表示[&#128279;](../../getting-started/overview/overview.md)
 * [位圖](../../resources/bitmap-resource/bitmap-resource.md) 與 [向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) 則由 *點陣圖本身的微型渲染* 來表示
-* [3D 網格](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、 [功能圖](../../function-graphs/the-function-graph/the-function-graph.md)、 [字型](../../resources/font-resource/font-resource.md) 與 [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 檔案皆以 *每種類型的通用圖示* 表示
+* [3D 網格](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、 [功能圖](../../function-graphs/the-function-graph/the-function-graph.md)、 [字型](../../resources/font-resource/font-resource.md) 與 [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 檔案皆以 *每種類型的通用圖示* 表示
 
 >[!WARNING]
 >

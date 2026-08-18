@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、建立及管理資源，包括點陣圖、字型與 3D 場景。
 helpx_creative_field: ""
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * [位圖](../resources/bitmap-resource/bitmap-resource.md)
 * [向量圖形（SVG）](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 場景資源](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
+* [3D 場景資源](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
 * [洗禮盆](../resources/font-resource/font-resource.md)
 
 </td>

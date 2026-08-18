@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的插件管理器來安裝、管理及設定 Python 插件以擴充功能。
 helpx_creative_field: ""

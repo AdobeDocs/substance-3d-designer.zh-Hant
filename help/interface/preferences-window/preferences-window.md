@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中進入偏好設定視窗，自訂應用程式設定與行為。
 helpx_creative_field: ""
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>近期文件列表包含</b>  *預設值：10* | 這讓你能選擇要在<b>主選單[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)檔案項目的「最新包裹</b>」項目<b></b>中列出的文件數量。 |
+| <b>近期文件列表包含</b>  *預設值：10* | 這讓你能選擇要在<b>主選單[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)檔案項目的「最新包裹</b>」項目<b></b>中列出的文件數量。 |
 
 ### 歷史記錄
 
 |  |  |
 | --- | --- |
-| **歷史堆疊大小** *預設值：200* | 這表示主選單[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中編輯>復原</b>項目中，任何時候<b>可用的復原操作次數。**注意：** 你需要的復原操作越多，應用程式所需的記憶體就越多。 |
+| **歷史堆疊大小** *預設值：200* | 這表示主選單[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中編輯>復原</b>項目中，任何時候<b>可用的復原操作次數。**注意：** 你需要的復原操作越多，應用程式所需的記憶體就越多。 |
 
 ### 語言
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>發佈到 .sbsar 或傳送到其他應用程式時，請務必儲存 .sbs 檔案</b>  *預設：真* | 控制 SBS 套件在發佈[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[傳送至其他應用程式](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)時的自動儲存。 |
+| <b>發佈到 .sbsar 或傳送到其他應用程式時，請務必儲存 .sbs 檔案</b>  *預設：真* | 控制 SBS 套件在發佈[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)或[傳送至其他應用程式](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)時的自動儲存。 |
 
 ### 爐子
 
 |  |  |
 | --- | --- |
-| <b>烹飪尺寸限制</b>  *預設值：8192 像素* | 定義了任一[圖](../../compositing-graphs/substance-compositing-graphs.md)中所有[節點](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允許的最大像素解析度。由於圖形輸出總是解析度為2的冪方形影像，此處設定的值定義了最大寬度與高度（以像素為單位）。 |
+| <b>烹飪尺寸限制</b>  *預設值：8192 像素* | 定義了任一[圖](../../compositing-graphs/substance-compositing-graphs.md)中所有[節點](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)允許的最大像素解析度。由於圖形輸出總是解析度為2的冪方形影像，此處設定的值定義了最大寬度與高度（以像素為單位）。 |
 
 ### 引擎
 

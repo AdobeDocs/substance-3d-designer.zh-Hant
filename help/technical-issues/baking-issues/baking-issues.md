@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: 尋找與 Substance 3D Designer 中烘焙貼圖相關技術問題的故障排除步驟。
 helpx_creative_field: ""

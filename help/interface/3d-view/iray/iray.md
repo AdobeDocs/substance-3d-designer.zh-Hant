@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 伊雷
 
-本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 3D 檢視面板中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 3D 檢視面板中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
 
 >[!WARNING]
 > 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ![中世紀城堡牆材料以伊雷](../../../assets/iray-overview.png "繪製 中世紀城堡牆材料以伊雷繪製")
 
-*材質：[Mark Foreman* *](https://www.artstation.com/oggyart)製作[的中世紀城牆](https://helpx.adobe.com/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)**，可於我們的 [Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/assets.html)**&#x200B;庫取得*
+*材質：[Mark Foreman* *](https://www.artstation.com/oggyart)製作[的中世紀城牆](https://helpx.adobe.com/tw/substance-3d/unlisted/assets/allassets/2b3f6eca9a6b6ab19d263d8b77819df431c3c973.html)**，可於我們的 [Substance 3D 資產](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html)**&#x200B;庫取得*
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、建立及使用點陣圖資源，以製作基於材質的材質。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 在 Substance 3D 資產（SBSAR）中
 
-在 SBSAR 檔案[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)中，位圖是嵌入的，這表示它們對最終的 SBSAR 檔案大小有很大影響。你可以在本頁進一步閱讀更多關於檔案大小影響的資訊。 當 [SBSAR 檔案發布時，](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 僅嵌入用於計算圖形輸出的位圖。 未使用的點陣圖會被優化並排除於最終的 SBSAR 套件中，且不影響檔案大小。
+在 SBSAR 檔案[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)中，位圖是嵌入的，這表示它們對最終的 SBSAR 檔案大小有很大影響。你可以在本頁進一步閱讀更多關於檔案大小影響的資訊。 當 [SBSAR 檔案發布時，](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 僅嵌入用於計算圖形輸出的位圖。 未使用的點陣圖會被優化並排除於最終的 SBSAR 套件中，且不影響檔案大小。
 
 ## 檔案類型、色彩模式與解析度
 
@@ -71,4 +71,4 @@ Substance 3D Designer 可以輕鬆編輯並重新排列點陣圖資料，但最�
 
 ## 檔案大小縮小
 
-請參閱[最佳實務](../../best-practices/best-practices.md)章節中的檔案大小減少指引[&#128279;](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)頁面，了解我們關於縮小嵌入[已發佈 Substance 3D 資產](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）中位圖檔案大小的建議。
+請參閱[最佳實務](../../best-practices/best-practices.md)章節中的檔案大小減少指引[&#128279;](../../best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)頁面，了解我們關於縮小嵌入[已發佈 Substance 3D 資產](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）中位圖檔案大小的建議。

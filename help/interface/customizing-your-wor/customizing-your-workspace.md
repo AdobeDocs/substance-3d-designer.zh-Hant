@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中自訂工作區，以優化你的工作流程與版面偏好。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 客製化您的工作空間
 
-本頁介紹如何在 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的使用者介面中排列面板，並善用其功能來提升您的工作流程。
+本頁介紹如何在 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的使用者介面中排列面板，並善用其功能來提升您的工作流程。
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows 選單
 
-這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) Windows</b> 主工具列的部分說明。在這裡，我們將提供與此菜單相關的額外概念。
+這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) Windows</b> 主工具列的部分說明。在這裡，我們將提供與此菜單相關的額外概念。
 
 ### 顯示/隱藏視圖
 
