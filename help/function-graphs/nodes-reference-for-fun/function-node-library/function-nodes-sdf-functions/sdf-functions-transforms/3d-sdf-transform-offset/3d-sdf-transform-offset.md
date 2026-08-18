@@ -1,0 +1,39 @@
+---
+title: 偏移
+description: Designer > Substance 合成圖 >節點參考 Node 函式庫 >> SDF 函式 > Transform > Offset
+source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 3%
+
+---
+
+
+# 偏移
+
+<table>
+<tr style="border: 0;">
+<td width="33.33%" style="border: 0;" valign="top">
+
+![偏移圖示](./3d-sdf-transform-offset.png "偏移")
+
+<b>收錄於：</b> SDF 函數> 變換
+
+</td>
+<td width="100.00%" style="border: 0;" valign="top">
+
+## 說明
+
+將 SDF 形狀沿向量偏移。
+
+</td>
+</tr>
+</table>
+
+<a name='inputs'></a>
+
+|  |  |
+| :--- | :--- |
+| <b>SDF</b> *浮標* | 輸入的 SDF 形狀。 |
+| <b>偏移</b> *Float3* | SDF 形狀的距離會在 X、Y、Z 方向上偏移。<br><br><i>預設值：（0， 0， 0）</i> |
+| <b>P</b> *Float3* | 轉型後的世界空間位置。 利用此輸入，透過 <b>Offset P</b> 和 <b>Rotate P</b> 節點套用額外的變換。<br><br><i>預設：未變換的世界空間位置。</i> |
