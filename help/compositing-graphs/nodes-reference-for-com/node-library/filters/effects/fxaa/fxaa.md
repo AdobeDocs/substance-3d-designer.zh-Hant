@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-套用基於 FXAA 演算法的抗鋸齒濾鏡。 你可以用它修正形狀上的鋸齒狀、像素化邊緣。 它對於像是邊緣像素化的 Disk Shape](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) 特別有用[，因為它提供了一個簡單的單一節點解決方案來解決抗鋸齒邊緣。
+套用基於 FXAA 演算法的抗鋸齒濾鏡。 你可以用它修正形狀上的鋸齒狀、像素化邊緣。 它對於像是邊緣像素化的 Disk Shape[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) 特別有用，因為它提供了一個簡單的單一節點解決方案來解決抗鋸齒邊緣。
 
 ## 範例圖片
 

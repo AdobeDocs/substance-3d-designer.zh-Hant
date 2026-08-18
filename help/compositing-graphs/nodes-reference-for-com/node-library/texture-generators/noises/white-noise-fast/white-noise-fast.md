@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 說明
 
-這是 White Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) 的快速版本[，適合當你不在乎品質、想節省效能時使用。大多數情況下，這個快速版本應該沒問題。
+這是 White Noise[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise/white-noise.md) 的快速版本，適合當你不在乎品質、想節省效能時使用。大多數情況下，這個快速版本應該沒問題。
 
 ## 參數
 

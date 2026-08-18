@@ -197,7 +197,7 @@ Adobe 標準材質（ASM）模型於 Designer 11.2 中引入，並成為 Designe
 
 雖然 Designer 已將 OpenPBR 作為新的預設模型，但 ASM 仍然包含在內，且其屬性也被共享透過光柵化器、GPU Pathtracer 及 OpenGL [3D 渲染器](../3d-renderers/3d-renderers.md)。
 
-此模型在此有文件說明[](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)。
+此模型在此有文件說明[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)。
 
 <a name="usdpreviewsurface"></a>
 
@@ -207,4 +207,4 @@ UsdPreviewSurface 模型的目的是預覽具備基本功能集的材料，促�
 
 在 Designer 中，此材質模型僅由光柵化器與 GPU Pathtracer [3D 渲染器](../3d-renderers/3d-renderers.md)支援。
 
-此模型在此有文件說明[](https://openusd.org/dev/spec_usdpreviewsurface.html)。
+此模型在此有文件說明[&#128279;](https://openusd.org/dev/spec_usdpreviewsurface.html)。

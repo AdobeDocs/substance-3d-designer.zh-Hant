@@ -35,9 +35,9 @@ ht-degree: 0%
 
 ## 說明
 
-**3D Perlin 噪聲分形**&#x200B;節點根據&#x200B;*位置圖&#x200B;**輸入在三維空間**中產生分形* Perlin 噪聲。
+**3D Perlin 噪聲分形**&#x200B;節點根據&#x200B;*位置圖&#x200B;**輸入在三維空間**&#x200B;中產生分形* Perlin 噪聲。
 
-此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
+此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
 
 >[!WARNING]
 >
@@ -71,7 +71,7 @@ ht-degree: 0%
 * **Lacunarity** *花車*\
   控制施加的分形圖案 *如何填滿空間*。 *較高*&#x200B;的數值會導致&#x200B;*圖案間隙*&#x200B;較少，噪音&#x200B;*密度也更*&#x200B;高。
 * **全域不透明度***浮點*\
-  控制&#x200B;*分形三維Perlin雜訊值*&#x200B;在&#x200B;***基準值**附近的範圍*。
+  控制&#x200B;*分形三維Perlin雜訊值*&#x200B;在&#x200B;***基準值**&#x200B;附近的範圍*。
 * **基線***浮動*\
   對3D Perlin雜訊值分布的基準亮度&#x200B;*值施加*&#x200B;偏移&#x200B;*。*
 * **對比***浮動*\

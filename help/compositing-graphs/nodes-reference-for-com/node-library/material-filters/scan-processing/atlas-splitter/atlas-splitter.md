@@ -37,7 +37,7 @@ ht-degree: 0%
 
 它也可以用來重新組織並移動所有元素到格子中。
 
-該節點作為洪水填充](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)節點的[進階應用。
+該節點作為洪水填充[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)節點的進階應用。
 
 </td>
 </tr>

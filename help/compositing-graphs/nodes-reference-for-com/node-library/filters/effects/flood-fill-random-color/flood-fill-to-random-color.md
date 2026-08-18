@@ -37,7 +37,7 @@ ht-degree: 3%
 
 ## 說明
 
-從洪水填充](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)基底生成隨機 RGB 顏色[的圖塊。這很適合為地磚增加顏色變化。
+從洪水填充[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)基底生成隨機 RGB 顏色的圖塊。這很適合為地磚增加顏色變化。
 
 ## 參數
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 點陣圖繪製工具
 
-本頁介紹了 2D View](../../../interface/2d-view/2d-view.md) 面板中可用於[相容點陣圖的繪畫工具。
+本頁介紹了 2D View[&#128279;](../../../interface/2d-view/2d-view.md) 面板中可用於相容點陣圖的繪畫工具。
 
 ![2D 檢視](../../../assets/2dview-paintingtools-main_1.png "中的點陣繪製工具 2D 檢視中的點陣繪製工具"){width="512px"}
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 [2D View](../../../interface/2d-view/2d-view.md) 面板提供基本的點陣圖繪製工具，讓你能直接在應用程式內手動創建或編輯影像&#x200B;**。這些工具特別有用，例如快速繪製 *遮罩*。
 
-這些工具支援筆輸入，包括 *筆壓*。 要善用手寫螢幕，你可以[先拔掉](../../../interface/customizing-your-wor/customizing-your-workspace.md)[2D視窗](../../../interface/2d-view/2d-view.md)面板，然後放置並調整大小，讓繪畫更舒適。
+這些工具支援筆輸入，包括 *筆壓*。 要善用手寫螢幕，你可以[先拔掉](../../../interface/customizing-your-wor/customizing-your-workspace.md) [2D視窗](../../../interface/2d-view/2d-view.md)面板，然後放置並調整大小，讓繪畫更舒適。
 
 編輯可以 *單獨*&#x200B;還原，且在編輯圖片時，2D 檢視面板的其他功能仍 *可使用* ，例如 [直方圖](../../../interface/2d-view/2d-view.md) 面板、 [平鋪顯示](../../../interface/2d-view/2d-view.md)和 [背景影像](../../../interface/2d-view/2d-view.md)。
 
 >[!IMPORTANT]
 >
-> 你只能&#x200B;*用新的或匯入](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)的 8 位元[*&#x200B;點陣資源[](../../../resources/bitmap-resource/bitmap-resource.md)來繪製&#x200B;**。
+> 你只能&#x200B;*用新的或匯入[&#128279;](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)的 8 位元*&#x200B;點陣資源[&#128279;](../../../resources/bitmap-resource/bitmap-resource.md)來繪製&#x200B;**。
 
 >[!WARNING]
 >
@@ -46,16 +46,16 @@ ht-degree: 0%
 
 ## 啟用繪畫工具
 
-當符合以下關於點陣圖的條件時，繪圖工具會在2D檢視](../../../interface/2d-view/2d-view.md)面板中自動[啟用：
+當符合以下關於點陣圖的條件時，繪圖工具會在2D檢視[&#128279;](../../../interface/2d-view/2d-view.md)面板中自動啟用：
 
 * 點陣圖是[新資源或匯入資源](../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * 位圖精度為 *8 位元*
-* 點陣圖會顯示在 2D 視圖](../../../interface/2d-view/2d-view.md)面板中[
+* 點陣圖會顯示在 2D 視圖[&#128279;](../../../interface/2d-view/2d-view.md)面板中
 
 **&#x200B;新的點陣圖可透過以下方式建立：
 
 * 在[檔案總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;鍵，或套件內的&#x200B;*資料夾*，開啟其上下文選單，接著開啟<b>新子</b>選單並選擇<b>點陣圖</b>選項
-* 在圖表[](../../../interface/the-graph-view/the-graph-view.md)中，建立一個[點陣圖節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，並在情境選單中選擇<b>「來自新資源...</b>」的選項
+* 在圖表[&#128279;](../../../interface/the-graph-view/the-graph-view.md)中，建立一個[點陣圖節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，並在情境選單中選擇<b>「來自新資源...</b>」的選項
 
 <b>新點陣</b>圖視窗會開啟，讓你設定&#x200B;*新點陣資源的名稱*、*解析度*&#x200B;和&#x200B;*背景色*。
 
@@ -69,13 +69,13 @@ ht-degree: 0%
 
 ## 工具列
 
-繪畫工具和選項排列在 *2D 視圖](../../../interface/2d-view/2d-view.md)面板的工具[列*&#x200B;中。這些工具列可透過點擊並按住<b>左鍵&#x200B;**</b>（以三線表示）將工具列移至&#x200B;*面板任一側*&#x200B;或以&#x200B;*浮動工具列*&#x200B;形式移動，然後在指定位置放開<b>左鍵</b>。
+繪畫工具和選項排列在 *2D 視圖[&#128279;](../../../interface/2d-view/2d-view.md)面板的工具列*&#x200B;中。這些工具列可透過點擊並按住<b>左鍵&#x200B;**</b>（以三線表示）將工具列移至&#x200B;*面板任一側*&#x200B;或以&#x200B;*浮動工具列*&#x200B;形式移動，然後在指定位置放開<b>左鍵</b>。
 
 啟用塗裝工具時會顯示兩個工具列： [工具選擇工具列](#bitmappaintingtools-toolselectiontoolbar) 和工具選項工具列，以下將說明。
 
 ## 工具選擇工具列
 
-繪圖工具可在預設位於 2D 視圖面板左側&#x200B;*[的工具選取工具列***中找到**。](../../../interface/2d-view/2d-view.md)鍵盤快捷鍵讓你能快速存取這些工具，並在工具/函式名稱後方括號內標示：
+繪圖工具可在預設位於 2D 視圖面板左側&#x200B;*[的工具選取工具列&#x200B;***中找到**。](../../../interface/2d-view/2d-view.md)鍵盤快捷鍵讓你能快速存取這些工具，並在工具/函式名稱後方括號內標示：
 
 ![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png)<b>色彩選擇</b> <b>縮圖：</b>讓你定義原 *色* 和 *次色* 。 點擊任一縮圖即可顯示 <b>色彩編輯器</b> 視窗並定義顏色。 工具會使用 *原色* 。 主色與次色可 *隨時互換* （<b>X</b>）
 

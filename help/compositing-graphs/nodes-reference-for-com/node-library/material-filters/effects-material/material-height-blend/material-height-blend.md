@@ -37,11 +37,11 @@ ht-degree: 1%
 
 ## 說明
 
-這個節點是 Height Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) 的進階版本[，根據 Heightmap 混合兩個材質。沒有使用者自訂遮罩，因此你必須有兩個高度貼圖，分別對應每個材質，且至少有一個不是統一的值。
+這個節點是 Height Blend[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) 的進階版本，根據 Heightmap 混合兩個材質。沒有使用者自訂遮罩，因此你必須有兩個高度貼圖，分別對應每個材質，且至少有一個不是統一的值。
 
 這對於結合兩種不同且高品質的材料，無需高品質的混色遮膜非常有用。
 
-如果你想融入水或雪，則可以使用「雪覆蓋」](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)和[「水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)」這兩個節點[。
+如果你想融入水或雪，則可以使用「雪覆蓋」[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)和[「水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)」這兩個節點。
 
 ## 參數
 

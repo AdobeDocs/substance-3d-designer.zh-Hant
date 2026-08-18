@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 說明
 
-這個節點就像高品質的高通](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)器[一樣，用於色彩差異。一般高通器會去除飽和度並可能帶來不必要的銳利感，而色彩均衡器則能平衡色彩差異並以使用者可選擇的尺度去除不想要的色調。
+這個節點就像高品質的高通[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)器一樣，用於色彩差異。一般高通器會去除飽和度並可能帶來不必要的銳利感，而色彩均衡器則能平衡色彩差異並以使用者可選擇的尺度去除不想要的色調。
 
 如果照片或掃描中有不想要的色彩差異，或是你想去除的色調，這非常有用。 如果你用 [過 Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)，這個節點應該會讓你感到熟悉。
 

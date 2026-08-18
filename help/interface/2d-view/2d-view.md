@@ -29,7 +29,7 @@ ht-degree: 0%
 [2D 視圖](https://substance3d.adobe.com/)是 Designer 使用者介面的主要面板之一。其主要目的如下：
 
 * 顯示&#x200B;*指定節點*&#x200B;的&#x200B;*值*&#x200B;或&#x200B;*影像*&#x200B;輸出，或經過指定的&#x200B;*節點連接器*
-* 顯示點陣](../../resources/bitmap-resource/bitmap-resource.md)圖與[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)[資源[](../../resources/resources.md)
+* 顯示點陣[&#128279;](../../resources/bitmap-resource/bitmap-resource.md)圖與[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)資源[&#128279;](../../resources/resources.md)
 * 顯示 *其目前所持有內容的額外資訊* ，例如色彩通道或精確的色彩值
 * 控制參數的 *裝置*
 
@@ -44,10 +44,10 @@ ht-degree: 0%
 
 在 2D 視圖中顯示任何影像最直接的方式是雙擊 *LMB...*
 
-* ...在[檔案總管中的[點陣](../../resources/bitmap-resource/bitmap-resource.md)圖或[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)資源上](../../interface/the-explorer-window/the-explorer-window.md)
+* ...在[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)檔案總管中的[點陣](../../resources/bitmap-resource/bitmap-resource.md)圖或[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)資源上
 * ...在圖視圖中[，節點或節點連接器上](../../interface/the-graph-view/the-graph-view.md)
 
-影像也可以&#x200B;*直接拖放*，方法是按住檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板中的[資源[](../../resources/resources.md)鍵 LMB *，或*&#x200B;在圖視圖的節點上按&#x200B;*住 RMB*。
+影像也可以&#x200B;*直接拖放*，方法是按住檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中的資源[&#128279;](../../resources/resources.md)鍵 LMB *，或*&#x200B;在圖視圖的節點上按&#x200B;*住 RMB*。
 
 在圖視圖中，你可以透過<b>「2D 檢視</b>」的輸出選項將影像傳送到 2D 視圖，該選項可點擊 *RMB*...
 
@@ -101,14 +101,14 @@ ht-degree: 0%
 > * 滑鼠滾輪向上&#x200B;*會將*&#x200B;影像拉近
 > * Alt+RMB 並向上拖動&#x200B;*會把*&#x200B;圖片推開
 > 
-> 縮放方向可以在偏好設定](../../interface/preferences-window/preferences-window.md)中[反轉。
+> 縮放方向可以在偏好設定[&#128279;](../../interface/preferences-window/preferences-window.md)中反轉。
 
 影像原生 *解析度*、 *色彩格式* 與 *位元深度* 顯示在視窗左下角。
 
 除了導航外，該視窗還提供以下功能：
 
 * 平鋪顯示： *在視窗中以平鋪模式重複影像* 。 這有助於檢查圖案或質地的重複效果。 可透過&#x200B;**空白鍵**&#x200B;或![](../../assets/2d-view-icon-tiling.png)**平貼顯示**&#x200B;按鈕啟用
-* 實體尺寸顯示：顯示與&#x200B;*圖形物理尺寸](../../compositing-graphs/graph-parameters/graph-parameters.md)屬性相符[的影像*，可透過![](../../assets/2d-view-icon-physical-size.png)**物理大小比率**&#x200B;按鈕啟用
+* 實體尺寸顯示：顯示與&#x200B;*圖形物理尺寸[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)屬性相符的影像*，可透過![](../../assets/2d-view-icon-physical-size.png)**物理大小比率**&#x200B;按鈕啟用
 * 保持觀看大小：此選項 *鎖定顯示縮放* ，讓它在不同圖片中保持一致。 預設是&#x200B;*啟用*&#x200B;的，可以透過「保留觀看大小&#x200B;**」按鈕來關閉![](../../assets/2d-view-icon-lock-scale.png)**
 
 ## 主工具列
@@ -179,11 +179,11 @@ ht-degree: 0%
 
 
 
-如果<b>在 3D View](../../interface/3d-view/3d-view.md) 底座的[場景</b>選單中啟用<b>了「在 2D View</b> 中顯示 UV」選項，那麼 2D View 中即可使用UV 覆蓋功能。
+如果<b>在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 底座的場景</b>選單中啟用<b>了「在 2D View</b> 中顯示 UV」選項，那麼 2D View 中即可使用UV 覆蓋功能。
 
 你可以用 <b>UV</b> 按鈕啟用。 ![](../../assets/2d-view-icon-uv.png)
 
-此時會以彩色線框形式顯示目前在 3D View](../../interface/3d-view/3d-view.md) 中選取的網格 [UV。
+此時會以彩色線框形式顯示目前在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中選取的網格 UV。
 
 如果材質顏色資訊在網格檔案中有，則該材質顏色會作為 UV 覆蓋層的顏色。
 
@@ -265,7 +265,7 @@ ht-degree: 0%
 
 ## 顯示工具列
 
-預設位於 2D 檢視&#x200B;**面板底部***的&#x200B;**顯示**工具列*，讓你能控制影像在視窗中的顯示方式。
+預設位於 2D 檢視&#x200B;**面板底部***的&#x200B;**顯示**&#x200B;工具列*，讓你能控制影像在視窗中的顯示方式。
 
 最左邊的區塊包含色彩&#x200B;*與*&#x200B;透明度&#x200B;*的控制*&#x200B;項，*而最*&#x200B;右邊的區塊則包含本頁「視埠」區塊中詳細描述的&#x200B;*視窗*&#x200B;控制項。**
 
@@ -293,7 +293,7 @@ ht-degree: 0%
 >
 > 鍵盤快捷鍵只有在 2D 檢視面板有對焦時才能使用。 你可以至少點選此面板一次以確認是否正確。
 > 
-> 由於面板需要聚焦，這些捷徑&#x200B;*不會干擾**你設定的自訂圖中節點建立捷徑*——詳情請見此](../../interface/preferences-window/preferences-window.md)處[。
+> 由於面板需要聚焦，這些捷徑&#x200B;*不會干擾**你設定的自訂圖中節點建立捷徑*——詳情請見此[&#128279;](../../interface/preferences-window/preferences-window.md)處。
 
 ![2D 顯示透明度](../../assets/2d-view-transparency.png "切換 2D 顯示透明度切換"){width="360px"}
 
@@ -315,7 +315,7 @@ ht-degree: 0%
 
 為了最準確的色彩呈現，影像預設會以&#x200B;*與螢幕*&#x200B;使用的&#x200B;*色彩空間相符的色彩空間*&#x200B;顯示。
 
-可用的控制項和 / <b>![](../../assets/2d-view-icon-color-space-linear.png) 色彩空間</b>按鈕的效果![](../../assets/2d-view-icon-color-space.png)會依專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的[色彩管理模式](../../color-management/color-management.md)而定[。想了解更多這些控制，請參考本頁的色彩管理區。
+可用的控制項和 / <b>![](../../assets/2d-view-icon-color-space-linear.png) 色彩空間</b>按鈕的效果![](../../assets/2d-view-icon-color-space.png)會依專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的[色彩管理模式](../../color-management/color-management.md)而定。想了解更多這些控制，請參考本頁的色彩管理區。
 
 <table>
 <tr style="border: 0;">
@@ -376,11 +376,11 @@ ht-degree: 0%
 
 2D View</b> 提供簡單的&#x200B;*色彩管理*&#x200B;控制，讓你能選擇&#x200B;*顯示影像時應使用的顯示色彩空間*。<b>
 
-這些控制項會依專案設定](../../interface/preferences-window/project-settings/project-settings.md)中[目前[設定的色彩管理模式](../../color-management/color-management.md)調整，具體如下：
+這些控制項會依專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中目前[設定的色彩管理模式](../../color-management/color-management.md)調整，具體如下：
 
 * <b>遺留：</b> 你可以將影像置入 ![](../../assets/2d-view-icon-color-space.png) sRGB 或![](../../assets/2d-view-icon-color-space-linear.png)線性 sRGB 色彩空間;
 * <b>Adobe ACE：</b> 你可以![](../../assets/2d-view-icon-color-space.png) *啟用*&#x200B;色彩管理，並根據 Adobe ACE 引擎偵測到的，設定目前&#x200B;*螢幕*&#x200B;最合適的色彩空間，或![](../../assets/2d-view-icon-color-space-linear.png) *關閉*&#x200B;色彩管理並以 Raw 色彩值顯示影像;
-* <b>OCIO：</b>你可以![](../../assets/2d-view-icon-color-space.png)*啟用*&#x200B;色彩管理，並依 OCIO 引擎偵測到的設定最適合目前螢幕&#x200B;*的色彩管理，*&#x200B;使用組合框選擇 OCIO 設定檔](../../color-management/color-management.md)中可用的任何&#x200B;*顯示色彩空間[*，或![](../../assets/2d-view-icon-color-space-linear.png)*關閉*&#x200B;色彩管理並使用 Raw 色彩值顯示影像。  
+* <b>OCIO：</b>你可以![](../../assets/2d-view-icon-color-space.png)*啟用*&#x200B;色彩管理，並依 OCIO 引擎偵測到的設定最適合目前螢幕&#x200B;*的色彩管理，*&#x200B;使用組合框選擇 OCIO 設定檔[&#128279;](../../color-management/color-management.md)中可用的任何&#x200B;*顯示色彩空間*，或![](../../assets/2d-view-icon-color-space-linear.png)*關閉*&#x200B;色彩管理並使用 Raw 色彩值顯示影像。  
 
 >[!WARNING]
 >

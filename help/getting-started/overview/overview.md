@@ -32,7 +32,7 @@ ht-degree: 0%
 | <b>作者過濾器、模式與效果</b> | 不 | 限制 | 是的 |
 | <b>匯出參數內容</b> | 不 | 不 | 是的 |
 
-\*：僅位移，請參見 <b>3D 視圖](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能[。
+\*：僅位移，請參見 <b>3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能。
 
 簡言之，Substance 3D Designer 應該被視為目前最技術性、最先進的貼圖應用程式。
 
@@ -44,11 +44,11 @@ ht-degree: 0%
 
 Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不同複雜度的方式製作內容。 [工作流程會在專門頁面](../../getting-started/workflow-overview/workflow-overview.md)中進一步說明，但以下是使用該軟體的好處：
 
-<b>[非線性](../../compositing-graphs/substance-compositing-graphs.md） </b>：你可以同時撰寫多種貼圖輸出。 編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是 Basecolor、Roughness、Normal 等貼圖。
+<b>[非線性](../../compositing-graphs/substance-compositing-graphs.md) </b>：你可以同時撰寫多種貼圖輸出。 編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是 Basecolor、Roughness、Normal 等貼圖。
 
-<b> [非破壞性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md） </b>：你可以反轉任何動作 *，且不會* 損失任何工作。 這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
+<b> [非破壞性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：你可以反轉任何動作 *，且不會* 損失任何工作。 這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
 
-<b> [整合烘焙](../../bakers/bakers.md）： </b>直接在軟體內存取先進且極速的網狀烘焙工具。 你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
+<b> [整合烘焙](../../bakers/bakers.md)： </b>直接在軟體內存取先進且極速的網狀烘焙工具。 你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
 
 <b> 【參數化】(../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md） </b>：你幾乎可以透過一個滑桿或下拉選單來控制貼圖的任何面向。 這讓你能在單一資產上加入無限的控制與變化。
 

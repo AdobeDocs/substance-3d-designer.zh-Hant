@@ -78,7 +78,7 @@ ht-degree: 0%
 <b>角閾</b> *浮點*\
 每個編碼在路徑中的頂點都可以攜帶一個旗標，指示它是硬的（即轉角）還是平滑的。\
 這個參數讓你可以根據相鄰線段之間的角度來標記多或少的角。\
-*注意：*&#x200B;目前任何現有節點都不支援此「角落」旗標，但可在路徑頂點處理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點中使用[。你也可以用[預覽路徑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)節點來視覺化角落。
+*注意：*&#x200B;目前任何現有節點都不支援此「角落」旗標，但可在路徑頂點處理器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點中使用。你也可以用[預覽路徑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)節點來視覺化角落。
 
 <b>路徑啟動模式</b> *整數*&#x200B;選擇每個生成路徑起始的頂點的方法。\
 這在使用專用節點將產生<b>的路徑轉換為樣條</b>時會有重大影響，因為多個樣條線節點會使用樣條的起點與結束點。\

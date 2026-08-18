@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 說明
 
-多向扭曲會多次以相反方向套用[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)方向扭曲，而移位的材質保持原位。它與標準的方向曲速不同之處在於，它能向多個方向推進，而原子版本只能推動一個方向。 這樣一來，它解決了經典的問題：方向扭曲總是會把影像推得太遠，而是沿著多個方向或軸線運作，而不是單一方向。
+多向扭曲會多次以相反方向套用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)方向扭曲，而移位的材質保持原位。它與標準的方向曲速不同之處在於，它能向多個方向推進，而原子版本只能推動一個方向。 這樣一來，它解決了經典的問題：方向扭曲總是會把影像推得太遠，而是沿著多個方向或軸線運作，而不是單一方向。
 
 它與 [非均勻方向曲速](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) 的主要不同在於其稍微受限：曲速的方向僅透過參數控制，無法透過輸入映射設定。 優點是它稍微容易使用，且根據你的使用情境可以更精準。
 

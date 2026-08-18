@@ -32,15 +32,15 @@ ht-degree: 2%
 
 隨機離散 [a， b]
 
-隨機均勻 [-1， 1[
+隨機均勻 &lbrack;-1， 1&lbrack;
 
-隨機均勻 [a， b[
+隨機均勻 &lbrack;a， b&lbrack;
 
-隨機均勻浮點2 [a， b[
+隨機均勻浮點2 &lbrack;a， b&lbrack;
 
-隨機均勻浮點3 [a， b[
+隨機均勻浮點3 &lbrack;a， b&lbrack;
 
-隨機均勻浮點4 [a， b[
+隨機均勻浮點4 &lbrack;a， b&lbrack;
 
 </td>
 <td style="border: 0;" valign="top">

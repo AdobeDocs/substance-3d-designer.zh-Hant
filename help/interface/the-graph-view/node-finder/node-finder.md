@@ -31,7 +31,7 @@ ht-degree: 0%
 * 節點的 <b>UID</b> （唯一識別碼）
 * 節點的 <b>標籤</b>
 
-搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到[。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
+搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
 
 ## 介面
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 ### 暴露參數與變數
 
-可直接搜尋暴露參數](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼[或其他變數。
+可直接搜尋暴露參數[&#128279;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼或其他變數。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

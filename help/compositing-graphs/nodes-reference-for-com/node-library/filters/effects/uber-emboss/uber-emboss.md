@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md) 的先進且功能豐富的版本[。根據高度圖執行複雜的2D假光照效果。
+Emboss[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md) 的先進且功能豐富的版本。根據高度圖執行複雜的2D假光照效果。
 
 在某些材質風格需要大量控制時，這點很實用。
 

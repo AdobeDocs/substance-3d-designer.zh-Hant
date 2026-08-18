@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 控制節點
 
-本頁描述功能圖](../../../../function-graphs/the-function-graph/the-function-graph.md)中[用於控制&#x200B;*執行*&#x200B;流程的節點。
+本頁描述功能圖[&#128279;](../../../../function-graphs/the-function-graph/the-function-graph.md)中用於控制&#x200B;*執行*&#x200B;流程的節點。
 
 <table>
 <tr style="border: 0;">

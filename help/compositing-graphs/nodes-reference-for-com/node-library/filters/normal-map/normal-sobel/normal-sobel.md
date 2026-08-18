@@ -37,7 +37,7 @@ ht-degree: 2%
 
 ## 說明
 
-將高度圖輸入轉換成法線圖輸出。 此節點是一般原子節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)的稍進階版本[，採用索貝爾取樣法而非標準取樣法。
+將高度圖輸入轉換成法線圖輸出。 此節點是一般原子節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)的稍進階版本，採用索貝爾取樣法而非標準取樣法。
 
 ## 參數
 

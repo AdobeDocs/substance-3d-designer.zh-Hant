@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Substance 3D Designer 可設定為使用 [OpenColorIO](https://opencolorio.org/) （OCIO）或 Adobe Color Engine（ACE）進行色彩管理。 這讓你能在多個應用程式中保持一致&#x200B;**&#x200B;的色彩轉換和影像顯示。
 
-在此模式下，Designer 內部可處理 **線性 RGB** 色彩。 由於 8 位元深度通常不足以表示線性顏色，因此建議圖形中的](../compositing-graphs/substance-compositing-graphs.md)[色彩紋理至少使用&#x200B;****16位元**&#x200B;深度。
+在此模式下，Designer 內部可處理 **線性 RGB** 色彩。 由於 8 位元深度通常不足以表示線性顏色，因此建議圖形中的[&#128279;](../compositing-graphs/substance-compositing-graphs.md)色彩紋理至少使用&#x200B;**&#x200B;**&#x200B;16位元**&#x200B;深度。
 
 >[!WARNING]
 >
@@ -35,13 +35,13 @@ Substance 3D Designer 可設定為使用 [OpenColorIO](https://opencolorio.org/)
 
 ## 配置
 
-色彩管理設定可在偏好設定](../interface/preferences-window/preferences-window.md)對話框的[專案](../interface/preferences-window/project-settings/project-settings.md)標籤中設定[。你可以設定以下設定：
+色彩管理設定可在偏好設定[&#128279;](../interface/preferences-window/preferences-window.md)對話框的[專案](../interface/preferences-window/project-settings/project-settings.md)標籤中設定。你可以設定以下設定：
 
 ### 色彩管理模式
 
 |  |  |
 | --- | --- |
-| <b>色彩管理</b> | 此設定允許你在 Substance 3D Designer 中選擇 Legacy](../color-management/color-management.md)、[OpenColorIO](#opencolorio) 或 [Adobe ACE](#adobe-ace) 模式來進行色彩[管理。*預設：傳承* |
+| <b>色彩管理</b> | 此設定允許你在 Substance 3D Designer 中選擇 Legacy[&#128279;](../color-management/color-management.md)、[OpenColorIO](#opencolorio) 或 [Adobe ACE](#adobe-ace) 模式來進行色彩管理。*預設：傳承* |
 
 ## OpenColorIO
 
@@ -74,7 +74,7 @@ Substance 3D Designer 提供以下配置：
 
 |  |  |
 | --- | --- |
-| <b>2D 與 3D 視圖顯示預設</b> | 設定 2D 視圖與 [3D 視](../interface/3d-view/3d-view.md)圖視窗的預設&#x200B;*顯示*&#x200B;色彩空間[](../interface/2d-view/2d-view.md)。*預設值：由 OpenColor IO 設定檔設定* |
+| <b>2D 與 3D 視圖顯示預設</b> | 設定 2D 視圖與 [3D 視](../interface/3d-view/3d-view.md)圖視窗的預設&#x200B;*顯示*&#x200B;色彩空間[&#128279;](../interface/2d-view/2d-view.md)。*預設值：由 OpenColor IO 設定檔設定* |
 | <b>色彩管理縮圖</b> | 讓 Designer 自動將節點&#x200B;*縮圖*&#x200B;轉換成&#x200B;*圖形中的工作*&#x200B;色彩空間。 *預設：已勾選* |
 
 ## Adobe ACE
@@ -104,13 +104,13 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 
 |  |  |
 | --- | --- |
-| <b>2D 與 3D 視圖顯示預設</b> | 設定 2D 視圖與 [3D 視](../interface/3d-view/3d-view.md)圖視窗的預設&#x200B;*顯示*&#x200B;色彩空間[](../interface/2d-view/2d-view.md)。*預設：***&#x200B;主畫面的 ICC 設定檔，從作業系統擷取&#x200B;**** |
+| <b>2D 與 3D 視圖顯示預設</b> | 設定 2D 視圖與 [3D 視](../interface/3d-view/3d-view.md)圖視窗的預設&#x200B;*顯示*&#x200B;色彩空間[&#128279;](../interface/2d-view/2d-view.md)。*預設：***&#x200B;主畫面的 ICC 設定檔，從作業系統擷取&#x200B;**&#x200B;** |
 
 ### 圖形顯示
 
 |  |  |
 | --- | --- |
-| <b>色彩管理縮圖</b> | 勾選後&#x200B;*，Designer 會將節點縮圖*&#x200B;轉換&#x200B;*成目前*&#x200B;的工作色彩空間&#x200B;*。**預設：***&#x200B;未勾選&#x200B;**** |
+| <b>色彩管理縮圖</b> | 勾選後&#x200B;*，Designer 會將節點縮圖*&#x200B;轉換&#x200B;*成目前*&#x200B;的工作色彩空間&#x200B;*。**預設：***&#x200B;未勾選&#x200B;**&#x200B;** |
 
 ## 舊有模式
 
@@ -120,7 +120,7 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 
 你可以選擇使用 <b>ACES sRGB</b> *在 3D 視圖中進行*<b>色調映射，以匹配其他軟體的輸出，例如&#x200B;*[虛幻引擎*](https://docs.unrealengine.com/en-US/Engine/Rendering/PostProcessEffects/ColorGrading/index.html)。</b>
 
-你可以在本頁的「輸出](#exporting-outputs)輸出」區塊中描述[，為匯出點陣&#x200B;*設定色彩空間*。可用的色彩空間如下：
+你可以在本頁的「輸出[&#128279;](#exporting-outputs)輸出」區塊中描述，為匯出點陣&#x200B;*設定色彩空間*。可用的色彩空間如下：
 
 * sRGB
 * 線性
@@ -142,7 +142,7 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 
 你可以為匯入並連結的點陣圖指派 <b>色彩空間</b> （OCIO）或 <b>ICC 設定檔</b> （Adobe ACE）。
 
-在匯入或連結點陣圖時，色彩空間或 ICC 設定檔會&#x200B;**&#x200B;預設設定為點陣資源，使用專案設定](../interface/preferences-window/project-settings/project-settings.md)中色彩管理標籤中[點陣色彩空間</b>預設</b>區<b>段的選項<b>。
+在匯入或連結點陣圖時，色彩空間或 ICC 設定檔會&#x200B;**&#x200B;預設設定為點陣資源，使用專案設定[&#128279;](../interface/preferences-window/project-settings/project-settings.md)中色彩管理標籤中點陣色彩空間</b>預設</b>區<b>段的選項<b>。
 
 你可以隨時更改點陣圖的色彩空間，這個選項在點陣圖資源的 <b>屬性</b>裡。
 
@@ -161,7 +161,7 @@ Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩�
 
 ![匯出輸出對話框](../assets/2019-3-0-clr-mgt-export-outputs.png "匯出輸出對話框"){width="512px"}
 
-你也可以為從 2D View](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 儲存的[*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
+你也可以為從 2D View[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
 
 ![2D 檢視匯出選項](../assets/2019-3-0-clr-mgt-save-image.png "2D 檢視匯出選項")
 
@@ -217,5 +217,5 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 
 Substance 3D Designer 目前的色彩管理實作有以下限制：
 
-* 目前 *Python API](../scripting/scripting.md) 中並未*&#x200B;公開[色彩管理功能;
+* 目前 *Python API[&#128279;](../scripting/scripting.md) 中並未*&#x200B;公開色彩管理功能;
 * [OpenColorIO](https://opencolorio.org/) *外觀**不*&#x200B;被支援。
