@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 說明
 
-此節點是 Clone Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) 的[多輸入版本。它連接最多八個輸入，並對所有輸入執行完全相同的複製補丁操作。 它主要用於多角度照片，然後 [再與多角度轉反照](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) 率或 [多角度轉正常](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)合成。
+此節點是 Clone Patch[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md) 的多輸入版本。它連接最多八個輸入，並對所有輸入執行完全相同的複製補丁操作。 它主要用於多角度照片，然後 [再與多角度轉反照](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-albedo/multi-angle-to-albedo.md) 率或 [多角度轉正常](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/multi-angle-to-normal/multi-angle-to-normal.md)合成。
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ ht-degree: 0%
 ### 參數
 
 * **輸入數量**： *1 - 8*&#x200B;設定將接收相同 Patch 操作的輸入數量。
-* **是 Normal（僅限 Color）：****False/True** Sets 判斷輸入是否為法線貼圖，以及混合是否應被視為法線映射。
+* **是 Normal（僅限 Color）：**&#x200B;**False/True** Sets 判斷輸入是否為法線貼圖，以及混合是否應被視為法線映射。
 * **形狀**： **方形，郵票組圓盤**&#x200B;形狀。 只當作基礎使用。
 * **Edge**
   * **閾值**： *0.0 - 1.0*&#x200B;設定混合區域應該達到的距離。 它沿著目標區域的形狀呈階梯狀生長;對於均勻背景來說，效果非常有限*。

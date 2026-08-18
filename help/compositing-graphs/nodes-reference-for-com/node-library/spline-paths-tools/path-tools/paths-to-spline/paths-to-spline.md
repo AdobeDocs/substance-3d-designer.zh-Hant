@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
+將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
 
 </td>
 </tr>
@@ -45,12 +45,12 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 此節點可在 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後[使用，形成一條將遮罩轉換為樣條的鏈。
+> 此節點可在 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後使用，形成一條將遮罩轉換為樣條的鏈。
 
 ## 輸入連接器
 
 <b>路徑</b> *色彩*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
 
 ## 輸出連接器
 

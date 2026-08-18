@@ -24,7 +24,7 @@ ht-degree: 0%
 
 這些節點都需要 [烘焙地圖，](../../../../../bakers/bakers.md) 因為沒有 [烘焙地圖](../../../../../bakers/bakers.md) ，效果會很有限。
 
-主要用途是將這些遮罩產生器與 [多通道材料](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)一起使用。 一旦產生遮罩，它就會被用作材質混合](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)的遮罩[。
+主要用途是將這些遮罩產生器與 [多通道材料](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)一起使用。 一旦產生遮罩，它就會被用作材質混合[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-blend/material-blend.md)的遮罩。
 
 此類別中一些有趣的節點包括：
 

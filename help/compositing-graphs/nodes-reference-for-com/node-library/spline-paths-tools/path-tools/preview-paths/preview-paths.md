@@ -35,7 +35,7 @@ ht-degree: 1%
 
 在給定背景上描繪路徑的段與頂點。 每條路徑隨機一個顏色。
 
-你會得到類似 Mask</b> to Path](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 預覽輸出[的結果<b>，但選項更多。
+你會得到類似 Mask</b> to Path[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 預覽輸出的結果<b>，但選項更多。
 
 </td>
 </tr>
@@ -47,7 +47,7 @@ ht-degree: 1%
 背景圖片放在上面，顯示路徑。 這也控制渲染大小。
 
 <b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
 
 ## 參數
 

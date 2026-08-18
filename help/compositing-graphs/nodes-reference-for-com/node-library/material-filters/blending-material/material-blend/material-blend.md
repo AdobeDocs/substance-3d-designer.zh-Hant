@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ## 說明
 
-Material Blend 是多通道、全材質的原子混合節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)等價[物。它會在兩個完整材質（可能的通道）之間混合，這些材質基於灰階遮罩，或是可選地基於 Color ID 遮罩中的單一顏色。
+Material Blend 是多通道、全材質的原子混合節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)等價物。它會在兩個完整材質（可能的通道）之間混合，這些材質基於灰階遮罩，或是可選地基於 Color ID 遮罩中的單一顏色。
 
 如果你想混合兩個材質，並且有灰階貼圖但沒有完整的 Color ID 烘焙，這個節點很有用。 如果你有 Color ID 烘焙，想要混合超過兩種材質，我們建議你使用 [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)。
 

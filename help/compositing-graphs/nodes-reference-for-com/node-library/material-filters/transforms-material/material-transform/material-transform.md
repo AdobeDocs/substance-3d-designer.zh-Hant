@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-材料轉換就是原子轉換二維節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)的[「多通道」材質版本。它能同時轉換輸入材質的所有通道，介面與 Transform 2D 相同。
+材料轉換就是原子轉換二維節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)的「多通道」材質版本。它能同時轉換輸入材質的所有通道，介面與 Transform 2D 相同。
 
 只要確保頻道設定正確就好！ 預設情況下，金屬/粗糙度和高光/光澤都開啟了，這可能會造成一些混淆。
 
