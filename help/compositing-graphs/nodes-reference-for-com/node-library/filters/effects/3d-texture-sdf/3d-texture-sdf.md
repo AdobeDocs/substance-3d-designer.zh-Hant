@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 使用 3D Texture SDF 節點，從 3D 資料產生有符號距離場紋理，以創造平滑的形狀與效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 2%
 
 ## 說明
 
-**3D Texture SDF** 節點會&#x200B;*從&#x200B;**輸入**&#x200B;的* 3D 材質&#x200B;*遮罩（代表形狀*&#x200B;體積&#x200B;*的切片）產生形狀的有符號距離場*。
+**3D Texture SDF** 節點會&#x200B;*從&#x200B;**輸入**的* 3D 材質&#x200B;*遮罩（代表形狀*&#x200B;體積&#x200B;*的切片）產生形狀的有符號距離場*。
 
 </td>
 </tr>
