@@ -50,7 +50,7 @@ ht-degree: 1%
 <b>斜坡曲線</b> *整數*&#x200B;設定由斜率</b>參數所設定<b>的斜率曲線取得的方法：
 * *線性*：採用線性曲線，形成直坡
 * *平滑步*&#x200B;進：套用平滑步進曲線，產生平滑的斜率
-* *曲線輸入*：套用由 <b>曲線輸入</b> 映射所描述的曲線。 你可以用[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)曲線節點來描述這條曲線，並且有很大的控制力。
+* *曲線輸入*：套用由 <b>曲線輸入</b> 映射所描述的曲線。 你可以用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)曲線節點來描述這條曲線，並且有很大的控制力。
 
 ## 範例
 

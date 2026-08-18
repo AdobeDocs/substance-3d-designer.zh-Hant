@@ -20,17 +20,17 @@ ht-degree: 0%
 
 # 概觀
 
-在某些情況下，Substance 3D 資產（SBSAR）](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的總檔案大小[可能是一個重要因素。本頁涵蓋幾個關鍵領域與設定，建議在嘗試縮小檔案大小時留意。
+在某些情況下，Substance 3D 資產（SBSAR）[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的總檔案大小可能是一個重要因素。本頁涵蓋幾個關鍵領域與設定，建議在嘗試縮小檔案大小時留意。
 
 檔案大小主要由 [嵌入的點陣圖決定。](../../resources/bitmap-resource/bitmap-resource.md) 這些檔案會連結、嵌入或烘焙，並作為資源加入  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 檔案（SBS）。 只有用於圖形中的位圖，也就是直接或透過節點鏈連接到輸出的位圖，才會被發佈在 Substance 3D 資產中。 在 Substance 3D 檔案中，點陣圖對檔案大小沒有影響，因為所有點陣資源仍儲存在檔案外部。
 
 >[!IMPORTANT]
 >
-> 確保所有位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。[[若非如此，其參考 [點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設的 256\*256 解析度儲存在已發佈的 Substance 3D 資產檔案中，這會影響*&#x200B;一個或多個輸出的品質* 。
+> 確保所有位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小[&#128279;](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。若非如此，其參考 [點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設的 256\*256 解析度儲存在已發佈的 Substance 3D 資產檔案中，這會影響*&#x200B;一個或多個輸出的品質* 。
 
 ## 檔案大小因素
 
-影響SBSAR](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)總檔案大小[有幾個不同的因素。以下列出這些問題，並附有簡短說明。
+影響SBSAR[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)總檔案大小有幾個不同的因素。以下列出這些問題，並附有簡短說明。
 
 +++解決方法
 顯然影響很大。 盡量用最小解析度，記得你可能也希望 Substance 檔案能支援高解析度。 你可以用標準的解析度遮罩技巧，讓較小的位圖看起來更大。
