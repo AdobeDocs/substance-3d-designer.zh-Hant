@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解物質合成圖中的警告，並學習如何解決常見問題與錯誤。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁列出 Substance 3D Designer 中 Substance 圖表[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)可能觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
 
-警告會顯示在總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角顯示。
+警告會顯示在總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角顯示。
 
 ## ![（錯誤）](../../assets/error.svg) 未定義輸出節點
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 透過 [新物質圖對話框](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) 提供的圖模板已預設輸出節點可供使用。
+> 透過 [新物質圖對話框](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html) 提供的圖模板已預設輸出節點可供使用。
 
 ![修正「未定義輸出節點」警告](../../assets/warnings-comp-output.gif "修正「未定義輸出節點」警告"){width="512px"}
 
@@ -47,7 +47,7 @@ E.g.均勻顏色[輸出顏色]，像素處理器[每個像素函數]
 
 **![（滴答聲）](../../assets/check.svg) 解決方案**
 
-在圖譜檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中，透過標籤和警告徽[章找到發出警告的節點，然後選擇它在屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中顯示其屬性。找到發出警告的參數，點擊「編輯功能&#x200B;**」按鈕開啟其函式**。
+在圖譜檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中，透過標籤和警告徽[章找到發出警告的節點，然後選擇它在屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中顯示其屬性。找到發出警告的參數，點擊「編輯功能&#x200B;**」按鈕開啟其函式**。
 
 接著，評估圖表視圖左下角列出的警告並解決問題。 您可以參考 [功能圖](../../function-graphs/warnings-function-graphs/warnings-in-function-graphs.md) 中的警告頁面，以了解功能圖中報告的警告故障。
 
@@ -64,7 +64,7 @@ E.g.均勻顏色[輸出顏色]，像素處理器[每個像素函數]
 
 **![（滴答聲）](../../assets/check.svg) 解決方案**
 
-在 [Explorer](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 面板中，找到該資源所提及的資源並排除該資源所引發的所有警告：
+在 [Explorer](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 面板中，找到該資源所提及的資源並排除該資源所引發的所有警告：
 
 * 關於圖表，請參考本頁其他項目
 * 其他資源請參考 [「依賴](../../resources/warnings-from-dep/warnings-from-dependencies.md) 警告」頁面
@@ -73,7 +73,7 @@ E.g.均勻顏色[輸出顏色]，像素處理器[每個像素函數]
 
 ### ![（錯誤）](../../assets/error.svg) 找不到參考資源
 
-節點所參考的資源並未在 Substance 3D[&#128279;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 檔案（SBS）中儲存的路徑中找到。以下是一些引用資源的節點：
+節點所參考的資源並未在 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 檔案（SBS）中儲存的路徑中找到。以下是一些引用資源的節點：
 
 * 圖[實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點參考一個圖
 * [位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點參考一個[位圖資源](../../resources/bitmap-resource/bitmap-resource.md)
@@ -85,11 +85,11 @@ E.g.均勻顏色[輸出顏色]，像素處理器[每個像素函數]
 對於 [圖實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 節點
 
 檢查來源圖是否存在於套件 **中，該套件位於其 Package** 屬性所儲存路徑的位置。\
-如果沒有，則刪除該實例節點，並以引用有效套件的實例節點取代。 或者，你也可以重新建立實例節點參考的套件和圖表，然後在檔案總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊右鍵，並在情境選單中選擇&#x200B;**重新載入**&#x200B;主機套件。
+如果沒有，則刪除該實例節點，並以引用有效套件的實例節點取代。 或者，你也可以重新建立實例節點參考的套件和圖表，然後在檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板點擊右鍵，並在情境選單中選擇&#x200B;**重新載入**&#x200B;主機套件。
 
 對於 [點陣](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)圖、 [SVG](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 或 [文字](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) 節點
 
-在總管[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中找到參考資源，並確認它們是否存在於檔案&#x200B;**路徑**&#x200B;屬性中儲存的位置。\
+在總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中找到參考資源，並確認它們是否存在於檔案&#x200B;**路徑**&#x200B;屬性中儲存的位置。\
 如果沒有，請在檔案總管中點擊資源項目的右鍵，並在情境選單中選擇 **「重新定位...」** 選項，為該資源設定新的有效目標檔案。
 
 ![修正「找不到參考資源」警告](../../assets/warnings-comp-referenced-resource.gif "修正「找不到參考資源」警告")

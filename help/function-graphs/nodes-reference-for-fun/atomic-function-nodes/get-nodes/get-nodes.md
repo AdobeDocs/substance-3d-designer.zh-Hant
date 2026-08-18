@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/get-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 功能圖中的節點，以擷取變數值與資料。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 ![Substance 函數圖 - 取得 float](../../../../assets/assign-getfloat.gif "Substance 函數圖 - 取得 float"){zoomable="yes"}
 
-Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的輸出中回傳，用於函式。 這些 Get 節點構成圖屬性中定義[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的輸入參數與[參數函式](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)之間的連結。
+Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的輸出中回傳，用於函式。 這些 Get 節點構成圖屬性中定義[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的輸入參數與[參數函式](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)之間的連結。
 
 每次使用「取得」節點時，你必須從下拉選單中選擇一個可用的值。 取得節點會 <b>擷取對應類型的</b>值。 這表示你只會在 Get 節點的選單中看到有效選項，無法選擇無效選項。 如果變數無法使用，代表類型不匹配
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用功能圖來創造進階的程序化材質模式與效果。
 helpx_creative_field: ""

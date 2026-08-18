@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter-data-extract.html"
 breadcrumb-title: ''
 description: 使用形狀濺射資料擷取節點，從形狀濺射操作中提取資料，進行進階圖案控制。
 helpx_creative_field: ""

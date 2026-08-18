@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 在 Designer 中存取 Substance 合成圖的完整節點參考，了解所有可用節點。
 helpx_creative_field: ""
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 [節點函式庫](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
 
-* [材質產生器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
+* [材質產生器](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/generators-159449101.html)
 * [濾鏡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)
 * [材料過濾器](../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/material-filters.md)
-* [基於網格的產生器](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
+* [基於網格的產生器](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/mesh-adaptive-159449105.html)
 * [樣條與路徑工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
 
 </td>

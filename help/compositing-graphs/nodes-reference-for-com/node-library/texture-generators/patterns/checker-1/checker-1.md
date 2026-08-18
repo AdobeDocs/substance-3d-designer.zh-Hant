@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/checker-1.html"
 breadcrumb-title: ''
 description: 使用 Checker 1 節點產生可自訂圖塊大小與顏色的棋盤格圖案，用於測試和貼圖。
 helpx_creative_field: ""

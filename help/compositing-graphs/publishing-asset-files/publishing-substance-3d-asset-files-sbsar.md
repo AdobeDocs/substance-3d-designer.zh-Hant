@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 學習如何從 Designer 發佈 Substance 3D 資產檔案（SBSAR），以便在其他應用程式和引擎中使用。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明 Substance 3D Designer 如何將套件發佈為 <b>Substance 3D 資產</b> 檔案，這是一種帶有 <b>SBSAR</b> 副檔名的特殊檔案格式，用於 Substance 生態系統及其他支援它的應用程式中。
 
-通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「送出」功能](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)會比較快。
+通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)、[Sampler](https://helpx.adobe.com/tw/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「送出」功能](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)會比較快。
 
 ![簡化](../../assets/exportflow.png "版 SBSAR 檔案發佈 簡化版")
 
@@ -49,13 +49,13 @@ ht-degree: 0%
 
 ## 出版方法
 
-一旦準備好發佈，有兩種方式可以進入發佈對話框，兩者皆透過 [檔案總管視窗](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)。
+一旦準備好發佈，有兩種方式可以進入發佈對話框，兩者皆透過 [檔案總管視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在[檔案總管視窗](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右鍵點擊套件並選擇![](../../assets/image2020-9-23-9-39-58.png)**發佈 .sbsar 檔案......**，然後切換 Ctrl + P 快捷鍵。
+在[檔案總管視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，右鍵點擊套件並選擇![](../../assets/image2020-9-23-9-39-58.png)**發佈 .sbsar 檔案......**，然後切換 Ctrl + P 快捷鍵。
 
 在用對話框發佈一次後，你也可以像之前&#x200B;**一樣使用 ![](../../assets/image2020-9-23-11-15-35.png)** Publish .sbsar 檔案，重複發佈過程而不看到對話框，然後立即以相同設定發佈。
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在 [檔案總管視窗](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，點擊頂部工具列的「發佈」按鈕 ![](../../assets/image2020-9-23-9-39-58.png) 。
+在 [檔案總管視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中，點擊頂部工具列的「發佈」按鈕 ![](../../assets/image2020-9-23-9-39-58.png) 。
 
 發佈一次對話框後，你也可以使用「發佈如前一頁」按鈕 ![](../../assets/image2020-9-23-11-15-35.png) 重複發佈過程，避免看到對話框，立即以相同設定發佈。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: 學習如何在 Designer 中建立並使用實體函數圖，建立自訂函數和可重複使用的節點網路。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 [實質函數圖處理](https://substance3d.adobe.com/) <b>單一值</b> （整數、浮點數、向量），而非影像資料（整組像素）。 函數也是帶有節點網路的圖，但 [所用](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
 
-函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 
 </td>
 </tr>
