@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-index.html"
 breadcrumb-title: ''
 description: 使用 Flood Fill to Index 節點，將區域填充索引值，以建立編號和標籤圖案。
 helpx_creative_field: ""
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 洪水填充到索引會將每個洪水填充儲存格依其索引號轉換成值，索引號從左上角的 0 開始。 它可以用來回傳灰階色調，呈現正規化形式（0.0到1.0，除以洪泛填充所找到的格數），或作為HDR未固定值（0到n，n為格數）。
 
-此外，Flood Fill to Index 採用了新的 [Value 系統，回傳包含所發現形狀數量及可選的內部資料表的額外值](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) 。
+此外，Flood Fill to Index 採用了新的 [Value 系統，回傳包含所發現形狀數量及可選的內部資料表的額外值](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html) 。
 
 ### 輸入
 

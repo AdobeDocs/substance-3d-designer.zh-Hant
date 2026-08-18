@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立 Substance 合成圖，以建立程序化貼圖工作流程。
 helpx_creative_field: ""
@@ -49,7 +49,7 @@ ht-degree: 0%
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在檔案總管中任何&#x200B;*現有*&#x200B;的套件項目[，點擊 <b>RMB</b>，然後在情境選單中切換到<b>新 > Substance 圖表</b>。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+  在檔案總管中任何&#x200B;*現有*&#x200B;的套件項目[，點擊 <b>RMB</b>，然後在情境選單中切換到<b>新 > Substance 圖表</b>。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
 
   </td>
   <td style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ ht-degree: 0%
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在 [主選單](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中，點到 <b>檔案>新的>物質圖表......</b>
+  在 [主選單](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)中，點到 <b>檔案>新的>物質圖表......</b>
 
   </td>
   <td style="border: 0;" valign="top">
@@ -246,7 +246,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 <b>大小</b>：圖表的父解析度，將控制大多數節點的輸出解析度——詳情請參閱 [輸出大小](../../compositing-graphs/output-size/output-size.md) 頁面。 寬度和高度預設是連結在一起的，你可以點擊寬高組合框之間的連結按鈕來解除連結。
 
-<b>建立圖表：</b>你可以用這個組合框建立&#x200B;*新*&#x200B;圖形的新套件，或將新圖表加入已載入[於總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中的任何&#x200B;*現有*&#x200B;套件。
+<b>建立圖表：</b>你可以用這個組合框建立&#x200B;*新*&#x200B;圖形的新套件，或將新圖表加入已載入[於總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中的任何&#x200B;*現有*&#x200B;套件。
 
 ### 幫助提示
 

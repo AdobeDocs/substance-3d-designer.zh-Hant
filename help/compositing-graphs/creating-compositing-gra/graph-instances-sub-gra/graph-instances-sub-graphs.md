@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
 breadcrumb-title: ''
 description: 利用圖實例與子圖來建立可重複使用的圖元件與模組化材質工作流程。
 helpx_creative_field: ""
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ### 我可以把自己的圖實例加入節點函式庫嗎？
 
-<b>是的，這是可行 </b>的，但需要特定的設定。 更多資訊請參閱[本文件中的「管理自訂內容與篩選」](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)頁面。
+<b>是的，這是可行 </b>的，但需要特定的設定。 更多資訊請參閱[本文件中的「管理自訂內容與篩選」](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)頁面。
 
 ### 你能檢查圖實例的來源圖嗎？
 

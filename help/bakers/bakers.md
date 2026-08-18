@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer 烘焙工具，將網格資訊計算成貼圖檔案。
 helpx_creative_field: ""

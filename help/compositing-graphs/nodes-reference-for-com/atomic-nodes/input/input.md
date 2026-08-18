@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 使用 Input 節點建立 Substance 圖表的輸入參數，供使用者公開與調整。
 helpx_creative_field: ""
@@ -145,7 +145,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> *Substance 3D 資產（SBSAR）[&#128279;](https://helpx.adobe.com/substance-3d-assets.html)不支援*輸入節點&#x200B;*的相對於輸入*&#x200B;繼承方法。在發佈套件前，將所有輸入節點的繼承方法設為 *相對於父* 節點。
+> *Substance 3D 資產（SBSAR）[&#128279;](https://helpx.adobe.com/tw/substance-3d-assets.html)不支援*輸入節點&#x200B;*的相對於輸入*&#x200B;繼承方法。在發佈套件前，將所有輸入節點的繼承方法設為 *相對於父* 節點。
 
 ## 整合屬性
 

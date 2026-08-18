@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 合成圖中暴露參數，使材質可自訂且可重複使用。
 helpx_creative_field: ""
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### 單曝光法
 
-1. 在屬性視窗[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的「特定參數」標籤下找到你想暴露的參數
+1. 在屬性視窗[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的「特定參數」標籤下找到你想暴露的參數
 1. 點選下 ![](../../../assets/image2020-9-17-15-35-59.png)拉選項按鈕
 1. 從下拉選單中選擇![](../../../assets/image2020-9-17-15-37-7.png) <b>「暴露」作為新圖形輸入</b>，這是第一個選項。
 1. <b>會出現 Expose 參數</b>對話框，請依照你的需求設定任何參數屬性。
@@ -79,7 +79,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 > 大多數數值領域都支援 *基本的數學公式* 作為輸入——例如， `17+3.5`， `7/3`， `(4+2)*3`， ， 按下 *Enter* 鍵驗證公式，結果會被輸入欄位。 若公式無效，欄位會回復到先前的值。\
-> 應用程式其他部分的部分數值欄位，例如 [屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 底座，也支援此功能。
+> 應用程式其他部分的部分數值欄位，例如 [屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 底座，也支援此功能。
 
 ![批次暴露方法攻略](../../../assets/batch-expose-2.gif "批次暴露方法攻略"){width="512px"}
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 | --- | --- |
 | [漸層斜坡](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)、[曲線編輯器](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)、[字型](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)、[關卡直方圖](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 要求無法提供使用者自訂參數的小工具。 |
 
-另一個重大限制與靜態參數[&#128279;](../../../glossary/glossary.md)有關[。這些在已發佈的Substance 3D資產](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）中無法更改。
+另一個重大限制與靜態參數[&#128279;](../../../glossary/glossary.md)有關[。這些在已發佈的Substance 3D資產](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）中無法更改。
 
 靜態參數——與動態參數不同——*在圖*&#x200B;被煮熟&#x200B;*後無法即時編輯，也就是說，為了快速且有效率地執行演算法，無法即時編輯*。每次圖表被 *編輯* 或 *發佈*&#x200B;時，Designer 都會進行煮食。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 預覽模式旨在盡可能準確地呈現已發佈的 Substance 3D 資產[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）的體驗。因此，本頁列出的限制在此模式下也會適用，例如 *列表中缺少*&#x200B;靜態參數。
+> 預覽模式旨在盡可能準確地呈現已發佈的 Substance 3D 資產[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)（SBSAR）的體驗。因此，本頁列出的限制在此模式下也會適用，例如 *列表中缺少*&#x200B;靜態參數。
 
 ![複製並貼上輸入參數](../../../assets/copy-paste-params-2.gif "複製並貼上輸入參數"){width="512px"}
 

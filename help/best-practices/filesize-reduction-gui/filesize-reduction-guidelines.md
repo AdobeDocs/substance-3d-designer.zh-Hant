@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: 學習減少 Substance 圖檔案大小的指引，以優化效能與儲存需求。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在某些情況下，Substance 3D 資產（SBSAR）[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的總檔案大小可能是一個重要因素。本頁涵蓋幾個關鍵領域與設定，建議在嘗試縮小檔案大小時留意。
 
-檔案大小主要由 [嵌入的點陣圖決定。](../../resources/bitmap-resource/bitmap-resource.md) 這些檔案會連結、嵌入或烘焙，並作為資源加入  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 檔案（SBS）。 只有用於圖形中的位圖，也就是直接或透過節點鏈連接到輸出的位圖，才會被發佈在 Substance 3D 資產中。 在 Substance 3D 檔案中，點陣圖對檔案大小沒有影響，因為所有點陣資源仍儲存在檔案外部。
+檔案大小主要由 [嵌入的點陣圖決定。](../../resources/bitmap-resource/bitmap-resource.md) 這些檔案會連結、嵌入或烘焙，並作為資源加入  [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 檔案（SBS）。 只有用於圖形中的位圖，也就是直接或透過節點鏈連接到輸出的位圖，才會被發佈在 Substance 3D 資產中。 在 Substance 3D 檔案中，點陣圖對檔案大小沒有影響，因為所有點陣資源仍儲存在檔案外部。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 檔案大小因素
 
-影響SBSAR[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)總檔案大小有幾個不同的因素。以下列出這些問題，並附有簡短說明。
+影響SBSAR[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)總檔案大小有幾個不同的因素。以下列出這些問題，並附有簡短說明。
 
 +++解決方法
 顯然影響很大。 盡量用最小解析度，記得你可能也希望 Substance 檔案能支援高解析度。 你可以用標準的解析度遮罩技巧，讓較小的位圖看起來更大。
@@ -63,14 +63,14 @@ ht-degree: 0%
 +++點陣圖格式封裝
 在資源屬性中，你可以選擇「原始」或「JPEG」壓縮。 這對最終結果會有相當大的影響。
 
-*可於：點陣資源 [屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*可於：點陣資源 [屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
 +++點陣圖壓縮品質套件
 使用「Jpeg」點陣圖格式時，下方的滑桿會影響畫質和檔案大小。 這個滑桿的行為不太可預測，但 1 通常對應最高品質的 JPG 壓縮，0.5 則是最小的壓縮。
 
-*可於：點陣資源 [屬性](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*可於：點陣資源 [屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
 
 +++
 
