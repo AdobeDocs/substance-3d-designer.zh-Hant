@@ -36,16 +36,16 @@ ht-degree: 0%
 
 ![量化色彩 2](../../assets/GIF3_2.gif){zoomable="yes"}
 
-* <b>桑原濾鏡</b>：如果你想更進一步的風格化，可以透過各向異性桑原色彩](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)濾鏡產生一些繪畫般的效果[。在細節上，它會套用各向異性方向模糊，以符合影像細節。 結果是影像似乎沿著內部形狀的方向流動。
+* <b>桑原濾鏡</b>：如果你想更進一步的風格化，可以透過各向異性桑原色彩[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)濾鏡產生一些繪畫般的效果。在細節上，它會套用各向異性方向模糊，以符合影像細節。 結果是影像似乎沿著內部形狀的方向流動。
 
-這些節點（量化色彩與各向異性桑原）在本教學](https://www.adobe.com/go/designer-tutorial-quantize)中有[詳細說明。它展示了如何用它們來風格化材質，以及更有效率且直覺地處理顏色！
+這些節點（量化色彩與各向異性桑原）在本教學[&#128279;](https://www.adobe.com/go/designer-tutorial-quantize)中有詳細說明。它展示了如何用它們來風格化材質，以及更有效率且直覺地處理顏色！
 
 其他強大的節點加入隊伍：
 
 * [<b>曲率平滑</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)：這個新版本現在正確支援所有平鋪模式，新增兩個輸出（凸性和凹度），並且在準確度和效能上都有所提升。
-* <b>[直方圖平衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md）：</b> 此節點透過調整數值以取得均勻分布，使灰階影像的直方圖得到均衡。 此節點附有兩個伴隨節點：[直方圖渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)以輸出影像直方圖，直[方圖計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>則以像素列編碼直方圖。
-* <b>[斜角平滑](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md）：</b>多虧了他的一個，你可以從遮罩的邊界（向外、向內或兩者）繪製漸層或平面色。 節點 [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>也會畫梯度，但方向是特定的。
-* <b>[正常解體](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md）：</b>此節點與法線結合](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)節點相反[，它從法線貼圖中移除高度圖描述的表面細節。
+* <b>[直方圖平衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md)：</b> 此節點透過調整數值以取得均勻分布，使灰階影像的直方圖得到均衡。 此節點附有兩個伴隨節點：[直方圖渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)以輸出影像直方圖，直[方圖計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>則以像素列編碼直方圖。
+* <b>[斜角平滑](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)：</b>多虧了他的一個，你可以從遮罩的邊界（向外、向內或兩者）繪製漸層或平面色。 節點 [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>也會畫梯度，但方向是特定的。
+* <b>[正常解體](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md)：</b>此節點與法線結合[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)節點相反，它從法線貼圖中移除高度圖描述的表面細節。
 
 <table>
 <tr style="border: 0;">
@@ -133,9 +133,9 @@ ht-degree: 0%
 
 * <b>在大型專案中，效能 </b>與 <b>反應</b> 速度都有所提升。 例如，移除節點的速度可以快 75 倍。 [同時，參考多次相同點陣圖的圖形也縮短了烹調](../../glossary/glossary.md) 時間。
 * <b>繼承參數</b>：當參數被 [繼承](../../glossary/glossary.md)時，我們不再顯示預設值，而是顯示繼承的參數，讓你知道目前使用的值。 想了解更多關於繼承的資訊，請參閱[我們文件](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的專頁。
-* <b>MacOS 上的觸控板支援</b> 已經完全重新設計，使其更自然且與其他軟體保持一致。 將節點移出圖視](../../interface/the-graph-view/the-graph-view.md)圖邊界[也被重新思考，以使節點在所有作業系統間更流暢且一致。
+* <b>MacOS 上的觸控板支援</b> 已經完全重新設計，使其更自然且與其他軟體保持一致。 將節點移出圖視[&#128279;](../../interface/the-graph-view/the-graph-view.md)圖邊界也被重新思考，以使節點在所有作業系統間更流暢且一致。
 
-* <b>2D 視圖：</b>當 2D 視圖](../../interface/2d-view/2d-view.md)啟用[平板顯示時，你現在甚至可以取得原本圖塊上不存在的像素值：檢查[取樣](../../glossary/glossary.md)和跨圖塊的值轉換非常有幫助。
+* <b>2D 視圖：</b>當 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)啟用平板顯示時，你現在甚至可以取得原本圖塊上不存在的像素值：檢查[取樣](../../glossary/glossary.md)和跨圖塊的值轉換非常有幫助。
 
 ![二維視角](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 請注意，這些更新帶來兩大主要後果：
 
 * <b>Linux 需求</b> 已改變，Designer 現在要求 RHEL 版本 8 或 9（CentOS 已不再支援）。 所有細節皆可於 [系統需求](../../getting-started/system-requirements/system-requirements.md) 頁面找到。
-* <b>Designer 的外掛必須更新 </b>，因為 Qt6 中有些函式已被棄用。 你可以在社群論壇](https://community.adobe.com/t5/substance-3d-designer-discussions/plugins-required-updates-in-designer-14-0/td-p/14768559)找到所有更新插件[所需的資訊。
+* <b>Designer 的外掛必須更新 </b>，因為 Qt6 中有些函式已被棄用。 你可以在社群論壇[&#128279;](https://community.adobe.com/t5/substance-3d-designer-discussions/plugins-required-updates-in-designer-14-0/td-p/14768559)找到所有更新插件所需的資訊。
 
 ## 發行說明
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 * [內容]廢棄 Substance 函式圖中的「Negate Float1」節點
 * [內容]將「量化色彩」改名為「量化色彩（簡單）」
 * [2D 視圖]資訊面板中 0-1 範圍外像素的顯示值
-* [引擎][文字]部分字型的新字間調整
+* [引擎]&#x200B;[文字]部分字型的新字間調整
 * [圖]在使用上下文編輯時，改善編輯深度子圖時的失效時間
 * [連結器]請勿在 SBSASM 中重複點陣圖
 * [參數]新增一個新的「函數」小工具，適用於所有輸入參數類型
