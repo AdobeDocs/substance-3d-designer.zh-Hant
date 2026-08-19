@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.4 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 參數欄位中的型別公式
 
-當你想輸入特定參數值時，不再需要用計算機或在腦中計算。 你現在可以在 Properties[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 及應用程式其他地方設定參數數值時，直接輸入加法、除法、多數或減法等基本公式。
+當你想輸入特定參數值時，不再需要用計算機或在腦中計算。 你現在可以在 Properties[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html) 及應用程式其他地方設定參數數值時，直接輸入加法、除法、多數或減法等基本公式。
 
 ![](../../assets/final-formula.gif){width="640px"}
 

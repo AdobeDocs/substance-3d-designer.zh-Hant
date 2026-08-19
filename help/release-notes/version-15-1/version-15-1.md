@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 15.1 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
