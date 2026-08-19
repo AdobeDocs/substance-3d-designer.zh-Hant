@@ -24,7 +24,8 @@ ht-degree: 0%
 
 ## 說明
 
-從 Shape splatter v2 節點產生[的一系列形狀中計算出遮罩。<br><br>可用選項包括隨機選擇，以及依據獨特識別碼和/或材質 ID/圖案 ID* 選擇形狀範圍。<br><br>形狀會由 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點預先遮罩[，根據<i>形狀高度與背景高度的高度混合</i>。](../shape-splatter-v2/shape-splatter-v2.md)<br>背景和未選取的形狀都是純黑色。 （即值為 0）<br><br><b>*：</b> 從 Shape splatter UVW 輸入中取得的其中一個值是材質 ID 或圖案 ID，視 Shape splatter v2 節點中使用的形狀類型</b>而定<b>：<br>- <i>SDF/primitive</i>：材質 ID<br>- <i>圖案輸入/格網圖集：</i>圖案 ID，即列表/圖集中圖案的索引。
+從 Shape splatter v2 節點產生[&#128279;](../shape-splatter-v2/shape-splatter-v2.md)的一系列形狀中計算出遮罩。<br><br>可用選項包括隨機選擇，以及依據獨特識別碼和/或材質 ID/圖案 ID* 選擇形狀範圍。<br><br>形狀會由 Shape splatter v2 節點預先遮罩[&#128279;](../shape-splatter-v2/shape-splatter-v2.md)，根據<i>形狀高度與背景高度的高度混合</i>。<br>背景和未選取的形狀都是純黑色。 （即值為 0）<br><br><b>*：</b> 從 Shape splatter UVW 輸入中取得的其中一個值是材質 ID 或圖案 ID，視 Shape splatter v2 節點中使用的形狀類型</b>而定<b>：<br>- <i>SDF/primitive</i>：材質 ID<br>- <i>圖案輸入/格網圖集：</i>圖案 ID，即列表/圖集中圖案的索引。
+
 
 </td>
 </tr>
