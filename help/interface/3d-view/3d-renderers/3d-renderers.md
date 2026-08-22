@@ -178,7 +178,7 @@ Adobe 標準化著色器。 確保所有 Adobe Substance 3D 應用程式間的�
 
 <b>鑲嵌 + 位移</b> - 將幾何體細分，並沿法線位移頂點。
 
-Adobe 標準材料在本節[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細記錄。
+Adobe 標準材料在本節[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細記錄。
 
 +++
 

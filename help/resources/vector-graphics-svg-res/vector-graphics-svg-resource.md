@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Substance 3D Designer 支援有限形式的向量圖形，透過可縮放向量圖形格式。 SVG 檔案可以用不同方式作為資源，作為圖表的資源。
 
-SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >

@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
+根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
 
 這會產生從模型底部到頂部的白轉黑過渡，對於基於幾何的衰減與選擇非常有用。
 
