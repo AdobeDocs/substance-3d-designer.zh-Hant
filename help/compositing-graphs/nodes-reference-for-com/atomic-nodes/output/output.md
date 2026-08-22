@@ -52,7 +52,7 @@ ht-degree: 0%
 | <b>識別碼</b> *弦* | 輸出的唯一識別碼。 此屬性不能留空，且不得包含特殊字元或空格。 識別碼是因為節點的標籤是空白的，「Label」屬性會留空。 它也可以用來命名 [匯出的材質](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *弦* | 輸出工具提示的可選描述是 Substance 圖表。 |
 | <b>唱片公司</b> *弦* | 此標記用於輸出節點，並在代表此圖的實例節點[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中作為對應連接器。標籤可能包含空格和特殊字元。 |
-| <b>使用者資料</b> *弦* | 可選的元資料可用於特定過濾操作。 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d/apps/painter.html) 利用這些資料來 [推動部分功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)...... |
+| <b>使用者資料</b> *弦* | 可選的元資料可用於特定過濾操作。 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d/apps/painter.html) 利用這些資料來 [推動部分功能](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)...... |
 | <b>團體</b> *弦* | 屬性用於將輸出群組在一起，用於 Designer [的連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 具有相同「群組」屬性的輸出會在「Compact Material」連結建立模式下以單一連線呈現。 |
 
 ## 整合屬性

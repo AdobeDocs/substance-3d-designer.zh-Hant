@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## TDR（僅限 Windows）
 
-<b>[![（錯誤）](../../assets/error.svg)]（https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash） 問題</b>
+<b>[![（錯誤）](../../assets/error.svg)]（https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash） 問題</b>
 
 系統的 <b>逾時偵測與恢復（TDR）</b> 計時 *器過短* ，無法讓 Substance 3D Designer 在圖形驅動 *程式重新啟動*&#x200B;前完成當前運算。
 
@@ -33,4 +33,4 @@ Substance 3D Designer 執行的運算可能非常繁重，且會大量使用圖�
 
 <b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
-TDR 計時器值需要提高&#x200B;**，以防止此類當機。你可以依照[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Substance 3D Painter 文件頁面中的指示操作，這些指示同樣適用於 Substance 3D Designer。
+TDR 計時器值需要提高&#x200B;**，以防止此類當機。你可以依照[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Substance 3D Painter 文件頁面中的指示操作，這些指示同樣適用於 Substance 3D Designer。

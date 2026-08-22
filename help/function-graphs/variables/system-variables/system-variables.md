@@ -62,5 +62,5 @@ ht-degree: 1%
 
 | 名稱 | 類型 | 目的 |
 | --- | --- | --- |
-| $time | 浮標 | 此變數回傳自物質引擎啟動以來的時間（秒數）。 它可用於結果應隨時間變化的圖表中。  **注意：**  雖然目前無法在 Designer 中更改此數值，但整合 Substance Engine 的應用程式可利用此功能，例如 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) 用於動畫或 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 用於 [動態筆觸](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)。 |
+| $time | 浮標 | 此變數回傳自物質引擎啟動以來的時間（秒數）。 它可用於結果應隨時間變化的圖表中。  **注意：**  雖然目前無法在 Designer 中更改此數值，但整合 Substance Engine 的應用程式可利用此功能，例如 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html) 用於動畫或 [Substance 3D Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 用於 [動態筆觸](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/painting/dynamic-strokes/creating-custom-dynamic-strokes)。 |
 | $normalformat | 整數 | 這是目前環境中使用的標準格式（例如 DirectX 或 OpenGL）。  **注意：**  此變數在 Designer 中無效，其他整合 Substance Engine 的應用程式可能會使用。 |
