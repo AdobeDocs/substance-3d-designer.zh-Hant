@@ -41,7 +41,7 @@ ht-degree: 0%
 
 節點輸出的 <b>影像包含編碼資料</b> ，代表路徑與樣條曲線。
 
-例如，右側的圖片代表 Paths 多邊形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)節點的影像[輸出。
+例如，右側的圖片代表 Paths 多邊形[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)節點的影像輸出。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 1. 工具組大量運用 <b>Substance Engine</b> 功能，在 GPU 上運行速度大幅提升。 因此，請使用系統的 GPU 版本引擎： <b>Direct3D</b> （Windows）或 <b>OpenGL</b> （macOS）。\
    你可以按 F9</b> 鍵切換引擎<b>，或是進入<b>主選單列的 Tools > Switch 引擎</b>。
-1. 接著，我們強烈建議<b>在偏好設定](../../../../../interface/preferences-window/preferences-window.md)的圖表</b>區[關閉上下文編輯</b><b>（前往<b>主選單列的>編輯偏好設定......</b>可進入此視窗）。\
+1. 接著，我們強烈建議<b>在偏好設定[&#128279;](../../../../../interface/preferences-window/preferences-window.md)的圖表</b>區關閉上下文編輯</b><b>（前往<b>主選單列的>編輯偏好設定......</b>可進入此視窗）。\
    上下文編輯允許你在主機圖的上下文中開啟實例節點，這確實非常方便，但副作用是工具組影像快取所需的計算量呈指數成長。
 
 只要將這兩個設定改成建議狀態，你應該會注意到顯著的效能提升。
@@ -94,8 +94,8 @@ ht-degree: 0%
 
 [路徑多邊形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)會產生一條形狀為指定半徑與邊數的多邊形路徑。
 
-另外，也可以透過「遮罩到路徑](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」節點從灰階影像[中擷取路徑。\
-目前這是產生複雜形狀的唯一方法，並且讓你能利用整個 Substance 圖形節點](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)庫[，產生最終會轉換成路徑的形狀。
+另外，也可以透過「遮罩到路徑[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」節點從灰階影像中擷取路徑。\
+目前這是產生複雜形狀的唯一方法，並且讓你能利用整個 Substance 圖形節點[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)庫，產生最終會轉換成路徑的形狀。
 
 ![路徑產生節點路徑](../../../../../assets/Paths_Generation.jpg "產生節點"){width="600px"}
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 
 你也可以透過「 [路徑選擇](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-select/paths-select.md) 」節點，依索引或長度選擇路徑來移除不需要的路徑。
 
-在路徑頂點處理器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點的協助[下，可以對路徑的每一點進行更複雜的處理。[有更簡單的版本](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)用於較輕的調整。
+在路徑頂點處理器[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點的協助下，可以對路徑的每一點進行更複雜的處理。[有更簡單的版本](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor-1/paths-vertex-processor-simple.md)用於較輕的調整。
 
 <table>
 <tr style="border: 0;">
@@ -114,7 +114,7 @@ ht-degree: 0%
 ### 預覽路徑節點
 
 預視路徑節點的結果則使用專用 [的預覽路徑](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) 節點來完成。\
-此節點沒有輸出。 雙擊節點上的 LMB 即可在 2D 視圖](../../../../../interface/2d-view/2d-view.md)中顯示預覽[畫面。
+此節點沒有輸出。 雙擊節點上的 LMB 即可在 2D 視圖[&#128279;](../../../../../interface/2d-view/2d-view.md)中顯示預覽畫面。
 
 獨立路徑在預覽中會有獨特的顏色，方便區分每條路徑。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 
 ### 通往樣條的路徑
 
-你可以利用所有專門針對帶有路徑的樣條曲線工具組，透過 Paths to Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 節點將路徑轉換成樣條曲線[。
+你可以利用所有專門針對帶有路徑的樣條曲線工具組，透過 Paths to Spline[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 節點將路徑轉換成樣條曲線。
 
 請記住樣條曲線是曲線，因此無法保留路徑的銳利度。 在將路徑轉換成樣條曲線時，可以預期形狀會有些平滑。
 
@@ -142,7 +142,7 @@ ht-degree: 0%
 ### 路徑格式規範
 
 預覽路徑節點是必要的，因為路徑節點會輸出以彩色影像編碼的路徑資料。\
-此編碼遵循路徑格式規範](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)頁面所述[的規範。
+此編碼遵循路徑格式規範[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)頁面所述的規範。
 
 你可以利用這個規格來製作屬於自己的節點，並充分利用 [Paths 頂點處理器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 節點。
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 
 ### 樣條曲線的產生
 
-樣條可透過樣條圓](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)、[樣條（三次曲線）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)或[樣條曲線（多二次曲線）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)等節點[生成。這些節點讓你能根據節點的不同控制方式，繪製任意軌跡的樣條曲線。
+樣條可透過樣條圓[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)、[樣條（三次曲線）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-cubic/spline-cubic.md)或[樣條曲線（多二次曲線）](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)等節點生成。這些節點讓你能根據節點的不同控制方式，繪製任意軌跡的樣條曲線。
 
 或者，也 [可以透過 Paths to Spline](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 節點從路徑中擷取樣條曲線。\
 請記住樣條曲線是曲線，因此無法保留路徑的銳利度。 在將路徑轉換成樣條曲線時，可以預期形狀會有些平滑。
@@ -183,7 +183,7 @@ ht-degree: 0%
 
 因此，考慮你將樣條線相連的順序非常重要。
 
-這會影響需要將樣條線合併的節點，例如[樣條橋（列表）、[](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)樣條橋映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)和[樣條合併清單](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)。
+這會影響需要將樣條線合併的節點，例如[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)樣條橋（列表）、[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)樣條橋映射器和[樣條合併清單](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)。
 
 ![附加帶有連結建立模式](../../../../../assets/LinkCreationMode_Splines.gif "的樣條 附帶連結建立模式的樣條")
 
@@ -247,6 +247,6 @@ ht-degree: 0%
 
 使用樣條曲線生成圖形主要有三種方式：
 
-* 使用樣條](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)[渲染或樣](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)條填充節點，利用形狀與屬性[渲染樣條曲線;
-* 沿樣條曲線繪圖影像，搭配像樣條映射](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器、[[樣條橋映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)及[樣條流映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-flow-mapper/spline-flow-mapper.md)等映射節點;
+* 使用樣條[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md) [渲染或樣](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)條填充節點，利用形狀與屬性渲染樣條曲線;
+* 沿樣條曲線繪圖影像，搭配像樣條映射[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器、[樣條橋映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)及[樣條流映射器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-flow-mapper/spline-flow-mapper.md)等映射節點;
 * 沿著樣條線進行散佈圖案，使用 [散佈在樣條](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md) 線上的散佈節點。

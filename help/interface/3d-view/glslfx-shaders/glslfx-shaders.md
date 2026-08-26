@@ -595,14 +595,14 @@ uniform mat4 worldMatrix;\
 uniform mat4 worldViewProjMatrix;
 
 虛空主（）\
-{\
+&lbrace;\
 gl\_Position = worldViewProjMatrix \&#42; iVS\_Position;\
 iFS\_Normal = iVS\_Normal.xyz;\
 iFS\_UV = iVS\_UV;\
 iFS\_Tangent = iVS\_Tangent.xyz;\
 iFS\_Binormal = iVS\_Binormal.xyz;\
 iFS\_PointWS = （worldMatrix \&#42; iVS\_Position）.xyz;\
-}
+&rbrace;
 
 ### 鑲嵌頂點著色器檔案
 
@@ -610,9 +610,9 @@ iFS\_PointWS = （worldMatrix \&#42; iVS\_Position）.xyz;\
 
 內容：
 
->> 
+&#x200B;>> 
 
-#version 120
+&#x200B;#version 120
 
 attribute vec4 iVS\_Position;\
 attribute vec4 iVS\_Normal;\
@@ -626,13 +626,13 @@ attribute vec4 iVS\_Tangent;\
 變化的 vec4 oVS\_Binormal;
 
 虛空主（）\
-{\
+&lbrace;\
 gl\_Position = iVS\_Position;\
 oVS\_Normal = iVS\_Normal;\
 oVS\_UV = iVS\_UV;\
 oVS\_Tangent = iVS\_Tangent;\
 oVS\_Binormal = iVS\_Binormal;\
-}
+&rbrace;
 
 ### 鑲嵌控制著色器檔案
 
@@ -640,10 +640,10 @@ oVS\_Binormal = iVS\_Binormal;\
 
 內容：
 
->> 
+&#x200B;>> 
 
-#version 400 核心\
-#extension GL\_ARB\_tessellation\_shader ： 啟用
+&#x200B;#version 400 核心\
+&#x200B;#extension GL\_ARB\_tessellation\_shader ： 啟用
 
 layout（頂點數 = 3）向外;
 
@@ -660,7 +660,7 @@ out vec4 oTCS\_Binormal[];
 均勻浮點鑲嵌因子;
 
 虛空主（）\
-{\
+&lbrace;\
 gl\_TessLevelOuter[0] = 鑲嵌因子;\
 gl\_TessLevelOuter[1] = 鑲嵌因子;\
 gl\_TessLevelOuter[2] = 鑲嵌因子;\
@@ -671,7 +671,7 @@ oTCS\_Normal[gl\_InvocationID] = oVS\_Normal[gl\_InvocationID];\
 oTCS\_UV[gl\_InvocationID] = oVS\_UV[gl\_InvocationID];\
 oTCS\_Tangent[gl\_InvocationID] = oVS\_Tangent[gl\_InvocationID];\
 oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
-}
+&rbrace;
 
 ### Tessellation Evaluation 著色器檔案
 
@@ -679,9 +679,9 @@ oTCS\_Binormal[gl\_InvocationID] = oVS\_Binormal[gl\_InvocationID];\
 
 內容：
 
->> 
+&#x200B;>> 
 
-#version 400 核心
+&#x200B;#version 400 核心
 
 佈局（三角形、等於_spacing、CCW）在內;
 
@@ -705,17 +705,17 @@ uniform sampler2D heightMap;
 出 vec3 iFS\_PointWS;
 
 vec3 interpolate3D（vec3 v0， vec3 v1， vec3 v2， vec3 uvw）\
-{\
+&lbrace;\
 回傳 UVW.x \&#42; v0 + UVW.Y \&#42; v1 + UVW.z \&#42; V2;\
-}
+&rbrace;
 
 vec2 interpolate2D（vec2 v0， vec2 v1， vec2 v2， vec3 uvw）\
-{\
+&lbrace;\
 回傳 UVW.x \&#42; v0 + UVW.Y \&#42; v1 + UVW.z \&#42; V2;\
-}
+&rbrace;
 
 虛空主（）\
-{\
+&lbrace;\
 VEC3 UVW = GL\_TessCoord.xyz;
 
 vec3 newPos = interpolate3D（gl\_in[0].gl\_Position.xyz， gl\_in[1].gl\_Position.xyz， gl\_in[2].gl\_Position.xyz， uvw）;\
@@ -735,7 +735,7 @@ iFS\_Tangent = newTangent;\
 iFS\_Binormal = newBinormal;\
 iFS\_Normal = newNormal;\
 iFS\_PointWS = （worldMatrix \&#42; obj\_pos）.xyz;\
-}
+&rbrace;
 
 ### 片段著色器檔案
 
@@ -743,24 +743,24 @@ iFS\_PointWS = （worldMatrix \&#42; obj\_pos）.xyz;\
 
 內容：
 
->> 
+&#x200B;>> 
 
-#version 120
+&#x200B;#version 120
 
-#define ALG\_NORMAL\_DIRECTX\
-#define ALG\_NORMAL_OPENGL
+&#x200B;#define ALG\_NORMAL\_DIRECTX\
+&#x200B;#define ALG\_NORMAL_OPENGL
 
-#ifdef ALG\_NORMAL\_DIRECTX\
-#define 翻_NORMAL_X\
-#define 翻_NORMAL_Y\
-#define 翻_NORMAL\_Z\
-#endif //#ifdef ALG\_NORMAL\_DIRECTX
+&#x200B;#ifdef ALG\_NORMAL\_DIRECTX\
+&#x200B;#define 翻_NORMAL_X\
+&#x200B;#define 翻_NORMAL_Y\
+&#x200B;#define 翻_NORMAL\_Z\
+&#x200B;#endif //#ifdef ALG\_NORMAL\_DIRECTX
 
-#ifdef ALG\_NORMAL\_OPENGL\
-#define 翻_NORMAL_X\
-#define 翻_NORMAL_Y\
-#define 翻_NORMAL\_Z\
-#endif //#ifdef ALG\_NORMAL\_OPENGL
+&#x200B;#ifdef ALG\_NORMAL\_OPENGL\
+&#x200B;#define 翻_NORMAL_X\
+&#x200B;#define 翻_NORMAL_Y\
+&#x200B;#define 翻_NORMAL\_Z\
+&#x200B;#endif //#ifdef ALG\_NORMAL\_OPENGL
 
 變化 vec3 iFS\_Normal;\
 變化的 vec² iFS\_UV;\
@@ -801,17 +801,17 @@ uniform mat4 worldInverseTransposeMatrix;\
 均勻 mat4 視圖逆矩陣;
 
 vec4 litFct（float NdotL， float NdotH， float specExp）\
-{\
+&lbrace;\
 浮點環境 = 1.0;\
 float diffuse = max（NdotL， 0.0）;\
 float 鏡面 = step（0.0， NdotL） \&#42; pow（max（0.0， NdotH）， specExp）;\
 回傳 vec4（環境、漫射、鏡面、1.0）;\
-}
+&rbrace;
 
 vec3 lerpFct（vec3 v0， vec3 v1， float percent）\
-{\
+&lbrace;\
 回放 V0 + （V1-V0） \&#42; 百分比;\
-}
+&rbrace;
 
 蓬遮陽\
 虛空的 Phong\_shading（\
@@ -821,37 +821,37 @@ vec3 lerpFct（vec3 v0， vec3 v1， float percent）\
 在 vec3 pointToCameraDirWS，\
 inout vec3 DiffuseContrib，\
 內含 vec3 SpecularContrib）\
-{\
+&lbrace;\
 vec3 Hn = normalize（pointToCameraDirWS + pointToLightDirWS）;\
 vec4 litV = litFct（dot（normalWS， pointToLightDirWS）， dot（normalWS， Hn）， SpecExpon）;\
 DiffuseContrib = litV.y \&#42; LightColor;\
 SpecularContrib = litV.y \&#42; litV.z \&#42; Ks \&#42; LightColor;\
-}
+&rbrace;
 
 vec3 fixNormalSample（vec3 v）\
-{\
+&lbrace;\
 VEC3 結果 = v - VEC3（0.5,0.5,0.5）;
 
-#ifdef 翻_NORMAL_X\
+&#x200B;#ifdef 翻_NORMAL_X\
 result.x = -result.x;\
-#endif // ifdef FLIP\_NORMAL\_X\
-#ifdef 翻_NORMAL_Y\
+&#x200B;#endif // ifdef FLIP\_NORMAL\_X\
+&#x200B;#ifdef 翻_NORMAL_Y\
 result.y = -result.y;\
-#endif // ifdef FLIP\_NORMAL\_Y\
-#ifdef 翻_NORMAL_Z\
+&#x200B;#endif // ifdef FLIP\_NORMAL\_Y\
+&#x200B;#ifdef 翻_NORMAL_Z\
 result.z = -result.z;\
-#endif // 如果 def FLIP\_NORMAL\_Z
+&#x200B;#endif // 如果 def FLIP\_NORMAL\_Z
 
 回傳結果;\
-}
+&rbrace;
 
 vec3 normalVecOSToWS（vec3 normal）\
-{\
+&lbrace;\
 返回正常;\
-}
+&rbrace;
 
 虛空主（）\
-{\
+&lbrace;\
 vec3 cameraPosWS = viewInverseMatrix[3].xyz;\
 vec3 pointToLight0DirWS = normalize（Lamp0Pos - iFS\_PointWS）;\
 vec3 pointToLight1DirWS = normalize（Lamp1Pos - iFS\_PointWS）;\
@@ -936,16 +936,16 @@ vec3 Ambiant\_final = diffuseColor.rgb\&#42;AmbiColor;
 vec3 emissive = texture2D（emissiveMap，uv）.xyz;
 
 VEC3 Finalcolor = 環境音_final\
-+ specularColor\&#42;specContrib\
-+ diffuseColor.rgb\&#42;diffContrib\
-+ （reflColor\&#42;specularColor\&#42;FallofRefl）\
-+ 發射;
+&#x200B;+ specularColor\&#42;specContrib\
+&#x200B;+ diffuseColor.rgb\&#42;diffContrib\
+&#x200B;+ （reflColor\&#42;specularColor\&#42;FallofRefl）\
+&#x200B;+ 發射;
 
 最終色彩\
 vec4 finalColor4 = vec4（finalcolor， texture2D（opacityMap，uv））;
 
 gl\_FragColor = finalColor4;\
-}
+&rbrace;
 
 ### GLSLFX 檔案
 

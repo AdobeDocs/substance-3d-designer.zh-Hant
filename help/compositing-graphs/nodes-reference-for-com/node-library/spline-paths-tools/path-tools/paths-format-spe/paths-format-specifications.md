@@ -77,7 +77,7 @@ top[uv\_pos] 和 bottom[uv\_pos] 共同構成文件的語意單元 U[uv\_pos]，
 
 本文件的像素大小（即精確 `Float2(1,1) / $size`的 ）。
 
-這在讀取來自像素處理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的路徑[時非常有用，因為輸出大小不同。
+這在讀取來自像素處理器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的路徑時非常有用，因為輸出大小不同。
 
 <b>W</b>
 
@@ -90,7 +90,7 @@ top[uv\_pos] 和 bottom[uv\_pos] 共同構成文件的語意單元 U[uv\_pos]，
 
 本文件中定義的最後一個頂點的位址。 這對於新增資料很有幫助。
 
-因此，它實際上可以是任何位於掃描線順序中大於最後一個頂點位址的位址。 它必須在範圍內 ]0， 1[×]0，.5[
+因此，它實際上可以是任何位於掃描線順序中大於最後一個頂點位址的位址。 它必須在範圍內 &rbrack;0， 1[×]0，.5&lbrack;
 
 <b>ZW</b>
 
@@ -288,7 +288,7 @@ E.g. 如果文件中有三條路徑，它們會儲存在 U[（0,1）\*pixel\_siz
 
 在資料夾`Write`下方，你會找到一些小型輔助工具，可以建立一個 Float4，讓 <b>[Fx-Map]（../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md）。</b>
 
-事實上， [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 在繪製前會將 RGB 乘以 Alpha，因此實際值會被取消預乘以補償這點。 如果你想在 Pixel 處理器](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)中使用這些函式，我們建議你自己重新套用預乘法，或是寫一個自訂版本（更[符合你的使用情境且更易使用）。
+事實上， [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 在繪製前會將 RGB 乘以 Alpha，因此實際值會被取消預乘以補償這點。 如果你想在 Pixel 處理器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)中使用這些函式，我們建議你自己重新套用預乘法，或是寫一個自訂版本（更符合你的使用情境且更易使用）。
 
 +++document_header
 建立文件標頭的上半部，並宣告你提供的路徑數量。
@@ -312,7 +312,7 @@ E.g. 如果文件中有三條路徑，它們會儲存在 U[（0,1）\*pixel\_siz
 
 +++
 
-路徑標頭和頂點都沒有底部部分建構器：兩者都編碼兩個連結到頂部部分，因此這個函式本質上是從兩個 Float2 中構建出的向量 Float4 構造子。 如果你用 Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 來寫[，別忘了把 XYZ 除以 W（W 是地址的 Y，絕對不應該是 null）。
+路徑標頭和頂點都沒有底部部分建構器：兩者都編碼兩個連結到頂部部分，因此這個函式本質上是從兩個 Float2 中構建出的向量 Float4 構造子。 如果你用 Fx-Map[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 來寫，別忘了把 XYZ 除以 W（W 是地址的 Y，絕對不應該是 null）。
 
 你可以在托管 [Paths 多邊形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)節點的 path\_polygon.sbs </b>*套件中找到如何使用這些函式<b>*&#x200B;的相關範例。
 
@@ -325,7 +325,7 @@ E.g. 如果文件中有三條路徑，它們會儲存在 U[（0,1）\*pixel\_siz
 
 你首先需要熟悉 Fx-Map。 如果不是這樣，請查看 [具體文件](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)。
 
-我們建議你參考 paths\_trace.sbs 中的&#x200B;<b>*預覽路徑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)實作[，以及 [paths\_polygon.sbs*</b> 中的&#x200B;<b>*路徑多邊形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)，了解如何使用 Fx-Map 分別讀取與寫入*</b>&#x200B;路徑。
+我們建議你參考 paths\_trace.sbs 中的&#x200B;<b>*預覽路徑[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)實作，以及 [paths\_polygon.sbs*</b> 中的&#x200B;<b>*路徑多邊形](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)，了解如何使用 Fx-Map 分別讀取與寫入*</b>&#x200B;路徑。
 
 +++
 

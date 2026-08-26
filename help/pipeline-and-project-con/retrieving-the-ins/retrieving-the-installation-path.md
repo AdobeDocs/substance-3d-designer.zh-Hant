@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 取回安裝路徑
 
-本頁彙整了根據版本與平台，如何取得 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 安裝路徑[的資訊。
+本頁彙整了根據版本與平台，如何取得 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 安裝路徑的資訊。
 
 ## 窗戶
 

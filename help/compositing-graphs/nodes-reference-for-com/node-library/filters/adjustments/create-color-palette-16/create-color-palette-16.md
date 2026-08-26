@@ -67,7 +67,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>調色盤</b> *色彩 原色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。   此輸入為可選。 若使用，節點設定的顏色會附加到此調色盤中。   調色盤可用「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化[。 |
+| <b>調色盤</b> *色彩 原色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。   此輸入為可選。 若使用，節點設定的顏色會附加到此調色盤中。   調色盤可用「檢視色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化。 |
 | <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量。   如果這個數字與「調色盤」影像輸入中的實際顏色數量不符，視覺化可能不完整，或有比絕對必要的空白欄位還多。 |
 
 ## 輸出連接器

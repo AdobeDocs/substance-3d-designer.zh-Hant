@@ -22,7 +22,7 @@ ht-degree: 0%
 
 基於網格的產生器是用來處理 [烘焙貼圖](../../../../bakers/bakers.md) 的節點，例如法線貼圖、曲率、環境遮蔽等。
 
-這個類別的名稱來自於烘焙地圖是 Designer 唯一能使用基於 3D 網格的資料的方式。 這類的許多功能與 Substance 3D Painter 的智慧材質與遮罩](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)相似[。
+這個類別的名稱來自於烘焙地圖是 Designer 唯一能使用基於 3D 網格的資料的方式。 這類的許多功能與 Substance 3D Painter 的智慧材質與遮罩[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)相似。
 
 主要分為三大類：
 

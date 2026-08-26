@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-本頁介紹 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 的[主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ![](../../assets/open.png)  <b>開啟...：</b> （Ctrl+O） 開啟現有[的物質套件（.SBS， .SBSAR， .SBSASM）。](../../getting-started/overview/overview.md)
 
-![](../../assets/saveall.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管](../../interface/the-explorer-window/the-explorer-window.md)中列出[的所有套件。
+![](../../assets/saveall.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有套件。
 
 ![](../../assets/undo.png)  <b>復原：</b> （Ctrl+Z）還原上一次操作。
 
@@ -114,7 +114,7 @@ ht-degree: 0%
 
 <b>圖表：</b> 顯示/隱藏 [圖表視窗](../../interface/the-graph-view/the-graph-view.md)。
 
-<b>參數：</b>顯示/隱藏屬性[](../properties/properties.md)。
+<b>參數：</b>顯示/隱藏屬性[&#128279;](../properties/properties.md)。
 
 <b>控制台：</b> 顯示/隱藏控制台視窗。
 
@@ -141,7 +141,7 @@ ht-degree: 0%
 
 <b>技術需求：</b> 顯示執行應用程式所需的技術需求。
 
-<b>文件：</b>在此文件](https://www.adobe.com/go/Substance-3D-doc-Designer)中開啟預設瀏覽器[。
+<b>文件：</b>在此文件[&#128279;](https://www.adobe.com/go/Substance-3D-doc-Designer)中開啟預設瀏覽器。
 
 <b>腳本文件：</b> 開啟瀏覽器，查看本地的 Python API 文件。
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 
 <b>登入/登出...\*：</b> 讓你登入/登出你的 Adobe 帳號。
 
-<b>主畫面...：</b>顯示主畫面](../../interface/home-screen/home-screen.md)對話[框。
+<b>主畫面...：</b>顯示主畫面[&#128279;](../../interface/home-screen/home-screen.md)對話框。
 
 <b>新功能...：</b> 顯示一個螢幕，顯示 Designer 最新版本新增的功能
 
@@ -171,4 +171,4 @@ ht-degree: 0%
 
 <b>關於 Substance 3D Designer...：</b> 顯示應用程式及其元件的資訊，例如版本號。
 
-\*：這些選項僅在透過 Adobe Creative Cloud Desktop](https://creativecloud.adobe.com/en/apps/download/creative-cloud) 安裝[的 Designer 版本中提供，該版本需要訂閱 [Substance 3D](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)。
+\*：這些選項僅在透過 Adobe Creative Cloud Desktop[&#128279;](https://creativecloud.adobe.com/en/apps/download/creative-cloud) 安裝的 Designer 版本中提供，該版本需要訂閱 [Substance 3D](https://www.adobe.com/creativecloud/plans.html?amp%3Bplan=individual#filter=3dar)。

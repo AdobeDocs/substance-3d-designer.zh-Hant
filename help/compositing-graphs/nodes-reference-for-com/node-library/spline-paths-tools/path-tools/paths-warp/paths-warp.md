@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-根據梯度輸入</b>變形輸入<b>路徑。（與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。）
+根據梯度輸入</b>變形輸入<b>路徑。（與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。）
 
 </td>
 </tr>
@@ -42,15 +42,15 @@ ht-degree: 1%
 ## 輸入連接器
 
 <b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
 
 <b>梯度輸入</b> *灰階*\
-高度狀的輸入控制變形的量與方向。 （與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。）
+高度狀的輸入控制變形的量與方向。 （與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。）
 
 ## 輸出連接器
 
 <b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。
+變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
 
 ## 參數
 

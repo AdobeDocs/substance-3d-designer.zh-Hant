@@ -77,7 +77,7 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>產出</b> *顏色* | 將修改過調色盤中的顏色映射到 ID 映射的索引的結果。 |
-| <b>調色盤</b> *顏色* | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像[，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
+| <b>調色盤</b> *顏色* | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
 
 ## 參數
 
