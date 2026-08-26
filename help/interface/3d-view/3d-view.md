@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
@@ -128,9 +128,9 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 你可以在圖表檢視中點擊 *RMB* 一個空區域[，然後在情境選單中選擇&#x200B;**「在 3D 檢視**&#x200B;中檢視輸出」選項，即可查看所有圖表的](../../interface/the-graph-view/the-graph-view.md)輸出。
 
-你也可以在不打開圖表的情況下查看，方法是在總管底座的[圖形資源中點擊右鍵，並在情境選單中選擇&#x200B;**「在 3D 視圖**&#x200B;中檢視輸出」](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)選項。
+你也可以在不打開圖表的情況下查看，方法是在總管底座的[圖形資源中點擊右鍵，並在情境選單中選擇&#x200B;**「在 3D 視圖**&#x200B;中檢視輸出」](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)選項。
 
-作為圖表上下文選單的替代方案，你也可以將圖表從 [總管](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 底座拖曳到 [3D 視圖](https://substance3d.adobe.com/)，達到相同的效果。
+作為圖表上下文選單的替代方案，你也可以將圖表從 [總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 底座拖曳到 [3D 視圖](https://substance3d.adobe.com/)，達到相同的效果。
 
 載入圖表&#x200B;*時*，其輸出預設會自動套用在 3D 視圖中。你可以在 [偏好設定](../../interface/preferences-window/preferences-window.md)中停用此行為。 請前往 **Edit > 偏好設定> Graph > Common**，並在開啟圖形&#x200B;**選項時取消勾選** 3D 視圖中的「View 輸出」。
 
@@ -150,7 +150,7 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 你也可以用 *RMB* 從圖形視圖拖放任意節點到 3D 視圖。 你會看到一份可用頻道清單，讓你分配節點。 點擊任意一鍵確認。
 
-你可以透過在 Explorer[&#128279;](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
+你可以透過在 Explorer[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
 
 ![查看自訂 3D 網格](../../assets/3d-mesh.gif "查看自訂 3D 網格")
 
@@ -221,7 +221,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 >
 > **TDR（僅限 Windows）**
 > 
-> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
+> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
 
 ## 選單列
 
@@ -266,7 +266,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 * 環面
 
-<b>在 2D 視圖中顯示 UV：</b> 啟用目前選取網格的 UV 以覆蓋層形式顯示在 [2D 視圖](https://helpx.adobe.com/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 中。
+<b>在 2D 視圖中顯示 UV：</b> 啟用目前選取網格的 UV 以覆蓋層形式顯示在 [2D 視圖](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 中。
 
 <b>從目前場景建立 3D 資源......：</b> 從目前場景中建立一個新的 [3D 場景資源](../../resources/3d-scene-resource/3d-scene-resource.md) 。
 
@@ -305,7 +305,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <b>載入定義...： </b>（僅限 OpenGL 渲染器）讓你能載入自訂 [的 GLSLFX 著色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 著色器會加入上述清單。
 
-<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值會被帶入。
+<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值會被帶入。
 
 <b>更名：</b> 更換本素材的標籤。
 

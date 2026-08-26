@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/glossary.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/glossary.html"
 breadcrumb-title: ''
 description: 請存取 Substance 3D Designer 詞彙表，查找術語、概念及技術術語的定義。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b><span id="three-d-scene"></span>3D 場景</b> | 一組用於表示與動畫化三維空間視覺化的物件與資料：<ul data-preserve-html="true"> <li data-preserve-html="true">[網格](#mesh)</li> <li data-preserve-html="true">[材料](#material)</li> <li data-preserve-html="true">攝影機</li> <li data-preserve-html="true">光源</li> <li data-preserve-html="true">動畫</li> <li data-preserve-html="true">模擬</li> <li data-preserve-html="true">...</li> </ul>[常用的 3D 場景儲存檔案格式](https://www.adobe.com/products/substance3d/discover/3d-files-formats.html) 包括 Pixar [的 USD](#usd) 和 Autodesk 的 FBX。 並非所有檔案格式都支援所有這些元件 |
+| <b><span id="three-d-scene"></span>3D 場景</b> | 一組用於表示與動畫化三維空間視覺化的物件與資料：<ul data-preserve-html="true"> <li data-preserve-html="true">[網格](#mesh)</li> <li data-preserve-html="true">[材料](#material)</li> <li data-preserve-html="true">攝影機</li> <li data-preserve-html="true">光源</li> <li data-preserve-html="true">動畫</li> <li data-preserve-html="true">模擬</li> <li data-preserve-html="true">...</li> </ul>[常用的 3D 場景儲存檔案格式](https://www.adobe.com/tw/products/substance3d/discover/3d-files-formats.html) 包括 Pixar [的 USD](#usd) 和 Autodesk 的 FBX。 並非所有檔案格式都支援所有這些元件 |
 
 ## A
 
