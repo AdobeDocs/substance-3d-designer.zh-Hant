@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/exporting-bitmaps.html"
 breadcrumb-title: ''
 description: 學習如何從 Substance 合成圖中匯出材質與點陣圖，用於外部應用程式與工作流程。
 helpx_creative_field: ""

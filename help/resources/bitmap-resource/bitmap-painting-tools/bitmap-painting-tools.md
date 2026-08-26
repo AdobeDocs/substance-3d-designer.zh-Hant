@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/bitmap-resource/bitmap-painting-tools.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的點陣圖繪製工具，直接在點陣資源上繪製貼圖以進行貼圖編輯。
 helpx_creative_field: ""

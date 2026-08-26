@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # MDL 圖表中的警告
 
-本頁列出 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中 MDL 圖表可能觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
+本頁列出 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中 MDL 圖表可能觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
 
 警告會顯示在總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角顯示。
 
