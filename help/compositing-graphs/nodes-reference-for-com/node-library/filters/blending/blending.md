@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取混合濾鏡節點，使用各種混合模式與操作來結合貼圖。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '63'
 ht-degree: 3%
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 此類別是原子混合節點的延伸[。](../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) 它包含了擴展且更複雜的混合模式，這些模式不在標準節點中。
 
-使用<b>左側</b>的導覽列表，在混合下瀏覽所有節點。
+使用 <b>左側</b> 的導覽列表，在混合下瀏覽所有節點。
 
 一些有趣的混合節點：
 

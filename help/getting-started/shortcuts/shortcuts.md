@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的快捷鍵，以加快工作流程並提升生產力。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 捷徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 9%
@@ -44,12 +44,12 @@ ht-degree: 9%
 
 | 動作 | 窗戶 | macOS |
 | --- | --- | --- |
-| [新物質圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘+ N |
-| 載入套件 | Ctrl + O | ⌘+ O |
-| 關閉選擇的套件 | Ctrl + F4 | ⌘+ W |
-| 存檔包 | Ctrl + S | ⌘+ S |
-| 還原 | Ctrl + Z | ⌘+ Z |
-| 取消復原 | Ctrl + Y | ⌘+ Y |
+| [新物質圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) | Ctrl + N | ⌘ + N |
+| 載入套件 | Ctrl + O | ⌘ + O |
+| 關閉選擇的套件 | Ctrl + F4 | ⌘ + W |
+| 存檔包 | Ctrl + S | ⌘ + S |
+| 還原 | Ctrl + Z | ⌘ + Z |
+| 取消復原 | Ctrl + Y | ⌘ + Y |
 
 ### 圖視圖
 
@@ -62,8 +62,8 @@ ht-degree: 9%
 | 平移 | MMB + 拖曳 Ctrl + 滑鍵 + 拖曳 | MMB + 拖曳  ⌘ + RMB + 拖曳 |
 | 重置縮放 | Z | Z |
 | 視圖配合 | F | F |
-| 複製 | Ctrl + C | ⌘+ C |
-| 貼上 | Ctrl + V | ⌘+ V |
+| 複製 | Ctrl + C | ⌘ + C |
+| 貼上 | Ctrl + V | ⌘ + V |
 | 情境選單 | 人民幣 | 人民幣 |
 | 節點選單 | 空白鍵 | 空白鍵 |
 | 自行車 [導航腳](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 在本文件的本頁[&#128279;](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式。
+> 在本文件的本頁](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式[。
 
 | 模式 | 窗戶 | macOS |
 | --- | --- | --- |
@@ -84,9 +84,9 @@ ht-degree: 9%
 
 | 動作 | 窗戶 | macOS |
 | --- | --- | --- |
-| 文案選擇 | Ctrl + C | ⌘+ C |
-| 重複選擇 | Ctrl + D | ⌘+ D |
-| 無連結的重複 | Ctrl + ⇧ + D | ⌘+ ⇧ + D |
+| 文案選擇 | Ctrl + C | ⌘ + C |
+| 重複選擇 | Ctrl + D | ⌘ + D |
+| 無連結的重複 | Ctrl + ⇧ + D | ⌘ + ⇧ + D |
 | 刪除選擇 | 刪除 | 刪除 |
 | 刪除選取並保留連結 | ⌫ | ⌫ |
 | 停靠/脫離節點 | D | D |

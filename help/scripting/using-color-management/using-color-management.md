@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/using-color-management.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-color-management.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer Python 腳本中的色彩管理功能來獲得準確的色彩。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%

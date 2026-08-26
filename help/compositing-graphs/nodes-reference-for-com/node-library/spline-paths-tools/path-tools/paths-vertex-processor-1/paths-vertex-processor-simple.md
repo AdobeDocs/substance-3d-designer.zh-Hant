@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: 使用 Paths Vertex Processor Simple 節點來處理路徑頂點，並有簡化的轉換選項。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑頂點處理器簡單
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 ## 說明
 
-對輸入<b>路徑</b>頂點位置施加轉換。
+對輸入 <b>路徑</b>頂點位置施加轉換。
 
-1. 編輯<b>每個頂點函</b> 數參數函式;
+1. 編輯 <b>每個頂點函</b> 數參數函式;
 1. 使用 <b>Get Float2</b> 節點 vertex.pos ** 變數;
 1. 對此值進行一些運算（例如，乘以擴展路徑）;
 1. 將你的計算結果設為輸出。
@@ -44,8 +44,8 @@ ht-degree: 0%
 </tr>
 </table>
 
-你可以使用輸入影像並從函數中取樣。 你必須先連接一個能從函數取樣的輸入。 （請注意，第一個輸入是&#x200B;*圖片 1*！）\
-你也可以存取&#x200B;*頂點*&#x200B;角（bool）和 *path.id*（float）變數。
+你可以使用輸入影像並從函數中取樣。 你必須先連接一個能從函數取樣的輸入。 （請注意，第一個輸入是 *圖片 1*！）\
+你也可以存取 *頂點* 角（bool）和 *path.id* （float）變數。
 
 >[!TIP]
 >
@@ -58,21 +58,21 @@ ht-degree: 0%
 ## 輸入連接器
 
 <b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
 
-<b>輸入 #</b> *色彩/灰階*\
+<b>輸入#</b> *彩色/灰階*\
 應該在 <b>每個頂點函</b> 數參數函數中取樣的影像輸入。
 
 ## 輸出連接器
 
 <b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
+變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。
 
 ## 參數
 
 <b>影像輸入計數</b> *整數*&#x200B;顯示<b>的輸入 #</b> 輸入連接器數量，用於連接應在 Per Vertex Function</b> 參數函數中<b>取樣的影像。\
 當你完成所有想要的取樣後，可以透過將這個參數的值降回 0 來隱藏未使用的腳位。\
-如果你需要更多輸入，可以用 [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)。
+如果你需要更多輸入，可以用 [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 。
 
 <b>每個頂點函數</b> *Float2*\
 每個頂點都套用了函數。 必須回傳新的頂點位置。\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ''
 description: 使用銳化節點來強化貼圖細節和邊緣，創造清晰且明確的表面細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 磨利
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 2%
@@ -43,12 +43,12 @@ ht-degree: 2%
 
 ## 輸入
 
-<b>輸入</b> *色彩/灰階（主色*）\
+<b>輸入</b> *彩色/灰階* （原色）\
 應該被銳化的影像。
 
 ## 參數
 
-<b>強度</b> *浮動*\
+<b>強度</b> *浮標*\
 設定銳利效果的強度。
 
 <b>穿孔 Alpha</b> *布林值*（當彩色影像連接到輸入</b>時<b>可用）\

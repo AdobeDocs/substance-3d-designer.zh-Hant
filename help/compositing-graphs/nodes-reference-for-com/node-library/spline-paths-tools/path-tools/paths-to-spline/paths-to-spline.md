@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: 使用 Paths to Spline 節點將路徑資料轉換為樣條線，以便用於基於樣條的節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 通往樣條的路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -26,14 +26,14 @@ ht-degree: 1%
 
 ![節點圖示](../../../../../../assets/paths-to-splines-icon.png "節點圖示")
 
-<b>收錄於：</b>樣條與路徑工具 > 路徑工具
+<b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
-將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
+將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
 
 </td>
 </tr>
@@ -45,20 +45,20 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 此節點可在 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後使用，形成一條將遮罩轉換為樣條的鏈。
+> 此節點可在 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後[使用，形成一條將遮罩轉換為樣條的鏈。
 
 ## 輸入連接器
 
-<b>路徑</b> *色彩*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+<b>路徑</b> *顏色*\
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
 
 ## 輸出連接器
 
 <b>樣條座標&#x200B;</b>*顏色*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 

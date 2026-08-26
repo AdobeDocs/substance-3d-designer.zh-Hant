@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 場景瀏覽器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 3D 視圖的場景瀏覽器會列出場景中的所有元素及其階層結構。
 
-它提供選擇物件、切換可見性，以及選擇哪些材質要[覆蓋場景材質](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控制。
+它提供選擇物件、切換可見性，以及選擇哪些材質要 [覆蓋場景材質](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控制。
 
 由於 Designer 使用 [USD](https://openusd.org/release/index.html) 來描述和管理其場景，其術語與概念都位於該場景樹中。
 
-透過點擊 3D 視圖場景工具列[&#128279;](../../../interface/3d-view/3d-view.md)中專用的切換按鈕![](../../../assets/sceneBrowser-toggleButton.png)來顯示。
+透過點擊 3D 視圖場景工具列](../../../interface/3d-view/3d-view.md)中[專用的切換按鈕![](../../../assets/sceneBrowser-toggleButton.png)來顯示。
 
 ![場景瀏覽器 - 已載入的 3D 場景](../../../assets/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 當使用「編輯...」時，在燈光、攝影機和環境選單中操作，這些都是被編輯的物件，無論場景中是否有其他燈光、攝影機或環境。
 
-這些物件在匯出[&#128279;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時會包含在場景中。
+這些物件在匯出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時[會包含在場景中。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 父物件的狀態會延續到其子物件，因此停用父物件也會使其子物件失效。
 
-物件的可見性可以透過點擊其眼睛按鈕 ![](../../../assets/sceneBrowser-eyeButton.png)或從其情境選單切換。 選單中提供了幾個管理場景物件可見性的操作：
+物件的可見性可以透過點擊其眼睛按鈕 ![](../../../assets/sceneBrowser-eyeButton.png) 或從其情境選單切換。 選單中提供了幾個管理場景物件可見性的操作：
 
 * <b>隱藏：</b> 停用選取的物件。
 * <b>顯示：</b> 啟用所選物件。
@@ -126,7 +126,7 @@ ht-degree: 0%
 * <b>隱藏子節點：</b> 遞迴地停用所選物件的所有子節點。
 * <b>顯示子節點：</b> 遞迴啟用所選物件的所有子節點。
 * <b>展開所有子節點：</b> 遞迴展開選取物件下的所有子節點清單。
-* <b>摺疊所有子節點：</b>遞迴地將所選物件下所有子節點的清單合併。
+* <b>摺疊所有子節點：</b> 遞迴地將所選物件下所有子節點的清單合併。
 
 ![場景瀏覽器 - 切換物件可見](../../../assets/sceneBrowser-toggleVisibility.gif "性場景瀏覽器 - 切換物件可見性"){zoomable="yes"}
 

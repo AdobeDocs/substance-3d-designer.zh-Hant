@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ''
 description: 排除 Substance 3D Designer 中的 3D View 問題，包括渲染、顯示及效能問題。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 視圖問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: d81d92788a4d52b5ae1ed3ac4287f07260894f3c
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 0%
@@ -85,7 +85,7 @@ Substance 3D Designer 不使用系統的 *獨立* GPU（<b>dGP</b>），而是�
 
 新的 3D 渲染器在 15.1 版本中升級，並需要更新的 GPU 驅動程式。 請將系統的顯示卡驅動程式更新到最新版本。
 
-你可以在這裡找到驅動程式：[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)   [AMD](https://www.amd.com/en/support)   [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+你可以在這裡找到驅動程式：   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 版本 15.0 及以上
 
@@ -93,7 +93,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 支援的 GPU 包括 NVIDIA RTX 20 系列（圖靈）或更高版本，依據 Designer 的 [系統需求](../../getting-started/system-requirements/system-requirements.md)。
 
-你可以預設繼續使用 OpenGL 渲染器，方法是在專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中新增選項：
+你可以預設繼續使用 OpenGL 渲染器，方法是在專案設定](../../interface/preferences-window/project-settings/project-settings.md)中新增[選項：
 
 1. 前往編輯>偏好設定>專案
 2. 選擇列表中最後一個專案檔案
@@ -123,7 +123,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 支援的 GPU 包括 NVIDIA RTX 20 系列（圖靈）或更高版本，依據 Designer 的 [系統需求](../../getting-started/system-requirements/system-requirements.md)。
 
-在預設設定下，如果專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的「預設渲染器」選項設為「預設（預設渲染器）」，3D 視圖會自動退回到 OpenGL 渲染器。
+在預設設定下，如果專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的「預設渲染器」選項設為「預設（預設渲染器）」[，3D 視圖會自動退回到 OpenGL 渲染器。
 
 你可以依照以下步驟找到並調整這個選項：
 
@@ -146,7 +146,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 **![（錯誤）](../../assets/error.svg) 子嗣**
 
-在處理傳送到&#x200B;**高度**&#x200B;[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的資料後，物件看起來有些體積，但&#x200B;*看起來完全平滑*，彷彿在陰影中忽略了高度資訊。
+在處理傳送到&#x200B;**高度**[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的資料後，物件看起來有些體積，但&#x200B;*看起來完全平滑*，彷彿在陰影中忽略了高度資訊。
 
 <table style="margin-left: 0; margin-right: 0;">
 <tr style="border: 0;">
@@ -154,11 +154,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 **![（滴答）](../../assets/check.svg) 建議步驟**
 
-確保高度資料已轉換為連接到&#x200B;**法線**&#x200B;[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的法線&#x200B;*。*
+確保高度資料已轉換為連接到&#x200B;**法線**[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的法線&#x200B;*。*
 
 使用 **鑲嵌位移技術（Tessellation Displacement** technique）時（見上文「3D 物件是平面的」），物件可能會 *隨高度資料變形* ，但其表面 *不會對光有* 不同反應，除非 *法線* 也被修改以考慮高度資料。
 
-解決方案很簡單：將流中最後一個節點連接到 Normal [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 節點。根據你正在處理的材質調整該節點的 **強度** 參數，並將法線節點連接到 **法線** 輸出。
+解決方案很簡單：將流中最後一個節點連接到 Normal [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 節點。根據你正在處理的材質調整該節點的 **強度** 參數，並將法線節點連接到 **法線** 輸出。
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -220,7 +220,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 例如，刻度為 2 且偏置為 -1，將 x 值從 [0， 1] 調整為 [-1， 1]，因此為 x\*2-1。
 
-除非由 3D 網格指定，否則 Designer 不會套用法線縮放和偏壓。 若缺少該資訊，覆蓋任何資料[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時，控制台會發出警告：
+除非由 3D 網格指定，否則 Designer 不會套用法線縮放和偏壓。 若缺少該資訊，覆蓋任何資料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時[，控制台會發出警告：
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -231,7 +231,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 對於之前匯出成 USD 格式的場景：用最新版本的 USD 重新匯出場景，該版本會包含必要的資料。 如果有與正常比例和偏壓相關的屬性，請特別注意，這會依匯出場景的軟體而異。
 
-在覆寫材質[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時，Designer 會處理網格並計算與其法線、切線和雙法線相關的缺失資料。如果 Designer 預設的縮放和偏壓恰好符合網格所需的，那麼覆蓋後的網格看起來就會正確。
+在覆寫材質](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時[，Designer 會處理網格並計算與其法線、切線和雙法線相關的缺失資料。如果 Designer 預設的縮放和偏壓恰好符合網格所需的，那麼覆蓋後的網格看起來就會正確。
 
 ## 啟動 3D 檢視時當機
 
@@ -243,7 +243,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 首先，確保你的系統符合 Designer 的 [系統要求](../../getting-started/system-requirements/system-requirements.md)。
 
-接著，更新你的顯示卡驅動程式。 你可以透過以下連結找到你 GPU 的最新驅動程式：[NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us) |[AMD](https://www.amd.com/en/support) |[Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
+接著，更新你的顯示卡驅動程式。 你可以透過以下連結找到你 GPU 的最新驅動程式：   [NVIDIA](https://www.nvidia.com/Download/index.aspx?lang=en-us)  |  [AMD](https://www.amd.com/en/support)  |  [Intel](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)
 
 如果你的系統同時包含一體式 GPU（iGPU）和獨立 GPU（獨立 GPU），務必更新 *兩者*&#x200B;的驅動程式！
 

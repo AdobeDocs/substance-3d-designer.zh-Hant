@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 主要 MDL 圖形概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 主要 MDL 圖形概念
 
-本頁呈現 MDL 圖形[&#128279;](../../mdl-graphs/mdl-graphs.md)特有*的主要概念*，並需充分理解以充分利用 Substance 3D Designer 中的此圖形類型。
+本頁呈現 MDL 圖形](../../mdl-graphs/mdl-graphs.md)特有[*的主要概念*，並需充分理解以充分利用 Substance 3D Designer 中的此圖形類型。
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 伊雷
 
-MDL 材質使用針對物理基礎渲染解決方案的描述，而 Designer 中嵌入的 Iray[&#128279;](../../interface/3d-view/iray/iray.md) 渲染器支援此描述。因此，顯示 MDL 圖形&#x200B;*的結果需要在主動[的 3D 檢視](../../interface/3d-view/3d-view.md)面板中選擇 Iray 渲染器*。
+MDL 材質使用針對物理基礎渲染解決方案的描述，而 Designer 中嵌入的 Iray](../../interface/3d-view/iray/iray.md) 渲染器支援此描述[。因此，顯示 MDL 圖形&#x200B;*的結果需要在主動[的 3D 檢視](../../interface/3d-view/3d-view.md)面板中選擇 Iray 渲染器*。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -54,7 +54,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 ![MDL 圖的根節點](../../assets/mdl-root-hl.png "MDL 圖的根節點")
 
-*MDL 圖中的根節點及其屬性在[屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)**面板中顯示*
+*MDL 圖中的根節點及其屬性在[屬性](../../interface/properties/properties.md)**面板中顯示*
 
 ## 連接器與類型
 
@@ -64,7 +64,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 *連接器*&#x200B;的形狀顯示資料型&#x200B;*別是均勻*（圓形）還是&#x200B;*變化*&#x200B;型（方形）。
 
-「均勻型態的變數只能設定為統一值。 變異型變數可以設定為變化值或均勻值。 變數所得值因此被視為變化。」 （資料來源：第6.3 [&#x200B; 節MDL 規範](https://raytracing-docs.nvidia.com/mdl/specification/MDL_spec_1.7.2_17Jan2022.pdf)）
+「均勻型態的變數只能設定為統一值。 變異型變數可以設定為變化值或均勻值。 變數所得值因此被視為變化。」 （資料來源：第6.3 [ 節MDL 規範](https://raytracing-docs.nvidia.com/mdl/specification/MDL_spec_1.7.2_17Jan2022.pdf)）
 
 以下是一些例子：
 

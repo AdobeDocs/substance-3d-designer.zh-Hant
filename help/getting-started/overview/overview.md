@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 概觀
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 概觀
 
-[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
 
 以下是它與其他應用的比較：
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 | <b>作者過濾器、模式與效果</b> | 不 | 限制 | 是的 |
 | <b>匯出參數內容</b> | 不 | 不 | 是的 |
 
-\*：僅位移，請參見 <b>3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能。
+\*：僅位移，請參見 <b>3D 視圖](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能[。
 
 簡言之，Substance 3D Designer 應該被視為目前最技術性、最先進的貼圖應用程式。
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不同複雜度的方式製作內容。 [工作流程會在專門頁面](../../getting-started/workflow-overview/workflow-overview.md)中進一步說明，但以下是使用該軟體的好處：
 
-<b>[非線性](../../compositing-graphs/substance-compositing-graphs.md) </b>：你可以同時撰寫多種貼圖輸出。 編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是 Basecolor、Roughness、Normal 等貼圖。
+<b>[非線性](../../compositing-graphs/substance-compositing-graphs.md)</b>：你可以同時撰寫多個貼圖輸出。編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是 Basecolor、Roughness、Normal 等貼圖。
 
-<b> [非破壞性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) </b>：你可以反轉任何動作 *，且不會* 損失任何工作。 這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
+<b>[非破壞](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)</b>性：你可以逆轉任何動作&#x200B;*而不*&#x200B;損失任何工作。這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
 
-<b> [整合烘焙](../../bakers/bakers.md)： </b>直接在軟體內存取先進且極速的網狀烘焙工具。 你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
+<b>[整合烘焙](../../bakers/bakers.md)</b>：在軟體內直接使用先進且極速的網狀烘焙工具。你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
 
-<b> 【參數化】(../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md） </b>：你幾乎可以透過一個滑桿或下拉選單來控制貼圖的任何面向。 這讓你能在單一資產上加入無限的控制與變化。
+<b>[參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)</b>化：你可以透過單一滑桿或下拉選單來控制材質的幾乎任何面向。這讓你能在單一資產上加入無限的控制與變化。
 
 ## 檔案類型
 
@@ -77,7 +77,7 @@ Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Su
 
 *(\*.SBSAR）*
 
-Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
+Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -155,9 +155,9 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 
 * [位圖](../../resources/bitmap-resource/bitmap-resource.md)
 * [向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 網格與場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [洗禮盆](../../resources/font-resource/font-resource.md)
-* [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
+* [3D 場景](../../resources/3d-scene-resource/3d-scene-resource.md)
+* [字體](../../resources/font-resource/font-resource.md)
+* [AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)
 
 </td>
 </tr>

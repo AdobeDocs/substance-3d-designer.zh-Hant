@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 函式圖中的常數節點，以定義常數值與參數。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 恆定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 恆定
 
-常數節點是一種建立靜態值，用於 Substance 函數圖的方法。 與變[&#128279;](../../../../function-graphs/variables/variables.md)數不同，它們無法外部修改。
+常數節點是一種建立靜態值，用於 Substance 函數圖的方法。 與變](../../../../function-graphs/variables/variables.md)數不同[，它們無法外部修改。
 
 此外，本頁還提供每種資料類型及常見使用案例的額外資訊。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 常數整數產生整數，步長為 1。
 
-[它們可以轉換成浮點運算，](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)建議在執行比加法、減法和簡單比較更複雜的操作時這麼做。
+[它們可以轉換成浮點運算，](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) 建議在執行比加法、減法和簡單比較更複雜的操作時這麼做。
 
 <table>
 <tr style="border: 0;">
@@ -43,8 +43,8 @@ ht-degree: 0%
 
 整數只有一個分量。 它作為選擇的索引非常有用，例如：
 
-* 選擇以下拉選單形式呈現給使用者的選項（見本頁[&#128279;](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）。
-* 選擇多交換[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的輸入。<b></b>
+* 選擇以下拉選單形式呈現給使用者的選項（見本頁](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）[。
+* 選擇多交換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的[輸入。<b></b>
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 Integer2 節點會產生一個靜態的 2 分量整數向量，分量為 （X， Y）。
 
-Integer2 並不常見，但例如用於在圖塊產生器[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)中設定 X 和 Y 的二維平鋪。
+Integer2 並不常見，但例如用於在圖塊產生器](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)中設定 X 和 Y 的二維平鋪[。
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 
 常數浮點數產生的是小數，而非整數，這表示它們的值總是在小於十進位符號後，且可以以小於1的步數（預設為0.01）來減或增。
 
-[浮點數可以轉換成整數](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)，但會被向上或向下取整到最近的整數，導致資料和準確度損失。
+[浮點數可以轉換成整數](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md) ，但會被向上或向下取整到最近的整數，導致資料和準確度損失。
 
 <table>
 <tr style="border: 0;">
@@ -191,7 +191,7 @@ Float4 會產生靜態的四分量浮點向量。元件名稱為 X、Y、Z、W�
 
 ## 其他
 
-Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 字串與 Text[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) 節點一同在 Designer 6 版本中引入。
+Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 字串與 Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) 節點一同[在 Designer 6 版本中引入。
 
 <table>
 <tr style="border: 0;">
@@ -204,7 +204,7 @@ Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 
 
 <b>布林值</b>
 
-布林值是最簡單的資料型態，只知道兩個狀態：真或假、1 或 0。 它以白色表示。 在不施放[&#128279;](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用邏輯節點的情況下，無法在布[林與整數之間交換。](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 布林運算相當常見，是控制函數或圖流的絕佳方式，典型的用途是切換 [節點。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+布林值是最簡單的資料型態，只知道兩個狀態：真或假、1 或 0。 它以白色表示。 在不施放](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[邏輯節點的情況下，無法在布[林與整數之間交換。](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 布林運算相當常見，是控制函數或圖流的絕佳方式，典型的用途是切換 [節點。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>

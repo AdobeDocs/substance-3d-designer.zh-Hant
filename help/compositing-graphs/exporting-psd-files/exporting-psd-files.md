@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: 學習如何將 Substance 合成圖表匯出為 PSD 檔案，供 Adobe Photoshop 及其他影像編輯工作流程使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 匯出 PSD 檔案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Substance 3D Designer 允許將材質匯出至 Adobe Photoshop 文件或 PSD 檔
 
 ## PSD 匯出對話框
 
-PSD 匯出對話框只能透過一種方式開啟。 在 [你想匯出成 PSD 的圖的圖中](../../interface/the-graph-view/the-graph-view.md) ，點選 ![](../../assets/image2019-9-17-14-44-17.png) <b>工具</b> 按鈕並選擇 <b>PSD 匯出器</b>。 介面會在圖視圖</b>中<b>顯示。
+PSD 匯出對話框只能透過一種方式開啟。 在[你想匯出成 PSD 的圖的圖中](../../interface/the-graph-view/the-graph-view.md)，點選![](../../assets/image2019-9-17-14-44-17.png)<b>工具</b>按鈕並選擇 <b>PSD 匯出器</b>。介面會在圖視圖</b>中<b>顯示。
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ PSD 匯出對話框只能透過一種方式開啟。 在 [你想匯出成 PSD �
 
 1. <b>檔案名稱與地點：</b> 請在此設定匯出資料夾和檔名。 按下匯出按鈕來執行匯出流程。
 1. <b>新增群組：</b> 新增圖層群組
-1. <b>新增圖層下拉選單：</b> 選擇兩種方法之一來新增圖層。 圖層也可以用&#x200B;*滑鼠右鍵*&#x200B;拖曳節點到堆疊中來新增。
+1. <b>新增圖層下拉選單：</b> 選擇兩種方法之一來新增圖層。 圖層也可以用 *滑鼠右鍵* 拖曳節點到堆疊中來新增。
 1. <b>移除圖層下拉選單：</b> 移除選取或全部圖層。
 1. <b>Layerstack：</b> 大部分設定工作都在這裡完成。 介面在 Photoshop 中反映有限的選項。 設定圖層名稱、混合模式和透明度在這裡。 若一層有兩個縮圖，第二個縮圖代表 Alpha 通道。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立並使用參數預設來儲存並套用參數設定。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 參數預設
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 外部預設包含磁碟上的外部檔案，一個 \*。SBSPRS 檔案。 它們可以在不同的圖和節點間轉移，但只能在應用程式內部進行。 它們的主要目的就是：轉移過多無法逐一複製的數值。
 
-外部預設可用於所有圖實例的特定參數[、大多數原子節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)的特定[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)參數（[例外為無法暴露](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的參數），以及圖屬性中[暴露的輸入](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)參數。
+外部預設可用於所有圖實例的特定參數[、大多數原子節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)的特定[參數（[例外為無法暴露](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的參數），以及實體圖[參數](../../graph-parameters/graph-parameters.md)參數中暴露的輸入參數。](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 它們只需儲存並透過這個選單載入即可。 已儲存的 SBSPRS 檔案可載入於任何其他節點或圖形上。
 

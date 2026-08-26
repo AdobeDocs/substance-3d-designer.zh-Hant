@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、連結並建立新資源，用於你的材料專案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 匯入、連結與新資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 # 匯入、連結與新資源
 
-[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](../3d-scene-resource/3d-scene-resource.md) 和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
 
-所有方法皆可透過 [在檔案總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) [中點擊套件上的右鍵鍵存取。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+所有方法皆可透過在檔案總管中點擊套件上的右鍵鍵存取。
 
 下表簡要概述了兩種方法在功能上的差異。
 
 |                                                                                                                                                                         | 新增 | 匯入 | 連結 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 圖（[實體圖](../../compositing-graphs/substance-compositing-graphs.md)、[物質函數圖](../../function-graphs/function-graphs.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [點陣圖](../../resources/bitmap-resource/bitmap-resource.md)、[向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| [3D 場景](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)、[字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 建立在 SBS 檔案旁邊 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 可在 Designer 中編輯 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 外部剪輯會自動同步 | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 嵌入已發表的SBSAR中 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| 圖（[實體圖](../../compositing-graphs/substance-compositing-graphs.md)、 [物質函數圖](../../function-graphs/function-graphs.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| [點陣圖](../../resources/bitmap-resource/bitmap-resource.md)、[向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 3D 場景、 [字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 建立在 SBS 檔案旁邊 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| 可在 Designer 中編輯 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> |
+| 外部剪輯會自動同步 | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
+| 嵌入已發表的SBSAR中 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> |
 
 ## 新資源
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 
 匯入資源意味著資源檔案會在你的 SBS 檔案旁（ *Graphname.resources* 資料夾）建立一個重複的資源檔案， [SVG 檔案](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)除外。 有時也被稱為「嵌入」資源。
 
-匯入資源後，可在 Designer [中使用點陣繪製工具](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)或 [2D 視圖](../../interface/2d-view/2d-view.md)中的向量編輯[&#128279;](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)工具，並置入圖表中。匯入的資源不再連結到其原始來源檔案：也就是說，如果你更改、移除或更新原本匯入的檔案，這對 Designer 中的資源沒有影響。
+匯入資源後，可在 Designer [中使用點陣繪製工具](../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)或 [2D 視圖](../../interface/2d-view/2d-view.md)中的向量編輯](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)[工具，並置入圖表中。匯入的資源不再連結到其原始來源檔案：也就是說，如果你更改、移除或更新原本匯入的檔案，這對 Designer 中的資源沒有影響。
 
-對於 [AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md)，流程會稍微複雜一些;Substance 圖和點陣圖資源是從 AxF 套件中建立的。 不過這些都仍可在各自的編輯器中編輯：圖表檢視或 2D 檢視。
+對於 [AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ，流程會稍微複雜一些;Substance 圖和點陣圖資源是從 AxF 套件中建立的。 不過這些都仍可在各自的編輯器中編輯：圖表檢視或 2D 檢視。
 
 >[!WARNING]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的主畫面中，可以存取最近的專案、範本和學習資源。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主畫面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![主畫面](../../assets/home-screen-home.jpg "主畫面")
 
-<b>主畫面<b> </b></b>歡迎你啟動 Substance 3D Designer。它幫助你開始專案並取得有用的連結。
+<b>主畫面<b> </b></b>歡迎你啟動 Substance 3D Designer。 它幫助你開始專案並取得有用的連結。
 
 <table>
 <tr style="border: 0;">
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ## 首頁
 
-![](../../assets/home-screen-home-icon.jpg)<b>首頁</b>區塊會有一個橫幅，並標示了進一步使用設計師的建議。 \
+![](../../assets/home-screen-home-icon.jpg) <b>首頁</b>區塊會有一個橫幅，並標示了進一步使用設計師的建議。\
 此橫幅可透過![](../../assets/home-screen-expand-icon.jpg)<b>右側的「隱藏建議</b>」按鈕摺疊。
 
 以下，最近標題下的<b></b>近期檔案清單，提供快速存取最近載入的專案，從最新到最舊。
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 ## 學習
 
-![](../../assets/home-screen-learn-icon.jpg)<b>學習</b>區提供有用的學習資源，幫助你深化對 Substance 3D Designer 的理解。 
+![](../../assets/home-screen-learn-icon.jpg) <b>學習</b>區提供有用的學習資源，幫助你深化對 Substance 3D Designer 的理解。
 
 這些資源以卡片連結形式列出，並依下列方式分組：
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 ## 新增功能
 
-螢幕右上角的![](../../assets/home-screen-whats-new-icon.jpg) <b>「What&#39;s new</b> 」按鈕會顯示一個畫面，列出你版本 Designer 新增的主要功能，以及該版本完整 [版本的發佈說明](../../release-notes/release-notes.md) 連結。
+螢幕右上角的![](../../assets/home-screen-whats-new-icon.jpg)<b>「What&#39;s new</b>」按鈕會顯示一個畫面，列出你版本 Designer 新增的主要功能，以及該版本完整[版本的發佈說明](../../release-notes/release-notes.md)連結。
 
 ## 啟動專案
 
@@ -90,6 +90,6 @@ ht-degree: 0%
 
 * <b>關於設計者：</b> 顯示關於設計者畫面（見上文）;
 * <b>線上文件：</b> 開啟本 [文件](../../home/home.md)的網頁;
-* <b>網站：</b> 開啟 Substance 3D Designer [產品頁面](https://www.adobe.com/tw/products/substance3d-designer.html);
+* <b>網站：</b> 開啟 Substance 3D Designer [產品頁面](https://www.adobe.com/products/substance3d-designer.html);
 * <b>論壇：</b> 為 Substance 3D Designer [支援社群](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions)開啟網頁;
 * <b>社群資產：</b> 開啟 Substance 3D [社群資產](https://substance3d.adobe.com/community-assets/)的網頁。

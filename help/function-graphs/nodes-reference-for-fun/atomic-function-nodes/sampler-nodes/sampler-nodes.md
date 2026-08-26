@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 功能圖中存取取樣節點，取樣貼圖並提取色彩值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取樣器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -64,10 +64,10 @@ ht-degree: 0%
 讓你可以定義當取樣影像中的像素因解析度差異而無法完全對應到輸出影像時，如何處理插值。
 
 <b>最近的</b>\
-像素會依照原樣&#x200B;*映射到目標*，並匹配到對應座標。若目標解析度較低，該像素可能會被完全忽略。 若目標解析度較高;則會映射至涵蓋其跨度的所有像素。 輸出會&#x200B;*更*&#x200B;清晰，會看起來有點&#x200B;*鋸齒*。
+像素會依照原樣&#x200B;*映射到目標*，並匹配到對應座標。若目標解析度較低，該像素可能會被完全忽略。 若目標解析度較高;則會映射至涵蓋其跨度的所有像素。 輸出會 *更* 清晰，會看起來有點 *鋸齒*。
 
 <b>雙線性濾波</b>\
-對來源影像施加濾波處理，使其像素映射到目標解析度&#x200B;*，以平滑*&#x200B;像素間的過渡。 輸出較&#x200B;*為平滑*，且看起來會稍微&#x200B;*模糊*。
+對來源影像施加濾波處理，使其像素映射到目標解析度 *，以平滑* 像素間的過渡。 輸出較 *為平滑* ，且看起來會稍微 *模糊*。
 
 +++
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖表上加入註解，以記錄你的工作流程並解釋節點連接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 留言
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 註解只是一段可以放置在圖表任意位置的自由漂浮文字。
 
-它旨在註解和解釋圖表的部分。 其<b>描述</b>屬性則是儲存正在顯示的文字。
+它旨在註解和解釋圖表的部分。 其 <b>描述</b> 屬性則是儲存正在顯示的文字。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果某個快捷鍵被映射到偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中的「註解」項目，當圖表檢視有焦點時，請按該快捷鍵。
+如果某個快捷鍵被映射到偏好設定](../../../../interface/preferences-window/preferences-window.md)中的[「註解」項目，當圖表檢視有焦點時，請按該快捷鍵。
 
 +++
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 +++
 
 +++圖書館
-在函式庫中，選擇<b>圖項目</b>類別，然後拖放「註解」項目到圖檢視中。
+在函式庫中，選擇 <b>圖項目</b> 類別，然後拖放「註解」項目到圖檢視中。
 
 +++
 
@@ -99,10 +99,10 @@ ht-degree: 0%
 
 ## HTML 格式化
 
-文字可以用 HTML 標籤來格式化。 這種格式是透過![](../../../../assets/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。 
+文字可以用 HTML 標籤來格式化。 這種格式是透過![](../../../../assets/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
 
 >[!TIP]
 >
-> 想了解更多此功能，請參閱<b>框架[&#128279;](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的說明</b>部分。
+> 想了解更多此功能，請參閱<b>框架](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的[說明</b>部分。
 
 ![註解：HTML 標記](../../../../assets/graph-comment_html-markup.gif "註解：HTML 標記")

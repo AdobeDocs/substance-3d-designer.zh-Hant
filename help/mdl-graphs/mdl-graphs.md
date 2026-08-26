@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL 圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![孔雀石MDL材料](../assets/mdl-malachite-example.jpg "孔雀石MDL材料")
 
-*孔雀石與Chrysocolla、Mark Foreman&#x200B;**[&#128279;](https://www.artstation.com/oggyart)的MDL資料可於我們的[Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台取得*
+*孔雀石與Chrysocolla、Mark Foreman**](https://www.artstation.com/oggyart)的MDL資料[可於我們的[Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)**平台取得*
 
 >[!WARNING]
 > 
@@ -47,16 +47,16 @@ ht-degree: 0%
 
 ## 概觀
 
-MDL 代表 [Materials Definition Language](http://www.nvidia.com/object/material-definition-language.html)：「由 [NVIDIA](https://www.nvidia.com/) 開發的技術，用以定義物理基礎材料以實現物理基礎渲染解決方案。」 （資料來源： [&#x200B; NVIDIA MDL 文件](https://raytracing-docs.nvidia.com/mdl/index.html)）
+MDL 代表 [Materials Definition Language](http://www.nvidia.com/object/material-definition-language.html)：「由 [NVIDIA](https://www.nvidia.com/) 開發的技術，用以定義物理基礎材料以實現物理基礎渲染解決方案。」 （資料來源： [ NVIDIA MDL 文件](https://raytracing-docs.nvidia.com/mdl/index.html)）
 
 使用此語言，完整材質定義可移植，因此可在多個應用程式與渲染器間使用，以達成一致的輸出。 Substance 3D Designer 目前 *是唯一* 提供基於圖形的 MDL 材料節點製作的應用程式，透過將 MDL 函式與值類型作為 MDL 圖中的節點公開。
 
 在製作材質時，你可以使用 NVIDIA 自家[的 Iray](../interface/3d-view/iray/iray.md) 渲染器，內建於 Designer 中，並可於 [3D 檢視](../interface/3d-view/3d-view.md)面板中使用，以互動&#x200B;*式方式預覽材質*&#x200B;的行為。
 
-MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md)互補，後者輸出 *的紋理* 可 *被 MDL 材質取樣* ，以影響其行為與外觀。
+MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md) 互補，後者輸出 *的紋理* 可 *被 MDL 材質取樣* ，以影響其行為與外觀。
 
 我們建議您閱讀本文件&#x200B;**&#x200B;的各章節，從下方 MDL 圖形資源的屬性開始，進行引導式學習路徑。\
-急著投入嗎？ 在 MDL 學習資源[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/first-steps-with-mdl-145654095.html)區開始使用 MDL 圖表吧！
+急著投入嗎？ 在 MDL 學習資源區開始使用 MDL 圖表吧！
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md
 
 ![MDL 圖屬性](../assets/mdl-main.png "MDL 圖屬性")
 
-*屬性[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中的 MDL 圖形屬性*
+*屬性面板中的 MDL 圖形屬性*
 
 ## MDL 圖性質
 
@@ -89,7 +89,7 @@ MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md
 
 ### 圖輸入
 
-本節列出與 [MDL 圖中暴露參數](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/exposing-a-parameter-145654033.html) 相關的互動參數，並定義其 *預設值*。 它們可以&#x200B;**&#x200B;隨時調整和&#x200B;*重新排序*。
+本節列出與 MDL 圖中暴露參數相關的互動參數，並定義其 *預設值*。 它們可以&#x200B;**&#x200B;隨時調整和&#x200B;*重新排序*。
 
 這些輸入的介面與行為由 *它們所連接的參數的值型態* 與 *範圍* 所定義。 例如：
 

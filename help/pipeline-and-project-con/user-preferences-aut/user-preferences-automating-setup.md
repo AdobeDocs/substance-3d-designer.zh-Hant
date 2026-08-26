@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/user-preferences-automating-setup.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中自動化設定使用者偏好設定，以簡化工作流程配置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用者偏好設定 - 自動化設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-使用者_preferences.xml檔案包含專案設定[&#128279;](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中定義外的所有使用者專屬設定。這些主要是針對特定的使用者介面和效能設定。
+使用者_preferences.xml檔案包含專案設定](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中定義[外的所有使用者專屬設定。這些主要是針對特定的使用者介面和效能設定。
 
 唯一需要更改的相關設定是包含專案清單的 [設定檔](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) 。 這可以透過以下幾種方式來完成。
 

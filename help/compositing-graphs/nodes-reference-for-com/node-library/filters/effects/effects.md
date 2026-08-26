@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取效果濾鏡節點，為材質添加光暈、陰影和變形等視覺效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 影響
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 此類別包含多種用於多種用途的節點。 這些節點主要用於單一通道輸入，輸出時會進行相當進階的效果或修改。
 
-使用<b>左側</b>的導覽列表，在效果下瀏覽所有節點。
+使用 <b>左側</b> 的導覽列表，在效果下瀏覽所有節點。
 
 一大群節點用於處理、產生及修改烘焙貼圖，例如法線貼圖（Normalmap）、AO 與曲率（Curvature）。 範例如下：
 

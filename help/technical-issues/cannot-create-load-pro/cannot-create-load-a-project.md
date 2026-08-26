@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中排解建立或載入專案時的問題，並尋找解決方案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 無法 createload 專案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 首先，確認你使用的是最新版本的 Substance 3D Designer，這是你目前授權的授權。 以下是各版本更新的存取點：
 
-* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面[&#128279;](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤的更新區塊
-* <b>[Substance3d.com]（http://Substance3d.com） 訂閱：</b>在 Substance 3D Designer 中提示時更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權[&#128279;](https://store.substance3d.com/user)」區下載最新安裝程式
+* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤[的更新區塊
+* <b>[Substance3d.com]（http://Substance3d.com） 訂閱：</b>在 Substance 3D Designer 中提示時更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權](https://store.substance3d.com/user)」區[下載最新安裝程式
 * <b>Steam：</b> 應用程式會預設自動更新。 你可以手動啟動 Substance 3D Designer，或進入下載頁面來觸發更新
 
 >[!WARNING]
@@ -54,27 +54,27 @@ ht-degree: 0%
 
 ## 建立或載入專案時會當機
 
-<b>![（錯誤）](../../assets/error.svg) 問題</b>
+<b>![（錯誤）](../../assets/error.svg） 問題</b>
 
-建立或載入專案時的當機，通常是因為 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)初始化時出現錯誤，而這個錯誤發生在工作區設定過程中。
+建立或載入專案時的當機，通常是因為 3D 視圖](../../interface/3d-view/3d-view.md)初始化[時出現錯誤，而這個錯誤發生在工作區設定過程中。
 
 如果系統是筆記型電腦，第三方應用程式可能會強制執行 *電源管理計畫* ，阻止 3D View 使用系統的 GPU。 如果沒有其他 GPU 裝置能替代執行此任務，可能會導致當機。
 
 當 *顯示設定或縮放* 在不同工作階段間改變，導致 3D View 渲染幀在無效座標時也可能發生當機。
 
-<b>![（打了](../../assets/check.svg) 推薦步驟</b>
+<b>![（打了](../../assets/check.svg） 推薦步驟</b>
 
 考量到這次當機可能的原因有多重，我們建議依序進行以下故障排除步驟：
 
 更新顯示卡驅動程式
 
-首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
+首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
 
 力的最佳效能
 
-找任何能管理系統 *電源方案*&#x200B;的軟體（例如 ASUS Armoury Crate），尤其是系統是筆電時。
+找任何能管理系統 *電源方案* 的軟體（例如 ASUS Armoury Crate），尤其是系統是筆電時。
 
-部分電源管理應用程式可能會限制其他應用程式存取系統 GPU 的權限，或影響 GPU 效能，可能導致當機。如果有電源管理應用程式且正在啟用，請切換到能提供最佳效能的方案。
+部分電源管理應用程式可能會限制其他應用程式存取系統 GPU 的權限，或影響 GPU 效能，可能導致當機。 如果有電源管理應用程式且正在啟用，請切換到能提供最佳效能的方案。
 
 強制使用獨立 GPU
 
@@ -93,9 +93,9 @@ ht-degree: 0%
 
 Close Designer
 
-* 開啟<b>命令提示字元</b>應用程式
+* 開啟 <b>命令提示字元</b> 應用程式
 
-開啟<b>命令提示字元</b>應用程式
+開啟 <b>命令提示字元</b> 應用程式
 
 * 輸入以下指令並按下 <b>Enter</b>：
 
@@ -127,9 +127,9 @@ Close Designer
 
 啟動 Designer，但不要&#x200B;**&#x200B;建立或開啟任何專案
 
-* 在頂欄，打開 <b>Windows</b> 選單，選擇<b>「新 3D 檢視</b>」選項
+* 在頂欄，打開 <b>Windows</b> 選單，選擇 <b>「新 3D 檢視</b> 」選項
 
-在頂欄，打開 <b>Windows</b> 選單，選擇<b>「新 3D 檢視</b>」選項
+在頂欄，打開 <b>Windows</b> 選單，選擇 <b>「新 3D 檢視</b> 」選項
 
 * 檢查 3D 視圖</b>是否<b>正確初始化，並在面板頂部列的場景</b>選單中嘗試不同的預覽網格<b>
 
@@ -146,9 +146,9 @@ Close Designer
 
 Close Designer
 
-* 開啟<b>終端</b>機應用程式
+* 開啟 <b>終端</b> 機應用程式
 
-開啟<b>終端</b>機應用程式
+開啟 <b>終端</b> 機應用程式
 
 * 輸入以下指令並按下 <b>Enter</b>：
 
@@ -180,9 +180,9 @@ Close Designer
 
 啟動 Designer，但不要&#x200B;**&#x200B;建立或開啟任何專案
 
-* 在頂欄，打開 <b>Windows</b> 選單，選擇<b>「新 3D 檢視</b>」選項
+* 在頂欄，打開 <b>Windows</b> 選單，選擇 <b>「新 3D 檢視</b> 」選項
 
-在頂欄，打開 <b>Windows</b> 選單，選擇<b>「新 3D 檢視</b>」選項
+在頂欄，打開 <b>Windows</b> 選單，選擇 <b>「新 3D 檢視</b> 」選項
 
 * 檢查 3D 視圖</b>是否<b>正確初始化，並在面板頂部列的場景</b>選單中嘗試不同的預覽網格<b>
 

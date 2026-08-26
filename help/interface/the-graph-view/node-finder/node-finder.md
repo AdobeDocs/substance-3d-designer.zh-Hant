@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用節點搜尋器快速搜尋並定位物質圖中的節點，提升效率。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 節點尋找器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Node finder toolbar](../../../assets/node-finder-toolbar.png "Node finder toolbar"){zoomable="yes"}
 
-節點搜尋工具允許你使用文字查詢來搜尋 <b>節點和變數</b> 。所有不符合查詢的節點都會調暗，使結果更突出。
+節點搜尋工具允許你使用文字查詢來搜尋 <b>節點和變數</b> 。 所有不符合查詢的節點都會調暗，使結果更突出。
 
 查詢可符合以下任一條件：
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 節點的 <b>UID</b> （唯一識別碼）
 * 節點的 <b>標籤</b>
 
-搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
+搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到[。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
 
 ## 介面
 
@@ -39,11 +39,11 @@ ht-degree: 0%
 
 在圖視圖中，按 <b>Ctrl+F</b> （Windows）/ <b>Cmd+F</b> （macOS）即可顯示節點搜尋工具列，並自動將焦點設定在查詢欄位。 這讓你能快速進行搜尋。
 
-在 Graph View 工具列中，點擊<b>節點搜尋器按鈕![](../../../assets/graph-node-finder.png)</b> 即可顯示節點搜尋工具列。 顯示後，只有點擊這個按鈕才能關閉工具列。
+在 Graph View 工具列中，點擊 <b>節點搜尋器按鈕 ![](../../../assets/graph-node-finder.png)</b> 即可顯示節點搜尋工具列。 顯示後，只有點擊這個按鈕才能關閉工具列。
 
 <b>搜尋會遍</b>歷圖表。 換句話說，當透過以下動作開啟圖表時，搜尋仍然保持活躍：
 
-* 實例節點：在上下文中開啟參考（Ctrl+E / Cmd+E）（*注意：*&#x200B;在上下文中進行圖形編輯需在 Edit > Preferences > Graph 中啟用）
+* 實例節點：在上下文中開啟參考（Ctrl+E / Cmd+E）（*注意：* 在上下文中進行圖形編輯需在 Edit > Preferences > Graph 中啟用）
 * 像素處理器：編輯功能（Ctrl+E / Cmd+E）
 * 值處理器：編輯功能（Ctrl+E / Cmd+E）
 * FX-Map：編輯FX-Map圖（Ctrl+E / Cmd+E）
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 搜尋詞可以輸入此欄位，箭頭按鈕會開啟包含當前情境中部分變數的查詢建議清單。
 
-請參考[下方的搜尋查詢](#search-query)區，了解更多您可以執行的查詢。
+請參考 [下方的搜尋查詢](#search-query) 區，了解更多您可以執行的查詢。
 
 ### 節點類型
 
@@ -182,7 +182,7 @@ ht-degree: 0%
 
 ### 暴露參數與變數
 
-可直接搜尋暴露參數[&#128279;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼或其他變數。
+可直接搜尋暴露參數](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼[或其他變數。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

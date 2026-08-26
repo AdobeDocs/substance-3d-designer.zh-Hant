@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: 學習如何取得 Substance 3D Designer 安裝路徑，用於腳本和自動化用途。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取回安裝路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 1%
@@ -20,14 +20,14 @@ ht-degree: 1%
 
 # 取回安裝路徑
 
-本頁彙整了根據版本與平台，如何取得 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 安裝路徑的資訊。
+本頁彙整了根據版本與平台，如何取得 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 安裝路徑[的資訊。
 
 ## 窗戶
 
 ### 創意雲端桌面
 
 1. 開啟 <b>Windows 登錄檔編輯器</b> （regedit）
-1. 請前往登錄檔鍵<b>：HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\
+1. 請前往登錄檔鍵 <b>：HKEY\_LOCAL\_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\
 1. 打開名為 <b>Adobe Substance 3D 的子鍵Designer.exe</b>
 1. 該金鑰的值包含應用程式執行檔安裝地點的路徑
 
@@ -39,7 +39,7 @@ ht-degree: 1%
 ### Substance 版本（獨立版）
 
 1. 開啟 <b>Windows 登錄檔編輯器</b> （regedit）
-1. 請前往登錄檔鍵<b>：HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
+1. 請前往登錄檔鍵 <b>：HKEY\_LOCAL\_MACHINE\ SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall</b>
 1. 找出與你應用程式版本 AppID</b> 相符<b>的子金鑰（見下表）
 1. 該密鑰的值包含通往應用程式安裝位置的路徑
 

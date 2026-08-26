@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 用自訂漸層重新映射影像中的灰階值。
 
-這個節點有雙重功能：它可以單純作為<b> </b>灰階轉色的轉換節點，或是用來將灰階輸入對應到自訂的色彩斜坡。
+此節點具有雙重功能：可簡單用作<b> </b>灰階轉色轉換節點，或是將灰階輸入映射到自訂色彩斜坡。
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 0%
 | --- | --- |
 | <b>彩色模式</b> *布林值* | 將輸出模式設為彩色或灰階。 |
 | <b>梯度處理</b> *布林值* | 將梯度設定為重複（拼貼）或夾取超出 [0， 1] 範圍的值。 |
-| <b>梯度</b> *漸變鍵陣列* | 自訂漸層斜坡用來映射輸入灰階值。 可在原地編輯，或使用 [漸層編輯器](#gradient-editor)進行。 |
+| <b>梯度</b> *漸變鍵陣列* | 自訂漸層斜坡用來映射輸入灰階值。   可在原地編輯，或使用 [漸層編輯器](#gradient-editor)進行。 |
 
 ## 漸層編輯器
 
@@ -311,13 +311,13 @@ ht-degree: 0%
 
 此外，以下功能可在顏色縮圖下方作為按鈕使用：
 
-<b>反轉：</b>將顏色切換為負片;
+<b>反轉：</b> 將顏色切換為負片;
 
-<b>對灰色：</b>顏色去飽和度;
+<b>對灰色：</b> 顏色去飽和度;
 
 <b>複製&#x200B;</b>*：* 將目前選取的顏色複製到夾板;
 
-<b>貼上：</b>切換到剪貼板目前的顏色;
+<b>貼上：</b> 切換到剪貼板目前的顏色;
 
 <b>sRGB</b>：使用 sRGB 色彩空間來顯示顏色。 當禁用時，會使用線性色彩空間;
 

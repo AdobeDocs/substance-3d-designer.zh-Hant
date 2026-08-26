@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 使用節點對齊工具在圖表檢視中組織和對齊節點，使圖表更清晰且易讀。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 節點對齊工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![節點對齊工具列](../../../assets/node-alignment-toolbar.png "節點對齊工具列"){zoomable="yes"}
 
-節點對齊工具讓你能將節點排列成圖表，以提升其可讀性與撰寫體驗。它們提供節點對齊、均勻分配並將它們吸附到網格上的動作。
+節點對齊工具讓你能將節點排列成圖表，以提升其可讀性與撰寫體驗。 它們提供節點對齊、均勻分配並將它們吸附到網格上的動作。
 
 它們只</b>作用於目前選擇的<b>節點。
 
@@ -40,11 +40,11 @@ ht-degree: 0%
 
 ### 水平對齊
 
-<b>![](../../../assets/node-alignment-h-left.png)左側：</b> 將所選節點的左側對齊到最左側節點的左側。
+<b>![](../../../assets/node-alignment-h-left.png) 左側：</b> 將所選節點的左側對齊到最左側節點的左側。
 
-<b>![](../../../assets/node-alignment-h-center.png)中心（H）：</b> 將所選節點的水平中心對齊於包圍它們的邊界框的水平中心。
+<b>![](../../../assets/node-alignment-h-center.png) 中心（H）：</b> 將所選節點的水平中心對齊於包圍它們的邊界框的水平中心。
 
-<b>![](../../../assets/node-alignment-h-right.png)右側：</b>將所選節點的右側對齊到最右側節點的右側。
+<b>![](../../../assets/node-alignment-h-right.png) 右側：</b> 將所選節點的右側對齊到最右側節點的右側。
 
 <table>
 <tr style="border: 0;">
@@ -74,11 +74,11 @@ ht-degree: 0%
 
 ### 垂直對齊
 
-<b>![](../../../assets/node-alignment-v-top.png)頂端：</b>將所選節點的上端對齊到最上端節點的頂端。
+<b>![](../../../assets/node-alignment-v-top.png) 頂端：</b> 將所選節點的上端對齊到最上端節點的頂端。
 
-<b>![](../../../assets/node-alignment-v-middle.png)中間（V）：</b>將所選節點的垂直中心對齊於包圍它們的包圍框的垂直中心。
+<b>![](../../../assets/node-alignment-v-middle.png) 中間（V）：</b> 將所選節點的垂直中心對齊於包圍它們的包圍框的垂直中心。
 
-<b>![](../../../assets/node-alignment-v-bottom.png)底部：</b>將所選節點的底部對齊到最下方節點的底部。
+<b>![](../../../assets/node-alignment-v-bottom.png) 底部：</b> 將所選節點的底部對齊到最下方節點的底部。
 
 <table>
 <tr style="border: 0;">
@@ -118,11 +118,11 @@ ht-degree: 0%
 
 節點可以在當前選擇的兩個極端節點間均勻分布於目標軸上的各節點。
 
-<b>![](../../../assets/node-alignment-distribute-h.png)水平方向：</b> 節點均勻分布於選擇中最左邊和最右側的節點。
+<b>![](../../../assets/node-alignment-distribute-h.png) 水平方向：</b> 節點均勻分布於選擇中最左邊和最右側的節點。
 
-<b>![](../../../assets/node-alignment-distribute-v.png)垂直方向：</b> 節點均勻分布於選擇中最頂端與最下方的節點。
+<b>![](../../../assets/node-alignment-distribute-v.png) 垂直方向：</b> 節點均勻分布於選擇中最頂端與最下方的節點。
 
-這些分布旨在確保<b>節點間距均勻</b>，無論節點大小如何。
+這些分布旨在確保 <b>節點間距均勻</b> ，無論節點大小如何。
 
 當多個節點的中心在所選軸上完全對齊時，它們會保持不變，並在分布中被視為 <b>一體</b> 。 **&#x200B;最大對齊節點用於計算偶數間距。
 

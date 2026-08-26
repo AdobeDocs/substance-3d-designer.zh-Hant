@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
 breadcrumb-title: ''
 description: 使用方向刮痕節點來創造方向性刮痕圖案，為材質添加磨損和損壞效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 方向刮擦
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '360'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![方向刮痕 - 圖示](../../../../../../assets/directional_scratches.png "方向刮痕 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -38,26 +38,6 @@ ht-degree: 1%
 ## 說明
 
 隨機散落的刮痕圖案，角度和大小可調整。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
 
 </td>
 </tr>
@@ -75,11 +55,11 @@ ht-degree: 1%
 | --- | --- |
 | <b>尺度</b>  整數 | 用來產生噪音磚塊的網格細分。    數值越高，抽到的方塊越多，噪音也越密集。 |
 | <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
-| <b>無序各向異性</b>  浮子 | 控制無序</b>參數所施加<b>的位移方向範圍，值越高，方向越窄且更明確。方向由<b>無序各向異性角度</b>參數控制。 |
+| <b>無序速度</b>  浮動 | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>無序各向異性</b>  浮子 | 控制無序</b>參數所施加<b>的位移方向範圍，值越高，方向越窄且更明確。方向由 <b>無序各向異性角度</b> 參數控制。 |
 | <b>無序各向異性角</b>  浮點 | 控制無序</b>參數施加位移<b>的方向，當<b>無序各向</b>異性參數非零時。 |
 | <b>角度</b>  浮球 | 角度用來設定刮痕方向，從水平向右開始轉彎數。 |
-| <b>角度隨機</b>  浮動 | 隨機變化的最大幅度應用於<b>角度</b>值，以匝數計。 |
+| <b>角度隨機</b>  浮動 | 隨機變化的最大幅度應用於 <b>角度</b> 值，以匝數計。 |
 | <b>模式量</b>  浮動 | 這是散落在刮痕圖案數量上的乘數。 |
 | <b>圖案尺寸</b>  Float2 | 抓刮圖的邊界盒大小。    Y 值控制刮痕的最大長度。 |
 | <b>圖案大小</b>  隨機 Float2 | 這是針對刮痕隨機降比例的乘數。    Y 值是用來計算刮痕長度的。 |

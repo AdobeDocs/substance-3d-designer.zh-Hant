@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖形檢視中使用框架來組織和分組節點，以提升視覺清晰度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 邊框
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -66,7 +66,7 @@ ht-degree: 0%
 +++
 
 +++已選取
-選取後，標題與框架輪廓會以白色高亮顯示。輪廓變得更粗。
+選取後，標題與框架輪廓會以白色高亮顯示。 輪廓變得更粗。
 
 ![框架（選擇狀態）](../../../../assets/graph-frames-selected.png "框架（選擇狀態）")
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果在偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中將鍵盤快捷鍵映射到「Frame」項目，當圖形檢視有焦點時，按下該快捷鍵即可。
+如果在偏好設定](../../../../interface/preferences-window/preferences-window.md)中將鍵盤快捷鍵映射到「Frame」項目[，當圖形檢視有焦點時，按下該快捷鍵即可。
 
 +++
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 +++
 
 +++圖書館
-在函式庫中，選擇<b>圖項目</b>類別，然後拖放「框架」項目到圖譜檢視中。
+在函式庫中，選擇 <b>圖項目</b> 類別，然後拖放「框架」項目到圖譜檢視中。
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-影格可以透過拖曳標題列或標題列來 <b>平移</b> ，並 <b>透過拖曳任一邊框或角落來調整大小</b>。
+影格可以透過拖曳標題列或標題列來 <b>平移</b> ，並 <b>透過拖曳任一邊框或角落來調整大小</b> 。
 
 圖中突顯了平移（藍色）和調整大小（黃色）的互動區域。
 
@@ -157,12 +157,12 @@ ht-degree: 0%
 
 ## 屬性
 
-當選取框架時，屬性底座中可選[&#128279;](../../../../interface/properties/properties.md)出以下屬性：
+當選取框架時，屬性底座中可選[](../../../../interface/properties/properties.md)出以下屬性：
 
 +++標題
 <b>標題</b>位於畫面左上角。可透過「 <b>產權可見</b> 」屬性來開啟或關閉產權顯示。
 
-標題大小可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能清晰閱讀。 你可以透過在圖表檢視[&#128279;](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單中勾選「框架標題」<b>選項來達成此目標。
+標題大小可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能清晰閱讀。 你可以透過在圖表檢視](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單[中勾選「框架標題」<b>選項來達成此目標。
 
 ![框架：標題](../../../../assets/graph_frames_title.gif "框架：標題"){width="640px"}
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 +++說明
 <b>描述</b>是可選的額外文字，可用來標註框架內容。
 
-文字可以用 HTML 標籤來格式化。 此格式可透過點擊 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 標記</b> 按鈕切換。
+文字可以用 HTML 標籤來格式化。 此格式可透過點擊 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 標記</b> 按鈕切換。
 
 詳情請見下方的說明區。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 ## 說明
 
-框架內可標註文字。 文字對齊於左側，從畫面左上角開始。使用框架的[描述](#properties)屬性來編輯該文字。
+框架內可標註文字。 文字對齊於左側，從畫面左上角開始。 使用框架的 [描述](#properties) 屬性來編輯該文字。
 
 <table>
 <tr style="border: 0;">
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 <b>標題</b>以粗體字體顯示在畫面左上方。標題的可見性可以開關。
 
-它的尺寸可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能保持可讀性。 你可以透過在圖表檢視[&#128279;](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單中勾選「框架標題」<b>選項來達成此目標。
+它的尺寸可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能保持可讀性。 你可以透過在圖表檢視](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單[中勾選「框架標題」<b>選項來達成此目標。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -223,7 +223,7 @@ ht-degree: 0%
 
 ### HTML 格式化
 
-文字可以透過框架的 <b>Description</b> 屬性中的 HTML 標籤來格式化。 格式化必須透過![](../../../../assets/graph-frames_html-markup-button.png) <b>該屬性中的 HTML 標記</b> 按鈕來啟用。
+文字可以透過框架的 <b>Description</b> 屬性中的 HTML 標籤來格式化。 格式化必須透過![](../../../../assets/graph-frames_html-markup-button.png)<b>該屬性中的 HTML 標記</b>按鈕來啟用。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -258,11 +258,11 @@ ht-degree: 0%
 | 顏色 | &lt;font color=&quot;#4A567C&quot;>...&lt;/font> |
 | 段落 | &lt;p>...&lt;/p> |
 | 換行 | &lt;br> |
-| 標題 | &lt;h1>...&lt;/h1>,&lt;h2>...&lt;/h2>等等。 |
-| 影像 | &lt;img src=&quot;{path\_to\_image}&quot;> |
+| 標題 | &lt;h1>...&lt;/h1>, &lt;h2>...&lt;/h2>等等。 |
+| 影像 | &lt;img src=&quot;{path\_to\_image}&quot;> |
 | 上標 | &lt;sub>...&lt;/sub> |
-| 無序清單（項目符號） | &lt;ul>   &lt;li>...&lt;/li>   &lt;li>...&lt;/li>  &lt;/ul> |
-| 有序列表（數字） | &lt;ol>   &lt;li>...&lt;/li>   &lt;li>...&lt;/li>  &lt;/ol> |
+| 無序清單（項目符號） | &lt;ul>   &lt;li>...&lt;/li>   &lt;li>...&lt;/li>  &lt;/ul> |
+| 有序列表（數字） | &lt;ol>   &lt;li>...&lt;/li>   &lt;li>...&lt;/li>  &lt;/ol> |
 | 程式碼 | &lt;code>...&lt;/code> |
 
 
@@ -270,7 +270,7 @@ ht-degree: 0%
 
 ## 包含規則
 
-若物件符合其包含規則，則視為包含在框架中。這些規則會依物件和特殊情況而有所不同。 以下列出了它們。
+若物件符合其包含規則，則視為包含在框架中。 這些規則會依物件和特殊情況而有所不同。 以下列出了它們。
 
 每幅插圖中的黃色符號代表必須完全在框架範圍內的點或區域，才能包含物件。
 
@@ -371,7 +371,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 只要至少&#x200B;*有一個*&#x200B;圖物件符合框架的[包含規則](../../../../interface/the-graph-view/graph-items/frame/frame.md)，該選項就可用。
+> 只要至少 *有一個* 圖物件符合框架的 [包含規則](../../../../interface/the-graph-view/graph-items/frame/frame.md)，該選項就可用。
 
 <table>
 <tr style="border: 0;">
@@ -405,7 +405,7 @@ ht-degree: 0%
 
 隨著圖的成長，影格內容可能需要重新排列。 節點可能會移動以騰出空間給新增內容，或是內容需要更拉開以促進可讀性。
 
-為了方便調整，移動包含物件[&#128279;](#inclusion-rules)時可以自動展開畫面：在移動物件時按住 <b>Shift</b> 鍵，讓框架邊框自動調整，保持該物件在範圍內。
+為了方便調整，移動包含物件](#inclusion-rules)時可以自動展開畫面[：在移動物件時按住 <b>Shift</b> 鍵，讓框架邊框自動調整，保持該物件在範圍內。
 
 這同樣適用於可能包含多個物件的選擇。 此時，每個物件的主機影格會同時調整。
 
@@ -413,7 +413,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 雖然<b>在移動過程中任何時候按下或放開 Shift</b> 鍵以觸發或取消自動調整畫面，但&#x200B;*完成動作時必須*&#x200B;長按才能有效執行調整。
+> 雖然 <b>在移動過程中任何時候按下或放開 Shift</b> 鍵以觸發或取消自動調整畫面，但 *完成動作時必須* 長按才能有效執行調整。
 
 +++範例
 ![影格：自動展開（GIF）影](../../../../assets/graph-frames_auto-expand.gif "格：自動展開（GIF）"){width="640px"}

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用點列表節點來建立和管理點清單，用於樣條線和路徑生成。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 點數列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 此節點可用來向樣條（多元二次）[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點，以建立樣條曲線。
+> 此節點可用來向樣條（多元二次）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點[，以建立樣條曲線。
 
 >[!IMPORTANT]
 >
@@ -55,10 +55,10 @@ ht-degree: 0%
 
 <b>點列表輸入</b> *顏色*\
 彩色影像RGBA通道中編碼的輸入點列表：\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 整數部分：平滑度;\
 * 分數部分：厚度。
 
@@ -71,10 +71,10 @@ ht-degree: 0%
 
 <b>點表 </b>*顏色*\
 彩色影像RGBA通道中編碼的點的輸出清單：\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 整數部分：平滑度;\
 * 分數部分：厚度。
 
@@ -102,16 +102,16 @@ ht-degree: 0%
 +++
 
 +++預覽
-<b>節目標籤：</b> *布林值*\
+<b>節目標籤</b> *布林值*\
 對於每個點，會在「預覽」輸出中旁邊顯示該點的名稱。
 
-<b>標籤尺寸</b> *浮點*（當「顯示標籤」設為「真實」時可用）\
+<b>標籤尺寸</b> *浮動* （當「顯示標籤」設為「真實」時可用）\
 貼圖空間中每個點的標籤大小，0.1 是貼圖寬度的十分之一。
 
-<b>顯示點布</b> *林值*\
+<b>節目重點</b> *布林值*\
 顯示「預覽」輸出中的點數。
 
-<b>點數大小</b> *浮點*&#x200B;數（當「顯示點數」設定為「真實」時可用）\
+<b>積分大小</b> *浮動（* 當「顯示點數」設為「真實」時可用）\
 貼圖空間中點的半徑，0.1 是貼圖寬度的十分之一。
 
 +++

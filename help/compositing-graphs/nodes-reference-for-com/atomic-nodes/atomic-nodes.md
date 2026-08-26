@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取原子節點，進行基本操作，包括輸入、輸出、混合及色彩調整。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 原子節點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 原子節點是 Substance 圖的基本建構單元。
 
-庫中[&#128279;](../../../interface/the-library/the-library.md)其他所有 Substance 圖節點都是由原子節點組成，如果你把它們拆解到最低層級。
+庫中[](../../../interface/the-library/the-library.md)其他所有 Substance 圖節點都是由原子節點組成，如果你把它們拆解到最低層級。
 
 <table>
 <tr style="border: 0;">
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 [![原子節點：方向模糊](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 [![原子節點：輸入灰階](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -270,11 +270,11 @@ ht-degree: 1%
 
 節點調色盤位於 [圖視工具列](../../../interface/the-graph-view/the-graph-view.md) 中，方便存取原子節點：只要點擊節點或在圖中拖曳即可。
 
-調色盤可透過這個按鈕切換：![](../../../assets/node-palette-toggle.png)
+調色盤可透過這個按鈕切換： ![](../../../assets/node-palette-toggle.png)
 
 ### <b>節點選單</b>
 
-在圖視圖中按 *空白鍵*&#x200B;或 *Tab* 鍵，會顯示可搜尋的節點列表，預設列出所有原子節點。
+在圖視圖中按 *空白鍵* 或 *Tab* 鍵，會顯示可搜尋的節點列表，預設列出所有原子節點。
 
 搜尋欄位讓你瀏覽 [函式庫](../../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)中的所有其他節點，包括 [你自己的內容](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) （如果新增的話）。
 
@@ -284,7 +284,7 @@ ht-degree: 1%
 
 ### <b>圖書館</b>
 
-函式庫[&#128279;](../../../interface/the-library/the-library.md)的「原子節點」類別承載所有原子節點。它們可以拖放到物質圖中。
+函式庫](../../../interface/the-library/the-library.md)的[「原子節點」類別承載所有原子節點。它們可以拖放到物質圖中。
 
 ### <b>鍵盤快捷鍵</b>
 

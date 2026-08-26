@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ''
 description: 使用方向模糊節點，將模糊效果套用特定方向，以產生動態模糊和條紋效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
@@ -37,7 +37,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了更長且高品質的替代方案，並在性能上有所取捨
+與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了[更長且高品質的替代方案，並在性能上有所取捨
 
 <table>
 <tr style="border: 0;">
@@ -61,7 +61,7 @@ ht-degree: 1%
 
 ## 方向性模糊與各向異性模糊
 
-下方這些圖片展示了方向模糊與[各向異性模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)在相同輸入形狀下的影響，參數相似。 各向異性模糊設定為全各向異性且高品質。
+下方這些圖片展示了方向模糊與[各向異性模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 在相同輸入形狀下的影響，參數相似。 各向異性模糊設定為全各向異性且高品質。
 
 <table>
 <tr style="border: 0;">

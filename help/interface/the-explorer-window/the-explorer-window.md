@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 的 Explorer 視窗瀏覽、整理和管理你的專案檔案與資源。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 總管
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 總管
 
-本頁介紹了Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html)中的Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
+本頁介紹了Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)中的[Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
 
 <table>
 <tr style="border: 0;">
@@ -48,8 +48,8 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 * 儲存並關閉已載入的包裹
 * [匯入與連結資源](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 * [將圖形結果匯出成貼圖](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)
-* [將套件發佈到 Substance 3D 資產（SBSAR）](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)
-* [傳送套件至其他 Substance 3D 應用程式](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html)
+* [將套件發佈到 Substance 3D 資產（SBSAR）](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
+* [傳送套件至其他 Substance 3D 應用程式](send-to-interoperability/send-to-interoperability.md)
 * [從網格烘焙貼圖](../../bakers/bakers.md)
 
 ## 頂端工具列
@@ -61,7 +61,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 ![](../../assets/sendto-icon.jpg)  <b>發佈或 [發送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> 選定元素：
 
 * [將任一選定的套件發佈至Substance 3D資產（SBSAR）;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
-* 將所選套件寄送至 [Substance 3D Sampler](https://www.adobe.com/tw/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html)。
+* 將所選套件寄送至 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 或 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)。
 
 ![](../../assets/republish.png)  <b>發佈或傳送如前版本：</b> 以相同設定發佈或傳送選取的元素。 此選項僅適用於本場至少已發佈&#x200B;*過一次***&#x200B;的套件。
 
@@ -71,7 +71,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 * 當選取包含資料夾或套件時，工具會遞迴&#x200B;*地清理其中*&#x200B;的所有圖表;
 * 如果其中一個目標圖是 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，則有第二個選項，可以清理該圖中節點上的所有參數函數。
 
-想了解更多關於此工具的資訊，請參閱圖視圖[&#128279;](../../interface/the-graph-view/the-graph-view.md)頁面的「移除未使用節點」區塊。
+想了解更多關於此工具的資訊，請參閱圖視圖](../../interface/the-graph-view/the-graph-view.md)頁面的[「移除未使用節點」區塊。
 
 <table>
 <tr style="border: 0;">
@@ -112,15 +112,15 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 <b>新版</b>可以讓你建立新的圖表（[Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)、[點陣](../../resources/bitmap-resource/bitmap-resource.md)圖和[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)資源，以及&#x200B;*用於排序內容的資料夾*
 
-<b>匯入</b>和<b>連結</b>可以讓你帶資源進來[&#128279;](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+<b>匯入</b>和<b>連結</b>可以讓你帶資源進來[](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 <b>重新載入</b>、 <b>儲存、另存新檔</b> 和<b> 另存副本</b> ，讓你可以儲存到磁碟，或從磁碟中調出之前儲存的套件版本。
 
-<b>發佈 .sbsar 檔案</b> 與<b> 重新發布 .sbsar 檔案</b> ，讓您能 [將未編譯、未優化的 Substance 圖表發佈成高效且可攜的 SBSAR 檔案，供我們在其他 Substance 應用程式與整合](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)中使用使用。 「以先前發佈」會重複先前的發佈動作，並使用相同的選項，跳過選項對話框以加快迭代速度。 工具列中包含具有相同功能的按鈕。
+<b>Publishing .sbsar 檔案</b> 與<b> Republish .sbsar 檔案</b> 讓您能 [將未編譯、未優化的 Substance 圖表發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 成高效且可攜的 SBSAR 檔案，供我們在其他 Substance 應用程式與整合中使用使用。 「以先前發佈」會重複先前的發佈動作，並使用相同的選項，跳過選項對話框以加快迭代速度。 工具列中包含具有相同功能的按鈕。
 
 <b>帶依賴</b> 的匯出和儲存和發佈是不同的。 它會收集你的 SBS 檔案，收集所有參考的資源和相依，並建立一個自成一體的套件。 對話框讓你選擇要收集哪些函式庫，以及檔案是否應該是壓縮壓縮檔（7-zip）。 這是個不錯的選擇，可以與他人分享 SBS 檔案，不用擔心遺漏相依。
 
-<b>發送至...</b> 會開啟一個子選單，讓你直接 [將包裹](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/send-to-215286290.html) 傳送到 [Substance 3D取樣器](https://www.adobe.com/tw/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html)、 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html) 或 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
+<b>發送至...</b> 會開啟一個子選單，讓你直接 [將包裹傳送](send-to-interoperability/send-to-interoperability.md) 到 [Substance 3D取樣器](https://www.adobe.com/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) 或 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
 
 <b>複製</b> 會複製所選的包裹。
 
@@ -140,7 +140,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 +++物質圖
 
-<b>開啟：</b>（返回）在圖檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中開啟此圖。
+<b>開啟：</b>（返回）在圖檢視](../../interface/the-graph-view/the-graph-view.md)中開啟此圖[。
 
 <b>複製：</b> *（Ctrl-C）* 將目前的圖表複製到剪貼簿。
 
@@ -158,7 +158,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 +++3D 場景資源
 
-<b>開啟：</b>（返回）在3D視圖[&#128279;](../../interface/3d-view/3d-view.md)中使用此3D網格，取代標準的立方體或平面。
+<b>開啟：</b>（返回）在3D視圖](../../interface/3d-view/3d-view.md)中使用此3D網格[，取代標準的立方體或平面。
 
 <b>複製：</b> （Ctrl-C）將此資源複製到剪貼簿。
 

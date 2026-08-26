@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-polygon.html"
 breadcrumb-title: ''
 description: 使用 Paths 多邊形節點，從頂點資料建立多邊形路徑以生成幾何圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑多邊形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 2%
@@ -49,7 +49,7 @@ ht-degree: 2%
 
 ## 參數
 
-<b>整數邊數</b>* *\
+<b>面數</b> *整數*\
 提示：輸入介於100到1000之間的數字以產生圓圈。
 
 ## 範例

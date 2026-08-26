@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: 使用 Apply Color Palette 節點，透過色彩調色盤重新映射材質，以產生風格化的色彩效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 套用色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -69,8 +69,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>身分證</b> *灰階* 初級 | 輸入 ID 映射用於分配輸入調色盤中的顏色。 ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。 ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
-| <b>調色盤</b> *顏色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這是節點映射到 ID 映射索引的調色盤。 調色盤可用量化色彩節點產生[，並以修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)節點進行修改[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) |
+| <b>身分證</b> *灰階* 初級 | 輸入 ID 映射用於分配輸入調色盤中的顏色。   ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。   ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
+| <b>調色盤</b> *顏色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這是節點映射到 ID 映射索引的調色盤。   調色盤可用量化色彩節點產生[，並以修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)節點進行修改[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) |
 
 ## 輸出連接器
 

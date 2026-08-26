@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: 使用「檢視色彩調色盤」節點來視覺化從材質擷取的色彩調色盤資料以供分析。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 查看色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -68,8 +68,8 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>調色盤</b> *色彩 原色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這是節點打包並渲染的調色盤。 |
-| <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量。 如果這個數字與「調色盤」影像輸入中的實際顏色數量不符，視覺化可能不完整，或有比絕對必要的空白欄位還多。 |
+| <b>調色盤</b> *色彩 原色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。   這是節點打包並渲染的調色盤。 |
+| <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量。   如果這個數字與「調色盤」影像輸入中的實際顏色數量不符，視覺化可能不完整，或有比絕對必要的空白欄位還多。 |
 
 ## 輸出連接器
 

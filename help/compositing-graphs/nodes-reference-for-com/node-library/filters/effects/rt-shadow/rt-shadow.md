@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: 使用 RT Shadows 節點從幾何體中即時計算陰影資訊，以創造動態光影效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT 陰影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -47,10 +47,10 @@ ht-degree: 0%
 計算陰影所用的光線數量。\
 較高的數值能提供更平滑且精確的結果，但代價是性能下降。
 
-<b>模態</b> *整數*\
+<b>模式</b> *整數*\
 畫出表面陰影的方法。
 
-<b>身高比例</b> *浮車*\
+<b>身高比例</b> *浮標*\
 輸入高度圖強度的乘數。
 
 <b>燈光位置 </b>*浮點2*\
@@ -58,7 +58,7 @@ ht-degree: 0%
 * <b>X</b>：水平位置，以轉數表示;
 * <b>Y</b>：垂直位置，0.5為天頂，0/1為地平線。
 
-<b>光強</b> *浮球*\
+<b>光強</b> *浮標*\
 光源的強度。
 
 <b>光線尺寸</b> *Float2*（模式設&#x200B;*為陰影*&#x200B;時<b></b>可用）\
@@ -71,14 +71,14 @@ ht-degree: 0%
 <b>讓光明在地平線上</b> *布林值*\
 如果 <b>光線位置</b> 設定為將光線置於地平線以下，這個參數會防止光線越過該門檻，意即 Y 值會被限制在 [0;1] 範圍。
 
-<b>陰影不透明度</b> *浮動器*\
+<b>陰影不透明度</b> *浮標*\
 是陰影不透明度的倍數。
 
-<b>影子衰減</b> *浮球*\
+<b>影子衰減</b> *浮標*\
 這是影子越遠離施法者，影子衰減的倍數。\
 值為 0 則陰影均勻（柔和陰影仍會生效）。
 
-<b>Max Shadows 長度</b> *浮球*\
+<b>最大陰影長度</b> *浮標*\
 影子從施法者能拉出的最大距離。\
 值為 0 則不會有可見的陰影。
 

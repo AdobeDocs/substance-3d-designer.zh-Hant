@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-grayscale.html"
 breadcrumb-title: ''
 description: 使用 MLV 灰階模糊濾鏡，將動態模糊效果套用到灰階材質上，營造動態效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV 灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![MLV 灰階：圖示](../../../../../../assets/MLV_Grayscale_Icon.png "MLV 灰階：圖示")
 
-<b>收錄於：</b>模糊>濾鏡
+<b>收錄於：</b> 模糊>濾鏡
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 
 ## 輸入連接器
 
-<b>輸入&#x200B;</b>*灰階*：應該處理的灰階影像。
+<b>輸入 </b>*灰階*：應該處理的灰階影像。
 
 ## 輸出連接器
 
@@ -58,14 +58,14 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <b>強度</b> *浮動*&#x200B;對影像施加的濾波強度。\
 較高的數值會使細節和雜訊更平滑，並延伸到較平坦的區域。
 
-<b>平滑浮</b> *動*&#x200B;指對結構區域施加的平滑強度，使區域變得更圓潤，並減少在較高過濾強度下可能產生的階梯效應。
+<b>平滑度</b> *浮動*&#x200B;對結構區域施加的平滑強度，導致區域更圓潤，並減少在較高過濾強度下可能產生的階梯效應。
 
-<b></b>*標準整數*&#x200B;用於選擇定義影像結構區域的數值的標準。 \
-換句話說，就是像素應該&#x200B;*如何分組*&#x200B;成應該被平滑的區域。\
-*- 變異數：*&#x200B;選擇平均數周圍離散最低的值，導致像素群彼此相似\
-*- 變異係數：*&#x200B;選擇數值時考慮平均值，導致較亮區域的變異反向減少
+<b>標準</b> *整數*&#x200B;用來選擇定義影像結構區域的數值的準則。\
+換句話說，就是像素應該 *如何分組* 成應該被平滑的區域。\
+*- 變異數：* 選擇平均數周圍離散最低的值，導致像素群彼此相似\
+*- 變異係數：* 選擇數值時考慮平均值，導致較亮區域的變異反向減少
 
-<b>高斯</b> *布林運算*：使用高斯分布將像素分組到結構區域。\
+<b>高斯分布</b> *布林運算*：使用高斯分布將像素分組到結構區域。\
 當「True」時，會讓區域更平滑，且扁平效果會減少。
 
 <b>迭代</b> *整數*&#x200B;濾波器執行次數，每次迭代都套用在前一次的結果上。\

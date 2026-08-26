@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: 使用 Normal Combine 節點來合併多個法線貼圖，用於分層表面細節和細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 普通聯合測試
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 2%
@@ -43,17 +43,17 @@ ht-degree: 2%
 
 這是將 2D 生成的法線貼圖細節加入烘焙貼圖的最佳且最正確的方法。
 
-如果你想混合兩個法線貼圖而不合併它們的細節（例如使用遮罩），你應該使用[法線混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
+如果你想混合兩個法線貼圖而不合併它們的細節（例如使用遮罩），你應該使用 [法線混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
 
 ## 輸入連接器
 
-<b>普通雙</b> *色*&#x200B;描述
+<b>普通2</b> *顏色*&#x200B;描述
 
-<b>普通1</b> *色*&#x200B;描述
+<b>普通 1</b> *顏色*&#x200B;描述
 
 ## 參數
 
-<b>技術</b> *整數*&#x200B;集合，採用內部混合技術，以速度換取品質。\
+<b>技巧</b> *整數*&#x200B;集合，採用內部混合技術，以速度換取品質。\
 *- 白片（低畫質）
 * 通道混音器（高品質）
 * 注重細節（高品質）*

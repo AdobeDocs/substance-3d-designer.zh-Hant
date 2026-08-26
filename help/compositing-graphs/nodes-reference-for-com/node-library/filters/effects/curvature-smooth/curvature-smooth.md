@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-smooth.html"
 breadcrumb-title: ''
 description: 使用 Curvature Smooth 節點從高度圖產生平滑曲率貼圖，以提取表面細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲率平滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -78,15 +78,15 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>曲率</b> *灰階* | 曲率映射是從輸入法線映射中計算出來的。 平坦區域為50%為灰色。 凸面較亮，凹面較暗。 |
-| <b>凸性</b> *灰階* | 由輸入法向映射計算出凸性映射。 一個區域越凸，地圖上就越亮。  平坦或凹陷的區域為黑色。 |
-| <b>凹陷</b> *灰階* | 凹面映射是從輸入法線映射中計算出來的。 區域越凹，地圖上越亮。  平坦或凸起的區域則為黑色。 |
+| <b>曲率</b> *灰階* | 曲率映射是從輸入法線映射中計算出來的。   平坦區域為50%為灰色。 凸面較亮，凹面較暗。 |
+| <b>凸性</b> *灰階* | 由輸入法向映射計算出凸性映射。   一個區域越凸，地圖上就越亮。  平坦或凹陷的區域為黑色。 |
+| <b>凹陷</b> *灰階* | 凹面映射是從輸入法線映射中計算出來的。   區域越凹，地圖上越亮。  平坦或凸起的區域則為黑色。 |
 
 ## 參數
 
 |  |  |
 | --- | --- |
-| <b>標準格式</b> *整數* | 輸入法線貼圖的格式。 這有效地將綠色通道反轉。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b>Y 軸指向上方</li> <li data-preserve-html="true"><b style="">OpenGL：</b>Y 軸指向下方</li> </ul> |
+| <b>標準格式</b> *整數* | 輸入法線貼圖的格式。 這有效地將綠色通道反轉。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b> Y 軸指向上方</li> <li data-preserve-html="true"><b style="">OpenGL：</b> Y 軸指向下方</li> </ul> |
 
 ## 範例
 

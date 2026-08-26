@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
 breadcrumb-title: ''
 description: 使用 Fractal Sum 3 節點產生帶有三個八度的分形雜訊，以創造有機的紋理圖案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 分形和 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 4%
+source-wordcount: '152'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ![分形和 3 - 圖示](../../../../../../assets/fractal_sum_3.png "分形和 3 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -40,26 +40,6 @@ ht-degree: 4%
 分形和</b>音的變體<b>。
 
 另見： [分形和基底](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)、 [分形和 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-1/fractal-sum-1.md)、 [分形和 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-2/fractal-sum-2.md)、 [分形和 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-4/fractal-sum-4.md)
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
 
 </td>
 </tr>
@@ -76,7 +56,7 @@ ht-degree: 4%
 |  |  |
 | --- | --- |
 | <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>無序速度</b>  浮動 | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
 | <b>非平方展開</b>  布林 | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
 
 ## 範例

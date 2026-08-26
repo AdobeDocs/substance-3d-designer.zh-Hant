@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: 從 3D 場景中擷取材質屬性，用於 Substance 圖，用於材質製作工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 提取材質值與紋理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於使用&#x200B;*內嵌紋理*&#x200B;的格式（例如：USDZ），紋理需要擷取並複製到磁碟上。 這會產生額外步驟來選擇要擷取貼圖的位置。
+> 對於使用 *內嵌紋理* 的格式（例如：USDZ），紋理需要擷取並複製到磁碟上。 這會產生額外步驟來選擇要擷取貼圖的位置。
 
 ## 萃取質地
 

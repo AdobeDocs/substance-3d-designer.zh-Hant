@@ -10,9 +10,9 @@ helpx_tags: ""
 title: MDL 學習資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ## 教學課程
 
-我們的 [Substance 3D 教學](https://helpx.adobe.com/tw/substance-3d/unlisted/tutorials.html) 網站提供以下與 MDL 圖表相關的內容。
+我們的 [Substance 3D 教學](https://www.adobe.com/learn/substance-3d) 網站提供以下與 MDL 圖表相關的內容。
 
 <table>
 <tr style="border: 0;">
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ### 在 Substance 3D Designer 中建立 MDL
 
-[這個系列](https://helpx.adobe.com/tw/substance-3d/unlisted/tutorials/courses/creating-an-mdl-in-substance-3d-designer/youtube-2-0-nyuri6w.html) 是 *了解 MDL 圖形以及在 Designer 中使用 MDL 材質的絕佳起點* 。
+[這個系列](https://www.adobe.com/learn/substance-3d-designer/web/creating-an-mdl-in-substance-3d-designer) 是 *了解 MDL 圖形以及在 Designer 中使用 MDL 材質的絕佳起點* 。
 
 本教學中涵蓋的金屬透明塗層材料無法僅透過紋理定義：它有 *兩種不同的高光* ，表現不同：一層較粗糙且帶有斑點的金屬層，另一層非常光滑的透明頂層。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 
 ### MDL 孔雀石材料分解
 
-[本文](https://helpx.adobe.com/tw/substance-3d/unlisted/tutorials/courses/mdl-malachite-material-breakdown.html) 將帶你了解製作 *更精緻* 材料的方法，這些材料也無法僅靠材質來達成。 在此，利用 MDL 圖與 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md) 之間的協同效應，高效達成卓越成果。
+[本文](https://www.adobe.com/learn/substance-3d-designer/web/mdl-malachite-material-breakdown) 將帶你了解製作 *更精緻* 材料的方法，這些材料也無法僅靠材質來達成。 在此，利用 MDL 圖與 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md) 之間的協同效應，高效達成卓越成果。
 
 「在這篇史詩級教學中， [CD PROJEKT RED的資深環境藝術家Mark Foreman](https://www.artstation.com/oggyart)解析了他在Materialize比賽中獲獎的MDL作品！ 你可以在 [Substance Share](https://share-legacy.substance3d.com/libraries/4043)下載馬克的作品。」
 

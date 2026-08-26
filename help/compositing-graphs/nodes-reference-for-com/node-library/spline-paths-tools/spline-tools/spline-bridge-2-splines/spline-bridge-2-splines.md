@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines.html"
 breadcrumb-title: ''
 description: 使用 Spline Bridge 節點來橋接兩個樣條線之間的紋理，創造無縫連接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 花鍵橋（2個花鍵）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -48,36 +48,36 @@ ht-degree: 0%
 <b>預告 #1</b> *灰階*&#x200B;輸入樣條 #1 的預覽，作為灰階影像。
 
 <b>樣條座標 #1</b> *色彩*&#x200B;指編碼在彩色影像RGBA通道中的輸入樣條點#1的座標。\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料 #1</b> *顏色*&#x200B;輸入樣條線 #1 的額外資料，編碼在彩色影像的 RGBA 通道中。\
-    <b>R</b> - 切線 X\
-    <b>G</b> - 切線 Y\
-    <b>B</b> - 未上場\
-    <b>A</b> - 未上場
+<b>R</b> - 切線 X\
+<b>G</b> - 切線 Y\
+<b>B</b> - 未上場\
+<b>A</b> - 未上場
 
 <b>花鍵量 #1</b> *整數*&#x200B;輸入樣條的數量 #1。
 
 <b>預告 #2</b> *灰階*&#x200B;輸入樣條 #2 的預覽，作為灰階影像。
 
 <b>樣條座標 #2</b> *顏色*&#x200B;指輸入樣條的 #2 點座標編碼在彩色影像的 RGBA 通道中。\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料 #2</b> *色彩*&#x200B;輸入樣條 #2 的額外資料編碼在彩色影像的 RGBA 通道中。\
-    <b>R</b> - 切線 X\
-    <b>G</b> - 切線 Y\
-    <b>B</b> - 未上場\
-    <b>A</b> - 未上場
+<b>R</b> - 切線 X\
+<b>G</b> - 切線 Y\
+<b>B</b> - 未上場\
+<b>A</b> - 未上場
 
 <b>花鍵量 #2</b> *整數*&#x200B;輸入樣條的數量 #2。
 
@@ -104,18 +104,18 @@ ht-degree: 0%
 <b>預覽</b> *灰階*&#x200B;輸出樣條的預覽作為灰階影像。
 
 <b>樣條座標</b> *顏色*&#x200B;指編碼在彩色影像RGBA通道中的輸出樣條點座標。\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸出樣條的額外資料編碼於彩色影像的RGBA通道中。\
-    <b>R</b> - 切線 X\
-    <b>G</b> - 切線 Y\
-    <b>B</b> - 未上場\
-    <b>A</b> - 未上場
+<b>R</b> - 切線 X\
+<b>G</b> - 切線 Y\
+<b>B</b> - 未上場\
+<b>A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸出樣條的數量。
 

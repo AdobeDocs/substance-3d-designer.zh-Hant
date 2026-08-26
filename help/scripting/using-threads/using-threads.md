@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/using-threads.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/using-threads.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 腳本中使用執行緒來進行平行處理與效能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用執行緒
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e49409eb4835f6a6c9f17713511e07b7afa38028
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 0%

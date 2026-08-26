@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-2d-transform.html"
 breadcrumb-title: ''
 description: 使用樣條 2D 轉換節點來轉換樣條，並進行平移、旋轉和縮放操作。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條二維轉換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![節點圖示](../../../../../../assets/spline-2d-transform-icon.png "節點圖示")
 
-<b>收錄於：</b>樣條與路徑工具 > 樣條鍵工具
+<b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,18 +44,18 @@ ht-degree: 0%
 <b>預覽</b> *灰階*&#x200B;輸入樣條的預覽為灰階影像。
 
 <b>樣條座標</b> *色彩*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-<b>R</b> - X 位置\
-<b>G</b> - Y 位置\
-<b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>    R</b> - X 位置\
+<b>    G</b> - Y 位置\
+<b>    B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸入樣條的額外資料編碼於彩色影像的 RGBA 通道中。\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
+<b>    R</b> - 切線 X\
+<b>    G</b> - 切線 Y\
+<b>    B</b> - 未上場\
+<b>    A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸入樣條的數量。
 
@@ -64,18 +64,18 @@ ht-degree: 0%
 <b>預覽</b> *灰階*&#x200B;輸出樣條的預覽作為灰階影像。
 
 <b>樣條座標</b> *顏色*&#x200B;指編碼在彩色影像RGBA通道中的輸出樣條點座標。\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸出樣條的額外資料編碼於彩色影像的RGBA通道中。\
-    <b>R</b> - 切線 X\
-    <b>G</b> - 切線 Y\
-    <b>B</b> - 未上場\
-    <b>A</b> - 未上場
+<b>R</b> - 切線 X\
+<b>G</b> - 切線 Y\
+<b>B</b> - 未上場\
+<b>A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸出樣條的數量。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: 使用法線解合節點將合併的法線貼圖資料分離成獨立的 X、Y 和 Z 元件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 普通未合併
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 1%
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 ![正常解合圖示](../../../../../../assets/NormalUncombine.png "正常解合圖示"){width="200px"}
 
-<b>收錄於：</b>法線貼圖>濾波器
+<b>收錄於：</b> 法線貼圖>濾波器
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>標準格式</b> *整數* | 輸入法線貼圖的格式。 這有效地將綠色通道反轉。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b>Y 軸指向上方</li> <li data-preserve-html="true"><b>OpenGL：</b>Y 軸指向下方</li> </ul> |
+| <b>標準格式</b> *整數* | 輸入法線貼圖的格式。 這有效地將綠色通道反轉。<ul data-preserve-html="true"> <li data-preserve-html="true"><b>DirectX：</b> Y 軸指向上方</li> <li data-preserve-html="true"><b>OpenGL：</b> Y 軸指向下方</li> </ul> |
 
 ## 範例
 

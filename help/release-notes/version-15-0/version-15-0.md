@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 15.0 版本的發佈說明，了解新的 3D 渲染器及原生 USD 支援。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ### 新光柵化器與路徑追蹤器
 
-這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX[&#128279;](https://materialx.org/) 等技術。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
+這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX](https://materialx.org/) 等技術[。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
 
 ![光柵化器中的陰影與半透明](../../assets/feature_1b.png)
 
@@ -41,14 +41,14 @@ ht-degree: 0%
 * <b>啟用陰影：</b> 在場景中啟用陰影，有助於觀察材質在光線下的表現。
 * <b>啟用地面平面：</b> 用來啟用或關閉場景中的地面平面。
 
-此外，旋轉環境燈的快捷鍵也改成了其他 Substance 應用程式的模式，現在是 *<b>Shift-Right Click</b>*，而不是 *<b>ctrl-shift-right click</b>*。
+此外，旋轉環境燈的快捷鍵也改成了其他 Substance 應用程式的模式，現在是 *<b>Shift-Right Click</b>* ，而不是 *<b>ctrl-shift-right click</b>*。
 
 ### 後續影響
 
 [後期效果回來](../../interface/3d-view/camera/post-effects/post-effects.md)了！ 這些作品現在可以透過相機選單取得，且已由內部開發。
 
 * <b>Bloom：</b> 模擬亮點周圍的眩光，如燈光和反射，讓你能更清楚地看到發射表面。
-* <b>色調映射：</b>透過設定檔呈現色彩範圍，以產生高動態範圍（HDR）效果。
+* <b>色調映射： </b>透過設定檔呈現色彩範圍，以產生高動態範圍（HDR）效果。
 * <b>景深：</b> 模擬相機鏡頭（僅光柵器）的對焦特性。
 
 ![Designer 15.0 的後期效果](../../assets/postfx.gif)
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 視覺特效平台需求更新
 
-每年，[VFX 參考平台](https://vfxplatform.com/)都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們&#x200B;*會*&#x200B;更新所有相依系統，以尊重所有這些建議。
+每年， [VFX 參考平台](https://vfxplatform.com/) 都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們 *會* 更新所有相依系統，以尊重所有這些建議。
 
 ## 影片
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 ### 修正方法
 
 * [3D 視圖]匯出的 USD 場景中的貼圖未正確套用
-* [3D 視圖]&#x200B;[UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
+* [3D 視圖][UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
 * [麵包師們]「反外名。」和「平均。 非適用烘焙者的法線格為空白且可編輯
 * [烘焙者]「刷新」動作在偏好設定中關閉光線追蹤後端時會使用該功能
 * [烘焙師]在「刷新所有烘焙地圖」過程中失敗後，烘焙師被封鎖為忙碌

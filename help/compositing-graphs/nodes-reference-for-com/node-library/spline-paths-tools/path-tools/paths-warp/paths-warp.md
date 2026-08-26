@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: 使用 Paths Warp 節點沿著路徑曲線扭曲貼圖，創造曲線和有機圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑扭曲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-根據梯度輸入</b>變形輸入<b>路徑。（與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。）
+根據梯度輸入</b>變形輸入<b>路徑。（與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。）
 
 </td>
 </tr>
@@ -42,24 +42,24 @@ ht-degree: 1%
 ## 輸入連接器
 
 <b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。
 
-<b>漸層輸入</b> *灰階*\
-高度狀的輸入控制變形的量與方向。 （與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。）
+<b>梯度輸入</b> *灰階*\
+高度狀的輸入控制變形的量與方向。 （與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。）
 
 ## 輸出連接器
 
 <b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
+變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。
 
 ## 參數
 
 <b>強度</b> *浮標*\
 <b>強度</b>參數決定了經速的強度。
 
-<b>整數步數</b>* *\
+<b>步驟數</b> *整數*\
 使用較大的值來將輸入路徑多重小幅度扭曲。\
-這能防止路徑自交，尤其是在使用高<b>強度</b>值時。
+這能防止路徑自交，尤其是在使用高 <b>強度</b> 值時。
 
 ## 範例
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/median-filter-color.html"
 breadcrumb-title: ''
 description: 使用中位數濾鏡色彩節點來降低雜訊並保留色彩紋理中的邊緣。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 中位濾光色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![中位數濾鏡顏色：圖示](../../../../../../assets/MedianFilter_Icon_Color.png "中位數濾鏡顏色：圖示")
 
-<b>收錄於：</b>模糊>濾鏡
+<b>收錄於：</b> 模糊>濾鏡
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 輸入連接器
 
-<b>輸入&#x200B;</b>*顏色*&#x200B;濾鏡應該應用於的彩色影像。
+<b>輸入 </b>*顏色*&#x200B;濾鏡應該應用於的彩色影像。
 
 ## 輸出連接器
 
@@ -61,11 +61,11 @@ ht-degree: 0%
 *- 3x3：* 寬3像素、高3像素的核，總共8個鄰居像素。\
 *- 5x5：* 核心寬 5 像素、高 5 像素，總共 24 個鄰居像素。
 
-<b>濾波器類型</b> *：整數*：對核中取樣的鄰居進行計算。\
-*- 中位數：*&#x200B;直接使用所有鄰居的中位數值。\
-*- MLMAD：*&#x200B;代表「最小中位數絕對偏差中位數」。 偏差反映了值與中位數的差異。 MLMAD 方法不直接使用中位數值，因為中位值可能被偏移較大的離群點所偏斜，而是使用所有偏差的中位數。 此方法能產生更強的平滑效果，可能根據核粒大小使區域扁平。
+<b>濾波器類型</b> *整數*&#x200B;計算應用於核中取樣的鄰居。\
+*- 中位數：* 直接使用所有鄰居的中位數值。\
+*- MLMAD：* 代表「最小中位數絕對偏差中位數」。 偏差反映了值與中位數的差異。 MLMAD 方法不直接使用中位數值，因為中位值可能被偏移較大的離群點所偏斜，而是使用所有偏差的中位數。 此方法能產生更強的平滑效果，可能根據核粒大小使區域扁平。
 
-<b>影響 alpha</b> *布林*&#x200B;控制是否應將濾波器套用到影像的 alpha 通道。 當 True *時*，alpha 通道不變。
+<b>情感阿爾法</b> *布林運算*&#x200B;控制是否應將濾波器套用於影像的 alpha 通道。 當 True *時*，alpha 通道不變。
 
 ## 範例
 

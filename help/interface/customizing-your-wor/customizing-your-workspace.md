@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/customizing-your-workspace.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/customizing-your-workspace.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中自訂工作區，以優化你的工作流程與版面偏好。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 客製化您的工作空間
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 客製化您的工作空間
 
-本頁介紹如何在 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的使用者介面中排列面板，並善用其功能來提升您的工作流程。
+本頁介紹如何在 Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 的使用者介面中排列面板[，並善用其功能來提升您的工作流程。
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows 選單
 
-這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html) Windows</b> 主工具列的部分說明。在這裡，我們將提供與此菜單相關的額外概念。
+這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁](../the-main-toolbar/the-main-toolbar.md) Windows</b> 主工具列的部分[說明。在這裡，我們將提供與此菜單相關的額外概念。
 
 ### 顯示/隱藏視圖
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 這可以透過兩種方式完成：
 
-* 用標題&#x200B;*列*&#x200B;移動底座，然後把它&#x200B;*放在主視窗*&#x200B;外或主視窗&#x200B;*裡不是底座*&#x200B;的區域。 你可以透過在主視窗&#x200B;*中將這個底座移到另一個底座*&#x200B;上，或點擊<b>![](../../assets/dock-icons-redock.png)重新對接按鈕來重新對</b>接;
-* 點擊<b>![](../../assets/dock-icons-undock.png)脫離底座</b>按鈕。 使用此方法&#x200B;*脫離底座後，只能*&#x200B;透過點擊<b>![](../../assets/dock-icons-redock.png)重新對接</b>按鈕重新對接。
+* 用標題 *列* 移動底座，然後把它 *放在主視窗* 外或主視窗 *裡不是底座*&#x200B;的區域。 你可以透過在主視窗&#x200B;*中將這個底座移到另一個底座*&#x200B;上，或點擊<b>![](../../assets/dock-icons-redock.png)重新對接按鈕來重新對</b>接;
+* 點擊 <b>![](../../assets/dock-icons-undock.png) 脫離底座</b> 按鈕。 使用此方法 *脫離底座後，只能* 透過點擊 <b>![](../../assets/dock-icons-redock.png) 重新對接</b> 按鈕重新對接。
 
 ![脫離對接](../../assets/interface-customisation-undock.gif "脫離對接")
 
@@ -92,14 +92,14 @@ ht-degree: 0%
 
 碼頭的最大化有兩種方式：
 
-* 將游標放在&#x200B;*底座*&#x200B;上，按下 <b>Shift+Space</b> 鍵
+* 將游標放在 *底座* 上，按下 <b>Shift+Space</b> 鍵
 * 點擊他們的 <b>![](../../assets/dock-icons-maximise.png) Maximise</b> 按鈕
 
 最大化碼頭可最小化為其最大化前&#x200B;*所佔*&#x200B;據的大小與位置。這可以透過三種方式進行：
 
-* 將游標放在&#x200B;*底座*&#x200B;上，按下 <b>Shift+Space</b> 鍵
-* 點擊他們的<b>![](../../assets/dock-icons-minimise.png)「最小化</b>」按鈕
-* 打開 <b>Windows</b> 選單並選擇<b>「視窗未最大化</b>」選項
+* 將游標放在 *底座* 上，按下 <b>Shift+Space</b> 鍵
+* 點擊他們的 <b>![](../../assets/dock-icons-minimise.png) 「最小化</b> 」按鈕
+* 打開 <b>Windows</b> 選單並選擇 <b>「視窗未最大化</b> 」選項
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ ht-degree: 0%
 > 當對接埠被最大化時，某些介面行為可能會有所不同：
 > 
 > * 自動出現或更新的碼頭會在背景中進行（例如屬性、2D 視圖）
-> * Windows 選單中的選單項目是&#x200B;*被停用&#x200B;**&#x200B;***&#x200B;的
+> * Windows 選單中的選單項目是&#x200B;*被停用&#x200B;*****&#x200B;的
 > * 底座標題列中的按鈕是 *被禁用* 的
 > * 主視窗&#x200B;*中最大值的碼頭不得使用標題欄移動*
 

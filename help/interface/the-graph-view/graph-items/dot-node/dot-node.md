@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中使用點節點和入口節點來建立連接點並組織圖形流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 點節點（亦稱 Portal）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 <b>Dot</b> 節點是一個輔助工具，讓你可以透過重新路由和分組連接來簡化和整理圖表。它對於有許多長連線跨越其他連接或節點的圖特別有用。
 
-一對 Dot 節點可用作<b>通道</b> ，隱藏跨越長距離的連線，或在連接路由困難的地點隱藏。
+一對 Dot 節點可用作 <b>通道</b> ，隱藏跨越長距離的連線，或在連接路由困難的地點隱藏。
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 +++
 
 +++節點選單
-按 <b>空白鍵</b>顯示 <b>節點選單</b>，然後選擇「Dot」項目，或在搜尋欄輸入「dot」，這樣可以快速浮現該項目並找到它。
+按 <b>空白鍵</b> 顯示 <b>節點選單</b>，然後選擇「Dot」項目，或在搜尋欄輸入「dot」，這樣可以快速浮現該項目並找到它。
 
 ![節點選單](../../../../assets/dot-node-insert-menu.png "中的點節點選單中的節點")
 
@@ -102,7 +102,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-點節點可以作為 <b>入口</b> ，在圖中傳送長距離資料，而不會有冗長的連結，影響可讀性。這實際上隱藏了點節點之間的連結。
+點節點可以作為 <b>入口</b> ，在圖中傳送長距離資料，而不會有冗長的連結，影響可讀性。 這實際上隱藏了點節點之間的連結。
 
 </td>
 </tr>
@@ -117,7 +117,7 @@ ht-degree: 0%
 當圖中存在一個或多個命名的點節點時，任何點節點都可以透過以下方式作為接收者連接到該圖：
 
 * 建立接收端輸入與發射端輸出之間的連結;
-* 在接收端<b>的輸入入口</b> 屬性中選擇發射器名稱。
+* 在接收端 <b>的輸入入口</b> 屬性中選擇發射器名稱。
 
 複製或複製接收器可保留其與發射器作為入口的連接。
 
@@ -136,6 +136,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> FX-Map 圖[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)不支援將點節點作為入口。
+> FX-Map 圖](../../../../function-graphs/fxmaps/fxmaps.md)不支援[將點節點作為入口。
 
 看看這個關於點節點作為傳送門的教學：

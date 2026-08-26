@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-mapper.html"
 breadcrumb-title: ''
 description: 使用 Shape Mapper 節點將形狀映射到貼圖上，並可自訂變換和位置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形狀映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 ![形狀映射器 - 圖示](../../../../../../assets/shape_mapper.png "形狀映射器 - 圖示"){width="200px"}
 
-<b>收錄於：</b>紋理產生器>圖案
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,8 +88,8 @@ ht-degree: 2%
 | --- | --- |
 | <b>整數形狀</b> | 規定圖案應依何形狀排列：<ul data-preserve-html="true"> <li data-preserve-html="true">圓形</li> <li data-preserve-html="true">多邊形</li> </ul> |
 | <b>模式數量</b>  整數 | 沿著選定形狀放置的圖案數量。 |
-| <b>連結具有圖案數量</b>  布林值 *的段子，當「形狀」設為「多邊形」時可用* | 用<b>圖案數量</b>來表示分段</b>數量<b>。這樣可以防止圖案繞過轉角，確保外觀筆直且一致。 |
-| <b></b>當「形狀」設為「多邊形」且「與圖案數量連結區域」設為「假」時，整數&#x200B;*段可用* | 多邊形中放置圖案的段數。 線段大小均&#x200B;**&#x200B;等，所有頂點距離中心等&#x200B;**&#x200B;距，因此線段數量增加會使多邊形收斂成圓。 |
+| <b>連結具有圖案數量</b>  布林值   *的段子，當「形狀」設為「多邊形」時可用* | 用<b>圖案數量</b>來表示分段</b>數量<b>。這樣可以防止圖案繞過轉角，確保外觀筆直且一致。 |
+| <b></b>當「形狀」設為「多邊形」且「與圖案數量連結區域」設為「假」時，整數&#x200B;*段可用* | 多邊形中放置圖案的段數。   線段大小均&#x200B;**&#x200B;等，所有頂點距離中心等&#x200B;**&#x200B;距，因此線段數量增加會使多邊形收斂成圓。 |
 | <b>半徑</b>  浮動 | 形狀半徑的乘數，1.0 是影像最短邊長的一半。 |
 | <b>寬度</b>  浮點 | 一個乘數，表示沿形狀圖案的寬度，其中1.0是影像最短邊長的一半。 |
 | <b>旋轉</b>  浮球 | 從水平右邊順時針方向旋轉的旋轉量。 |

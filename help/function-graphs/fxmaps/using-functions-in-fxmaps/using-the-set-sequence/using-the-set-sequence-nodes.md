@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用 SetSequence 節點來創造連續模式和程序變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用 SetSequence 節點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -118,7 +118,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-**&#x200B;**&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
+****&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
 
 例如，你可以&#x200B;*先設定*&#x200B;一個變數，之後&#x200B;*在某個點更新*&#x200B;其值，然後&#x200B;*讀取*&#x200B;最終值，同時確保這些動作以特定順序&#x200B;*發生*。
 
@@ -143,7 +143,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-我們將所有計算都放在<b>色彩/亮度</b>參數函數中。 這個參數會先&#x200B;*被計算*，因此其中的任何變數都會被其他節點使用。
+我們將所有計算都放在 <b>色彩/亮度</b> 參數函數中。 這個參數會先&#x200B;*被計算*，因此其中的任何變數都會被其他節點使用。
 
 </td>
 <td style="border: 0;" valign="top">

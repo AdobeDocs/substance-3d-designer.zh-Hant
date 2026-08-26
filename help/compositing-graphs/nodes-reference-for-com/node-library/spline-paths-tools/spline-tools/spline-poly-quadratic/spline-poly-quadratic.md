@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic.html"
 breadcrumb-title: ''
 description: 使用 Spline 多邊形二次節點來建立具有多個控制點的複雜二次樣條。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條（多方二次曲線）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1147'
 ht-degree: 0%
@@ -50,18 +50,18 @@ ht-degree: 0%
 <b>預覽</b> *灰階*&#x200B;輸入樣條的預覽為灰階影像。
 
 <b>樣條座標</b> *色彩*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-<b>R</b> - X 位置\
-<b>G</b> - Y 位置\
-<b>B</b> - 身高\
-<b>A</b> - 打包資料：\
+<b>    R</b> - X 位置\
+<b>    G</b> - Y 位置\
+<b>    B</b> - 身高\
+<b>    A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸入樣條的額外資料編碼於彩色影像的 RGBA 通道中。\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
+<b>    R</b> - 切線 X\
+<b>    G</b> - 切線 Y\
+<b>    B</b> - 未上場\
+<b>    A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸入樣條的數量。
 
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 <b>輸入點列表</b> *顏色* （當「使用輸入點清單」為真時可用）\
 彩色影像RGBA通道中編碼的點列表：\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 整數部分：平滑度;\
 * 分數部分：厚度。
 
@@ -88,18 +88,18 @@ ht-degree: 0%
 <b>預覽</b> *灰階*&#x200B;輸出樣條的預覽作為灰階影像。
 
 <b>樣條座標</b> *顏色*&#x200B;指編碼在彩色影像RGBA通道中的輸出樣條點座標。\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>R</b> - X 位置\
+<b>G</b> - Y 位置\
+<b>B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸出樣條的額外資料編碼於彩色影像的RGBA通道中。\
-    <b>R</b> - 切線 X\
-    <b>G</b> - 切線 Y\
-    <b>B</b> - 未上場\
-    <b>A</b> - 未上場
+<b>R</b> - 切線 X\
+<b>G</b> - 切線 Y\
+<b>B</b> - 未上場\
+<b>A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸出樣條的數量。
 
@@ -176,7 +176,7 @@ ht-degree: 0%
 <b>節目重點</b> *布林值*\
 顯示花鍵的控制點。
 
-<b>積分大小</b> *浮動（*&#x200B;當「顯示點數」設為「真實」時可用）\
+<b>積分大小</b> *浮動（* 當「顯示點數」設為「真實」時可用）\
 貼圖空間中點的半徑，0.1 是貼圖寬度的十分之一。
 
 <b>分段數量</b> *整數*&#x200B;調整預覽輸出中繪製樣條曲線視覺化所使用的段數。\

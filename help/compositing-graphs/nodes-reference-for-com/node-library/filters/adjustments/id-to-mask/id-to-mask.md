@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: 使用 ID To Mask Grayscale 節點，將 ID 映射值轉換成灰階遮罩以便選擇材質。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ID 以掩蓋灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 1%
@@ -77,9 +77,9 @@ ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁�
 
 |  |  |
 | --- | --- |
-| <b>選擇模式</b> *整數* | 選擇遮罩中應為白色的 ID 映射像素值的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>單人：</b>選擇單一像素值</li> <li data-preserve-html="true"><b>範圍：</b>選擇一個像素值範圍</li> </ul> |
-| <b>ID 整數</b> *當「選擇模式」設為「單人」時，整數*   *可用* | ID 映射中的像素值，在輸出遮罩中應該是白色的。 |
-| <b>識別區間</b> *當「選擇模式」設為「範圍」時，整數*    *2 可用* | ID 映射中從開始到結束的像素值範圍，在輸出遮罩中應該是白色的。 |
+| <b>選擇模式</b> *整數* | 選擇遮罩中應為白色的 ID 映射像素值的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>單人：</b> 選擇單一像素值</li> <li data-preserve-html="true"><b>範圍：</b> 選擇一個像素值範圍</li> </ul> |
+| <b>ID 整數</b> *當「選擇模式」設為「單人」時，整數*   *可用* | ID 映射中的像素值，在輸出遮罩中應該是白色的。 |
+| <b>識別區間</b> *當「選擇模式」設為「範圍」時，整數*    *2 可用* | ID 映射中從開始到結束的像素值範圍，在輸出遮罩中應該是白色的。 |
 
 ## 範例
 

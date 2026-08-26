@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ''
 description: 請檢視 Substance 3D Designer 的系統需求，確保您的電腦符合必要規格。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 系統需求
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ec787363bab8318804a71d6cf7c5484fc67a987e
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR（僅限 Windows）**
 > 
-> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保<b>逾時偵測與恢復（TDR）</b>值符合本頁[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的建議。
+> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保<b>逾時偵測與恢復（TDR）</b>值符合本頁](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的[建議。
 
 ## 不支援的配置
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 以下是應用程式正常運行所需的最低 GPU 驅動版本清單。 隨著新版本發布，此列表可能會有所變動。
 
-要下載新驅動程式請參考： [GPU 驅動程式過](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)時。
+要下載新驅動程式請參考： [GPU 驅動程式過](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)時。
 
 | 作業系統 | NVIDIA | AMD | 英特爾 |
 | --- | --- | --- | --- |
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 <b>DXR</b> 要求以下最低配置：
 
-* <b>Windows 10</b> 版本 1809，請參閱 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing) 以獲取更多資訊
+* <b>Windows 10</b> 版本 1809，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) 以獲取更多資訊
 * <b>採用 Pascal 架構</b> 的 GPU（Nvidia GeForce 10XX）
 
 >[!TIP]
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 使用平板
 
-Windows 平板用戶<b></b>應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+Windows 平板用戶<b></b>應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 語言
 

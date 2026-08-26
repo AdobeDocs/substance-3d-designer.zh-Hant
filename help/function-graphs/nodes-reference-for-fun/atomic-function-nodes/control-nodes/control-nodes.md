@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 功能圖中的存取控制節點，以控制流程與執行邏輯。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 控制節點
 
-本頁描述功能圖[&#128279;](../../../../function-graphs/the-function-graph/the-function-graph.md)中用於控制&#x200B;*執行*&#x200B;流程的節點。
+本頁描述功能圖](../../../../function-graphs/the-function-graph/the-function-graph.md)中[用於控制&#x200B;*執行*&#x200B;流程的節點。
 
 <table>
 <tr style="border: 0;">
@@ -39,7 +39,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-你會將此節點與[邏輯節點](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md)及[比較節點](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md)結合使用，幫助你建立檢查條件。
+你會將此節點與[邏輯節點](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 及 [比較節點](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/comparison-nodes/comparison-nodes.md) 結合使用，幫助你建立檢查條件。
 
 +++輸入連接器
 <b>狀況</b> *布林值*\
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 <b>如果</b> *變異型別*&#x200B;如果 <b>條件</b> 為 *真*，節點輸出的值。
 
-<b>否則變</b> *異型別*&#x200B;如果<b>條件</b>為&#x200B;*假*，節點輸出的值。
+<b>否則</b> *變異型別*&#x200B;如果 <b>條件</b> 為 *False*，節點輸出的值。
 
 +++
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 你可以在本 [文件中的「使用集合/序列節點」](../../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) 頁面中了解更多關於序列節點的資訊。
 
 +++輸入連接器
-<b>在變數型態中</b>* *\
+<b>在</b> *變數類型*\
 圖中應該先計算的部分
 
-<b>最後</b> *變數類型*\
+<b>最後</b> *變數類型*\
 圖中最後計算的部分
 
 +++
@@ -110,20 +110,20 @@ ht-degree: 0%
 > 連接出口 <b>條件的節點。</b> 迴 <b>圈體</b> 分支無法連接到圖的其他分支。
 
 +++輸入連接器
-<b>開始。</b> *變數類型*\
+<b>開始。</b> *變數類型*\
 圖中在第一次迭代之前計算的部分——也就是迴圈的起點。
 
-<b>離開指揮部。</b> *布林值*\
+<b>離開指揮部。</b> *布林值*\
 這個條件必須成立，才能讓循環停止。 每次迭代都會重新計算。\
 *注意：* 最大迭代次數仍限制於 <b>最大迭代</b> 數參數。
 
-<b>迴路體</b> *變數類型*\
+<b>環形車身</b> *變數類型*\
 這個圖是從迴圈中受益的。 每次迭代都會重新計算。
 
 +++
 
 +++參數
-<b>Max。 迭代</b> *整數*\
+<b>Max。 迭代</b> *整數*\
 節點執行的最大迭代次數。\
 當以下條件中任一先達成時，節點停止迭代：達到此最大數值或退出條件變為真。\
 這個最大值可以透過將值設為 *-1* 來停用。 此時，只有退出條件能停止迭代。

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
 breadcrumb-title: ''
 description: 利用白噪音節點產生白噪音模式，創造材質變化與隨機效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 白噪音
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 3c2ada78db14be2b9c3380eff9b307aec11d40dc
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 4%
+source-wordcount: '151'
+ht-degree: 2%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 ![白噪音 - 圖示](../../../../../../assets/white_noise_v2.png "白噪音 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -38,26 +38,6 @@ ht-degree: 4%
 ## 說明
 
 利用三種方法之一產生白噪音，針對不同的直方圖形狀：均勻直方圖、高斯圖與三角圖。
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
 
 </td>
 </tr>
@@ -73,9 +53,9 @@ ht-degree: 4%
 
 |  |  |
 | --- | --- |
-| <b>雜訊分布</b>  整數 | 分配成分以達成直方圖形狀的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>制服：</i>平面直方圖。</li> <li data-preserve-html="true"><i>高斯分布：</i>表示常態分布的直方圖，類似鐘形曲線。</li> <li data-preserve-html="true"><i>三角形：</i> 一個三角形直方圖。</li> </ul> |
+| <b>雜訊分布</b>  整數 | 分配成分以達成直方圖形狀的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>制服：</i> 平面直方圖。</li> <li data-preserve-html="true"><i>高斯分布：</i> 表示常態分布的直方圖，類似鐘形曲線。</li> <li data-preserve-html="true"><i>三角形：</i> 一個三角形直方圖。</li> </ul> |
 | <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>無序速度</b>  浮動 | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
 
 ## 範例
 
