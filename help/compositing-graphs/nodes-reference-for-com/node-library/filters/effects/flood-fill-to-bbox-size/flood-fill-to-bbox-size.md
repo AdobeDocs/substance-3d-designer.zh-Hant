@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: 使用 Flood Fill to BBox Size 節點，將區域填充為邊界框大小值，以達成程序縮放效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 注水至BBox尺寸
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '95'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/floodfill-to-bbox-size.png){width="128px"}
 
-## 注水至BBox尺寸
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,16 +37,24 @@ ht-degree: 1%
 
 數值是相對於整個畫布大小（全白磁磚會拉伸整個畫布），因此對比度通常較低。
 
-## 參數
-
-* **輸出**： *max（X， Y）， X， Y*&#x200B;設定該值基於的度量：寬度、長度或兩者兼有。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodbbox-ex1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>產出</b> <i>max（X， Y）， X， Y</i> | 設定該數值的標準：寬度、長度或兩者兼有。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-bbox-size.resources/floodbbox-ex1.png" />
+        </td>
+    </tr>
 </table>

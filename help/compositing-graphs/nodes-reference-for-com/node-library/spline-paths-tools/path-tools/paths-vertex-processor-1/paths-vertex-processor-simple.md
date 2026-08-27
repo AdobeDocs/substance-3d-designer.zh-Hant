@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor-simple.html"
 breadcrumb-title: ''
 description: 使用 Paths Vertex Processor Simple 節點來處理路徑頂點，並有簡化的轉換選項。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 路徑頂點處理器簡單
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '327'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/paths-vertex-processor-simple-icon.png "節點圖示")
+![節點圖示](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -55,28 +55,31 @@ ht-degree: 0%
 >
 > 另 [見路徑頂點處理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+## 輸入
 
-<b>輸入#</b> *彩色/灰階*\
-應該在 <b>每個頂點函</b> 數參數函數中取樣的影像輸入。
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。 |
+| <b>輸入#</b> <i>彩色/灰階</i> | 應該在 <b>每個頂點函</b> 數參數函數中取樣的影像輸入。 |
 
-## 輸出連接器
+<a name="outputs"></a>
 
-<b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>影像輸入計數</b> *整數*&#x200B;顯示<b>的輸入 #</b> 輸入連接器數量，用於連接應在 Per Vertex Function</b> 參數函數中<b>取樣的影像。\
-當你完成所有想要的取樣後，可以透過將這個參數的值降回 0 來隱藏未使用的腳位。\
-如果你需要更多輸入，可以用 [Paths Vertex Processor](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 。
-
-<b>每個頂點函數</b> *Float2*\
-每個頂點都套用了函數。 必須回傳新的頂點位置。\
-請參閱 <b>本頁的說明</b> 部分以獲得指引。
+|  |  |
+|:---|:---|
+| <b>影像輸入計數</b> <i>整數</i> | 用於連接應在每個頂點函</b>數參數函數中<b>取樣的影像的可見 <b>Input #</b> 輸入連接器數量。<br>當你設定好所有想要的取樣後，可以透過將這個參數的值降回 0 來隱藏未使用的腳位。<br>如果你需要更多輸入，可以改用 [Paths 頂點處理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 。 |
+| <b>每個頂點函數</b> <i>Float2</i> | 每個頂點都套用了函數。 必須回傳新的頂點位置。<br>請參閱 <b>本頁的說明</b> 部分以獲得指引。 |
 
 ## 範例
 
@@ -84,7 +87,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "節點範例 2")
+![節點範例 2](paths-vertex-processor-simple.resources/PathsVertexProcessor-Demo2.gif "節點範例 2")
 
 </td>
 <td style="border: 0;" valign="top">

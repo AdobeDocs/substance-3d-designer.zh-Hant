@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/basecolor-metallic-roughness-converter.html"
 breadcrumb-title: ''
 description: 使用 BaseColor Metallic Roughness Converter 節點來轉換不同的 PBR 材質格式與工作流程。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: BaseColor 金屬粗糙轉換器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '139'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-convert.png){width="128px"}
+![](basecolor-metallic-roughness-converter.resources/pbr-convert.png){width="128px"}
 
-## BaseColor / 金屬 / 粗糙度轉換器
-
-**收錄於：***材料過濾器/PBR工具*
-
-**很簡單**
+<b>收錄於：</b> PBR工具>材料過濾器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,15 @@ ht-degree: 1%
 
 如果你的圖表或材質是用一種 PBR 模型製作，而你的目標需要不同模型，這很有用。
 
-## 參數
-
-* **使用 SpecularLevel 輸入**： *False/True*&#x200B;會暴露一個額外的輸入槽給 SpecularLevel 輸入。 這點在皈依時也會被考慮。
-* ***目標**：*PBR 擴散/鏡面/光澤、Vray（GGX）、Corona、Corona 1.6+、Redshift 1.x、Arnold 4（AiStandard）、Arnold 4（AlSurface）、RenderMan（PxrSurface）**設定轉換目標模型。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>使用 SpecularLevel 輸入</b> <i>錯誤/真實</i> | 會讓 SpecularLevel 輸入多一個輸入槽。 這點在皈依時也會被考慮。 |
+| <b>目標</b> <i>PBR 漫反射/鏡面/光澤、Vray（GGX）、Corona、Corona 1.6+、Redshift 1.x、Arnold 4（AiStandard）、Arnold 4（AlSurface）、RenderMan（PxrSurface）</i> | 設定轉換目標模型。 |

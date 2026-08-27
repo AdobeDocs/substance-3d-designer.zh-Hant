@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ''
 description: 使用 Emboss 節點在材質上製作壓紋效果，為表面細節增加深度與層次感。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 壓印
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：Emboss](../../../../assets/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
+![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

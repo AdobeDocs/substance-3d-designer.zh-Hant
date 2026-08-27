@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D 設計器庫中管理自訂內容與篩選器，以便有組織地存取資產。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理自訂內容與過濾器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 概觀
 
-在新增自訂內容到圖書館[&#128279;](../../../interface/preferences-window/project-settings/project-settings.md)後，你需要讓它&#x200B;*變得可*&#x200B;被發現。
+在新增自訂內容到圖書館](../../../interface/preferences-window/project-settings/project-settings.md)後[，你需要讓它&#x200B;*變得可*&#x200B;被發現。
 
 圖書館使用多個 *資料點* 來識別內容，以便篩選並在搜尋中浮現。 這些數據點包括：
 
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 這表示只要有一個或多個專案檔案，你可以設定應該加入 <b>函式庫</b>的內容資料夾，以及分類和篩選器來排序和整理這些內容。
 
-![圖書館](../../../assets/library-filters.png "中的自訂內容 圖書館中的自訂內容")
+![圖書館](managing-custom-content-and-filters.resources/library-filters.png "中的自訂內容 圖書館中的自訂內容")
 
 ## 圖屬性
 
-SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](../../../compositing-graphs/graph-parameters/graph-parameters.md)集[進行篩選與搜尋*。](../../../getting-started/overview/overview.md) [&#128279;](../../../getting-started/overview/overview.md)這些屬性中有些也可以設定在其他 [資源類型](../../../resources/resources.md)上。
+SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](../../../compositing-graphs/graph-parameters/graph-parameters.md)集[進行篩選與搜尋*。](../../../getting-started/overview/overview.md) [](../../../getting-started/overview/overview.md)這些屬性中有些也可以設定在其他 [資源類型](../../../resources/resources.md)上。
 
 ## 自訂篩選器與資料夾
 
@@ -57,11 +57,11 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 
 分類（即資料夾）和篩選器是透過以下按鈕建立與編輯的：
 
-<b>![](../../../assets/library-icon-new-folder.png) 新增資料夾：</b> 在圖書館檢視中建立可擴充的資料夾。 你 *無法* 建立子資料夾。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) 新增資料夾：</b> 在圖書館檢視中建立可擴充的資料夾。 你 *無法* 建立子資料夾。
 
-<b>![](../../../assets/library-icon-new-filter.png) 新增過濾器：</b> 在所選資料夾中新增一個新的過濾器。 你 *無法* 在現有的預設資料夾中新增過濾器。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) 新增過濾器：</b> 在所選資料夾中新增一個新的過濾器。 你 *無法* 在現有的預設資料夾中新增過濾器。
 
-<b>![](../../../assets/library-icon-edit.png) 編輯項目：</b> 編輯目前選取的資料夾或過濾器。 你 *無法* 編輯預設資料夾和過濾器的任何屬性。
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) 編輯項目：</b> 編輯目前選取的資料夾或過濾器。 你 *無法* 編輯預設資料夾和過濾器的任何屬性。
 
 要 *移除* 資料夾或過濾器，請 *右鍵點擊* 該資料夾，然後從上下文選單中選擇 <b>「移除</b> 」選項。
 
@@ -76,12 +76,12 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 >
 > 正確設定這些檔案非常重要&#x200B;**，以確保你編輯&#x200B;*的是正確的專案*！
 
-![自訂濾鏡版](../../../assets/library-filters-edit.png "自訂濾鏡版")
+![自訂濾鏡版](managing-custom-content-and-filters.resources/library-filters-edit.png "自訂濾鏡版")
 
 **過濾器**&#x200B;通常需要設定&#x200B;**&#x200B;條件以達成過濾目的。這些條件依據以下標準進行配置：
 
 * **資源類型**：設定特定的 [資源類型](../../../resources/resources.md)，例如 [圖表](../../../compositing-graphs/substance-compositing-graphs.md)
-* **&#x200B;**&#x200B;屬性可套用條件 – 見上文列表
+* ****&#x200B;屬性可套用條件 – 見上文列表
 * **條件邏輯**：讓濾波器包含正、負、部分及全匹配結果
 * **條件關鍵字：** 用來 **測試屬性** 與 **條件邏輯** 標準的字串。 若留空，則包含符合這兩個條件的任何資源
 
@@ -89,7 +89,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 
 >[!NOTE]
 >
-> 若未設定&#x200B;**&#x200B;**&#x200B;任何條件，則所有圖書館**&#x200B;內容都會被顯示。  
+> 若未設定&#x200B;****任何條件，則所有圖書館**&#x200B;內容都會被顯示。  
 
 ## 最佳實務
 
@@ -99,7 +99,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 * 除非你 *明確* 想要，否則不要建立與預設函式庫混合的自訂節點。 如果你的節點 *匹配，它們會出現* 在預設篩選器下，所以你必須確保使用 *不同的標籤/命名系統* 以避免這種情況
 * 使用&#x200B;*獨特的*&#x200B;專案&#x200B;**&#x200B;識別碼。只要所有專案保持一致&#x200B;**，這些都可以放在你想要的任何地方（例如<b>描述</b>、<b>分類</b>或<b>使用者資料</b>）。這讓依專案&#x200B;*搜尋和篩選內容*&#x200B;變得更簡單
 * 使用 <b>作者</b> 屬性來追蹤最初負責內容的人，而不必翻閱版本控制紀錄
-* 建立<b>圖示</b>的有效方法是使用<b>圖示[&#128279;](../../../compositing-graphs/graph-parameters/graph-parameters.md)圖屬性中的生成</b>選項，或建立[圖譜範本](../../../interface/preferences-window/project-settings/project-settings.md)來產生圖示。這樣你才能確保一致性，省下製作工作量。 所有預設的圖書館圖示都是這樣在 Designer 裡建立的！
+* 建立<b>圖示</b>的有效方法是使用<b>圖示](../../../compositing-graphs/graph-parameters/graph-parameters.md)圖屬性中的[生成</b>選項，或建立[圖譜範本](../../../interface/preferences-window/project-settings/project-settings.md)來產生圖示。這樣你才能確保一致性，省下製作工作量。 所有預設的圖書館圖示都是這樣在 Designer 裡建立的！
 
 ### 管理不同範圍的內容
 

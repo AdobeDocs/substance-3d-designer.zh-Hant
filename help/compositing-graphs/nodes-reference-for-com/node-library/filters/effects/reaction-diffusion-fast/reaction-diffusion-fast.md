@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/reaction-diffusion-fast.html"
 breadcrumb-title: ''
 description: 使用 Reaction Diffusion Fast 節點，利用快速反應擴散演算法生成程序紋理的有機圖案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 反應擴散快處理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反應擴散節點圖示](../../../../../../assets/reaction-diffusion.png "反應擴散節點圖示")
+![反應擴散節點圖示](reaction-diffusion-fast.resources/reaction-diffusion.png "反應擴散節點圖示")
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -43,20 +43,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>輸入</b> *灰階*&#x200B;反應擴散效應應應用於灰階影像。
+## 輸入
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>灰階</i> | 反應擴散效應應該應用在灰階影像上。 |
 
-<b>輸出&#x200B;</b>*灰階 灰階*&#x200B;影像代表對輸入影像施加的反應擴散效應。
+<a name="outputs"></a>
+
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 灰階影像代表作用擴散效果，應用於輸入影像。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>半徑</b> *漂浮*：效果應該擴散多遠。
-
-<b>對比</b> *浮標*\
-調整輸入的對比度，作為一種阻擋。
+|  |  |
+|:---|:---|
+| <b>半徑</b> *浮標* | 影響應該擴散到多遠。 |
+| <b>對比</b> *浮標* | 調整輸入的對比度，作為一種阻擋。 |
 
 ## 範例
 
@@ -64,17 +74,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![範例1](../../../../../../assets/reactdiff03.png "範例1")
+![範例1](reaction-diffusion-fast.resources/reactdiff03.png "範例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![範例2](../../../../../../assets/reactdiff02.png "範例2")
+![範例2](reaction-diffusion-fast.resources/reactdiff02.png "範例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![範例3](../../../../../../assets/reactdiff01.gif "範例3")
+![範例3](reaction-diffusion-fast.resources/reactdiff01.gif "範例3")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用取樣節點來取樣貼圖並創造程序化材質變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用 Sampler 節點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 使用 Sampler 節點
 
-![](../../../../assets/sampler-graph.jpg)
+![](using-the-sampler-nodes.resources/sampler-graph.jpg)
 
 取樣節點可用於取樣連接特效映射節點的影像輸入像素值。 取樣後的值可用來驅動任何參數。
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 在此範例中，已建立一連串象限節點以產生圖案網格。 在最後一象限的不透明度/亮度參數中建立一個函數。
 
-![](../../../../assets/sampler-function.jpg){width="300px"}![](../../../../assets/sampler-result-1.jpg){width="300px"}
+![](using-the-sampler-nodes.resources/sampler-function.jpg){width="300px"}![](using-the-sampler-nodes.resources/sampler-result-1.jpg){width="300px"}
 
 Sample 節點會將 float2 輸入作為取樣座標 （x， y）。 在此範例中，我們使用 $pos 變數：每個圖案的像素值會在第一個插入 FxMap 節點的影像輸入中取樣。
 
@@ -40,8 +40,8 @@ Sample Color 節點回傳 float4（rgba） 值，範圍為 0,1。
 
 此處，我們將取樣值與常數 （0.3） 比較。 若取樣值大於 0.3，函數回傳 1，否則回傳 0。
 
-![](../../../../assets/sampler-function-advanced.jpg){width="300px"}![](../../../../assets/sampler-result-advanced.jpg){width="300px"}
+![](using-the-sampler-nodes.resources/sampler-function-advanced.jpg){width="300px"}![](using-the-sampler-nodes.resources/sampler-result-advanced.jpg){width="300px"}
 
 ## 下載範例
 
-[![SBS 檔案圖示](../../../../assets/sbs-1_1.png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)
+[![SBS 檔案圖示](using-the-sampler-nodes.resources/sbs-1_1.png){width="64px"}](https://shared-assets.adobe.com/link/d5f9adf3-0bb5-49a1-4eb9-a0506d4f3f32)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/straight-to-pre-multiplied.html"
 breadcrumb-title: ''
 description: 使用「直乘預乘」節點將 Alpha 通道從直譯轉換為預乘法格式以便合成。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直接到預乘法
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 2%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straight-pre-multiply.png){width="128px"}
+![](straight-to-pre-multiplied.resources/straight-pre-multiply.png){width="128px"}
 
-## 直接到預乘法
-
-**收錄於：***濾鏡/頻道*
-
-**很簡單**
+<b>收錄於：</b> 濾波器>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 將純 alpha 轉換為預乘法，將顏色乘以 alpha 混合的像素。
-
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: 使用 PBR 介電 F0 節點來計算物理基礎材料工作流程的介電 F0 值。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR 介電 F0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '112'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-dielectric-f0.png){width="128px"}
+![](pbr-dielectric-f0.resources/pbr-dielectric-f0.png){width="128px"}
 
-## PBR 介電 F0
-
-**收錄於：***材料過濾器/PBR工具*
-
-**很簡單**
+<b>收錄於：</b> PBR工具>材料過濾器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,18 +37,16 @@ ht-degree: 1%
 
 這有助於快速取得正確的數值作為起點，避免從圖表中挑選顏色。
 
-## 參數
-
-* **鏡面 F0**： *塑膠、木頭、石頭、磚塊、沙子、混凝土、布料、生鏽金屬、水、冰、玻璃、自訂 IOR*&#x200B;選擇預設的鏡面範圍。
-* **鏡面範圍**： *0.01 - 1.0*&#x200B;調整鏡面值，調整在所選預設範圍內。 可以做一些調整。
-* **IOR**： *1.0 - 5.0*&#x200B;僅在設定為自訂 IOR 時啟用。 自己選擇價值。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>鏡面F0</b> <i>塑膠、木頭、石頭、磚塊、沙子、混凝土、布料、生鏽金屬、水、冰、玻璃、客製化 IOR</i> | 選擇一個預先定義的鏡面範圍。 |
+| <b>鏡面範圍</b> <i>0.01 - 1.0</i> | 調整 Specular 值，範圍涵蓋所選預設值。 可以做一些調整。 |
+| <b>IOR</b> <i>1.0 - 5.0</i> | 只有設定為自訂 IOR 時才啟用。 自己選擇價值。 |

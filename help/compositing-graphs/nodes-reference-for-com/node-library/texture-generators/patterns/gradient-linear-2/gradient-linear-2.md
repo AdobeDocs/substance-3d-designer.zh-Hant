@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
 breadcrumb-title: ''
 description: 使用 Gradient Linear 2 節點來建立線性漸層，並加強色彩轉換方向的控制。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 梯度線性 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 2%
+source-wordcount: '92'
+ht-degree: 5%
 
 ---
 
@@ -22,35 +22,40 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-linear-2.png){width="128px"}
+![](gradient-linear-2.resources/gradient-linear-2.png){width="128px"}
 
-## 梯度線性 2
-
-**收錄於：***貼圖產生器**/圖案*
-
-**很簡單**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 簡單、平滑的雙面漸層。 能呈現完美的黑-白-黑漸層，插值也完美。
 
-儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試！
-
-## 參數
-
-* **鋪磚**： *1 - 16*\
-  設定結果應該鋪磚的次數。
-* **旋轉**： **0,90°** 將方向從左-右改變為上-下，或反之。
-
-## 範例圖片
-
-![](../../../../../../assets/gradient-linear-2-ex.gif)
+儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試[！
 
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>鋪磚</b> <i>1 - 16</i> | 設定結果應該鋪磚的次數。 |
+| <b>旋轉</b> <i>0, 90°</i> | 將方向從左-右轉為上-下，或反之。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gradient-linear-2.resources/gradient-linear-2-ex.gif" />
+        </td>
+    </tr>
 </table>

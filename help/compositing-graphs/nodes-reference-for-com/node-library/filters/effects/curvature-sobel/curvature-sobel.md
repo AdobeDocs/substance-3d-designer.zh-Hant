@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: 使用 Curvature Sobel 節點來偵測曲率邊，使用索貝爾運算子來建立基於邊緣的遮罩。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 曲率索貝爾
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 1%
+source-wordcount: '104'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-sobel.png){width="128px"}
+![](curvature-sobel.resources/curvature-sobel.png){width="128px"}
 
-## 曲率索貝爾
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,25 @@ ht-degree: 1%
 
 此節點有助於快速高亮或調暗特定邊緣。 它與 [Curvature](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-filter-node/curvature-filter-node.md) 略有不同，因為它產生的效果品質較佳，但仍帶有銳利且刺耳的感覺。
 
-## 參數
-
-* **強度**： *0.0 - 1.0*&#x200B;效果強度，調整對比度。
-* **一般類型**： *DirectX、OpenGL*
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curv-sobel-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>強度</b> <i>0.0 - 1.0</i> | 效果強度會調整對比度。 |
+| <b>正常型</b> <i>DirectX、OpenGL</i> |  |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-sobel.resources/curv-sobel-ex.png" />
+        </td>
+    </tr>
 </table>

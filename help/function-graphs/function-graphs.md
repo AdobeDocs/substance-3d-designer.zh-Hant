@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs.html"
 breadcrumb-title: ''
 description: 學習如何在 Designer 中建立並使用實體函數圖，建立自訂函數和可重複使用的節點網路。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 實體函數圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,15 +43,15 @@ ht-degree: 0%
 
 ### 簡單函數
 
-![](../assets/lerpfunction_1.png)
+![](function-graphs.resources/lerpfunction_1.png)
 
-在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數[&#128279;](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見，但會使用自訂函數。
+在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見[，但會使用自訂函數。
 
 此函式也可寫成 *lerp（0.1， 0.8， Intensity），* 以類似 HLSL 或 GLSL 的偽代碼形式。
 
 ### 進階功能
 
-![](../assets/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/pixel-function_1.png){width="545px"}
 
 這個進階功能展示了像素處理器的 [內部運作，該處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 旨在根據第二個灰階遮罩輸入的強度調整色彩貼圖輸入的色調。
 

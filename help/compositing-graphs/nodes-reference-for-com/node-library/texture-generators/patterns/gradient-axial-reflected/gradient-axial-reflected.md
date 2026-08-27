@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-axial-reflected.html"
 breadcrumb-title: ''
 description: 使用漸層軸向反射節點來建立對稱色彩轉換的反射軸向漸層。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 梯度軸向反射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '101'
 ht-degree: 1%
 
 ---
@@ -22,32 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-axial-reflected.png){width="128px"}
+![](gradient-axial-reflected.resources/gradient-axial-reflected.png){width="128px"}
 
-## 梯度軸向反射
-
-**收錄於：***貼圖產生器**/圖案*
-
-**很簡單**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 類似於 [漸層軸線](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-axial/gradient-axial.md)，會在兩個自訂點之間產生灰階漸層，漸層起點與終點皆為黑色，並在過渡中心達到白色峰值。 請記住，結果不一定總是貼上瓷磚。
 
-## 參數
-
-* **第一點**：\
-  從（黑色）開始的第一個點
-* **第二點**：\
-  第二個點結束漸層點（白色）
-* **非平方展開**： *假/真*\
-  以非平方比率補償擠壓與拉伸。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>第一點</b> | 從（黑色）開始的第一個點 |
+| <b>第二點</b> | 第二個點結束漸層點（白色） |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 以非平方比率補償擠壓與拉伸。 |

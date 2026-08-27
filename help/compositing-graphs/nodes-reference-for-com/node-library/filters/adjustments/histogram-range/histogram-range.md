@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: 使用直方圖範圍節點，根據直方圖範圍重新映射材質值，進行色彩校正與調整。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方圖範圍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 1%
+source-wordcount: '130'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-range-1.png){width="128px"}
+![](histogram-range.resources/histogram-range-1.png){width="128px"}
 
-## 直方圖範圍
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -42,15 +38,25 @@ ht-degree: 1%
 
 [點此觀看Substance Academy關於直方圖範圍的影片。](https://www.youtube.com/watch?v=p9wcmJBFyGA&t=517s)
 
-## 參數
-
-* **範圍**： *0.0 - 1.0*&#x200B;將範圍縮小多少。 這類似於將 Levels 最小和最大滑桿都往內移動。
-* **位置**： *0.0 - 1.0*&#x200B;距離減少的偏移，設定不同的中點以減少距離。
-
-## 範例圖片
-
-![](../../../../../../assets/histogram-range.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>分布範圍</b> <i>0.0 - 1.0</i> | 應該從多少程度降低距離。 這類似於將 Levels 最小和最大滑桿都往內移動。 |
+| <b>職位</b> <i>0.0 - 1.0</i> | 偏移以減少射程，設定不同的中點以減少射程。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-range.resources/histogram-range.gif" />
+        </td>
+    </tr>
 </table>

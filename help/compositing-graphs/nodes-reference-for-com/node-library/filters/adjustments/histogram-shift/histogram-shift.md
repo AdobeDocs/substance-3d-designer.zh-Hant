@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-shift.html"
 breadcrumb-title: ''
 description: 使用直方圖移位節點來調整貼圖中的直方圖分布，以調整亮度和對比度範圍。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方圖移位
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-shift-1.png){width="128px"}
+![](histogram-shift.resources/histogram-shift-1.png){width="128px"}
 
-## 直方圖移位
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,27 @@ ht-degree: 2%
 
 [點此觀看 Substance Academy 關於直方圖移位的影片。](https://youtu.be/p9wcmJBFyGA?t=492)
 
-## 參數
-
-* **位置**： *0.0 - 1.0*\
-  輸入要調整多少。 1.0 是完整的旋轉，等於 0.0。
-
-## 範例圖片
-
-![](../../../../../../assets/histogram-shift.gif)
-
-![](../../../../../../assets/histogram-shift2.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>職位</b> <i>0.0 - 1.0</i> | 輸入要調整多少。 1.0 是完整的旋轉，等於 0.0。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="histogram-shift.resources/histogram-shift2.gif" />
+        </td>
+    </tr>
 </table>

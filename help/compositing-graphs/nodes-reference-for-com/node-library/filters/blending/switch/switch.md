@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/switch.html"
 breadcrumb-title: ''
 description: 使用 Switch 節點根據遮罩在兩個輸入材質間切換，以選擇條件材質。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 切換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 1%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/switch-1.png){width="128px"}
+![](switch.resources/switch-1.png){width="128px"}
 
-![](../../../../../../assets/switch-grayscale.png){width="128px"}
+![](switch.resources/switch-grayscale.png){width="128px"}
 
-## Switch（灰階）
-
-**收錄於：***濾鏡/混合*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>混合
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -45,19 +41,23 @@ ht-degree: 2%
 
 重要：務必使用適合你輸入的版本！ 用「切換」來表示顏色輸入，用「切換灰階」來表示灰階輸入。
 
-## 參數
-
-### 輸入
-
-* **輸入 1（真實）：***彩色或灰階輸入*
-* **輸入 2（錯誤）：***彩色或灰階輸入*
-
-### 參數
-
-* **開關**： *假/真*&#x200B;在輸入 1（真）與 2（假）之間切換。
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入 1（真）</b> <i>彩色或灰階輸入</i> |  |
+| <b>輸入 2（錯誤）</b> <i>彩色或灰階輸入</i> |  |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>切換</b> <i>錯誤/真實</i> | 在輸入 1（真）與輸入 2（假）之間切換。 |

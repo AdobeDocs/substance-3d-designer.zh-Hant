@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ''
 description: 使用 Transformation 2D 節點對貼圖套用 2D 轉換，包括平移、旋轉和縮放。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 轉換二維
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：轉換二維](../../../../assets/comp_transformation_1.png "原子節點：轉換二維"){width="200px"}
+![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -65,9 +65,9 @@ ht-degree: 0%
 >
 > 停用平鋪
 > 
-> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法[&#128279;](../../../../glossary/glossary.md)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
+> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法](../../../../glossary/glossary.md)設[為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

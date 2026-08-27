@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/skew.html"
 breadcrumb-title: ''
 description: 使用 Skew 節點對貼圖套用斜面變換，創造傾斜和扭曲的圖案。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 斜坡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,35 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/skew-5.png){width="128px"}
+![](skew.resources/skew-5.png){width="128px"}
 
-![](../../../../../../assets/skew-grayscale.png){width="128px"}
+![](skew.resources/skew-grayscale.png){width="128px"}
 
-## 斜（灰階）
-
-**收錄於：***濾波器/轉換*
-
-**很簡單**
+<b>收錄於：</b> 《濾波器>轉換》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 會扭曲輸入影像。
 
-## 參數
-
-* **軸線**： *水平、垂直*&#x200B;選擇垂直或水平傾斜。
-* **金額**： *-1.0 - 1.0*&#x200B;偏斜量。
-* **對齊**： *中心、左上、右*&#x200B;下 設定斜角轉換的原點。
-
-## 範例圖片
-
-![](../../../../../../assets/skew-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>軸心國</b> <i>水平、垂直</i> | 選擇垂直或水平傾斜。 |
+| <b>金額</b> <i>-1.0 - 1.0</i> | 偏差的程度。 |
+| <b>對齊</b> <i>中間，左上，右下</i> | 設定偏斜轉換的原點。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="skew.resources/skew-ex.gif" />
+        </td>
+    </tr>
 </table>

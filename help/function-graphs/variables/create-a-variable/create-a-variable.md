@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/variables/create-a-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/create-a-variable.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 函數圖中建立可重複使用的數值與參數的自訂變數。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立一個變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Set 節點的使用有點特殊：
 >
 > 如果你有多個變數要建立，只要重複 *Set* 和 *Sequence* 節點的建立操作，並將最後一個序列節點設為輸出節點：
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/image2015-12-18-18-43-8.png)

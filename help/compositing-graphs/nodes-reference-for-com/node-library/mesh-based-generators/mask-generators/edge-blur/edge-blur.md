@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/edge-blur.html"
 breadcrumb-title: ''
 description: 使用邊緣模糊節點來模糊邊緣遮罩，創造柔和過渡和基於邊緣的平滑風化效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 邊緣模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 2%
+source-wordcount: '141'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-blur.png){width="128px"}
+![](edge-blur.resources/edge-blur.png){width="128px"}
 
-## 邊緣模糊
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,27 +37,35 @@ ht-degree: 2%
 
 此遮罩會根據烘焙的曲率貼圖高亮邊緣。 它是較簡單的遮罩產生器之一。
 
-## 參數
-
-### 輸入
-
-* **曲率**： *灰階輸入*\
-  用來設計效果的烘焙地圖。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  設定邊緣高光的程度。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **模糊半徑**： *0.0 - 8.0*&#x200B;設定高亮邊緣的模糊程度。
-
-## 範例圖片
-
-![](../../../../../../assets/edge-blur-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 用來設計效果的烘焙地圖。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定邊緣高光的程度。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>模糊半徑</b> <i>0.0 - 8.0</i> | 設定高亮邊緣的模糊程度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-blur.resources/edge-blur-ex.gif" />
+        </td>
+    </tr>
 </table>

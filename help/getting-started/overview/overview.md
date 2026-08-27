@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概觀
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e42fdff3a7e8fca5a6d482bee42bb9f32d019c56
+source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # 概觀
 
-[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
 
 以下是它與其他應用的比較：
 
-|  | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>學習曲線</b> | 低 | 中 | 高 |
 | <b>作者資料</b> | 是的 | 是的 | 是的 |
@@ -32,7 +32,7 @@ ht-degree: 0%
 | <b>作者過濾器、模式與效果</b> | 不 | 限制 | 是的 |
 | <b>匯出參數內容</b> | 不 | 不 | 是的 |
 
-\*：僅位移，請參見 <b>3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能。
+\*：僅位移，請參見 <b>3D 視圖](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能[。
 
 簡言之，Substance 3D Designer 應該被視為目前最技術性、最先進的貼圖應用程式。
 
@@ -60,7 +60,7 @@ Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/ds-sbs-48.png)
+![](overview.resources/ds-sbs-48.png)
 
 ### 物質3D檔案
 
@@ -71,18 +71,18 @@ Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Su
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/sbsar-48.png)
+![](overview.resources/sbsar-48.png)
 
 ### Substance 3D 資產
 
 *(\*.SBSAR）*
 
-Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
+Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../assets/bmp-96.png){width="48px"}
+![](overview.resources/bmp-96.png){width="48px"}
 
 ### 靜態檔案
 
@@ -104,7 +104,7 @@ Substance 3D 檔案可以包含多種資源，這些資源服務於不同的用�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

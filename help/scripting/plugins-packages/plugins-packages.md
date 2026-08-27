@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: 學習如何為 Substance 3D Designer Python 腳本建立與結構化外掛套件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件套件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 安裝外掛套件
 
-![插件管理器](../../assets/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
+![插件管理器](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
 
 外掛套件可透過<b>外掛管理員</b>的工具<b></b>選單安裝：
 

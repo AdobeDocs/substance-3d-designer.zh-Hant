@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: 使用 Clamp 節點將紋理值夾在指定的最小與最大範圍內，以控制數值限制。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 夾子
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 11%
 
 ---
 
@@ -22,37 +22,41 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clamp-grayscale.png){width="128px"}
+![](clamp.resources/clamp-grayscale.png){width="128px"}
 
-![](../../../../../../assets/clamp-1.png){width="128px"}
+![](clamp.resources/clamp-1.png){width="128px"}
 
-## 夾具（灰階）
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 將輸入值夾在定義的限制內。
 
-## 參數
-
-* **最小**： *0.0 -* 1.0\
-  降低夾具限制。
-* **最大**： *0.0 - 1.0*&#x200B;上限夾具。
-* **申請至 Alpha**： *錯誤/真實* （僅限彩色版本）\
-  選擇是否也對 alpha 施加夾持。
-
-## 範例圖片
-
-![](../../../../../../assets/clamp.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>敏</b> <i>0.0 - 1.0</i> | 降低夾具限制。 |
+| <b>麥克斯</b> <i>0.0 - 1.0</i> | 上限鉗位。 |
+| <b>申請 Alpha</b> <i>False/True</i> （僅限彩色版本） | 選擇是否也對 alpha 施加夾持。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clamp.resources/clamp.gif" />
+        </td>
+    </tr>
 </table>

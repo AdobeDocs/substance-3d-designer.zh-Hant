@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的圖形項目，包括框架、註解、釘腳和用於組織圖表的入口節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖表項目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -26,14 +26,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![點節點圖示](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![點節點圖示](graph-items.resources/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## 點節點（亦稱 Portal）
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![框架圖示](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![框架圖示](graph-items.resources/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## 邊框
 
@@ -60,14 +60,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![留言圖示](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![留言圖示](graph-items.resources/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 留言
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![導航圖示](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![導航圖示](graph-items.resources/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## 釘住
 

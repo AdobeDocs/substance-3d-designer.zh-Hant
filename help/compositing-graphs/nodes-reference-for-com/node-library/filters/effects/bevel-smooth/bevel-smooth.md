@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/bevel-smooth.html"
 breadcrumb-title: ''
 description: 使用Bevel Smooth節點在形狀和圖案上創造平滑斜邊，讓表面更真實。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 斜角光滑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向異性桑原灰階圖示 各向異性桑原灰階圖示](../../../../../../assets/bevel_smooth.png ""){width="200px"}
+![各向異性桑原灰階圖示 各向異性桑原灰階圖示](bevel-smooth.resources/bevel_smooth.png ""){width="200px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -47,45 +47,31 @@ ht-degree: 0%
 >
 > [方向距離](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)節點提供類似功能，縮放是在特定方向進行。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>遮罩輸入</b> *灰階* 初級 | 應該從中擷取遮罩的影像。   所有高於「遮罩閾值」的值在該遮罩中都是白色。 |
-| <b>來源輸入</b> *灰階* | 僅在「輸出模式」參數設為「Dilation」時使用。   此時，影像會疊加在遮罩的白色區域上，邊界的灰階值會被放大。 |
-| <b>距離圖</b> *灰階* | 當「距離映射乘數」參數值高於0時，這是可選輸入。   它用來調整遮罩邊界的斜面/膨脹距離，暗色值會使距離變短。 |
+|:---|:---|
+| <b>遮罩輸入</b> <i>灰階</i> 初級 | 應該從中擷取遮罩的影像。   所有高於「遮罩閾值」的值在該遮罩中都是白色。 |
+| <b>來源輸入</b> <i>灰階</i> | 僅在「輸出模式」參數設為「Dilation」時使用。   此時，影像會疊加在遮罩的白色區域上，邊界的灰階值會被放大。 |
+| <b>距離圖</b> <i>灰階</i> | 當「距離映射乘數」參數值高於0時，這是可選輸入。   它用來調整遮罩邊界的斜面/膨脹距離，暗色值會使距離變短。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 根據所選的「輸出模式」呈現的結果影像。 |
-| <b>紫外線</b> *顏色* | 一個 UV 貼圖，UV 沿著遮罩邊界放大。   它可以連接到 [UV 映射](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) 節點，利用這些放大的 UV 映射其他影像。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 根據所選的「輸出模式」呈現的結果影像。 |
+| <b>紫外線</b> <i>顏色</i> | 一個 UV 貼圖，UV 沿著遮罩邊界放大。   它可以連接到 [UV 映射](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/uv-mapper-color/uv-mapper-color.md) 節點，利用這些放大的 UV 映射其他影像。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>輸出模式</b> *整數* | 遮罩邊界擴張的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>斜角：</b> 從1畫到0的梯度，最大「距離」達到0</li> <li data-preserve-html="true"><b>放大：</b> 畫出純色直到「最大距離」。 此顏色為白色，或遮罩邊界的「來源輸入」影像（若連接）為顏色</li> <li data-preserve-html="true"><b>距離：</b> 在正規化影像空間中，距離最近遮罩邊界的原始距離，其中 1 是影像最短邊的長度</li> </ul> |
 | <b>導演</b> *整數*   *：當「輸出模式」設為「倒角」或「膨脹」時可用* | 面罩邊框應該擴大的一側：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>在：</b> 向面具內部畫</li> <li data-preserve-html="true"><b>向外</b> ：向面具外側畫畫</li> <li data-preserve-html="true"><b>內外：</b> 同時向面具內外兩側繪製</li> </ul> |
 | <b>最大距離</b> *浮標* | 在正規化影像空間中，1 是輸入影像較短邊的長度，表示膨脹距離。 |
@@ -101,12 +87,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![斜面光滑：範例 1](../../../../../../assets/bevel_smooth_example_1.gif "斜面光滑：範例 1"){width="1024px" zoomable="yes"}
+![斜面光滑：範例 1](bevel-smooth.resources/bevel_smooth_example_1.gif "斜面光滑：範例 1"){width="1024px" zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![斜角光滑：範例 8](../../../../../../assets/bevel_smooth_example_8.jpg "斜角光滑：範例 8"){width="1024px" zoomable="yes"}
+![斜角光滑：範例 8](bevel-smooth.resources/bevel_smooth_example_8.jpg "斜角光滑：範例 8"){width="1024px" zoomable="yes"}
 
 </td>
 </tr>
@@ -119,11 +105,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_before.jpg" alt="bevel_smooth_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_4_after.jpg" alt="bevel_smooth_example_4_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -135,11 +121,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_before.jpg" alt="bevel_smooth_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_2_after.jpg" alt="bevel_smooth_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_before.jpg" alt="bevel_smooth_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_3_after.jpg" alt="bevel_smooth_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -172,11 +158,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_before.jpg" alt="bevel_smooth_example_5_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_5_after.jpg" alt="bevel_smooth_example_5_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -189,11 +175,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_before.jpg" alt="bevel_smooth_example_7_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
+      <img src="bevel-smooth.resources/bevel_smooth_example_7_after.jpg" alt="bevel_smooth_example_7_after">
       <br><i>之後</i>
     </td>
   </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/performance-optimization-guidelines.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 的效能優化指引，以提升圖形效能並縮短處理時間。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 效能優化指引
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 +++請特別注意節點解析和繼承！
 高數值會嚴重影響效能，因此請考慮材料可能的使用方式，以及是否能減少資料量。
 
-我們建議你多了解 [Substance 圖](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中的節點解析（輸出大小）[&#128279;](../../compositing-graphs/output-size/output-size.md)與繼承。
+我們建議你多了解 [Substance 圖](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中的節點解析（輸出大小）](../../compositing-graphs/output-size/output-size.md)與[繼承。
 
 +++
 
@@ -105,7 +105,7 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 +++
 
 +++在某些情況下，要注意大量的影像取樣功能
-函式在 CPU 引擎上執行，但 [Pixel 處理器除外](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)。 如果你在 Value Processors[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) 或 [FXmaps](../../function-graphs/fxmaps/fxmaps.md) 中大量進行大量影像取樣（改變$pos座標），就會有大量 VRAM 與 CPU RAM 的切換，導致效能延遲。
+函式在 CPU 引擎上執行，但 [Pixel 處理器除外](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)。 如果你在 Value Processors](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md) 或 [FXmaps](../../function-graphs/fxmaps/fxmaps.md) 中大量進行大量影像取樣（改變$pos座標），[就會有大量 VRAM 與 CPU RAM 的切換，導致效能延遲。
 
 +++
 
@@ -133,7 +133,7 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 
 ### 嵌入式位圖的尺寸優化
 
-[點陣](../../resources/bitmap-resource/bitmap-resource.md) [圖的輸出大小](../../compositing-graphs/output-size/output-size.md)預設設定為[「絕對」。](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)這表示如果點陣圖透過節點鏈連接到輸出，最終輸出會強制與嵌入位圖大小相同。\
+[點陣](../../resources/bitmap-resource/bitmap-resource.md)[圖的輸出大小](../../compositing-graphs/output-size/output-size.md)預設設定為[「絕對」。](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)這表示如果點陣圖透過節點鏈連接到輸出，最終輸出會強制與嵌入位圖大小相同。\
 你插入點陣圖後的節點，其輸出大小會設定為[「相對於輸入」。](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)這表示節點也會固有位圖大小，並將此大小沿節點鏈傳遞至輸出端。 要修正這個問題，你需要將位圖後面的節點設定為[「相對於父節點」。](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
 如果圖設定為動態解析度，你可以將嵌入點陣圖的輸出大小改為相對於父圖。\
@@ -141,11 +141,11 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 
 >[!WARNING]
 >
-> 將點陣節點設[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)為「相對於父節點」並將[圖表發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到 Substance 3D 資產（SBSAR），會將位圖儲存為 256x256 **的解析度**，而非原始大小。建議將位圖節點[輸出大小](../../compositing-graphs/output-size/output-size.md)的繼承方法[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)保持為「絕對」，並在點陣節點後方使用[設定為「相對於父」的轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點。
+> 將點陣節點設[為「相對於父節點」並將[圖表發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到 Substance 3D 資產（SBSAR），會將位圖儲存為 256x256 **的解析度**，而非原始](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)大小。建議將位圖節點[輸出大小](../../compositing-graphs/output-size/output-size.md)的繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)保持[為「絕對」，並在點陣節點後方使用[設定為「相對於父」的轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點。
 
-![嵌入式位圖優化 1](../../assets/input-1.jpg "嵌入式點陣優化 1")
+![嵌入式位圖優化 1](performance-optimization-guidelines.resources/input-1.jpg "嵌入式點陣優化 1")
 
-![嵌入式位圖優化 2](../../assets/relativetoparent.jpg "嵌入式位圖優化 2")
+![嵌入式位圖優化 2](performance-optimization-guidelines.resources/relativetoparent.jpg "嵌入式位圖優化 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 </td>
 <td style="border: 0;" valign="top">
 
-![嵌入式位圖優化 3](../../assets/format.jpg "嵌入式位圖優化 3")
+![嵌入式位圖優化 3](performance-optimization-guidelines.resources/format.jpg "嵌入式位圖優化 3")
 
 </td>
 </tr>

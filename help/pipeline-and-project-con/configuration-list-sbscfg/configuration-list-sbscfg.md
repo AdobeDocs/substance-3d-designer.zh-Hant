@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中使用 SBSCFG 配置清單來管理專案設定和預設。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 配置清單 - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG 檔案圖示](../../assets/sbscfg.png "SBSCFG 檔案圖示")
+![SBSCFG 檔案圖示](configuration-list-sbscfg.resources/sbscfg.png "SBSCFG 檔案圖示")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 高亮區塊是與設定檔相關的部分，你只要將更多專案加入清單，這些專案就儲存在上述定義的 SBSCFG 檔案中。
 
-![專案設定](../../assets/config-ui.png "專案設定")
+![專案設定](configuration-list-sbscfg.resources/config-ui.png "專案設定")
 
 ### 外部編輯為 XML
 

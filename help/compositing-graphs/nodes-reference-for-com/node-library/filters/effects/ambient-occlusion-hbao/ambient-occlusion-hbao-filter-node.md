@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
 description: 使用環境遮蔽 HBAO 濾鏡節點，利用基於地平線的演算法生成環境遮蔽貼圖，呈現逼真的陰影效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 環境遮蔽（HBAO）（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '197'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hbao.png){width="128px"}
+![](ambient-occlusion-hbao-filter-node.resources/hbao.png){width="128px"}
 
-## 環境遮蔽（HBAO）
-
-**收錄於：***濾鏡/效果*
-
-**中級**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,23 +37,33 @@ ht-degree: 1%
 
 關於另一種更進階但較慢的 AO 版本，請參見 [環境遮蔽（RTAO）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)
 
-## 參數
-
-* **使用世界單位**： *虛假/真*&#x200B;切換：使用世界或場景空間單位。 能提供額外參數，讓控制更精確。
-* **高度深度**： *0.0 - 1.0*&#x200B;僅在世界單位設定為 False 時使用。 控制全域縮放。
-* **表面大小**： **0.0 - 1000.0**&#x200B;僅在世界單位設為 True 時使用。 控制全域縮放。
-* **身高比例（公分）：***0.0 - 1000.0*&#x200B;僅在世界單位設定為 True 時使用。控制全域縮放。
-* **半徑**： *0.0 - 1.0*&#x200B;控制區域的擴散。
-* **品質**： *4 個樣本、8 個樣本、16 個樣本*\
-  透過計算所用樣本數量來設定品質等級。
-* **GPU 優化**： *錯誤/真*&#x200B;啟用內部 GPU 優化，加快處理速度。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/image2021-6-18-11-11-11-1.png" width="300px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/image2021-6-18-11-11-22.png" width="300px"/></div> |
-| --- | --- |
-|  |  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>使用世界單位</b> <i>錯誤/真實</i> | 切換使用世界或場景空間單元。 能提供額外參數，讓控制更精確。 |
+| <b>高度深度</b> <i>0.0 - 1.0</i> | 僅在世界單位設定為 False 時使用。 控制全域縮放。 |
+| <b>表面積</b> <i>0.0 - 1000.0</i> | 僅在世界單位設定為 True 時使用。 控制全域縮放。 |
+| <b>身高比例（公分）</b> <i>0.0 - 1000.0</i> | 僅在世界單位設定為 True 時使用。 控制全域縮放。 |
+| <b>半徑</b> <i>0.0 - 1.0</i> | 控制AO的擴散。 |
+| <b>品質</b> <i>4個樣本，8個樣本，16個樣本</i> | 透過計算所用樣本數量來設定品質等級。 |
+| <b>GPU 優化</b> <i>錯誤/真實</i> | 能實現內部 GPU 優化，加速處理速度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-11-1.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="ambient-occlusion-hbao-filter-node.resources/image2021-6-18-11-11-22.png" />
+        </td>
+    </tr>
 </table>

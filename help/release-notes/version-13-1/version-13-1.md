@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-13-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 13.1 版本的發行說明，了解節點圖的改進與 AxF 匯出支援。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *發行日期：2023年12月12日*
 
-![Substance 3D 設計師 13.1 橫幅](../../assets/24-library-hero-1920x620.png "Substance 3D 設計師 13.1 橫幅")
+![Substance 3D 設計師 13.1 橫幅](version-13-1.resources/24-library-hero-1920x620.png "Substance 3D 設計師 13.1 橫幅")
 
 ## 框架改進
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 
 隨著圖的成長，影格內容可能需要重新排列。 節點可能會移動以騰出空間給新增內容，或是內容需要更拉開以促進可讀性。 為了方便調整，現在可以在移動包含物件時自動展開畫面：在移動物件時按住 <b>Shift</b> 鍵，畫面邊界會自動調整，保持該物件在範圍內。
 
-![自動展開](../../assets/autoexpand.gif)
+![自動展開](version-13-1.resources/autoexpand.gif)
 
 ### 尺寸與內容的配合
 
 當你在圖表中做調整時，畫面可能不再優雅地調整到內容上。 這個新指令允許你自動調整畫面的位置和大小，使其能根據內容的跨度調整，並以一個中等格子作為填充。 如果框架有描述，會調整以利用描述旁邊的空白空間（如果可能的話）。
 
-![尺寸](../../assets/fitsize.gif)
+![尺寸](version-13-1.resources/fitsize.gif)
 
 ### 強化描述
 
 多虧了 HTML 程式碼，你現在可以在框架描述中加入格式化文字。 這同樣適用於留言。
 
-![富文本](../../assets/description-3.png)
+![富文本](version-13-1.resources/description-3.png)
 
 ### <b>...還有更多精彩內容！</b>
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * <b>節點選單改進： </b>為了節省尋找所需節點的時間，我們稍微改進了節點選單。 搜尋變得更寬容，即使沒有完美匹配也能給你結果。 此外，你現在可以用上箭頭直接進入清單中的最後一個元素。
 * <b>節點擺放： </b>如果你喜歡圖表的完美版面配置，這兩個小改動會讓你滿意！ 當你將節點從一個圖複製/貼上到另一個圖時，貼上的節點現在會對齊到主格子。 當你在長連結上新增節點時，這個節點會放在連結可見部分的中間，讓它在各種情況下都能看見。
-* <b>2D 檢視選項：</b>如果你是 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)的密集使用者，會節省時間，因為像是「顯示棋盤格」、「保留視圖大小」、「使用實體大小」和「顯示平鋪」等選項現在都被保存了，這樣你建立新 2D 視圖或重新啟動 Designer 時就不用再重新設定。
+* <b>2D 檢視選項：</b>如果你是 2D 視圖](../../interface/2d-view/2d-view.md)的密集使用者[，會節省時間，因為像是「顯示棋盤格」、「保留視圖大小」、「使用實體大小」和「顯示平鋪」等選項現在都被保存了，這樣你建立新 2D 視圖或重新啟動 Designer 時就不用再重新設定。
 
 ## AxF 匯出
 
@@ -64,12 +64,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF 檔案圖示](../../assets/axf-file-icon.png "AxF 檔案圖示")
+![AxF 檔案圖示](version-13-1.resources/axf-file-icon.png "AxF 檔案圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF 是 X-Rite[&#128279;](https://www.xrite.com/axf) 的一種格式。它提供一種在數位設計流程中，利用數值資料捕捉、儲存、編輯及傳達複雜材料特性的方法。 在之前的 Designer 版本中，你可以匯 [入 AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ，然後改善平鋪或加入程序化效果，但之後你只能以新的 .sbsar 檔案匯出變更。
+AxF 是 X-Rite](https://www.xrite.com/axf) 的[一種格式。它提供一種在數位設計流程中，利用數值資料捕捉、儲存、編輯及傳達複雜材料特性的方法。 在之前的 Designer 版本中，你可以匯 [入 AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ，然後改善平鋪或加入程序化效果，但之後你只能以新的 .sbsar 檔案匯出變更。
 
 在這個新版本中，我們引入了可以原地編輯 AxF 材質， [然後將變更](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 匯出為匯入後的 AxF 檔案的新圖層的功能。
 
@@ -77,7 +77,7 @@ AxF 是 X-Rite[&#128279;](https://www.xrite.com/axf) 的一種格式。它提供
 </tr>
 </table>
 
-![出口 AxF](../../assets/exportaxf.gif)
+![出口 AxF](version-13-1.resources/exportaxf.gif)
 
 ## API
 
