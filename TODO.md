@@ -34,7 +34,7 @@ ht-degree: 4%
 ## 修正方法
 
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
-* 缺少「負整數」項目及 parameters-not-working-as-expected.md 中斷裂連結[](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
+* 缺少「負整數」項目及 parameters-not-working-as-expected.md 中斷裂連結[&#128279;](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## 調查
 

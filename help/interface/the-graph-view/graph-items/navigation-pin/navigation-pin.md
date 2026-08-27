@@ -49,7 +49,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果鍵盤快捷鍵被映射到偏好設定](../../../../interface/preferences-window/preferences-window.md)中的[「釘選」項目，當圖表檢視聚焦時按下該快捷鍵。
+如果鍵盤快捷鍵被映射到偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中的「釘選」項目，當圖表檢視聚焦時按下該快捷鍵。
 
 +++
 

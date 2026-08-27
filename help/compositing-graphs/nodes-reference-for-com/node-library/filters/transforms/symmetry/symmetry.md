@@ -35,7 +35,7 @@ ht-degree: 5%
 
 對輸入影像執行多種對稱操作。 可以用來使幾何形狀對稱。
 
-這個節點和 Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) 非常相似[，但有額外的混合模式控制。
+這個節點和 Mirror[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) 非常相似，但有額外的混合模式控制。
 
 </td>
 </tr>

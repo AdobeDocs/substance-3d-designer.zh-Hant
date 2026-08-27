@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 客製化您的工作空間
 
-本頁介紹如何在 Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 的使用者介面中排列面板[，並善用其功能來提升您的工作流程。
+本頁介紹如何在 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的使用者介面中排列面板，並善用其功能來提升您的工作流程。
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## Windows 選單
 
-這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁](../the-main-toolbar/the-main-toolbar.md) Windows</b> 主工具列的部分[說明。在這裡，我們將提供與此菜單相關的額外概念。
+這個選單讓你管理 Designer 的主要使用者介面元素。 每個選項都在<b>本頁[&#128279;](../the-main-toolbar/the-main-toolbar.md) Windows</b> 主工具列的部分說明。在這裡，我們將提供與此菜單相關的額外概念。
 
 ### 顯示/隱藏視圖
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 > 當對接埠被最大化時，某些介面行為可能會有所不同：
 > 
 > * 自動出現或更新的碼頭會在背景中進行（例如屬性、2D 視圖）
-> * Windows 選單中的選單項目是&#x200B;*被停用&#x200B;*****&#x200B;的
+> * Windows 選單中的選單項目是&#x200B;*被停用&#x200B;**&#x200B;***&#x200B;的
 > * 底座標題列中的按鈕是 *被禁用* 的
 > * 主視窗&#x200B;*中最大值的碼頭不得使用標題欄移動*
 

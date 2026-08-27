@@ -50,7 +50,7 @@ Substance 3D Designer 在使用 Windows 10 或 Windows 11 的系統上無法啟�
 
 舊版 Designer 可能因授權驗證過程中使用的過時&#x200B;*`libeay32.dll`函式庫而無法在 Windows 10 或 Windows 11*&#x200B;上啟動。
 
-你可以嘗試用&#x200B;*更新版本*&#x200B;取代函式庫，例如這裡](https://support.networkoptix.com/hc/en-us/articles/115015730007-Nx-Software-crashes-due-to-libeay32-dll-on-Windows)發佈[的版本（選擇 32-bit Windows 的檔案），方法是依照以下步驟操作：
+你可以嘗試用&#x200B;*更新版本*&#x200B;取代函式庫，例如這裡[&#128279;](https://support.networkoptix.com/hc/en-us/articles/115015730007-Nx-Software-crashes-due-to-libeay32-dll-on-Windows)發佈的版本（選擇 32-bit Windows 的檔案），方法是依照以下步驟操作：
 
 1. 在 Designer 的安裝目錄中找到該 `libeay32.dll` 檔案
 1. 如果以後需要還原，記得把檔案備份到安全的地方
@@ -125,7 +125,7 @@ Steam 版 Designer 無法啟動，且不會出現錯誤訊息。
 
 你可以透過登入 Steam 應用程式來獲取錯誤訊息。
 
-如這裡](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)建議[，完全關閉 Steam，然後從終端機執行以下指令（或為此指令建立捷徑）：
+如這裡[&#128279;](https://github.com/ValveSoftware/steam-for-linux/issues/7114#issuecomment-629634260)建議，完全關閉 Steam，然後從終端機執行以下指令（或為此指令建立捷徑）：
 
 ```
 steam 2>&1 | tee /path/to/logfile
@@ -199,7 +199,7 @@ Substance 3D Designer 在使用 *Arch* 架構的 Linux 發行版系統上無法�
 
 **![（嘀嗒）](application-does-not-start.resources/check.svg) 建議步驟 *（![（警告）](application-does-not-start.resources/warning.svg) 不穩定，僅限 AMD 顯卡！）***
 
-試著安裝 **progl**（AMDGPU-PRO](https://wiki.archlinux.org/title/AMDGPU_PRO) 驅動程式的一部分[），然後透過它啟動 Designer。你可以透過應用程式 `progl` 啟動指令中的前綴來完成：
+試著安裝 **progl**（AMDGPU-PRO[&#128279;](https://wiki.archlinux.org/title/AMDGPU_PRO) 驅動程式的一部分），然後透過它啟動 Designer。你可以透過應用程式 `progl` 啟動指令中的前綴來完成：
 
 ```
 progl <designer-application-path>
