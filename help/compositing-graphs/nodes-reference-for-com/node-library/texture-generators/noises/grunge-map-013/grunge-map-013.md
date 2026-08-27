@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-013.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-013.html"
 breadcrumb-title: ''
 description: 使用 Grunge Map 013 節點生成程序化的 grunge 材質，為材質添加表面細節和磨損效果。
 helpx_creative_field: ""

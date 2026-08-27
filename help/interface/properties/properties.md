@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的屬性面板來檢視和編輯節點屬性及圖形參數。
 helpx_creative_field: ""

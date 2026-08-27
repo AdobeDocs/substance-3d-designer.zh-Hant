@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中進入偏好設定視窗，自訂應用程式設定與行為。
 helpx_creative_field: ""
@@ -191,7 +191,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>GPU 光線追蹤</b>  *預設：已勾選* | 如果被檢查，會對相容烘焙器的[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) GPU 執行光線追蹤。以下 GPU 光線追蹤後端將依 NVIDIA GPU 架構而定為預設：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：圖靈與更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal 與 Maxwell</li> </ul>  **注意：**&#x200B;更多關於 GPU 驅動烘焙器的資訊，請參閱 [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) 文件中的 [GPU 光線追蹤](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)部分。**提示：**&#x200B;啟動應用程式時，你可以使用以下&#x200B;*命令列參數*&#x200B;強制&#x200B;**&#x200B;使用不同的 GPU 光線追蹤後端：<ul data-preserve-html="true"> <li data-preserve-html="true"><code>--原力-光學</code> ： 強制在 Nvidia Turing 或更新 GPU 上使用 Optix</li> <li data-preserve-html="true"><code>--強制DXR</code> ： 強制在 Nvidia Pascal GPU 上使用 DXR</li> </ul> |
+| <b>GPU 光線追蹤</b>  *預設：已勾選* | 如果被檢查，會對相容烘焙器的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing) GPU 執行光線追蹤。以下 GPU 光線追蹤後端將依 NVIDIA GPU 架構而定為預設：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：圖靈與更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal 與 Maxwell</li> </ul>  **注意：**&#x200B;更多關於 GPU 驅動烘焙器的資訊，請參閱 [Substance Bakers](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/home) 文件中的 [GPU 光線追蹤](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing)部分。**提示：**&#x200B;啟動應用程式時，你可以使用以下&#x200B;*命令列參數*&#x200B;強制&#x200B;**&#x200B;使用不同的 GPU 光線追蹤後端：<ul data-preserve-html="true"> <li data-preserve-html="true"><code>--原力-光學</code> ： 強制在 Nvidia Turing 或更新 GPU 上使用 Optix</li> <li data-preserve-html="true"><code>--強制DXR</code> ： 強制在 Nvidia Pascal GPU 上使用 DXR</li> </ul> |
 
 ## 圖書館
 

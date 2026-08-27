@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers/bakers-legacy-interface.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/bakers/bakers-legacy-interface.html"
 breadcrumb-title: ''
 description: 熟悉舊版本的使用者，了解 Substance 3D Designer 烘焙者的舊介面。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 # Bakers 傳承介面
 
-以下是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 6.0.4 版本前所提供的烘焙介面說明。
+以下是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 6.0.4 版本前所提供的烘焙介面說明。
 
 ## 概觀
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/importing-linking-and-new-resources.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/importing-linking-and-new-resources.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、連結並建立新資源，用於你的材料專案。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 匯入、連結與新資源
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](../3d-scene-resource/3d-scene-resource.md) 和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
+[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 支援三種模式，讓你能引入或創建新資源，用於你的圖表。 這些資源類型多樣，包括但不限於 [點陣](../../resources/bitmap-resource/bitmap-resource.md)圖、 [向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)、 [3D 場景](../3d-scene-resource/3d-scene-resource.md) 和 [字型](../../resources/font-resource/font-resource.md)。 本頁說明了不同的方法以及每種方法的最佳使用時機。
 
 所有方法皆可透過在檔案總管中點擊套件上的右鍵鍵存取。
 

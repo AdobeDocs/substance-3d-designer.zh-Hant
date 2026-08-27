@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/color-management.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/color-management.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的色彩管理，包括色彩空間、設定檔及專色工作流程。
 helpx_creative_field: ""

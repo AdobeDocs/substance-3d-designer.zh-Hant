@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: 使用擴散色彩節點來套用色彩擴散效果，創造平滑的色彩混合與過渡效果。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-根據提供的&#x200B;**遮罩**&#x200B;影像輸入，對來源&#x200B;**影像輸入的顏色施加擴散處理，使用Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html)時，**&#x200B;能創造平滑的色彩漸層。
+根據提供的&#x200B;**遮罩**&#x200B;影像輸入，對來源&#x200B;**影像輸入的顏色施加擴散處理，使用Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html)時，**&#x200B;能創造平滑的色彩漸層。
 
 只有與遮罩相符的像素顏色會被擴散;其他像素不參與結果。
 

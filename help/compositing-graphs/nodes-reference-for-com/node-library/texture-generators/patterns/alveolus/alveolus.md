@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/alveolus.html"
 breadcrumb-title: ''
 description: 利用肺泡節點生成蜂巢狀的細胞圖案，創造有機且幾何的紋理效果。
 helpx_creative_field: ""
