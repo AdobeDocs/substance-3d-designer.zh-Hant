@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主要 MDL 圖形概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 主要 MDL 圖形概念
 
-本頁呈現 MDL 圖形[&#128279;](../../mdl-graphs/mdl-graphs.md)特有*的主要概念*，並需充分理解以充分利用 Substance 3D Designer 中的此圖形類型。
+本頁呈現 MDL 圖形](../../mdl-graphs/mdl-graphs.md)特有[*的主要概念*，並需充分理解以充分利用 Substance 3D Designer 中的此圖形類型。
 
 <table>
 <tr style="border: 0;">
@@ -28,12 +28,12 @@ ht-degree: 0%
 
 ## 伊雷
 
-MDL 材質使用針對物理基礎渲染解決方案的描述，而 Designer 中嵌入的 Iray[&#128279;](../../interface/3d-view/iray/iray.md) 渲染器支援此描述。因此，顯示 MDL 圖形&#x200B;*的結果需要在主動[的 3D 檢視](../../interface/3d-view/3d-view.md)面板中選擇 Iray 渲染器*。
+MDL 材質使用針對物理基礎渲染解決方案的描述，而 Designer 中嵌入的 Iray](../../interface/3d-view/iray/iray.md) 渲染器支援此描述[。因此，顯示 MDL 圖形&#x200B;*的結果需要在主動[的 3D 檢視](../../interface/3d-view/3d-view.md)面板中選擇 Iray 渲染器*。
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray 標誌](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray 標誌](main-mdl-graph-concepts.resources/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 根節點包含縮圖，預覽其目前輸出。
 
-![MDL 圖的根節點](../../assets/mdl-root-hl.png "MDL 圖的根節點")
+![MDL 圖的根節點](main-mdl-graph-concepts.resources/mdl-root-hl.png "MDL 圖的根節點")
 
 *MDL 圖中的根節點及其屬性在[屬性](../../interface/properties/properties.md)**面板中顯示*
 
@@ -64,7 +64,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 *連接器*&#x200B;的形狀顯示資料型&#x200B;*別是均勻*（圓形）還是&#x200B;*變化*&#x200B;型（方形）。
 
-「均勻型態的變數只能設定為統一值。 變異型變數可以設定為變化值或均勻值。 變數所得值因此被視為變化。」 （資料來源：第6.3 [&#x200B; 節MDL 規範](https://raytracing-docs.nvidia.com/mdl/specification/MDL_spec_1.7.2_17Jan2022.pdf)）
+「均勻型態的變數只能設定為統一值。 變異型變數可以設定為變化值或均勻值。 變數所得值因此被視為變化。」 （資料來源：第6.3 [ 節MDL 規範](https://raytracing-docs.nvidia.com/mdl/specification/MDL_spec_1.7.2_17Jan2022.pdf)）
 
 以下是一些例子：
 
@@ -81,7 +81,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 >
 > 僅可連接用於 *匹配資料型別* 的連接器。 顏色編碼的唯一目的是提升圖中傳遞資料類型及可連結連接器的可讀性。
 
-![MDL 節點連接器類型](../../assets/mdl-connector-types.png "MDL 節點連接器類型"){width="512px"}
+![MDL 節點連接器類型](main-mdl-graph-concepts.resources/mdl-connector-types.png "MDL 節點連接器類型"){width="512px"}
 
 *連接器的外觀依 I/O 值類型而異，括號內顯示於 I/O 識別碼後方*
 
@@ -101,7 +101,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 * 如果透過從輸出&#x200B;*連接器拖出*&#x200B;連結&#x200B;*來顯示*&#x200B;節點選單，列表中包含第一個輸入&#x200B;*的資料*&#x200B;型態與所選&#x200B;*輸出*&#x200B;型態相符的節點
 * 如果節點選單是透過&#x200B;*從輸入*&#x200B;連接器拖出&#x200B;*連結*&#x200B;來顯示，清單中包含輸出資料型態&#x200B;**&#x200B;與所選輸入&#x200B;*型態相符*&#x200B;的節點
 
-![過濾節點建立](../../assets/mdl-filtered-node-creation.gif "過濾節點建立")
+![過濾節點建立](main-mdl-graph-concepts.resources/mdl-filtered-node-creation.gif "過濾節點建立")
 
 *在 MDL 圖中建立過濾節點時，請注意清單會根據連接器的值類型而改變*
 
@@ -111,6 +111,6 @@ MDL 材質可從外部來源接收資料，例如明暗與紋理。 這是透過
 
 資料可依其 *類型*&#x200B;傳遞至暴露節點。 例如，Float 值可以傳給暴露 <b>的浮點</b> 節點，紋理則可以傳給暴露 <b>的顏色</b> 節點（此時取樣像素的 RGBA 值會作為顏色值傳遞）。
 
-![暴露的圖形輸入](../../assets/mdl-graph-inputs-samplers.png "暴露的圖形輸入")
+![暴露的圖形輸入](main-mdl-graph-concepts.resources/mdl-graph-inputs-samplers.png "暴露的圖形輸入")
 
 *暴露節點會產生圖形輸入，既是原始值輸入，也是材質的取樣器*

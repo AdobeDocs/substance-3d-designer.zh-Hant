@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/dirt.html"
 breadcrumb-title: ''
 description: 使用 Dirt 節點根據網格曲率、位置和遮蔽產生 dirt 累積遮罩。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 汙垢
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '252'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/dirt.png){width="128px"}
+![](dirt.resources/dirt.png){width="128px"}
 
-## 汙垢
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**中級**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,38 +37,44 @@ ht-degree: 2%
 
 此遮罩代表遮蔽與凹陷邊緣與角落的泥土，基於烘焙的 AO 與曲率。
 
-## 參數
-
-### 輸入
-
-* **曲率**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。 必備！
-* **環境遮蔽**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。 必備！
-* **垃圾搖滾輸入**： *灰階輸入*\
-  自訂 grunge 地圖輸入，可選，並由參數啟用。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-* **世界空間法線**： *色彩輸入*\
-  只用於三平面。
-* **位置**： *顏色輸入*\
-  只用於三平面。
-
-### 參數
-
-* **泥土等級**： *0.0 - 1.0*&#x200B;主要控制泥土量。
-* **泥土對比**&#x200B;度： *0.0 - 1.0*&#x200B;控制遮罩內泥土的主要對比度。
-* **垃圾搖滾量**： *0.0 - 1.0*&#x200B;設定泥土的粗糙程度。 設定為 0，讓土壤變得非常光滑。
-* **邊緣遮罩**： *0.0 - 1.0*&#x200B;根據曲率貼圖，需去除凸起邊緣的髒土量。
-* **使用自訂 Grunge**： *False/True*&#x200B;啟用自訂 grunge 地圖輸入，取代內建 Grunge。
-* **垃圾搖滾等級**： *1 - 16*&#x200B;組 垃圾搖滾細節的平鋪等級。
-* **使用三平面**&#x200B;投影：*假/真 使用[*&#x200B;三平面投影](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)來做垃圾搖滾地圖，去除接縫。
-* **三平面融合對比**&#x200B;度： *0.001 - 1.0*&#x200B;三平面投影的對比度。
-
-## 範例圖片
-
-![](../../../../../../assets/dirt-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 必備！ |
+| <b>環境遮蔽</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 必備！ |
+| <b>Grunge的參與</b> <i>灰階輸入</i> | 自訂 grunge 地圖輸入，可選，並由參數啟用。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+| <b>世界太空常態</b> <i>色彩輸入</i> | 只用於三平面。 |
+| <b>職位</b> <i>色彩輸入</i> | 只用於三平面。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>泥土等級</b> <i>0.0 - 1.0</i> | 主要控制土壤量。 |
+| <b>泥土對比</b> <i>0.0 - 1.0</i> | 控制面罩內髒污的主要對比度。 |
+| <b>垃圾搖滾量</b> <i>0.0 - 1.0</i> | 這也決定了泥土有多髒。 設定為 0，讓土壤變得非常光滑。 |
+| <b>邊緣遮罩</b> <i>0.0 - 1.0</i> | 根據曲率圖，需要從凸起邊緣去除多少土。 |
+| <b>使用自訂垃圾搖滾</b> <i>錯誤/真實</i> | 啟用自訂 grunge 地圖輸入，取代內建 Grunge。 |
+| <b>垃圾搖滾等級</b> <i>1 - 16</i> | 設定 Grunge 細節的平鋪比例。 |
+| <b>使用三平面</b> <i>錯誤/真實</i> | 使用 [三平面投影](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md) 來做垃圾搖滾地圖，去除接縫。 |
+| <b>三面融合對比</b> <i>0.001 - 1.0</i> | 設置三平面投影的對比度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="dirt.resources/dirt-ex.gif" />
+        </td>
+    </tr>
 </table>

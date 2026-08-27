@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/noise-upscale-3.html"
 breadcrumb-title: ''
 description: 使用 Noise Upscale 3 節點，利用先進的噪音演算法來提升材質，以在更高解析度下保留細節。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 噪音升級3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '132'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/noise-upscale.png){width="128px"}
+![](noise-upscale-3.resources/noise-upscale.png){width="128px"}
 
-## 噪音升級3
-
-**收錄於：***濾波器/轉換*
-
-**很簡單**
+<b>收錄於：</b> 《濾波器>轉換》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,23 +39,25 @@ ht-degree: 1%
 
 另 [見 Noise Upscale 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-1/noise-upscale-1.md) 和 [Noise Upscale 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/noise-upscale-2/noise-upscale-2.md)，這兩款在多數情況下在隱藏平鋪方面稍好一些。
 
-## 參數
-
-### 輸入
-
-* **灰階**： *灰階輸入*\
-  目標雜訊影像。
-* **遮罩**： *灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-*沒有參數。*
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/noise3ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>灰階</b> <i>灰階輸入</i> | 目標雜訊影像。 |
+| <b>面具</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="noise-upscale-3.resources/noise3ex.png" />
+        </td>
+    </tr>
 </table>

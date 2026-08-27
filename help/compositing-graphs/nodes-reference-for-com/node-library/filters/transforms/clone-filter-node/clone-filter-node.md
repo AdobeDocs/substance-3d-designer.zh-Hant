@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/clone-filter-node.html"
 breadcrumb-title: ''
 description: 使用 Clone 濾鏡節點來複製和偏移貼圖區域，創造無縫的圖案和平鋪效果。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 克隆（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '179'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/clone-4.png)
+![](clone-filter-node.resources/clone-4.png)
 
-## 複製人
-
-**收錄於：***濾波器/轉換*
-
-**中級**
+<b>收錄於：</b> 《濾波器>轉換》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -45,28 +41,34 @@ ht-degree: 1%
 * 遮罩預設是黑色，所以要看到結果，至少需要輸入一個均勻的白色灰階值。
 * 偏移量很容易從畫面外穿插，所以用小數值。
 
-## 參數
-
-### 輸入
-
-* **資料來源**： *Color Input*\
-  映像到複製人。 重要提示：理想狀況下，圖片應該有 alpha 通道！
-* **遮罩**： *灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。 預設是黑色！
-
-### 參數
-
-* **偏移**： *-*\
-  移動或翻譯結果。 正是左和上，負是右和下。 用小數值，1.0 以上的數字會移到畫面外！
-* **模糊面具**： *0.0 - 10.0\
-  用模糊濾鏡遮罩，柔化邊緣。*
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/clone-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>資料來源</b> <i>色彩輸入</i> | 映像到複製人。 重要提示：理想狀況下，圖片應該有 alpha 通道！ |
+| <b>面具</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 預設是黑色！ |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>偏移</b> <i>-</i> | 移動或翻譯結果。 正是左和上，負是右和下。 用小數值，1.0 以上的數字會移到畫面外！ |
+| <b>模糊面具</b> <i>0.0 - 10.0</i> | 用模糊濾鏡遮罩，柔化邊緣。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="clone-filter-node.resources/clone-example.png" />
+        </td>
+    </tr>
 </table>

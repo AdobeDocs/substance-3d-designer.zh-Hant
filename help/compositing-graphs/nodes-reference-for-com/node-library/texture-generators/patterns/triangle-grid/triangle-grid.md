@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: 使用 Triangle Grid 節點來產生三角形格狀圖案，以便在 Substance 3D Designer 中製作幾何貼圖。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 三角格網
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
 
-![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -44,44 +44,30 @@ ht-degree: 0%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>高度</b> *灰階* 初級 | 灰階影像輸入用於映射 *頂點的高度* ，即 Z 位置。    此輸入的影響由「高度輸入乘數」參數控制。 |
-| <b>向量映射</b> *顏色* | 彩色影像輸入用於映射 *X 軸與 Y 軸頂點位移* 。    X/Y 偏移分別映射到影像的 R/G 通道。    此輸入的影響由「向量映射位移」參數控制。 |
-| <b>色彩輸入</b> *顏色* | 彩色影像輸入用於映射 *頂點、線段或三角形的顏色* 。    當「色彩來源」參數設為「色彩輸入」時，會使用此輸入。 |
+|:---|:---|
+| <b>高度</b> <i>灰階</i> 初級 | 灰階影像輸入用於映射 *頂點的高度* ，即 Z 位置。    此輸入的影響由「高度輸入乘數」參數控制。 |
+| <b>向量映射</b> <i>顏色</i> | 彩色影像輸入用於映射 *X 軸與 Y 軸頂點位移* 。    X/Y 偏移分別映射到影像的 R/G 通道。    此輸入的影響由「向量映射位移」參數控制。 |
+| <b>色彩輸入</b> <i>顏色</i> | 彩色影像輸入用於映射 *頂點、線段或三角形的顏色* 。    當「色彩來源」參數設為「色彩輸入」時，會使用此輸入。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *顏色* | 輸出影像。 |
+|:---|:---|
+| <b>產出</b> <i>顏色</i> | 輸出影像。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>色彩輸出</b> *整數* | 表示三角剖分曲面的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>每個頂點：</b> 每個頂點分配一個顏色，並在三角形表面插值</li> <li data-preserve-html="true"><b>每個三角形：</b> 每個三角形會分配一個平面顏色</li> <li data-preserve-html="true"><b>細線</b><b>：</b> 在頂點間的線段上套用輪廓</li> <li data-preserve-html="true"><b>到邊</b><b>的距離：</b> 渲染每個三角形中距離最近的線段</li> <li data-preserve-html="true"><b>中心</b><b>：</b> 將標準化後的距離渲染到每個三角形的質心</li> </ul> |
 | <b>三角測量</b> *整數* | 設定曲面的三角剖分方法，即 *四邊形中哪對頂點* 應該連接：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>自動：</b> 自動選擇兩頂點，使三角形 <i>朝向</i> 相機最少<br/> <b>45°：</b>連接對立頂點，使直線<i>相對於X軸旋轉45度</i></li> <li data-preserve-html="true"><b>-45°：</b>連接</i>相對頂點，使一條相對於右 X 軸旋轉 -45 度的直線<i></li> <li data-preserve-html="true"><b>Quincux 水平線：</b>每隔一排</i>頂點交替進行三角剖分方向<i></li> <li data-preserve-html="true"><b>Quincux 垂直方向：</b>每隔一列</i>頂點交替三角測量方向<i><br/> </li> </ul> |
 | <b>X 金額</b> *整數* | X 軸上產生的頂點數量。 |
@@ -105,23 +91,23 @@ ht-degree: 0%
 | <b>隨機色彩種子</b> *當「隨機色彩種子模式」參數設為「手動種子」且「色彩來源」參數設為「隨機」時，整數*   *可用。* | 偽隨機色彩分布中使用的離散種子值。 |
 | <b>非平方展開</b> *布林值* | 能以非平方比率補償擠壓與拉伸。 |
 
-## 範例圖片
+## 範例
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 1](../../../../../../assets/triangle_grid_color_example_1.jpg "三角形格子：範例 1"){zoomable="yes"}
+![三角形格子：範例 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "三角形格子：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形網格：範例 2](../../../../../../assets/trianglegrid-variant2.png "三角形格子：範例 2"){zoomable="yes"}
+![三角形網格：範例 2](triangle-grid.resources/trianglegrid-variant2.png "三角形格子：範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 3](../../../../../../assets/trianglegridcolor-variant2.jpg "三角形格子：範例 3"){zoomable="yes"}
+![三角形格子：範例 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "三角形格子：範例 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -131,17 +117,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例4](../../../../../../assets/triangle_grid_color_example_2.jpg "三角形格子：範例4"){zoomable="yes"}
+![三角形格子：範例4](triangle-grid.resources/triangle_grid_color_example_2.jpg "三角形格子：範例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 5](../../../../../../assets/trianglegridcolor-variant4.jpg "三角形子格子：範例 5"){zoomable="yes"}
+![三角形格子：範例 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "三角形子格子：範例 5"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 6](../../../../../../assets/trianglegridcolor-variant3.jpg "三角形格子：範例 6"){zoomable="yes"}
+![三角形格子：範例 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "三角形格子：範例 6"){zoomable="yes"}
 
 </td>
 </tr>
@@ -151,12 +137,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：皮革](../../../../../../assets/trianglegrid-demo.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
+![三角形格子：皮革](triangle-grid.resources/trianglegrid-demo.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：圖形](../../../../../../assets/trianglegrid-node.png "三角形格子：圖形"){zoomable="yes"}
+![三角形格子：圖形](triangle-grid.resources/trianglegrid-node.png "三角形格子：圖形"){zoomable="yes"}
 
 </td>
 </tr>

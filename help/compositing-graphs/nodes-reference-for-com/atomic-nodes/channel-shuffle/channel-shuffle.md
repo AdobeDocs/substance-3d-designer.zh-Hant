@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ''
 description: 使用 Channels Shuffle 節點在材質中重新排列色彩通道，來創造色彩效果和通道切換。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 頻道切換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：頻道洗牌](../../../../assets/comp_shuffle.png "原子節點：頻道洗牌"){width="200px"}
+![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

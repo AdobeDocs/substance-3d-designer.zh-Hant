@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在 3D 視圖中選擇光柵化器和路徑追蹤器渲染器，以提升不同的預覽品質與效能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光柵化器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
+      <img src="3d-renderers.resources/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路徑追蹤器</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 <table>
   <tr>
     <td>
-      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
+      <img src="3d-renderers.resources/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光柵化器</i>
     </td>
     <td>
-      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
+      <img src="3d-renderers.resources/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 
 +++
 
-![光柵化器 - 範例 1](../../../assets/3dRendererRasterizer.jpg "光柵化器 - 範例 1"){zoomable="yes"}
+![光柵化器 - 範例 1](3d-renderers.resources/3dRendererRasterizer.jpg "光柵化器 - 範例 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 
 +++
 
-![GPU 路徑追蹤器 - 範例 1](../../../assets/3dRendererPathtracer.jpg "GPU 路徑追蹤器 - 範例 1"){zoomable="yes"}
+![GPU 路徑追蹤器 - 範例 1](3d-renderers.resources/3dRendererPathtracer.jpg "GPU 路徑追蹤器 - 範例 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -163,7 +163,7 @@ OpenGL 渲染器提供快速即時渲染，預設可依使用情境提供少數�
 
 <b>鑲嵌 + 位移</b> - 將幾何體細分，並沿法線位移頂點。
 
-在這裡了解更多關於 OpenPBR 的 Designer [&#128279;](../material-properties/material-properties.md#openpbr)資訊。
+在這裡了解更多關於 OpenPBR 的 Designer [](../material-properties/material-properties.md#openpbr)資訊。
 
 +++
 
@@ -178,7 +178,7 @@ Adobe 標準化著色器。 確保所有 Adobe Substance 3D 應用程式間的�
 
 <b>鑲嵌 + 位移</b> - 將幾何體細分，並沿法線位移頂點。
 
-Adobe 標準材料在本節[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細記錄。
+Adobe 標準材料在本節](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細[記錄。
 
 +++
 
@@ -290,10 +290,10 @@ Unlit debug shader 可以在沒有光照的情況下視覺化貼圖。 只使用
 
 +++
 
-Designer 也提供使用 GLSLFX 檔案[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)為 OpenGL 渲染器自訂著色器的功能。
+Designer 也提供使用 GLSLFX 檔案](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)為 OpenGL 渲染器[自訂著色器的功能。
 
 >[!IMPORTANT]
 > 
 > 此渲染器已 **被**&#x200B;棄用：不會新增功能，未來的 Designer 版本將被淘汰。
 
-![OpenGL - 範例 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - 範例 1"){zoomable="yes"}
+![OpenGL - 範例 1](3d-renderers.resources/3dRendererOpenGL.jpg "OpenGL - 範例 1"){zoomable="yes"}

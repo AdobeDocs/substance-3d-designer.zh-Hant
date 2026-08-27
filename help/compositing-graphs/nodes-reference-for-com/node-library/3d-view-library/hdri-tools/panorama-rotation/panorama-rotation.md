@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/panorama-rotation.html"
 breadcrumb-title: ''
 description: 使用 Panorama Rotation 節點來旋轉 HDRI 全景環境，以便在 3D 視圖中調整光線方向。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 全景旋轉
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 14%
 
 ---
 
@@ -22,32 +22,30 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-rotation.png){width="200px"}
+![](panorama-rotation.resources/panorama-rotation.png){width="200px"}
 
-## 全景旋轉
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**很簡單**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 將輸入的球面映射全景影像繞其中心點旋轉，保持投影/映射正確。 對傾斜或調整 HDRI 影像很有用。
 
-## 參數
-
-* **旋轉**： *0.0 - 1.0*
-* **方向角**： *0.0 - 1.0*
-* **繞極**&#x200B;點旋轉前： *-1.0 - 1.0*
-* **繞極**&#x200B;點旋轉後： *0.0 - 1.0*
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>旋轉</b> <i>0.0 - 1.0</i> |  |
+| <b>方向角</b> <i>0.0 - 1.0</i> |  |
+| <b>繞極點旋轉前</b> <i>-1.0 - 1.0</i> |  |
+| <b>繞極旋轉之後</b> <i>0.0 - 1.0</i> |  |

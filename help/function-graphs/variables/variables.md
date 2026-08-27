@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 函數圖中使用變數，以有效儲存和重複使用數值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 為此，你可以從以下數值中選擇：
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## 布林值
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-angle-to-albedo.html"
 breadcrumb-title: ''
 description: 使用多角度轉反照率節點，從多角度掃描影像中擷取反照率圖，以獲得乾淨的材質色彩。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 多角度到阿貝多
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '238'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-angle-to-albedo.png){width="128px"}
+![](multi-angle-to-albedo.resources/multi-angle-to-albedo.png){width="128px"}
 
-## 多角度到阿貝多
-
-**收錄於：***材料濾鏡/掃描處理*
-
-**很簡單**
+<b>收錄於：</b> 《材料濾>掃描處理》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -47,22 +43,22 @@ ht-degree: 1%
 > 
 > [部落格文章《你的智慧型手機是物質掃描器》對這個過程做了更清楚的說明。](https://www.allegorithmic.com/blog/your-smartphone-material-scanner)
 
-## 參數
-
-### 輸入
-
-* **輸入 1-8**： *色彩輸入*&#x200B;輸入數量由樣本數量參數決定。
-
-### 參數
-
-* **樣本數量**： *2 - 8*&#x200B;設定處理時使用的樣本（輸入）數量。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入 1-8</b> <i>色彩輸入</i> | 輸入數量由樣本數量參數決定。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>樣本數量</b> <i>2 - 8</i> | 設定用於處理的樣本（輸入）數量。 |

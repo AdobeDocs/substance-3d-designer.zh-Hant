@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: 使用「修改色彩調色盤」節點來調整和轉換從材質中擷取的色彩調色盤。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 修改色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/ModifyColorPalette.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](modify-color-palette.resources/ModifyColorPalette.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -45,44 +45,30 @@ ht-degree: 0%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>身分證</b> *灰階* 初級 | 輸入 ID 映射用於選擇顏色，以便在輸出中修改與分配顏色。   ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。   ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
-| <b>調色盤</b> *顏色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這就是節點所修改的調色盤。   調色盤可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 或 [建立色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) 節點產生。 |
+|:---|:---|
+| <b>身分證</b> <i>灰階</i> 初級 | 輸入 ID 映射用於選擇顏色，以便在輸出中修改與分配顏色。   ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。   ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
+| <b>調色盤</b> <i>顏色</i> | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這就是節點所修改的調色盤。   調色盤可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 或 [建立色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) 節點產生。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *顏色* | 將修改過調色盤中的顏色映射到 ID 映射的索引的結果。 |
-| <b>調色盤</b> *顏色* | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
+|:---|:---|
+| <b>產出</b> <i>顏色</i> | 將修改過調色盤中的顏色映射到 ID 映射的索引的結果。 |
+| <b>調色盤</b> <i>顏色</i> | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像[，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>色彩選擇模式</b> *整數* | 選擇調色盤中應修改的目標顏色的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>色彩指數：</b> 目標顏色的指數</li> <li data-preserve-html="true"><b>影像空間：</b> ID 映射中應取樣索引的位置。 選擇此模式後，2D 視圖中會出現一個位置裝置方便選擇</li> </ul> |
 | <b>顏色位置</b> *當「色彩選擇模式」設為「影像空間」時，Float2*   *可用* | 索引應取樣的ID映射位置。   在 2D 視圖中使用這個裝置，可以輕鬆選擇影像中的某個位置。   提示：你可以顯示擷取 ID 映射的量化影像，然後選擇「修改色彩調色盤」節點來顯示該裝置。 這讓選擇要修改的顏色變得更直覺。 |
 | <b>色指數</b> *當「色彩選擇模式」設為「色彩索引」時，整數*   *可使用。* | 目標顏色的索引。   調色盤中的顏色由左到右排列，第一個顏色的索引為 0。 |
@@ -96,18 +82,18 @@ ht-degree: 0%
 
 ## 範例
 
-![修改色彩調色盤：範例 1](../../../../../../assets/modify_color_palette_example_1.png "修改色彩調色盤：範例 1"){zoomable="yes"}
+![修改色彩調色盤：範例 1](modify-color-palette.resources/modify_color_palette_example_1.png "修改色彩調色盤：範例 1"){zoomable="yes"}
 
-![修改色彩調色盤：範例 2](../../../../../../assets/modify_color_palette_example_3.png "修改色彩調色盤：範例 2"){zoomable="yes"}
+![修改色彩調色盤：範例 2](modify-color-palette.resources/modify_color_palette_example_3.png "修改色彩調色盤：範例 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>

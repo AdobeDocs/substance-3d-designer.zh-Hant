@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/grease.html"
 breadcrumb-title: ''
 description: 利用 Grease 節點根據網格幾何和接觸面積產生油脂累積遮罩。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 油脂
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '186'
-ht-degree: 1%
+source-wordcount: '184'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grease.png){width="128px"}
+![](grease.resources/grease.png){width="128px"}
 
-## 油脂
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,30 +37,37 @@ ht-degree: 1%
 
 這個面具專門用於角色臉部及其他特定區域。 在低厚度區域產生一種皮膚油脂型遮罩。
 
-## 參數
-
-### 輸入
-
-* **厚度**： *灰階輸入*\
-  整個效果的基礎是烘焙厚度圖。 必備！
-* **雜訊**： *灰階輸入*\
-  可選的噪音貼圖可以覆蓋 Grease 的垃圾搖滾。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  設定出現的效果總量。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **厚度閾值**： *0.0 - 1.0*&#x200B;設定該效應應出現的最小厚度。 和等級一樣重要;調整它以符合你的厚度地圖。
-* **覆蓋噪音**： *False/True* Set 用來用自訂輸入槽覆蓋內部油脂泥漿貼圖。
-
-## 範例圖片
-
-![](../../../../../../assets/grease-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>厚度</b> <i>灰階輸入</i> | 整個效果的基礎是烘焙厚度圖。 必備！ |
+| <b>噪音</b> <i>灰階輸入</i> | 可選的噪音貼圖可以覆蓋 Grease 的垃圾搖滾。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定出現的效果總量。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>厚度閾值</b> <i>0.0 - 1.0</i> | 設定該效應應出現的最小厚度。 和等級一樣重要;調整它以符合你的厚度地圖。 |
+| <b>覆蓋噪音</b> <i>錯誤/真實</i> | 設定為用自訂輸入槽覆蓋內部油脂污漬貼圖。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grease.resources/grease-ex.gif" />
+        </td>
+    </tr>
 </table>

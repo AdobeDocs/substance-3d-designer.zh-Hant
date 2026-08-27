@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/height-map-frequencies-mapper.html"
 breadcrumb-title: ''
 description: 使用 Height Map Frequencyies Mapper 節點來映射高度圖頻率，以區分材質中的細節層級。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高度圖頻率映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 8%
 
 ---
 
@@ -22,33 +22,37 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-map-frequencies-mapper.png){width="128px"}
+![](height-map-frequencies-mapper.resources/height-map-frequencies-mapper.png){width="128px"}
 
-## 高度圖頻率映射器
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 將高度圖的頻率分為兩個獨立地圖：一個有大尺度差異，另一個有小比例尺差異。
 
-## 參數
-
-* **浮雕**： *0.0 - 32.0*&#x200B;控制位移輸出的細節尺寸。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/heightmap-frequencies.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>地形</b> <i>0.0 - 32.0</i> | 控制位移輸出的細節大小。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="height-map-frequencies-mapper.resources/heightmap-frequencies.png" />
+        </td>
+    </tr>
 </table>

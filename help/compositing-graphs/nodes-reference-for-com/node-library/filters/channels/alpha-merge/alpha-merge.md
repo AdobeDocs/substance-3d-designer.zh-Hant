@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-merge.html"
 breadcrumb-title: ''
 description: 使用 Alpha Merge 節點將 RGB 材質與 alpha 通道結合，以建立 RGBA 材質。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Alpha 合併
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '89'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgb-a-merge.png)
+![](alpha-merge.resources/rgb-a-merge.png)
 
-## Alpha 合併
-
-**收錄於：***濾鏡/頻道*
-
-**很簡單**
+<b>收錄於：</b> 濾波器>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,23 +37,15 @@ ht-degree: 1%
 
 簡單但方便的節點，適合你想遮蔽某些東西，或是結果需要 alpha 時使用。
 
-## 參數
-
-### 輸入
-
-* **RGB**： *色彩輸入*\
-  無 alpha 的彩色影像
-* **答**： *灰階輸入*\
-  灰階影像將作為結果的 alpha。
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>RGB</b> <i>色彩輸入</i> | 無 alpha 的彩色影像 |
+| <b>A</b> <i>灰階輸入</i> | 灰階影像將作為結果的 alpha。 |

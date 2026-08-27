@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/exposure.html"
 breadcrumb-title: ''
 description: 使用曝光節點調整 HDRI 環境中的曝光等級，以控制整體亮度與光線。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 曝光度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 9%
+source-wordcount: '52'
+ht-degree: 11%
 
 ---
 
@@ -22,27 +22,27 @@ ht-degree: 9%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/exposure-9.png){width="250px"}
+![](exposure.resources/exposure-9.png){width="250px"}
 
-## 曝光度
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**很簡單**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 調整輸入影像的曝光。 透過「停止」值概念來調亮或調暗 HDR 照片，類似於照片編輯軟體。
 
-## 參數
-
-* **曝光（EV）：***-8.0 - 8.0*&#x200B;曝光值，以波段為單位。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>曝光（EV）</b> <i>-8.0 - 8.0</i> | 曝光值，以停靠點計算。 |

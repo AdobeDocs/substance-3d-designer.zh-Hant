@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-combine.html"
 breadcrumb-title: ''
 description: 使用 Normal Combine 節點來合併多個法線貼圖，用於分層表面細節和細節。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 普通聯合測試
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine.png){width="128px"}
 
 <b>收錄於：</b> 法線貼圖>濾波器
 
@@ -45,17 +45,21 @@ ht-degree: 2%
 
 如果你想混合兩個法線貼圖而不合併它們的細節（例如使用遮罩），你應該使用 [法線混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>普通2</b> *顏色*&#x200B;描述
+## 輸入
 
-<b>普通 1</b> *顏色*&#x200B;描述
+|  |  |
+|:---|:---|
+| <b>普通2</b> <i>顏色</i> | 說明 |
+| <b>普通 1</b> <i>顏色</i> | 說明 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>技巧</b> *整數*&#x200B;集合，採用內部混合技術，以速度換取品質。\
-*- 白片（低畫質）
-* 通道混音器（高品質）
-* 注重細節（高品質）*
+|  |  |
+|:---|:---|
+| <b>技巧</b> *整數* | 設定採用哪種內部混合技術，以速度換取品質。<br><br>*- 白色調整（低品質）<br>* 通道混音器（高品質）<br>* 細節導向（高品質）* |
 
 ## 範例

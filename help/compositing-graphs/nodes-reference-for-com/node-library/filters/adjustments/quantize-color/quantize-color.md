@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/quantize-color.html"
 breadcrumb-title: ''
 description: 使用量化色彩節點來減少色彩層級數量，以產生風格化的海報效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 量化顏色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '997'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/QuantizeColor.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](quantize-color.resources/QuantizeColor.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -51,45 +51,31 @@ ht-degree: 0%
 
 此節點可與以下節點結合使用： [建立色彩調色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)盤、 [套用色彩調色](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)盤、 [修改調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)、 [檢視調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>輸入</b> *色彩 原色* | 應該量化的彩色影像。 |
+|:---|:---|
+| <b>輸入</b> <i>色彩 原色</i> | 應該量化的彩色影像。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *顏色* | 量化的彩色影像。 |
-| <b>身分證</b> *灰階* | 一個映射，每個量化顏色都被賦予唯一的整數識別碼。   這可用於：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>從一些量化區域中擷取一個遮罩</b> ，並用 [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 節點</li> <li data-preserve-html="true"><b>使用[「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」或[「修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)」節點重新上</b>色量化影像</li> </ul> |
-| <b>調色盤</b> *顏色* | 調色盤從影像中提取，量化後保留剩餘顏色。   影像是有序的 RGB 顏色列表，編碼為一列像素，最多可容納 256 種顏色。   調色盤可用「檢視色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化。 |
-| <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量。 |
+|:---|:---|
+| <b>產出</b> <i>顏色</i> | 量化的彩色影像。 |
+| <b>身分證</b> <i>灰階</i> | 一個映射，每個量化顏色都被賦予唯一的整數識別碼。   這可用於：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>從一些量化區域中擷取一個遮罩</b> ，並用 [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 節點</li> <li data-preserve-html="true"><b>使用[「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」或[「修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)」節點重新上</b>色量化影像</li> </ul> |
+| <b>調色盤</b> <i>顏色</i> | 調色盤從影像中提取，量化後保留剩餘顏色。   影像是有序的 RGB 顏色列表，編碼為一列像素，最多可容納 256 種顏色。   調色盤可用「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化[。 |
+| <b>調色盤色彩量</b> <i>整數</i> | 調色盤中儲存的顏色數量。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>Max。 顏色量</b> *整數* | 量化影像中應使用的最大顏色數量。   這個量與從影像中提取的調色盤所用量相同。「最大值」表示因量化技術而無法達成此量。 請查看「調色盤色彩量」輸出，了解實際萃取的顏色量。 |
 | <b>輪廓平滑</b> *浮標* | 控制對輸入影像施加的平滑效果半徑，用以將量化影像簡化成更實淨、連貫的形狀。   注意：此平滑需要大量計算，因此提高此值會明顯增加節點的計算時間。 |
 | <b>抖動</b> *浮標* | 套用抖動圖案以重現原始影像中的漸層與色彩混合，同時僅使用量化後剩餘的顏色。   務必使用「輪廓平滑」值為 0，以產生預期的抖動效果。 |
@@ -104,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
+      <img src="quantize-color.resources/quantize_color_example_6_before.jpg" alt="quantize_color_example_6_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
+      <img src="quantize-color.resources/quantize_color_example_6_after.jpg" alt="quantize_color_example_6_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -117,11 +103,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
+      <img src="quantize-color.resources/quantize_color_example_2_before.jpg" alt="quantize_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
+      <img src="quantize-color.resources/quantize_color_example_2_after.jpg" alt="quantize_color_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -130,11 +116,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
+      <img src="quantize-color.resources/quantize_color_example_3_before.jpg" alt="quantize_color_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
+      <img src="quantize-color.resources/quantize_color_example_3_after.jpg" alt="quantize_color_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -143,11 +129,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
+      <img src="quantize-color.resources/quantize_color_example_4_before.jpg" alt="quantize_color_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
+      <img src="quantize-color.resources/quantize_color_example_4_after.jpg" alt="quantize_color_example_4_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -156,11 +142,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
+      <img src="quantize-color.resources/quantize_color_example_5_before.jpg" alt="quantize_color_example_5_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
+      <img src="quantize-color.resources/quantize_color_example_5_after.jpg" alt="quantize_color_example_5_after">
       <br><i>之後</i>
     </td>
   </tr>

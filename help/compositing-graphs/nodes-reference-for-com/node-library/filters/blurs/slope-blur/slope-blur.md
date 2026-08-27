@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/slope-blur.html"
 breadcrumb-title: ''
 description: 使用 Slope Blur 節點，根據高度圖斜率套用方向模糊效果來製作動態模糊。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 斜坡模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 1%
+source-wordcount: '214'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/slope-blur.png){width="128px"}
+![](slope-blur.resources/slope-blur.png){width="128px"}
 
-![](../../../../../../assets/slope-blur-grayscale.png){width="128px"}
+![](slope-blur.resources/slope-blur-grayscale.png){width="128px"}
 
-## 斜坡模糊（灰階）
-
-**收錄於：***濾鏡/模糊*
-
-**中級**
+<b>收錄於：</b> 模糊>濾鏡
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -45,26 +41,37 @@ ht-degree: 1%
 
 重要：務必使用適合你輸入的版本！ 色彩輸入用「斜坡模糊」，灰階輸入用「斜坡模糊灰階」。
 
-## 參數
-
-### 輸入
-
-* **斜率**： *灰階輸入*&#x200B;斜率圖以驅動各向異性角度。 理想狀況下應該包含斜度漸變;強烈、銳利的過渡效果不佳！
-
-### 參數
-
-* **取樣**&#x200B;數： *0 - 32*&#x200B;取樣數，會影響品質，但會犧牲速度。
-* **強度**： *0.0 - 16.0*\
-  模糊的量或強度。
-* **模式**： *模糊、最小、極限*|\
-  混合模式用於後續模糊通道。 「模糊」的行為更像標準 [的各向異性模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)，而最小區域會「侵蝕」現有區域，而最大空間則會「模糊」白色區域。
-
-## 範例圖片
-
-![](../../../../../../assets/slopeblur01.gif)
-
-![](../../../../../../assets/slopeblur02.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>坡度</b> <i>灰階輸入</i> | 斜率圖驅動各向異性角度。 理想狀況下應該包含斜度漸變;強烈、銳利的過渡效果不佳！ |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>取樣</b> <i>0 - 32</i> | 取樣數量會影響品質，但會犧牲速度。 |
+| <b>強度</b> <i>0.0 - 16.0</i> | 模糊的量或強度。 |
+| <b>模式</b> <i>模糊、敏、麥克斯</i> | 混合模式用於後續模糊通道。 「模糊」的行為更像標準 [的各向異性模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md)，而最小區域會「侵蝕」現有區域，而最大空間則會「模糊」白色區域。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="slope-blur.resources/slopeblur01.gif" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="slope-blur.resources/slopeblur02.gif" />
+        </td>
+    </tr>
 </table>

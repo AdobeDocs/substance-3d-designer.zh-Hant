@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-2.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.2 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 發行日期： *2022年7月19日*
 
-![](../../assets/final3.png)
+![](version-12-2.resources/final3.png)
 
 ## 主要特色
 
@@ -32,20 +32,20 @@ ht-degree: 0%
 
 Designer 12.2 版本是首個原生支援基於 M1 晶片的新蘋果機器的版本。 雖然 Designer 技術上可以先在 Apple Silicon 裝置上運行，但原生支援會帶來更快且更有效率的使用體驗。 如你在下方圖片中所見，這些機器的計算速度可 *提升至兩倍* 。
 
-![](../../assets/ds-perf-applem1.png){width="600px"}
+![](version-12-2.resources/ds-perf-applem1.png){width="600px"}
 
 ### 物質模型圖的改進
 
 * <b>節點工具提示\
-  </b>光靠圖示和標題並不總是能解釋節點的運作，因此我們現在有一個工具提示，包含 *節點的完整描述* ，無論是在函式庫還是圖視圖中。 它能幫助你找到你想要的節點，或更了解其功能。 ![](../../assets/tootlipnode.png)
+  </b>光靠圖示和標題並不總是能解釋節點的運作，因此我們現在有一個工具提示，包含 *節點的完整描述* ，無論是在函式庫還是圖視圖中。 它能幫助你找到你想要的節點，或更了解其功能。 ![](version-12-2.resources/tootlipnode.png)
 
 * <b>節點建立捷徑\
-  </b>為了加快建立你最常用節點的速度，你現在可以在偏好設定中自訂捷徑，就像其他類型的圖表一樣。![](../../assets/shorcuts.png)
+  </b>為了加快建立你最常用節點的速度，你現在可以在偏好設定中自訂捷徑，就像其他類型的圖表一樣。![](version-12-2.resources/shorcuts.png)
 
 * <b>節點上下文選單中的預覽節點\
   </b>在我們最新的版本中，我們新增了透過鍵盤快捷鍵（*SHIFT + 點擊* 節點）預覽 3D 視圖節點的功能。 此功能現在也可在節點的情境選單&#x200B;*中使用*，以提升其更易被發現的效果。
 
-  ![](../../assets/previewnode.gif){width="600px"}
+  ![](version-12-2.resources/previewnode.gif){width="600px"}
 * <b>基於節點相容性的搜尋\
   </b>當你在節點選單中尋找節點時（可在圖視圖中按 *空白鍵* 進入），節點現在會被正確篩選，只顯示 *與目前圖中選取* 的節點相容的節點。 它能幫助你快速找到你想要的節點。
 
@@ -59,7 +59,7 @@ Designer 12.2 版本是首個原生支援基於 M1 晶片的新蘋果機器的�
 * <b>CLO 範本</b>\
   為了提升與 CLO 軟體的互通性，我們新增了一個 *專用範本*。 它會自動將所有正確匯入 CLO 材料所需的元資料&#x200B;*加入你的圖表*。
 
-  ![](../../assets/clo.png){width="600px"}
+  ![](version-12-2.resources/clo.png){width="600px"}
 
 * <b>VFX 參考平台需求</b>\
   每年，VFX 參考平台都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們 *會* 更新所有相依系統，以尊重所有這些建議。

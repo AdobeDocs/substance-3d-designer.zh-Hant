@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-select.html"
 breadcrumb-title: ''
 description: 使用 Spline Select 節點，根據圖中的樣條路徑選擇並遮罩特定區域。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 花鍵選擇
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-select-icon.png "節點圖示")
+![節點圖示](spline-select.resources/spline-select-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -45,78 +41,45 @@ ht-degree: 0%
 </tr>
 </table>
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>預覽</b> *灰階*&#x200B;輸入樣條的預覽為灰階影像。
+## 輸入
 
-<b>樣條座標</b> *色彩*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-<b>    R</b> - X 位置\
-<b>    G</b> - Y 位置\
-<b>    B</b> - 身高\
-<b>A</b> - 打包資料：\
-* 符號：樣條鍵為閉（負）或開（正）;\
-* 絕對值：厚度 + 1。
+|  |  |
+|:---|:---|
+| <b>預覽</b> <i>灰階</i> | 輸入樣條線預覽為灰階影像。 |
+| <b>樣條座標</b> <i>顏色</i> | 彩色影像RGBA通道中編碼的輸入樣條點座標：<br><b>R</b> - X 位置<br><b>G</b> - Y 位置<br><b>B</b> - 高度<br><b>A</b> - 打包資料：<br>- 符號：樣條線為閉合（負）或開（正）;<br>- 絕對值：厚度 + 1。 |
+| <b>樣條資料</b> <i>顏色</i> | 彩色影像的 RGBA 通道中編碼的輸入樣條線額外資料。<br><b>R</b> - 切線 x<br><b>G</b> - 切線 y<br><b>B</b> - 未使用<br><b>A</b> - 未使用 |
+| <b>樣條量</b> <i>整數</i> | 輸入樣條的數量。 |
 
-<b>樣條資料</b> *色彩*&#x200B;輸入樣條的額外資料編碼於彩色影像的 RGBA 通道中。\
-<b>    R</b> - 切線 X\
-<b>    G</b> - 切線 Y\
-<b>    B</b> - 未上場\
-<b>    A</b> - 未上場
+<a name="outputs"></a>
 
-<b>樣條量</b> *整數*：輸入樣條的數量。
+## 輸出
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>預覽</b> <i>灰階</i> | 輸出時條線預覽為灰階影像。 |
+| <b>樣條座標</b> <i>顏色</i> | 彩色影像中編碼的輸出樣條點點座標。<br><b>R</b> - X 位置<br><b>G</b> - Y 位置<br><b>B</b> - 高度<br><b>A</b> - 打包資料：<br>- 符號：樣條線為閉合（負）或開（正）;<br>- 絕對值：厚度 + 1。 |
+| <b>樣條資料</b> <i>顏色</i> | 彩色影像RGBA通道中編碼的輸出樣條額外資料。<br><b>R</b> - 切線 x<br><b>G</b> - 切線 y<br><b>B</b> - 未使用的<br><b>A</b> - 未使用的 |
+| <b>樣條量</b> <i>整數</i> | 輸出花鍵的數量。 |
 
-<b>預覽</b> *灰階*&#x200B;輸出樣條的預覽作為灰階影像。
-
-<b>樣條座標</b> *顏色*&#x200B;指編碼在彩色影像RGBA通道中的輸出樣條點座標。\
-<b>R</b> - X 位置\
-<b>G</b> - Y 位置\
-<b>B</b> - 身高\
-<b>A</b> - 打包資料：\
-* 符號：樣條鍵為閉（負）或開（正）;\
-* 絕對值：厚度 + 1。
-
-<b>樣條資料</b> *色彩*&#x200B;輸出樣條的額外資料編碼於彩色影像的RGBA通道中。\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
-
-<b>樣條量</b> *整數*：輸出樣條的數量。
+<a name="parameters"></a>
 
 ## 參數
 
-<b>選擇模式</b> *整數*&#x200B;選擇輸入清單中樣條曲線的方法：\
-*- 第一*：選擇列表中的第一個樣條線;\
-*- 最後：*&#x200B;選擇列表中最後一個樣條;\
-*- 索引*：選擇指定索引的樣條;\
-*- 範圍*：選擇包含在指定範圍內的樣條曲線。
-
-<b>樣條指數</b> *整數* （當「選擇模式」設為「索引」時可用）應選擇的樣條曲線索引。
-
-<b>射程起始</b> *整數* （當「選取模式」設為「範圍」時可用）選取樣條範圍內的最低索引。
-
-<b>射程端</b> *整數* （當「選擇模式」設為「範圍」時可用）所選樣條範圍內最高的索引。<b></b>
-
-<b>開始</b> *浮動*&#x200B;偏移是應該選擇的樣條曲線起始部分。 這實際上是修剪花鍵。\
-該值代表樣條的正規化長度。
-
-<b>結束</b> *浮點*&#x200B;偏移是指應該選擇的樣條線部分末端。 這實際上是修剪花鍵。\
-該值代表樣條的正規化長度。
-
-+++預覽
-<b>分段數量</b> *整數*&#x200B;調整預覽輸出中繪製樣條曲線視覺化所使用的段數。\
-數值越高，線條越平滑。
-
-<b>節目指導助理</b> *布林值*&#x200B;在預覽輸出中會在樣條曲線的起始處顯示一個點，在末端顯示一個箭頭。
-
-<b>顯示厚度包絡</b> *布林值*\
-在樣鍵厚度邊緣顯示額外線條。
-
-<b>厚度（px）</b> *浮點*&#x200B;調整預覽輸出中樣條曲線的厚度（像素數）。
-
-+++
+|  |  |
+|:---|:---|
+| <b>選擇模式</b> <i>整數</i> | 選擇輸入清單中樣條線的方法：- 第一：選擇列表中的第一個樣條線;<br>- <i>最後</i>：選擇列表中最後一個樣條線;<br>- <i>索引</i>：選擇指定索引的樣條;<br>- <i>範圍</i>：選擇包含在指定範圍內的樣條。</i><i><br> |
+| <b>樣條指數</b> <i>整數</i> | （當「選擇模式」設為「索引」時可用）應選擇的樣條曲線索引。 |
+| <b>射程起始</b> <i>整數</i> | （當「選擇模式」設為「範圍」時可用）選取樣條範圍內的最低索引。 |
+| <b>射程端</b> <i>整數</i> | （當「選擇模式」設為「範圍」時可用）選取樣條範圍內的最高索引。 |
+| <b>開始</b> <i>浮標</i> | 偏移應該選擇樣條曲線部分的起始位置。 這實際上是修剪花鍵。<br>該值代表樣條的正規化長度。 |
+| <b>結束</b> <i>浮標</i> | 偏移應該選擇的樣條曲線末端。 這實際上是修剪花鍵。<br>該值代表樣條的正規化長度。 |
+| <b>預覽</b> |  |
+| <b>分段數量</b> <i>整數</i> | 調整預覽輸出中繪製樣條曲線視覺化所需的線段數。<br>數值越高，線條越平滑。 |
+| <b>節目指導助理</b> <i>布林值</i> | 在預覽輸出中，樣條曲線起始顯示一個點，末尾顯示箭頭。 |
+| <b>顯示厚度包絡</b> <i>布林值</i> | 在樣鍵厚度邊緣顯示額外線條。 |
+| <b>厚度（px）</b> <i>浮標</i> | 調整預覽輸出中樣條曲線的厚度（像素數）。 |
 
 ## 範例
 
@@ -127,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-變體1-之前">
+      <img src="spline-select.resources/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="花條選擇-變體1-之後2">
+      <img src="spline-select.resources/SplineSelect-Variant1-After2.jpg" alt="花條選擇-變體1-之後2">
       <br><i>之後</i>
     </td>
   </tr>
@@ -143,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-variant2-Before">
+      <img src="spline-select.resources/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-變體2-之後">
+      <img src="spline-select.resources/SplineSelect-Variant2-After.jpg" alt="SplineSelect-變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -161,21 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineSelect-Demo.gif "節點範例 1")
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![節點範例 1](spline-select.resources/SplineSelect-Demo.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">

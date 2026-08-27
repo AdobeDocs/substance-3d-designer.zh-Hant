@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: 在圖表檢視中使用導航圖釘，快速在 Substance 3D Designer 圖形中跳轉不同位置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 釘住
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![導航圖示](../../../../assets/graphatomic-pin_1.png "導航圖示")
+![導航圖示](navigation-pin.resources/graphatomic-pin_1.png "導航圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -49,7 +49,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果鍵盤快捷鍵被映射到偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中的「釘選」項目，當圖表檢視聚焦時按下該快捷鍵。
+如果鍵盤快捷鍵被映射到偏好設定](../../../../interface/preferences-window/preferences-window.md)中的[「釘選」項目，當圖表檢視聚焦時按下該快捷鍵。
 
 +++
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 
 針腳會在視窗中以目前的縮放等級框定。
 
-![瓶子：跳到瓶](../../../../assets/graph-pin_jumping.gif "子 針腳：跳到瓶子")
+![瓶子：跳到瓶](navigation-pin.resources/graph-pin_jumping.gif "子 針腳：跳到瓶子")
