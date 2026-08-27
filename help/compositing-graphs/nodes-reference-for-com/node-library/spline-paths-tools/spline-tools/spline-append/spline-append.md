@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)[上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
+> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) [上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
 
 <a name="inputs"></a>
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 物質圖表與 MDL 材料
 
-本頁說明 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)與 MDL 圖之間的[協同效應，以及如何將 Substance 圖[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的紋理連接到 MDL 圖的輸入。
+本頁說明 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)與 MDL 圖之間的協同效應，以及如何將 Substance 圖[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的紋理連接到 MDL 圖的輸入。
 
 ## 概觀
 
@@ -52,7 +52,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 
 
 
-*[MDL [圖中 Substance 3D 檔案](../../getting-started/overview/overview.md)（SBS）中的 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)實例*
+*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)MDL [圖中 Substance 3D 檔案](../../getting-started/overview/overview.md)（SBS）中的 Substance 圖實例*
 
 +++
 
@@ -61,7 +61,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 
 
 
-*[](../../compositing-graphs/substance-compositing-graphs.md)來自 Substance 3D 資產](../../getting-started/overview/overview.md)（SBSAR）在 MDL 圖中的實例[*
+*[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)來自 Substance 3D 資產[&#128279;](../../getting-started/overview/overview.md)（SBSAR）在 MDL 圖中的實例*
 
 +++
 

@@ -54,7 +54,7 @@ ht-degree: 0%
 你可以走兩條路來達到預期的 macthing：
 
 * 調整幾何物件名稱以套用相符的名稱。
-* 可透過專案設定中的「名稱過濾模式」](../../interface/preferences-window/project-settings/project-settings.md)選項，回復到行為或先前的 Designer 版本[：
+* 可透過專案設定中的「名稱過濾模式」[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)選項，回復到行為或先前的 Designer 版本：
   1. 前往編輯>偏好設定>專案
   1. 選擇列表中最後一個專案檔案
   1. 在專案檔案清單下方，選擇「Bakers」標籤

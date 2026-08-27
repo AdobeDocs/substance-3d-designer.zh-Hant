@@ -36,6 +36,6 @@ Python 模組「QtForPython」無法載入，導致 Python 中實作的功能缺
 
 Designer 安裝的 QtForPython 及其相依套件，與系統上現有的安裝之間很可能存在衝突。
 
-移除所有其他系統安裝的 QtForPython](https://doc.qt.io/qtforpython-5/index.html)（[PySide2](https://pypi.org/project/PySide2/)）和 [Shiboken2](https://pypi.org/project/shiboken2/)[。
+移除所有其他系統安裝的 QtForPython[&#128279;](https://doc.qt.io/qtforpython-5/index.html)（[PySide2](https://pypi.org/project/PySide2/)）和 [Shiboken2](https://pypi.org/project/shiboken2/)。
 
-或者，你可以考慮使用像 rez **](https://github.com/AcademySoftwareFoundation/rez)*這樣的套件管理器*[，取代系統層級的 QtForPython 安裝。
+或者，你可以考慮使用像 rez **[&#128279;](https://github.com/AcademySoftwareFoundation/rez)*這樣的套件管理器*，取代系統層級的 QtForPython 安裝。

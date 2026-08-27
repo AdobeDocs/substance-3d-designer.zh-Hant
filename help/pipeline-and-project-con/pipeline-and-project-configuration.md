@@ -45,11 +45,11 @@ Designer 有三個層級或組態檔，每個層級都有不同的用途。 在 
 </tr>
 </table>
 
-* <b>[使用者\_Preferences.XML](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md）</b> 包含一般程式設定，其中除一項外皆與專案管線無關。 這個檔案是唯一的，無法替換，Designer 是硬編碼來使用這個檔案的。\
+* <b>[使用者\_Preferences.XML](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)</b> 包含一般程式設定，其中除一項外皆與專案管線無關。 這個檔案是唯一的，無法替換，Designer 是硬編碼來使用這個檔案的。\
   它只包含一個對設定檔的參考。
-* <b>[預設_Configuration.SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md）</b> 可以替換成其他名稱不同的 SBSCFG 檔案，但同時只能使用一個 SBSCFG 檔案。\
+* <b>[預設_Configuration.SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)</b> 可以替換成其他名稱不同的 SBSCFG 檔案，但同時只能使用一個 SBSCFG 檔案。\
   它包含多個專案檔案的參考。 *請注意，預設設定中這些檔案並未明確定義，而是硬編碼的！*
-* <b>[Project.SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md）</b> 檔案包含與專案/管線相關的設定。 多個專案可以在階層結構中定義，覆蓋或擴展先前定義的專案。
+* <b>[Project.SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)</b> 檔案包含與專案/管線相關的設定。 多個專案可以在階層結構中定義，覆蓋或擴展先前定義的專案。
 
 ## 設計管線設定
 

@@ -38,7 +38,7 @@ ht-degree: 0%
 * 其暴露的參數與預設值
 * 其註解（即元資料）：作者、標籤、分類等
 
-匯出 MDL 模組是在套件&#x200B;*層級執行*。若要匯出特定套件的 MDL 模組，請點擊![](exporting-mdl-content.resources/mdl-export-module-icon.png)<b>檔案總管](../../interface/the-explorer-window/the-explorer-window.md)中的[「匯出 MDL 模組</b>」按鈕，或在&#x200B;*套件的情境選單*&#x200B;中選擇相同的選項。選擇匯出後的 MDL 模組的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
+匯出 MDL 模組是在套件&#x200B;*層級執行*。若要匯出特定套件的 MDL 模組，請點擊![](exporting-mdl-content.resources/mdl-export-module-icon.png)<b>檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中的「匯出 MDL 模組</b>」按鈕，或在&#x200B;*套件的情境選單*&#x200B;中選擇相同的選項。選擇匯出後的 MDL 模組的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
 
 匯出後的模組將包含&#x200B;*套件中由 [MDL 圖](../../mdl-graphs/mdl-graphs.md)定義的所有* MDL 材料定義。
 
@@ -83,9 +83,9 @@ MDL 模組預設與其基礎模組大致相同，唯一差別是預設值不同�
 
 MDL 模組壓縮檔將 MDL 模組（如上文）與材質&#x200B;*、readme 檔案等資源*&#x200B;合併成一個&#x200B;*可傳輸的檔案*。
 
-匯出 MDL 模組封存是在套件&#x200B;*層級執行*。若要匯出特定套件的 MDL 模組歸檔，請在檔案總管中點擊![](exporting-mdl-content.resources/mdl-export-module-icon.png)「匯出 MDL 模組歸檔</b>」按鈕，或在&#x200B;*套件的情境選單*&#x200B;中選擇相同的選項。<b>[](../../interface/the-explorer-window/the-explorer-window.md)選擇匯出後的 MDL 模組歸檔的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
+匯出 MDL 模組封存是在套件&#x200B;*層級執行*。若要匯出特定套件的 MDL 模組歸檔，請在檔案總管中點擊![](exporting-mdl-content.resources/mdl-export-module-icon.png)「匯出 MDL 模組歸檔</b>」按鈕，或在&#x200B;*套件的情境選單*&#x200B;中選擇相同的選項。<b>[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)選擇匯出後的 MDL 模組歸檔的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
 
-匯出的模組檔案庫將包含 MDL 模組，*儲存套件中 MDL 圖](../../mdl-graphs/mdl-graphs.md)所定義[的所有* MDL 材料定義。如果 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md) 被 [實例化成 MDL 圖](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) ，並連接到前往 [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md) 節點的串流，它輸出的紋理會被 *儲存到壓縮*&#x200B;檔中。
+匯出的模組檔案庫將包含 MDL 模組，*儲存套件中 MDL 圖[&#128279;](../../mdl-graphs/mdl-graphs.md)所定義的所有* MDL 材料定義。如果 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md) 被 [實例化成 MDL 圖](../../mdl-graphs/compositing-graphs-and/substance-compositing-graphs-and-mdl-materials.md) ，並連接到前往 [Root](../../mdl-graphs/main-mdl-graph-concepts/main-mdl-graph-concepts.md) 節點的串流，它輸出的紋理會被 *儲存到壓縮*&#x200B;檔中。
 
 除了這些項目外，該檔案還包含一個 <b>MANIFEST</b> 檔案，描述 MDL 模組檔案的以下中繼資料：
 
@@ -108,13 +108,13 @@ MDL 模組壓縮檔將 MDL 模組（如上文）與材質&#x200B;*、readme 檔�
 
 例如，雖然你仍能修改暴露參數的值來控制材料行為，但 *這些參數的定義* 在封裝的 MDL 模組中無法 *取得* 。
 
-匯出封裝的 MDL 模組可在 MDL 圖層級的檔案總管](../../interface/the-explorer-window/the-explorer-window.md)中，透過在 MDL 圖的情境選單中選擇<b>「匯出為 .mdle</b>」選項來完成[。選擇匯出後的 MDL 封裝模組的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
+匯出封裝的 MDL 模組可在 MDL 圖層級的檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中，透過在 MDL 圖的情境選單中選擇<b>「匯出為 .mdle</b>」選項來完成。選擇匯出後的 MDL 封裝模組的目標位置與名稱，匯 <b>出報告</b> 對話框會顯示，並列出匯出過程中記錄的訊息清單。
 
 *只有*&#x200B;所選 MDL 圖&#x200B;*的*&#x200B;材料定義會包含在匯出的封裝 MDL 模組中。
 
 >[!NOTE]
 >
-> 請參考 NVIDIA [MDL 規範](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9)[第 13.5 節及 MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html) 中關於封裝材質定義的更多資訊。
+> 請參考 NVIDIA [MDL 規範](https://developer.download.nvidia.com/designworks/mdl-sdk/secure/MDL_spec_1.6.1_16Dec2019.pdf?__token__=exp=1776166178~hmac=38656bc9d8199764568d1fa0d4d945b90c57638ebd37b100a402bdc983e518ee&t=eyJscyI6ImdzZW8iLCJsc2QiOiJodHRwczovL3d3dy5nb29nbGUuY29tLyJ9) [第 13.5 節及 MDL SDK API](https://raytracing-docs.nvidia.com/mdl/api/mi_neuray_example_mdle.html) 中關於封裝材質定義的更多資訊。
 
 ![MDLE 出口路徑MDLE](exporting-mdl-content.resources/mdl-export-encapsulated.png "出口路徑")
 

@@ -33,4 +33,4 @@ Substance 3D Designer 執行的運算可能非常繁重，且會大量使用圖�
 
 <b>![（滴答）](crash-when-rendering-graphs.resources/check.svg) 建議步驟</b>
 
-TDR 計時器值需要提高&#x200B;**，以防止此類當機。你可以依照](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Substance 3D Painter 文件頁面中的[指示操作，這些指示同樣適用於 Substance 3D Designer。
+TDR 計時器值需要提高&#x200B;**，以防止此類當機。你可以依照[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash) Substance 3D Painter 文件頁面中的指示操作，這些指示同樣適用於 Substance 3D Designer。

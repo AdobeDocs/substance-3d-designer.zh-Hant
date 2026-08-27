@@ -42,8 +42,8 @@ ht-degree: 0%
 
 首先，確認你使用的是最新版本的 Substance 3D Designer，這是你目前授權的授權。 以下是各版本更新的存取點：
 
-* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤[的更新區塊
-* <b>[Substance3d.com](http://Substance3d.com) 訂閱：</b>在 Substance 3D Designer 中按需更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權](https://store.substance3d.com/user)」區[下載最新安裝程式
+* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面[&#128279;](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤的更新區塊
+* <b>[Substance3d.com](http://Substance3d.com) 訂閱：</b>在 Substance 3D Designer 中按需更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權[&#128279;](https://store.substance3d.com/user)」區下載最新安裝程式
 * <b>Steam：</b> 應用程式會預設自動更新。 你可以手動啟動 Substance 3D Designer，或進入下載頁面來觸發更新
 
 >[!WARNING]
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 <b>![（錯誤）](cannot-create-load-a-project.resources/error.svg) 子嗣</b>
 
-建立或載入專案時的當機，通常是因為 3D 視圖](../../interface/3d-view/3d-view.md)初始化[時出現錯誤，而這個錯誤發生在工作區設定過程中。
+建立或載入專案時的當機，通常是因為 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)初始化時出現錯誤，而這個錯誤發生在工作區設定過程中。
 
 如果系統是筆記型電腦，第三方應用程式可能會強制執行 *電源管理計畫* ，阻止 3D View 使用系統的 GPU。 如果沒有其他 GPU 裝置能替代執行此任務，可能會導致當機。
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 更新顯示卡驅動程式
 
-首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
+首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
 
 力的最佳效能
 
