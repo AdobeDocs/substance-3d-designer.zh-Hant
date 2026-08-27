@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 腳本中存取並操作圖表與節點選擇。
 helpx_creative_field: ""

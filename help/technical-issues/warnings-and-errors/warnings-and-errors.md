@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/warnings-and-errors.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/warnings-and-errors.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中尋找常見問題與錯誤的解決方案，快速排除問題。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 警告與錯誤
 
-本頁說明 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中可能出現的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
+本頁說明 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中可能出現的警告與錯誤訊息的回報，並連結到根據警告來源的故障排除方法。
 
 ## 概觀
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/undo-and-redo.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/undo-and-redo.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 腳本中實作復原與重做功能，以支援使用者操作。
 helpx_creative_field: ""

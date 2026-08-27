@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-library/managing-custom-content-and-filters.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D 設計器庫中管理自訂內容與篩選器，以便有組織地存取資產。
 helpx_creative_field: ""
