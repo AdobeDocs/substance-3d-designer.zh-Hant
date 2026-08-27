@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/navigation-pin.html"
 breadcrumb-title: ''
 description: 在圖表檢視中使用導航圖釘，快速在 Substance 3D Designer 圖形中跳轉不同位置。
 helpx_creative_field: ""

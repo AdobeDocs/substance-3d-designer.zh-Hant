@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/swirl.html"
 breadcrumb-title: ''
 description: 使用 Swirl 節點對材質套用漩渦變形效果，創造漩渦和螺旋圖案。
 helpx_creative_field: ""

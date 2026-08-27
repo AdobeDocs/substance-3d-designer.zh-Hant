@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/what-is-a-function.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/what-is-a-function.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 中有哪些函式，以及如何利用它們來建立可重複使用的節點網路。
 helpx_creative_field: ""

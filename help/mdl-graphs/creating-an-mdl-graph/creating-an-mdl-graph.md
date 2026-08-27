@@ -60,7 +60,7 @@ ht-degree: 0%
 範本清單可透過&#x200B;*專案&#x200B;**組合框旁**&#x200B;的按鈕*&#x200B;以不同模式顯示：
 
 * **![](creating-an-mdl-graph.resources/mdl-template-recent-icon.png)顯示最近使用的**：篩選清單，依照最近到最近的&#x200B;*順序顯示最後使用的*&#x200B;範本，頂端為最新的項目
-* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)顯示圖表**：範本僅&#x200B;*依標籤*&#x200B;顯示，依模板目錄中 Substance 3D[&#128279;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 檔案的順序排列
+* **![](creating-an-mdl-graph.resources/mdl-template-graphs-icon.png)顯示圖表**：範本僅&#x200B;*依標籤*&#x200B;顯示，依模板目錄中 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 檔案的順序排列
 * **![](creating-an-mdl-graph.resources/mdl-template-packages-icon.png)顯示 Substance 3D 檔案**：範本依其標籤顯示，作為 *其所屬* Substance 3D 檔案的子檔，依範本目錄中檔案的順序排列
 * **![](creating-an-mdl-graph.resources/mdl-template-directory-icon.png)顯示目錄**：範本依照其所屬&#x200B;*目錄的子目錄*&#x200B;標籤顯示，順序依照範本目錄中檔案的順序排列
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/luminance-highpass.html"
 breadcrumb-title: ''
 description: 使用亮度高通節點從貼圖中提取高頻亮度細節，以增強表面細節。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 說明
 
-透過對輸入的亮度值進行 [高通，](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)抵消照明資訊。 對於修正帶有光照資訊的拍攝紋理非常有用。 可在 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中透過多次通過組合，以移除不同頻率的光照細節。
+透過對輸入的亮度值進行 [高通，](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)抵消照明資訊。 對於修正帶有光照資訊的拍攝紋理非常有用。 可在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中透過多次通過組合，以移除不同頻率的光照細節。
 
 它在保留色彩 [方面比 Lighting Cancel Low Frequencys 稍微好一點。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/lighting-cancel-low-fre/lighting-cancel-low-frequencies.md)
 

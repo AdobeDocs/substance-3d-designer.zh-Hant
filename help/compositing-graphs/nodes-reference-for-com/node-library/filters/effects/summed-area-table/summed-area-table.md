@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/summed-area-table.html"
 breadcrumb-title: ''
 description: 使用「總面積表」節點建立加總面積表，以提升框框過濾與模糊操作效率。
 helpx_creative_field: ""

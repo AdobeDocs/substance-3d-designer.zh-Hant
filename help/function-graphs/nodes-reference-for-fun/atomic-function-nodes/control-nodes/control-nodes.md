@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 功能圖中的存取控制節點，以控制流程與執行邏輯。
 helpx_creative_field: ""

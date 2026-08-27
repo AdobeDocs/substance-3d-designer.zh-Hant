@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/starburst.html"
 breadcrumb-title: ''
 description: 利用星爆節點創造從中心點輻射的星爆圖案，產生裝飾性紋理效果。
 helpx_creative_field: ""
