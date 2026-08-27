@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用 Spline Mapper Grayscale 節點，將灰階材質沿著樣條路徑映射，並可自訂參數。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條映射器灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 0%
@@ -54,18 +54,18 @@ ht-degree: 0%
 ## 輸入連接器
 
 <b>樣條座標</b> *色彩*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-<b>R</b> - X 位置\
-<b>G</b> - Y 位置\
-<b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
+<b>    R</b> - X 位置\
+<b>    G</b> - Y 位置\
+<b>    B</b> - 身高\
+<b>A</b> - 打包資料：\
 * 符號：樣條鍵為閉（負）或開（正）;\
 * 絕對值：厚度 + 1。
 
 <b>樣條資料</b> *色彩*&#x200B;輸入樣條的額外資料編碼於彩色影像的 RGBA 通道中。\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
+<b>    R</b> - 切線 X\
+<b>    G</b> - 切線 Y\
+<b>    B</b> - 未上場\
+<b>    A</b> - 未上場
 
 <b>樣條量</b> *整數*：輸入樣條的數量。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 <b>汽缸高度倍增器</b> *浮點* （當「形狀」設定為「半圓柱」或「圓柱」時可用）為高度輸出中柱體高度貢獻強度的倍數。\
 高度調整是累積的。
 
-<b>圓柱高度偏移</b> *浮球*（當「形狀」設定為「半圓柱」或「圓柱」時可用）\
+<b>汽缸高度偏移</b> *浮動* （當「形狀」設定為「半圓柱」或「圓柱」時可用）\
 將圓柱形或半圓柱形狀輪廓的中心從花鍵表面偏移到表面下方一個直徑處。
 
 <b>扭曲紫外線強度</b> *浮動* （當「形狀」設定為「半圓柱」或「圓柱」時可用）影像座標繞圓柱旋轉，以旋轉數計算。\

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中使用 SBSPRJ 專案設定檔來管理專案設定。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 專案設定檔 - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
@@ -39,37 +39,35 @@ ht-degree: 0%
 
 預設情況下，Designer 有兩種活躍的專案配置：
 
-<b>預設專案：</b>包含所有預設設定，且全新安裝時會附帶函式庫 Designer。*唯讀，無法修改或刪除。*
+<b>預設專案： </b>包含所有預設設定，且全新安裝時會附帶函式庫 Designer。*唯讀，無法修改或刪除。*
 
-<b>使用者專案：</b>由於預設值為唯讀&#x200B;*，使用者*&#x200B;所做的任何變更都會預設進入此專案。 *無法移除。*
+<b>使用者專案： </b>由於預設值為唯讀 *，使用者* 所做的任何變更都會預設進入此專案。 *無法移除。*
 
 這種基本設定確保預設函式庫及其他設定不會被破壞或修改，同時仍讓單身業餘使用者能自行添加修改，無需繁瑣的設定。
 
 ## 擴展或覆寫
 
-連續專案中的大多數設定會<b>覆蓋</b>前一個專案的設定。 例如，自訂專案檔案中的另一個 Tangent Space 插件會覆蓋預設專案或使用者專案中定義的任何 TS 插件。 這表示除非明確需要，否則建議不要在子專案中覆寫或更改設定。
+連續專案中的大多數設定會 <b>覆蓋</b> 前一個專案的設定。 例如，自訂專案檔案中的另一個 Tangent Space 插件會覆蓋預設專案或使用者專案中定義的任何 TS 插件。 這表示除非明確需要，否則建議不要在子專案中覆寫或更改設定。
 
-不過有些設定會<b>擴展</b>父設定，而不是覆蓋它們。 最明顯的是這些設定是圖書館路徑和篩選器，所以你總是會新增更多內容到圖書館，而不是覆蓋它。 此外，還有別名（路徑關鍵字，代表相對檔案路徑）會擴展，若定義重複則會覆蓋。 這讓內容的檔案路徑和參考資料能有很好的控制。
+不過有些設定會 <b>擴展</b> 父設定，而不是覆蓋它們。 最明顯的是這些設定是圖書館路徑和篩選器，所以你總是會新增更多內容到圖書館，而不是覆蓋它。 此外，還有別名（路徑關鍵字，代表相對檔案路徑）會擴展，若定義重複則會覆蓋。 這讓內容的檔案路徑和參考資料能有很好的控制。
 
 ## 專案檔案內容
 
 專案檔案可包含以下設定：
 
-<b>3D 視角：</b>預設著色器、HDR 及場景狀態定義。
+<b>3D 視角： </b>預設著色器、HDR 及場景狀態定義。
 
-<b>別名：</b>相對路徑的關鍵字別名。
+<b>別名： </b>相對路徑的關鍵字別名。
 
-<b>烘焙：</b>烘焙命名規則的設定。
+<b>烘焙： </b>烘焙命名規則的設定。
 
-<b>一般：</b>圖形範本、切線空間插件、法線與影像格式預設。
+<b>一般： </b>圖形範本、切線空間插件、法線和影像格式預設。
 
-<b>圖書館：</b>在圖書館中顯示的觀看路徑， [以及圖書館檢視](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)的篩選器和分類。
+<b>圖書館： </b>觀察路徑以展示在圖書館中。
 
-<b>MDL：</b>MDL觀察路徑。
+<b>腳本： </b>回調腳本與直譯器。
 
-<b>腳本：</b>回調腳本與直譯器。
-
-<b>版本控制：</b>將版本控制整合到 Designer 中的設定。
+<b>版本控制： </b>將版本控制整合到 Designer 中的設定。
 
 ## 修改專案檔案
 
@@ -79,7 +77,7 @@ ht-degree: 0%
 
 請參閱 [專案設定](../../interface/preferences-window/project-settings/project-settings.md) 頁面，了解如何管理專案檔案及更改專案設定。
 
-專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>[&#128279;](../../interface/the-library/the-library.md) [器，您可以在「管理自訂內容與篩選器](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)」頁面了解更多。
+專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>](../../interface/the-library/the-library.md)[器，您可以在「管理自訂內容與篩選器](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)」頁面了解更多。[
 
 ## 外部編輯 XML
 
@@ -91,7 +89,7 @@ ht-degree: 0%
 
 ## 相對路徑與別名
 
-結合別名的相對路徑是專案配置中較為複雜但最重要的部分之一，本節將為其說明。為特定專案檔案新增自訂別名，則可在專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中完成。
+結合別名的相對路徑是專案配置中較為複雜但最重要的部分之一，本節將為其說明。 為特定專案檔案新增自訂別名，則可在專案設定](../../interface/preferences-window/project-settings/project-settings.md)中[完成。
 
 在多個使用者電腦上，檔案互相引用系統中其他檔案的主要問題之一，就是絕對檔案路徑無法運作。 使用者可以在完全不同的位置定義他們的 SVN 儲存庫（例如： C：/John/Gamedev/SubstanceLibrary 或 D：/Dev/SubstanceLibrary）。 別名與相對路徑共同作用以解決此問題。 否則，你可能會打開別人的檔案，它會嘗試尋找該使用者在本地位置使用的自訂節點，而你可能沒有完全相同的定義。
 
@@ -147,6 +145,6 @@ ht-degree: 0%
 
 此設定檔的結果如下：
 
-**BaseAlias://** 會是 *C：/Versioncontrol/Substance/Base/*，ToolsAlias://**&#x200B;**&#x200B;會是 *C：/Versioncontrol/Substance/Tools/。*
+**BaseAlias://** 會是 *C：/Versioncontrol/Substance/Base/*，ToolsAlias://****&#x200B;會是 *C：/Versioncontrol/Substance/Tools/。*
 
-如果你只想定義 *C：/Versioncontrol/Substance/*，路徑會標示為 **「file：.」**，點代表檔案本身的位置。
+如果你只想定義  *C：/Versioncontrol/Substance/*，路徑會標示為 **「file：.」**，點代表檔案本身的位置。

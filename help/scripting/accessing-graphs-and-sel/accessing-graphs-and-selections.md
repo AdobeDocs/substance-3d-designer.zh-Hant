@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/accessing-graphs-and-selections.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 腳本中存取並操作圖表與節點選擇。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 存取圖表與選擇
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -57,4 +57,4 @@ for node in selection:
 
 特定圖視圖中顯示&#x200B;**&#x200B;的圖形可以透過 graphViewID</b> 存取<b>。
 
-此方法在建立自訂圖形檢視工具列時非常有用。 <b>在「建立使用者介面元素[&#128279;](../../scripting/creating-user-interface/creating-user-interface-elements.md)」章節中的「在圖視圖</b>中建立工具列」範例提供了更多細節。
+此方法在建立自訂圖形檢視工具列時非常有用。 <b>在「建立使用者介面元素](../../scripting/creating-user-interface/creating-user-interface-elements.md)」章節中的「在圖視圖</b>中建立工具列」範例[提供了更多細節。

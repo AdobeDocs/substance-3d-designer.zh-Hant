@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
 breadcrumb-title: ''
 description: 使用「色彩轉遮罩」節點，將特定顏色轉換成遮罩，以建立選擇性處理與遮罩效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 從顏色到遮罩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 
 ![遮罩顏色 - 圖示](../../../../../../assets/color_to_mask.png "遮罩顏色遮罩 - 圖示"){width="200px"}
 
-<b>收錄於：</b>篩選>調整
+<b>收錄於：</b> 篩選>調整
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,12 +85,12 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>使用顏色輸入</b>  布林值 | 使用輸入影像而非均勻顏色，以定義每個像素的參考顏色。    輸入影像由 <b>Color 輸入</b>端提供。 |
-| <b>當「使用色彩輸入」設為「False」時，Color</b>  Float3 *可用* | 參考均勻顏色，應以此為基礎進行顏色選擇。 |
+| <b>使用顏色輸入</b>  布林值 | 使用輸入影像而非均勻顏色，以定義每個像素的參考顏色。    輸入影像由 <b>Color 輸入</b> 端提供。 |
+| <b>當「使用色彩輸入」設為「False」時，Color</b>  Float3   *可用* | 參考均勻顏色，應以此為基礎進行顏色選擇。 |
 | <b>閾值</b>  浮點 | 距離選取顏色下方參考色的距離。 |
 | <b>選擇淡入</b>  浮動 | 根據與參考顏色的距離來淡化顏色選擇。 |
-| <b>距離色彩空間</b>  整數 | 均衡過程是比較顏色以確定它們之間的距離。 某些色彩空間和距離演算法更適合特定使用情境。 這個下拉選單讓你選擇用來比較顏色的色彩空間：<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB（資料）：</i></b>顏色被分為紅、綠、藍三色通道，並沿這些軸線直接分布，完全不考慮人類感知。 這適用於包含原始資料的影像。</li> <li data-preserve-html="true"><i>線性 sRGB（彩色）：</i>顏色分為紅、綠、藍三色通道，並依像素光強度線性分布。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><b><i>亮度（色彩）：</i></b>顏色分為色相、色度、亮度值，且僅使用亮度值作為比較。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><i>Lab（顏色）：</i>一個標準化的感知色彩空間，會以一種「感覺」接近的顏色在立方體中實際靠近的方式分配顏色。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><i>角度（法線）：</i>顏色被分割成向量的 X、Y、Z 軸，並透過點積比較。 這適用於包含切空間法線的影像。</li> </ul> |
-| <b>距離權重</b>  Float3 | Lab 色彩距離演算法（DeltaE2000）為每個亮度、色度和色相值引入特定的權重因子。 較低的數值會減少色差演算法中因素的影響。 由於眼睛通常接受的明度（L）差異大於色度（C）或色調（H）的差異，（L:C:H）的預設比值為 （0.5:1:1）。 0.5:1:與 1 的比例會讓亮度差異是色度或色相的兩倍。 |
+| <b>距離色彩空間</b>  整數 | 均衡過程是比較顏色以確定它們之間的距離。 某些色彩空間和距離演算法更適合特定使用情境。   這個下拉選單讓你選擇用來比較顏色的色彩空間：<ul data-preserve-html="true"> <li data-preserve-html="true"><b><i>RGB（資料）：</i></b> 顏色被分為紅、綠、藍三色通道，並沿這些軸線直接分布，完全不考慮人類感知。 這適用於包含原始資料的影像。</li> <li data-preserve-html="true"><i>線性 sRGB（彩色）：</i> 顏色分為紅、綠、藍三色通道，並依像素光強度線性分布。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><b><i>亮度（色彩）：</i></b> 顏色分為色相、色度、亮度值，且僅使用亮度值作為比較。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><i>Lab（顏色）：</i> 一個標準化的感知色彩空間，會以一種「感覺」接近的顏色在立方體中實際靠近的方式分配顏色。 這適用於可在顯示器上視覺化的影像。</li> <li data-preserve-html="true"><i>角度（法線）：</i> 顏色被分割成向量的 X、Y、Z 軸，並透過點積比較。 這適用於包含切空間法線的影像。</li> </ul> |
+| <b>距離權重</b>  Float3 | Lab 色彩距離演算法（DeltaE2000）為每個亮度、色度和色相值引入特定的權重因子。   較低的數值會減少色差演算法中因素的影響。   由於眼睛通常接受的明度（L）差異大於色度（C）或色調（H）的差異，（L:C:H）的預設比值為 （0.5:1:1）。 0.5:1:與 1 的比例會讓亮度差異是色度或色相的兩倍。 |
 
 ## 範例
 

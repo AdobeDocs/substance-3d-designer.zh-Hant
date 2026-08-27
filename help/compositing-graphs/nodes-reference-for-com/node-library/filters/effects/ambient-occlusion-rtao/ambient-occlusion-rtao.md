@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-rtao.html"
 breadcrumb-title: ''
 description: 使用環境遮蔽（RTAO）節點，從高度圖產生即時環境遮蔽貼圖，以達到逼真的陰影效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 環境遮蔽（RTAO）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -45,25 +45,25 @@ ht-degree: 0%
 
 ## 參數
 
-<b>使用物理大小</b> *布林值*\
+<b>使用物理尺寸</b> *布林值*\
 切換到使用實體尺寸設定來決定身高比例。
 
-<b>物理大小</b> *Float3*（當 <b>使用物理大小</b>設為 *True*）\
+<b>實體尺寸</b> *Float3* （當 <b>使用實體大小</b> 設為 *True*）\
 根據表面的實際物理大小調整高度比例
 
 <b>取樣&#x200B;</b>*整數*\
 計算環境遮蔽所使用的光線數量。\
 較高的數值能提供更平滑且精確的結果，但會犧牲性能。
 
-<b>高度比例</b> *浮點*（當<b>使用實體尺寸</b>設為 *False* 時可用）\
+<b>身高比例</b> *浮點*（當使用物理大小</b>設為 *False* 時<b>可用）\
 乘數表示高度圖輸入的強度。
 
-<b>分布</b> *整數*&#x200B;設定分配方法。 影響陰影區域的衰減，
+<b>分布</b> *整數*&#x200B;設定分配方法。 影響陰影區域的衰減，
 
-<b>最大距離</b> *浮球*\
+<b>最大距離</b> *浮標*\
 設定光線可被遮蔽的最大距離。
 
-<b>擴散角</b> *浮球*\
+<b>擴散角</b> *浮標*\
 設定射線的擴散角度。 值為1則是一個完整的半球。
 
 ## 範例圖片

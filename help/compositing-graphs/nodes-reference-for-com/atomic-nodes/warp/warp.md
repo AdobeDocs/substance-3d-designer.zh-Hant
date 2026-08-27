@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ''
 description: 使用 Warp 節點對貼圖套用失真效果，以創造變形和位移效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 節點操作起來有點棘手，因為效果的結果非常依賴漸層輸入：對漸層做些微調整，在相同的強度值下，視覺上會有很大差異。 記得多調整漸層輸入的對比度、亮度和縮放，還有這個節點上的強度滑桿。
 
-如果你熟悉法線貼圖，可以想像這個節點的運作類似於將漸層輸入轉換成[法線貼圖](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)，然後將基礎輸入扭曲成法線貼圖向量定義的方向。 事實上，這同樣的效果也可以用[向量曲速](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)實現。 類似的效果也出現在[《斜坡模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)》中。
+如果你熟悉法線貼圖，可以想像這個節點的運作類似於將漸層輸入轉換成 [法線貼圖](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)，然後將基礎輸入扭曲成法線貼圖向量定義的方向。 事實上，這同樣的效果也可以用 [向量曲速](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)實現。 類似的效果也出現在 [《斜坡模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)》中。
 
 <table>
 <tr style="border: 0;">

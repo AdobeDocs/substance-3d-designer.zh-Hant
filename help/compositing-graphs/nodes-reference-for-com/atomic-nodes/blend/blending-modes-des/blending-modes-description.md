@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend/blending-modes-description.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 中可用的混合模式，用於結合材質與不同合成效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 *疊加*&#x200B;混合模式結合了乘法與螢幕混合模式：
 
-* &#x200B;
+* 
   * 若下層像素值低於 0.5，則 *會套用乘法* 混合
   * 若下層像素值高於 0.5，則 *會套用 Screen* 類型的混合
 

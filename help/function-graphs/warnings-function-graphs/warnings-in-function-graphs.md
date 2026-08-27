@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/warnings-in-function-graphs.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 功能圖中的警告，並學習如何解決常見問題。
 helpx_creative_field: ""
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 # 函數圖中的警告
 
-本頁列出了 Substance 3D Designer 中功能圖[&#128279;](../../function-graphs/function-graphs.md)可能觸發的警告與錯誤訊息，並提供每種的常見故障排除步驟。
+本頁列出了 Substance 3D Designer 中功能圖](../../function-graphs/function-graphs.md)可能觸發[的警告與錯誤訊息，並提供每種的常見故障排除步驟。
 
-警告會顯示在總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角顯示。\
-若函數應用&#x200B;*於 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中的參數*，任何警告都會引發「該參數的[x]參數函數有部分錯誤&#x200B;*」的警告*。
+警告會顯示在總管](../../interface/the-explorer-window/the-explorer-window.md)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角[顯示。\
+若函數應用&#x200B;*於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)中的[參數*，任何警告都會引發「該參數的[x]參數函數有部分錯誤&#x200B;*」的警告*。
 
 ## ![（錯誤）](../../assets/error.svg) 未定義輸出節點
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果函式有預期的輸出值類型，圖視圖[&#128279;](../../interface/the-graph-view/the-graph-view.md)左下角會有註解告訴你該類型。
+> 如果函式有預期的輸出值類型，圖視圖](../../interface/the-graph-view/the-graph-view.md)左下角[會有註解告訴你該類型。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果函式有預期的輸出值類型，圖視圖[&#128279;](../../interface/the-graph-view/the-graph-view.md)左下角會有註解告訴你該類型。
+> 如果函式有預期的輸出值類型，圖視圖](../../interface/the-graph-view/the-graph-view.md)左下角[會有註解告訴你該類型。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">

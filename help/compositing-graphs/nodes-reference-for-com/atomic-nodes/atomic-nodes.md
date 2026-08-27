@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取原子節點，進行基本操作，包括輸入、輸出、混合及色彩調整。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 原子節點是 Substance 圖的基本建構單元。
 
-庫中[&#128279;](../../../interface/the-library/the-library.md)其他所有 Substance 圖節點都是由原子節點組成，如果你把它們拆解到最低層級。
+庫中[](../../../interface/the-library/the-library.md)其他所有 Substance 圖節點都是由原子節點組成，如果你把它們拆解到最低層級。
 
 <table>
 <tr style="border: 0;">
@@ -58,7 +58,7 @@ ht-degree: 1%
 
 [![原子節點：方向模糊](../../../assets/comp_dirmotionblur.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
-[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
+[方向模糊](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-blur/directional-blur.md)
 
 </td>
 </tr>
@@ -138,7 +138,7 @@ ht-degree: 1%
 
 [![原子節點：輸入灰階](../../../assets/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
-[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
 
 </td>
 </tr>
@@ -284,7 +284,7 @@ ht-degree: 1%
 
 ### <b>圖書館</b>
 
-函式庫[&#128279;](../../../interface/the-library/the-library.md)的「原子節點」類別承載所有原子節點。它們可以拖放到物質圖中。
+函式庫](../../../interface/the-library/the-library.md)的[「原子節點」類別承載所有原子節點。它們可以拖放到物質圖中。
 
 ### <b>鍵盤快捷鍵</b>
 

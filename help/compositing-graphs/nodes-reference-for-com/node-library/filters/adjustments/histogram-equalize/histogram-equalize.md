@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-equalize.html"
 breadcrumb-title: ''
 description: 使用直方圖均衡節點重新分配像素強度，提升對比度和亮度。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖等化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 ![直方圖均衡：圖示](../../../../../../assets/histogram_equalize.png "直方圖等化：圖示"){width="200px"}
 
-<b>收錄於：</b>篩選>調整
+<b>收錄於：</b> 篩選>調整
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,8 +75,8 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。 可用解析度以像素為單位：256、512、1024、2048、4096 |
-| <b>直方圖平滑</b> *浮標* | 直方圖可透過重新分配影像中的灰階值來平滑，以平衡&#x200B;*各值間的差異*。 這個參數會調整平滑的強度。 |
+| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。   可用解析度以像素為單位：256、512、1024、2048、4096 |
+| <b>直方圖平滑</b> *浮標* | 直方圖可透過重新分配影像中的灰階值來平滑，以平衡 *各值間的差異* 。   這個參數會調整平滑的強度。 |
 
 ## 範例
 

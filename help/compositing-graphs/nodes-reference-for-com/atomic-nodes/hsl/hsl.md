@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/hsl.html"
 breadcrumb-title: ''
 description: 使用 HSL 節點調整材質的色調、飽和度和明度，以進行色彩調整與校正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -78,8 +78,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *浮標* | 決定輸入影像的顏色。 低於0.5的數值會讓色相呈負向移動，高於0.5的數值則呈正向移動。 |
-| <b>飽和度</b> *浮標* | 決定輸入影像色彩的飽和度。 數值低於 0.5 會降低飽和度，高於 0.5 則會增加飽和度。 |
+| <b>色相</b> *浮標* | 決定輸入影像的顏色。   低於0.5的數值會讓色相呈負向移動，高於0.5的數值則呈正向移動。 |
+| <b>飽和度</b> *浮標* | 決定輸入影像色彩的飽和度。   數值低於 0.5 會降低飽和度，高於 0.5 則會增加飽和度。 |
 | <b>輕盈</b> *浮標* | 決定輸入影像的亮度，值低於 0.5 會降低亮度，值超過 0.5 則增加亮度。 |
 
 ## 輸入連接器

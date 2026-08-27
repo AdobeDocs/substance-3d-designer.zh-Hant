@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 15.1 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -28,9 +28,9 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 ## 改進圖的建立
 
-在此版本中， [圖形建立視窗](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 被 <b>全面重新設計</b> ，以提升 Substance 3D Designer 的初始使用者體驗。此更新的主要目標是簡化範本選擇流程，讓使用者能有效辨識最適合需求的範本。
+在此版本中， [圖形建立視窗](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 被 <b>全面重新設計</b> ，以提升 Substance 3D Designer 的初始使用者體驗。 此更新的主要目標是簡化範本選擇流程，讓使用者能有效辨識最適合需求的範本。
 
-縮圖提供即時 <b>視覺參考</b> ，說明所擬材質類型，而詳細工具提示則提供所有相關資訊。為了改善組織，模板現在被分類為材料、濾鏡和掃描處理等特定 <b>類別</b> 。
+縮圖提供即時 <b>視覺參考</b> ，說明所擬材質類型，而詳細工具提示則提供所有相關資訊。 為了改善組織，模板現在被分類為材料、濾鏡和掃描處理等特定 <b>類別</b> 。
 
 雖然主介面已升級，使用者仍可存取先前的檢視，包括清單、套件和目錄選項。
 
@@ -44,7 +44,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 ![新的範例圖建立視窗](../../assets/GraphSample.png){zoomable="yes"}
 
-為了滿足這個需求，我們納入了布料（包括皮革和緞面）、木材、金屬、塑膠、陶瓷等材料樣本。這些範例旨在幫助你輕鬆開始專案，並熟悉 Substance 3D Designer 中主要的家族節點
+為了滿足這個需求，我們納入了布料（包括皮革和緞面）、木材、金屬、塑膠、陶瓷等材料樣本。 這些範例旨在幫助你輕鬆開始專案，並熟悉 Substance 3D Designer 中主要的家族節點
 
 每個圖都有 <b>註解</b>、精心組織，且節點數量極少，以盡量簡化理解。
 
@@ -68,7 +68,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 完整更新的音效清單請參見下方發行 [說明](#release-notes) 。
 
-範例：[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)單元 1[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2[&#x200B; 方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [&#x200B; 濕氣噪音 1     &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+範例：[單元 1[](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [濕氣噪音 1   ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![方向性無序雜訊](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -199,8 +199,8 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 * [3D 視角]鏡面層級未正確套用
 * [3D 視角]使用 Eclair 光柵器時，鏡面邊緣顏色無法使用。
 * [3D 視角]使用者新增素材不會套用在預設場景中
-* [3D 視角]&#x200B;[烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
-* [3D 視角]&#x200B;[貝克斯]FBX 檔案中沒有材質顏色
+* [3D 視角][烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
+* [3D 視角][貝克斯]FBX 檔案中沒有材質顏色
 * [烘焙師]FBX 檔案中的材質顏色無法正確偵測
 * [Bakers]在 JSON 預設匯出中，&#39;recompute\_tangents&#39; 選項總是 &#39;false&#39;
 * [烘焙師]CLI：連續執行同一烘焙機時，透過 JSON 檔案當機
