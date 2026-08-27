@@ -37,7 +37,7 @@ ht-degree: 0%
 
 節點提供深度自訂選項，控制樣條線的散佈方式，讓你可以散布簡單的直線樣條，或是你自己的自訂樣條。
 
-這個節點讓你可以用樣條曲線映射](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器節點來建立複雜的結構來映射顏色和影像[，或作為骨[架用散佈在樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)鍵上放置形狀。
+這個節點讓你可以用樣條曲線映射[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器節點來建立複雜的結構來映射顏色和影像，或作為骨[架用散佈在樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)鍵上放置形狀。
 
 </td>
 </tr>

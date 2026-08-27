@@ -30,7 +30,7 @@ SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-refere
 
 ## SVG 儲存
 
-SVG 儲存取決於它們是連結還是匯入。 匯入的 SVG 檔案會嵌入 SBS 檔案中，[不需要像點陣](../../resources/bitmap-resource/bitmap-resource.md)圖那樣的外部檔案，並且可以使用向量編輯工具](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)進行[編輯。
+SVG 儲存取決於它們是連結還是匯入。 匯入的 SVG 檔案會嵌入 SBS 檔案中，[不需要像點陣](../../resources/bitmap-resource/bitmap-resource.md)圖那樣的外部檔案，並且可以使用向量編輯工具[&#128279;](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)進行編輯。
 
 ## SVG 屬性
 
@@ -41,11 +41,11 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 | 識別碼 | 用於在套件中引用 SVG 資源，必須是唯一的。 |
 | 檔案路徑 | 資源參考的 SVG 檔案在磁碟上的路徑。 |
 | 說明 | 此說明顯示於 [本資源的探索器](../../interface/the-explorer-window/the-explorer-window.md) 與 [圖書館](../../interface/the-library/the-library.md) 工具提示中。 |
-| 類別 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
-| 標籤 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
-| 作者 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
-| 作者網址 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
-| 標記 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
+| 類別 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
+| 標籤 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
+| 作者 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
+| 作者網址 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
+| 標記 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
 | 使用者資料 | 可選的額外資料，向量圖形不常用。 |
 | 圖書館節目 | 判斷 SVG 資源是否應該隱藏在 [圖書館檢視中。](../../interface/the-library/the-library.md) |
 | 向量圖形品質 | 影響渲染品質。 音域並非線性，最佳品質在0.5時可達。 |

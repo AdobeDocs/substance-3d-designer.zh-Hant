@@ -37,7 +37,7 @@ ht-degree: 1%
 
 ## 說明
 
-最小極大值會找出灰階輸入中最亮與最暗的值，並返回為 [值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。 它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)節點的 [Value Inputs，並將最小最大值的值輸入輸入到它。
+最小極大值會找出灰階輸入中最亮與最暗的值，並返回為 [值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。 它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)節點的 Value Inputs，並將最小最大值的值輸入輸入到它。
 
 要用這個節點搭配 Levels，你至少應該知道如何使用 [「Expose Parameter」下拉選單](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，以及 [「Value」輸入標籤](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
