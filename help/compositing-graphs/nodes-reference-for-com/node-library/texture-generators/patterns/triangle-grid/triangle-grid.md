@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/triangle-grid.html"
 breadcrumb-title: ''
 description: 使用 Triangle Grid 節點來產生三角形格狀圖案，以便在 Substance 3D Designer 中製作幾何貼圖。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 三角格網
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/trianglegridgrayscale.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
 
-![](triangle-grid.resources/trianglegridcolor.jpg){width="200px"}
+![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -97,37 +97,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 1](triangle-grid.resources/triangle_grid_color_example_1.jpg "三角形格子：範例 1"){zoomable="yes"}
+![三角形格子：範例 1](triangle-grid.resources/triangle-grid-03.jpg "三角形格子：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形網格：範例 2](triangle-grid.resources/trianglegrid-variant2.png "三角形格子：範例 2"){zoomable="yes"}
+![三角形網格：範例 2](triangle-grid.resources/triangle-grid-04.png "三角形格子：範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 3](triangle-grid.resources/trianglegridcolor-variant2.jpg "三角形格子：範例 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例4](triangle-grid.resources/triangle_grid_color_example_2.jpg "三角形格子：範例4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例 5](triangle-grid.resources/trianglegridcolor-variant4.jpg "三角形子格子：範例 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例 6](triangle-grid.resources/trianglegridcolor-variant3.jpg "三角形格子：範例 6"){zoomable="yes"}
+![三角形格子：範例 3](triangle-grid.resources/triangle-grid-05.jpg "三角形格子：範例 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：皮革](triangle-grid.resources/trianglegrid-demo.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
+![三角形格子：範例4](triangle-grid.resources/triangle-grid-06.jpg "三角形格子：範例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：圖形](triangle-grid.resources/trianglegrid-node.png "三角形格子：圖形"){zoomable="yes"}
+![三角形格子：範例 5](triangle-grid.resources/triangle-grid-07.jpg "三角形子格子：範例 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![三角形格子：範例 6](triangle-grid.resources/triangle-grid-08.jpg "三角形格子：範例 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![三角形格子：皮革](triangle-grid.resources/triangle-grid-09.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![三角形格子：圖形](triangle-grid.resources/triangle-grid-10.png "三角形格子：圖形"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-render.html"
 breadcrumb-title: ''
 description: 使用 PBR 渲染節點來渲染基於物理的材質，並搭配逼真的光照來預覽材質外觀。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: PBR 渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1365'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](pbr-render.resources/pbr-render.png){width="250px"}
+![](pbr-render.resources/pbr-render-01.png){width="250px"}
 
 <b>收錄於：</b> PBR工具>材料過濾器
 
@@ -160,30 +160,30 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/pbr-render-v2.jpg" />
+            <img src="pbr-render.resources/pbr-render-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-thermal-insulation-panel.jpg" />
+            <img src="pbr-render.resources/pbr-render-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-ominous-obsidian.jpg" />
+            <img src="pbr-render.resources/pbr-render-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-forest-gravel-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-05.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-chesterfield-1.jpg" />
+            <img src="pbr-render.resources/pbr-render-06.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/sphere-carbon-fiber.jpg" />
+            <img src="pbr-render.resources/pbr-render-07.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/plane-inclined-lumber-tiles.jpg" />
+            <img src="pbr-render.resources/pbr-render-08.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="pbr-render.resources/cylinder-medieval-leaded-glass-window.jpg" />
+            <img src="pbr-render.resources/pbr-render-09.jpg" />
         </td>
     </tr>
 </table>

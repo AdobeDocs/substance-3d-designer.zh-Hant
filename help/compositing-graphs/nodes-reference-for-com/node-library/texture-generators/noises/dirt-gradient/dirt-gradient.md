@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-gradient.html"
 breadcrumb-title: ''
 description: 使用泥土漸層節點產生基於漸層的泥土圖案，以創造方向性的風化與累積效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 泥土坡度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![泥土漸層 - 圖示](dirt-gradient.resources/dirt_gradient.png "泥土漸層 - 圖示"){width="200px"}
+![泥土漸層 - 圖示](dirt-gradient.resources/dirt-gradient-01.png "泥土漸層 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 1](dirt-gradient.resources/dirt_gradient_1.png "失真漸變 - 範例 1"){zoomable="yes"}
+![失真漸變 - 範例 1](dirt-gradient.resources/dirt-gradient-02.png "失真漸變 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "失真漸變 - 範例 2"){zoomable="yes"}
+![失真漸變 - 範例 2](dirt-gradient.resources/dirt-gradient-03.gif "失真漸變 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "失真漸變 - 範例 3"){zoomable="yes"}
+![失真漸變 - 範例 3](dirt-gradient.resources/dirt-gradient-04.gif "失真漸變 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "失真漸變 - 範例 4"){zoomable="yes"}
+![失真漸變 - 範例 4](dirt-gradient.resources/dirt-gradient-05.gif "失真漸變 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/crop.html"
 breadcrumb-title: ''
 description: 使用 Crop 節點將素材輸出裁剪到特定區域，以便處理掃描的材質和材質。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 作物
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](crop.resources/crop-10.png){width="128px"}
+![](crop.resources/crop-01.png){width="128px"}
 
-![](crop.resources/crop-grayscale.png){width="128px"}
+![](crop.resources/crop-02.png){width="128px"}
 
 <b>收錄於：</b> 《材料濾>掃描處理》
 
@@ -40,7 +40,7 @@ ht-degree: 2%
 它在許多方面都很有用，因為對原子節點執行裁切操作並不那麼簡單。 特別是在轉換非正方形影像時，這個節點非常實用。 在這種情況下，請確保輸入解析度設定正確。
 
 非常重要的是，要輕鬆使用這個節點，你必須善用預覽與你正在編輯參數不同的節點的功能！\
-簡而言之：**雙擊**&#x200B;你用來輸入的節點（原始未裁切圖片），然後&#x200B;**&#x200B;**&#x200B;單擊緊接著的裁切節點。接著你可以修改裁切裝置，使其符合你想要裁切的區域。
+簡而言之：**雙擊**&#x200B;你用來輸入的節點（原始未裁切圖片），然後&#x200B;****&#x200B;單擊緊接著的裁切節點。接著你可以修改裁切裝置，使其符合你想要裁切的區域。
 
 </td>
 </tr>

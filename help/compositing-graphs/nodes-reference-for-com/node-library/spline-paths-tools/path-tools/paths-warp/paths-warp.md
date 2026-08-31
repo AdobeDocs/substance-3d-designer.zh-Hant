@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-warp.html"
 breadcrumb-title: ''
 description: 使用 Paths Warp 節點沿著路徑曲線扭曲貼圖，創造曲線和有機圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑扭曲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](paths-warp.resources/paths-warp-icon.png "節點圖示")
+![節點圖示](paths-warp.resources/paths-warp-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-根據梯度輸入</b>變形輸入<b>路徑。（與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。）
+根據梯度輸入</b>變形輸入<b>路徑。（與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。）
 
 </td>
 </tr>
@@ -45,8 +45,8 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
-| <b>梯度輸入</b> <i>灰階</i> | 高度狀的輸入控制變形的量與方向。 （與曲速[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果相同。） |
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。 |
+| <b>梯度輸入</b> <i>灰階</i> | 高度狀的輸入控制變形的量與方向。 （與曲速](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)節點的效果[相同。） |
 
 <a name="outputs"></a>
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。 |
+| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。 |
 
 <a name="parameters"></a>
 
@@ -74,11 +74,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="路徑扭曲變體1之後">
+      <img src="paths-warp.resources/paths-warp-03.jpg" alt="路徑扭曲變體1之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-warp.resources/paths-warp-02.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="路徑扭曲變體2之後">
+      <img src="paths-warp.resources/paths-warp-04.jpg" alt="路徑扭曲變體2之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](paths-warp.resources/PathsWarp-Demo1.gif "節點範例 1")
+![節點範例 1](paths-warp.resources/paths-warp-05.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">

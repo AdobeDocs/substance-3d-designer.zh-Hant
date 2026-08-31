@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/lighting-cancel-low-frequencies.html"
 breadcrumb-title: ''
 description: 使用光影取消低頻節點，移除材質提取時的低頻光照變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 燈光抵消低頻
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '59'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](lighting-cancel-low-frequencies.resources/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-01.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -54,7 +54,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-lowfrequencies-example.png" />
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-02.png" />
         </td>
     </tr>
 </table>

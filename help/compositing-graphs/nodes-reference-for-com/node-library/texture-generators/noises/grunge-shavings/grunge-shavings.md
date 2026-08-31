@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: 使用 Grunge Shavings 節點來產生刮鬍圖案，以製作木紋和材質紋理細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 垃圾搖滾刮屑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](grunge-shavings.resources/grungeshavings.jpg){width="200px"}
+![](grunge-shavings.resources/grunge-shavings-01.jpg){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-**Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中的 Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
+**Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中的 [Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
 
 </td>
 </tr>
@@ -60,10 +60,10 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant2.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="grunge-shavings.resources/grungeshavings-variant.jpg" />
+            <img src="grunge-shavings.resources/grunge-shavings-03.jpg" />
         </td>
     </tr>
 </table>

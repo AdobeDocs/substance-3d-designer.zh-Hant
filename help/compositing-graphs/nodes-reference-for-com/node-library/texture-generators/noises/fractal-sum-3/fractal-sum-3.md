@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-3.html"
 breadcrumb-title: ''
 description: 使用 Fractal Sum 3 節點產生帶有三個八度的分形雜訊，以創造有機的紋理圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 分形和 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形和 3 - 圖示](fractal-sum-3.resources/fractal_sum_3.png "分形和 3 - 圖示"){width="200px"}
+![分形和 3 - 圖示](fractal-sum-3.resources/fractal-sum-3-01.png "分形和 3 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形和 3 - 範例 1](fractal-sum-3.resources/fractal_sum_3_1.png "分形和 3 - 範例 1"){zoomable="yes"}
+![分形和 3 - 範例 1](fractal-sum-3.resources/fractal-sum-3-02.png "分形和 3 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形和 3 - 範例 2](fractal-sum-3.resources/noise_fractal_sum_3_v2_speed0.6_aniso0.gif "分形和 3 - 範例 2"){zoomable="yes"}
+![分形和 3 - 範例 2](fractal-sum-3.resources/fractal-sum-3-03.gif "分形和 3 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>

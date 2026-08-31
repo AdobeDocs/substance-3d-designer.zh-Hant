@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/non-uniform-blur.html"
 breadcrumb-title: ''
 description: 使用非均勻模糊節點，在 X 和 Y 方向施加不同強度的模糊，以達到各向異性效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均勻模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-01.png){width="128px"}
 
-![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-02.png){width="128px"}
 
 <b>收錄於：</b> 模糊>濾鏡
 
@@ -67,7 +67,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>下方範例是由模糊貼圖槽中90度的梯度斜坡驅動。</i>
+            <img src="non-uniform-blur.resources/non-uniform-blur-03.gif" /><br><i>下方範例是由模糊貼圖槽中90度的梯度斜坡驅動。</i>
         </td>
     </tr>
 </table>

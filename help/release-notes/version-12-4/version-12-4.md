@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.4 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
@@ -30,49 +30,49 @@ ht-degree: 0%
 
 當你編輯圖表時，有時必須嘗試多種可能性，並反覆切換不同節點直到得到你想要的結果。 最後，圖中有些節點沒有連接到輸出，因此對最終結果沒有影響。 這個新工具能讓你自動偵測並刪除這些節點，以便在完成圖表前先清理它們。 清潔工具也可選擇性地查看參數函式，並可透過圖視圖工具列中的專用按鈕啟動當前圖表，或在檔案總管檢視中選取的圖表啟動。
 
-![](version-12-4.resources/final-clean.gif){width="640px"}
+![](version-12-4.resources/version-12-4-01.gif){width="640px"}
 
 ### 參數欄位中的型別公式
 
 當你想輸入特定參數值時，不再需要用計算機或在腦中計算。 你現在可以在 Properties 及應用程式其他地方設定參數數值時，直接輸入加法、除法、多數或減法等基本公式。
 
-![](version-12-4.resources/final-formula.gif){width="640px"}
+![](version-12-4.resources/version-12-4-02.gif){width="640px"}
 
 ### 3D 視圖中的快速存取按鈕
 
-我們在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中新增了一個工具列，對應顯示選單中[&#128279;](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
+我們在 3D 視圖](../../interface/3d-view/3d-view.md)中新增了一個工具列[，對應顯示選單中[](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
 
-![](version-12-4.resources/final-3dview.gif){width="640px"}
+![](version-12-4.resources/version-12-4-03.gif){width="640px"}
 
 ### 產生隨機種子的按鈕
 
 你現在可以用新按鈕快速產生圖表的隨機種子，而不是移動滑桿。
 
-![](version-12-4.resources/final-seed.gif){width="640px"}
+![](version-12-4.resources/version-12-4-04.gif){width="640px"}
 
 ### 輸出大小元件鎖定
 
 你現在可以鎖定輸出大小的寬度和高度，以確保保持正方形大小，避免每次更新時都手動操作這兩個值。
 
-![](version-12-4.resources/final-lock.gif){width="640px"}
+![](version-12-4.resources/version-12-4-05.gif){width="640px"}
 
 ### 將影像輸入轉換成色彩/灰階
 
 透過節點的情境選單快速切換 [輸入顏色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 和 [輸入灰階](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 。
 
-![](version-12-4.resources/final-switch.gif){width="640px"}
+![](version-12-4.resources/version-12-4-06.gif){width="640px"}
 
 ### 顯示漸層編輯器時，選擇點擊的針腳
 
 在屬性面板中，如果你點擊一個針腳來編輯漸層，現在你會自動在顯示 [的漸層編輯器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)中選擇對應的針腳。
 
-![](version-12-4.resources/final-gradient.gif){width="640px"}
+![](version-12-4.resources/version-12-4-07.gif){width="640px"}
 
 ### 選擇下游節點
 
-節點情境選單[&#128279;](../../interface/the-graph-view/the-graph-view.md)新增條目，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
+節點情境選單](../../interface/the-graph-view/the-graph-view.md)新增條目[，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
 
-![](version-12-4.resources/final-downstream.gif){width="640px"}
+![](version-12-4.resources/version-12-4-08.gif){width="640px"}
 
 ## Python API 更新
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 * [3D 視圖]線框顯示屬性未被儲存
 * [內容]徑向模糊色彩參數不影響 alpha 通道
 * [本地化]額外的滑桿和按鈕會顯示在環境的 OpenGL 屬性中。
-* [MDL]&#x200B;[物質模型]刪除暴露節點時當機
+* [MDL][物質模型]刪除暴露節點時當機
 * [偏好設定]刪除後 Default\_config 檔案永遠不會被重建
 * [物質模型]當機重排序參數在實例層級不會出現
 * [API]SDProperty.getDefaultValue（） 幾乎總是回傳 None

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/baking-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/baking-issues.html"
 breadcrumb-title: ''
 description: 尋找與 Substance 3D Designer 中烘焙貼圖相關技術問題的故障排除步驟。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 烘焙問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -45,7 +45,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![場景樹](baking-issues.resources/sceneTree_objectsName.png "中的幾何物件及其父節點幾何物件及其場景樹中的父節點"){zoomable="yes"}
+![場景樹](baking-issues.resources/baking-issues-01.png "中的幾何物件及其父節點幾何物件及其場景樹中的父節點"){zoomable="yes"}
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
 你可以走兩條路來達到預期的 macthing：
 
 * 調整幾何物件名稱以套用相符的名稱。
-* 可透過專案設定中的「名稱過濾模式」[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)選項，回復到行為或先前的 Designer 版本：
+* 可透過專案設定中的「名稱過濾模式」](../../interface/preferences-window/project-settings/project-settings.md)選項，回復到行為或先前的 Designer 版本[：
   1. 前往編輯>偏好設定>專案
   1. 選擇列表中最後一個專案檔案
   1. 在專案檔案清單下方，選擇「Bakers」標籤

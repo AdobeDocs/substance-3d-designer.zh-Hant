@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 14.1 版本的發行說明，了解節點排列工具以及新的樣條線與路徑節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -24,22 +24,22 @@ ht-degree: 0%
 
 *發行日期：2025年1月14日*
 
-![樣條上的散射樣條](version-14-1.resources/fond.png)
+![樣條上的散射樣條](version-14-1.resources/version-14-1-01.png)
 
 ## 樣條與路徑更新
 
-樣條線和路徑節點是在 13.0 版本中引入的，感謝你的回饋，我們已經做了初步的改進。 首先，我們新增了 [散佈樣條](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) 條節點上的散佈樣條，它將樣條線分布在父樣條線上，提供類似一般散佈節點的選項。 此外， [遮罩](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 路徑節點也被強化，能更好地控制路徑上第一個頂點的位置。 我們也讓 Spline Bridge List[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) 節點能引入隨機性。
+樣條線和路徑節點是在 13.0 版本中引入的，感謝你的回饋，我們已經做了初步的改進。 首先，我們新增了 [散佈樣條](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-splines-splines/scatter-splines-on-splines.md) 條節點上的散佈樣條，它將樣條線分布在父樣條線上，提供類似一般散佈節點的選項。 此外， [遮罩](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 路徑節點也被強化，能更好地控制路徑上第一個頂點的位置。 我們也讓 Spline Bridge List](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md) 節點能引入隨機性[。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![散點樣條曲線動畫 1](version-14-1.resources/spline1.gif){zoomable="yes"}
+![散點樣條曲線動畫 1](version-14-1.resources/version-14-1-02.gif){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲線2上的散射樣條](version-14-1.resources/spline2.gif){zoomable="yes"}
+![樣條曲線2上的散射樣條](version-14-1.resources/version-14-1-03.gif){zoomable="yes"}
 
 </td>
 </tr>
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 如果你很想保持圖表乾淨易讀，節點 [對齊工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md) 就是為你量身打造，並且已經徹底重新設計！ 現在可以將節點均勻排列（水平或垂直），且對齊節點可透過整齊堆疊避免重疊。 更棒的是：這兩個功能都考慮到節點的實際大小！
 
-![對齊節點](version-14-1.resources/alignment.gif){zoomable="yes"}
+![對齊節點](version-14-1.resources/version-14-1-04.gif){zoomable="yes"}
 
 ## 複製/貼上參數
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 2D 視圖中的新 [色彩取樣器工具](../../interface/2d-view/color-sampler/color-sampler.md) 允許你透過在像素上放置一個針腳來追蹤該像素的數值。 這對於確保你在圖中多個節點上看到同一像素的資訊非常有用。 打開資訊面板來存取這個工具，試試看吧！
 
-![色彩取樣器：使用 工具](version-14-1.resources/color-sampler-demo.gif "色彩取樣器：使用 工具"){width="640px" zoomable="yes"}
+![色彩取樣器：使用 工具](version-14-1.resources/version-14-1-05.gif "色彩取樣器：使用 工具"){width="640px" zoomable="yes"}
 
 ## 搜尋改進
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 * 啟用節點尋找工具時，焦點會自動設定在搜尋欄位上;
 * 工具列的佈局也經過重新設計以節省空間。
 
-![搜尋工具列](version-14-1.resources/search-53.png){width="640px"}
+![搜尋工具列](version-14-1.resources/version-14-1-06.png){width="640px"}
 
 ## 影片
 
@@ -78,12 +78,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![視頻散射樣條在樣條上](version-14-1.resources/video_spline.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
+[![視頻散射樣條在樣條上](version-14-1.resources/version-14-1-07.png)](https://www.youtube.com/watch?v=aUUWV1dYQdI)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![影片使用者體驗功能](version-14-1.resources/video_ux.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
+[![影片使用者體驗功能](version-14-1.resources/version-14-1-08.png)](https://www.youtube.com/watch?v=LwexybAEjaI)
 
 </td>
 </tr>
@@ -145,8 +145,8 @@ ht-degree: 0%
 * [資料]在特定情況下更改圖形輸入識別碼時會當機
 * [函數圖]長值在「浮點」節點上重疊
 * [特效地圖]顯示象限節點屬性時當機
-* [圖表]&#x200B;[UDIM]在 UDIM 列表中有滾動條會產生 1..1 1..2 條目
-* [圖]&#x200B;[捷徑]使用捷徑建立的節點在節點複製後不會被放置在現有連結上
+* [圖表][UDIM]在 UDIM 列表中有滾動條會產生 1..1 1..2 條目
+* [圖][捷徑]使用捷徑建立的節點在節點複製後不會被放置在現有連結上
 * [屬性]當值無效時參數顯示錯誤
 * [發佈]互惠相依關係在發佈套件時會形成無限迴圈
 * [發佈]在未載入相依的套件上使用「發佈」動作時，發生無聲失敗

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugin-manager.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-manager.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的插件管理器來安裝、管理及設定 Python 插件以擴充功能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <b>插件管理員</b>對話框可從<b></b>主選單列的工具選單進入。它讓你可以看到哪些插件是 *啟用*&#x200B;的，也能 *載入和卸載* 插件。
 
-![插件管理器](plugin-manager.resources/pluginmgr.png "插件管理器")
+![插件管理器](plugin-manager.resources/plugin-manager-01.png "插件管理器")
 
 也可&#x200B;*手動*&#x200B;載入外掛，透過瀏覽<b></b>按鈕選擇 Python 檔案。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/channel-mixer.html"
 breadcrumb-title: ''
 description: 使用 Channel Mixer 節點來混合色彩通道，創造色彩效果並轉換色彩空間。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 頻道混音器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '120'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](channel-mixer.resources/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer-01.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="channel-mixer.resources/channelmixer.gif" />
+            <img src="channel-mixer.resources/channel-mixer-02.gif" />
         </td>
     </tr>
 </table>

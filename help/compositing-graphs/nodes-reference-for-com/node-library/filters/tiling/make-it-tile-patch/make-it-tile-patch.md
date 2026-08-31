@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/tiling/make-it-tile-patch.html"
 breadcrumb-title: ''
 description: 使用 Make It Tile Patch 節點，從輸入圖片中修補並建立無縫的平鋪貼圖。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 讓它成為瓦片補丁
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](make-it-tile-patch.resources/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](make-it-tile-patch.resources/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
 <b>收錄於：</b> 濾波器>平鋪
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="make-it-tile-patch.resources/patch-ex.gif" />
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
         </td>
     </tr>
 </table>

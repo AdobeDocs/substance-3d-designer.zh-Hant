@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: 使用「從底到頂」節點，根據網格世界位置產生從底部到頂部的漸層遮罩。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 從底部到頂部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](bottom-to-top.resources/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
 <b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 說明
 
-根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
+根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
 
 這會產生從模型底部到頂部的白轉黑過渡，對於基於幾何的衰減與選擇非常有用。
 
@@ -66,7 +66,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="bottom-to-top.resources/bottom-to-top-ex.gif" />
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
         </td>
     </tr>
 </table>

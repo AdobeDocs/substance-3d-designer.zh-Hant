@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: 學習如何將 Substance 合成圖表匯出為 PSD 檔案，供 Adobe Photoshop 及其他影像編輯工作流程使用。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 匯出 PSD 檔案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 0%
@@ -26,13 +26,13 @@ Substance 3D Designer 允許將材質匯出至 Adobe Photoshop 文件或 PSD 檔
 
 ## PSD 匯出對話框
 
-PSD 匯出對話框只能透過一種方式開啟。 在[你想匯出成 PSD 的圖的圖中](../../interface/the-graph-view/the-graph-view.md)，點選![](exporting-psd-files.resources/image2019-9-17-14-44-17.png)<b>工具</b>按鈕並選擇 <b>PSD 匯出器</b>。介面會在圖視圖</b>中<b>顯示。
+PSD 匯出對話框只能透過一種方式開啟。 在[你想匯出成 PSD 的圖的圖中](../../interface/the-graph-view/the-graph-view.md)，點選![](exporting-psd-files.resources/exporting-psd-files-01.png)<b>工具</b>按鈕並選擇 <b>PSD 匯出器</b>。介面會在圖視圖</b>中<b>顯示。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![PSD 匯出器使用者介面](exporting-psd-files.resources/psd-dialog.png "PSD 匯出器使用者介面")
+![PSD 匯出器使用者介面](exporting-psd-files.resources/exporting-psd-files-02.png "PSD 匯出器使用者介面")
 
 </td>
 <td style="border: 0;" valign="top">

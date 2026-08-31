@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-3.html"
 breadcrumb-title: ''
 description: 使用 Gradient Linear 3 節點來建立進階線性漸層，並強化控制以實現平滑的色彩過渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度線性 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-3.resources/gradient3.png)
+![](gradient-linear-3.resources/gradient-linear-3-01.png)
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 說明
 
-最先進的線性梯度。 與 Linear Gradient 2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md) 那種圓潤、管狀輪廓不同，這個節點回傳了一個銳利筆直的斜坡，並且對中點提供了額外的控制。
+最先進的線性梯度。 與 Linear Gradient 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md) 那種圓潤、管狀輪廓[不同，這個節點回傳了一個銳利筆直的斜坡，並且對中點提供了額外的控制。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-3.resources/gradient3-ex.gif" />
+            <img src="gradient-linear-3.resources/gradient-linear-3-02.gif" />
         </td>
     </tr>
 </table>

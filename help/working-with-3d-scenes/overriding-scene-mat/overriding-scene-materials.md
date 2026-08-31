@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
 breadcrumb-title: ''
 description: 在 3D 場景中覆寫現有材質，並用你自己的 Substance 材質來測試和預覽。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 覆蓋場景素材
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 你的材質可以從零開始建立，也可以是經過調整的場景材質，再 [提取成物質圖](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)。
 
-![覆寫場景材質、微調並將其重置到場景狀態](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "覆寫場景材質、微調並將其重置為場景狀態"){zoomable="yes"}
+![覆寫場景材質、微調並將其重置到場景狀態](overriding-scene-materials.resources/overriding-scene-materials-01.gif "覆寫場景材質、微調並將其重置為場景狀態"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -59,14 +59,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![覆寫材質 - 「3D 視圖」視窗](overriding-scene-materials.resources/overrideMaterialActionViewport.png "中的動作 覆蓋材質 - 「3D 視圖」視窗中的動作"){zoomable="yes"}
+![覆寫材質 - 「3D 視圖」視窗](overriding-scene-materials.resources/overriding-scene-materials-02.png "中的動作 覆蓋材質 - 「3D 視圖」視窗中的動作"){zoomable="yes"}
 
 *3D 視角中的動作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![覆蓋材料 - 「材料」選單中的動作 覆寫材料 - 「材料」選單](overriding-scene-materials.resources/overrideMaterialActionMaterials.png "中的動作"){zoomable="yes"}
+![覆蓋材料 - 「材料」選單中的動作 覆寫材料 - 「材料」選單](overriding-scene-materials.resources/overriding-scene-materials-03.png "中的動作"){zoomable="yes"}
 
 *材料選單中的動作*
 
@@ -119,21 +119,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![將材質重置為場景狀態 - 在「3D VIew」視窗](overriding-scene-materials.resources/resetMaterialToSceneStateActionViewport.png "中執行動作 將材質重置為場景狀態 - 在「3D VIew」視窗中操作"){zoomable="yes"}
+![將材質重置為場景狀態 - 在「3D VIew」視窗](overriding-scene-materials.resources/overriding-scene-materials-04.png "中執行動作 將材質重置為場景狀態 - 在「3D VIew」視窗中操作"){zoomable="yes"}
 
 *3D 視角中的動作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![將材質重置為場景狀態 - 在「材質」選單](overriding-scene-materials.resources/resetMaterialToSceneStateActionMaterials.png "中的動作 將材質重置為場景狀態 - 在「材質」選單中操作"){zoomable="yes"}
+![將材質重置為場景狀態 - 在「材質」選單](overriding-scene-materials.resources/overriding-scene-materials-05.png "中的動作 將材質重置為場景狀態 - 在「材質」選單中操作"){zoomable="yes"}
 
 *材料選單中的動作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![將材質重置為場景狀態 - 在「屬性」底座](overriding-scene-materials.resources/resetMaterialToSceneStateActionProps.png "中的動作 將材質重置為場景狀態 - 在「屬性」底座中執行動作"){zoomable="yes"}
+![將材質重置為場景狀態 - 在「屬性」底座](overriding-scene-materials.resources/overriding-scene-materials-06.png "中的動作 將材質重置為場景狀態 - 在「屬性」底座中執行動作"){zoomable="yes"}
 
 *材料性質的作用*
 
@@ -152,7 +152,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![重置到場景狀態 - 材質屬性](overriding-scene-materials.resources/resetPropertyToSceneStateAction.png "中的動作 重置場景狀態 - 材質屬性中的動作"){zoomable="yes"}
+![重置到場景狀態 - 材質屬性](overriding-scene-materials.resources/overriding-scene-materials-07.png "中的動作 重置場景狀態 - 材質屬性中的動作"){zoomable="yes"}
 
 </td>
 </tr>
@@ -166,10 +166,10 @@ ht-degree: 0%
 
 這是 *一組不同的* 資料，僅在 Designer 中撰寫和管理。 這些材質接著 *與複製品連結，複製品* 會覆蓋場景的原始素材。
 
-![覆蓋材料 - 資料示意圖](overriding-scene-materials.resources/overridingMaterialsSchematic.png "覆蓋材料 - 資料示意圖"){zoomable="yes"}
+![覆蓋材料 - 資料示意圖](overriding-scene-materials.resources/overriding-scene-materials-08.png "覆蓋材料 - 資料示意圖"){zoomable="yes"}
 
 你可以將「材質」選單中列出的任何材質連接到場景中由 Designer 建立的複製品：在場景瀏覽器點擊 RMB 複製品，然後進入「連接材質」子選單。
 
 子選單列出場景中的所有材質，以及你可能從「材質」選單手動製作的材質。
 
-![連結材料](overriding-scene-materials.resources/connectMaterials.gif "連結材料 連結"){zoomable="yes"}
+![連結材料](overriding-scene-materials.resources/overriding-scene-materials-09.gif "連結材料 連結"){zoomable="yes"}

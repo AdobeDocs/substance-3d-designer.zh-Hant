@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
 breadcrumb-title: ''
 description: 使用 Messy Fibers 3 節點生成複雜的纖維圖案，創造布料與紡織質感效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混亂纖維 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![混亂的纖維 3 - 圖示](messy-fibers-3.resources/messy_fibers_3.png "混亂的纖維 3 - 圖示"){width="200px"}
+![混亂的纖維 3 - 圖示](messy-fibers-3.resources/messy-fibers-3-01.png "混亂的纖維 3 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -72,12 +72,12 @@ Messy 纖維</b>結構噪音的變體<b>。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![混亂纖維3 - 範例1](messy-fibers-3.resources/messy_fibers_3_1.png "混亂纖維3 - 範例1"){zoomable="yes"}
+![混亂纖維3 - 範例1](messy-fibers-3.resources/messy-fibers-3-02.png "混亂纖維3 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![混亂纖維3 - 範例2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "混亂纖維3 - 範例2"){zoomable="yes"}
+![混亂纖維3 - 範例2](messy-fibers-3.resources/messy-fibers-3-03.gif "混亂纖維3 - 範例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ Messy 纖維</b>結構噪音的變體<b>。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雜亂纖維3 - 範例3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "雜亂纖維3 - 範例3"){zoomable="yes"}
+![雜亂纖維3 - 範例3](messy-fibers-3.resources/messy-fibers-3-04.gif "雜亂纖維3 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![混亂纖維3 - 範例4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "混亂纖維3 - 範例4"){zoomable="yes"}
+![混亂纖維3 - 範例4](messy-fibers-3.resources/messy-fibers-3-05.gif "混亂纖維3 - 範例4"){zoomable="yes"}
 
 </td>
 </tr>

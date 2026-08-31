@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/multi-directional-warp.html"
 breadcrumb-title: ''
 description: 使用多方向扭曲節點，在多個方向上套用扭曲效果，創造複雜的失真圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 多向曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](multi-directional-warp.resources/multi-directional-warp-color.png)![](multi-directional-warp.resources/multi-directional-warp-grayscalepng.png)
+![](multi-directional-warp.resources/multi-directional-warp-01.png)![](multi-directional-warp.resources/multi-directional-warp-02.png)
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 說明
 
-多向扭曲會多次以相反方向套用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)方向扭曲，而移位的材質保持原位。它與標準的方向曲速不同之處在於，它能向多個方向推進，而原子版本只能推動一個方向。 這樣一來，它解決了經典的問題：方向扭曲總是會把影像推得太遠，而是沿著多個方向或軸線運作，而不是單一方向。
+多向扭曲會多次以相反方向套用[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)方向扭曲，而移位的材質保持原位。它與標準的方向曲速不同之處在於，它能向多個方向推進，而原子版本只能推動一個方向。 這樣一來，它解決了經典的問題：方向扭曲總是會把影像推得太遠，而是沿著多個方向或軸線運作，而不是單一方向。
 
 它與 [非均勻方向曲速](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/non-uniform-directional/non-uniform-directional-warp.md) 的主要不同在於其稍微受限：曲速的方向僅透過參數控制，無法透過輸入映射設定。 優點是它稍微容易使用，且根據你的使用情境可以更精準。
 

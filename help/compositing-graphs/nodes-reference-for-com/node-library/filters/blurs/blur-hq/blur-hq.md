@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: 使用 Blur HQ 節點對材質施加高品質模糊效果，創造流暢且專業的模糊效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 模糊總部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 6%
@@ -24,9 +24,9 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](blur-hq.resources/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-01.png){width="128px"}
 
-![](blur-hq.resources/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-02.png){width="128px"}
 
 <b>收錄於：</b> 模糊>濾鏡
 
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## 說明
 
-對結果進行高品質高斯模糊處理。 品質比 [標準的原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [好多了。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+對結果進行高品質高斯模糊處理。 品質比 [標準的原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[好多了。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 重要：務必使用適合你輸入的版本！ 用「Blur HQ」來輸入顏色，或用「Blur HQ Grayscale」來輸入灰階。
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="blur-hq.resources/hqblur-example.gif" />
+            <img src="blur-hq.resources/blur-hq-03.gif" />
         </td>
     </tr>
 </table>

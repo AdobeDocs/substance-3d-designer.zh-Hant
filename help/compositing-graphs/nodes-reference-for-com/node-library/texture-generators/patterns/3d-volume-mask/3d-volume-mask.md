@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/3d-volume-mask.html"
 breadcrumb-title: ''
 description: 使用 3D 體積遮罩節點，根據 3D 位置建立體積遮罩，以達到進階材質效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 體積遮罩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3dvolumemask.png){width="256px"}
+![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
 
 <b>收錄於：</b> Generator > Pattern
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 | <b>形狀</b> <i>整數</i> | 應表示的基本形狀：<br><br>立 *方*<br>&#x200B;體 - *圓柱*<br>&#x200B;體 - *球體* |
 | <b>規模</b> <i>浮標</i> | 定義&#x200B;*了原件的全域*&#x200B;尺度，並均勻地應用&#x200B;**&#x200B;於所有軸上。 |
 | <b>規模</b> <i>Float3</i> | 定義形狀在每個軸上的大小。 |
-| <b>位置輸入</b> <i>整數</i> | 透過 Position 輸入表示空間&#x200B;*的方法：<br><br>-* UV 位置&#x200B;*：使用* UV 貼圖&#x200B;*。**&#x200B;*** X/Y（U/V）座標分別映射到R/G通道。 Z軸假設為 *正交的前向* 向量。<br>- *世界空間位置*：使用 *位置映射* 將原件映射到三維空間中。 X/Y/Z 座標分別映射到 R/G/B 通道。 |
+| <b>位置輸入</b> <i>整數</i> | 透過 Position 輸入表示空間&#x200B;*的方法：<br><br>-* UV 位置&#x200B;*：使用* UV 貼圖&#x200B;*。***** X/Y（U/V）座標分別映射到R/G通道。 Z軸假設為 *正交的前向* 向量。<br>- *世界空間位置*：使用 *位置映射* 將原件映射到三維空間中。 X/Y/Z 座標分別映射到 R/G/B 通道。 |
 | <b>位置 UV</b> <i>Float2</i> | 圖元在 UV 空間中的位置。<br><br>*注意：此參數僅在 Position Input **參數設為*UV Position *時可用***。 |
 | <b>職位</b> <i>Float3</i> | 圖元在世界空間中的位置。<br><br>*注意：此參數僅在 Position Input **參數設為*世界空間位置&#x200B;*時可用***。 |
 | <b>旋轉</b> <i>Float3</i> | 定義了圖形在世界空間中的旋轉。 |
@@ -67,16 +67,16 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant2.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant3.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3dvolumemask-variant4.jpg" />
+            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
         </td>
     </tr>
 </table>

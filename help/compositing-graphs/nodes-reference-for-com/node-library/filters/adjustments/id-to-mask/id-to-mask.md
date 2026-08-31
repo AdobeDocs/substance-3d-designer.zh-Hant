@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/id-to-mask.html"
 breadcrumb-title: ''
 description: 使用 ID To Mask Grayscale 節點，將 ID 映射值轉換成灰階遮罩以便選擇材質。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: ID 以掩蓋灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ID 以遮罩灰階圖示](id-to-mask.resources/IDToMask.png "ID 以遮罩灰階圖示 ID 以遮罩灰階圖示"){width="200px"}
+![ID 以遮罩灰階圖示](id-to-mask.resources/id-to-mask-01.png "ID 以遮罩灰階圖示 ID 以遮罩灰階圖示"){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -72,11 +72,11 @@ ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁�
 <table>
   <tr>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="id-to-mask.resources/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -86,12 +86,12 @@ ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID 對掩碼：範例 2](id-to-mask.resources/id_to_mask_example_2.gif "ID 對掩碼：範例 2"){zoomable="yes"}
+![ID 對掩碼：範例 2](id-to-mask.resources/id-to-mask-04.gif "ID 對掩碼：範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID 對遮罩：範例 3](id-to-mask.resources/id_to_mask_example_3.png "ID 對遮罩：範例 3"){zoomable="yes"}
+![ID 對遮罩：範例 3](id-to-mask.resources/id-to-mask-05.png "ID 對遮罩：範例 3"){zoomable="yes"}
 
 </td>
 </tr>

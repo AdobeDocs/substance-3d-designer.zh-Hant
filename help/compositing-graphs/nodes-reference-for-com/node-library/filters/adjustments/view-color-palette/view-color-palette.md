@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/view-color-palette.html"
 breadcrumb-title: ''
 description: 使用「檢視色彩調色盤」節點來視覺化從材質擷取的色彩調色盤資料以供分析。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 查看色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](view-color-palette.resources/ViewColorPalette.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](view-color-palette.resources/view-color-palette-01.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![檢視色彩調色盤：範例1](view-color-palette.resources/view_color_palette_example_1.png "查看色彩調色盤：範例1"){zoomable="yes"}
+![檢視色彩調色盤：範例1](view-color-palette.resources/view-color-palette-02.png "查看色彩調色盤：範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![查看色彩調色盤：範例2](view-color-palette.resources/view_color_palette_example_2.png "查看色彩調色盤：範例2"){zoomable="yes"}
+![查看色彩調色盤：範例2](view-color-palette.resources/view-color-palette-03.png "查看色彩調色盤：範例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![檢視色彩調色盤：範例 3](view-color-palette.resources/view_color_palette_example_3.png "查看色彩調色盤：範例 3"){zoomable="yes"}
+![檢視色彩調色盤：範例 3](view-color-palette.resources/view-color-palette-04.png "查看色彩調色盤：範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![查看色彩調色盤：範例 4](view-color-palette.resources/view_color_palette_example_4.png "查看色彩調色盤：範例 4"){zoomable="yes"}
+![查看色彩調色盤：範例 4](view-color-palette.resources/view-color-palette-05.png "查看色彩調色盤：範例 4"){zoomable="yes"}
 
 </td>
 </tr>

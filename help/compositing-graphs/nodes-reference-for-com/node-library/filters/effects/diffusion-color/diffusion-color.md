@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-color.html"
 breadcrumb-title: ''
 description: 使用擴散色彩節點來套用色彩擴散效果，創造平滑的色彩混合與過渡效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 擴散色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-color.resources/diffusion-color-icon.png){width="200px"}
+![](diffusion-color.resources/diffusion-color-01.png){width="200px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-根據提供的&#x200B;**遮罩**&#x200B;影像輸入，對來源&#x200B;**影像輸入的顏色施加擴散處理，使用Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html)時，**&#x200B;能創造平滑的色彩漸層。
+根據提供的&#x200B;**遮罩**&#x200B;影像輸入，對來源&#x200B;**影像輸入的顏色施加擴散處理，使用Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)時，**&#x200B;能創造平滑的色彩[漸層。
 
 只有與遮罩相符的像素顏色會被擴散;其他像素不參與結果。
 
@@ -68,32 +68,32 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02-before.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02a-after.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-03.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-02b-after.jpg" />
-        </td>
-    </tr>
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-01-before.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01b-after-1.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-uv-01a-after-1.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-04.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-05.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-color.resources/diffusion-color-normal-render.jpg" />
+            <img src="diffusion-color.resources/diffusion-color-06.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-07.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-08.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-color.resources/diffusion-color-09.jpg" />
         </td>
     </tr>
 </table>

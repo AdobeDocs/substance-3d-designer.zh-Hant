@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-linear-hdri.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-linear-hdri.html"
 breadcrumb-title: ''
 description: 使用 Gradient Linear HDRI 節點在 HDRI 環境中建立線性漸層，以滿足自訂光線設定的需求。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漸變線性（HDRI）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-hdri.resources/gradient-linear.png){width="200px"}
+![](gradient-linear-hdri.resources/gradient-linear-hdri-01.png){width="200px"}
 
 <b>收錄於：</b> HDRI 工具> 3D 視圖
 
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-hdri.resources/gradient-ex1.gif" />
+            <img src="gradient-linear-hdri.resources/gradient-linear-hdri-02.gif" />
         </td>
     </tr>
 </table>

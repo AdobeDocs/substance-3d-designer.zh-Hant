@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/sampler-nodes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 功能圖中存取取樣節點，取樣貼圖並提取色彩值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取樣器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 取樣節點
 
-![取樣節點取](sampler-nodes.resources/image2016-1-12-14-45-43.png "樣器節點")
+![取樣節點取](sampler-nodes.resources/sampler-nodes-01.png "樣器節點")
 
 這些節點會在輸入影像中取樣給定的二維座標：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![像素座標](sampler-nodes.resources/samplercoords.png "像素座標")
+![像素座標](sampler-nodes.resources/sampler-nodes-02.png "像素座標")
 
 </td>
 </tr>

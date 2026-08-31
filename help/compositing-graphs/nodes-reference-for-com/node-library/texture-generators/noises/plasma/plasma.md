@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/plasma.html"
 breadcrumb-title: ''
 description: 利用等離子節點產生類似等離子的噪音模式，創造有機且流動的紋理效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 等離子體
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '88'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](plasma.resources/plasma.png){width="128px"}
+![](plasma.resources/plasma-01.png){width="128px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 說明
 
-這會產生稍微不同的高斯雜訊[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)變體，帶有較長的暗條作為谷。它也有類似的距離控制來維持平鋪。
+這會產生稍微不同的高斯雜訊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)變體[，帶有較長的暗條作為谷。它也有類似的距離控制來維持平鋪。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="plasma.resources/plasma-ex.gif" />
+            <img src="plasma.resources/plasma-02.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-2.html"
 breadcrumb-title: ''
 description: 使用 Dirt 2 節點來產生基本的泥土圖案，用來製作風化表面細節和累積效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 泥土2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Dirt 2 - 圖示 Dirt](dirt-2.resources/dirt_2.png "2 - Icon"){width="200px"}
+![Dirt 2 - 圖示 Dirt](dirt-2.resources/dirt-2-01.png "2 - Icon"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 這是顆粒 <b>感十足的 Dirt</b> 聲音的變奏。
 
-另見：[Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md)、[Dirt 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md)、[Dirt 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md)、[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-gradient/dirt-gradient.md)Dirt 5、[Dirt 漸](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)變
+另見：[Dirt 1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md)、[Dirt 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md)、[Dirt 4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md)、[Dirt 5、[Dirt 漸](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)變](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-gradient/dirt-gradient.md)
 
 </td>
 </tr>
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土2 - 範例1](dirt-2.resources/dirt_2_1.png "泥土2 - 範例1"){zoomable="yes"}
+![泥土2 - 範例1](dirt-2.resources/dirt-2-02.png "泥土2 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![泥土2 - 範例2](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso0.gif "泥土2 - 範例2"){zoomable="yes"}
+![泥土2 - 範例2](dirt-2.resources/dirt-2-03.gif "泥土2 - 範例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土2 - 範例3](dirt-2.resources/noise_dirt_2_v2_speed0.6_aniso1.gif "泥土2 - 範例3"){zoomable="yes"}
+![泥土2 - 範例3](dirt-2.resources/dirt-2-04.gif "泥土2 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 2 - 範例 4](dirt-2.resources/noise_dirt_2_v2_speed0.3_aniso0.6.gif "Dirt 2 - 範例 4"){zoomable="yes"}
+![Dirt 2 - 範例 4](dirt-2.resources/dirt-2-05.gif "Dirt 2 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

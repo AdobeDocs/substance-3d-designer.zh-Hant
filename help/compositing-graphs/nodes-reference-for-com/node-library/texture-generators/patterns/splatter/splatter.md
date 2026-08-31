@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/splatter.html"
 breadcrumb-title: ''
 description: 使用濺射節點將形狀散布到貼圖中，創造隨機圖案和有機貼圖細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 濺射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](splatter.resources/splatter.png)
+![](splatter.resources/splatter-01.png)
 
-![](splatter.resources/splatter-color.png)
+![](splatter.resources/splatter-02.png)
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -35,7 +35,7 @@ ht-degree: 9%
 
 ## 說明
 
-Splatter 是一種設計用於隨機放置地圖輸入的圖案產生器。 它有許多幾何圖案放置的控制，使用比圖塊產生器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)更簡單。後者也能達到類似的效果，但複雜得多。
+Splatter 是一種設計用於隨機放置地圖輸入的圖案產生器。 它有許多幾何圖案放置的控制，使用比圖塊產生器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)更[簡單。後者也能達到類似的效果，但複雜得多。
 
 Splatter 很適合快速壓印某些形狀，不需要太多調整。
 
@@ -77,7 +77,7 @@ Splatter 很適合快速壓印某些形狀，不需要太多調整。
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="splatter.resources/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-03.gif" />
         </td>
     </tr>
 </table>

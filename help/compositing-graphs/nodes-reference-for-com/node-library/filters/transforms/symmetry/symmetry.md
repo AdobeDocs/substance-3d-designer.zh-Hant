@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/symmetry.html"
 breadcrumb-title: ''
 description: 利用對稱節點透過鏡像紋理沿著指定軸線來建立對稱圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 對稱性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](symmetry.resources/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
 <b>收錄於：</b> 《濾波器>轉換》
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 對輸入影像執行多種對稱操作。 可以用來使幾何形狀對稱。
 
-這個節點和 Mirror[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) 非常相似，但有額外的混合模式控制。
+這個節點和 Mirror](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) 非常相似[，但有額外的混合模式控制。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="symmetry.resources/symmetry-ex.png" />
+            <img src="symmetry.resources/symmetry-02.png" />
         </td>
     </tr>
 </table>

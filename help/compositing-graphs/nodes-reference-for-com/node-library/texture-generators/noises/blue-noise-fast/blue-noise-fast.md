@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: 使用 Blue Noise Fast 節點產生快速藍噪點樣，創造高品質的紋理抖動與變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 藍噪音快訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](blue-noise-fast.resources/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise-fast-01.png){width="128px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="blue-noise-fast.resources/blue-noise-ex.gif" />
+            <img src="blue-noise-fast.resources/blue-noise-fast-02.gif" />
         </td>
     </tr>
 </table>

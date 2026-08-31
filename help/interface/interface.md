@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的工作區介面，包括檢視、面板與自訂選項。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作空間
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 9505c371dff25c5d32a409abf76b95655b499571
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 這是 Designer 預設的底座配置：
 
-![Substance 3D Designer 主視窗](interface.resources/interface-overview.jpg "Substance 3D Designer 主視窗")
+![Substance 3D Designer 主視窗](interface.resources/interface-01.jpg "Substance 3D Designer 主視窗")
 
 <table>
 <tr style="border: 0;">
@@ -73,7 +73,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![主選單與工具列](interface.resources/mainmenu-1.png "主選單與工具列")
+![主選單與工具列](interface.resources/interface-02.png "主選單與工具列")
 
 </td>
 </tr>
@@ -89,34 +89,34 @@ ht-degree: 0%
 
 [檔案總管視窗](the-explorer-window/the-explorer-window.md) 是與任何檔案和資源互動的主要方式。 它提供的選項比主工具列的檔案選單還多，這裡是每次工作工作階段的開始和結束。
 
-![探險家](interface.resources/explorer-4.png "探險者")
+![探險家](interface.resources/interface-03.png "探險者")
 
 ## 圖視圖
 
-[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[&#x200B; 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
+[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[ 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
 
-![圖視圖](interface.resources/graph-6.png "圖視圖")
+![圖視圖](interface.resources/interface-04.png "圖視圖")
 
 ## 屬性
 
 [物業碼頭](properties/properties.md)是最技術性的窗口。它始終具上下文敏感性，會呈現滑桿、下拉選單及其他改變所選資源或節點行為的元素。
 
-![性質](interface.resources/properties-15.jpg "性質")
+![性質](interface.resources/interface-05.jpg "性質")
 
 ## 2D 視角
 
 [2D 檢視](../interface/2d-view/2d-view.md) 是最簡單的預覽工具。 它與圖形緊密結合：雙擊圖形檢視中任一節點，會將視覺結果顯示到二維檢視中。
 
-![2D 視圖](interface.resources/2d-view-1.jpg "2D 視圖")
+![2D 視圖](interface.resources/interface-06.jpg "2D 視圖")
 
 ## 3D 檢視
 
 [3D 視圖](../interface/3d-view/3d-view.md) 是最互動且最先進的預覽視窗。 與 2D View 不同，它使用多種不同的輸出貼圖來渲染完整材質。 這表示你會看到所有通道，例如基色、法線和粗糙度。
 
-![3D 視圖](interface.resources/3dview-3.jpg "3D 視圖")
+![3D 視圖](interface.resources/interface-07.jpg "3D 視圖")
 
 ## 圖書館
 
 [Library 底座](../interface/the-library/the-library.md) 預設提供 Designer 函式庫中所有內容的存取權，以及你的 [自訂內容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。
 
-![圖書館圖書館](interface.resources/library-3.jpg "")
+![圖書館圖書館](interface.resources/interface-08.jpg "")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-quadratic.html"
 breadcrumb-title: ''
 description: 使用 Spline Quadratic 節點來製作帶有三個控制點的平滑二次樣條。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條曲線（二次曲線）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：圖示](spline-quadratic.resources/spline-quadratic-icon.png "樣條曲線（二次曲線）：符號")
+![樣條曲線（二次曲線）：圖示](spline-quadratic.resources/spline-quadratic-01.png "樣條曲線（二次曲線）：符號")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條（二次）：範例 1](spline-quadratic.resources/spline-quadratic-example-1.png "樣條（二次）：範例 1"){zoomable="yes"}
+![樣條（二次）：範例 1](spline-quadratic.resources/spline-quadratic-02.png "樣條（二次）：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：範例 2](spline-quadratic.resources/spline-quadratic-example-2.png "樣條曲線（二次曲線）：範例 2"){zoomable="yes"}
+![樣條曲線（二次曲線）：範例 2](spline-quadratic.resources/spline-quadratic-03.png "樣條曲線（二次曲線）：範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：示範](spline-quadratic.resources/spline-quadratic-demo.gif "樣條曲線（二次曲線）：範例曲線"){zoomable="yes"}
+![樣條曲線（二次曲線）：示範](spline-quadratic.resources/spline-quadratic-04.gif "樣條曲線（二次曲線）：範例曲線"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

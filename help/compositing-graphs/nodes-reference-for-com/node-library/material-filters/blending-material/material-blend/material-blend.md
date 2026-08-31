@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-blend.html"
 breadcrumb-title: ''
 description: 使用 Material Blend 節點，利用遮罩將整個材質混合在一起，創造複合材質效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材料混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-blend.resources/material-blend.png){width="128px"}
+![](material-blend.resources/material-blend-01.png){width="128px"}
 
 <b>收錄於：</b> 材料過濾器>混合
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 說明
 
-Material Blend 是多通道、全材質的原子混合節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)等價物。它會在兩個完整材質（可能的通道）之間混合，這些材質基於灰階遮罩，或是可選地基於 Color ID 遮罩中的單一顏色。
+Material Blend 是多通道、全材質的原子混合節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)等價[物。它會在兩個完整材質（可能的通道）之間混合，這些材質基於灰階遮罩，或是可選地基於 Color ID 遮罩中的單一顏色。
 
 如果你想混合兩個材質，並且有灰階貼圖但沒有完整的 Color ID 烘焙，這個節點很有用。 如果你有 Color ID 烘焙，想要混合超過兩種材質，我們建議你使用 [Multi-Material Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/multi-material-blend/multi-material-blend.md)。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-list.html"
 breadcrumb-title: ''
 description: 使用 Spline Bridge List 節點來橋接列表中多個樣條紋的紋理，以處理複雜圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 花鍵橋（列表）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-bridge-list.resources/spline-bridge-list-icon.png "節點圖示")
+![節點圖示](spline-bridge-list.resources/spline-bridge-list-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="花鍵橋List_Variant1_Before">
+      <img src="spline-bridge-list.resources/spline-bridge-list-02.jpg" alt="花鍵橋List_Variant1_Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="樣條橋-List_Variant1_After">
+      <img src="spline-bridge-list.resources/spline-bridge-list-03.jpg" alt="樣條橋-List_Variant1_After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "節點範例 2")
+![節點範例 2](spline-bridge-list.resources/spline-bridge-list-04.gif "節點範例 2")
 
 </td>
 </tr>
 </table>
 
-![圖](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "中的節點圖中的節點")
+![圖](spline-bridge-list.resources/spline-bridge-list-05.jpg "中的節點圖中的節點")

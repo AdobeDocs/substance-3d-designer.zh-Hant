@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/non-uniform-directional-warp.html"
 breadcrumb-title: ''
 description: 使用非均勻方向扭曲節點來套用非均勻方向扭曲，創造多樣化的失真效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均勻方向曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](non-uniform-directional-warp.resources/non-uniform-directional-warp-color.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-grayscale.png)
+![](non-uniform-directional-warp.resources/non-uniform-directional-warp-01.png)![](non-uniform-directional-warp.resources/non-uniform-directional-warp-02.png)
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 說明
 
-非均勻方向扭曲是方向扭曲[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)的進階版本，允許透過影像輸入來驅動扭曲的強度與方向。它能提供更多控制，並能產生非常有用且有趣的影像變形，類似 [於斜坡模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)。
+非均勻方向扭曲是方向扭曲](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)的進階版本[，允許透過影像輸入來驅動扭曲的強度與方向。它能提供更多控制，並能產生非常有用且有趣的影像變形，類似 [於斜坡模糊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)。
 
 它與 [多向扭曲](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/multi-directional-warp/multi-directional-warp.md) 不同，因為它允許透過自訂地圖輸入控制角度，而多方向扭曲則只能透過參數控制方向。 這表示你可以創造進階的拖曳和彎曲效果，這是其他方法無法做到的。
 

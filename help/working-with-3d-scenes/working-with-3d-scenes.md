@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、編輯及操作 3D 場景，以預覽並測試你的材質。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 與3D場景合作
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 與3D場景合作
 
-![3D場景工作 3D場景](working-with-3d-scenes.resources/workingWith3DScenes.png "工作"){zoomable="yes"}
+![3D場景工作 3D場景](working-with-3d-scenes.resources/working-with-3d-scenes-01.png "工作"){zoomable="yes"}
 
 Designer 允許你載入 [3D 場景](../glossary/glossary.md) ，在上下文中處理材質。 你可以在這裡找到支援的 3D 場景檔案格式清單，包括每種格式所支援的功能清單。 <b>&lt;link needed></b>
 
@@ -61,10 +61,10 @@ Designer 允許你載入 [3D 場景](../glossary/glossary.md) ，在上下文中
 
 * <b>材質：</b> 場景中使用的所有材質都可以用 [Designer 建立的複製品覆蓋](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) 。 你可以編輯 [該複製品的材質屬性](../interface/3d-view/material-properties/material-properties.md) ，並使用Substance圖中的原始值或貼圖。
 * <b>網格：</b> 幾何體可以直接在視窗中選擇，或從 [場景瀏覽器](../interface/3d-view/scene-browser/scene-browser.md)中選取，以存取其材質動作（[覆寫](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、 [重置](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、 [提取至實體圖](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)）
-* <b>燈光：</b>場景瀏覽器中所有燈光都可以被關閉[&#128279;](../interface/3d-view/scene-browser/scene-browser.md)。
+* <b>燈光：</b>場景瀏覽器中所有燈光都可以被關閉[](../interface/3d-view/scene-browser/scene-browser.md)。
 * <b>攝影機：</b> 場景中偵測到的任何攝影機，都會作為預設加入到由 Designer 新增的攝影機上。
 
-![3D 場景](working-with-3d-scenes.resources/loaded3DScene.png "內容 3D 場景內容"){zoomable="yes"}
+![3D 場景](working-with-3d-scenes.resources/working-with-3d-scenes-02.png "內容 3D 場景內容"){zoomable="yes"}
 
 Designer 對其 3D 場景使用了 USD 描述。 其版面配置可在場景瀏覽器中瀏覽，每種 [USD prim](https://openusd.org/release/glossary.html#usdglossary-prim) 類型都有自己的圖示（幾何體、材質、著色器、攝影機、變換等）。
 
@@ -85,14 +85,14 @@ Designer 對其 3D 場景使用了 USD 描述。 其版面配置可在場景瀏�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![載入 3D 場景 - 從 3D 場景資源](working-with-3d-scenes.resources/load3DScene-3DSceneResource.gif "讀取 - 載入 3D 場景 - 從 3D 場景資源"){zoomable="yes"}
+![載入 3D 場景 - 從 3D 場景資源](working-with-3d-scenes.resources/working-with-3d-scenes-03.gif "讀取 - 載入 3D 場景 - 從 3D 場景資源"){zoomable="yes"}
 
 載入 3D 場景資源
 
 </td>
 <td style="border: 0;" valign="top">
 
-![載入 3D 場景 - 從函式庫](working-with-3d-scenes.resources/load3DScene-Library.gif "載入 3D 場景 - 從函式庫"){zoomable="yes"}
+![載入 3D 場景 - 從函式庫](working-with-3d-scenes.resources/working-with-3d-scenes-04.gif "載入 3D 場景 - 從函式庫"){zoomable="yes"}
 
 從函式庫載入 3D 場景
 
@@ -104,14 +104,14 @@ Designer 對其 3D 場景使用了 USD 描述。 其版面配置可在場景瀏�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從 3D 場景檔案載入 3D 場景 - 從 3D 場景檔案](working-with-3d-scenes.resources/load3DScene-3DSceneFile.gif "載入"){zoomable="yes"}
+![從 3D 場景檔案載入 3D 場景 - 從 3D 場景檔案](working-with-3d-scenes.resources/working-with-3d-scenes-05.gif "載入"){zoomable="yes"}
 
 載入 3D 場景檔案
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從場景狀態檔案載入 3D 場景 - 從場景狀態檔案](working-with-3d-scenes.resources/load3DScene-sceneStateFile.gif "讀取"){zoomable="yes"}
+![從場景狀態檔案載入 3D 場景 - 從場景狀態檔案](working-with-3d-scenes.resources/working-with-3d-scenes-06.gif "讀取"){zoomable="yes"}
 
 載入場景狀態檔案
 
@@ -121,7 +121,7 @@ Designer 對其 3D 場景使用了 USD 描述。 其版面配置可在場景瀏�
 
 >[!NOTE]
 >
-> 在 3D View 中導航與視覺化場景的說明已在 3D View 文件[&#128279;](../interface/3d-view/3d-view.md)中有說明。
+> 在 3D View 中導航與視覺化場景的說明已在 3D View 文件](../interface/3d-view/3d-view.md)中有說明[。
 
 <table>
 <tr style="border: 0;">
@@ -138,7 +138,7 @@ Designer 建立的任何物品會在場景瀏覽器中以 <b>粗體標籤</b> �
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![場景瀏覽器 - 由設計師](working-with-3d-scenes.resources/sceneBrowser-createdByDesigner.png "建立的元素 場景瀏覽器 - 由設計師建立的元素"){zoomable="yes"}
+![場景瀏覽器 - 由設計師](working-with-3d-scenes.resources/working-with-3d-scenes-07.png "建立的元素 場景瀏覽器 - 由設計師建立的元素"){zoomable="yes"}
 
 </td>
 </tr>
@@ -148,13 +148,13 @@ Designer 建立的任何物品會在場景瀏覽器中以 <b>粗體標籤</b> �
 
 在 3D View 中設定好材質、攝影機、燈光等後，該狀態可以儲存到場景狀態檔案（.sbsscn），之後可載入以恢復該狀態。 例如，你可能想設置幾個場景來預覽不同材質，或是特定的光照環境。
 
-![載入場景狀態檔案](working-with-3d-scenes.resources/loadSceneStateFile.gif "載入場景狀態檔案"){zoomable="yes"}
+![載入場景狀態檔案](working-with-3d-scenes.resources/working-with-3d-scenes-08.gif "載入場景狀態檔案"){zoomable="yes"}
 
 儲存的場景狀態也可以作為 3D View 的預設狀態，因此每當新建 3D View 時，該狀態都會被使用。 如果你想在 Sphere 2-Tiles 網格上預設預覽材質，且平鋪值為 2，並搭配特定環境貼圖，這很有用。
 
-與場景狀態檔案相關的動作位於 3D View 的場景選單中，並在此處有[&#128279;](../interface/3d-view/3d-view.md)詳細說明。
+與場景狀態檔案相關的動作位於 3D View 的場景選單中，並在此處有[](../interface/3d-view/3d-view.md)詳細說明。
 
-場景狀態檔案使用 XML 格式，並且如果專案設定中有別[&#128279;](../interface/preferences-window/project-settings/project-settings.md)名，也會使用[別名](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)。
+場景狀態檔案使用 XML 格式，並且如果專案設定中有別[名，也會使用[別名](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)。](../interface/preferences-window/project-settings/project-settings.md)
 
 >[!NOTE]
 >

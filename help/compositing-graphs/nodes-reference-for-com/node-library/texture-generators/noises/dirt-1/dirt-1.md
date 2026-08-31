@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
 breadcrumb-title: ''
 description: 使用 Dirt 1 節點生成基本泥土圖案，用於製作風化表面細節和累積效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 泥土1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![泥土1 - 圖示](dirt-1.resources/dirt_1.png "泥土1 - 圖示"){width="200px"}
+![泥土1 - 圖示](dirt-1.resources/dirt-1-01.png "泥土1 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土1 - 範例1](dirt-1.resources/dirt_1_1.png "泥土1 - 範例1"){zoomable="yes"}
+![泥土1 - 範例1](dirt-1.resources/dirt-1-02.png "泥土1 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![泥土1 - 範例2](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif "泥土1 - 範例2"){zoomable="yes"}
+![泥土1 - 範例2](dirt-1.resources/dirt-1-03.gif "泥土1 - 範例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土1 - 範例3](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif "泥土1 - 範例3"){zoomable="yes"}
+![泥土1 - 範例3](dirt-1.resources/dirt-1-04.gif "泥土1 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![泥土1 - 範例4](dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif "泥土1 - 範例4"){zoomable="yes"}
+![泥土1 - 範例4](dirt-1.resources/dirt-1-05.gif "泥土1 - 範例4"){zoomable="yes"}
 
 </td>
 </tr>

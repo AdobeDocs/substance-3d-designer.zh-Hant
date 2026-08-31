@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/material-height-blend.html"
 breadcrumb-title: ''
 description: 使用 Material Height Blend 節點，根據高度圖混合多個材質，創造分層材質效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材料高度混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](material-height-blend.resources/material-height-blend.png){width="128px"}
+![](material-height-blend.resources/material-height-blend-01.png){width="128px"}
 
 <b>收錄於：</b> 《材料濾>效應》
 
@@ -33,11 +33,11 @@ ht-degree: 4%
 
 ## 說明
 
-這個節點是 Height Blend[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) 的進階版本，根據 Heightmap 混合兩個材質。沒有使用者自訂遮罩，因此你必須有兩個高度貼圖，分別對應每個材質，且至少有一個不是統一的值。
+這個節點是 Height Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/height-blend/height-blend.md) 的進階版本[，根據 Heightmap 混合兩個材質。沒有使用者自訂遮罩，因此你必須有兩個高度貼圖，分別對應每個材質，且至少有一個不是統一的值。
 
 這對於結合兩種不同且高品質的材料，無需高品質的混色遮膜非常有用。
 
-如果你想融入水或雪，則可以使用「雪覆蓋」[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)和[「水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)」這兩個節點。
+如果你想融入水或雪，則可以使用「雪覆蓋」](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)和[「水位](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)」這兩個節點[。
 
 </td>
 </tr>

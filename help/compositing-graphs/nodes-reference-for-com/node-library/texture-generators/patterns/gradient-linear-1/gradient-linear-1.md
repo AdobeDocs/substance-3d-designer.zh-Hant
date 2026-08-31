@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-1.html"
 breadcrumb-title: ''
 description: 使用 Gradient Linear 1 節點來建立線性漸層，用來混合顏色並創造平滑過渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度線性 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-1.resources/gradient-linear-1.png){width="128px"}
+![](gradient-linear-1.resources/gradient-linear-1-01.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 簡單的黑白線性漸層。 給出完美平滑且插值的結果，以呈現完美的梯度躍遷。
 
-儘管簡單，這是一個極為實用的模式，可以作為許多其他節點的建構單元！ 例如，可以搭配直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起進行。
+儘管簡單，這是一個極為實用的模式，可以作為許多其他節點的建構單元！ 例如，可以搭配直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起進行[。
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-1.resources/gradient-linear-1-ex.gif" />
+            <img src="gradient-linear-1.resources/gradient-linear-1-02.gif" />
         </td>
     </tr>
 </table>

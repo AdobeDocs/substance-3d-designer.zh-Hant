@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/modify-color-palette.html"
 breadcrumb-title: ''
 description: 使用「修改色彩調色盤」節點來調整和轉換從材質中擷取的色彩調色盤。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 修改色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](modify-color-palette.resources/ModifyColorPalette.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](modify-color-palette.resources/modify-color-palette-01.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>產出</b> <i>顏色</i> | 將修改過調色盤中的顏色映射到 ID 映射的索引的結果。 |
-| <b>調色盤</b> <i>顏色</i> | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
+| <b>調色盤</b> <i>顏色</i> | 已套用指定的色彩修改的更新調色盤。   該調色盤可用「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」節點套用到另一張影像[，或透過[「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點進行視覺化。 |
 
 <a name="parameters"></a>
 
@@ -82,18 +82,18 @@ ht-degree: 0%
 
 ## 範例
 
-![修改色彩調色盤：範例 1](modify-color-palette.resources/modify_color_palette_example_1.png "修改色彩調色盤：範例 1"){zoomable="yes"}
+![修改色彩調色盤：範例 1](modify-color-palette.resources/modify-color-palette-02.png "修改色彩調色盤：範例 1"){zoomable="yes"}
 
-![修改色彩調色盤：範例 2](modify-color-palette.resources/modify_color_palette_example_3.png "修改色彩調色盤：範例 2"){zoomable="yes"}
+![修改色彩調色盤：範例 2](modify-color-palette.resources/modify-color-palette-03.png "修改色彩調色盤：範例 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_before.jpg" alt="modify_color_example_2_before">
+      <img src="modify-color-palette.resources/modify-color-palette-04.jpg" alt="modify_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="modify-color-palette.resources/modify_color_example_2_after.jpg" alt="modify_color_example_2_after">
+      <img src="modify-color-palette.resources/modify-color-palette-05.jpg" alt="modify_color_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>

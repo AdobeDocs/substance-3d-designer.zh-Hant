@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-sample-height.html"
 breadcrumb-title: ''
 description: 使用 Spline Sample Height 節點，沿著樣條線取樣高度值以產生程序位移效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條樣本高度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-sample-height.resources/spline-sample-height-icon.png "節點圖示")
+![節點圖示](spline-sample-height.resources/spline-sample-height-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -88,11 +88,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-變體1-之前">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After.jpg" alt="SplineSample-Height-Variant1-After">
+      <img src="spline-sample-height.resources/spline-sample-height-03.jpg" alt="SplineSample-Height-Variant1-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -104,11 +104,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-Before.jpg" alt="SplineSampleHeight-變體1-之前">
+      <img src="spline-sample-height.resources/spline-sample-height-02.jpg" alt="SplineSampleHeight-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-sample-height.resources/SplineSampleHeight-Variant1-After3.jpg" alt="花條樣本高度變體1-之後3">
+      <img src="spline-sample-height.resources/spline-sample-height-04.jpg" alt="花條樣本高度變體1-之後3">
       <br><i>之後</i>
     </td>
   </tr>
@@ -122,12 +122,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](spline-sample-height.resources/SplineSampleHeight-Variant1-After4.jpg "節點範例 1")
+![節點範例 1](spline-sample-height.resources/spline-sample-height-05.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](spline-sample-height.resources/SplineSampleHeight-Demo.gif "節點範例 2")
+![節點範例 2](spline-sample-height.resources/spline-sample-height-06.gif "節點範例 2")
 
 </td>
 </tr>

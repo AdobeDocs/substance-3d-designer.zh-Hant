@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-4.html"
 breadcrumb-title: ''
 description: 使用 Dirt 4 節點產生中間的泥土圖案，以創造風化表面細節和累積效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 泥土4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![泥土4 - 圖示](dirt-4.resources/dirt_4.png "泥土4 - 圖示"){width="200px"}
+![泥土4 - 圖示](dirt-4.resources/dirt-4-01.png "泥土4 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土4 - 範例1](dirt-4.resources/dirt_4_1.png "泥土4 - 範例1"){zoomable="yes"}
+![泥土4 - 範例1](dirt-4.resources/dirt-4-02.png "泥土4 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 4 - 範例 2](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso0.gif "Dirt 4 - 範例 2"){zoomable="yes"}
+![Dirt 4 - 範例 2](dirt-4.resources/dirt-4-03.gif "Dirt 4 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![泥土4 - 範例3](dirt-4.resources/noise_dirt_4_v2_speed0.6_aniso1.gif "泥土4 - 範例3"){zoomable="yes"}
+![泥土4 - 範例3](dirt-4.resources/dirt-4-04.gif "泥土4 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Dirt 4 - 範例 4](dirt-4.resources/noise_dirt_4_v2_speed0.3_aniso0.6.gif "Dirt 4 - 範例 4"){zoomable="yes"}
+![Dirt 4 - 範例 4](dirt-4.resources/dirt-4-05.gif "Dirt 4 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

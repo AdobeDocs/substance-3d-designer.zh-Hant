@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/preview-paths.html"
 breadcrumb-title: ''
 description: 使用預覽路徑節點在 2D 視圖中視覺化路徑資料，方便除錯與驗證。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 預覽路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](preview-paths.resources/preview-paths-icon.png "節點圖示")
+![節點圖示](preview-paths.resources/preview-paths-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 在給定背景上描繪路徑的段與頂點。 每條路徑隨機一個顏色。
 
-你會得到類似 Mask</b> to Path[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 預覽輸出的結果<b>，但選項更多。
+你會得到類似 Mask</b> to Path](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 預覽輸出[的結果<b>，但選項更多。
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 1%
 |  |  |
 |:---|:---|
 | <b>背景</b> <i>顏色</i> | 背景圖片放在上面，顯示路徑。 這也控制渲染大小。 |
-| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。 |
 
 <a name="parameters"></a>
 
@@ -66,12 +66,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](preview-paths.resources/PathsToSpline-Variant2-Before_1.jpg "節點範例 1")
+![節點範例 1](preview-paths.resources/preview-paths-02.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](preview-paths.resources/PathsToSpline-Variant1-Before_1.jpg "節點範例 2")
+![節點範例 2](preview-paths.resources/preview-paths-03.jpg "節點範例 2")
 
 </td>
 </tr>

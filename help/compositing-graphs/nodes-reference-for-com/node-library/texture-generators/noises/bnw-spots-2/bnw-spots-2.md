@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-2.html"
 breadcrumb-title: ''
 description: 使用 BnW Spots 2 節點來製作黑白斑點圖案，並加強材質變化的控制。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BNW地點2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW 點數 2 - 圖示](bnw-spots-2.resources/bnw_spots_2.png "BnW 點數 2 點 - 圖示"){width="200px"}
+![BnW 點數 2 - 圖示](bnw-spots-2.resources/bnw-spots-2-01.png "BnW 點數 2 點 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 粗糙 <b>的黑白（BnW）斑點</b> 聲的變體。
 
-另見：[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)BnW 地點 1，BnW [&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 3
+另見：[BnW 地點 1，BnW [](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-3/bnw-spots-3.md)
 
 </td>
 </tr>
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW 點數 2 - 範例 1](bnw-spots-2.resources/bnw_spots_2_1.png "BnW 點數 2 - 範例 1"){zoomable="yes"}
+![BnW 點數 2 - 範例 1](bnw-spots-2.resources/bnw-spots-2-02.png "BnW 點數 2 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW 點數 2 - 範例 2](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso0.gif "BnW 點數 2 - 範例 2"){zoomable="yes"}
+![BnW 點數 2 - 範例 2](bnw-spots-2.resources/bnw-spots-2-03.gif "BnW 點數 2 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW 地點 2 - 範例 3](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.6_aniso1.gif "BnW 地點 2 - 範例 3"){zoomable="yes"}
+![BnW 地點 2 - 範例 3](bnw-spots-2.resources/bnw-spots-2-04.gif "BnW 地點 2 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW 地點 2 - 範例 4](bnw-spots-2.resources/noise_bnw_spots_2_v2_speed0.3_aniso0.6.gif "BnW 地點 2 - 範例 4"){zoomable="yes"}
+![BnW 地點 2 - 範例 4](bnw-spots-2.resources/bnw-spots-2-05.gif "BnW 地點 2 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-11-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-11-2.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 11.2 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '974'
 ht-degree: 0%
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-tower-render-b.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-01.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/structure-paper-creatures-render-a.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-02.jpg){width="300px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 Adobe 版本的 Substance 3D Designer 新增了「送出」功能，讓你能快速將資產傳送到其他 Substance 3D 應用程式。 不再需要以 SBSAR 發佈並載入單一檔案，「送出」只需一鍵解決這個問題。
 
-![](version-11-2.resources/sendto-button.gif)
+![](version-11-2.resources/version-11-2-03.gif)
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ Adobe 版本的 Substance 3D Designer 新增了「送出」功能，讓你能快
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-11-11.png){width="300px"}
+![](version-11-2.resources/version-11-2-04.png){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/image2021-6-18-11-9-0.png){width="300px"}
+![](version-11-2.resources/version-11-2-05.png){width="300px"}
 
 </td>
 </tr>
@@ -80,11 +80,11 @@ Adobe 版本的 Substance 3D Designer 新增了「送出」功能，讓你能快
 
 RTAO 在 AO 的清晰且正確的 AO 表現上，比之前的 HBAO 節點還要好。
 
-![](version-11-2.resources/rt-caustics-grayscale.png){width="300px"}
+![](version-11-2.resources/version-11-2-06.png){width="300px"}
 
 焦散會根據高度圖產生物理正確的光線追蹤焦散，例如簡單的 Perlin 雜訊。 非常適合為即時焦散製作逼真的動畫翻頁書貼圖。
 
-![](version-11-2.resources/image2021-6-22-16-36-36.png){width="300px"}
+![](version-11-2.resources/version-11-2-07.png){width="300px"}
 
 RT Shadow 能精確地標示光線追蹤陰影，操作簡單。
 
@@ -92,17 +92,17 @@ RT Shadow 能精確地標示光線追蹤陰影，操作簡單。
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-01.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-08.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-03.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-09.jpg){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](version-11-2.resources/rt-irr-02.jpg){width="200px"}
+![](version-11-2.resources/version-11-2-10.jpg){width="200px"}
 
 </td>
 </tr>
@@ -110,11 +110,11 @@ RT Shadow 能精確地標示光線追蹤陰影，操作簡單。
 
 RT Irradiance 是新節點中最先進的。 它會根據材質、高度貼圖、環境貼圖和/或發射貼圖來做光線追蹤照度。
 
-![](version-11-2.resources/rt-irrad-pro.jpg){width="600px"}
+![](version-11-2.resources/version-11-2-11.jpg){width="600px"}
 
 這表示你可以用預先烘焙的光照來做貼圖，比如風格化專案，或者用光線追蹤光線反射在高度圖上。
 
-![](version-11-2.resources/bent-normal-ex.jpg){width="300px"}
+![](version-11-2.resources/version-11-2-12.jpg){width="300px"}
 
 最後是彎曲的正常節點。 與一般法線轉換相比，這個節點使用 AO 來修改你的法線貼圖，使其使用該 AO 資訊。 在你需要用 mesh baker 來製作效果之前，這個節點會在貼圖空間裡幫你完成。
 

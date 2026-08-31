@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/base-material.html"
 breadcrumb-title: ''
 description: 使用基礎材質節點來建立基礎材質屬性，從零開始製作物理基礎材質。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 基礎材料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](base-material.resources/pbr-base-material.png){width="128px"}
+![](base-material.resources/base-material-01.png){width="128px"}
 
 <b>收錄於：</b> PBR工具>材料過濾器
 
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 說明
 
-在 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中製作多通道素材最快速、最簡單的方法。此節點回傳一個基於簡單、純色設定與數值的全材質。 此資料可用作佔位符或精煉成複雜材料。
+在 Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中製作多通道素材[最快速、最簡單的方法。此節點回傳一個基於簡單、純色設定與數值的全材質。 此資料可用作佔位符或精煉成複雜材料。
 
 節點在貼圖完整道具和混合多種材質時非常有用。 事實上，你可以從這個節點開始製作每一個材料，完全不需要複雜的材料基底。
 

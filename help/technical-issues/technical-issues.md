@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中尋找技術問題的故障排除指南，快速解決問題。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 技術問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Designer 包含直接回報當機和錯誤的功能。
 </td>
 <td style="border: 0;" valign="top">
 
-![當機報告對話框](technical-issues.resources/crash-reporter-2.png "當機報告對話框"){zoomable="yes"}
+![當機報告對話框](technical-issues.resources/technical-issues-01.png "當機報告對話框"){zoomable="yes"}
 
 *點擊放大*
 
@@ -91,7 +91,7 @@ Designer 包含直接回報當機和錯誤的功能。
 </td>
 <td style="border: 0;" valign="top">
 
-![錯誤回報對話框](technical-issues.resources/bug-reporter.png "錯誤回報對話框"){zoomable="yes"}
+![錯誤回報對話框](technical-issues.resources/technical-issues-02.png "錯誤回報對話框"){zoomable="yes"}
 
 *點擊放大*
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-grayscale.html"
 breadcrumb-title: ''
 description: 使用散布在樣條線上的灰階節點，將灰階元素沿著樣條路徑分配，以呈現程序式圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條灰階上的散射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2853'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-icon.png "節點圖示")
+![節點圖示](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -160,11 +160,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSpline灰階變體1-之前">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-02.jpg" alt="ScatterOnSpline灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant1-After.jpg" alt="ScatterOnSpline灰階變體1-之後">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-03.jpg" alt="ScatterOnSpline灰階變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -176,11 +176,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSpline灰階變體2-之前">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-04.jpg" alt="ScatterOnSpline灰階變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Variant2-After.jpg" alt="ScatterOnSpline灰階變體2-之後">
+      <img src="scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-05.jpg" alt="ScatterOnSpline灰階變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -194,12 +194,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo.gif "節點範例 2")
+![節點範例 2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-06.gif "節點範例 2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點示範2](scatter-on-spline-grayscale.resources/ScatterOnSplineGrayscale-Demo2.gif "節點示範2")
+![節點示範2](scatter-on-spline-grayscale.resources/scatter-on-spline-grayscale-07.gif "節點示範2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/perlin-noise.html"
 breadcrumb-title: ''
 description: 使用 Perlin Noise 節點生成流暢自然的噪音模式，創造有機的質感與變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Perlin 噪聲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![Perlin 噪音 - 圖示](perlin-noise.resources/perlin_noise.png "Perlin 噪音 - Icon"){width="200px"}
+![Perlin 噪音 - 圖示](perlin-noise.resources/perlin-noise-01.png "Perlin 噪音 - Icon"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -65,12 +65,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![Perlin 雜訊 - 範例 1](perlin-noise.resources/perlin_noise_1.png "Perlin 雜訊 - 範例 1"){zoomable="yes"}
+![Perlin 雜訊 - 範例 1](perlin-noise.resources/perlin-noise-02.png "Perlin 雜訊 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![Perlin 雜訊 - 範例 2](perlin-noise.resources/noise_perlin_noise_v2_speed0.6_aniso0.gif "Perlin 雜訊 - 範例 2"){zoomable="yes"}
+![Perlin 雜訊 - 範例 2](perlin-noise.resources/perlin-noise-03.gif "Perlin 雜訊 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
