@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/warnings-in-substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 了解物質合成圖中的警告，並學習如何解決常見問題與錯誤。
 helpx_creative_field: ""
@@ -73,7 +73,7 @@ E.g. 均勻顏色[輸出顏色]，像素處理器[每個像素函數]
 
 ### ![（錯誤）](warnings-in-substance-compositing-graphs.resources/error.svg) 找不到參考資源
 
-節點所參考的資源並未在 Substance 3D[&#128279;](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 檔案（SBS）中儲存的路徑中找到。以下是一些引用資源的節點：
+節點所參考的資源並未在 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 檔案（SBS）中儲存的路徑中找到。以下是一些引用資源的節點：
 
 * 圖 [實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 節點參考一個圖
 * [位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點參考一個[位圖資源](../../resources/bitmap-resource/bitmap-resource.md)

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-explorer-window/send-to-interoperability.html"
 breadcrumb-title: ''
 description: 請使用Substance 3D Designer中的「傳送至互通性」功能，將材料匯出到其他應用程式。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![從設計師傳送到 Substance 3D 應用程式](send-to-interoperability.resources/send-to-interoperability-01.png "從設計師傳送到 Substance 3D 應用程式"){width="512px"}
 
-Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adobe.com/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 及 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) 具有互通性。它讓你能 *快速傳送* 和 *重寄* 作品，促進 Substance 3D 生態系統的迭代。
+Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adobe.com/tw/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 及 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html) 具有互通性。它讓你能 *快速傳送* 和 *重寄* 作品，促進 Substance 3D 生態系統的迭代。
 
 工作流程通常如下：
 
@@ -55,12 +55,12 @@ Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adob
 </tr>
 </table>
 
-* **如果你沒設定，預設類型是未指定** 。 根據你寄給哪個應用程式，可能會有不同的解讀。 [例如，Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 會預設為 Material;
+* **如果你沒設定，預設類型是未指定** 。 根據你寄給哪個應用程式，可能會有不同的解讀。 [例如，Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 會預設為 Material;
 * **標準材料**&#x200B;適用於多通道PBR材料，且輸出需正確標[&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)示;
-* **貼花材質**&#x200B;用於多通道 PBR 材質，帶有 alpha 通道，可作為 Substance 3D Painter[&#128279;](https://www.adobe.com/products/substance3d-painter.html) 或 [Substance 3D 取樣器的](https://www.adobe.com/products/substance3d-sampler.html)貼花;
-* **Atlas Material** 用於多通道 PBR 材質，包含多個圖譜影像，適用於 [&#128279;](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)Designer 或 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html) 中的 Atlas Scatter 節點;
-* **濾鏡** 用於通用濾鏡，兩者皆用於 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 或 [Substance 3D 取樣器](https://www.adobe.com/products/substance3d-sampler.html);
-* **基於網格的產生器** 是用於多輸入遮罩產生器的。 此系統僅由 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)使用;
+* **貼花材質**&#x200B;用於多通道 PBR 材質，帶有 alpha 通道，可作為 Substance 3D Painter[&#128279;](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Substance 3D 取樣器的](https://www.adobe.com/tw/products/substance3d-sampler.html)貼花;
+* **Atlas Material** 用於多通道 PBR 材質，包含多個圖譜影像，適用於 [&#128279;](../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/atlas-scatter/atlas-scatter.md)Designer 或 [Substance 3D Sampler](https://www.adobe.com/tw/products/substance3d-sampler.html) 中的 Atlas Scatter 節點;
+* **濾鏡** 用於通用濾鏡，兩者皆用於 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Substance 3D 取樣器](https://www.adobe.com/tw/products/substance3d-sampler.html);
+* **基於網格的產生器** 是用於多輸入遮罩產生器的。 此系統僅由 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html)使用;
 * **材質產生器** 適用於單通道貼圖，如 2D 程序化和噪音;
 * **環境光** 用於單通道光照環境，用於照亮場景與物件;
 * **光源貼圖** 是針對實體光源套用單通道貼圖。

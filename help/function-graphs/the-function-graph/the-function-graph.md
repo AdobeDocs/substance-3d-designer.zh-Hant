@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/the-function-graph.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/the-function-graph.html"
 breadcrumb-title: ''
 description: 學習 Designer 中的 Substance 函數圖，用於建立自訂函數和可重複使用的節點網路。
 helpx_creative_field: ""

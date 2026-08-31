@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/vector-graphics-svg-resource/vector-editing-tools.html"
 breadcrumb-title: ''
 description: 使用向量編輯工具在 Substance 3D Designer 中創建並修改 SVG 圖形，以製作程序化材質。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[2D View](https://docs.substance3d.com/display/SDDOC/2D+view) 面板提供基本的向量編輯工具，讓你能直接在 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中手動創建或編輯向量圖形&#x200B;**。這些工具特別有用，例如快速製作 *遮罩* 或 *圖案*。
+[2D View](https://docs.substance3d.com/display/SDDOC/2D+view) 面板提供基本的向量編輯工具，讓你能直接在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中手動創建或編輯向量圖形&#x200B;**。這些工具特別有用，例如快速製作 *遮罩* 或 *圖案*。
 
 這些工具支援筆輸入。 要善用手寫螢幕，你可以[先拔掉](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) [2D視窗](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然後放置並調整大小，讓繪畫更舒適。
 

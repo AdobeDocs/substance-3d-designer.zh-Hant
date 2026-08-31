@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-main-toolbar.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-main-toolbar.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的主工具列，以存取你工作流程中常見的工具與指令。
 helpx_creative_field: ""
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的主工具列與選單，位於主視窗左上角。它由兩部分組成：下拉選單主選單和快速存取按鈕。 所有快速存取按鈕功能也可透過 <b>檔案</b> 與 <b>編輯</b> 選單存取。
 
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 <b>新功能...：</b> 顯示一個螢幕，顯示 Designer 最新版本新增的功能
 
-<b>歡迎畫面......\*：</b> 顯示一個引導新用戶了解 Designer 的目的及其在 Substance 3D 生態系統中 [定位的畫面](https://helpx.adobe.com/substance-3d.html)
+<b>歡迎畫面......\*：</b> 顯示一個引導新用戶了解 Designer 的目的及其在 Substance 3D 生態系統中 [定位的畫面](https://helpx.adobe.com/tw/substance-3d.html)
 
 <b>合作夥伴：</b> 讓您在 Designer 中存取合作夥伴對第三方整合的免責聲明與通知。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/home-screen.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/home-screen.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的主畫面中，可以存取最近的專案、範本和學習資源。
 helpx_creative_field: ""
@@ -90,6 +90,6 @@ ht-degree: 0%
 
 * <b>關於設計者：</b> 顯示關於設計者畫面（見上文）;
 * <b>線上文件：</b> 開啟本 [文件](../../home/home.md)的網頁;
-* <b>網站：</b> 開啟 Substance 3D Designer [產品頁面](https://www.adobe.com/products/substance3d-designer.html);
+* <b>網站：</b> 開啟 Substance 3D Designer [產品頁面](https://www.adobe.com/tw/products/substance3d-designer.html);
 * <b>論壇：</b> 為 Substance 3D Designer [支援社群](https://community.adobe.com/t5/substance-3d-designer/ct-p/ct-substance-3d-designer?page=1&sort=latest_replies&filter=all&lang=all&tabid=discussions)開啟網頁;
 * <b>社群資產：</b> 開啟 Substance 3D [社群資產](https://substance3d.adobe.com/community-assets/)的網頁。

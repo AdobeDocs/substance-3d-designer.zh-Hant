@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/2d-view.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 的 2D 視圖來預覽並檢查材質圖的紋理輸出。
 helpx_creative_field: ""

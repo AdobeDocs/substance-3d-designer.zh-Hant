@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的快捷鍵，以加快工作流程並提升生產力。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/application-does-not-start.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/application-does-not-start.html"
 breadcrumb-title: ''
 description: 排除阻礙 Substance 3D Designer 啟動的問題，並尋找啟動應用程式的解決方案。
 helpx_creative_field: ""
