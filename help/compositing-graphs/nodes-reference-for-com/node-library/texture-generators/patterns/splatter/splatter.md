@@ -35,7 +35,7 @@ ht-degree: 9%
 
 ## 說明
 
-Splatter 是一種設計用於隨機放置地圖輸入的圖案產生器。 它有許多幾何圖案放置的控制，使用比圖塊產生器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)更[簡單。後者也能達到類似的效果，但複雜得多。
+Splatter 是一種設計用於隨機放置地圖輸入的圖案產生器。 它有許多幾何圖案放置的控制，使用比圖塊產生器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)更簡單。後者也能達到類似的效果，但複雜得多。
 
 Splatter 很適合快速壓印某些形狀，不需要太多調整。
 

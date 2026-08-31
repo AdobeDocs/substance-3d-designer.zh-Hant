@@ -20,7 +20,7 @@ ht-degree: 5%
 
 # 輸出大小
 
-它是圖形<b>基礎參數</b><b>中的第一個，與輸出格式</b>（或位元深度）一起，必須充分理解，因為它對圖形的輸出有重大影響，無論是在 Designer 內，還是作為已發佈的 Substance 3D 資產（SBSAR）](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)檔案，[都會影響圖形的輸出。
+它是圖形<b>基礎參數</b><b>中的第一個，與輸出格式</b>（或位元深度）一起，必須充分理解，因為它對圖形的輸出有重大影響，無論是在 Designer 內，還是作為已發佈的 Substance 3D 資產（SBSAR）[&#128279;](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)檔案，都會影響圖形的輸出。
 
 >[!TIP]
 >
@@ -68,16 +68,16 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 在函數圖](../../function-graphs/function-graphs.md)中[，`$size`與`$sizelog2`[系統變數分別](../../function-graphs/variables/system-variables/system-variables.md)回傳與節點或圖目前解析度相符的 Float2 值，為原始像素數或 2 的冪次方。\
+> 在函數圖[&#128279;](../../function-graphs/function-graphs.md)中，`$size`與`$sizelog2`[系統變數分別](../../function-graphs/variables/system-variables/system-variables.md)回傳與節點或圖目前解析度相符的 Float2 值，為原始像素數或 2 的冪次方。\
 > 例如，對於 1024\*512 的影像，返回 ， `$size` `(1024,512)` 而 `$sizelog2` 返回 `(10,9)`。
 
 ## 相對規模
 
-當輸出大小特性使用&#x200B;*相對於...* [ 繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)時，其值會以相對於繼承的對數值&#x200B;*的修飾符*&#x200B;表示。
+當輸出大小特性使用&#x200B;*相對於...* [&#x200B; 繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)時，其值會以相對於繼承的對數值&#x200B;*的修飾符*&#x200B;表示。
 
 相對於繼承解析度的修正值，在對數刻度上範圍從 -12 到 +12，預設值為 0。 這表示每超過或低於一步，解析度就會加倍或減半。 右側表格舉例說明繼承值為 9（即 512 = 2^9）與 11（即 2048 = 2^11）時，一維相對解析度的變化：
 
-注意 8196 以上的大小是 *有*&#x200B;上限的。 這個上限是透過<b>偏好設定](../../interface/preferences-window/preferences-window.md)中「一般</b>」區[塊的「烹飪大小限制</b>」設定<b>來控制的。請注意，使用非常高解析度的工作會帶來相應的效能成本與指數級的記憶體佔用。 此外，圖形處理的限制會嚴格限制貼圖的最大尺寸。
+注意 8196 以上的大小是 *有*&#x200B;上限的。 這個上限是透過<b>偏好設定[&#128279;](../../interface/preferences-window/preferences-window.md)中「一般</b>」區塊的「烹飪大小限制</b>」設定<b>來控制的。請注意，使用非常高解析度的工作會帶來相應的效能成本與指數級的記憶體佔用。 此外，圖形處理的限制會嚴格限制貼圖的最大尺寸。
 
 | -5 | -4 | -3 | -2 | -1 | 0 | +1 | +2 | +3 | +4 | +5 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -86,7 +86,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
-> 低於 16 ** 解析度沒有上限，但不建議降低，因為低於這個門檻不會有效能提升。相反地，效能下降&#x200B;**&#x200B;是因為 Substance 引擎</b>的特定實作<b>。因此，在 Substance 圖中，請使用 16x16 作為一般的最低解析度。
+> 低於 16 **&#x200B; 解析度沒有上限，但不建議降低，因為低於這個門檻不會有效能提升。相反地，效能下降&#x200B;**&#x200B;是因為 Substance 引擎</b>的特定實作<b>。因此，在 Substance 圖中，請使用 16x16 作為一般的最低解析度。
 
 ## 變更繼承方法
 
@@ -102,7 +102,7 @@ ht-degree: 5%
 
 ## 範例問題
 
-如果你是 Adobe Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 的新[手，可能會遇到一些常見問題。我們將在下面列出一些範例及解決方案。
+如果你是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的新手，可能會遇到一些常見問題。我們將在下面列出一些範例及解決方案。
 
 +++問題一
 **![（錯誤）](output-size.resources/error.svg) 問題**
@@ -134,7 +134,7 @@ ht-degree: 5%
 
 上圖顯示，雖然圖設定為 *相對於母*&#x200B;圖，但解析度（512\*512）與父圖（1024\*1024）不同。
 
-問題出在點陣](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點。[它預設採用&#x200B;*絕對*&#x200B;繼承方法，並根據點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md)選擇了 512\*512 作為解析[。連接該節點的節點設定為 *相對於輸入*，因此其輸出大小會繼承自點陣節點。
+問題出在點陣[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點。[它預設採用&#x200B;*絕對*&#x200B;繼承方法，並根據點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md)選擇了 512\*512 作為解析。連接該節點的節點設定為 *相對於輸入*，因此其輸出大小會繼承自點陣節點。
 
 **![（滴答聲）](output-size.resources/check.svg) 解決方案**
 
@@ -155,7 +155,7 @@ ht-degree: 5%
 
 上面你可以看到一個問題，解析度在鏈條中途跳躍得更高，導致輸出解析度遠高於父系統定義的。
 
-問題是因為轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點的相對修飾值為 3[，使輸出變大了 8 倍。
+問題是因為轉換二維[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點的相對修飾值為 3，使輸出變大了 8 倍。
 
 **![（滴答聲）](output-size.resources/check.svg) 解決方案**
 

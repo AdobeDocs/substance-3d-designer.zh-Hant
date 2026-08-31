@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁列出可能因 Substance 3D Designer 相依性觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
 
-相依關係是 *Substance 3D 檔案（SBS）所參考的其他檔案* 。 它們包含[](../../resources/resources.md)資源及其他由[圖形實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點參考的 Substance 3D 檔案。
+相依關係是 *Substance 3D 檔案（SBS）所參考的其他檔案* 。 它們包含[&#128279;](../../resources/resources.md)資源及其他由[圖形實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點參考的 Substance 3D 檔案。
 
 ## ![（錯誤）](warnings-from-dependencies.resources/error.svg) 無效的依賴套件
 
@@ -36,16 +36,16 @@ ht-degree: 0%
 
    檢查相依套件是否存在於警告訊息中指定的位置。 如果沒有，就找到該檔案放回原位，或重新建立。 如果檔案存在，試 *著在 Designer 載入，* 並留意是否有與該套件相關的警告或錯誤。 參考針對這些特定問題的故障排除步驟，並相應地修正。
 
-   接著，在檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板點擊 RMB [鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
+   接著，在檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
 
    ![「無效相依套件」解決方案 1](warnings-from-dependencies.resources/warnings-from-dependencies-01.gif "&#39;無效相依套件」解決方案 1")
 1. <b>重新定位套件中的相依</b>
 
-   你可以用 [依賴管理器](../../interface/dependency-manager/dependency-manager.md) 重新定位相依。 在檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板中點選主機套件[的 RMB，然後在情境選單中選擇<b>相依性管理器</b>選項。
+   你可以用 [依賴管理器](../../interface/dependency-manager/dependency-manager.md) 重新定位相依。 在檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中點選主機套件的 RMB，然後在情境選單中選擇<b>相依性管理器</b>選項。
 
    在 Dependendy Manager 的清單中找到缺少的依賴，點選 RMB 並選擇 <b>「重新定位...</b> 」選項。 使用檔案瀏覽器對話框找到相依套件並點選 <b>「開啟</b>」。
 
-   接著，在檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板點擊 RMB [鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
+   接著，在檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板點擊 RMB 鍵，並在情境選單中選擇 <b>Reload</b> 選項，重新載入主機套件。
 
    ![「無效相依套件」解決方案 2](warnings-from-dependencies.resources/warnings-from-dependencies-02.gif "&#39; 無效相依套件」解決方案 2")
 
@@ -76,7 +76,7 @@ ht-degree: 0%
    ![「沒有檔案匹配資源」解決方案1](warnings-from-dependencies.resources/warnings-from-dependencies-04.gif "「沒有檔案匹配資源」解決方案1")
 1. <b>重新定位檔案</b>
 
-   若檔案被移動或重新命名，請在檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板中點擊資源項目[的 RMB 鍵，選擇<b>「重新定位</b>」選項，將該資源連結到&#x200B;*同一類型 UDIM 映像檔*&#x200B;中的第一個檔案。
+   若檔案被移動或重新命名，請在檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中點擊資源項目的 RMB 鍵，選擇<b>「重新定位</b>」選項，將該資源連結到&#x200B;*同一類型 UDIM 映像檔*&#x200B;中的第一個檔案。
 
    ![「沒有符合資源的檔案」解決方案2](warnings-from-dependencies.resources/warnings-from-dependencies-05.gif "「沒有符合資源的檔案」解決方案2")
 
@@ -95,7 +95,7 @@ ht-degree: 0%
    ![「找不到連結檔案」解決方案 1](warnings-from-dependencies.resources/warnings-from-dependencies-06.gif "&#39;找不到連結檔案」解決方案 1")
 1. <b>重新定位檔案</b>
 
-   如果檔案被移動或重新命名，請在檔案總管](../../interface/the-explorer-window/the-explorer-window.md)面板中點擊資源項目[的 RMB，並選擇<b>重新定位</b>選項，將該資源連結到同類型的另一個檔案。
+   如果檔案被移動或重新命名，請在檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中點擊資源項目的 RMB，並選擇<b>重新定位</b>選項，將該資源連結到同類型的另一個檔案。
 
    ![「找不到連結檔案」解決方案 2](warnings-from-dependencies.resources/warnings-from-dependencies-07.gif "&#39;找不到連結檔案」解決方案 2")
 
@@ -111,13 +111,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 此警告僅在使用除 **Legacy** 以外的色彩管理模式時觸發（類似於關閉色彩管理）。 你可以在&#x200B;**專案設定](../../interface/preferences-window/project-settings/project-settings.md)的[色彩管理**&#x200B;區段啟用色彩管理。
+> 此警告僅在使用除 **Legacy** 以外的色彩管理模式時觸發（類似於關閉色彩管理）。 你可以在&#x200B;**專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)的色彩管理**&#x200B;區段啟用色彩管理。
 
 ![「找不到色彩空間」的解](warnings-from-dependencies.resources/warnings-from-dependencies-08.gif "法「找不到色彩空間」的解法")
 
 ## ![（錯誤）](warnings-from-dependencies.resources/error.svg) 找不到參考資源
 
-分配給 3D 場景資源](../3d-scene-resource/3d-scene-resource.md) UV 圖塊[的圖形，無法在警告中報告的位置找到。
+分配給 3D 場景資源[&#128279;](../3d-scene-resource/3d-scene-resource.md) UV 圖塊的圖形，無法在警告中報告的位置找到。
 
 <b>![（勾選）]（warnings-from-dependencies.resources/check.svg）解決方案</b>
 
@@ -125,7 +125,7 @@ ht-degree: 0%
 
 1. <b>還原該圖</b>
 
-   請在 Explorer](../../interface/the-explorer-window/the-explorer-window.md) 面板中檢查 [UV Tiles</b> 列表中指定的<b>圖表。如果不存在，就還原或重建它。
+   請在 Explorer[&#128279;](../../interface/the-explorer-window/the-explorer-window.md) 面板中檢查 UV Tiles</b> 列表中指定的<b>圖表。如果不存在，就還原或重建它。
 
    ![「找不到參考資源」解決方案 1](warnings-from-dependencies.resources/warnings-from-dependencies-09.gif "&#39;找不到參考資源」解決方案 1")
 1. <b>選擇另一張圖</b>
@@ -136,7 +136,7 @@ ht-degree: 0%
 
 ## ![（錯誤）](warnings-from-dependencies.resources/error.svg) UV 圖塊會被多次指定
 
-3D 場景資源](../3d-scene-resource/3d-scene-resource.md)的 UV 圖塊[會被多次指派到 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)。
+3D 場景資源[&#128279;](../3d-scene-resource/3d-scene-resource.md)的 UV 圖塊會被多次指派到 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)。
 
 <b>![（勾選）]（warnings-from-dependencies.resources/check.svg）解決方案</b>
 

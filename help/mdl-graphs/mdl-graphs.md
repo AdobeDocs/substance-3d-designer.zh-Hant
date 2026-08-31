@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![孔雀石MDL材料](mdl-graphs.resources/mdl-graphs-01.jpg "孔雀石MDL材料")
 
-*孔雀石與Chrysocolla、Mark Foreman**](https://www.artstation.com/oggyart)的MDL資料[可於我們的[Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)**平台取得*
+*孔雀石與Chrysocolla、Mark Foreman&#x200B;**[&#128279;](https://www.artstation.com/oggyart)的MDL資料可於我們的[Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台取得*
 
 >[!WARNING]
 > 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 概觀
 
-MDL 代表 [Materials Definition Language](http://www.nvidia.com/object/material-definition-language.html)：「由 [NVIDIA](https://www.nvidia.com/) 開發的技術，用以定義物理基礎材料以實現物理基礎渲染解決方案。」 （資料來源： [ NVIDIA MDL 文件](https://raytracing-docs.nvidia.com/mdl/index.html)）
+MDL 代表 [Materials Definition Language](http://www.nvidia.com/object/material-definition-language.html)：「由 [NVIDIA](https://www.nvidia.com/) 開發的技術，用以定義物理基礎材料以實現物理基礎渲染解決方案。」 （資料來源： [&#x200B; NVIDIA MDL 文件](https://raytracing-docs.nvidia.com/mdl/index.html)）
 
 使用此語言，完整材質定義可移植，因此可在多個應用程式與渲染器間使用，以達成一致的輸出。 Substance 3D Designer 目前 *是唯一* 提供基於圖形的 MDL 材料節點製作的應用程式，透過將 MDL 函式與值類型作為 MDL 圖中的節點公開。
 

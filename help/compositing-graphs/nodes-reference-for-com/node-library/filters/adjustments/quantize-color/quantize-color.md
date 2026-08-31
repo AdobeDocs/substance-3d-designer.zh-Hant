@@ -67,7 +67,7 @@ ht-degree: 0%
 |:---|:---|
 | <b>產出</b> <i>顏色</i> | 量化的彩色影像。 |
 | <b>身分證</b> <i>灰階</i> | 一個映射，每個量化顏色都被賦予唯一的整數識別碼。   這可用於：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>從一些量化區域中擷取一個遮罩</b> ，並用 [ID to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 節點</li> <li data-preserve-html="true"><b>使用[「套用色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)」或[「修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)」節點重新上</b>色量化影像</li> </ul> |
-| <b>調色盤</b> <i>顏色</i> | 調色盤從影像中提取，量化後保留剩餘顏色。   影像是有序的 RGB 顏色列表，編碼為一列像素，最多可容納 256 種顏色。   調色盤可用「檢視色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化[。 |
+| <b>調色盤</b> <i>顏色</i> | 調色盤從影像中提取，量化後保留剩餘顏色。   影像是有序的 RGB 顏色列表，編碼為一列像素，最多可容納 256 種顏色。   調色盤可用「檢視色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化。 |
 | <b>調色盤色彩量</b> <i>整數</i> | 調色盤中儲存的顏色數量。 |
 
 <a name="parameters"></a>

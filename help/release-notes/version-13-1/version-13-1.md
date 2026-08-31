@@ -56,7 +56,7 @@ ht-degree: 0%
 
 * <b>節點選單改進： </b>為了節省尋找所需節點的時間，我們稍微改進了節點選單。 搜尋變得更寬容，即使沒有完美匹配也能給你結果。 此外，你現在可以用上箭頭直接進入清單中的最後一個元素。
 * <b>節點擺放： </b>如果你喜歡圖表的完美版面配置，這兩個小改動會讓你滿意！ 當你將節點從一個圖複製/貼上到另一個圖時，貼上的節點現在會對齊到主格子。 當你在長連結上新增節點時，這個節點會放在連結可見部分的中間，讓它在各種情況下都能看見。
-* <b>2D 檢視選項：</b>如果你是 2D 視圖](../../interface/2d-view/2d-view.md)的密集使用者[，會節省時間，因為像是「顯示棋盤格」、「保留視圖大小」、「使用實體大小」和「顯示平鋪」等選項現在都被保存了，這樣你建立新 2D 視圖或重新啟動 Designer 時就不用再重新設定。
+* <b>2D 檢視選項：</b>如果你是 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)的密集使用者，會節省時間，因為像是「顯示棋盤格」、「保留視圖大小」、「使用實體大小」和「顯示平鋪」等選項現在都被保存了，這樣你建立新 2D 視圖或重新啟動 Designer 時就不用再重新設定。
 
 ## AxF 匯出
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-AxF 是 X-Rite](https://www.xrite.com/axf) 的[一種格式。它提供一種在數位設計流程中，利用數值資料捕捉、儲存、編輯及傳達複雜材料特性的方法。 在之前的 Designer 版本中，你可以匯 [入 AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ，然後改善平鋪或加入程序化效果，但之後你只能以新的 .sbsar 檔案匯出變更。
+AxF 是 X-Rite[&#128279;](https://www.xrite.com/axf) 的一種格式。它提供一種在數位設計流程中，利用數值資料捕捉、儲存、編輯及傳達複雜材料特性的方法。 在之前的 Designer 版本中，你可以匯 [入 AxF 檔案](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) ，然後改善平鋪或加入程序化效果，但之後你只能以新的 .sbsar 檔案匯出變更。
 
 在這個新版本中，我們引入了可以原地編輯 AxF 材質， [然後將變更](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 匯出為匯入後的 AxF 檔案的新圖層的功能。
 

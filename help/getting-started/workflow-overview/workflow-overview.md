@@ -46,7 +46,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 實例化圖是 Designer 中的一個關鍵流程。 它允許你透過將任何大小或類型的圖打包成新的節點建構塊來建立自己的節點。 這類節點稱為「圖實例」，這讓你更有效率、節省時間並與他人分擔工作。 例如，你有沒有發展出很棒的邊緣磨損技巧？ 用它建立一個圖實例，自己重用，或分享給社群或你的團隊！
 
-關於實體圖](../../compositing-graphs/substance-compositing-graphs.md)中圖實例[的更多資訊，文件[中有專門的章節](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
+關於實體圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中圖實例的更多資訊，文件[中有專門的章節](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
 ![圖參數簡化](workflow-overview.resources/workflow-overview-03.png "圖參數")
 
@@ -129,7 +129,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 
 函式 <b>處理的是單一值</b> （整數、浮點數、向量），而非影像資料（整組像素）。 函數也是帶有節點網路的圖，但 [所用](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
 
-函式可用於多種不同情境，主要包括修改暴露參數[](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行為、撰寫像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行為[，以及在Substance圖中使用[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
+函式可用於多種不同情境，主要包括修改暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行為、撰寫像素處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行為，以及在Substance圖中使用[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 
 
 
-在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見[，但會使用自訂函數。
+在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見，但會使用自訂函數。
 
 此函式也可寫成 *lerp（0.1， 0.8， Intensity），* 以類似 HLSL 或 GLSL 的偽代碼形式。
 

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # MDL 圖表中的警告
 
-本頁列出 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中 MDL 圖表[可能觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
+本頁列出 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中 MDL 圖表可能觸發的警告與錯誤訊息，並提供每種常見的故障排除步驟。
 
-警告會顯示在總管](../../interface/the-explorer-window/the-explorer-window.md)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角[顯示。
+警告會顯示在總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中圖表資源[的警告圖示工具提示中，若圖已載入，則會在圖表視圖的](../../interface/the-graph-view/the-graph-view.md)左下角顯示。
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 圖中沒有定義輸出節點。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 在圖表中選擇任何輸出與此函式預期類型相符的節點（如果有），然後點選 RMB，在情境選單中選擇 <b>「Set as root</b> 」選項，或雙擊該節點的 LMB。\
 Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
@@ -43,7 +43,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 參數所提供的值不會導致該節點的有效計算。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 調整數值，使其符合目標參數。
 
@@ -53,7 +53,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 節點未提供預期執行計算的輸入值。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 當輸入連接器沒有提供資料時，某些節點參數無法退回到預設值。 這種情況在場景輸入中很常見。
 
@@ -65,7 +65,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 提供給節點的資訊不完整或無效，因此節點無法執行計算。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 往上游的圖中檢查是否有因問題觸發的警告，導致節點無法提供有效輸出。
 
@@ -78,7 +78,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 * 圖實例節點參考一個圖
 * 場景資源節點參考點陣圖 3D 場景資源
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 在 Explorer 面板中，找到該資源所提及的資源並排除該資源所引發的所有警告：
 
@@ -94,7 +94,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 * 圖實例節點參考一個圖
 * 場景資源節點參考點陣圖 3D 場景資源
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 對於圖實例節點
 
@@ -103,7 +103,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 場景資源節點
 
-在總管](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中找到參考資源[，並確認它們是否存在於檔案<b>路徑</b>屬性中儲存的位置。\
+在總管[&#128279;](https://substance3d.adobe.com/documentation/display/DRAFTDESIGNER/.The+Explorer+window+vDraftVersion)面板中找到參考資源，並確認它們是否存在於檔案<b>路徑</b>屬性中儲存的位置。\
 如果沒有，請在檔案總管中點擊 *資源項目的右鍵* ，並在情境選單中選擇 <b>「重新定位...」</b> 選項，為該資源設定新的有效目標檔案。
 
 ![「找不到參考資源」解決方案](warnings-in-mdl-graphs.resources/warnings-in-mdl-graphs-05.gif "「找不到引用資源」解決方案")
@@ -112,7 +112,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 暴露參數的預設值不會包含在該參數定義的軟範圍中。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 調整預設值或軟範圍，讓前者包含在後者中。
 
@@ -126,7 +126,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 軟範圍與暴露參數並未完全包含在該參數定義的硬範圍中。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 調整軟音域或硬音域，讓前者完全包含在後者中。
 
@@ -140,7 +140,7 @@ Substance 模型圖的輸出節點以 *橘色*&#x200B;呈現。
 
 暴露參數的預設值不包含在該參數定義的硬範圍中。
 
-<b>![（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
+<b>!&lbrack;（勾選）（warnings-in-mdl-graphs.resources/check.svg）解決方案</b>
 
 調整預設值或硬範圍，讓前者包含在後者中。
 

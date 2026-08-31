@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 概觀
 
-本頁列出可下載的 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 範例[檔案。這些專案包含帶註解的圖表，介紹 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的基本工具與概念[。
+本頁列出可下載的 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 範例[檔案。這些專案包含帶註解的圖表，介紹 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的基本工具與概念。
 
 <table>
 <tr style="border: 0;">
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 本專案展示了 Substance 圖中可利用的繼承方法，將重要影像資訊如解析度與位元深度跨節點傳播。
 
-您可以在我們文件的這一頁](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)了解繼承[相關資訊。
+您可以在我們文件的這一頁[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)了解繼承相關資訊。
 
 [![繼承範例檔案圖示](sample-substance-compositing-graphs.resources/sample-substance-compositing-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 

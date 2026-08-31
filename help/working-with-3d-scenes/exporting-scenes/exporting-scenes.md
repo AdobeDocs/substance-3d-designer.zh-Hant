@@ -20,9 +20,9 @@ ht-degree: 1%
 
 # 匯出場景
 
-當你需要匯出包含所有在 Designer 中完成的編輯的場景時，請使用 3D View](../../interface/3d-view/3d-view.md) 的「場景」選單中的「匯出場景...」操作[。
+當你需要匯出包含所有在 Designer 中完成的編輯的場景時，請使用 3D View[&#128279;](../../interface/3d-view/3d-view.md) 的「場景」選單中的「匯出場景...」操作。
 
-匯出為 USD 格式時，場景內容會與場景瀏覽器](../../interface/3d-view/scene-browser/scene-browser.md)中顯示[的樹相符。
+匯出為 USD 格式時，場景內容會與場景瀏覽器[&#128279;](../../interface/3d-view/scene-browser/scene-browser.md)中顯示的樹相符。
 
 對於其他格式，場景內容及其內部結構會依據所選檔案格式所支援的功能而定。
 

@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 說明
 
-最先進的線性梯度。 與 Linear Gradient 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md) 那種圓潤、管狀輪廓[不同，這個節點回傳了一個銳利筆直的斜坡，並且對中點提供了額外的控制。
+最先進的線性梯度。 與 Linear Gradient 2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-2/gradient-linear-2.md) 那種圓潤、管狀輪廓不同，這個節點回傳了一個銳利筆直的斜坡，並且對中點提供了額外的控制。
 
 </td>
 </tr>

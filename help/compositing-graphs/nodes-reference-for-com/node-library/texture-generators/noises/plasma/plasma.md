@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 說明
 
-這會產生稍微不同的高斯雜訊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)變體[，帶有較長的暗條作為谷。它也有類似的距離控制來維持平鋪。
+這會產生稍微不同的高斯雜訊[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)變體，帶有較長的暗條作為谷。它也有類似的距離控制來維持平鋪。
 
 </td>
 </tr>

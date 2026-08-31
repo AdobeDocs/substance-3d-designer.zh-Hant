@@ -25,7 +25,7 @@ ht-degree: 0%
 這有幾個應用案例，例如：
 
 * 回傳及處理非影像資料，例如單一值的材料屬性或額外的元資料。 例如，材料的 IOR 價值。
-* 優化不需要逐像素計算的圖形計算（作為像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的[替代方案）。例如隨機的純色。
+* 優化不需要逐像素計算的圖形計算（作為像素處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)的替代方案）。例如隨機的純色。
 * 透過將影像資料轉換為數值，將一個節點的屬性連結到另一個節點。 例如，調整音量的影像最小值與最大值。
 
 ## 新值節點與輸入
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <div><img alt="價值處理器節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="價值處理器節點圖示" width="100px"/></div>  <b>[價值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md）</b> | [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)可以接收任意數量的灰階或色彩輸入，並允許你根據這些輸入從計算中回傳單一值。 |
+| <div><img alt="價值處理器節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-01.png" title="價值處理器節點圖示" width="100px"/></div>  <b>[價值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)可以接收任意數量的灰階或色彩輸入，並允許你根據這些輸入從計算中回傳單一值。 |
 | <div><img alt="值輸入節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/values-in-substance-compositing-graphs-02.png" title="值輸入節點圖示" width="100px"/></div>  **[價值輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)允許你在子圖上建立一個明確定義為 Value 的輸入槽。 |
 
 此外，其他節點也會以特定方式處理：
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 使用價值與一般實體圖工作略有不同：
 
-值連接只能來自[值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、[值輸入或](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)[子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。這其實代表 Value 處理器是唯一能從零建立 Value 連線的方式，沒有「靜態值」節點或類似的東西。 相反地，建立一個值處理器，放置靜態值並將其設為輸出，以達成相同的結果。
+值連接只能來自[值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、[值輸入或](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。這其實代表 Value 處理器是唯一能從零建立 Value 連線的方式，沒有「靜態值」節點或類似的東西。 相反地，建立一個值處理器，放置靜態值並將其設為輸出，以達成相同的結果。
 
 值處理器只能回傳單一值，如果你想回傳多個值，或是值組或值群組，就必須建立 [子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 

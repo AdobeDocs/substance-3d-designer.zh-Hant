@@ -28,6 +28,6 @@ Substance 3D Designer 包含腳本編輯器&#x200B;**，讓使用者能**&#x200B
 
 ![在 Python 編輯器](python-editor.resources/python-editor-02.png "中尋找並替換 在 Python 編輯器中尋找並替換")
 
-秉持 Python 編輯器的測試&#x200B;******目的**，使用者可以透過編輯器工具列中的「*執行*」按鈕（或按 *F5*）測試所有程式碼，或&#x200B;**僅**&#x200B;透過「*執行選擇*」按鈕（或按「*Ctrl+Enter*」）測試當前選取。
+秉持 Python 編輯器的測試&#x200B;**&#x200B;**&#x200B;**目的**，使用者可以透過編輯器工具列中的「*執行*」按鈕（或按 *F5*）測試所有程式碼，或&#x200B;**僅**&#x200B;透過「*執行選擇*」按鈕（或按「*Ctrl+Enter*」）測試當前選取。
 
 ![在 Python 編輯器](python-editor.resources/python-editor-03.png "中執行選取的程式碼 在 Python 編輯器中執行選取的程式碼")
