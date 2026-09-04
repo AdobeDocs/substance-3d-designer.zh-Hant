@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 所有變動
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
+source-git-commit: 470ce4ff25b81c710c4b446b160c29663c31d356
 workflow-type: tm+mt
-source-wordcount: '32039'
+source-wordcount: '32107'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,18 @@ ht-degree: 0%
 # 所有變動
 
 ## 版本 16
+
+### 16.0.6
+
+*（2026年9月4日發行）*
+
+**修正：**
+
+* [穩定性]修正了在著色器編譯過程中關閉應用程式時的當機問題
+* [穩定性]修正了將影像匯出到包含非 ASCII 字元的路徑時的當機
+* [安全性]修正了 TGA 檔案解析中越界讀取的漏洞
+* [安全性]修正了 TIFF 檔案解析中 NULL 指標去參考的漏洞
+* [安全性]修正了 TGA 檔案解析中 NULL 指標去參考的漏洞
 
 ### 16.0.5
 
