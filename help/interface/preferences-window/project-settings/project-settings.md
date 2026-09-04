@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 專案設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 7dbdf7d5539fcc9450150b699fbd588cb0889892
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2687'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 >
 > 如需更多關於如何在生產流程&#x200B;**中建立及整合 Substance 3D Designer**&#x200B;的資訊，我們&#x200B;*強烈建議*&#x200B;參考[文件中的管線與專案設定](../../../pipeline-and-project-con/pipeline-and-project-configuration.md)章節。
 
-![專案設定](../../../assets/2019-3-0-prefs-proj-01.png "專案設定"){zoomable="yes"}
+![專案設定](project-settings.resources/project-settings-01.png "專案設定"){zoomable="yes"}
 
 ## 配置
 
@@ -116,7 +116,7 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 | <b>3D 場景</b> | 預設情況下，Designer 在 3D 視圖中使用 **MikkT 切線空間** 。 MikkT 廣泛使用，是 Unity、Unreal Engine 4、Blender 和 xNormal 等軟體的預設配置。你可以使用&#x200B;**自己的切線空間**&#x200B;作為 3D 視圖，並在此設定中以 DLL 檔案&#x200B;*輸入的形式提供給 Designer*。標籤會自動從 DLL 檔案中偵測到，你可以編輯外掛&#x200B;<br><br>*的描述 預設：mikktspace.dll*&#x200B;必須重新計算切線影格&#x200B;<br><br>*預設：未勾選*&#x200B;法線與切線平滑角度&#x200B;<br><br>*預設值：180.0°* |
 | <b>其他</b> | 法線貼圖可透過 <b>DirectX</b> 或 <b>OpenGL</b> 格式產生或處理。 此設定會在多個地方設定此格式的值，例如[3D檢視](../../../interface/3d-view/3d-view.md)的[材質屬性](../../../interface/3d-view/material-properties/material-properties.md)和[法線](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)濾波器節點參數。<br><br>*預設：DirectX*<br><br>&#x200B;關於[法線](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)濾波器節點，你可以設定Alpha通道內容</b>參數的預設值<b>。你可以選擇在所有情況下強制 alpha 為 1，或是用輸入資訊填滿它。<br><br>*預設：強制 alpha 為 1* |
 | <b>影像格式</b> | 這讓你可以指定匯出&#x200B;*影像<br><br>*&#x200B;的&#x200B;*預設格式設定 預設：預設（BMP）/ Piz 基礎小波，未勾選，未勾選（EXR）/ 未勾選，未勾選，75（JPG）/ 最佳速度，未勾選（PNG）/ 預設（TGA）/ LZW（TIF）/ 未勾選，75（WEBP）* |
-| <b>相依路徑</b> | <p>SBS 套件通常具有 <b>依賴</b>性，即依賴 <i>外部資源</i> ，如其他 SBS 套件、位圖或向量檔案。<br>這些相依性會在相依性管理器中列出[，並以路徑</b>指向這些資源儲存與<i>參考 SBS 套件</i><b>。](../../../interface/dependency-manager/dependency-manager.md)</p><p>對於包含<i>與 SBS 套件相同路徑</i>的相依關係（即它們位於該位置的相同位置或子資料夾），參考路徑會相對於</b> SBS 套件的位置來寫<b>入。</p><p>範例：SBS 套件 <code>myproject/mypackage.sbs</code>，一張圖片 <code>myproject/myfolder/myimage.png</code> 會被參考到 <code>MyFolder/myimage.png</code> mypackage.sbs 中的 <code>路徑</code>).</p><p>對於不</i>包含與 SBS 套件相同路徑的相依<i>（即它們位於與 SBS 套件完全不同的位置），你可以選擇路徑的寫入方式。</p><p>若設定為 <b>相對路徑</b>，資源的引用方式將如上所述。</p><p>範例：針對 SBS 套件 <code>myparentfolder/myproject/mypackage.sbs</code>，一張圖片 <code>myparentfolder/myotherfolder/myimage.png</code> 會被引用到  <code>../myotherfolder/myimage.png</code> mypackage.sbs 中的 <code>路徑</code>.</p><p>若設定為 <b>絕對路徑</b>，則資源將由其完整系統路徑來參考。</p><p>範例：針對 SBS 套件 <code>myparentfolder/myproject/mypackage.sbs</code>，一張圖片 <code>myparentfolder/myotherfolder/myimage.png</code>在 mypackage.sbs 中會被引用到同一條完整路徑<code></code></p><p><i>預設：...相對路徑。</i></p><p><i>注意：</i> 在所有情況下，移動資源都會破壞 <i>依賴關係</i> ，導致 <b>圖中出現幽靈實例</b> 節點。  要<i></i>將所有相依整合到同一個專案資料夾，搭配 SBS 套件，你可以在總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中使用<b>「帶相依的匯出功能</b>」。這實際上建立了<i></i>一個獨立的專案資料夾，且可自由移動。 |
+| <b>相依路徑</b> | <p>SBS 套件通常具有 <b>依賴</b>性，即依賴 <i>外部資源</i> ，如其他 SBS 套件、位圖或向量檔案。<br>這些相依性會在相依性管理器中列出[，並以路徑</b>指向這些資源儲存與<i>參考 SBS 套件</i><b>。](../../../interface/dependency-manager/dependency-manager.md)</p><p>對於包含<i>與 SBS 套件相同路徑</i>的相依關係（即它們位於該位置的相同位置或子資料夾），參考路徑會相對於</b> SBS 套件的位置來寫<b>入。</p><p>範例：SBS 套件 <code>myproject/mypackage.sbs</code>，一張圖片 <code>myproject/myfolder/myimage.png</code> 會被參考到 <code>MyFolder/myimage.png</code> mypackage.sbs 中的 <code>路徑</code>).</p><p>對於不</i>包含與 SBS 套件相同路徑的相依<i>（即它們位於與 SBS 套件完全不同的位置），你可以選擇路徑的寫入方式。</p><p>若設定為 <b>相對路徑</b>，資源的引用方式將如上所述。</p><p>範例：針對 SBS 套件 <code>myparentfolder/myproject/mypackage.sbs</code>，一張圖片 <code>myparentfolder/myotherfolder/myimage.png</code> 會被引用到  <code>../myotherfolder/myimage.png</code> mypackage.sbs 中的 <code>路徑</code>.</p><p>若設定為 <b>絕對路徑</b>，則資源將由其完整系統路徑來參考。</p><p>範例：針對 SBS 套件 <code>myparentfolder/myproject/mypackage.sbs</code>，一張圖片 <code>myparentfolder/myotherfolder/myimage.png</code>在 mypackage.sbs 中會被引用到同一條完整路徑<code></code></p><p><i>預設：...相對路徑。</i></p><p><i>注意：</i> 在所有情況下，移動資源都會破壞 <i>依賴關係</i> ，導致 <b>圖中出現幽靈實例</b> 節點。  要<i></i>將所有相依整合到同一個專案資料夾，搭配 SBS 套件，你可以在總管[&#128279;](../../the-explorer-window/the-explorer-window.md)面板中使用<b>「帶相依的匯出功能</b>」。這實際上建立了<i></i>一個獨立的專案資料夾，且可自由移動。 |
 
 ### 圖書館
 
@@ -143,7 +143,7 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 >[!NOTE]
 >
 > 雖然您的自訂資源會被加入圖書館，但由於現有圖書館分類的篩選規則，可能 *無法被看到* 。 我們建議你自行建立 *篩選器* ，並以資料夾組織，確保在專案進行時能可靠找到你的內容。\
-> 更多資訊請參閱 [文件中的「管理自訂內容與篩選器](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html) 」章節。
+> 更多資訊請參閱 [文件中的「管理自訂內容與篩選器](../../the-library/managing-custom-content/managing-custom-content-and-filters.md) 」章節。
 
 ### Python
 

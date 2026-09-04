@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 效能優化指引
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1027'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 +++
 
 +++當不需要 16 位元時，請使用 8 位元
-Substance Engine 的 CPU 版本（SSE2）*實際上並不*&#x200B;支援 16 位元色彩或 8 位元灰階。 GPU 引擎支援 8/16 位元的四種組合，以及灰階/彩色。 *目前，Unity 和 Unreal Engine 的外掛*&#x200B;中僅使用 CPU 引擎。
+Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色彩或 8 位元灰階。 GPU 引擎支援 8/16 位元的四種組合，以及灰階/彩色。 *目前，Unity 和 Unreal Engine 的外掛*&#x200B;中僅使用 CPU 引擎。
 
 +++
 
@@ -90,7 +90,7 @@ Substance Engine 的 CPU 版本（SSE2）*實際上並不*&#x200B;支援 16 位�
 +++
 
 +++有些噪音產生器會受到繪製圖案數量的影響
-例如，[方塊產生](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)器節點隨著你加入的圖案越多，處理速度會變慢。
+例如， [方塊產生](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 器節點隨著你加入的圖案越多，處理速度會變慢。
 
 +++
 
@@ -100,7 +100,7 @@ Substance Engine 的 CPU 版本（SSE2）*實際上並不*&#x200B;支援 16 位�
 +++
 
 +++相反地，也有一些非常快速的雜訊產生器
-這些包括[快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)白噪音、[分形和基底](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)和[各向異性雜訊](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)。
+這些包括 [快速](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/white-noise-fast/white-noise-fast.md)白噪音、 [分形和基底](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/fractal-sum-base/fractal-sum-base.md)和 [各向異性雜訊](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/anisotropic-noise/anisotropic-noise.md)。
 
 +++
 
@@ -141,22 +141,22 @@ Substance Engine 的 CPU 版本（SSE2）*實際上並不*&#x200B;支援 16 位�
 
 >[!WARNING]
 >
-> 將點陣節點設[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)為「相對於父節點」並將[圖表發佈](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)到 Substance 3D 資產（SBSAR），會將位圖儲存為 256x256 **的解析度**，而非原始大小。建議將位圖節點[輸出大小](../../compositing-graphs/output-size/output-size.md)的繼承方法[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)保持為「絕對」，並在點陣節點後方使用[設定為「相對於父」的轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點。
+> 將點陣節點設[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)為「相對於父節點」並將[圖表發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到 Substance 3D 資產（SBSAR），會將位圖儲存為 256x256 **的解析度**，而非原始大小。建議將位圖節點[輸出大小](../../compositing-graphs/output-size/output-size.md)的繼承方法[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)保持為「絕對」，並在點陣節點後方使用[設定為「相對於父」的轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點。
 
-![嵌入式位圖優化 1](../../assets/input-1.jpg "嵌入式點陣優化 1")
+![嵌入式位圖優化 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "嵌入式點陣優化 1")
 
-![嵌入式位圖優化 2](../../assets/relativetoparent.jpg "嵌入式位圖優化 2")
+![嵌入式位圖優化 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "嵌入式位圖優化 2")
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-此外，建議將點陣資源格式設為 Jpeg，以減少 [已發佈](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 的 Substance 3D 資產（SBSAR）大小。
+此外，建議將點陣資源格式設為 Jpeg，以減少已發佈的 Substance 3D 資產（SBSAR）大小。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![嵌入式位圖優化 3](../../assets/format.jpg "嵌入式位圖優化 3")
+![嵌入式位圖優化 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "嵌入式位圖優化 3")
 
 </td>
 </tr>

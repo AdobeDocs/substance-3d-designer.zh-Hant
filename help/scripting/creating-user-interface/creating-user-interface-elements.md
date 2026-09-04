@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立使用者介面元素
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # 建立使用者介面元素
 
-Substance 3D Designer 包含 <b>Qt For Python</b>。 使用者可以使用 [UI Manager](../../scripting/scripting-api-reference/scripting-api-reference.md)類別來建立 <b>選單</b>、 <b>對話框</b>、 <b>自訂面板</b>及其他外掛使用者介面元素。
+Substance 3D Designer 包含 <b>Qt For Python</b>。 使用者可以使用 [UI Manager](../../scripting/scripting-api-reference/scripting-api-reference.md)類別來建立 <b>選單</b>、 <b>對話框</b>、 <b>自訂面板</b> 及其他外掛使用者介面元素。
 
 在這個頁面中，你可以找到在 Designer 裡使用 Qt 來做 Python 的簡單範例。
 
-欲了解更多關於 Python Qt 的資訊，請參閱官方[文件。](https://doc.qt.io/qtforpython/index.html)
+欲了解更多關於 Python Qt 的資訊，請參閱官方 [文件。](https://doc.qt.io/qtforpython/index.html)
 
 ## 建立對話
 

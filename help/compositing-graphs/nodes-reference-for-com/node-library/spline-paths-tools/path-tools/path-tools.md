@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 我們建議學習[如何使用路徑與樣條鍵工具](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)，以充分利用這些工具組。
+> 我們建議學習 [如何使用路徑與樣條鍵工具](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) ，以充分利用這些工具組。
 > 
 > 對於進階使用者， [路徑格式規範](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) 說明了路徑資料如何編碼成彩色影像，並提供直接操作這些資料的技巧。
 

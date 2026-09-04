@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理參數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![全域「管理參數」選單在屬性](../../assets/manage-parameters-menu-global.png "中 全域「管理參數」選單 在「屬性管理」選單"){zoomable="yes"}
+![全域「管理參數」選單在屬性](manage-parameters.resources/manage-parameters-01.png "中 全域「管理參數」選單 在「屬性管理」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -56,10 +56,10 @@ ht-degree: 0%
 
 * <b>揭露參數：</b> 開啟「批次暴露參數」對話框。 對於每個暴露的參數，動作會建立一個新的圖形輸入，並自動根據該圖形輸入設定函式。 在這個專門頁面[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數的資訊。
 * <b>複製參數：</b> 請參閱 [下方的「複製並貼上參數](#copy-paste-parameters) 」章節。
-* <b>參數貼上：</b> 請參見[下方的「複製並貼上參數](../../compositing-graphs/manage-parameters/manage-parameters.md)」章節。
+* <b>參數貼上：</b> 請參見 [下方的「複製並貼上參數](../../compositing-graphs/manage-parameters/manage-parameters.md) 」章節。
 * <b>將參數儲存為預設檔：</b> 在此 [專頁](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)了解更多關於參數預設的資訊。
-* <b>從預設檔案套用參數：</b>在此[專頁](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)了解更多關於參數預設的資訊。
-* <b>重置全部：</b> 將所有參數重置為預設值與範圍。若函數被應用於任何參數，則會被忽略。
+* <b>從預設檔案套用參數：</b> 在此 [專頁](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)了解更多關於參數預設的資訊。
+* <b>重置全部：</b> 將所有參數重置為預設值與範圍。 若函數被應用於任何參數，則會被忽略。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![屬性中的](../../assets/manage-parameters-menu.png "本地「管理參數」選單 屬性中的本地「管理參數」選單"){zoomable="yes"}
+![屬性中的](manage-parameters.resources/manage-parameters-02.png "本地「管理參數」選單 屬性中的本地「管理參數」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ ht-degree: 0%
 
 你可以用三種方式將 Substance 函數圖[&#128279;](../../function-graphs/the-function-graph/the-function-graph.md)套用到該參數：
 
-* <b>以新圖形輸入方式暴露：</b>這會建立一個新的圖形輸入，並自動用該圖形輸入設定函數。 在這個專門頁面[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數的資訊。
+* <b>以新圖形輸入方式暴露：</b> 這會建立一個新的圖形輸入，並自動用該圖形輸入設定函數。 在這個專門頁面[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數的資訊。
 * <b>空函式：</b> 從零開始編寫一個函式。
 * <b>Constant value：</b>從設定為參數當前值的常數值節點[&#128279;](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)開始編輯函式。
 * <b>重置：</b> 將參數重置為預設值與範圍。 若對參數套用函數，則該函數會被忽略。
@@ -108,7 +108,7 @@ ht-degree: 0%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![節點上下文選單中的「管理參數」選單「節點上下文選單](../../assets/manage-parameters-node-menu.png "中的管理參數」選單"){zoomable="yes"}
+![節點上下文選單中的「管理參數」選單「節點上下文選單](manage-parameters.resources/manage-parameters-03.png "中的管理參數」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -120,7 +120,7 @@ ht-degree: 0%
 
 ## 複製並貼上參數
 
-可以複製來源節點的所有參數值，並貼上到目標節點上。來源節點與目標節點的參數會根據 <b>其識別碼與類型</b>進行匹配。
+可以複製來源節點的所有參數值，並貼上到目標節點上。 來源節點與目標節點的參數會根據 <b>其識別碼與類型</b>進行匹配。
 
 例如，一個標識為「scale」且類型為「Float」的參數，若其識別碼同樣為「scale」且類型為「Float」，則可複製貼上到另一個參數「Shape Scale」。
 
@@ -129,7 +129,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![複製並貼上參數](../../assets/copy-paste-parameters.gif "複製並貼上參數"){zoomable="yes"}
+![複製並貼上參數](manage-parameters.resources/manage-parameters-04.gif "複製並貼上參數"){zoomable="yes"}
 
 </td>
 </tr>

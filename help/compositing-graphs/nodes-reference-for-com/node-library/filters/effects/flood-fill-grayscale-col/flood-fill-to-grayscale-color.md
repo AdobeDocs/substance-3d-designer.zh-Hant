@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 從洪水填充到灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 1%
+source-wordcount: '162'
+ht-degree: 3%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-grayscale.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-01.png){width="128px"}
 
-![](../../../../../../assets/floodfill-to-color.png){width="128px"}
+![](flood-fill-to-grayscale-color.resources/flood-fill-to-grayscale-color-02.png){width="128px"}
 
-## 從泛光填充到隨機灰階/彩色
-
-**收錄於：***濾鏡/效果*
-
-**&#x200B;**&#x200B;很簡單&#x200B;**&#x200B;**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,18 +39,24 @@ ht-degree: 1%
 
 這是一個強大的系統，能賦予每個細胞獨特的數值或顏色，同時仍保有控制權，並基於預設輸入來決定。
 
-## 參數
-
-### 輸入
-
-* **泛光填充**： *色彩輸入*
-* **灰階/色彩輸入**： *灰階/色彩輸入*
-
-### 參數
-
-* **亮度/色彩調整**： *-1.0 - 1.0*&#x200B;設定節點的偏壓或基準值。 當使用灰階或彩色輸入時，會用來改變該初始值作為起點。
-* **亮度/顏色隨機**： *-1.0 - 1.0*&#x200B;設定變化量。
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>洪水填埋</b> <i>色彩輸入</i> |  |
+| <b>灰階/彩色輸入</b> <i>灰階/彩色輸入</i> |  |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>亮度/色彩調整</b> <i>-1.0 - 1.0</i> | 設定節點的偏壓或基準值。 當使用灰階或彩色輸入時，會用來改變該初始值作為起點。 |
+| <b>亮度/顏色隨機</b> <i>-1.0 - 1.0</i> | 設定變化的程度。 |

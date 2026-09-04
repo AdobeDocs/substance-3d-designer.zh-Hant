@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 分形和基底
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '259'
+ht-degree: 1%
 
 ---
 
@@ -22,15 +22,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形和基底 - 圖示](../../../../../../assets/fractal_sum_base.png "分形和基底 - 圖示"){width="200px"}
+![分形和基底 - 圖示](fractal-sum-base.resources/fractal-sum-base-01.png "分形和基底 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,44 +43,28 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 產生的雜訊以灰階位圖形式呈現。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 產生的雜訊以灰階位圖形式呈現。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>粗糙漂</b>  浮 | 噪音八度的平衡。    較高的數值會讓高頻八度更明顯。 |
-| <b>敏。 階級</b>  整數 | 噪音中使用的最低八度。    值越高，噪聲頻率越高。 |
-| <b>Max。 階級</b>  整數 | 噪音中使用的最大八度。    值越高，噪聲頻率越高。 |
-| <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
-| <b>對比</b>  浮動 | 最終結果的對比。 |
-| <b>全域不透明度</b>  浮動 | 噪音八度的不透明度會累積成最終結果。    高值可能導致部分區域被燒成白色。 |
-| <b>非平方展開</b>  布林 | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
+|:---|:---|
+| <b>粗糙度</b> <i>浮標</i> | 噪音八度的平衡。    較高的數值會讓高頻八度更明顯。 |
+| <b>敏。 關卡</b> <i>整數</i> | 噪音中使用的最低八度。    值越高，噪聲頻率越高。 |
+| <b>Max。 關卡</b> <i>整數</i> | 噪音中使用的最大八度。    值越高，噪聲頻率越高。 |
+| <b>混亂</b> <i>浮標</i> | 取代噪音的成分。    這可以用來動畫噪音。 |
+| <b>無序速度</b> <i>浮標</i> | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>對比</b> <i>浮標</i> | 最終結果的對比。 |
+| <b>全域不透明度</b> <i>浮標</i> | 噪音八度的不透明度會累積成最終結果。    高值可能導致部分區域被燒成白色。 |
+| <b>非平方展開</b> <i>布林值</i> | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
 
 ## 範例
 
@@ -92,26 +72,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形和基底 - 範例 1](../../../../../../assets/fractal_sum_base_1.png "分形和基底 - 範例 1"){zoomable="yes"}
+![分形和基底 - 範例 1](fractal-sum-base.resources/fractal-sum-base-02.png "分形和基底 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形和基底 - 範例 2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形和基底 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![分形和基底 - 範例 2](fractal-sum-base.resources/fractal-sum-base-03.gif "分形和基底 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>

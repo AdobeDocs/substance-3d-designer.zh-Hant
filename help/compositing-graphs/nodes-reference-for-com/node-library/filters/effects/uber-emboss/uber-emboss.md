@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 超級浮雕
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 1%
+source-wordcount: '164'
+ht-degree: 9%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/uber-emboss.png){width="128px"}
+![](uber-emboss.resources/uber-emboss-01.png){width="128px"}
 
-## 超級浮雕
-
-**收錄於：***濾鏡/效果*
-
-**中級**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,35 +37,41 @@ Emboss[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/a
 
 在某些材質風格需要大量控制時，這點很實用。
 
-## 參數
-
-### 輸入
-
-* **顏色**： *顏色輸入*\
-  要修改的基礎圖片。
-* **高度**： *灰階輸入*\
-  高度圖作為效果的驅動力。
-
-### 參數
-
-* **環境色彩**：*（色彩值）*用於陰影區域的顏色。
-* **漫反射色**：*（色彩值）*用於有光區域的顏色。
-* **鏡面反射**&#x200B;色：*（色值）*用於鏡面反射的顏色
-* **光強**： *0.0 - 1.0*\
-  （假）光的強度。
-* **光角**： *0.0 - 1.0*\
-  （假）光的入射角
-* **鏡面反射**&#x200B;強度： *0.0 - 1.0*&#x200B;鏡面反射強度。
-* **鏡面光澤度**： *0.0 - 1.0*&#x200B;鏡面高光的大小。
-* **漫反射粗糙度**： *0.0 - 1.0*&#x200B;計算漫反射光照時使用的粗糙度。
-* **陰影不透明度**： *0.0 - 1.0*&#x200B;混合陰影區域的不透明度。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/uberemboss-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>顏色</b> <i>色彩輸入</i> | 要修改的基礎圖片。 |
+| <b>高度</b> <i>灰階輸入</i> | 高度圖作為效果的驅動力。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>環境色彩</b> <i>（色彩值）</i> | 陰影區域使用的顏色。 |
+| <b>漫遊色彩</b> <i>（色彩值）</i> | 光線區域使用的顏色。 |
+| <b>鏡面色彩</b> <i>（色彩值）</i> | 鏡面反射所用的顏色 |
+| <b>光強</b> <i>0.0 - 1.0</i> | （假）光的強度。 |
+| <b>光線角度</b> <i>0.0 - 1.0</i> | （假）光的入射角 |
+| <b>鏡面強度</b> <i>0.0 - 1.0</i> | 鏡面反射的強度。 |
+| <b>鏡面光澤</b> <i>0.0 - 1.0</i> | 高光的大小。 |
+| <b>漫散粗糙度</b> <i>0.0 - 1.0</i> | 計算漫射光的粗糙度。 |
+| <b>陰影不透明度</b> <i>0.0 - 1.0</i> | 融合陰影區域的不透明度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="uber-emboss.resources/uber-emboss-02.png" />
+        </td>
+    </tr>
 </table>

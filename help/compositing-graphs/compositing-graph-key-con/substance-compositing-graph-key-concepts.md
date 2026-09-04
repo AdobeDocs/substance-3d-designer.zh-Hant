@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 實體圖的關鍵概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 子圖/出版
 
-[發佈圖](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 或建立子圖是兩個非常相似且抽象的概念。 這表示任何圖或節點網絡都可以「打包」在一起，並轉化為可重複使用的獨立資源。 子圖[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的建立大多是在應用程式內部完成，目的是讓某些內容能在高效且智慧的工作流程中重複使用，避免重複一組節點。發佈時還需額外匯出為 [Substance 3D 資產（SBSAR）](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html) 格式，讓你的節點網路圖能在應用程式外使用，例如為 Unreal Engine 製作材質時。
+[發佈圖](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 或建立子圖是兩個非常相似且抽象的概念。 這表示任何圖或節點網絡都可以「打包」在一起，並轉化為可重複使用的獨立資源。 子圖[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的建立大多是在應用程式內部完成，目的是讓某些內容能在高效且智慧的工作流程中重複使用，避免重複一組節點。發佈時還需額外匯出為 Substance 3D 資產（SBSAR）格式，讓你的節點網路圖能在應用程式外使用，例如為 Unreal Engine 製作材質時。
 
 輸入、輸出與暴露參數在此概念中極為重要，因為它們是圖形作為子圖或已發佈 Substance 3D 資產時，仍能與其互動的唯一方式。 原因如下：
 

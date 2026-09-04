@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 [圖類型](#graph-types)
 
-![資料流程簡化](../../assets/graph-direction.png "資料流程簡化")
+![資料流程簡化](workflow-overview.resources/workflow-overview-01.png "資料流程簡化")
 
 ## 基於節點的工作流程
 
-在 Designer 中工作與其他 2D 影像編輯軟體（如 Photoshop）不同。 你不需要手動執行動作（例如透過選單選項調整飽和度並調整滑桿），而是 <b>建立編輯或建立影像的邏輯步驟</b> 。 這是透過建立一個由小積木組成的網絡來實現的，這些元件稱為「[節點](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html)」。 影像資料從<b> 左向右</b> 穿過各個組件，這些組件由連結連接，決定資訊的路徑。 每個節點若連接，都會對最終結果做出貢獻。
+在 Designer 中工作與其他 2D 影像編輯軟體（如 Photoshop）不同。 你不需要手動執行動作（例如透過選單選項調整飽和度並調整滑桿），而是 <b>建立編輯或建立影像的邏輯步驟</b> 。 這是透過建立一個稱為「節點」的小積木網絡來實現的。 影像資料從<b> 左向右</b> 穿過各個組件，這些組件由連結連接，決定資訊的路徑。 每個節點若連接，都會對最終結果做出貢獻。
 
 主要優點是你的工作流程會變得 <b>非線性</b>。 與手動執行的操作進入歷史堆疊不同，你隨時可以更換或修改節點。 如果你覺得第一次調整對比度，影響了整個影像效果，結果一直到最後，還是可以回頭調整，甚至完全刪掉，而不會失去後續所做的所有工作。
 
-![圖實例簡化](../../assets/sub-graph.png "圖實例")
+![圖實例簡化](workflow-overview.resources/workflow-overview-02.png "圖實例")
 
 ## 圖實例工作流程
 
@@ -48,7 +48,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 關於實體圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中圖實例的更多資訊，文件[中有專門的章節](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
-![圖參數簡化](../../assets/parameters-5.png "圖參數")
+![圖參數簡化](workflow-overview.resources/workflow-overview-03.png "圖參數")
 
 ## 自訂參數
 
@@ -62,7 +62,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-04.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 以下是一些常見的使用案例範例。
 
 +++簡單的形狀
-![Substance 圖中的簡單形狀 Substance 圖](../../assets/simpleshape.png "中的簡單"){width="512px"}
+![Substance 圖中的簡單形狀 Substance 圖](workflow-overview.resources/workflow-overview-05.png "中的簡單"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++調整濾波器
-![Substance 圖](../../assets/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
+![Substance 圖](workflow-overview.resources/workflow-overview-06.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++完整內容
-![Substance 圖表](../../assets/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
+![Substance 圖表](workflow-overview.resources/workflow-overview-07.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/workflow-overview-08.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -129,7 +129,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 
 函式 <b>處理的是單一值</b> （整數、浮點數、向量），而非影像資料（整組像素）。 函數也是帶有節點網路的圖，但 [所用](../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
 
-函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+函式可用於多種不同情境，主要包括修改暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的行為、撰寫像素處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Maps](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)的行為，以及在Substance圖中使用[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 </td>
 </tr>
@@ -140,7 +140,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 以下是 Substance 函數圖常見使用案例中的一些範例。
 
 +++簡單函數
-![簡單函數圖簡單函數圖](../../assets/lerpfunction.png ""){width="256px"}
+![簡單函數圖簡單函數圖](workflow-overview.resources/workflow-overview-09.png ""){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++進階功能
-![進階功能](../../assets/pixel-function.png "進階功能"){width="512px"}
+![進階功能](workflow-overview.resources/workflow-overview-10.png "進階功能"){width="512px"}
 
 
 

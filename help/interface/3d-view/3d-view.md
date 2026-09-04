@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 檢視
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 88555fe2352e6ab9408fb2364dbb5aad3682bf57
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '3450'
+source-wordcount: '3514'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,17 @@ ht-degree: 0%
 
 更多資訊請見： [3D 渲染器](3d-renderers/3d-renderers.md)
 
++++ 3D 視角底座
+
+![3d-view.png](3d-view.resources/3d-view-01.png)
+
++++
+
 ## 視窗互動
 
 以下部分簡要說明如何執行常見動作，並附上動畫動圖說明流程。
 
-![視窗導航](../../assets/3d-navigate.gif "視窗導航 視窗導航")
+![視窗導航](3d-view.resources/3d-view-02.gif "視窗導航 視窗導航")
 
 ### 導航
 
@@ -78,11 +84,11 @@ ht-degree: 0%
 
 <b>按 Esc 取消選取。</b> 游標不一定要在網格上。
 
-![3D 檢視 - 聚焦並取消選擇](../../assets/sceneBrowser-focus.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
+![3D 檢視 - 聚焦並取消選擇](3d-view.resources/3d-view-03.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
 
 *選擇、聚焦、取消選擇*
 
-![3D 視圖 - 情境選單](../../assets/sceneBrowser-contextualMenu.gif "3D 視圖 - 情境選單"){zoomable="yes"}
+![3D 視圖 - 情境選單](3d-view.resources/3d-view-04.gif "3D 視圖 - 情境選單"){zoomable="yes"}
 
 *選擇，情境選單*
 
@@ -108,13 +114,13 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 到 <b>燈光>編輯屬性</b> ，切換場景中的點燈光。
 
-點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="3d-view.resources/3d-view-05.png" width="24" />
 
-在相機模式下 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
+在相機模式下 <img src="3d-view.resources/3d-view-06.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
 
 ## 以 3D 視圖檢視資料
 
-![查看 Substance 圖表輸出](../../assets/3d-material.gif "查看 Substance 圖表輸出")
+![查看 Substance 圖表輸出](3d-view.resources/3d-view-07.gif "查看 Substance 圖表輸出")
 
 ### 物質圖
 
@@ -122,9 +128,9 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 你可以在圖表檢視中點擊 *RMB* 一個空區域[，然後在情境選單中選擇&#x200B;**「在 3D 檢視**&#x200B;中檢視輸出」選項，即可查看所有圖表的](../../interface/the-graph-view/the-graph-view.md)輸出。
 
-你也可以在不打開圖表的情況下查看，方法是在總管底座的[圖形資源中點擊右鍵，並在情境選單中選擇&#x200B;**「在 3D 視圖**&#x200B;中檢視輸出」](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)選項。
+你也可以在不打開圖表的情況下查看，方法是在總管底座的[圖形資源中點擊右鍵，並在情境選單中選擇&#x200B;**「在 3D 視圖**&#x200B;中檢視輸出」](../the-explorer-window/the-explorer-window.md)選項。
 
-作為圖表上下文選單的替代方案，你也可以將圖表從 [總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 底座拖曳到 [3D 視圖](https://substance3d.adobe.com/)，達到相同的效果。
+作為圖表上下文選單的替代方案，你也可以將圖表從 [總管](../the-explorer-window/the-explorer-window.md) 底座拖曳到 3D 視圖，達到相同的效果。
 
 載入圖表&#x200B;*時*，其輸出預設會自動套用在 3D 視圖中。你可以在 [偏好設定](../../interface/preferences-window/preferences-window.md)中停用此行為。 請前往 **Edit > 偏好設定> Graph > Common**，並在開啟圖形&#x200B;**選項時取消勾選** 3D 視圖中的「View 輸出」。
 
@@ -134,7 +140,7 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 > 
 > 如果你使用包含多個單一材質的自訂網格，系統會要求你選擇要將材質指派到哪個材質槽。 使用上述任一方法，點擊老虎機確認你的選擇。 欲了解更多關於材料及其作業的資訊，請閱讀以下詳細章節。
 
-![3D 視圖中](../../assets/3d-channel.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
+![3D 視圖中](3d-view.resources/3d-view-08.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
 
 ### 個別節點/圖形輸出
 
@@ -144,9 +150,9 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 你也可以用 *RMB* 從圖形視圖拖放任意節點到 3D 視圖。 你會看到一份可用頻道清單，讓你分配節點。 點擊任意一鍵確認。
 
-你可以透過在 Explorer[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
+你可以透過在 Explorer[&#128279;](../the-explorer-window/the-explorer-window.md) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
 
-![查看自訂 3D 網格](../../assets/3d-mesh.gif "查看自訂 3D 網格")
+![查看自訂 3D 網格](3d-view.resources/3d-view-09.gif "查看自訂 3D 網格")
 
 ## 查看（自訂）3D 場景
 
@@ -155,7 +161,7 @@ Designer 提供十幾種預設網格。 這些網格擁有統一且可用的 UV 
 
 關於自訂 3D 場景，請前往 [「與 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md) 共作」部分。
 
-![材料性質](../../assets/3d-materials.gif "的變化 材料性質的改變")
+![材料性質](3d-view.resources/3d-view-10.gif "的變化 材料性質的改變")
 
 ## 變更著色器屬性
 
@@ -178,7 +184,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 > * <b>光柵器/GPU 路徑追蹤器：</b> 位於渲染器設定（渲染器>編輯設定），會影響 *整個場景*。
 > * <b>OpenGL：</b> 位於材料屬性中，影響材料。
 
-![匯出場景](../../assets/3d-view-export-scene.gif "匯出場景")
+![匯出場景](3d-view.resources/3d-view-11.gif "匯出場景")
 
 ## 匯出場景
 
@@ -224,7 +230,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 +++場景
 <b>場景</b>選單處理顯示的幾何體（3D 資源）以及 3D 視圖狀態。3D 資源只包含網格，場景狀態是燈光、攝影機及相關設定，也可以包含網格。
 
-![場景選單網格](../../assets/3d-view-meshes.png "場景選單網格")
+![場景選單網格](3d-view.resources/3d-view-12.png "場景選單網格")
 
 
 
@@ -260,7 +266,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 * 環面
 
-<b>在 2D 視圖中顯示 UV：</b> 啟用目前選取網格的 UV 以覆蓋層形式顯示在 [2D 視圖](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 中。
+<b>在 2D 視圖中顯示 UV：</b> 允許將目前選取的網格的 UV 以覆蓋層形式顯示在 [2D 視圖](../2d-view/2d-view.md)中。
 
 <b>從目前場景建立 3D 資源......：</b> 從目前場景中建立一個新的 [3D 場景資源](../../resources/3d-scene-resource/3d-scene-resource.md) 。
 
@@ -419,7 +425,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-scene-browser.png" width="24" />  <b>場景瀏覽器</b>
+<img src="3d-view.resources/3d-view-13.png" width="24" />  <b>場景瀏覽器</b>
 
 顯示 3D 場景中所有元素的階層。
 
@@ -428,7 +434,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 >場景瀏覽器及其功能在專屬頁面[&#128279;](../../interface/3d-view/scene-browser/scene-browser.md)中有詳細介紹。
 
 
-<img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" />  <b>精選</b>
+<img src="3d-view.resources/3d-view-14.png" width="24" />  <b>精選</b>
 
 允許場景中直接選取網格。
 
@@ -442,7 +448,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-camera.png" width="22" />    <b>相機</b>
+<img src="3d-view.resources/3d-view-15.png" width="22" />    <b>相機</b>
 
 可直接控制場景中的攝影機。
 
@@ -450,13 +456,13 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-environment.png" width="24" />  <b>表演環境</b>
+<img src="3d-view.resources/3d-view-16.png" width="24" />  <b>表演環境</b>
 
 這個按鈕用來切換場景環境的顯示。 同樣的設定可以在 3D View 選單列的 Environment > Edit</b> 後，在 Properties dock <b>找到。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-light.png" width="24" />  <b>光</b>
+<img src="3d-view.resources/3d-view-17.png" width="24" />  <b>光</b>
 
 可直接控制場景中的點燈1。
 
@@ -464,31 +470,31 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="24" />  <b>渲染器設定</b>
+<img src="3d-view.resources/3d-view-18.png" width="24" />  <b>渲染器設定</b>
 
 在屬性[&#128279;](../properties/properties.md)底座中顯示目前渲染器的設定。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width="24" />  <b>啟用 Pathtracer</b>
+<img src="3d-view.resources/3d-view-19.png" width="24" />  <b>啟用 Pathtracer</b>
 
 切換 GPU Pathtracer[&#128279;](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器的選擇。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width="24" />  <b>啟用陰影</b>
+<img src="3d-view.resources/3d-view-20.png" width="24" />  <b>啟用陰影</b>
 
 切換光柵化[&#128279;](3d-renderers/3d-renderers.md#rasterizer)器渲染器中即時陰影的渲染。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width="24" />  <b>啟用接地平面</b>
+<img src="3d-view.resources/3d-view-21.png" width="24" />  <b>啟用接地平面</b>
 
 切換 Rasterizer[&#128279;](3d-renderers/3d-renderers.md#rasterizer) 和 [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器中地面平面的渲染。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-displacement.png" width="24" />  <b>遷移</b>
+<img src="3d-view.resources/3d-view-22.png" width="24" />  <b>遷移</b>
 
 顯示 [位移彈出視窗](displacement/displacement.md)。
 
@@ -498,19 +504,19 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-grid.png" width="24" />  <b>格網</b>
+<img src="3d-view.resources/3d-view-23.png" width="24" />  <b>格網</b>
 
 切換世界格子的顯示。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-stats.png" width="24" />  <b>場景統計</b>
+<img src="3d-view.resources/3d-view-24.png" width="24" />  <b>場景統計</b>
 
 切換場景統計顯示，例如多邊形數量、材質數量、靜態網格數量等。
 
 <br>
 
-<img src="3d-view.resources/3d-view-scene-toolbar-pivot.png" width="24" />  <b>軸心國</b>
+<img src="3d-view.resources/3d-view-25.png" width="24" />  <b>軸心國</b>
 
 切換視窗中 3D 軸的顯示。
 
@@ -520,25 +526,25 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg)<b>背面剔除</b>
+![](3d-view.resources/3d-view-26.jpg)<b>背面剔除</b>
 
 關閉這個選項後，*你就能從兩側看到網格面*。這個選項可以和線框圖搭配使用。
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg)<b>邊界盒</b>
+![](3d-view.resources/3d-view-27.jpg)<b>邊界盒</b>
 
 切換網格邊界框的顯示。
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg)<b>頂點切空間</b>
+![](3d-view.resources/3d-view-28.jpg)<b>頂點切空間</b>
 
 以彩色裝置顯示所有頂點的切線、雙法向與法向量。
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg)<b>線框</b>
+![](3d-view.resources/3d-view-29.jpg)<b>線框</b>
 
 切換網格顯示為線框圖。
 
@@ -548,11 +554,27 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 >[!NOTE]
 >
-> 工具列可&#x200B;*利用最*&#x200B;左邊的把手&#x200B;*（以三條平行線表示）重新定位&#x200B;***於 3**&#x200B;**D View** 底座周圍。
+> 工具列可透過最&#x200B;*左邊的把*&#x200B;手（以三條平行線表示）在 3D View **底座周圍重新定位&#x200B;***。*
+
+### 3D 渲染 AOV
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0; vertical-align: top">
+        <td style="border: 0">
+            <p>你可以用 <img src="./3d-view.resources/aov/3d-view-30.png" alt="3D 渲染 AOV 圖示" style="padding-left: 5px; padding-right: 5px" /> 3D 渲染 AOV 按鈕顯示不同的 <a href="../../glossary/glossary.md#aov">AOV</a></b>。<b></p>
+            <p>AOV 讓你能單獨檢查網格和材質資訊，方便專注工作和除錯。</p>
+            <p>部分 AOV 的 <i>HDR 數值</i> 在視窗中被固定為 1（純白）或 0（純黑）。<br>要檢查完整範圍的數值，你可以將 AOV 的 3D 渲染匯出成支援 HDR 值的影像檔案格式，例如 <code>.exr</code>。<br>使用 <code>Camera > Save render...</code> 選單選項匯出目前的 AOV。</p>
+            <p><i>注意：</i> AOV 僅在使用 Rasterizer 與 GPU Pathtracer <a href="./3d-renderers/3d-renderers.md">3D 渲染器</a>時使用。</p>
+        </td>
+        <td style="width: 33%; border: 0">
+            <img src="3d-view.resources/aov/3d-view-31.jpg" alt="合成的 3D 渲染 AOV" />
+        </td>
+    </tr>
+</table>
 
 ### 彩色通道
 
-你可以用![](../../assets/2d-view-icon-channels.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
+你可以用![](3d-view.resources/3d-view-32.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
 
 色彩頻道按鈕的&#x200B;*圖示*&#x200B;會根據目前顯示的頻道而改變&#x200B;*。<b>*</b>
 

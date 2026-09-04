@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 正常
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：正常](../../../../assets/comp_normal_1.png "原子節點：正常"){width="200px"}
+![原子節點：正常](normal.resources/normal-01.png "原子節點：正常"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,9 +78,9 @@ ht-degree: 2%
 
 |  |  |
 | --- | --- |
-| <b>強度</b> *浮標* | 修改高度圖的強度。 設定輸入高度圖轉換成法線時的強度。 根據輸入映射，超過 100 的數值影響不大。 |
-| <b>標準格式</b> *布林值* | 將高度圖（OpenGL）的 Y 座標反轉。 設定綠色（Y）通道的編碼方式。 基本上就是一個「翻綠/Y」開關。 |
-| <b>Alpha 通道內容</b> *布林值* | 用輸入貼圖填滿法線貼圖的 alpha 通道。 以輸入填充 Alpha/強制 Alpha 為 1：此方法允許將 Alpha 通道設為實心，而非將輸入作為額外的 Alpha。 |
+| <b>強度</b> *浮標* | 修改高度圖的強度。   設定輸入高度圖轉換成法線時的強度。 根據輸入映射，超過 100 的數值影響不大。 |
+| <b>標準格式</b> *布林值* | 將高度圖（OpenGL）的 Y 座標反轉。   設定綠色（Y）通道的編碼方式。 基本上就是一個「翻綠/Y」開關。 |
+| <b>Alpha 通道內容</b> *布林值* | 用輸入貼圖填滿法線貼圖的 alpha 通道。   以輸入填充 Alpha/強制 Alpha 為 1：此方法允許將 Alpha 通道設為實心，而非將輸入作為額外的 Alpha。 |
 
 ## 輸入連接器
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *發行日期：2025年7月15日*
 
-![橫幅](../../assets/banner-47.png "版本 15.0 橫幅")
+![橫幅](version-15-0.resources/version-15-0-01.png "版本 15.0 橫幅")
 
 ## 全新 3D 渲染器
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX[&#128279;](https://materialx.org/) 等技術。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
 
-![光柵化器中的陰影與半透明](../../assets/feature_1b.png)
+![光柵化器中的陰影與半透明](version-15-0.resources/version-15-0-02.png)
 
 [3D 視圖工具列](../../interface/3d-view/3d-view.md)已更新，能快速存取此渲染器中部分新功能：
 
@@ -41,23 +41,23 @@ ht-degree: 0%
 * <b>啟用陰影：</b> 在場景中啟用陰影，有助於觀察材質在光線下的表現。
 * <b>啟用地面平面：</b> 用來啟用或關閉場景中的地面平面。
 
-此外，旋轉環境燈的快捷鍵也改成了其他 Substance 應用程式的模式，現在是 *<b>Shift-Right Click</b>*，而不是 *<b>ctrl-shift-right click</b>*。
+此外，旋轉環境燈的快捷鍵也改成了其他 Substance 應用程式的模式，現在是 *<b>Shift-Right Click</b>* ，而不是 *<b>ctrl-shift-right click</b>*。
 
 ### 後續影響
 
 [後期效果回來](../../interface/3d-view/camera/post-effects/post-effects.md)了！ 這些作品現在可以透過相機選單取得，且已由內部開發。
 
 * <b>Bloom：</b> 模擬亮點周圍的眩光，如燈光和反射，讓你能更清楚地看到發射表面。
-* <b>色調映射：</b>透過設定檔呈現色彩範圍，以產生高動態範圍（HDR）效果。
+* <b>色調映射： </b>透過設定檔呈現色彩範圍，以產生高動態範圍（HDR）效果。
 * <b>景深：</b> 模擬相機鏡頭（僅光柵器）的對焦特性。
 
-![Designer 15.0 的後期效果](../../assets/postfx.gif)
+![Designer 15.0 的後期效果](version-15-0.resources/version-15-0-03.gif)
 
 ## 資產版在背景下的說明
 
 當你在製作材質時，可能會想 [在特定的 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md)中預覽。 這也是為什麼我們加入了匯入並渲染完整場景的功能，包含所有材質、攝影機和燈光。 更棒的是，如果這個場景參考了 MaterialX 著色器，光柵器會正確渲染出來！
 
-![USD 場景已載入並用 Designer 渲染](../../assets/feature_2.png)
+![USD 場景已載入並用 Designer 渲染](version-15-0.resources/version-15-0-04.png)
 
 匯入後，你可以選擇網格（用 SHIFT + 點擊或多虧場景瀏覽器）並 [覆蓋其](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)材質來處理場景。 你可以：
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![混合節點](../../assets/blend.gif)
+![混合節點](version-15-0.resources/version-15-0-05.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![模糊節點](../../assets/blur.gif)
+![模糊節點](version-15-0.resources/version-15-0-06.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距離節點](../../assets/distance.gif)
+![距離節點](version-15-0.resources/version-15-0-07.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 如果你需要處理非方形材質，這個新選項就是為你量身打造的。 在 [3D 視圖的材質屬性](../../interface/3d-view/material-properties/material-properties.md) 中，UV 控制平鋪的選項中，你現在可以為兩個軸設定不同的數值。
 
-![不同的U型比例](../../assets/nonsquare.png){zoomable="yes"}
+![不同的U型比例](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
 
 ## 烘焙師
 
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 ## 視覺特效平台需求更新
 
-每年，[VFX 參考平台](https://vfxplatform.com/)都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們&#x200B;*會*&#x200B;更新所有相依系統，以尊重所有這些建議。
+每年， [VFX 參考平台](https://vfxplatform.com/) 都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們 *會* 更新所有相依系統，以尊重所有這些建議。
 
 ## 影片
 
-[![Substance 3D 設計師更新：新增渲染器、後製特效與上下文編輯 |Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D 設計師更新：新增渲染器、後製特效與上下文編輯 |Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## 發行說明
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 曲率（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 1%
+source-wordcount: '123'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/curvature-1.png){width="128px"}
+![](curvature-filter-node.resources/curvature-filter-node-01.png){width="128px"}
 
-## 曲率
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,18 +37,25 @@ ht-degree: 1%
 
 這個節點對於快速高亮或調暗某些邊緣很有用。 與 Curvature Smooth[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)（品質較高）和 [Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（選項較多）相比，它有限制。
 
-## 參數
-
-* **強度**： *0.0 - 10.0*&#x200B;效果強度。 這樣可以增加結果的對比度。
-* **一般格式**： *DirectX、OpenGL*\
-  切換不同的法線貼圖格式（反轉綠色通道）。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/curvature-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>強度</b> <i>0.0 - 10.0</i> | 效果的強度。 這樣可以增加結果的對比度。 |
+| <b>一般格式</b> <i>DirectX、OpenGL</i> | 切換不同的法線貼圖格式（反轉綠色通道）。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="curvature-filter-node.resources/curvature-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用路徑樣條工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 ### 什麼是路徑和樣條？
 
-<b>路徑是一連串點連接</b>成直線。
+<b>路徑是一連串點連接</b> 成直線。
 
-<b>樣條</b>曲線是由控制點及其切線所塑造的平滑曲線。\
+<b>樣條</b> 曲線是由控制點及其切線所塑造的平滑曲線。\
 每個點也控制樣條的高度與厚度屬性，這些屬性用於驅動影像的映射、變形與散射。
 
 每個都能建造封閉或開放形狀。
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路徑多邊形輸出](../../../../../assets/PathsPolygon_Data.jpg "路徑多邊形輸出")
+![路徑多邊形輸出](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-01.jpg "路徑多邊形輸出")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 因此，它們產生的影像無法直接作為圖形元素使用。 它們需要由工具集中的其他節點處理，這些節點能將它們轉換成圖形結果，然後再與其他可用於 Substance 圖表的其他節點一起使用。
 
-當你處理路徑和樣條曲線時，可以使用專用[的預覽路徑](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)節點預覽這些映射在影像中的物件，並用專用<b>的預覽</b>輸出來預覽樣條曲線。
+當你處理路徑和樣條曲線時，可以使用專用 [的預覽路徑](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) 節點預覽這些映射在影像中的物件，並用專用 <b>的預覽</b> 輸出來預覽樣條曲線。
 
 <table>
 <tr style="border: 0;">
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![二維視圖](../../../../../assets/SplineCubic-Demo.gif "中的樣條三次曲線 二維視圖中的樣條三次曲線")
+![二維視圖](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-02.gif "中的樣條三次曲線 二維視圖中的樣條三次曲線")
 
 </td>
 </tr>
@@ -79,14 +79,14 @@ ht-degree: 0%
 
 路徑與樣條工具需要大量計算，因此你應該注意幾個設定，以確保使用工具組時能達到最佳效能與反應性：
 
-1. 工具組大量運用 <b>Substance Engine</b> 功能，在 GPU 上運行速度大幅提升。 因此，請使用系統的 GPU 版本引擎：<b>Direct3D</b> （Windows）或 <b>OpenGL</b> （macOS）。\
+1. 工具組大量運用 <b>Substance Engine</b> 功能，在 GPU 上運行速度大幅提升。 因此，請使用系統的 GPU 版本引擎： <b>Direct3D</b> （Windows）或 <b>OpenGL</b> （macOS）。\
    你可以按 F9</b> 鍵切換引擎<b>，或是進入<b>主選單列的 Tools > Switch 引擎</b>。
-1. 接著，我們強烈建議在偏好設定的圖表區（前往編輯偏好設定...）中關閉<b>上下文編輯（In-context <b>edit <b></b> ></b> [&#128279;](../../../../../interface/preferences-window/preferences-window.md)</b>在主選單列中可進入此視窗）。\
+1. 接著，我們強烈建議<b>在偏好設定[&#128279;](../../../../../interface/preferences-window/preferences-window.md)的圖表</b>區關閉上下文編輯</b><b>（前往<b>主選單列的>編輯偏好設定......</b>可進入此視窗）。\
    上下文編輯允許你在主機圖的上下文中開啟實例節點，這確實非常方便，但副作用是工具組影像快取所需的計算量呈指數成長。
 
 只要將這兩個設定改成建議狀態，你應該會注意到顯著的效能提升。
 
-![圖書館](../../../../../assets/PathsTools.jpg "中的路徑工具圖書館中的路徑工具")
+![圖書館](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-03.jpg "中的路徑工具圖書館中的路徑工具")
 
 ## 路徑工具
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 另外，也可以透過「遮罩到路徑[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」節點從灰階影像中擷取路徑。\
 目前這是產生複雜形狀的唯一方法，並且讓你能利用整個 Substance 圖形節點[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)庫，產生最終會轉換成路徑的形狀。
 
-![路徑產生節點路徑](../../../../../assets/Paths_Generation.jpg "產生節點"){width="600px"}
+![路徑產生節點路徑](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-04.jpg "產生節點"){width="600px"}
 
 ### 編輯路徑
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![預覽路徑節點](../../../../../assets/PreviewPaths_Node.jpg "預覽路徑節點")
+![預覽路徑節點](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-05.jpg "預覽路徑節點")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 <b>遮罩 > 遮罩轉為路徑 > 路徑轉為樣條</b>
 
-![路徑到樣條](../../../../../assets/Spline_PathToSpline.jpg "曲線路徑 路徑到 樣條曲線")
+![路徑到樣條](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-06.jpg "曲線路徑 路徑到 樣條曲線")
 
 ### 路徑格式規範
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 你可以利用這個規格來製作屬於自己的節點，並充分利用 [Paths 頂點處理器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 節點。
 
-![函式庫中的樣條鍵工具函](../../../../../assets/SplineTools.jpg "式庫中的樣條鍵工具")
+![函式庫中的樣條鍵工具函](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-07.jpg "式庫中的樣條鍵工具")
 
 ## 花鍵工具
 
@@ -165,7 +165,7 @@ ht-degree: 0%
 
 ### 編輯樣條曲線
 
-[樣條 2D 變形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)和[樣條曲線扭曲](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) 讓你可以編輯樣條曲線的形狀。
+[樣條 2D 變形](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md) 和 [樣條曲線扭曲](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md) 讓你可以編輯樣條曲線的形狀。
 
 你也可以透過 [依索引選擇路徑及修剪樣條，使用樣條選擇](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-select/spline-select.md) 節點來移除不需要的樣條線。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 這會影響需要將樣條線合併的節點，例如[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)樣條橋（列表）、[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)樣條橋映射器和[樣條合併清單](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)。
 
-![附加帶有連結建立模式](../../../../../assets/LinkCreationMode_Splines.gif "的樣條 附帶連結建立模式的樣條")
+![附加帶有連結建立模式](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-08.gif "的樣條 附帶連結建立模式的樣條")
 
 ### 樣鍵輸入與輸出
 
@@ -205,14 +205,14 @@ ht-degree: 0%
 
 ### 預覽輸出
 
-大多數節點都會提供<b>預覽</b>輸出，讓你能在影像中渲染樣條，讓你了解它們的軌跡和屬性。
+大多數節點都會提供 <b>預覽</b> 輸出，讓你能在影像中渲染樣條，讓你了解它們的軌跡和屬性。
 
 這個預覽可以在節點參數中調整，使用預覽</b>群組中的<b>參數。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條線節點](../../../../../assets/Spline_PreviewOutput.jpg "上的預覽輸出樣條線節點上的預覽輸出")
+![樣條線節點](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-09.jpg "上的預覽輸出樣條線節點上的預覽輸出")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![樣條以段](../../../../../assets/Spline_Segments.jpg "形式渲染 樣條曲線以段形式渲染")
+![樣條以段](working-with-path-and-spline-tools.resources/working-with-path-and-spline-tools-10.jpg "形式渲染 樣條曲線以段形式渲染")
 
 </td>
 </tr>

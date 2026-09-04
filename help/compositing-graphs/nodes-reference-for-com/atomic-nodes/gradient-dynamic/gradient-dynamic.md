@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漸變（動態）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度動態](../../../../assets/comp_dyngradient_1.png "原子節點：梯度動態"){width="200px"}
+![原子節點：梯度動態](gradient-dynamic.resources/gradient-dynamic-01.png "原子節點：梯度動態"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -94,8 +94,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>梯度尋址</b> *布林值* | 如果梯度重複（磚塊）或夾住，則會被設定。 此參數決定灰階輸入中 [0， 1] 範圍外的 HDR 像素如何處理：是夾住還是摺疊至 [0， 1]。 |
-| <b>梯度方向</b> *整數* | 設定「梯度輸入」應沿取樣的軸線：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平：</i>取樣一列 X 軸上的像素。</li> <li data-preserve-html="true"><i>垂直：</i>在 Y 軸取樣一列像素。</li> </ul> |
+| <b>梯度尋址</b> *布林值* | 如果梯度重複（磚塊）或夾住，則會被設定。   此參數決定灰階輸入中 [0， 1] 範圍外的 HDR 像素如何處理：是夾住還是摺疊至 [0， 1]。 |
+| <b>梯度方向</b> *整數* | 設定「梯度輸入」應沿取樣的軸線：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>水平：</i> 取樣一列 X 軸上的像素。</li> <li data-preserve-html="true"><i>垂直：</i> 在 Y 軸取樣一列像素。</li> </ul> |
 | <b>梯度輸入位置</b> *浮標* | 在「梯度輸入」中，要取樣的像素列或列的正規化位置。 |
 
 ## 輸入連接器

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：方向扭曲](../../../../assets/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="200px"}
+![原子節點：方向扭曲](directional-warp.resources/directional-warp-01.png "原子節點：方向扭曲"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,7 +37,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-扭曲節點是一個相當簡單但實用的節點，是其他更進階效果的良好基礎。 還有更進階的替代方案，例如其他相關節點如[斜率模糊（Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)）和[向量扭曲（Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)）。
+扭曲節點是一個相當簡單但實用的節點，是其他更進階效果的良好基礎。 還有更進階的替代方案，例如其他相關節點如 [斜率模糊（Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) ）和 [向量扭曲（Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)）。
 
 <table>
 <tr style="border: 0;">
@@ -81,7 +81,7 @@ ht-degree: 1%
 | <b>強度</b> *浮標* | 設定扭曲強度。 |
 | <b>曲速角</b> *浮標* | 設定扭曲效果的角度，以轉數表示...... |
 | <b>輸入過濾模式</b> *布林值* | 控制輸入取樣<b></b>時使用最近濾波還是雙線性濾波。 |
-| <b>強度圖偏移</b> *浮標* | 此值會從 <b>強度輸入</b>影像值中扣除。 |
+| <b>強度圖偏移</b> *浮標* | 此值會從 <b>強度輸入</b> 影像值中扣除。 |
 
 ## 輸入連接器
 
@@ -102,17 +102,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向扭曲 - 範例1](../../../../assets/dir-warp.gif "方向扭曲 - 範例1"){zoomable="yes"}
+![方向扭曲 - 範例1](directional-warp.resources/directional-warp-02.gif "方向扭曲 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向曲速 - 範例2](../../../../assets/dir-warp02.gif "方向性曲速 - 範例2"){zoomable="yes"}
+![定向曲速 - 範例2](directional-warp.resources/directional-warp-03.gif "方向性曲速 - 範例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向扭曲 - 範例 3](../../../../assets/dir-warp03.gif "方向扭曲 - 範例 3"){zoomable="yes"}
+![方向扭曲 - 範例 3](directional-warp.resources/directional-warp-04.gif "方向扭曲 - 範例 3"){zoomable="yes"}
 
 </td>
 </tr>

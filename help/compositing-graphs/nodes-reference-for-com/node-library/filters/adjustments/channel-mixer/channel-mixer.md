@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 頻道混音器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 1%
+source-wordcount: '120'
+ht-degree: 7%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/channel-mixer.png){width="128px"}
+![](channel-mixer.resources/channel-mixer-01.png){width="128px"}
 
-## 頻道混音器
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 允許你混合、切換和混合 RGB 通道。 可以用來切換通道、進行更精確的灰階轉換以及各種包裝。
 
-## 參數
-
-* **紅通道**： *-200.0 -* 200.0\
-  決定有多少輸入RGB通道會進入輸出紅通道。
-* **綠頻道**： *-200.0 - 200.0*\
-  決定有多少輸入RGB通道會進入輸出的綠色通道。
-* **藍色通道**： *-200.0 - 200.0*&#x200B;決定輸入 RGB 通道中有多少會進入輸出藍色通道。
-* **單色**： *False/True*&#x200B;輸出到單色。 允許更精確的灰階轉換。
-
-## 範例圖片
-
-![](../../../../../../assets/channelmixer.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>紅通道</b> <i>-200.0 - 200.0</i> | 決定有多少輸入RGB通道會進入輸出紅通道。 |
+| <b>綠水道</b> <i>-200.0 - 200.0</i> | 決定有多少輸入RGB通道會進入輸出的綠色通道。 |
+| <b>藍色頻道</b> <i>-200.0 - 200.0</i> | 決定有多少輸入RGB通道會進入輸出藍通道。 |
+| <b>單色</b> <i>錯誤/真實</i> | 輸出為單色。 允許更精確的灰階轉換。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="channel-mixer.resources/channel-mixer-02.gif" />
+        </td>
+    </tr>
 </table>

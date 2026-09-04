@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多邊形 1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '195'
+ht-degree: 7%
 
 ---
 
@@ -22,43 +22,47 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polygon-1-1.png){width="128px"}
+![](polygon-1.resources/polygon-1-01.png){width="128px"}
 
-## 多邊形 1
-
-**收錄於：***貼圖產生器**/圖案*
-
-**中級**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 產生多邊形形狀，並提供多種調整選項。 請參見 [Polygon 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/polygon-2/polygon-2.md) 以獲得更簡單的版本。
 
-## 參數
-
-* **邊長**： *3 - 32*&#x200B;設定多邊形應有的邊數。
-* **爆炸**： *0.0 - 1.0*&#x200B;將多邊形「切片」移動。
-* **三角形大小**： *0.0 - 1.0*&#x200B;調整切片/三角形大小。 任何調整都可能讓形狀破裂，只有1,1。 完美連接！
-* **比例：***0.0 - 1.0*&#x200B;將整個形狀縮放為一體。
-* **自動縮放**： *False/True*&#x200B;調整縮放，使整個多邊形都能符合預設參數。
-* **旋轉**： *0.0 - 1.0*&#x200B;旋轉整個形狀。
-* **梯度**： *False/True 會*&#x200B;產生漸變切片/三角形，而不是實體。 注意：啟用此設定後會類似 Polygon 2。
-* **梯度反轉**： *假/真 如果*&#x200B;啟用「梯度」，會將梯度方向翻轉。
-* **鋪磚**： *1 - 16*\
-  設定結果應該鋪磚的次數。
-* **非平方展開**： *假/真*\
-  能以非平方比率補償擠壓與拉伸。
-* **非方形平鋪**&#x200B;**:** *False/True*當啟用非正方形擴展時，會用平鋪方式將形狀平鋪而不會被壓縮。
-
-## 範例圖片
-
-![](../../../../../../assets/polygon-1-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>側線</b> <i>3 - 32</i> | 設定多邊形應該有的邊數。 |
+| <b>爆炸</b> <i>0.0 - 1.0</i> | 將多邊形「切片」移動。 |
+| <b>三角形尺寸</b> <i>0.0 - 1.0</i> | 調整切片/三角形的大小。 任何調整都可能讓形狀破裂，只有1,1。 完美連接！ |
+| <b>規模</b> <i>0.0 - 1.0</i> | 整個形狀會合而為一。 |
+| <b>自動秤</b> <i>錯誤/真實</i> | 調整縮放，讓整個多邊形都能進入視圖，並設定預設參數。 |
+| <b>旋轉</b> <i>0.0 - 1.0</i> | 可以旋轉整個形狀。 |
+| <b>梯度</b> <i>錯誤/真實</i> | 它會產生漸層切片/三角形，而不是實體切片。 注意：啟用此設定後會類似 Polygon 2。 |
+| <b>梯度反轉</b> <i>錯誤/真實</i> | 如果啟用「漸層」，則會將漸變方向反轉。 |
+| <b>鋪磚</b> <i>1 - 16</i> | 設定結果應該鋪磚的次數。 |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>非方形鋪磚</b> <i>錯誤/真實</i> | 啟用非正方形擴展時，會將形狀平鋪而不會被壓扁。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="polygon-1.resources/polygon-1-02.gif" />
+        </td>
+    </tr>
 </table>

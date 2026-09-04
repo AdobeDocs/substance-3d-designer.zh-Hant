@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 細胞2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 3%
+source-wordcount: '206'
+ht-degree: 1%
 
 ---
 
@@ -22,15 +22,11 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![格子 2 - 圖示](../../../../../../assets/cells_2.png "格子 2 - 圖示"){width="200px"}
+![格子 2 - 圖示](cells-2.resources/cells-2-01.png "格子 2 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,42 +43,26 @@ ht-degree: 3%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 產生的雜訊以灰階位圖形式呈現。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 產生的雜訊以灰階位圖形式呈現。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>尺度</b>  整數 | 用來產生噪音磚塊的網格細分。    數值越高，抽到的方塊越多，噪音也越密集。 |
-| <b>邊寬</b>  浮球 | 調整細胞間壁面厚度，作為格網的比例。 （即不依賴解析度） |
-| <b>反布</b>  林 | 在輸出影像中切換黑白。 |
-| <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
-| <b>非平方展開</b>  布林 | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
+|:---|:---|
+| <b>規模</b> <i>整數</i> | 用來產生噪音磚塊的網格細分。    數值越高，抽到的方塊越多，噪音也越密集。 |
+| <b>邊寬度</b> <i>浮標</i> | 調整細胞間壁面厚度，作為格網的比例。 （即不依賴解析度） |
+| <b>倒轉</b> <i>布林值</i> | 在輸出影像中切換黑白。 |
+| <b>混亂</b> <i>浮標</i> | 取代噪音的成分。    這可以用來動畫噪音。 |
+| <b>無序速度</b> <i>浮標</i> | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>非平方展開</b> <i>布林值</i> | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
 
 ## 範例
 
@@ -90,26 +70,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![格子 2 - 範例 1](../../../../../../assets/cells_2_1.png "格子 2 - 範例 1"){zoomable="yes"}
+![格子 2 - 範例 1](cells-2.resources/cells-2-02.png "格子 2 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![格子 2 - 範例 2](../../../../../../assets/noise_cells_2_v2_speed0.3_aniso0.6.gif "格子 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![格子 2 - 範例 2](cells-2.resources/cells-2-03.gif "格子 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>

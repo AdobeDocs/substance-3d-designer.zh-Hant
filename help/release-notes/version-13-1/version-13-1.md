@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 # 版本 13.1
 
-<b>Substance 3D Designer 13.1</b> 在節點圖上加入了許多生活品質改進，主要是關於影格，以提升材質製作體驗。 此外，還新增了 AxF 匯出功能，讓使用 AxF 格式的使用者能建立互通性的工作流程。 
+<b>Substance 3D Designer 13.1</b> 在節點圖上加入了許多生活品質改進，主要是關於影格，以提升材質製作體驗。 此外，還新增了 AxF 匯出功能，讓使用 AxF 格式的使用者能建立互通性的工作流程。
 
 *發行日期：2023年12月12日*
 
-![Substance 3D 設計師 13.1 橫幅](../../assets/24-library-hero-1920x620.png "Substance 3D 設計師 13.1 橫幅")
+![Substance 3D 設計師 13.1 橫幅](version-13-1.resources/version-13-1-01.png "Substance 3D 設計師 13.1 橫幅")
 
 ## 框架改進
 
@@ -34,19 +34,19 @@ ht-degree: 0%
 
 隨著圖的成長，影格內容可能需要重新排列。 節點可能會移動以騰出空間給新增內容，或是內容需要更拉開以促進可讀性。 為了方便調整，現在可以在移動包含物件時自動展開畫面：在移動物件時按住 <b>Shift</b> 鍵，畫面邊界會自動調整，保持該物件在範圍內。
 
-![自動展開](../../assets/autoexpand.gif)
+![自動展開](version-13-1.resources/version-13-1-02.gif)
 
 ### 尺寸與內容的配合
 
 當你在圖表中做調整時，畫面可能不再優雅地調整到內容上。 這個新指令允許你自動調整畫面的位置和大小，使其能根據內容的跨度調整，並以一個中等格子作為填充。 如果框架有描述，會調整以利用描述旁邊的空白空間（如果可能的話）。
 
-![尺寸](../../assets/fitsize.gif)
+![尺寸](version-13-1.resources/version-13-1-03.gif)
 
 ### 強化描述
 
 多虧了 HTML 程式碼，你現在可以在框架描述中加入格式化文字。 這同樣適用於留言。
 
-![富文本](../../assets/description-3.png)
+![富文本](version-13-1.resources/version-13-1-04.png)
 
 ### <b>...還有更多精彩內容！</b>
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![AxF 檔案圖示](../../assets/axf-file-icon.png "AxF 檔案圖示")
+![AxF 檔案圖示](version-13-1.resources/version-13-1-05.png "AxF 檔案圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ AxF 是 X-Rite[&#128279;](https://www.xrite.com/axf) 的一種格式。它提供
 </tr>
 </table>
 
-![出口 AxF](../../assets/exportaxf.gif)
+![出口 AxF](version-13-1.resources/version-13-1-06.gif)
 
 ## API
 

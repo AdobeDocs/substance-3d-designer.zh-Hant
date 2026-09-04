@@ -10,9 +10,9 @@ helpx_tags: ""
 title: ID 以掩蓋灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![ID 以遮罩灰階圖示](../../../../../../assets/IDToMask.png "ID 以遮罩灰階圖示 ID 以遮罩灰階圖示"){width="200px"}
+![ID 以遮罩灰階圖示](id-to-mask.resources/id-to-mask-01.png "ID 以遮罩灰階圖示 ID 以遮罩灰階圖示"){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -41,56 +41,42 @@ ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁�
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>身分證</b> *灰階* 初級 | 應從中擷取遮罩的輸入 ID 映射。 |
+|:---|:---|
+| <b>身分證</b> <i>灰階</i> 初級 | 應從中擷取遮罩的輸入 ID 映射。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 從輸入 ID 映射中提取的二元遮罩。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 從輸入 ID 映射中提取的二元遮罩。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>選擇模式</b> *整數* | 選擇遮罩中應為白色的 ID 映射像素值的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>單人：</b>選擇單一像素值</li> <li data-preserve-html="true"><b>範圍：</b>選擇一個像素值範圍</li> </ul> |
-| <b>ID 整數</b> *當「選擇模式」設為「單人」時，整數*   *可用* | ID 映射中的像素值，在輸出遮罩中應該是白色的。 |
-| <b>識別區間</b> *當「選擇模式」設為「範圍」時，整數*    *2 可用* | ID 映射中從開始到結束的像素值範圍，在輸出遮罩中應該是白色的。 |
+|:---|:---|
+| <b>選擇模式</b> *整數* | 選擇遮罩中應為白色的 ID 映射像素值的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><b>單人：</b> 選擇單一像素值</li> <li data-preserve-html="true"><b>範圍：</b> 選擇一個像素值範圍</li> </ul> |
+| <b>ID 整數</b> *當「選擇模式」設為「單人」時，整數*   *可用* | ID 映射中的像素值，在輸出遮罩中應該是白色的。 |
+| <b>識別區間</b> *當「選擇模式」設為「範圍」時，整數*    *2 可用* | ID 映射中從開始到結束的像素值範圍，在輸出遮罩中應該是白色的。 |
 
 ## 範例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_before.jpg" alt="id_to_mask_grayscale_example_1_before">
+      <img src="id-to-mask.resources/id-to-mask-02.jpg" alt="id_to_mask_grayscale_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/id_to_mask_grayscale_example_1_after.jpg" alt="id_to_mask_grayscale_example_1_after">
+      <img src="id-to-mask.resources/id-to-mask-03.jpg" alt="id_to_mask_grayscale_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -100,12 +86,12 @@ ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![ID 對掩碼：範例 2](../../../../../../assets/id_to_mask_example_2.gif "ID 對掩碼：範例 2"){zoomable="yes"}
+![ID 對掩碼：範例 2](id-to-mask.resources/id-to-mask-04.gif "ID 對掩碼：範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![ID 對遮罩：範例 3](../../../../../../assets/id_to_mask_example_3.png "ID 對遮罩：範例 3"){zoomable="yes"}
+![ID 對遮罩：範例 3](id-to-mask.resources/id-to-mask-05.png "ID 對遮罩：範例 3"){zoomable="yes"}
 
 </td>
 </tr>

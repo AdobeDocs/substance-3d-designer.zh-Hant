@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D 單純形雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 1%
+source-wordcount: '129'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
+![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
 
-## 3D 單純形雜訊
-
-**收錄於：***材質產生器**/噪音*
-
-**中級**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -42,16 +38,25 @@ ht-degree: 1%
 
 這種雜訊可以用 Cube 3D GBuffers[&#128279;](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) 作為輸入來測試，而非實際烘焙的貼圖（如下方範例圖片所示）。
 
-## 參數
-
-* **等級**： *0.0 - 64.0*\
-  設定效果的全域尺度。
-* **尺寸**： *0.0 - 2.0*&#x200B;分別對 X、Y 和 Z 軸進行非均勻縮放。
-
-## 範例圖片
-
-![](../../../../../../assets/3d-simplex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>規模</b> <i>0.0 - 64.0</i> | 設定效果的全域尺度。 |
+| <b>規模</b> <i>0.0 - 2.0</i> | 分別對 X、Y 和 Z 軸進行非均勻縮放。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 套用色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '287'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/ApplyColorPalette.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](apply-color-palette.resources/apply-color-palette-01.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -45,66 +45,50 @@ ht-degree: 0%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>身分證</b> *灰階* 初級 | 輸入 ID 映射用於分配輸入調色盤中的顏色。 ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。 ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
-| <b>調色盤</b> *顏色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這是節點映射到 ID 映射索引的調色盤。 調色盤可用量化色彩節點產生[，並以修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)節點進行修改[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) |
+|:---|:---|
+| <b>身分證</b> <i>灰階</i> 初級 | 輸入 ID 映射用於分配輸入調色盤中的顏色。   ID 映射是一種影像，其中屬於整體（例如形狀）的像素都擁有相同的唯一識別值。 此時，值為整數。   ID 映射可透過 [量化色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) 節點產生。 |
+| <b>調色盤</b> <i>顏色</i> | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 這是節點映射到 ID 映射索引的調色盤。   調色盤可用量化色彩節點產生[，並以修改色彩調色盤](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)節點進行修改[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md) |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *顏色* | 這是將調色盤中的顏色映射到 ID 映射的索引所產生的結果。 |
+|:---|:---|
+| <b>產出</b> <i>顏色</i> | 這是將調色盤中的顏色映射到 ID 映射的索引所產生的結果。 |
 
 ## 範例
 
-![套用色彩調色盤：範例 1](../../../../../../assets/apply_color_palette_example_2.png "套用色彩調色盤：範例 1"){zoomable="yes"}
+![套用色彩調色盤：範例 1](apply-color-palette.resources/apply-color-palette-02.png "套用色彩調色盤：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![套用色彩調色盤：範例 3](../../../../../../assets/apply_color_palette_example_4.png "套用色彩調色盤：範例 3"){zoomable="yes"}
+![套用色彩調色盤：範例 3](apply-color-palette.resources/apply-color-palette-05.png "套用色彩調色盤：範例 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>

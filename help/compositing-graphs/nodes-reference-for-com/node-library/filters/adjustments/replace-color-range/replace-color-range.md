@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 替換色彩範圍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color-range.png){width="128px"}
+![](replace-color-range.resources/replace-color-range-01.png){width="128px"}
 
-## 替換色彩範圍
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 欲了解更進階版本，請參見 [色彩匹配。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md)
 
-## 參數
-
-* **來源顏色**：*（顏色值）*要替換的顏色。
-* **目標顏色**：*（顏色值）*用來替換的顏色。
-* **來源範圍**： *0.0 -* 1.0\
-  選擇的源頭範圍或容忍度。 可以增加，使鄰近的顏色也會有色相偏移。
-* **閾值**： *0.0 - 1.0*&#x200B;距離衰減/對比度。 設定低以只替換源色，調高則替換與源色融合的顏色。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-range-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>來源顏色</b> <i>（色彩值）</i> | 顏色要替換。 |
+| <b>目標顏色</b> <i>（色彩值）</i> | 用來替代的顏色。 |
+| <b>來源範圍</b> <i>0.0 - 1.0</i> | 選擇的源頭範圍或容忍度。 可以增加，使鄰近的顏色也會有色相偏移。 |
+| <b>門檻</b> <i>0.0 - 1.0</i> | 衰減/對比度用於距離。 設定低以只替換源色，調高則替換與源色融合的顏色。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color-range.resources/replace-color-range-02.png" />
+        </td>
+    </tr>
 </table>

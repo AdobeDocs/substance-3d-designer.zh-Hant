@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 點陣圖繪製工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1975'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁介紹了 2D View[&#128279;](../../../interface/2d-view/2d-view.md) 面板中可用於相容點陣圖的繪畫工具。
 
-![2D 檢視](../../../assets/2dview-paintingtools-main_1.png "中的點陣繪製工具 2D 檢視中的點陣繪製工具"){width="512px"}
+![2D 檢視](bitmap-painting-tools.resources/bitmap-painting-tools-01.png "中的點陣繪製工具 2D 檢視中的點陣繪製工具"){width="512px"}
 
 ## 概觀
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 > 
 > 平板使用者應依以下頁面所述設定，以獲得最可靠的使用體驗： [設定筆與平板](https://docs.substance3d.com/display/SPDOC/Configuring+Pens+and+Tablets)
 
-![新位圖對話框](../../../assets/2dview-paintingtools-new-bitmap.png "新位圖對話框"){width="512px"}
+![新位圖對話框](bitmap-painting-tools.resources/bitmap-painting-tools-02.png "新位圖對話框"){width="512px"}
 
 ## 啟用繪畫工具
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 **&#x200B;新的點陣圖可透過以下方式建立：
 
-* 在[檔案總管](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;鍵，或套件內的&#x200B;*資料夾*，開啟其上下文選單，接著開啟<b>新子</b>選單並選擇<b>點陣圖</b>選項
+* 在[檔案總管](../../../interface/the-explorer-window/the-explorer-window.md)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;鍵，或套件內的&#x200B;*資料夾*，開啟其上下文選單，接著開啟<b>新子</b>選單並選擇<b>點陣圖</b>選項
 * 在圖表[&#128279;](../../../interface/the-graph-view/the-graph-view.md)中，建立一個[點陣圖節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)，並在情境選單中選擇<b>「來自新資源...</b>」的選項
 
 <b>新點陣</b>圖視窗會開啟，讓你設定&#x200B;*新點陣資源的名稱*、*解析度*&#x200B;和&#x200B;*背景色*。
@@ -77,15 +77,15 @@ ht-degree: 0%
 
 繪圖工具可在預設位於 2D 視圖面板左側&#x200B;*[的工具選取工具列&#x200B;***中找到**。](../../../interface/2d-view/2d-view.md)鍵盤快捷鍵讓你能快速存取這些工具，並在工具/函式名稱後方括號內標示：
 
-![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png)<b>色彩選擇</b> <b>縮圖：</b>讓你定義原 *色* 和 *次色* 。 點擊任一縮圖即可顯示 <b>色彩編輯器</b> 視窗並定義顏色。 工具會使用 *原色* 。 主色與次色可 *隨時互換* （<b>X</b>）
+![](bitmap-painting-tools.resources/bitmap-painting-tools-03.png)![](bitmap-painting-tools.resources/bitmap-painting-tools-04.png)<b>色彩選擇</b> <b>縮圖：</b> 讓你定義原 *色* 和 *次色* 。 點擊任一縮圖即可顯示 <b>色彩編輯器</b> 視窗並定義顏色。 工具會使用 *原色* 。 主色與次色可 *隨時互換* （<b>X</b>）
 
-![](../../../assets/2dview-paintingtools-icon-brush.png)<b>筆刷工具（B）：</b>當按下筆尖或<b>左鍵</b>按鈕時，依照工具選選項列中的選項，在游標位置套用&#x200B;*原色*
+![](bitmap-painting-tools.resources/bitmap-painting-tools-05.png)<b>筆刷工具（B）：</b>當按下筆尖或<b>左鍵</b>按鈕時，依照工具選選項列中的選項，在游標位置套用&#x200B;*原色*
 
-![](../../../assets/2dview-paintingtools-icon-clone.png)<b>印章工具（T）：</b>讓你能將圖像的一部分蓋章到另一個部分上。你可以按住 <b>Alt 鍵並點擊 <b>LMB</b> 來定義&#x200B;*應該蓋印的來源*</b>。當按下筆尖或<b>左鍵</b>按鈕時，該影像區域會依工具選集工具列中定義的選項，在游標位置的目標&#x200B;*區域上蓋*&#x200B;印。請注意，來源會&#x200B;*追蹤*&#x200B;目標的移動，且來源&#x200B;*區域的大小*&#x200B;會&#x200B;*與*&#x200B;畫筆大小相符&#x200B;**
+![](bitmap-painting-tools.resources/bitmap-painting-tools-06.png)<b>印章工具（T）：</b>讓你能將圖像的一部分蓋章到另一個部分上。你可以按住 <b>Alt 鍵並點擊 <b>LMB</b> 來定義&#x200B;*應該蓋印的來源*</b>。當按下筆尖或<b>左鍵</b>按鈕時，該影像區域會依工具選集工具列中定義的選項，在游標位置的目標&#x200B;*區域上蓋*&#x200B;印。請注意，來源會&#x200B;*追蹤*&#x200B;目標的移動，且來源&#x200B;*區域的大小*&#x200B;會&#x200B;*與*&#x200B;畫筆大小相符&#x200B;**
 
-![](../../../assets/2dview-paintingtools-clone-alignment.png)<b>啟用對齊（印章工具選項）：</b>讓你能定義當新印章開始時，來源是否應該&#x200B;*保持原*&#x200B;位，或是應該&#x200B;*相對移至新印章位置*
+![](bitmap-painting-tools.resources/bitmap-painting-tools-07.png)<b>啟用對齊（印章工具選項）：</b>讓你能定義當新印章開始時，來源是否應該&#x200B;*保持原*&#x200B;位，或是應該&#x200B;*相對移至新印章位置*
 
-<b>![](../../../assets/2dview-paintingtools-icon-eraser.png) 橡皮擦（E）：</b>當按下筆尖或 <b>左鍵</b> 按鈕時，將游標位置的當前顏色替換為（0， 0， 0， 0），使用工具選項列中定義的選項。 請確保 [透明度顯示](../../../interface/2d-view/2d-view.md) 已啟用，以追蹤此工具對 <b>Alpha</b> 頻道的影響。
+<b>![](bitmap-painting-tools.resources/bitmap-painting-tools-08.png) 橡皮擦（E）：</b> 當按下筆尖或 <b>左鍵</b> 按鈕時，將游標位置的當前顏色替換為（0， 0， 0， 0），使用工具選項列中定義的選項。 請確保 [透明度顯示](../../../interface/2d-view/2d-view.md) 已啟用，以追蹤此工具對 <b>Alpha</b> 頻道的影響。
 
 ## 工具選項工具列
 
@@ -97,16 +97,16 @@ ht-degree: 0%
 
 ### 刷子選擇
 
-筆刷選擇</b>讓你從可用的筆刷&#x200B;*預設*&#x200B;中選擇&#x200B;*預先設定*&#x200B;的筆刷，設定其<b>大小</b>與<b>硬度</b>（*見<b>筆刷編輯器的形狀</b>區塊），並顯示*&#x200B;筆觸的預覽*。![](../../../assets/2dview-paintingtools-brush-thumb.png) <b>
+筆刷選擇</b>讓你從可用的筆刷&#x200B;*預設*&#x200B;中選擇&#x200B;*預先設定*&#x200B;的筆刷，設定其<b>大小</b>與<b>硬度</b>（*見<b>筆刷編輯器的形狀</b>區塊），並顯示*&#x200B;筆觸的預覽*。![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png) <b>
 
-筆刷預設可以在筆刷編輯器中建立與編輯，並在函式庫&#x200B;*中進行*&#x200B;排列。這個面板中會出現的筆刷預設是 *所有已載入的筆刷預設函式庫的總和* 。 這些庫可透過筆![](../../../assets/2dview-paintingtools-brushpresets-library.png)<b>刷函式庫</b>選單管理（參見<b>筆刷編輯器的預設</b>區段）
+筆刷預設可以在筆刷編輯器中建立與編輯，並在函式庫&#x200B;*中進行*&#x200B;排列。這個面板中會出現的筆刷預設是 *所有已載入的筆刷預設函式庫的總和* 。 這些庫可透過筆![](bitmap-painting-tools.resources/bitmap-painting-tools-10.png)<b>刷函式庫</b>選單管理（參見<b>筆刷編輯器的預設</b>區段）
 
-選擇![](../../../assets/2dview-paintingtools-brushpresets-previewbkgd.png)<b>背景色</b>按鈕可以讓你更改筆觸預覽&#x200B;*的*&#x200B;背景色。
+選擇![](bitmap-painting-tools.resources/bitmap-painting-tools-11.png)<b>背景色</b>按鈕可以讓你更改筆觸預覽&#x200B;*的*&#x200B;背景色。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![筆刷選擇面板](../../../assets/2dview-paintingtools-brushes.png "筆刷選擇面板")
+![筆刷選擇面板](bitmap-painting-tools.resources/bitmap-painting-tools-12.png "筆刷選擇面板")
 
 </td>
 </tr>
@@ -118,28 +118,28 @@ ht-degree: 0%
 
 ### 刷子編輯器
 
-![](../../../assets/2dview-paintingtools-icon-brush-options.png) <b>筆刷編輯器</b>提供細緻選項來定義筆刷的行為：
+![](bitmap-painting-tools.resources/bitmap-painting-tools-13.png) <b>筆刷編輯器</b>提供細緻選項來定義筆刷的行為：
 
 <b>預設音色</b>
 
-畫筆可以自訂，然後儲存為<b>畫筆預設，這些預設</b>會在畫筆預設清單</b>和![](../../../assets/2dview-paintingtools-brush-thumb.png)<b>畫筆選擇</b>面板中顯示![](../../../assets/2dview-paintingtools-editor-currentpreset.png)<b>。
+畫筆可以自訂，然後儲存為<b>畫筆預設，這些預設</b>會在畫筆預設清單</b>和![](bitmap-painting-tools.resources/bitmap-painting-tools-09.png)<b>畫筆選擇</b>面板中顯示![](bitmap-painting-tools.resources/bitmap-painting-tools-14.png)<b>。
 
-要建立預設，請將下方屬性設定成你喜歡的，然後點選![](../../../assets/2dview-paintingtools-editor-addpreset.png)<b>「新增畫筆預設</b>」按鈕，並在預設名稱</b>視窗中<b>設定畫筆名稱。新預設現在會自動在 <b>Brush 預設列表中</b>被選取，隨時可以<b>![](../../../assets/2dview-paintingtools-editor-updatepreset.png)更新</b>為新的現有設定，或![](../../../assets/2dview-paintingtools-editor-deletepreset.png)<b>刪除</b>它。
+要建立預設，請將下方屬性設定成你喜歡的，然後點選![](bitmap-painting-tools.resources/bitmap-painting-tools-15.png)<b>「新增畫筆預設</b>」按鈕，並在預設名稱</b>視窗中<b>設定畫筆名稱。新預設現在會自動在 <b>Brush 預設列表中</b>被選取，隨時可以<b>![](bitmap-painting-tools.resources/bitmap-painting-tools-16.png)更新</b>為新的現有設定，或![](bitmap-painting-tools.resources/bitmap-painting-tools-17.png)<b>刪除</b>它。
 
-預設會被組織並儲存在&#x200B;*庫中，這些庫*&#x200B;可以在 Brush 庫</b>選單中管理![](../../../assets/2dview-paintingtools-editor-presetlibrary.png)<b>： 
+預設會被組織並儲存在&#x200B;*庫中，這些庫*&#x200B;可以在 Brush 庫</b>選單中管理![](bitmap-painting-tools.resources/bitmap-painting-tools-18.png)<b>：
 
-<b>匯出函式庫：</b> *將目前的預設和所有設定存*&#x200B;到一個函式庫檔案
+<b>匯出函式庫：</b> *將目前的預設和所有設定存* 到一個庫檔案
 
-<b>從現有函式庫檔案匯入 library：</b>*load* 預設，並&#x200B;*將它們加入*&#x200B;目前清單——同&#x200B;*名預設會被函式庫檔案中的預設取代* 
+<b>匯入函式庫：</b> *從現有的函式庫檔案載入*&#x200B;預設，並將其&#x200B;*加入*&#x200B;目前的清單——同&#x200B;*名的預設會被函式庫檔案中的預設取代*
 
 <b>重設函式庫：</b> 透過預設函式庫重設目前的預設
 
-<b>從現有函式庫檔案替換 library：</b> *load* 預設，並&#x200B;*關閉*&#x200B;目前的清單
+<b>替換函式庫：</b> *從現有函式庫檔案載入* 預設值，並 *關閉* 目前的清單
 
 </td>
 <td style="border: 0;" valign="top">
 
-![筆刷編輯器](../../../assets/2dview-paintingtools-brusheditor.png "筆刷編輯器")
+![筆刷編輯器](bitmap-painting-tools.resources/bitmap-painting-tools-19.png "筆刷編輯器")
 
 </td>
 </tr>
@@ -214,11 +214,11 @@ ht-degree: 0%
 +++紋理
 你可以套&#x200B;*用點陣檔案*&#x200B;到筆刷上，然後用它來&#x200B;**&#x200B;蓋印那個點陣圖，而不是用平面顏色。刷子材質的行為如下：
 
-<b>紋理檔案： </b>定義&#x200B;*點陣圖的路徑*，應該用作筆刷貼圖。 你可以透過系統檔案瀏覽器，使用![](../../../assets/2dview-paintingtools-brusheditor-selecttexture.png)輸入欄位旁的按鈕選擇點陣圖
+<b>紋理檔案： </b>定義 *點陣圖的路徑* ，應該用作筆刷貼圖。 你可以透過系統檔案瀏覽器，使用 ![](bitmap-painting-tools.resources/bitmap-painting-tools-20.png) 輸入欄位旁的按鈕選擇點陣圖
 
-貼圖&#x200B;*只*&#x200B;取代了筆刷的基本平面色，表示&#x200B;*上述所有筆刷屬性仍可使用*&#x200B;並如描述功能
+貼圖 *只* 取代了筆刷的基本平面色，表示 *上述所有筆刷屬性仍可使用* 並如描述功能
 
-材質的顏色會&#x200B;*以色調偏*&#x200B;移，趨向&#x200B;*設定的原色*，意即如果設定的原色是白色，則貼圖顏色可以直接使用。 原色越飽和，材質顏色就越容易偏向該色調
+材質的顏色會 *以色調偏* 移，趨向 *設定的原色*，意即如果設定的原色是白色，則貼圖顏色可以直接使用。 原色越飽和，材質顏色就越容易偏向該色調
 
 +++
 
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 <b>流量</b> 控制 *工具在任何時刻施加的效果* 量。 它是&#x200B;*在同一筆劃*&#x200B;上的加法，意即可以透過在同一筆劃&#x200B;*中多次通過*，或多筆分開的筆劃，將該區域的不透明度回復到最大100%。
 
-![不透明度與流量控制](../../../assets/2dview-paintingtools-opacityflow.png "")
+![不透明度與流量控制](bitmap-painting-tools.resources/bitmap-painting-tools-21.png "")
 
 <table>
 <tr style="border: 0;">
@@ -238,7 +238,7 @@ ht-degree: 0%
 
 ### 平鋪模式
 
-刷子、蓋章和橡皮擦工具也允許你設定平![](../../../assets/2dview-paintingtools-icon-tiling.png)<b>鋪模式，這些模式</b>定義了當筆觸觸及影像範圍外區域時，它們能&#x200B;*繞回*&#x200B;影像另一側的能力：
+刷子、蓋章和橡皮擦工具也允許你設定平![](bitmap-painting-tools.resources/bitmap-painting-tools-22.png)<b>鋪模式，這些模式</b>定義了當筆觸觸及影像範圍外區域時，它們能&#x200B;*繞回*&#x200B;影像另一側的能力：
 
 <b>鋪平X和Y</b>：刷刷同時橫向和垂直平鋪&#x200B;**
 
@@ -251,7 +251,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![平鋪模式](../../../assets/2dview-paintingtools-tiling.png "平鋪模式")
+![平鋪模式](bitmap-painting-tools.resources/bitmap-painting-tools-23.png "平鋪模式")
 
 </td>
 </tr>

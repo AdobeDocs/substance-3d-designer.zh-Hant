@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 拼圖照片
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 9%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-photo.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-01.png)
 
-![](../../../../../../assets/make-it-tile-photo-grayscale.png)
+![](make-it-tile-photo.resources/make-it-tile-photo-02.png)
 
-## 製作磁磚照片（灰階）
-
-**收錄於：***濾波器/磁磚*
-
-**中級**
+<b>收錄於：</b> 濾波器>平鋪
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 此節點提供邊緣修正功能，適用於因邊緣不連續而無法平鋪的影像。 它只影響輸入影像的邊緣。 如果你想用不同方式調整比例或拼貼，可以看看 [Make It Tile Patch](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/tiling/make-it-tile-patch/make-it-tile-patch.md)。
 
-## 參數
-
-* **遮罩扭曲H**： *-100.0 - 100.0*&#x200B;引入水平軸扭曲，以避免未定義的轉換。
-* **遮罩扭曲 V**： *-100.0 - 100.0*&#x200B;引入垂直軸扭曲，以避免未定義的轉換。
-* **遮罩尺寸 H**： *0.0 - 1.0*&#x200B;設定過渡邊緣水平的長度。
-* **遮罩尺寸 V**： *0.0 - 1.0*&#x200B;設定過渡邊緣垂直方向的長度。
-* **遮罩精度 H**： *0.0 - 1.0*&#x200B;設定水平過渡的平滑程度。
-* **遮罩精度 V**： *0.0 - 1.0*&#x200B;設定垂直過渡的平滑程度。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mit-photo-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>遮罩扭曲H</b> <i>-100.0 - 100.0</i> | 引入水平軸的變形，以避免不明確的過渡。 |
+| <b>面具扭曲V</b> <i>-100.0 - 100.0</i> | 引入垂直軸的變形，以避免未定義的轉換。 |
+| <b>面具尺寸 H</b> <i>0.0 - 1.0</i> | 設定過渡邊緣水平延伸的距離。 |
+| <b>面具尺寸 V</b> <i>0.0 - 1.0</i> | 設定過渡邊緣垂直延伸的距離。 |
+| <b>遮罩精度 H</b> <i>0.0 - 1.0</i> | 這樣可以設定橫向過渡的平滑程度。 |
+| <b>遮罩精密 V</b> <i>0.0 - 1.0</i> | 設定垂直過渡的平滑程度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-photo.resources/make-it-tile-photo-03.png" />
+        </td>
+    </tr>
 </table>

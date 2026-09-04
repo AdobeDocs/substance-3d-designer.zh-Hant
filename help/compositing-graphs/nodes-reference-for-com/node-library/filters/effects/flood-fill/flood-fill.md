@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 洪水填埋
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 0%
+source-wordcount: '339'
+ht-degree: 1%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill.png){width="128px"}
+![](flood-fill.resources/flood-fill-01.png){width="128px"}
 
-## 洪水填埋
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -47,20 +43,31 @@ ht-degree: 0%
 > 
 > 若磚塊間未以全黑像素分隔，通常在使用灰階斜度值時，會出現問題。 你可以從整體沒有紅色值，以及可能出現奇怪的瑕疵線來辨識。 此時，調整輸入映射的對比度或切換輸入映射。 記得調整安全/速度的權衡設定，看看是否有改善。
 
-## 參數
-
-* **安全與速度的權衡**：*簡單或小形狀，複雜或大型形狀，無故障模式。*將計算模式設定為最適合輸入形狀。 如果選擇正確的模式，能獲得更精確的結果。
-* **Avanced 選項**： *顯示進階參數並輸出/隱藏進階參數與輸出*
-* **覆蓋安全/速度權衡**： *-1 - 100*&#x200B;僅開啟進階選項時可見。 允許覆蓋內部功能。 非常進階，主要用來製作自己的特效或除錯。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/flood-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/flood-ex1.png" width="256px"/></div> |
-| --- | --- |
-|  |  |
-
-洪水填海的好壞結果範例。
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>安全與速度的權衡</b> <i>簡單或小形狀，複雜或大型形狀，都沒有失效模式。</i> | 將計算模式設定為最適合輸入形狀。 如果選擇正確的模式，能獲得更精確的結果。 |
+| <b>前衛選項</b> <i>顯示進階參數並輸出/隱藏進階參數與輸出</i> |  |
+| <b>覆蓋安全性與速度權衡</b> <i>-1 - 100</i> | 只有開啟進階選項時才會顯示。 允許覆蓋內部功能。 非常進階，主要用來製作自己的特效或除錯。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill.resources/flood-fill-03.png" />
+        </td>
+    </tr>
+</table>
+
+洪水填海的好壞結果範例。

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 <b>插件管理員</b>對話框可從<b></b>主選單列的工具選單進入。它讓你可以看到哪些插件是 *啟用*&#x200B;的，也能 *載入和卸載* 插件。
 
-![插件管理器](../../assets/pluginmgr.png "插件管理器")
+![插件管理器](plugin-manager.resources/plugin-manager-01.png "插件管理器")
 
 也可&#x200B;*手動*&#x200B;載入外掛，透過瀏覽<b></b>按鈕選擇 Python 檔案。
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果外掛是&#x200B;*模組*（即目錄），可以透過選擇<b>模組內的 \_\_init\_\_.py</b> 檔案來載入。
+> 如果外掛是 *模組* （即目錄），可以透過選擇 <b>模組內的 \_\_init\_\_.py</b> 檔案來載入。

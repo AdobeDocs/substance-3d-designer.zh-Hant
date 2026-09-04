@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 灰階轉換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：灰階轉換](../../../../assets/comp_grayscaleconversion_1.png "原子節點：灰階轉換"){width="200px"}
+![原子節點：灰階轉換](grayscale-conversion.resources/grayscale-conversion-01.png "原子節點：灰階轉換"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,7 +39,7 @@ ht-degree: 1%
 
 大多數節點可設定為灰階或彩色輸出，且因簡潔與效能考量，灰階較為優先。
 
-確實，建議一開始就使用灰階，然後在工作流程中再上色，例如使用[漸層地圖](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)節點。
+確實，建議一開始就使用灰階，然後在工作流程中再上色，例如使用 [漸層地圖](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 節點。
 
 這表示灰階轉換節點通常只保留在你特別想將彩色影像轉換成灰階的情況下。 在這些情況下，也可以看看 [灰階轉換進階](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/grayscale-conversion-adv/grayscale-conversion-advanced.md) 和 [色彩轉遮罩](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-to-mask/color-to-mask.md)。
 
@@ -92,9 +92,9 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>通道權重</b> *Float4* | 設定每個 RGBA 通道在灰階轉換中的權重。 預設情況下，RGB 通道會平均分配。 |
-| <b>壓扁阿爾法</b> *布林值* | 設定 Alpha 在最終灰階結果上的行為，因為灰階值無法包含 Alpha 資訊。 當為真&#x200B;*時*，灰階轉換會與輸入影像的 Alpha 通道相乘 |
-| <b>背景值</b> *浮標* | 當輸入有 alpha 遮罩時，設定基礎背景值。 也就是說，決定哪些像素應被視為透明。   *當「Flatten alpha」設為「True」時可用。* |
+| <b>通道權重</b> *Float4* | 設定每個 RGBA 通道在灰階轉換中的權重。   預設情況下，RGB 通道會平均分配。 |
+| <b>壓扁阿爾法</b> *布林值* | 設定 Alpha 在最終灰階結果上的行為，因為灰階值無法包含 Alpha 資訊。   當為真&#x200B;*時*，灰階轉換會與輸入影像的 Alpha 通道相乘 |
+| <b>背景值</b> *浮標* | 當輸入有 alpha 遮罩時，設定基礎背景值。 也就是說，決定哪些像素應被視為透明。   *當「Flatten alpha」設為「True」時可用。* |
 
 ## 輸入連接器
 

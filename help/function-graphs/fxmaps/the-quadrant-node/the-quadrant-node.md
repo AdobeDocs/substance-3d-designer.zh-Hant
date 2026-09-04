@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 象限交點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%
@@ -102,12 +102,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../assets/fxmap-quadrants.png){width="80px"}
+![](the-quadrant-node.resources/the-quadrant-node-01.png){width="80px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/quadrant-parameters.jpg)
+![](the-quadrant-node.resources/the-quadrant-node-02.jpg)
 
 </td>
 </tr>

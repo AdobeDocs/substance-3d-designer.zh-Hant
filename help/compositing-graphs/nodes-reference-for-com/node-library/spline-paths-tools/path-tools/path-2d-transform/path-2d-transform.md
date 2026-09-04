@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 路徑二維轉換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/path-2d-transform-icon.png "節點圖示")
+![節點圖示](path-2d-transform.resources/path-2d-transform-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -39,26 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+## 輸入
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
 
-<b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
+<a name="outputs"></a>
+
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>轉換矩陣</b> *Float4*\
-將變換矩陣套用到樣條上。 編輯矩陣參數有三種模式：\
-*- 轉換裝置：*&#x200B;當選擇 Spline 2D 轉換節點時，調整 2D 視圖[&#128279;](../../../../../../interface/2d-view/2d-view.md)中顯示裝置的手柄;\
-*- 旋轉/拉伸：* 個別控制花鍵的旋轉與拉伸。 請注意，數值總是相對於電流變換來套用。 例如，將 50% 寬度重複應用會得到 25% 寬度;\
-*- 矩陣值：* 點擊 <b>「編輯矩陣值</b> 」按鈕，直接輸入矩陣的原始數值。
-
-<b>偏移</b> *Float2*\
-對 X 的樣條線（水平）和 Y（垂直）套用位置偏移。
+|  |  |
+|:---|:---|
+| <b>轉換矩陣</b> <i>Float4</i> | 將變換矩陣套用到樣條上。 有三種編輯矩陣參數的模式：<br>*- 轉換裝置：*&#x200B;當選擇樣條 2D 轉換節點時，調整 2D 視圖[&#128279;](../../../../../../interface/2d-view/2d-view.md)中顯示裝置的把手;<br>*- 旋轉/拉伸：*&#x200B;分別控制樣條的旋轉與拉伸。請注意，數值總是相對於電流變換來套用。 例如，兩次套用 50% 寬度會得到 25% 寬度;<br>*- 矩陣值：* 點擊 <b>「編輯矩陣值</b> 」按鈕，直接輸入矩陣的原始數值。 |
+| <b>偏移</b> <i>Float2</i> | 對 X 的樣條線（水平）和 Y（垂直）套用位置偏移。 |
 
 ## 範例
 
@@ -69,11 +73,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant1.jpg" alt="Paths2DTransform-Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-03.jpg" alt="Paths2DTransform-Variant1">
       <br><i>之後</i>
     </td>
   </tr>
@@ -85,11 +89,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="path-2d-transform.resources/path-2d-transform-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/Paths2DTransform-Variant2.jpg" alt="Paths2DTransform-Variant2">
+      <img src="path-2d-transform.resources/path-2d-transform-04.jpg" alt="Paths2DTransform-Variant2">
       <br><i>之後</i>
     </td>
   </tr>

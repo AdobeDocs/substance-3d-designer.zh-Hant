@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 磨利
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![銳利節點圖示 銳化節點圖示](../../../../assets/sharpen-4.png "")
+![銳利節點圖示 銳化節點圖示](sharpen.resources/sharpen-01.png "")
 
 <b>收錄於：</b> 原子節點
 
@@ -43,12 +43,12 @@ ht-degree: 2%
 
 ## 輸入
 
-<b>輸入</b> *色彩/灰階（主色*）\
+<b>輸入</b> *彩色/灰階* （原色）\
 應該被銳化的影像。
 
 ## 參數
 
-<b>強度</b> *浮動*\
+<b>強度</b> *浮標*\
 設定銳利效果的強度。
 
 <b>穿孔 Alpha</b> *布林值*（當彩色影像連接到輸入</b>時<b>可用）\
@@ -56,4 +56,4 @@ ht-degree: 2%
 
 ## 範例
 
-![銳化節點 - 範例 1](../../../../assets/sharpen-ex.png "銳化節點 - 範例 1")
+![銳化節點 - 範例 1](sharpen.resources/sharpen-02.png "銳化節點 - 範例 1")

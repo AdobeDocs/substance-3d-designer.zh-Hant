@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 傳送至...  互通性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # 傳送至...  互通性
 
-![從設計師傳送到 Substance 3D 應用程式](../../../assets/explorer-interop.png "從設計師傳送到 Substance 3D 應用程式"){width="512px"}
+![從設計師傳送到 Substance 3D 應用程式](send-to-interoperability.resources/send-to-interoperability-01.png "從設計師傳送到 Substance 3D 應用程式"){width="512px"}
 
 Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adobe.com/tw/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 及 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html) 具有互通性。它讓你能 *快速傳送* 和 *重寄* 作品，促進 Substance 3D 生態系統的迭代。
 
 工作流程通常如下：
 
 1. 在 Substance 圖的屬性中設定 <b>Type</b> 屬性[&#128279;](../../../compositing-graphs/graph-parameters/graph-parameters.md)
-1. 在 [Explorer](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html) 面板中，選擇你想寄出的包裹
-1. 在檔案總管的<b>發佈/發送</b> 下拉選單中，選擇目標應用程式
+1. 在 [Explorer](../the-explorer-window.md) 面板中，選擇你想寄出的包裹
+1. 在檔案總管的 <b>發佈/發送</b> 下拉選單中，選擇目標應用程式
 1. 對圖形進行修改
 1. 重複步驟 3 重新傳送套件，並更新已發送的資產並加入你的變更
 
@@ -49,7 +49,7 @@ Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adob
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance 圖的 Type 屬性](../../../assets/type-attribute.jpg "Substance 圖的 Type 屬性")
+![Substance 圖的 Type 屬性](send-to-interoperability.resources/send-to-interoperability-02.jpg "Substance 圖的 Type 屬性")
 
 </td>
 </tr>
@@ -75,13 +75,13 @@ Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adob
 
 傳送內容可透過以下方式進行：
 
-* 右鍵點擊包裹並開啟<b>「寄出...」</b>在情境選單中的子選單，然後選擇<b>「送出...」</b>針對目標應用的選項;
-* 點擊![](../../../assets/sendto-icon.jpg)<b>檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板頂端的發佈/發送</b>按鈕，然後選擇<b>「傳送至...」 </b>目標應用程式的選項。
+* 右鍵點選套件，並在情境選單中開啟 <b>「送出...</b> 」子選單，然後選擇 <b>目標應用程式的「送出...</b> 」選項;
+* 點選![](send-to-interoperability.resources/send-to-interoperability-03.jpg)<b>檔案總管面板頂端的「發佈/送出</b>」按鈕，然後選擇<b>目標應用程式的「寄出...</b>」選項。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![在檔案總管](../../../assets/explorer-sendto-displayed.jpg "中的發佈/傳送選單 在檔案總管中的發佈/送出選單")
+![在檔案總管](send-to-interoperability.resources/send-to-interoperability-04.jpg "中的發佈/傳送選單 在檔案總管中的發佈/送出選單")
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 淹水填補至位置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '78'
 ht-degree: 2%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-position.png){width="128px"}
+![](flood-fill-to-position.resources/flood-fill-to-position-01.png){width="128px"}
 
-## 淹水填補至位置
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,16 +37,22 @@ ht-degree: 2%
 
 每個圖塊的顏色代表其 X 與 Y 座標中心，儲存在紅色和綠色通道中。 此地圖旨在作為後續計算的基礎，而非現成可用的地圖。
 
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/floodfill-to-position-1.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c1_image" src="../../../../../../assets/floodposition-ex2.png" width="256px"/></div> | <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c2_image" src="../../../../../../assets/floodposition-ex1.png" width="256px"/></div> |
-| --- | --- | --- |
-|  |  |  |
-
 </td>
 </tr>
+</table>
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-02.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="flood-fill-to-position.resources/flood-fill-to-position-04.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 預乘法直
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '69'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pre-multiply-straight.png){width="128px"}
+![](pre-multiplied-to-straight.resources/pre-multiplied-to-straight-01.png){width="128px"}
 
-## 預乘法直
-
-**收錄於：***濾鏡/頻道*
-
-**很簡單**
+<b>收錄於：</b> 濾波器>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 移除 RGB 在 alpha 混合邊緣上的預先乘法色彩。 這實際上是「逆置」背景色，但過程中會剝離 alpha 通道。
 
 這消除了有時在帶有 alpha 通道的影像邊緣出現的條紋效應。
-
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
 
 </td>
 </tr>

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 網狀資料合併器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '142'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-data-combiner.png){width="128px"}
+![](mesh-data-combiner.resources/mesh-data-combiner-01.png){width="128px"}
 
-## 網狀資料合併器
-
-**收錄於：***基於網狀的發電機**/工具*
-
-**很簡單**
+<b>收錄於：</b> 基於網狀的發電機>公用事業
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,30 +37,26 @@ ht-degree: 1%
 
 這個節點主要是輔助工具，讓你更容易處理畫廊中某些節點上大量烘焙輸入，例如 [Material Mesh Data Blender](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/material-mesh-data-ble/material-mesh-data-blender.md)。 這樣可以避免手動連接所有東西。
 
-## 參數
-
-### 參數
-
-切換啟用與輸出的輸入，並切換到打包結果中。
-
-* **環境遮蔽**： *錯誤/真實*
-* **紫外線遮罩**： *錯誤/真實*
-* **曲率**： *假/真*
-* **身高**： *錯誤/真實*
-* **位置（灰階）：***錯誤/真實*
-* **厚度**： *假/真*
-* **正常**： *錯誤/真實*
-* **位置（RGB）：***錯誤/真實*
-* **顏色識別**： *虛假/真實*
-* **世界空間方向**： *錯誤/真實*
-* **世界空間正常**： *錯誤/真實*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+切換啟用與輸出的輸入，並切換到打包結果中。
+
+|  |  |
+|:---|:---|
+| <b>環境遮蔽</b> <i>錯誤/真實</i> |  |
+| <b>紫外線遮罩</b> <i>錯誤/真實</i> |  |
+| <b>曲率</b> <i>錯誤/真實</i> |  |
+| <b>高度</b> <i>錯誤/真實</i> |  |
+| <b>位置（灰階）</b> <i>錯誤/真實</i> |  |
+| <b>厚度</b> <i>錯誤/真實</i> |  |
+| <b>正常</b> <i>錯誤/真實</i> |  |
+| <b>位置（RGB）</b> <i>錯誤/真實</i> |  |
+| <b>色彩識別</b> <i>錯誤/真實</i> |  |
+| <b>世界太空方向</b> <i>錯誤/真實</i> |  |
+| <b>世界太空常態</b> <i>錯誤/真實</i> |  |

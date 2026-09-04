@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 警告與錯誤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### 總管
 
-對於檔案總管[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)面板中任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](../../assets/warning-icon.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
+對於檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)面板中任何有警告的項目，該警告會在列表中該項目條目最右側邊緣顯示![](warnings-and-errors.resources/warnings-and-errors-01.png)。將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
 
 他們遵循以下規則：
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-explorer.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-02.png){width="256px"}
 
 </td>
 </tr>
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 ### 圖視圖
 
-對於圖形檢視面板中[任何有警告的項目，該警告會在視窗左下角&#x200B;*以彩色文字*](../../interface/the-graph-view/the-graph-view.md)顯示。如果警告是由特定節點觸發，該節點會有 ![](../../assets/warning-badge.png) 警告徽章。 將游標停留在該徽章上幾秒鐘，會顯示 *一個詳細列出所有警告的提示* 。
+對於圖形檢視面板中[任何有警告的項目，該警告會在視窗左下角&#x200B;*以彩色文字*](../../interface/the-graph-view/the-graph-view.md)顯示。如果警告是由特定節點觸發，該節點會有 ![](warnings-and-errors.resources/warnings-and-errors-03.png) 警告徽章。 將游標停留在該徽章上幾秒鐘，會顯示 *一個詳細列出所有警告的提示* 。
 
 他們遵循以下規則：
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-graph.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-04.png){width="256px"}
 
 </td>
 </tr>
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 ### 屬性
 
-對於屬性面板中[任何有警告的項目，該警告會在列表中該項目條目最右邊的圖示顯示![](../../assets/warning-icon.png)。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
+對於屬性面板中[任何有警告的項目，該警告會在列表中該項目條目最右邊的圖示顯示![](warnings-and-errors.resources/warnings-and-errors-01.png)。](../../interface/properties/properties.md)將游標停留在該圖示上幾秒鐘，會顯示 *一個詳細列出所有警告的工具提示* 。
 
 他們遵循以下規則：
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-properties.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-05.png){width="256px"}
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ### 主機
 
-警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-main-menu-143720673.html)的 Windows** 選單進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
+警告和錯誤都會在&#x200B;**主控台**&#x200B;面板中回報，你可以透過&#x200B;**主選單[&#128279;](../../interface/the-main-toolbar/the-main-toolbar.md)的 Windows** 選單進入。你可以將警告和錯誤與其他主控台條目隔離，方法是將 **頻道** 設定設為 `ErrorMgr`。
 
 >[!NOTE]
 >
@@ -115,7 +115,7 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/warning-overview-console.png){width="256px"}
+![](warnings-and-errors.resources/warnings-and-errors-06.png){width="256px"}
 
 </td>
 </tr>
@@ -136,7 +136,7 @@ ht-degree: 0%
 ### 物質圖中的警告
 
 * 未定義輸出節點
-* [x] 參數的功能有一些警告
+* `[x]`參數函式有一些警告
 * 參考資料中有一些警告
 * 找不到參考資源
 * 文字節點使用無效字型

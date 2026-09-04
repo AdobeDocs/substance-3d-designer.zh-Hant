@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 泥土坡度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 3%
+source-wordcount: '221'
+ht-degree: 1%
 
 ---
 
@@ -22,22 +22,18 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![泥土漸層 - 圖示](../../../../../../assets/dirt_gradient.png "泥土漸層 - 圖示"){width="200px"}
+![泥土漸層 - 圖示](dirt-gradient.resources/dirt-gradient-01.png "泥土漸層 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
-這是顆粒感十<b>足的 Dirt</b> 音效變體，具有方向性衰減漸層。
+這是顆粒感十 <b>足的 Dirt</b> 音效變體，具有方向性衰減漸層。
 
 另見： [泥地1](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-1/dirt-1.md)、 [泥地2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-2/dirt-2.md)、 [泥地3](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-3/dirt-3.md)、 [泥地4](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-4/dirt-4.md)、 [泥地5](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/dirt-5/dirt-5.md)
 
@@ -45,41 +41,25 @@ ht-degree: 3%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
+<a name="outputs"></a>
 
 ## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 產生的雜訊以灰階位圖形式呈現。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 產生的雜訊以灰階位圖形式呈現。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>混亂</b>  漂浮 | 取代噪音的成分。    這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
-| <b>無序各向異性</b>  浮子 | 控制無序</b>參數所施加<b>的位移方向範圍，值越高，方向越窄且更明確。方向由<b>無序各向異性角度</b>參數控制。 |
-| <b>無序各向異性角</b>  浮點 | 控制無序</b>參數施加位移<b>的方向，當<b>無序各向</b>異性參數非零時。 |
-| <b>非平方展開</b>  布林 | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
+|:---|:---|
+| <b>混亂</b> <i>浮標</i> | 取代噪音的成分。    這可以用來動畫噪音。 |
+| <b>無序速度</b> <i>浮標</i> | 調整由 <b>無序</b> 參數所施加的位移距離。    這可用於控制噪聲動畫時的位移速度。 |
+| <b>無序各向異性</b> <i>浮標</i> | 控制無序</b>參數所施加<b>的位移方向範圍，值越高，方向越窄且更明確。方向由 <b>無序各向異性角度</b> 參數控制。 |
+| <b>無序各向異性角</b> <i>浮標</i> | 控制無序</b>參數施加位移<b>的方向，當<b>無序各向</b>異性參數非零時。 |
+| <b>非平方展開</b> <i>布林值</i> | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
 
 ## 範例
 
@@ -87,12 +67,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 1](../../../../../../assets/dirt_gradient_1.png "失真漸變 - 範例 1"){zoomable="yes"}
+![失真漸變 - 範例 1](dirt-gradient.resources/dirt-gradient-02.png "失真漸變 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "失真漸變 - 範例 2"){zoomable="yes"}
+![失真漸變 - 範例 2](dirt-gradient.resources/dirt-gradient-03.gif "失真漸變 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -102,26 +82,12 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "失真漸變 - 範例 3"){zoomable="yes"}
+![失真漸變 - 範例 3](dirt-gradient.resources/dirt-gradient-04.gif "失真漸變 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "失真漸變 - 範例 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![失真漸變 - 範例 4](dirt-gradient.resources/dirt-gradient-05.gif "失真漸變 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

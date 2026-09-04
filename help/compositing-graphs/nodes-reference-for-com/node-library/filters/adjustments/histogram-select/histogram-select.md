@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直方圖選擇
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '102'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-select.png){width="128px"}
+![](histogram-select.resources/histogram-select-01.png){width="128px"}
 
-## 直方圖選擇
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,26 @@ ht-degree: 1%
 
 [點此觀看 Substance Academy 關於直方圖 Select 的影片。](https://youtu.be/p9wcmJBFyGA?t=535)
 
-## 參數
-
-* **位置**： *0.0 - 1.0*&#x200B;設定中間位置，進行範圍選擇。
-* **範圍**： *0.0 - 1.0*&#x200B;設定選擇範圍的寬度。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度/衰減。
-
-## 範例圖片
-
-![](../../../../../../assets/histoselect-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>職位</b> <i>0.0 - 1.0</i> | 設定中間位置，進行範圍選擇。 |
+| <b>分布範圍</b> <i>0.0 - 1.0</i> | 設定選擇範圍的寬度。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度/衰減。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="histogram-select.resources/histogram-select-02.gif" />
+        </td>
+    </tr>
 </table>

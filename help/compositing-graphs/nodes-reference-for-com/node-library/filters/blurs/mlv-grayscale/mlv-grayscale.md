@@ -10,10 +10,10 @@ helpx_tags: ""
 title: MLV 灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 0%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV 灰階：圖示](../../../../../../assets/MLV_Grayscale_Icon.png "MLV 灰階：圖示")
+![MLV 灰階：圖示](mlv-grayscale.resources/mlv-grayscale-01.png "MLV 灰階：圖示")
 
-<b>收錄於：</b>模糊>濾鏡
+<b>收錄於：</b> 模糊>濾鏡
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,42 +45,44 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 >
 > 另 [見MLV色彩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/mlv-color/mlv-color.md)。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>輸入&#x200B;</b>*灰階*：應該處理的灰階影像。
+## 輸入
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>灰階</i> | 應該處理的灰階影像。 |
 
-<b>輸出&#x200B;</b>*灰階*：經過濾鏡的灰階影像。
+<a name="outputs"></a>
+
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 濾鏡灰階影像。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>強度</b> *浮動*&#x200B;對影像施加的濾波強度。\
-較高的數值會使細節和雜訊更平滑，並延伸到較平坦的區域。
-
-<b>平滑浮</b> *動*&#x200B;指對結構區域施加的平滑強度，使區域變得更圓潤，並減少在較高過濾強度下可能產生的階梯效應。
-
-<b></b>*標準整數*&#x200B;用於選擇定義影像結構區域的數值的標準。 \
-換句話說，就是像素應該&#x200B;*如何分組*&#x200B;成應該被平滑的區域。\
-*- 變異數：*&#x200B;選擇平均數周圍離散最低的值，導致像素群彼此相似\
-*- 變異係數：*&#x200B;選擇數值時考慮平均值，導致較亮區域的變異反向減少
-
-<b>高斯</b> *布林運算*：使用高斯分布將像素分組到結構區域。\
-當「True」時，會讓區域更平滑，且扁平效果會減少。
-
-<b>迭代</b> *整數*&#x200B;濾波器執行次數，每次迭代都套用在前一次的結果上。\
-更多迭代會產生更平坦且銳利的結構區域。
+|  |  |
+|:---|:---|
+| <b>強度</b> *浮標* | 濾波強度施加在影像上。<br><br>較高的數值會使細節和雜訊更平滑，並延伸到較平坦的區域。 |
+| <b>平滑度</b> *浮標* | 對結構區域施加的平滑強度，使區域變得更圓潤，並減少在較高過濾強度下可能出現的階梯效應。 |
+| <b>標準</b> *整數* | 用來選擇定義影像結構區域的數值的準則。<br><br>換句話說，像素應該 *被分組* 成應該平滑的區域。<br><br>*- 變異數：* 選擇平均數周圍散佈最低的值，導致像素群彼此相似&#x200B;<br>*- 變異係數：* 在考慮平均值的同時選擇數值，導致較亮區域的變異較小，反向減少 |
+| <b>高斯分布</b> *布林值* | 使用高斯分布來將像素分組成結構區域。<br><br>當「True」時，會讓區域更平滑，且扁平效果會減少。 |
+| <b>迭代</b> *整數* | 過濾執行次數，每次迭代都套用在前一次的結果上。<br><br>更多迭代會產生更平坦且銳利的結構區域。 |
 
 ## 範例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1A.png" alt="MLV_Variant1A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-02.png" alt="MLV_Variant1A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant1B.png" alt="MLV_Variant1B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-03.png" alt="MLV_Variant1B">
       <br><i>之後</i>
     </td>
   </tr>
@@ -89,11 +91,11 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2B.png" alt="MLV_Variant2B">
+      <img src="mlv-grayscale.resources/mlv-grayscale-05.png" alt="MLV_Variant2B">
       <br><i>之後</i>
     </td>
   </tr>
@@ -102,11 +104,11 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2A.png" alt="MLV_Variant2A">
+      <img src="mlv-grayscale.resources/mlv-grayscale-04.png" alt="MLV_Variant2A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant2C.png" alt="MLV_Variant2C">
+      <img src="mlv-grayscale.resources/mlv-grayscale-06.png" alt="MLV_Variant2C">
       <br><i>之後</i>
     </td>
   </tr>

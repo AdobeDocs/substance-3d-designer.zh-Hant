@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 地面泥土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/ground-dirt.png){width="128px"}
+![](ground-dirt.resources/ground-dirt-01.png){width="128px"}
 
-## 地面泥土
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,25 +37,35 @@ ht-degree: 1%
 
 這個面具代表從地面往上累積的泥土，與 [「從下到上](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/bottom-to-top/bottom-to-top.md) 」或 [「塵埃](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/dust/dust.md)」相反。 它沒有自訂地圖覆蓋功能。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 輸入
 
-* **位置**： *灰階輸入*\
-  將烘焙位置圖貼入基底效果。 必備！
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
+|  |  |
+|:---|:---|
+| <b>職位</b> <i>灰階輸入</i> | 將烘焙位置圖貼入基底效果。 必備！ |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-* **等級**： *0.0 - 1.0*\
-  設定土壤的整體外觀高度。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **泥土高度**： *0.0 - 1.0*&#x200B;設定土土應該出現的高度（比例）。
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定土壤的整體外觀高度。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>泥土高度</b> <i>0.0 - 1.0</i> | 設定土壤應該出現的高度（比例）。 |
 
-## 範例圖片
+## 範例
 
-![](../../../../../../assets/ground-dirt-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="ground-dirt.resources/ground-dirt-02.gif" />
+        </td>
+    </tr>
 </table>

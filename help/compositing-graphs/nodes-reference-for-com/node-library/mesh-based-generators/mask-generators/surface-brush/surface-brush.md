@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 表面刷
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/surface-brush.png){width="128px"}
+![](surface-brush.resources/surface-brush-01.png){width="128px"}
 
-## 表面刷
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**中級**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,35 +37,42 @@ ht-degree: 1%
 
 此遮罩代表了金屬刷洗在物體表面上的有趣效果，且物體幾何形狀與 AO 遮蔽。
 
-## 參數
-
-### 輸入
-
-* **世界空間法線**： *色彩輸入*
-* **曲率**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。
-* **環境遮蔽**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。
-* **位置**： *灰階輸入*
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  設定全局效果等級，逐步揭示。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **刮痕長度**： *0.0 - 8.0*&#x200B;設定刮痕長度。 較小的數值像點狀，較高的數值則是長連續。
-* **遮擋軸**： *X、Y、Z、無*&#x200B;應該被刮傷的物體軸。 不會改變刮痕的方向。
-* **遮擋軸強度**： *0.0 - 1.0*&#x200B;軸閉塞效應的強度。
-* **閉合***：0.0 - 1.0* AO在閉塞刮痕上的強度。
-* **銳利度**： *0.0 - 1.0*&#x200B;設定銳化後對刮痕施加的量。
-
-## 範例圖片
-
-![](../../../../../../assets/surface-brush-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>世界太空常態</b> <i>色彩輸入</i> |  |
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 |
+| <b>環境遮蔽</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 |
+| <b>職位</b> <i>灰階輸入</i> |  |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定全局效果等級，逐步揭示。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>Scratches Lenght（長刮痕）</b> <i>0.0 - 8.0</i> | 設定刮痕的長度。 較小的數值像點狀，較高的數值則是長連續。 |
+| <b>遮蔽軸</b> <i>X、Y、Z，沒有</i> | 物體的軸線應該會被刮傷。 不會改變刮痕的方向。 |
+| <b>遮擋軸強度</b> <i>0.0 - 1.0</i> | 軸的強迫力，遮蔽效應。 |
+| <b>遮蔽</b> <i>0.0 - 1.0</i> | AO在閉塞性刮痕上的強度。 |
+| <b>銳利強度</b> <i>0.0 - 1.0</i> | 設定磨後磨刀量來處理刮痕。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="surface-brush.resources/surface-brush-02.gif" />
+        </td>
+    </tr>
 </table>

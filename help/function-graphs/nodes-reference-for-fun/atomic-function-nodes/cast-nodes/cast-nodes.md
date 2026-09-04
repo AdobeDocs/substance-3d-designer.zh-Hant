@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 演員陣容
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 鑄造節點用於將節點從一種型態轉換成另一種型別：
 
-![](../../../../assets/image2015-12-23-10-5-19.png)
+![](cast-nodes.resources/cast-nodes-01.png)
 
 ## 如何使用投射節點？
 

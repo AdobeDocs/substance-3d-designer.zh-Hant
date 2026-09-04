@@ -1,8 +1,8 @@
 ---
-source-git-commit: c7b3b375144c8b58a8e7a7a408895a23e9bd1143
+source-git-commit: 70bcf76fbb7c055ba9aa0b61e6975c266c8dd652
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 4%
 
 ---
 # TODO
@@ -15,14 +15,24 @@ ht-degree: 1%
 ## 新增設施
 
 * Adobe Docs 上 Python API 文件的入口
+* 3D 視圖：用於 `refineLevel = 0` 提升高多邊形網格位移效能
 * 「文件彈出視窗」頁面中的範例
+* 詞彙表：
+  * HDR
+  * 金屬感 / 金屬感
+  * HDR
+  * 反射
+  * 高度圖
+  * 不透明度
+  * 頂體
+  * 切空間
+  * 種子 / 隨機種子
+  * 效果圖
+  * 像素處理器
+  * 預設集
 
 ## 修正方法
 
-* 輸出節點中的斷裂連結與格式[&#128279;](help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-* HelpX 連結
-* 移除頁面內的目錄（例如 新聲音）
-* 修正節點頁面配置（例如 新聲音）
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
 * 缺少「負整數」項目及 parameters-not-working-as-expected.md 中斷裂連結[&#128279;](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: FXAA
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 1%
+source-wordcount: '69'
+ht-degree: 2%
 
 ---
 
@@ -22,27 +22,29 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fxaa-color.png)![](../../../../../../assets/fxaa-grayscale.png)
+![](fxaa.resources/fxaa-01.png)![](fxaa.resources/fxaa-02.png)
 
-## FXAA（彩色/灰階）
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 套用基於 FXAA 演算法的抗鋸齒濾鏡。 你可以用它修正形狀上的鋸齒狀、像素化邊緣。 它對於像是邊緣像素化的 Disk Shape[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape/shape.md) 特別有用，因為它提供了一個簡單的單一節點解決方案來解決抗鋸齒邊緣。
 
-## 範例圖片
-
-![](../../../../../../assets/fxaa-ex.png)
-
 </td>
 </tr>
+</table>
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="fxaa.resources/fxaa-03.png" />
+        </td>
+    </tr>
 </table>

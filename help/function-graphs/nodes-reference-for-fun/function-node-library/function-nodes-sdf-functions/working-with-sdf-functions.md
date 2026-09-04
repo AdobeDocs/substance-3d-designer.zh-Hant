@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 與 SDF 函式的處理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: dd03ffc77a6d09c680dcf3e1fc204e4cb86cc336
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -29,7 +29,7 @@ SDF 函數是 Substance 函數圖，結合工具集中可用的 SDF 節點，並
 1. 在 3D 檢視[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)節點中撰寫一個 SDF 函數以視覺化結果。
 2. 將最終函數圖複製（或 [實](../../../../glossary/glossary.md#instance-node)例化）到支援 SDF 函數 [的節點參數中，例如 Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)。
 
-<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Substance 3D Designer 中 3D SDF 功能節點的動態圖" />
+<img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="Substance 3D Designer 中 3D SDF 功能節點的動態圖" />
 
 ## 什麼是SDF函數？
 
@@ -39,7 +39,7 @@ SDF 函數是 Substance 函數圖，結合工具集中可用的 SDF 節點，並
             <p>就像數學函數可以在二維中繪製曲線一樣，它們也可以在三維中繪製為曲面。</p><p>有符號距離場是一種數學函數，透過計算空間中任意一點到曲面上最近點的距離，來定義三維空間中的曲面。</p><p>讓我們來拆解一下「有符號距離場」這個名稱，以更好地理解它：<ul><li><b>有符號</b> 表示，若點在表面外側或前方，函數回傳正值;若點在表面內側或後方，則回傳負值;若點正好在表面上，則回傳為零。</li><li><b>距離</b> 指的是函數計算空間中任一點到表面上*最近*點的距離。</li><li><b>場的意思</b> 是函數描述一個值域，因為空間中的每個點都有對應的值，代表它與最近曲面的距離。</li></ul></p>
         </td>
         <td style="border: 0; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-what-is-an-sdf.gif" alt="可視化由SDF函數產生的形狀，並帶有掃掠等值線。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-02.gif" alt="可視化由SDF函數產生的形狀，並帶有掃掠等值線。" />
         </td>
     </tr>
 </table>
@@ -72,7 +72,7 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
 
 +++ 定義 SDF 函數的函數圖範例
 
-![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-function-graph.png)
+![working-with-sdf-function-graph.png](working-with-sdf-functions.resources/working-with-sdf-functions-03.png)
 
 +++
 
@@ -86,11 +86,11 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
 
 [物理太陽/天空](../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md)節點可用於快速設定 3D 檢視器的環境光照。
 
-<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-setup.gif" alt="設定 3D 檢視節點以進行 SDF 函數視覺化。" />
+<img style="margin-top: 32px; margin-bottom: 32px;" src="./working-with-sdf-functions.resources/working-with-sdf-functions-04.gif" alt="設定 3D 檢視節點以進行 SDF 函數視覺化。" />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>所有 SDF 功能節點及其輸入連接器都有工具提示，能讓你更了解它們的用途以及如何使用。</p><p>一定要去看看！</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-tooltips.png" alt="SDF 功能節點輸入連接器的提示。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>所有 SDF 功能節點及其輸入連接器都有工具提示，能讓你更了解它們的用途以及如何使用。</p><p>一定要去看看！</p></td><td style="border: none; width: 33%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-05.png" alt="SDF 功能節點輸入連接器的提示。" /></td></tr></table>
 
 ### 設定節點值
 
@@ -101,11 +101,11 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
 
 大多數 SDF 函式節點的輸入連接器都有預設值，並會在工具提示中揭露。
 
-<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-constants.gif" alt="常數節點用於編輯 SDF 原語。" />
+<img style="margin-top: 32px; margin-bottom: 32px" src="working-with-sdf-functions.resources/working-with-sdf-functions-06.gif" alt="常數節點用於編輯 SDF 原語。" />
 
 >[!TIP]
 > 
-> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>如果你不需要一直保持某些數值可見，可以用鍵來停靠節點 <code>D</code> ，這樣可以節省空間並清理圖表。</p><p>你也可以用註解來追蹤數值。</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-docked-nodes.png" alt="SDF 功能節點輸入連接器的提示。" /></td></tr></table>
+> <table style="border: none"><tr style="border: none"><td style="border: none; vertical-align: top"><p>如果你不需要一直保持某些數值可見，可以用鍵來停靠節點 <code>D</code> ，這樣可以節省空間並清理圖表。</p><p>你也可以用註解來追蹤數值。</p></td><td style="border: none; width: 67%; vertical-align: top"><img src="./working-with-sdf-functions.resources/working-with-sdf-functions-07.png" alt="SDF 功能節點輸入連接器的提示。" /></td></tr></table>
 
 
 ### 包圍框架
@@ -116,7 +116,7 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
             <p>包圍框是三維空間中的一個框，定義<i>了 SDF 函數在 Shape splatter v2</a> 節點中被評估及繪製<a href="../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md">的邊界</i>。</p><p>如果包圍框架太小，形狀的部分可能會被裁剪。 如果容量過大，可能會導致不必要的計算和更長的處理時間。</p><p><b>包圍框架</b>參數讓你能啟用包圍框架的視覺化。接著你可以透過改變包圍框架大小</b>參數的<b>值來調整包圍框架的大小。</p><p>使用 <b>「著色出框</b> 」參數，將包圍框外區域以鮮紅色呈現，這樣你就能相應調整畫面。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-bounding-frame.jpg" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-08.jpg" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
         </td>
     </tr>
 </table>
@@ -129,7 +129,7 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
             <p>因為變換形狀涉及實際*轉換它們所繪製的空間*，經過某些變換後所用節點的結果可能會令人驚訝。<br>在這些情況下，視覺化空間本身會很有幫助，這可以透過視覺化形狀的距離場</i>來實現<i>。</p><p>為此，3D 檢視節點使用 <i>等值線</i>，即代表形狀表面給定距離的等高線。 <b>SDF 等值線</b>參數使得這種視覺化成為可能。<br>等值線繪製在由 SDF 等值線位置</b>參數指定的<b>水平面上。</p><p>觀察等值線因變換而變形，有助於理解形狀本身的變換，並相應調整節點參數。</p>
         </td>
         <td style="border: none; width: 33%; vertical-align: top">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-isolines.jpg" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-09.jpg" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
         </td>
     </tr>
 </table>
@@ -142,7 +142,7 @@ SDF 函數節點在函式庫中依其功能與用途進行分類。
 
 +++ 範例工作區
 
-![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-workspace.png)
+![working-with-sdf-workspace.png](working-with-sdf-functions.resources/working-with-sdf-functions-10.png)
 
 +++
 
@@ -256,7 +256,7 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 
 舉個例子：
 
-![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-p-input.gif)
+![working-with-sdf-p-input.gif](working-with-sdf-functions.resources/working-with-sdf-functions-11.gif)
 
 球體被重複使用，以視覺化空間為三維網格。 **&#x200B;重複空間。\
 若沒有共享 `P`，彎曲圓柱會使用球體所使用的重複空間。\
@@ -271,7 +271,7 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 
 務必調整 **SDF 的包圍框架大小** 參數，使其符合 [你在 3D 檢視節點中使用的包圍框架](#the-bounding-frame) ，並確保形狀繪製正確。
 
-![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
+![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-functions-12.png)\
 *Shape Splatter v2 的&#x200B;**Shape 類型**&#x200B;設定為 `SDF function`。 注意&#x200B;**SDF 邊界框架尺寸**&#x200B;已調整以符合該形狀。*
 
 >[!TIP]
@@ -292,7 +292,7 @@ SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來�
 在你想標記特定材質 ID 的形狀部分後面，使用 [設定材質 ID](./sdf-functions-material/set-id/set-id.md) 節點，並用 [整數](../../atomic-function-nodes/constant-nodes/constant-nodes.md) 常數節點設定想要的材質 ID 值。\
 在 3D 檢視器節點中，設定 **輸出** 參數以 `Material ID` 視覺化形狀的材質 ID。
 
-![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-material-id-01.png)\
+![working-with-sdf-material-id.png](working-with-sdf-functions.resources/working-with-sdf-functions-13.png)\
 *右側為兩個 3D 檢視節點的輸出，合成顯示形狀（左）與材質 ID（右），說明混合形狀中材質如何插值，而材質 ID 則被分割。*
 
 材質 ID 可由 Shape splatter v2 伴隨節點利用：
@@ -302,13 +302,13 @@ SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來�
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-06.jpg" alt="Shape splatter v2 映射器色彩節點中用於色彩映射的 SDF 材質 ID。"/><i>Shape splatter v2 映射器色彩中用於色彩映射<br>的材質 ID</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-14.jpg" alt="Shape splatter v2 映射器色彩節點中用於色彩映射的 SDF 材質 ID。"/><i>Shape splatter v2 映射器色彩中用於色彩映射<br>的材質 ID</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-04.jpg" alt="Shape splatter v2 映射器色彩節點中用於三平面映射的 SDF 材質 ID。"/><i>用於 Shape splatter v2 映射器色彩中三平面映射<br>的材質識別碼</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-15.jpg" alt="Shape splatter v2 映射器色彩節點中用於三平面映射的 SDF 材質 ID。"/><i>用於 Shape splatter v2 映射器色彩中三平面映射<br>的材質識別碼</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-material-id-05.jpg" alt="在 Shape splatter v2 中用於遮罩的 SDF 材質 ID。"/><br><i>用於 Shape splatter v2 遮罩<br>的材質 ID</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-16.jpg" alt="在 Shape splatter v2 中用於遮罩的 SDF 材質 ID。"/><br><i>用於 Shape splatter v2 遮罩<br>的材質 ID</i>
         </td>
     </tr>
 </table>
@@ -324,13 +324,13 @@ SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來�
 <table style="border: none; margin-top: 32px">
     <tr style="border: 0">
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-color.jpg" alt="Shape splatter v2 節點的 SDF 色彩輸出。"/><i>SDF 色彩輸出</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-17.jpg" alt="Shape splatter v2 節點的 SDF 色彩輸出。"/><i>SDF 色彩輸出</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-roughness.jpg" alt="Shape splatter v2 節點的 SDF 粗糙度。"/><br><i>SDF 粗糙度輸出</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-18.jpg" alt="Shape splatter v2 節點的 SDF 粗糙度。"/><br><i>SDF 粗糙度輸出</i>
         </td>
         <td style="border: 0; width: 33%">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-metalness.jpg" alt="Shape splatter v2 節點的 SDF 金屬性。"/><i>SDF 金屬度輸出</i>
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-19.jpg" alt="Shape splatter v2 節點的 SDF 金屬性。"/><i>SDF 金屬度輸出</i>
         </td>
     </tr>
 </table>
@@ -343,7 +343,7 @@ SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來�
             <p><b>Rusty bolts</b> <a href="../../../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材質範例</a>可供跳入 Shape splatter v2 節點中應用的 SDF 函數。</p><p>圖表經過組織與註解，引導你了解結構、節點設定及 SDF 函式設定。</p><p>它也 <i>完全可</i> 編輯，因此可以作為沙盒，讓玩家更實際地了解 Shape splatter v2 和 SDF 功能工具組。 你可以製作任意多的範例圖表，歡迎隨意嘗試！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
+            <img src="./working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
         </td>
     </tr>
 </table>

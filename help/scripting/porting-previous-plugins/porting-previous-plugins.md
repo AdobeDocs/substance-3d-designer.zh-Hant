@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 移植先前的插件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
@@ -33,13 +33,13 @@ ht-degree: 0%
 ## 建立使用者介面元素
 
 **&#x200B;插件不需要再定義 &#39;*sdplugins.&#39;PluginDesc*&#39; 了。\
-相反地，外掛可以使用<b> 新的 [UI manager]（https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html） 物件</b> 和 <b>Python 的</b> Qt 來建立所需的使用者介面元素。
+相反地，外掛可以使用 <b>新的 [UI Manager](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr) 物件</b> 和 <b>Python 的</b> Qt 來建立所需的使用者介面元素。
 
 你可以在 [「建立使用者介面元素](../../scripting/creating-user-interface/creating-user-interface-elements.md) 」區找到小型程式碼範例。
 
 ## 取代地點上下文的使用方式
 
 「*SDLocationContext*」類別已 *從 Python API 中移除* 。\
-外掛程式可以使用 <b>[UI manager]（https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/scripting-api-next-172825023.html） 物件</b> 來存取目前啟用的圖形和選取。
+外掛可以使用 <b>[UI 管理器](../scripting-api-reference/scripting-api-reference.md#ui-manager-sduimgr) 物件</b> 來存取目前啟用的圖形和選取。
 
 你可以在 [「存取圖表與選擇](../../scripting/accessing-graphs-and-sel/accessing-graphs-and-selections.md) 」區找到一些範例。

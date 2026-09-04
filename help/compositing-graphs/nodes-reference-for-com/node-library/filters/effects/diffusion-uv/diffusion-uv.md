@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 擴散紫外線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
+![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
 
-**收錄於：***濾鏡/效果*
-
-**中級**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -49,45 +47,40 @@ ht-degree: 0%
 </tr>
 </table>
 
-## 參數
-
-* **迭代**&#x200B;次數： *0.0 - 64.0*&#x200B;擴散迭代次數（越多越好但越慢）。 有用的數值約為[8， 48]範圍。\
-  請注意，如果你不追求數學正確性，低數值也沒問題，甚至更好。
+<a name="inputs"></a>
 
 ## 輸入
 
-* **來源***顏色*\
-  紫外線可以擴散。 請注意，在此篩選器中，平鋪的處理方式特別（見 *說明*）。
-* **遮罩***灰階*&#x200B;擴散遮罩：白色像素在&#x200B;*Source*&#x200B;中取樣，並在黑色像素中漫射。圖片應該是黑白的。 若遮罩包含梯度，截止值為 0.5。
+|  |  |
+|:---|:---|
+| <b>資料來源</b> <i>顏色</i> | 紫外線可以擴散。 請注意，在此篩選器中，平鋪的處理方式特別（見 <i>說明</i>）。 |
+| <b>面具</b> <i>灰階</i> | 擴散遮罩：白色像素在 Source</i> 中<i>取樣，並在黑色像素中擴散。圖片應該是黑白的。 若遮罩包含梯度，截止值為 0.5。 |
 
-## 範例圖片
+<a name="parameters"></a>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+## 參數
 
-![](../../../../../../assets/diffusion-uv-01a-before.jpg){width="256px"}
+|  |  |
+|:---|:---|
+| <b>迭代</b> <i>0.0 - 64.0</i> | 要執行的擴散迭代次數（越多越好，但越慢）。 有用的數值約為[8， 48]範圍。<br>請注意，如果你不追求數學正確性，低數值也沒問題，甚至更好。 |
 
-</td>
-<td style="border: 0;" valign="top">
+## 範例
 
-![](../../../../../../assets/diffusion-uv-01a-after.jpg){width="256px"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-before.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/diffusion-uv-01b-after.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
+        </td>
+    </tr>
 </table>

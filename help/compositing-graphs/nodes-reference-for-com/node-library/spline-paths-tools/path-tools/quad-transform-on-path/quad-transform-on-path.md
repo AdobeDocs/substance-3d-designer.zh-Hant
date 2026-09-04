@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 路徑上的四邊變換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 2%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/quad-transform-on-paths-icon.png "節點圖示")
+![節點圖示](quad-transform-on-path.resources/quad-transform-on-path-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -39,29 +39,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 *Path-processing* 節點。
+## 輸入
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 *Path-processing* 節點。 |
 
-<b>路徑</b> *顏色*\
-變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。
+<a name="outputs"></a>
+
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>p00</b> *Float2*\
-左上角把手的位置。
-
-<b>第01</b> *頁 Float2*\
-右上方把手的位置。
-
-<b>第2</b> *頁 Float2*\
-左下角把手的位置。
-
-<b>第03</b> *頁 Float2*\
-右下角把手的位置。
+|  |  |
+|:---|:---|
+| <b>p00</b> <i>Float2</i> | 左上角把手的位置。 |
+| <b>第01頁</b> <i>Float2</i> | 右上方把手的位置。 |
+| <b>第2頁</b> <i>Float2</i> | 左下角把手的位置。 |
+| <b>第3頁</b> <i>Float2</i> | 右下角把手的位置。 |
 
 ## 範例
 
@@ -72,11 +75,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant1-After.jpg" alt="QuadTransformOnPaths-Variant1-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-03.jpg" alt="QuadTransformOnPaths-Variant1-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -88,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsPolygon_Variant1.jpg" alt="PathsPolygon_Variant1">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-02.jpg" alt="PathsPolygon_Variant1">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/QuadTransformOnPaths-Variant2-After.jpg" alt="QuadTransformOnPaths-Variant2-After">
+      <img src="quad-transform-on-path.resources/quad-transform-on-path-04.jpg" alt="QuadTransformOnPaths-Variant2-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -106,12 +109,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/QuadTransformOnPaths-Demo2.gif "節點範例 1")
+![節點範例 1](quad-transform-on-path.resources/quad-transform-on-path-05.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/QuadTransformOnPaths-Demo1.gif "節點範例 2")
+![節點範例 2](quad-transform-on-path.resources/quad-transform-on-path-06.gif "節點範例 2")
 
 </td>
 </tr>

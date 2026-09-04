@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 色彩（混合節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '103'
 ht-degree: 3%
 
 ---
@@ -22,41 +22,38 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/difference.png){width="128px"}
+![](color-blend-node.resources/color-blend-node-01.png){width="128px"}
 
-## 顏色
-
-**收錄於：***濾鏡/混合*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>混合
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 執行色彩混合模式，保留背景的亮度，同時採用前景的色調與色度。
 
-## 參數
-
-### 輸入
-
-* **前景**： *色彩輸入*
-* **背景**： *色彩輸入*
-* **遮罩**： *灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **不透明度**： *0.0 - 1.0*\
-  融合前景與背景的不透明度。
-* **Alpha 混合**： *錯誤/真實*\
-  切換前景與背景 alpha 通道的混合。 若設為 False，則忽略前景的 alpha 通道。
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>前景</b> <i>色彩輸入</i> |  |
+| <b>背景</b> <i>色彩輸入</i> |  |
+| <b>面具</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 融合前景與背景的不透明度。 |
+| <b>Alpha 混合</b> <i>錯誤/真實</i> | 切換前景與背景 alpha 通道的混合。 若設為 False，則忽略前景的 alpha 通道。 |

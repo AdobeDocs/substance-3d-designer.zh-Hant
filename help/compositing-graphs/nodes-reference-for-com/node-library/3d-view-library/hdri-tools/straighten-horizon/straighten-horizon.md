@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 直視地平線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 1%
+source-wordcount: '98'
+ht-degree: 4%
 
 ---
 
@@ -22,36 +22,30 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/straighten-horizon.png){width="200px"}
+![](straighten-horizon.resources/straighten-horizon-01.png){width="200px"}
 
-## 直視地平線
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**很簡單**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 對於地平線不直的HDRI，這個節點提供了一個簡單且使用者友善的校正方法。
 
-## 參數
-
-* **啟用地平線修正**： *錯誤/正確*\
-  啟用與停用效果。 允許切換前後比較並找出正確的點。
-* **地平線點#1位置**：\
-  第一點，有 2D View 的把手。
-* **地平線點#2位置**：\
-  第二點，有 2D View 的把手。
-* **水平旋轉**： *0.0 - 1.0\
-  繞中央軸線額外旋轉。*
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>啟用地平線校正</b> <i>錯誤/真實</i> | 啟用與停用效果。 允許切換前後比較並找出正確的點。 |
+| <b>地平線點#1位置</b> | 第一點，有 2D View 的把手。 |
+| <b>地平線點#2位置</b> | 第二點，有 2D View 的把手。 |
+| <b>水平旋轉</b> <i>0.0 - 1.0</i> | 繞中央軸線額外旋轉。 |

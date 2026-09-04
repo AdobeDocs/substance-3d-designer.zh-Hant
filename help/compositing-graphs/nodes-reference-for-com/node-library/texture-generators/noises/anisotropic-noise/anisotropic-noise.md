@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 各向異性雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -22,15 +22,11 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-<table>
-<tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向異性雜訊 - 圖像](../../../../../../assets/anisotropic_noise_v2.png "各向異性雜訊 - 各向異性雜訊 - 圖示"){width="200px"}
+![各向異性雜訊 - 圖像](anisotropic-noise.resources/anisotropic-noise-01.png "各向異性雜訊 - 各向異性雜訊 - 圖示"){width="200px"}
 
-<b>收錄於：</b>貼圖產生器>噪音
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -45,45 +41,25 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-### 輸出
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
-
 ## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 產生的雜訊以灰階位圖形式呈現。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 產生的雜訊以灰階位圖形式呈現。 |
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>X 個整</b>  數 | X 軸上的條帶數量。 |
-| <b>Y 個整</b>  數 | Y軸條數。 |
-| <b>y 個量以解析</b>  布林值計算 | 若為真，則Y軸上的條帶數量將等於該軸上的影像大小。 |
-| <b>旋轉</b>  布林值 | 把噪音旋轉90度。 |
-| <b>平滑</b>  浮球 | 條帶之間的漸變量，0 表示沒有漸入，1 則在整個長度上逐漸消失。 |
-| <b>平滑性插值</b>  浮點 | 兩種插值方法的權重來衰落條帶，其中0為線性，1為高斯。 |
-| <b>混亂</b>  漂浮 | 取代噪音的成分。 這可以用來動畫噪音。 |
-| <b>無序速度</b>  浮動 | 調整由<b>無序</b>參數所施加的位移距離。 這可用於控制噪聲動畫時的位移速度。 |
-| <b>非平方展開</b>  布林 | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
+|:---|:---|
+| <b>X 金額</b> <i>整數</i> | X 軸上的條帶數量。 |
+| <b>Y金額</b> <i>整數</i> | Y軸條數。 |
+| <b>按解析度分配 y 個</b> <i>布林值</i> | 若為真，則Y軸上的條帶數量將等於該軸上的影像大小。 |
+| <b>旋轉</b> <i>布林值</i> | 把噪音旋轉90度。 |
+| <b>平滑度</b> <i>浮標</i> | 條帶之間的漸變量，0 表示沒有漸入，1 則在整個長度上逐漸消失。 |
+| <b>平滑性插值</b> <i>浮標</i> | 兩種插值方法的權重來衰落條帶，其中0為線性，1為高斯。 |
+| <b>混亂</b> <i>浮標</i> | 取代噪音的成分。   這可以用來動畫噪音。 |
+| <b>無序速度</b> <i>浮標</i> | 調整由 <b>無序</b> 參數所施加的位移距離。   這可用於控制噪聲動畫時的位移速度。 |
+| <b>非平方展開</b> <i>布林值</i> | 在非正方形影像中，保持產生的磁磚方正，並將雜訊產生擴展到影像的範圍。 |
 
 ## 範例
 
@@ -91,26 +67,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![各向異性雜訊 - 範例 1](../../../../../../assets/anisotropic_noise_v2_1.png "各向異性雜訊 - 範例 1"){zoomable="yes"}
+![各向異性雜訊 - 範例 1](anisotropic-noise.resources/anisotropic-noise-02.png "各向異性雜訊 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![各向異性雜訊 - 範例 2](../../../../../../assets/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向異性雜訊 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-
+![各向異性雜訊 - 範例 2](anisotropic-noise.resources/anisotropic-noise-03.gif "各向異性雜訊 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>

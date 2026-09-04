@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 功能
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 ## 節點列表
 
 +++砰
-![Pow 節點圖示](../../../../assets/Pow_Node.jpg "Pow 節點圖示")
+![Pow 節點圖示](function-nodes.resources/function-nodes-01.jpg "Pow 節點圖示")
 
 
 
@@ -36,36 +36,36 @@ ht-degree: 1%
 +++
 
 +++2Pow
-![2Pow 節點圖示](../../../../assets/2Pow_Node.jpg "2Pow 節點圖示")
+![2Pow 節點圖示](function-nodes.resources/function-nodes-02.jpg "2Pow 節點圖示")
 
 
 
-回傳 2 的輸入值的冪次方：<b>2^X</b>。
+回傳 2 的輸入值的冪次方： <b>2^X</b>。
 
 +++
 
 +++平方根
-![平方根節點圖示](../../../../assets/SquareRoot_Node.jpg "平方根節點圖示")
+![平方根節點圖示](function-nodes.resources/function-nodes-03.jpg "平方根節點圖示")
 
 
 
-回傳其輸入值的平方根：<b>√X</b>。
+回傳其輸入值的平方根： <b>√X</b>。
 
 +++
 
 +++指數
-![指數節點圖示](../../../../assets/Exponential_Node.jpg "指數節點圖示")
+![指數節點圖示](function-nodes.resources/function-nodes-04.jpg "指數節點圖示")
 
 
 
-回傳其輸入值的指數值：<b>e^X</b>
+回傳其輸入值的指數值： <b>e^X</b>
 
 <b>e</b> 大約等於 2.7182818。
 
 +++
 
 +++對數
-![對數節點圖示](../../../../assets/Logarithm_Node.jpg "對數節點圖示")
+![對數節點圖示](function-nodes.resources/function-nodes-05.jpg "對數節點圖示")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 +++
 
 +++對數底數為2
-![對數進位 2 節點圖示](../../../../assets/LogarithmBase2_Node.jpg "對數進位 節點 2 進位圖示")
+![對數進位 2 節點圖示](function-nodes.resources/function-nodes-06.jpg "對數進位 節點 2 進位圖示")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 +++
 
 +++絕對
-![絕對節點圖示](../../../../assets/Absolute_Node.jpg "絕對節點圖示")
+![絕對節點圖示](function-nodes.resources/function-nodes-07.jpg "絕對節點圖示")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 +++
 
 +++凱爾
-![Ceil 節點圖示](../../../../assets/Ceil_Node.jpg "Ceil 節點 圖示")
+![Ceil 節點圖示](function-nodes.resources/function-nodes-08.jpg "Ceil 節點 圖示")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 +++
 
 +++下限
-![地板節點圖示](../../../../assets/Floor_Node.jpg "地板節點圖示")
+![地板節點圖示](function-nodes.resources/function-nodes-09.jpg "地板節點圖示")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 +++
 
 +++線性插值
-![線性插值節點圖示線性插值節點圖示](../../../../assets/LinearInterpolation_Node.jpg "")
+![線性插值節點圖示線性插值節點圖示](function-nodes.resources/function-nodes-10.jpg "")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 +++
 
 +++最低限度
-![最小節點圖示 最小節點圖示](../../../../assets/Minimum_Node.jpg "")
+![最小節點圖示 最小節點圖示](function-nodes.resources/function-nodes-11.jpg "")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 1%
 +++
 
 +++極限
-![最大節點圖示 最大節點圖示](../../../../assets/Maximum_Node.jpg "")
+![最大節點圖示 最大節點圖示](function-nodes.resources/function-nodes-12.jpg "")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 +++
 
 +++餘弦
-![餘弦節點圖示](../../../../assets/Cosine_Node.jpg "餘弦結圖示")
+![餘弦節點圖示](function-nodes.resources/function-nodes-13.jpg "餘弦結圖示")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 +++
 
 +++正弦
-![正弦節圖示](../../../../assets/Sine_Node.jpg "正弦節圖示")
+![正弦節圖示](function-nodes.resources/function-nodes-14.jpg "正弦節圖示")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 +++
 
 +++正切
-![切節點圖示切節點圖示](../../../../assets/Tangent_Node.jpg "")
+![切節點圖示切節點圖示](function-nodes.resources/function-nodes-15.jpg "")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 +++
 
 +++弧切線2
-![弧切線 2 節點圖示](../../../../assets/ArcTangent2_Node.jpg "弧切線 2 節點圖示")
+![弧切線 2 節點圖示](function-nodes.resources/function-nodes-16.jpg "弧切線 2 節點圖示")
 
 
 
@@ -172,12 +172,12 @@ ht-degree: 1%
 
 它是笛卡兒</b>函數的<b>倒數。
 
-不需像一般<b>的 atan2</b> 函數那樣切換輸入向量的 X 和 Y 分量。
+不需像一般 <b>的 atan2</b> 函數那樣切換輸入向量的 X 和 Y 分量。
 
 +++
 
 +++笛卡兒
-![絕對節點圖示](../../../../assets/Absolute_Node.jpg "絕對節點圖示")
+![絕對節點圖示](function-nodes.resources/function-nodes-07.jpg "絕對節點圖示")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 +++
 
 +++隨機
-![隨機節點圖示](../../../../assets/Random_Node.jpg "隨機節點圖示")
+![隨機節點圖示](function-nodes.resources/function-nodes-17.jpg "隨機節點圖示")
 
 
 

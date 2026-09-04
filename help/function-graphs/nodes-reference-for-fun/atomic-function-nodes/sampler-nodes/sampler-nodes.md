@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 取樣器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 取樣節點
 
-![取樣節點取](../../../../assets/image2016-1-12-14-45-43.png "樣器節點")
+![取樣節點取](sampler-nodes.resources/sampler-nodes-01.png "樣器節點")
 
 這些節點會在輸入影像中取樣給定的二維座標：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![像素座標](../../../../assets/samplercoords.png "像素座標")
+![像素座標](sampler-nodes.resources/sampler-nodes-02.png "像素座標")
 
 </td>
 </tr>
@@ -64,10 +64,10 @@ ht-degree: 0%
 讓你可以定義當取樣影像中的像素因解析度差異而無法完全對應到輸出影像時，如何處理插值。
 
 <b>最近的</b>\
-像素會依照原樣&#x200B;*映射到目標*，並匹配到對應座標。若目標解析度較低，該像素可能會被完全忽略。 若目標解析度較高;則會映射至涵蓋其跨度的所有像素。 輸出會&#x200B;*更*&#x200B;清晰，會看起來有點&#x200B;*鋸齒*。
+像素會依照原樣&#x200B;*映射到目標*，並匹配到對應座標。若目標解析度較低，該像素可能會被完全忽略。 若目標解析度較高;則會映射至涵蓋其跨度的所有像素。 輸出會 *更* 清晰，會看起來有點 *鋸齒*。
 
 <b>雙線性濾波</b>\
-對來源影像施加濾波處理，使其像素映射到目標解析度&#x200B;*，以平滑*&#x200B;像素間的過渡。 輸出較&#x200B;*為平滑*，且看起來會稍微&#x200B;*模糊*。
+對來源影像施加濾波處理，使其像素映射到目標解析度 *，以平滑* 像素間的過渡。 輸出較 *為平滑* ，且看起來會稍微 *模糊*。
 
 +++
 

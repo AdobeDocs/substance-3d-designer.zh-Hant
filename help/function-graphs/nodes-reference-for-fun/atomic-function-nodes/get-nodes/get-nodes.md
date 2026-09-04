@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 1%
 
 變數是一種儲存值的方式，以便<b>之後<b>取得（Get</b>）和/或修改（<b>Set</b>）。</b>
 
-![Substance 函數圖 - 取得 float](../../../../assets/assign-getfloat.gif "Substance 函數圖 - 取得 float"){zoomable="yes"}
+![Substance 函數圖 - 取得 float](get-nodes.resources/get-nodes-01.gif "Substance 函數圖 - 取得 float"){zoomable="yes"}
 
-Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的輸出中回傳，用於函式。 這些 Get 節點構成圖屬性中定義[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)的輸入參數與[參數函式](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)之間的連結。
+Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的輸出中回傳，用於函式。 這些 Get 節點構成圖參數中定義[&#128279;](../../../../compositing-graphs/graph-parameters/graph-parameters.md)的輸入參數與[參數函式](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)之間的連結。
 
 每次使用「取得」節點時，你必須從下拉選單中選擇一個可用的值。 取得節點會 <b>擷取對應類型的</b>值。 這表示你只會在 Get 節點的選單中看到有效選項，無法選擇無效選項。 如果變數無法使用，代表類型不匹配
 
 有許多 <b>「系統」變數</b>：預先定義的特殊變數，你無法自行宣告。 這些變數非常重要，且在下方節點會列出可用的系統變數。
 
-當參數被[暴露](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，會對其套用一個參數函式，該函式僅包含正確類型的 Get 節點。
+當參數被 [暴露](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，會對其套用一個參數函式，該函式僅包含正確類型的 Get 節點。
 
 <table>
 <tr style="border: 0;">
@@ -58,7 +58,7 @@ Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的�
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![取得 float2 - 圖示](../../../../assets/fn_variables_getfloat2.png "取得 float2 - 圖示"){width="200px"}
+![取得 float2 - 圖示](get-nodes.resources/get-nodes-02.png "取得 float2 - 圖示"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -88,25 +88,25 @@ Get 節點的本質作用是抓取一個動態變數，然後從 Get 節點的�
 ### 取得節點
 
 +++花車
-![取得浮動 - 圖示](../../../../assets/fn_variables_getfloat.png "取得浮動 - 圖示"){width="200px"}
+![取得浮動 - 圖示](get-nodes.resources/get-nodes-03.png "取得浮動 - 圖示"){width="200px"}
 
 
 
 Get Float
 
-![取得 float2 - 圖示](../../../../assets/fn_variables_getfloat2.png "取得 float2 - 圖示"){width="200px"}
+![取得 float2 - 圖示](get-nodes.resources/get-nodes-02.png "取得 float2 - 圖示"){width="200px"}
 
 
 
 取得 Float2
 
-![取得 float3 - 圖示](../../../../assets/fn_variables_getfloat3.png "取得 float3 - 圖示"){width="200px"}
+![取得 float3 - 圖示](get-nodes.resources/get-nodes-04.png "取得 float3 - 圖示"){width="200px"}
 
 
 
 取得 Float3
 
-![取得 float4 - 圖示](../../../../assets/fn_variables_getfloat4.png "取得 float4 - 圖示"){width="200px"}
+![取得 float4 - 圖示](get-nodes.resources/get-nodes-05.png "取得 float4 - 圖示"){width="200px"}
 
 
 
@@ -115,25 +115,25 @@ Get Float
 +++
 
 +++整數
-![取得整數 - 圖示](../../../../assets/fn_variables_getint.png "取得整數 - 圖示"){width="200px"}
+![取得整數 - 圖示](get-nodes.resources/get-nodes-06.png "取得整數 - 圖示"){width="200px"}
 
 
 
 取得整數
 
-![取得整數2 - 圖示](../../../../assets/fn_variables_getint2.png "取得整數2 - 圖示"){width="200px"}
+![取得整數2 - 圖示](get-nodes.resources/get-nodes-07.png "取得整數2 - 圖示"){width="200px"}
 
 
 
 取得 Integer2
 
-![取得整數3 - 圖示](../../../../assets/fn_variables_getint3.png "取得整數3 - 圖示"){width="200px"}
+![取得整數3 - 圖示](get-nodes.resources/get-nodes-08.png "取得整數3 - 圖示"){width="200px"}
 
 
 
 取得整數3
 
-![取得整數4 - 圖示](../../../../assets/fn_variables_getint4.png "取得整數4 - 圖示"){width="200px"}
+![取得整數4 - 圖示](get-nodes.resources/get-nodes-09.png "取得整數4 - 圖示"){width="200px"}
 
 
 
@@ -142,13 +142,13 @@ Get Float
 +++
 
 +++其他
-![取得布林值 - 圖示](../../../../assets/fn_variables_getboolean.png "取得布林值 - 圖示"){width="200px"}
+![取得布林值 - 圖示](get-nodes.resources/get-nodes-10.png "取得布林值 - 圖示"){width="200px"}
 
 
 
 取得布林值
 
-![取得字串 - 圖示](../../../../assets/fn_variables_getstring.png "取得字串 - 圖示"){width="200px"}
+![取得字串 - 圖示](get-nodes.resources/get-nodes-11.png "取得字串 - 圖示"){width="200px"}
 
 
 
@@ -162,7 +162,7 @@ Get Float
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![集合：節點圖示](../../../../assets/fn_variables_set.png "設定：節點圖示"){width="200px"}
+![集合：節點圖示](get-nodes.resources/get-nodes-12.png "設定：節點圖示"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -179,7 +179,7 @@ Get Float
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![定義：節點圖示](../../../../assets/fn_variables_isdefined.png "定義：節點圖示"){width="200px"}
+![定義：節點圖示](get-nodes.resources/get-nodes-13.png "定義：節點圖示"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

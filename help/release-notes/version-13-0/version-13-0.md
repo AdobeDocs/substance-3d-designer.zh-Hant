@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *發行日期：2023年6月6日*
 
-![材料利用路徑](../../assets/Paths2.png "材料利用路徑")
+![材料利用路徑](version-13-0.resources/version-13-0-01.png "材料利用路徑")
 
 *插畫： [席琳·達梅隆](https://www.artstation.com/cline)*
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 
 這個 13.0 版本帶來了許多新內容。 你主要會找到兩個新的節點集合：樣條工具和路徑工具。
 
-* [樣條鍵工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)是一組用於產生和調整樣條的節點，也用於映射、散射或扭曲影像。
-* [路徑工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)是另一組節點，以一段段、輪廓清單的形式從遮罩中提取，然後編輯與改進它們。
+* [樣條鍵工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md) 是一組用於產生和調整樣條的節點，也用於映射、散射或扭曲影像。
+* [路徑工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md) 是另一組節點，以一段段、輪廓清單的形式從遮罩中提取，然後編輯與改進它們。
 
 這些節點將提供許多可能性，且肯定有許多創意應用。 請參考使用 [路徑與樣條工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) 的章節，了解重要概念，幫助你熟悉這套工具組。
 
-![使用樣鍵](../../assets/Splines.png "的材料 使用樣鍵的材料")
+![使用樣鍵](version-13-0.resources/version-13-0-02.png "的材料 使用樣鍵的材料")
 
 *插畫作者： [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 三次樣](../../assets/SplineCubic-Demo.gif "條 三次")
+![樣條 三次樣](version-13-0.resources/version-13-0-03.gif "條 三次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條 複數 二次](../../assets/SplinePolyQuadratic-Demo.gif "樣條 多元")
+![樣條 複數 二次](version-13-0.resources/version-13-0-04.gif "樣條 多元")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條圈](../../assets/SplineCircle-Demo.gif "樣條圈 樣條圈")
+![樣條圈](version-13-0.resources/version-13-0-05.gif "樣條圈 樣條圈")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條橋列表](../../assets/SplineBridge-List_Demo.gif "樣條橋列表")
+![樣條橋列表](version-13-0.resources/version-13-0-06.gif "樣條橋列表")
 
 </td>
 </tr>
@@ -88,23 +88,23 @@ ht-degree: 0%
 
 #### 修改
 
-我們也提供工具，讓你能重新調整和調整花鍵。 你會找到一個節點來套用[二維變換](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)，比如旋轉、平移、縮放，還有另一個節點來[扭曲</b>](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b>形狀，另外兩個節點則是修改[樣條曲線的厚度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b></b>或[高度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md)。  
+我們也提供工具，讓你能重新調整和調整花鍵。 你會找到一個節點來套用[二維轉換](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)，比如旋轉、平移、縮放，還有另一個節點用來扭曲[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>形狀及另外兩個節點以調整 [厚度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>或是樣 [條的高度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) 。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 2D 轉換](../../assets/Spline2DTransform-Demo1.gif "樣條 2D 轉換")
+![樣條 2D 轉換](version-13-0.resources/version-13-0-07.gif "樣條 2D 轉換")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲折](../../assets/SplineWarp-Demo.gif "花鍵")
+![樣條曲折](version-13-0.resources/version-13-0-08.gif "花鍵")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條樣本厚度](../../assets/SplineSampleThickness-Demo.gif "樣條樣本厚度")
+![樣條樣本厚度](version-13-0.resources/version-13-0-09.gif "樣條樣本厚度")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -117,30 +117,30 @@ ht-degree: 0%
 
 #### 渲染
 
-最後一類是根據樣條曲線創造最終形狀或圖案的類別。 你腦中第一個想到的點子是沿著樣條線重複一個形狀：[Scatter on Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) 節點允許你這麼做，並有許多參數完美控制分布（旋轉、縮放、偏移、顏色、遮罩等）。
+最後一類是根據樣條曲線創造最終形狀或圖案的類別。 你腦中第一個想到的點子是沿著樣條線重複一個形狀： [Scatter on Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) 節點允許你這麼做，並有許多參數完美控制分布（旋轉、縮放、偏移、顏色、遮罩等）。
 
-多虧了[樣條填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>節點，你可以輕鬆從封閉的樣條線建立圖案。 如果你想以高度的控制和精準度將任何貼圖映射到樣條曲線上，[樣條映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md)節點就是為你量身打造的！
+感謝 [花鍵填充](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-fill/spline-fill.md)<b> </b>節點，你可以從封閉樣條線輕鬆建立圖案。 如果你想以高度的控制和精準度將任何貼圖映射到樣條曲線上， [樣條映射器](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-color/spline-mapper-color.md) 節點就是為你量身打造的！
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條灰階散射樣條灰階散射 樣條灰階](../../assets/ScatterOnSplineGrayscale-Demo.gif "散射")
+![樣條灰階散射樣條灰階散射 樣條灰階](version-13-0.resources/version-13-0-10.gif "散射")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條填充](../../assets/SplineFill-Demo.gif "樣條填充")
+![樣條填充](version-13-0.resources/version-13-0-11.gif "樣條填充")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條映射器 顏色](../../assets/SplineMapperColor-Demo.gif "樣條映射器 顏色")
+![樣條映射器 顏色](version-13-0.resources/version-13-0-12.gif "樣條映射器 顏色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條流映射器](../../assets/SplineFlowMapper-Demo.gif "樣條流映射器")
+![樣條流映射器](version-13-0.resources/version-13-0-13.gif "樣條流映射器")
 
 </td>
 </tr>
@@ -150,18 +150,18 @@ ht-degree: 0%
 
 [遮罩到路徑](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)節點讓你能以一段段的形式提取灰階圖案的邊界。
 
-接著你可以用 [Path 2D Transform](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 或 [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 節點處理這些路徑，根據需求調整。而且多虧[了 Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 節點，你可以把 Path 轉換成 Spline，這樣就能利用前面提到的所有專門針對樣條的節點，比如散射。
+接著你可以用 [Path 2D Transform](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md) 或 [Paths Warp](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md) 節點處理這些路徑，根據需求調整。  而且多虧 [了 Paths to Spline](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md) 節點，你可以把 Path 轉換成 Spline，這樣就能利用前面提到的所有專門針對樣條的節點，比如散射。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從面罩到路徑](../../assets/MaskToPaths-Demo2.gif "從面罩到路徑")
+![從面罩到路徑](version-13-0.resources/version-13-0-14.gif "從面罩到路徑")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從面具到路徑2](../../assets/MaskToPaths-Demo1.gif "面具到路徑2")
+![從面具到路徑2](version-13-0.resources/version-13-0-15.gif "面具到路徑2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -186,9 +186,9 @@ ht-degree: 0%
 
 上述所有新節點皆基於新的Substance Engine版本，並充分利用其主要新功能： <b>迴圈</b>。
 
-迴圈只設計來[用於 Substance 函數圖](../../function-graphs/function-graphs.md)，你很可能會在[像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、[效果映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)或[值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中實作它們。 迴圈當然會讓你輕鬆重複一個函式很多次，直到某個條件被尊重為止。 這會幫助你大幅減輕圖表的重量，並提升準確度。
+迴圈只設計來 [用於 Substance 函數圖](../../function-graphs/function-graphs.md) ，你很可能會在 [像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)、 [效果映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 或 [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)中實作它們。 迴圈當然會讓你輕鬆重複一個函式很多次，直到某個條件被尊重為止。 這會幫助你大幅減輕圖表的重量，並提升準確度。
 
-這個專門[的教學](https://www.youtube.com/watch?v=Ggoy8G90oDI)會幫助你開始使用迴圈。
+這個專門 [的教學](https://www.youtube.com/watch?v=Ggoy8G90oDI)會幫助你開始使用迴圈。
 
 Substance Engine v9 也帶來了以下改進：
 
@@ -203,9 +203,9 @@ Substance Engine v9 也帶來了以下改進：
 
 多虧了這個功能，你可以透過隱藏非常長的連線來提升圖的可讀性，並且能從圖中任何地方快速存取關鍵節點。
 
-這個新功能在這篇專門[的教學](https://www.adobe.com/go/designer-tutorial-portals)中有完整說明。
+這個新功能在這篇專門 [的教學](https://www.adobe.com/go/designer-tutorial-portals)中有完整說明。
 
-![入口節點](../../assets/PortalNodeFinal.gif "入口節點")
+![入口節點](version-13-0.resources/version-13-0-16.gif "入口節點")
 
 ## 主畫面
 
@@ -216,9 +216,9 @@ Substance Engine v9 也帶來了以下改進：
 * 一個學習頁面，你可以找到學習資源的連結，例如介紹新功能或快速發現技巧的教學;
 * 直接連結到「最新資訊」畫面、關於頁面、Substance 3D網站、支援社群論壇等。
 
-![主畫面 - 主](../../assets/HomeScreen.png "畫面 - 主畫面 - 主頁")
+![主畫面 - 主](version-13-0.resources/version-13-0-17.png "畫面 - 主畫面 - 主頁")
 
-![主畫面 - 學習](../../assets/LearnPage.png "主畫面 - 學習")
+![主畫面 - 學習](version-13-0.resources/version-13-0-18.png "主畫面 - 學習")
 
 ## 新語言
 
@@ -228,7 +228,7 @@ Substance Engine v9 也帶來了以下改進：
 * 義大利語（義大利）;
 * 葡萄牙（巴西）。
 
-提醒一下，如果你想在 Designer 裡更改語言，只要到 [偏好設定](../../interface/preferences-window/preferences-window.md)，你會在一般區塊找到所有可用語言的清單。
+提醒一下，如果你想在 Designer 裡更改語言，只要到 [偏好設定](../../interface/preferences-window/preferences-window.md) ，你會在一般區塊找到所有可用語言的清單。
 
 ## 發行說明
 

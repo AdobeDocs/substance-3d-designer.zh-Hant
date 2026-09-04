@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '155'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/graph-5.png)
+![](resources.resources/resources-01.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -46,7 +46,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![](../assets/folder-4.png)
+![](resources.resources/resources-02.png)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,10 +55,10 @@ ht-degree: 0%
 
 非圖資源通常是輔助資源，作為圖中的額外資料，或用來幫助視覺化圖表結果。 存在以下類型，每種類型在文件的這個章節都有子頁面：
 
-* [位圖](../resources/bitmap-resource/bitmap-resource.md)
-* [向量圖形（SVG）](../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)
-* [3D 場景資源](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/3d-mesh-resource-200574577.html)
-* [洗禮盆](../resources/font-resource/font-resource.md)
+* [位圖](bitmap-resource/bitmap-resource.md)
+* [向量圖形（SVG）](vector-graphics-svg-res/vector-graphics-svg-resource.md)
+* [3D 場景資源](3d-scene-resource/3d-scene-resource.md)
+* [洗禮盆](font-resource/font-resource.md)
 
 </td>
 </tr>

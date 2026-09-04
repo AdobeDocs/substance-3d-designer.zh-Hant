@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 網格式產生器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,8 @@ ht-degree: 0%
 
 主要分為三大類：
 
-* [遮罩產生器](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md)\
+* [遮罩產生器](mask-generators/mask-generators.md)\
   基於一個或多個烘焙地圖的黑白遮罩產生器。
-* [風化](../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/weathering.md)\
-  基於烘焙地圖的全材質風化效果。
-* [公用事業](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/utilities-mesh-adaptive-159449151.html)\
+* [風化](weathering/weathering.md)基於烘焙地圖的全材質風化效果。
+* [公用事業](utilities-mesh-based-gen/utilities-mesh-based-generators.md)\
   額外的工具和烘焙工具。

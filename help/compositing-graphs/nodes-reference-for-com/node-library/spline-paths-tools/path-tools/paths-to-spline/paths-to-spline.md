@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 通往樣條的路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '251'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/paths-to-splines-icon.png "節點圖示")
+![節點圖示](paths-to-spline.resources/paths-to-spline-01.png "節點圖示")
 
-<b>收錄於：</b>樣條與路徑工具 > 路徑工具
+<b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -47,35 +47,31 @@ ht-degree: 1%
 >
 > 此節點可在 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後使用，形成一條將遮罩轉換為樣條的鏈。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>路徑</b> *色彩*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+## 輸入
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
 
-<b>樣條座標&#x200B;</b>*顏色*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-    <b>R</b> - X 位置\
-    <b>G</b> - Y 位置\
-    <b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
-* 符號：樣條鍵為閉（負）或開（正）;\
-* 絕對值：厚度 + 1。
+<a name="outputs"></a>
 
-<b>樣條資料</b> *顏色*\
-彩色影像RGBA通道<b></b>中編碼的輸入樣條的額外資料：\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
+## 輸出
 
-<b>樣條量</b> *整數*\
-輸入樣條的數量。
+|  |  |
+|:---|:---|
+| <b>樣條座標</b> <i>顏色</i> | 彩色影像RGBA通道中編碼的輸入樣條點座標：<br><b>R</b> - X 位置<br><b>G</b> - Y 位置<br><b>B</b> - 高度<br><b>A</b> - 打包資料：<br>* 符號：樣條鍵為閉合（負）或開（正）;<br>* 絕對值：厚度 + 1。 |
+| <b>樣條資料</b> <i>顏色</i> | 彩色影像RGBA通道<b></b>中編碼的輸入樣條額外資料：<br><b>R</b> - 切線 X<br><b>G</b> - 切線 Y<br><b>B</b> - 未使用<br><b>A</b> - 未使用 |
+| <b>樣條量</b> <i>整數</i> | 輸入樣條的數量。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>樣條精度</b> *整數*\
-以 Paths 輸入每條路徑中取樣頂點數的底數對數（log²）來建立對應的樣條。
+|  |  |
+|:---|:---|
+| <b>樣條精度</b> <i>整數</i> | 以 Paths 輸入每條路徑中取樣頂點數的底數對數（log²）來建立對應的樣條。 |
 
 ## 範例
 
@@ -86,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="路徑至縱線變體1-之前">
+      <img src="paths-to-spline.resources/paths-to-spline-02.jpg" alt="路徑至縱線變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="路徑至樣線變體1-之後">
+      <img src="paths-to-spline.resources/paths-to-spline-03.jpg" alt="路徑至樣線變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -102,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-to-spline.resources/paths-to-spline-04.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="路徑至斜線變體2-之後">
+      <img src="paths-to-spline.resources/paths-to-spline-05.jpg" alt="路徑至斜線變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 材料轉換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 1%
+source-wordcount: '157'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/material-transforms.png){width="128px"}
+![](material-transform.resources/material-transform-01.png){width="128px"}
 
-## 材料轉換
-
-**收錄於：***材質濾波器/轉換*
-
-**很簡單**
+<b>收錄於：</b> 材料濾波器>轉換
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,23 +37,17 @@ ht-degree: 1%
 
 只要確保頻道設定正確就好！ 預設情況下，金屬/粗糙度和高光/光澤都開啟了，這可能會造成一些混淆。
 
-## 參數
-
-* **轉換**： *（轉換矩陣）*\
-  旋轉並縮放結果。 移動/平移是透過 Offset 參數來完成的
-* **偏移**&#x200B;量： *-0.5 - 0.5*\
-  移動或翻譯結果。 當有變換控制時，可直接與畫布互動來修改結果。
-* **一般格式**\
-  請選擇 DirectX 或 OpenGL 格式（綠色翻轉）。
-* **頻道**\
-  在這個群組中切換材質通道，例如使用鏡面/光澤貼圖而非金屬/粗糙度時。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>轉型</b> <i>（變換矩陣）</i> | 旋轉並縮放結果。 移動/平移是透過 Offset 參數來完成的 |
+| <b>偏移</b> <i>-0.5 - 0.5</i> | 移動或翻譯結果。 當有變換控制時，可直接與畫布互動來修改結果。 |
+| <b>一般格式</b> | 請選擇 DirectX 或 OpenGL 格式（綠色翻轉）。 |
+| <b>頻道</b> | 在這個群組中切換材質通道，例如使用鏡面/光澤貼圖而非金屬/粗糙度時。 |

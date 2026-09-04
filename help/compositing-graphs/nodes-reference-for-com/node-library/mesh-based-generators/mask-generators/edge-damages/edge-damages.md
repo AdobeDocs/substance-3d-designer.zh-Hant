@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 邊緣損害
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 1%
+source-wordcount: '152'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-damages.png){width="128px"}
+![](edge-damages.resources/edge-damages-01.png){width="128px"}
 
-## 邊緣損害
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,29 +37,36 @@ ht-degree: 1%
 
 這個遮罩代表根據曲率和烘焙AO對凸起邊緣造成的損害。
 
-## 參數
-
-### 輸入
-
-* **曲率**： *灰階輸入*\
-  用於效果放置的烘焙地圖。 必備！
-* **環境遮蔽**： *灰階輸入*\
-  用於效果放置的烘焙地圖。 必備！
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  要施加的邊緣傷害量。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **傷害強度**： *0.0 - 1.0*&#x200B;在剝落且穩定的外觀與混亂、刮痕嚴重損壞的外觀之間切換。
-
-## 範例圖片
-
-![](../../../../../../assets/edge-damages-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 用於效果放置的烘焙地圖。 必備！ |
+| <b>環境遮蔽</b> <i>灰階輸入</i> | 用於效果放置的烘焙地圖。 必備！ |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 要施加的邊緣傷害量。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>損害強度</b> <i>0.0 - 1.0</i> | 在剝落、持續的模樣與混亂、刮痕累累、嚴重受損的模樣之間切換。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-damages.resources/edge-damages-02.gif" />
+        </td>
+    </tr>
 </table>

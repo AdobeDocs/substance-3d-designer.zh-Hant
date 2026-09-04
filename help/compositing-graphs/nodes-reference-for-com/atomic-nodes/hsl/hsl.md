@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HSL
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：HSL](../../../../assets/comp_hsl_1.png "原子節點：HSL"){width="200px"}
+![原子節點：HSL](hsl.resources/hsl-01.png "原子節點：HSL"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,8 +78,8 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>色相</b> *浮標* | 決定輸入影像的顏色。 低於0.5的數值會讓色相呈負向移動，高於0.5的數值則呈正向移動。 |
-| <b>飽和度</b> *浮標* | 決定輸入影像色彩的飽和度。 數值低於 0.5 會降低飽和度，高於 0.5 則會增加飽和度。 |
+| <b>色相</b> *浮標* | 決定輸入影像的顏色。   低於0.5的數值會讓色相呈負向移動，高於0.5的數值則呈正向移動。 |
+| <b>飽和度</b> *浮標* | 決定輸入影像色彩的飽和度。   數值低於 0.5 會降低飽和度，高於 0.5 則會增加飽和度。 |
 | <b>輕盈</b> *浮標* | 決定輸入影像的亮度，值低於 0.5 會降低亮度，值超過 0.5 則增加亮度。 |
 
 ## 輸入連接器

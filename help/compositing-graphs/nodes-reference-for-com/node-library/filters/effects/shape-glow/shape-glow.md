@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 形狀光芒
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 1%
+source-wordcount: '182'
+ht-degree: 4%
 
 ---
 
@@ -22,41 +22,46 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-glow-grayscale.png){width="128px"}
+![](shape-glow.resources/shape-glow-01.png){width="128px"}
 
-![](../../../../../../assets/shape-glow.png){width="128px"}
+![](shape-glow.resources/shape-glow-02.png){width="128px"}
 
-## 形狀光暈（灰階）
-
-**收錄於：***濾鏡/效果*
-
-**中級**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 在輸入遮罩（灰階版本）或帶有 alpha 通道的形狀（彩色版本）周圍產生柔和的光暈。 與 Glow[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md) 相比，這種效果更接近其他 2D 影像編輯軟體，因為它是更完整的效果，且控制更多。
 
-## 參數
-
-* **模式**： *柔和、精準*，在兩種精度模式間切換。
-* **寬度**： *-1.0 - 1.0*&#x200B;控制光芒的延伸範圍。
-* **擴散**： *0.0 - 1.0*&#x200B;模糊效果的截斷/不阻擋，讓光暈在形狀附近看起來很實。
-* **不透明度**： *0.0 - 1.0*\
-  暈染透明度以產生光暈效果。
-* **（陰影）顏色**：*（色彩值）*要加在光暈上的色調。
-* **遮罩顏色**：*（色彩值）*（僅限灰階版本）**用於透明映射輸出的純色。
-* **輸入是預先乘法**&#x200B;的：*假/真*（僅限彩色版本）**是否應假設輸入為預先乘法。
-* **預乘法輸出**： *假/真*&#x200B;輸出是否應預先乘法。
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shapeglow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>模式</b> <i>柔和、精確</i> | 可在兩種精度模式間切換。 |
+| <b>寬度</b> <i>-1.0 - 1.0</i> | 控制光芒的傳播範圍。 |
+| <b>擴散</b> <i>0.0 - 1.0</i> | 模糊效果的截止/斷裂讓光暈在形狀附近看起來很實心。 |
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 暈染透明度以產生光暈效果。 |
+| <b>（影子）顏色</b> <i>（色彩值）</i> | 要在光暈上色。 |
+| <b>面具顏色</b> <i>（色彩值）（僅灰階版本）</i> | 純色用於透明度映射輸出。 |
+| <b>輸入是預先乘法的</b> <i>錯誤/真實（僅彩色版本）</i> | 輸入是否應假設為預先乘法。 |
+| <b>乘法前輸出</b> <i>錯誤/真實</i> | 輸出是否應該預先乘法。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shape-glow.resources/shape-glow-03.png" />
+        </td>
+    </tr>
 </table>

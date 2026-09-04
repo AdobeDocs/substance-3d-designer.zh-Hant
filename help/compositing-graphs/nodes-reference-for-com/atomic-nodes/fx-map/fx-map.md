@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 效果圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：FX-Map](../../../../assets/fxmap.png "原子節點：FX-Map"){width="200px"}
+![原子節點：FX-Map](fx-map.resources/fx-map-01.png "原子節點：FX-Map"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -75,7 +75,7 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 
 |  |  |
 | --- | --- |
-| <b>彩色模式</b> *布林值* | 在灰階和彩色輸出影像之間切換。色彩會比灰階慢很多。 |
+| <b>彩色模式</b> *布林值* | 在灰階和彩色輸出影像之間切換。 色彩會比灰階慢很多。 |
 | <b>背景</b> *浮動/漂浮4* | 設定背景起始色，合成結果。 |
 | <b>渲染區域</b> *Float4* | 讓你設定FX-Map兩側的起始像素範圍，產生拉伸效果。 |
 | <b>鋪磚區域</b> *Float4* | 這樣可以讓你偏移 FX-Map 的平鋪距離。 |
@@ -102,4 +102,4 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 
 ## 範例
 
-![](../../../../assets/image2015-9-10-17-28-32.png)
+![](fx-map.resources/fx-map-02.png)

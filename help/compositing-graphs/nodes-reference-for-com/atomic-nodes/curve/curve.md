@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：曲線](../../../../assets/comp_curve_1.png "原子節點：曲線"){width="200px"}
+![原子節點：曲線](curve.resources/curve-01.png "原子節點：曲線"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 0%
 | --- | --- |
 | <b>套用/暴露曲線</b> *布林值* | 允許將使用者曲線複製到輸出端，而非套用到輸入影像 |
 | <b>曲線定址</b> *布林值* | 此參數決定輸入中 [0， 1] 範圍外的 HDR 像素如何處理：是壓縮或折疊至 [0， 1]。 |
-| <b>曲線</b> *曲線鍵陣列* | 用來映射輸入灰階值的自訂曲線。 可使用 [曲線編輯器](#curve-editor)進行編輯。 |
+| <b>曲線</b> *曲線鍵陣列* | 用來映射輸入灰階值的自訂曲線。   可使用 [曲線編輯器](#curve-editor)進行編輯。 |
 
 ## 曲線編輯器
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 要建立一個點，只需雙擊曲線視圖中的任意位置：
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/curve-02.gif)
 
 ### 控制點數影響
 
@@ -112,31 +112,31 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/curve-03.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png)將點模式重設為預設值。
+![](curve.resources/curve-04.png)  將點模式重設為預設值。
 
-![](../../../../assets/image2017-2-17-14-12-6.png)鎖定/解鎖兩個貝茲處理器，讓使用者能同時或獨立移動它們。
+![](curve.resources/curve-05.png)  鎖定/解鎖兩個貝茲處理器，讓使用者能同時或獨立移動它們。
 
-![](../../../../assets/image2017-2-17-14-14-0.png)兩端由貝濟爾（Bezier）處理員控制。
+![](curve.resources/curve-06.png)  兩端由貝濟爾（Bezier）處理員控制。
 
-![](../../../../assets/image2017-2-17-14-16-22.png)點的右側由貝茲處理器控制，左側則保持平坦。
+![](curve.resources/curve-07.png)  點的右側由貝茲處理器控制，左側則保持平坦。
 
-![](../../../../assets/image2017-2-17-14-18-25.png)點的左側由貝茲爾處理器控制，右側則保持平坦。
+![](curve.resources/curve-08.png)  點的左側由貝茲爾處理器控制，右側則保持平坦。
 
-![](../../../../assets/image2017-2-17-14-19-32.png)尖端側保持平坦
+![](curve.resources/curve-09.png)  尖端側保持平坦
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curve-10.gif)
 
 ### 顯示輸入直方圖
 
-你可以只要點擊 ，就能顯示或隱藏輸入的直方圖 ![](../../../../assets/image2017-2-17-14-50-13.png)
+你可以只要點擊 ，就能顯示或隱藏輸入的直方圖 ![](curve.resources/curve-11.png)
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/curve-12.png)
 
 ### 分別控制每個通道（顏色輸入）
 
@@ -151,15 +151,15 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/curve-13.png)
 
 </td>
 </tr>
 </table>
 
-在 RGB 曲線模式下，你可以按/按開 ![](../../../../assets/image2017-2-17-14-55-0.png)來隱藏或顯示各通道曲線：
+在 RGB 曲線模式下，你可以按/按開 ![](curve.resources/curve-14.png)來隱藏或顯示各通道曲線：
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/curve-15.png)
 
 ### 對齊、鏡像與翻轉
 
@@ -169,26 +169,26 @@ ht-degree: 0%
 
 如果你右鍵點擊曲線視圖，會看到更多選項。
 
-<b>對齊頂部：</b>將選取的點與最高點水平對齊。
+<b>對齊頂部：</b> 將選取的點與最高點水平對齊。
 
-<b>對齊中間：</b>將選取的點水平對齊到選取的平均高度。
+<b>對齊中間：</b> 將選取的點水平對齊到選取的平均高度。
 
-<b>對齊底部：</b>將選取的點與最低點水平對齊。
+<b>對齊底部：</b> 將選取的點與最低點水平對齊。
 
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/curve-16.png)
 
 </td>
 </tr>
 </table>
 
-<b>水平/垂直分布：</b>將選取軸上的點分布
+<b>水平/垂直分布：</b> 將選取軸上的點分布
 
-<b>水平/垂直翻轉：</b>根據選定軸將選中的點翻轉。
+<b>水平/垂直翻轉：</b> 根據選定軸將選中的點翻轉。
 
-<b>水平/垂直鏡像：</b>根據所選軸線鏡像整條曲線
+<b>水平/垂直鏡像：</b> 根據所選軸線鏡像整條曲線
 
 ### 鍵盤快速鍵
 
@@ -203,7 +203,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/curve-17.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/curve-18.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/curve-19.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ ht-degree: 0%
 
 在調整處理器時，可能會遇到一個處理器在曲線視角上的情況。
 
-在這種情況下，你可以用按鈕 ![](../../../../assets/image2017-2-20-19-11-53.png) 來調整大小。
+在這種情況下，你可以用按鈕 ![](curve.resources/curve-20.png) 來調整大小。
 
-按鍵會 ![](../../../../assets/image2017-2-20-19-12-45.png) 把縮放重設成 1
+按鍵會 ![](curve.resources/curve-21.png) 把縮放重設成 1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/curve-22.gif)
 
 ## 輸入連接器
 

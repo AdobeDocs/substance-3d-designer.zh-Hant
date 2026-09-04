@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 直方圖計算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '310'
 ht-degree: 1%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方圖計算：圖示](../../../../../../assets/histogram_compute.png "直方圖計算：圖示"){width="200px"}
+![直方圖計算：圖示](histogram-compute.resources/histogram-compute-01.png "直方圖計算：圖示"){width="200px"}
 
-<b>收錄於：</b>篩選>調整
+<b>收錄於：</b> 篩選>調整
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -35,14 +35,14 @@ ht-degree: 1%
 
 計算灰階影像的直方圖。
 
-直方圖以影像中的一列像素編碼，每個像素值為&#x200B;*與 X 軸像素位置相符的顏色值總體*。\
+直方圖以影像中的一列像素編碼，每個像素值為 *與 X 軸像素位置相符的顏色值總體* 。\
 例如，在 （0.25， 0） 處像素值為 75，表示影像中有 75 個像素具有 0.25 色彩值。
 
 </td>
 </tr>
 </table>
 
-節點同時輸出&#x200B;*為影像計算的累積分布函數*（CDF）。
+節點同時輸出 *為影像計算的累積分布函數* （CDF）。
 
 可利用節點計算的資料建立自訂工具，例如自訂遮罩，如下方「範例」章節所示。
 
@@ -50,57 +50,43 @@ ht-degree: 1%
 >
 > 所有超出[0,1]範圍的數值都會被夾住，因此直方圖對HDR影像可能不準確。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>輸入</b> *灰階* 初級 | 應該計算直方圖的影像。 |
+|:---|:---|
+| <b>輸入</b> <i>灰階</i> 初級 | 應該計算直方圖的影像。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>直方圖</b> *灰階* | 輸入影像計算的直方圖以一列像素編碼，每個像素值為&#x200B;*與 X 軸像素位置匹配的色彩值總體*。 例如，在 （0.25， 0） 處像素值為 75，表示影像中有 75 個像素具有 0.25 色彩值。 |
-| <b>教區長</b> *灰階* | 這是&#x200B;*為影像計算出的累積分布函數*（CDF）結果，編碼在一列像素中，每個像素是其左側所有像素值的總和。 接著&#x200B;*將該總和與影像中像素總數進行正規化*。 |
+|:---|:---|
+| <b>直方圖</b> <i>灰階</i> | 輸入影像計算的直方圖以一列像素編碼，每個像素值為 *與 X 軸像素位置匹配的色彩值總體* 。   例如，在 （0.25， 0） 處像素值為 75，表示影像中有 75 個像素具有 0.25 色彩值。 |
+| <b>教區長</b> <i>灰階</i> | 這是 *為影像計算出的累積分布函數* （CDF）結果，編碼在一列像素中，每個像素是其左側所有像素值的總和。   接著 *將該總和與影像中像素總數進行正規化* 。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。 可用解析度以像素為單位：256、512、1024、2048、4096 |
+|:---|:---|
+| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。   可用解析度以像素為單位：256、512、1024、2048、4096 |
 
 ## 範例
 
-![直方圖計算：範例 1](../../../../../../assets/histogram_compute_example_1.jpg "直方圖計算：範例 1"){zoomable="yes"}
+![直方圖計算：範例 1](histogram-compute.resources/histogram-compute-02.jpg "直方圖計算：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram-compute-03.jpg" alt="histogram_compute_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram-compute-04.jpg" alt="histogram_compute_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>

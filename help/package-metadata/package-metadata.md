@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 套件元資料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 0%
@@ -28,34 +28,34 @@ ht-degree: 0%
 
 1. 如果你在檔案總管中雙擊一個套件，它會打開該套件的屬性面板。
 
-   ![套件元資料](../assets/empty.png "包元資料")
+   ![套件元資料](package-metadata.resources/package-metadata-01.png "包元資料")
 1. 這裡有一個專門的「元資料」區塊。 在你的案例中，它很可能是空的，就像上面那張捕捉圖一樣。
 
    你可以透過「加號」按鈕新增元資料。
 
-   ![新增元資料按鈕](../assets/hoveradd.png "新增元資料按鈕")
+   ![新增元資料按鈕](package-metadata.resources/package-metadata-02.png "新增元資料按鈕")
 1. 以下部分新增一項：
 
-   ![新元資料](../assets/newitem-1.png "新元資料")
+   ![新元資料](package-metadata.resources/package-metadata-03.png "新元資料")
 1. 有「Key」欄位和「Value」欄位。 兩者都可以設定成任何符合你需求的設定。 「Key」欄位必須在整個清單中擁有唯一的值。
 
-   ![新中繼資料值](../assets/newitemfilled.png "新中繼資料")
+   ![新中繼資料值](package-metadata.resources/package-metadata-04.png "新中繼資料")
 1. 你也可以選擇物品的「類型」。 目前可以是「字串」或「URL」：
 
-   ![變更元資料類型](../assets/typecombo.png "變更元資料類型")
+   ![變更元資料類型](package-metadata.resources/package-metadata-05.png "變更元資料類型")
 1. 這裡的「URL」指的是套件中包含的資源參考。 操作方法是選擇硬碟上的一個檔案，然後在檔案總管中拖放到該套件中。 它可以是一般資源，比如圖片，或任何其他檔案，比如文字檔。
 
-   ![套件](../assets/resourceinpackage.png "中的通用資源 套件中的通用資源")
+   ![套件](package-metadata.resources/package-metadata-06.png "中的通用資源 套件中的通用資源")
 1. 該檔案會作為新資源出現在套件中。
 
    現在回到套件屬性面板，建立新的元資料，給它一個正確的鍵，然後選擇「URL」作為類型。 然後選擇「...」 在「價值」欄位中按下按鈕，並選擇「來自資源」。 最後，選擇你剛才附上的檔案，並驗證：
 
-   ![URL 元資料](../assets/urlmetadata.gif "URL 元資料")
+   ![URL 元資料](package-metadata.resources/package-metadata-07.gif "URL 元資料")
 1. 現在你可以看到資源的「URL」被儲存在「Value」欄位。
 
    你也可以使用項目右側的「X」按鈕刪除元資料：
 
-   ![刪除元資料](../assets/hoverdelete.png "刪除元資料")
+   ![刪除元資料](package-metadata.resources/package-metadata-08.png "刪除元資料")
 
 >[!NOTE]
 >

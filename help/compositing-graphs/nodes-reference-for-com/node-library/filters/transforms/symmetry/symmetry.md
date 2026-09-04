@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 對稱性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 1%
+source-wordcount: '100'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/symmetry-9.png){width="128px"}
+![](symmetry.resources/symmetry-01.png){width="128px"}
 
-## 對稱性
-
-**收錄於：***濾波器/轉換*
-
-**中級**
+<b>收錄於：</b> 《濾波器>轉換》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,25 @@ ht-degree: 1%
 
 這個節點和 Mirror[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/mirror-filter-node/mirror-filter-node.md) 非常相似，但有額外的混合模式控制。
 
-## 參數
-
-* **對稱模式**： *鏡像Y、鏡像X、對角左、對角右、鏡像X/Y、鏡子X/鏡Y、對角左/對角右、對角右/對角左，8*&#x200B;選擇對稱幾何模式。
-* **傳輸模式**： *0 - 6*&#x200B;選擇對稱混合模式：複製、加法、減法、乘法、加碼、最大值、最小值。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/symmetry-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>對稱模式</b> <i>鏡子Y、鏡子X、斜向左、斜向右、鏡子X/Y、鏡子X/鏡子Y、斜向左/對角右、對角/對角線左，8</i> | 選擇對稱幾何模式。 |
+| <b>傳輸模式</b> <i>0 - 6</i> | 選擇對稱混合模式：複製、加法、減法、乘法、加碼、最大值、最小值。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="symmetry.resources/symmetry-02.png" />
+        </td>
+    </tr>
 </table>

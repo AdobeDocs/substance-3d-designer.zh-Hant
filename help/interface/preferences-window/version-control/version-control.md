@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Designer 提供 Perforce[&#128279;](https://www.perforce.com/) （P4） 版本�
 
 在 P4V[&#128279;](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) 中，請記下工作區名稱與路徑，如下所示：
 
-![P4V 工作區資訊](../../../assets/p4v-workspace-strings.jpg "P4V 工作區資訊"){zoomable="yes"}
+![P4V 工作區資訊](version-control.resources/version-control-01.jpg "P4V 工作區資訊"){zoomable="yes"}
 
 在任何文字編輯器或 IDE 中，開啟位於 Designer 安裝中的腳本：「*tools/version\_control/perforce.py*」。
 
@@ -52,19 +52,19 @@ cVerbose = False
 
 ## 在 Designer 中的設定
 
-版本控制可在專案設定中設定[，該設定](../../../interface/preferences-window/project-settings/project-settings.md)可在設計者[偏好設定](../../../interface/preferences-window/preferences-window.md)中取得。
+版本控制可在專案設定中設定 [，該設定](../../../interface/preferences-window/project-settings/project-settings.md)可在設計者 [偏好設定](../../../interface/preferences-window/preferences-window.md)中取得。
 
-![專案設定](../../../assets/p4v-project-settings.jpg "中的「版本控制」標籤「專案設定中的版本控制」標籤"){zoomable="yes"}
+![專案設定](version-control.resources/version-control-02.jpg "中的「版本控制」標籤「專案設定中的版本控制」標籤"){zoomable="yes"}
 
 1. 前往「編輯>偏好設定」
 1. 前往「專案」，選擇目標 [專案檔案](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) ，然後進入「版本控制」標籤
 1. 請檢查「啟用版本控制」
 1. 請在「工作區」區填寫以下資訊：
 
-   * <b>名稱：</b>輸入你之前從 P4V 取得的「工作區名稱」
+   * <b>名稱：</b> 輸入你之前從 P4V 取得的「工作區名稱」
    * <b>路徑：</b> 輸入你之前從 P4V 取得的「工作空間路徑」
 
-![P4 在 Designer 設定：workspace](../../../assets/p4v-project-settings-workspace.jpg "在 Designer 中設定 P4 設定：workspace"){zoomable="yes"}
+![P4 在 Designer 設定：workspace](version-control.resources/version-control-03.jpg "在 Designer 中設定 P4 設定：workspace"){zoomable="yes"}
 
 ### 設定動作
 
@@ -88,7 +88,7 @@ cVerbose = False
 1. 在 Designer 安裝中選擇以下腳本：&#39;*tools/version\_control/perforce.py*&#39;
 1. 腳本應該會自動為其他所有動作設定。
 
-![P4 在 Designer 設定：actions](../../../assets/p4v-project-settings-actions.jpg "。P4 在 Designer 設定：actions。"){zoomable="yes"}
+![P4 在 Designer 設定：actions](version-control.resources/version-control-04.jpg "。P4 在 Designer 設定：actions。"){zoomable="yes"}
 
 ### 設定自訂動作
 
@@ -103,7 +103,7 @@ cVerbose = False
 1. 設定腳本副檔名或後綴，以及直譯器可執行檔的路徑
 1. 編輯 perforce.py 腳本以更新「p4」二進位檔的位置
 
-![Designer 中的 P4 設定：直譯器](../../../assets/p4v-project-settings-interpreters.jpg "Designer 中的 P4 設定：直譯器"){zoomable="yes"}
+![Designer 中的 P4 設定：直譯器](version-control.resources/version-control-05.jpg "Designer 中的 P4 設定：直譯器"){zoomable="yes"}
 
 ## 如何使用版本控制
 
@@ -113,8 +113,8 @@ cVerbose = False
 1. 根據工作區中套件檔案的狀態，有幾個動作可用：
 
    * <b>新增：</b> 將檔案標記為「ToAdd」
-   * <b>提交：</b> 提交所選的套件。此動作會顯示一個指定變更訊息的對話框（見下文）
-   * <b>還原：</b> 還原修改內容。此動作會顯示一個選擇要還原檔案的對話框（見下文）
+   * <b>提交：</b> 提交所選的套件。 此動作會顯示一個指定變更訊息的對話框（見下文）
+   * <b>還原：</b> 還原修改內容。 此動作會顯示一個選擇要還原檔案的對話框（見下文）
    * <b>結帳：</b> 請從車站借閱檔案
    * <b>取得最新版本：</b> 從倉庫取回最新版本
    * <b>重新整理狀態：</b> 重新整理套件檔案狀態
@@ -123,12 +123,12 @@ cVerbose = False
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![「提交」對話「](../../../assets/p4v-submit.jpg "提交」對話"){zoomable="yes"}
+   ![「提交」對話「](version-control.resources/version-control-06.jpg "提交」對話"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![「還原」對話框](../../../assets/p4v-revert.jpg "「還原」對話框"){zoomable="yes"}
+   ![「還原」對話框](version-control.resources/version-control-07.jpg "「還原」對話框"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ cVerbose = False
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![包裹圖示：最新](../../../assets/p4-up-to-date.png "套件圖示：最新")
+![包裹圖示：最新](version-control.resources/version-control-08.png "套件圖示：最新")
 
 最新資訊
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包裹圖示：已借出](../../../assets/p4-checked-out.png "包裹圖示：已借出")
+![包裹圖示：已借出](version-control.resources/version-control-09.png "包裹圖示：已借出")
 
 退房
 
 </td>
 <td style="border: 0;" valign="top">
 
-![套件圖示：已新增](../../../assets/p4-added.png "套件圖示：已新增")
+![套件圖示：已新增](version-control.resources/version-control-10.png "套件圖示：已新增")
 
 標記為新增
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包裹圖示：不在倉庫](../../../assets/p4-not-in-depot.png "包裹圖示：不在倉庫")
+![包裹圖示：不在倉庫](version-control.resources/version-control-11.png "包裹圖示：不在倉庫")
 
 車站裡沒有
 
@@ -203,7 +203,7 @@ my\_script <b>*工作區名稱 工作空間路徑 行動名稱[ActionArgs]*</b>
 <b>ActionArgs：</b> 動作的參數：
 
 * *-desc*：用於「提交」動作的描述字串
-* *-檔案：*&#x200B;檔案清單
+* *-檔案：* 檔案清單
 * *-files\_list：* 包含每行檔案清單的文字檔
 
 <b>get\_status</b>：根據指定檔案的狀態回傳一個值：

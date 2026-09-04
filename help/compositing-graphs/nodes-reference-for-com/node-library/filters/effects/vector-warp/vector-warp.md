@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 向量曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 1%
+source-wordcount: '233'
+ht-degree: 2%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-warp.png){width="128px"}
+![](vector-warp.resources/vector-warp-01.png){width="128px"}
 
-![](../../../../../../assets/vector-warp-grayscale.png){width="128px"}
+![](vector-warp.resources/vector-warp-02.png){width="128px"}
 
-## 向量扭曲（灰階）
-
-**收錄於：***濾鏡/效果*
-
-**複合體**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -45,26 +41,34 @@ ht-degree: 1%
 
 這個節點在你想做非常特定的失真和不同方向時很有用，而標準的 Warp 節點無法滿足需求。
 
-## 參數
-
-### 輸入
-
-* **輸入**： *彩色輸入*\
-  地圖要扭曲。
-* **向量映射**： *色彩輸入*\
-  失真驅動器地圖。 使用紅色與藍色通道。
-
-### 參數
-
-* **強度**： *0.0 - 1.0*&#x200B;向量地圖的強度乘數。
-* **向量格式**： *DirectX，OpenGL*&#x200B;會在上行和下行的解讀間交換綠色通道。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/vector-warp-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>色彩輸入</i> | 地圖要扭曲。 |
+| <b>向量地圖</b> <i>色彩輸入</i> | 失真驅動器地圖。 使用紅色與藍色通道。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>強度</b> <i>0.0 - 1.0</i> | 向量圖的強度乘數。 |
+| <b>向量格式</b> <i>DirectX、OpenGL</i> | 在向上和向下的解讀間交換綠色通道。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="vector-warp.resources/vector-warp-03.png" />
+        </td>
+    </tr>
 </table>

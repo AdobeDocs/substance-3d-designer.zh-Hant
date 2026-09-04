@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 低谷補丁
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 0%
+source-wordcount: '281'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-nadir-patch.png){width="200px"}
+![](nadir-patch.resources/nadir-patch-01.png){width="200px"}
 
-## 低谷補丁
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**複合體**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,42 +37,44 @@ ht-degree: 0%
 
 效果可透過 Nadir 萃取[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)快速檢查與驗證。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 輸入
 
-* **輸入**： *彩色輸入*
-* **遮罩輸入**： *灰階輸入*\
-  可選的遮罩槽用於遮罩音色。 像個阿爾法一樣行事。
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>色彩輸入</i> |  |
+| <b>遮罩輸入</b> <i>灰階輸入</i> | 可選的遮罩槽用於遮罩音色。 像個阿爾法一樣行事。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-* **啟用**： *假/真*\
-  啟用或關閉補丁效果。
-* **顯示幀輔助：***False/True*\
-  請顯示或隱藏輔助行，方便除錯。
-* **框架厚度**： *0.0 - 1.0*\
-  輔助線的厚度。
-* **補丁等級**： *0.0 - 1.0*\
-  全局且均勻的紋章比例。 影響來源和目標。
-* **補丁大小**： *0.0 - 1.0*\
-  貼片大小不均。
-* **音色輪替**： *0.0 - 1.0*\
-  補丁輪替。 影響來源和目標。
-* **Patch Alpha**： *光滑方形、高斯、遮罩輸入*\
-  設定用來將音色與背景融合的 alpha 值。
-* **貼片硬度**： *0.0 - 1.0*\
-  設定硬度/α 對比度。
-* **源旋轉偏移**&#x200B;量： *0.0 - 1.0*\
-  只有補丁來源會輪流使用。
-* **位置座標**
-  * **資料來源位置**：\
-    來源位置。 在2D視角下有把手。
-  * **補丁位置**：\
-    目標位置。 在2D視角下有把手。
+|  |  |
+|:---|:---|
+| <b>啟用</b> <i>錯誤/真實</i> | 啟用或關閉補丁效果。 |
+| <b>顯示幀輔助工具</b> <i>錯誤/真實</i> | 請顯示或隱藏輔助行，方便除錯。 |
+| <b>框架厚度</b> <i>0.0 - 1.0</i> | 輔助線的厚度。 |
+| <b>Patch 尺度</b> <i>0.0 - 1.0</i> | 全局且均勻的紋章比例。 影響來源和目標。 |
+| <b>補丁大小</b> <i>0.0 - 1.0</i> | 貼片大小不均。 |
+| <b>補丁旋轉</b> <i>0.0 - 1.0</i> | 補丁輪替。 影響來源和目標。 |
+| <b>Patch Alpha</b> <i>平方形、高斯、遮罩輸入</i> | 設定用來將音色與背景融合的 alpha 值。 |
+| <b>斑塊硬度</b> <i>0.0 - 1.0</i> | 設定硬度/α 對比度。 |
+| <b>源旋轉偏移量</b> <i>0.0 - 1.0</i> | 只有補丁來源會輪流使用。 |
+| <b>位置座標</b> |  |
+| <b>來源位置</b> | 來源位置。 在2D視角下有把手。 |
+| <b>音色位置</b> | 目標位置。 在2D視角下有把手。 |
 
-## 範例圖片
+## 範例
 
-![](../../../../../../assets/nadir-patch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="nadir-patch.resources/nadir-patch-02.gif" />
+        </td>
+    </tr>
 </table>

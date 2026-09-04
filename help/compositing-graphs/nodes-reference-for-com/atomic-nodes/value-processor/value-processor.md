@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 價值處理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：價值處理器](../../../../assets/comp_valueprocessor_1.png "原子節點：價值處理器"){width="200px"}
+![原子節點：價值處理器](value-processor.resources/value-processor-01.png "原子節點：價值處理器"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -82,7 +82,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>價值處理器函數</b> *任何可用的值類型* | [評估物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md)以計算輸出值。 |
+| <b>價值處理器函數</b> *任何可用的值類型* | [評估物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md) 以計算輸出值。 |
 
 ## 輸入連接器
 

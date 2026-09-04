@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 封裝插件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 2%
@@ -40,7 +40,7 @@ ht-degree: 2%
 
 ## 建立新的插件套件專案
 
-我們提供[一個 Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) 範本專案，以簡化外掛套件專案的建立。
+我們提供 [一個 Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) 範本專案，以簡化外掛套件專案的建立。
 
 你可以直接使用它，或是根據自己的需求修改它。
 
@@ -58,7 +58,7 @@ ht-degree: 2%
    ```
 
 
-   想用其他方式安裝 Cookiecutter，或想了解更多關於 Cookiecutter 的資訊，可以參考相關文件。<https://cookiecutter.readthedocs.io/en/latest/installation.html>
+   想用其他方式安裝 Cookiecutter，或想了解更多關於 Cookiecutter 的資訊，可以參考相關文件。 <https://cookiecutter.readthedocs.io/en/latest/installation.html>
 1. <b>建立一個新的外掛套件專案</b>
 
    在終端機視窗執行中：

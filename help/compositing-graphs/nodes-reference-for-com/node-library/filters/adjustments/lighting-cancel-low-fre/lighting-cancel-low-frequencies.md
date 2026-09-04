@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 燈光抵消低頻
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 3%
+source-wordcount: '59'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/lighting-cancel-high-low.png){width="128px"}
+![](lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-01.png){width="128px"}
 
-## 燈光抵消低頻
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,16 +37,24 @@ ht-degree: 3%
 
 還有更進階的版本請參見 [亮度高通（Luminance Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/luminance-highpass/luminance-highpass.md) ）。
 
-## 參數
-
-* **抵消半徑**： *0.0 - 64.0*&#x200B;高通效果半徑。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/lighting-cancel-lowfrequencies-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>取消範圍</b> <i>0.0 - 64.0</i> | 高通效應的半徑。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="lighting-cancel-low-frequencies.resources/lighting-cancel-low-frequencies-02.png" />
+        </td>
+    </tr>
 </table>

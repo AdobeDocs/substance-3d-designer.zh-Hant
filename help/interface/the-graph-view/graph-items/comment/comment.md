@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 留言
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -24,14 +24,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![留言圖示](../../../../assets/graphatomic-comment_1.png "留言圖示")
+![留言圖示](comment.resources/comment-01.png "留言圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 註解只是一段可以放置在圖表任意位置的自由漂浮文字。
 
-它旨在註解和解釋圖表的部分。 其<b>描述</b>屬性則是儲存正在顯示的文字。
+它旨在註解和解釋圖表的部分。 其 <b>描述</b> 屬性則是儲存正在顯示的文字。
 
 </td>
 </tr>
@@ -70,7 +70,7 @@ ht-degree: 0%
 +++
 
 +++圖書館
-在函式庫中，選擇<b>圖項目</b>類別，然後拖放「註解」項目到圖檢視中。
+在函式庫中，選擇 <b>圖項目</b> 類別，然後拖放「註解」項目到圖檢視中。
 
 +++
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![留言：家長留言](../../../../assets/graph-comment_parented.gif "留言：受保護留言")
+![留言：家長留言](comment.resources/comment-02.gif "留言：受保護留言")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 0%
 
 ## HTML 格式化
 
-文字可以用 HTML 標籤來格式化。 這種格式是透過![](../../../../assets/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。 
+文字可以用 HTML 標籤來格式化。 這種格式是透過![](comment.resources/comment-03.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
 
 >[!TIP]
 >
 > 想了解更多此功能，請參閱<b>框架[&#128279;](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的說明</b>部分。
 
-![註解：HTML 標記](../../../../assets/graph-comment_html-markup.gif "註解：HTML 標記")
+![註解：HTML 標記](comment.resources/comment-04.gif "註解：HTML 標記")

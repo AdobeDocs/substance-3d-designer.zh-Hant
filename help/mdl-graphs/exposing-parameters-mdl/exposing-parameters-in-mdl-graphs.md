@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 圖中參數的暴露
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '833'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明如何在 MDL 圖中暴露參數，使其能與圖&#x200B;*中其他節點*&#x200B;或外部來源&#x200B;*提供的*&#x200B;值與紋理連結。
 
-![節點輸入](../../assets/mdl-node-inputs-hl.png "的暴露狀態 節點輸入的暴露狀態")
+![節點輸入](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-01.png "的暴露狀態 節點輸入的暴露狀態")
 
 *節點輸入的暴露狀態*
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 
 當節點在圖視圖中</b>被選取<b>時，其屬性會顯示在<b>屬性</b>面板中。大多數物業標示後，標籤右側有一組按鈕：
 
-* **![](../../assets/mdl-expose-new-node.png)將值複製到新節點並連結到這個參數**：*建立一個輸入連接器*，並連接到&#x200B;*輸出該屬性目前值的新節點*
-* **![](../../assets/mdl-expose-new-input.png)為此參數**&#x200B;建立輸入腳位：為此屬性建立&#x200B;*輸入連接器*
-* **![](../../assets/mdl-expose-reset.png)將此參數重設為預設值**：當該屬性的輸入連接器沒有連接值時，則將其值重置為預設值
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-02.png)將值複製到新節點並連結到這個參數**：*建立一個輸入連接器*，並連接到&#x200B;*輸出該屬性目前值的新節點*
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-03.png)為此參數**&#x200B;建立輸入腳位：為此屬性建立&#x200B;*輸入連接器*
+* **![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-04.png)將此參數重設為預設值**：當該屬性的輸入連接器沒有連接值時，則將其值重置為預設值
 
-![](../../assets/mdl-expose-input.gif)
+![](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-05.gif)
 
 *操作節點輸入*
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 輸入連接器可&#x200B;*透過再次&#x200B;**點擊「為此參數**&#x200B;建立輸入腳位」按鈕來移除*。此時，屬性值會回到屬性&#x200B;**面板中**&#x200B;設定的值。
 
-![暴露節點參數](../../assets/mdl-exposed-float-hl.png "暴露節點參數")
+![暴露節點參數](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-06.png "暴露節點參數")
 
 *外露節點參數*
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 可被暴露的節點在其上下文選單中有 <b>「</b> 曝光」選項。 在大多數情況下，這些節點會產生像浮點、顏色或紋理座標等值或資料。
 
-![節點上下文選單中的「曝光」選項「節點上下文選單](../../assets/mdl-expose-float-menu-hl.png "中的曝光」選項")
+![節點上下文選單中的「曝光」選項「節點上下文選單](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-07.png "中的曝光」選項")
 
 *節點情境選單中的「暴露」選項*
 
@@ -81,6 +81,6 @@ ht-degree: 0%
 >
 > 雖然圖輸入是在節點層級設定&#x200B;*，但其排序則在圖屬性[&#128279;](../../mdl-graphs/creating-an-mdl-graph/creating-an-mdl-graph.md)**的圖輸入**&#x200B;區段管理**。*
 
-![將節點暴露於圖輸入](../../assets/mdl-expose-parameter.gif "將節點暴露於圖輸入")
+![將節點暴露於圖輸入](exposing-parameters-in-mdl-graphs.resources/exposing-parameters-in-mdl-graphs-08.gif "將節點暴露於圖輸入")
 
 *將節點暴露於圖輸入中*

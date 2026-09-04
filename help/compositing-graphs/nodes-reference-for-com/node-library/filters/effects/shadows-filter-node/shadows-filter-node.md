@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 陰影（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 2%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shadows-1.png){width="128px"}
+![](shadows-filter-node.resources/shadows-filter-node-01.png){width="128px"}
 
-## 陰影
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,19 +37,27 @@ ht-degree: 2%
 
 如果你只想做陰影，不想用更完整的節點，例如自己建置材質或烘焙光照時，這會很有用。
 
-## 參數
-
-* **陰影距離**： *0.0 - 1.0*&#x200B;控制陰影落下的距離。
-* **光角**： *0.0 - 1.0*&#x200B;控制光線的入射角。
-* **邊緣柔和度**： *0.0 - 1.0*&#x200B;決定陰影邊緣的硬度或柔軟度。
-* **樣本**： *1 - 16*&#x200B;組 Edges Softness 設定的品質。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/shadow-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>影子距離</b> <i>0.0 - 1.0</i> | 控制影子應該落下的距離。 |
+| <b>光線角度</b> <i>0.0 - 1.0</i> | 控制光的入射角。 |
+| <b>邊緣 柔和</b> <i>0.0 - 1.0</i> | 決定陰影邊緣的硬度或軟度。 |
+| <b>取樣</b> <i>1 - 16</i> | 為邊緣柔和度設定品質。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="shadows-filter-node.resources/shadows-filter-node-02.png" />
+        </td>
+    </tr>
 </table>

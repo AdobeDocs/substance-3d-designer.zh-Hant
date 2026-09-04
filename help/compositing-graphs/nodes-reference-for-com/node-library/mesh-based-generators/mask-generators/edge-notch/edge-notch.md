@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 邊緣缺口
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 1%
+source-wordcount: '136'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-notch.png){width="128px"}
+![](edge-notch.resources/edge-notch-01.png){width="128px"}
 
-## 邊緣缺口
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,24 +37,34 @@ ht-degree: 1%
 
 此遮罩代表凸起邊緣的簡單遮罩，中間有高頻雜訊。 更多選項請參考 [邊緣泥土](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-dirt/edge-dirt.md) 或 [邊緣損傷](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/edge-damages/edge-damages.md) 。
 
+</td>
+</tr>
+</table>
+
+<a name="inputs"></a>
+
 ## 輸入
 
-* **曲率**： *灰階輸入*\
-  烘焙地圖用於高亮邊緣。 必備！
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙地圖用於高亮邊緣。 必備！ |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-* **等級**： *0.0 - 1.0*\
-  設定邊緣缺口效應的音量。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定邊緣缺口效應的音量。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
 
-## 範例圖片
+## 範例
 
-![](../../../../../../assets/edge-notch-ex.gif)
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-notch.resources/edge-notch-02.gif" />
+        </td>
+    </tr>
 </table>

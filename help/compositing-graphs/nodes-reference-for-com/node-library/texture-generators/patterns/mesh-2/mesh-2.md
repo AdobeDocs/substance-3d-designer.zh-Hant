@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 網格 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '78'
+ht-degree: 6%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mesh-2.png){width="128px"}
+![](mesh-2.resources/mesh-2-01.png){width="128px"}
 
-## 網格 2
-
-**收錄於：***貼圖產生器**/圖案*
-
-**很簡單**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 簡單的網狀圖案搭配粗塊。 可用來製作高度與細節地圖。
 
-## 參數
-
-* **鋪磚**： *1 - 16*\
-  設定結果應該鋪磚的次數。
-* **旋轉 45 度**： *假/真*&#x200B;旋轉結果。
-* **非平方展開**： *假/真*\
-  能以非平方比率補償擠壓與拉伸。
-
-## 範例圖片
-
-![](../../../../../../assets/mesh-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>鋪磚</b> <i>1 - 16</i> | 設定結果應該鋪磚的次數。 |
+| <b>旋轉45度</b> <i>錯誤/真實</i> | 會輪流看結果。 |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mesh-2.resources/mesh-2-02.gif" />
+        </td>
+    </tr>
 </table>

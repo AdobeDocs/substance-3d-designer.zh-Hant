@@ -10,10 +10,10 @@ helpx_tags: ""
 title: RGBA 分裂
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 1%
 
 ---
 
@@ -22,34 +22,20 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-split.png){width="128px"}
+![](rgba-split.resources/rgba-split-01.png){width="128px"}
 
-## RGBA 分裂
-
-**收錄於：***濾鏡/頻道*
-
-**很簡單**
+<b>收錄於：</b> 濾波器>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 將輸入影像分割成紅、綠、藍和 Alpha 通道。 實際上是「拆解」一張影像。
 
 對於分析和分別使用壓縮頻道很有幫助。 例如，在 Substance Painter 中使用烘焙位置貼圖或烘焙的世界空間法線貼圖來做效果時，可以選擇 X、Y 或 Z 元件。
-
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
 
 </td>
 </tr>

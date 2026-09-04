@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 屬性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 99e410384cec6569f613bb771db26585887704d8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![物業碼頭](../../assets/image2020-11-9-13-49-48.png "物業碼頭")
+![物業碼頭](properties.resources/properties-01.png "物業碼頭")
 
 </td>
 </tr>
@@ -55,11 +55,11 @@ ht-degree: 0%
 
 ## 節點與實體圖
 
-[節點](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/nodes-reference-129368078.html) 圖與 [實體圖](../../compositing-graphs/substance-compositing-graphs.md) 擁有一組略有重疊的屬性類別，且其功能相似。
+節點圖與 [實體圖](../../compositing-graphs/substance-compositing-graphs.md) 擁有一組略有重疊的屬性類別，且其功能相似。
 
 <b>節點與圖形之間的基礎參數</b> 與 <b>屬性</b> 是相同的。
 
-節點提供<b>特定參數</b>或<b>實例參數</b>（視其為[原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)或[實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)而定），以及<b>用於在實質圖[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)中處理值的輸入值</b>。
+節點提供<b>特定參數</b>或<b>實例參數</b>（視其為[原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)或[實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)而定），以及<b>用於處理[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)的輸入值</b>。
 
 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)與 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)原子節點是例外，因為它們具備 <b>整合屬性</b> 與 <b>可見性</b> 條件。 這兩組屬性也可以在圖屬性的輸入與輸出中中央存取。
 
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 資源與套件
 
-屬性面板也會回應檔案總管視窗[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)中的選擇變更。它可以作為選擇圖表的另一種方式（而不是雙擊空白區域），也能讓你更改 Package 和 [Resource](../../resources/resources.md)屬性。
+屬性面板也會回應檔案總管[&#128279;](../the-explorer-window/the-explorer-window.md)中的選擇變更。它可以作為選擇圖表的另一種方式（而不是雙擊空白區域），也能讓你更改 Package 和 [Resource](../../resources/resources.md)屬性。
 
 套件包含 **資訊**、 **屬性** 和 **元資料** 區塊。 [套件的元資料會在專屬頁面上描述。](../../package-metadata/package-metadata.md)
 

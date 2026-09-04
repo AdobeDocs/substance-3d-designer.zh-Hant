@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 像素處理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：像素處理器](../../../../assets/comp_pixelprocessor_1.png "原子節點：像素處理器"){width="200px"}
+![原子節點：像素處理器](pixel-processor.resources/pixel-processor-01.png "原子節點：像素處理器"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -95,7 +95,7 @@ Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes
 |  |  |
 | --- | --- |
 | <b>彩色模式</b> *布林值* | 在灰階和彩色輸出影像之間切換。 |
-| <b>每個像素函數</b> *浮動/漂浮4* | [在輸出影像中，每個像素評估的物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md)。 使用[設定為 <b>$pos</b> 變數的 Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 節點，可以存取[目前像素的正規化](../../../../glossary/glossary.md)位置。 |
+| <b>每個像素函數</b> *浮動/漂浮4* | [在輸出影像中，每個像素評估的物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md) 。   使用[設定為 <b>$pos</b> 變數的 Get Float2](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 節點，可以存取[目前像素的正規化](../../../../glossary/glossary.md)位置。 |
 
 ## 輸入連接器
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用者偏好設定 - 自動化設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![XML 檔案圖示](../../assets/xml-5.png "XML 檔案圖示")
+![XML 檔案圖示](user-preferences-automating-setup.resources/user-preferences-automating-setup-01.png "XML 檔案圖示")
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 如果沒有自動設定，或是為了測試，可以手動到 <b>「編輯>偏好設定」......</b> 然後點擊左側的「<b>專案</b>」區塊。
 
-![專案設定](../../assets/preferences-ui.png "專案設定")
+![專案設定](user-preferences-automating-setup.resources/user-preferences-automating-setup-02.png "專案設定")
 
 紅色按鈕允許使用者選擇不同的[SBSCFG 檔案](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)。
 
@@ -210,4 +210,4 @@ def SetConfigurationFile(p_ConfigPath):
 
    *「C：\Program Files\Adobe\Adobe Substance 3D Designer\Adobe Substance 3D Designer.exe」 --config-file 「C：\Dev\Substance\custom\_configuration.sbscfg」*
 
-![設定檔輸入於可執行檔屬性](../../assets/shortcutargument.jpg "中")
+![設定檔輸入於可執行檔屬性](user-preferences-automating-setup.resources/user-preferences-automating-setup-03.jpg "中")

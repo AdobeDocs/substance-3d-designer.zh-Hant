@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 藍噪音快訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 2%
+source-wordcount: '77'
+ht-degree: 6%
 
 ---
 
@@ -22,31 +22,37 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blue-noise.png){width="128px"}
+![](blue-noise-fast.resources/blue-noise-fast-01.png){width="128px"}
 
-## 藍噪音快訊
-
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 一種簡單、快速、像素級的噪音。
 
-## 參數
-
-* **旋轉**： *0.0 - 1.0*&#x200B;旋轉影響內部計算。 這會大幅改變雜訊的視覺效果：離1越遠，效果的像素尺度越低，且引入的「波形」越明顯。
-
-## 範例圖片
-
-![](../../../../../../assets/blue-noise-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>旋轉</b> <i>0.0 - 1.0</i> | 旋轉會影響內部計算。 這會大幅改變雜訊的視覺效果：離1越遠，效果的像素尺度越低，且引入的「波形」越明顯。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blue-noise-fast.resources/blue-noise-fast-02.gif" />
+        </td>
+    </tr>
 </table>

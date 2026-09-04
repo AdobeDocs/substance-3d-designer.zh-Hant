@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 所有變動
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e71846d2834d9c1979fe840f1cf9e321f2d4d93f
+source-git-commit: 49d7d426f1b687cf6087bb1c9735a9060af48041
 workflow-type: tm+mt
-source-wordcount: '31814'
+source-wordcount: '32039'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 0%
 # 所有變動
 
 ## 版本 16
+
+### 16.0.5
+
+*（2026年8月26日發行）*
+
+**補充：**
+
+* [3D 視角]新增一個按鈕可選擇目前的 AOV
+* [內容]Perlin/Gaussian 雜訊：解夾尺度參數
+* [內容]從函式庫中隱藏不必要的點陣圖資源
+<!--
+* &#91;Legal&#93; To meet generative AI transparency legal requirements, this version is updated to automatically attach Content Credentials to qualifying content created or edited with generative AI tools.  
+-->
+
+**修正：**
+
+* [3D 視圖]OpenGL 中環境可見性的變更不會被 Eclair 渲染器帶入
+* [烘焙者]在刷新已刪除的 UDIM 點陣資源烘焙後，烘焙上下文並未被破壞
+* [烘焙者]修正了刪除 UDIM 點陣資源時，當其烘焙正在刷新時的當機
+* [內容]形狀濺射 v2：圓柱體形狀高度不正確
+* [內容]形狀濺射 v2：當節點大小超過 4096 時，密度地圖無法正常運作
+* [內容]形狀濺射 v2：在 If/Else 後方使用「岩石」SDF 可能導致無限循環
+* [安全性]修正了 AXF 檔案解析中 NULL 指標去引用的漏洞
+* [安全性]修正了 GLB 檔案解析中 NULL 指標去參考的漏洞
+* [安全性]修正 SBSAR 檔案解析中越界寫入漏洞
+* [安全性]修復了 DDS 檔案解析中的堆積損壞漏洞
+* [安全性]修正了 GLB 檔案解析中的堆積損壞漏洞
+* [安全性]修復了 TGA 檔案解析中的堆積損壞漏洞
+* [安全性]修正了 TIFF 檔案解析中的堆積損壞漏洞
+* [安全性]修正了美國農業部檔案解析中的堆積損壞漏洞
+* [安全性]修正了 WEBP 檔案解析中的堆積損壞漏洞
+* [使用者介面]持久核取框選單中的項目命中框只會跨越物品文字
+
 
 ### 16.0.4
 

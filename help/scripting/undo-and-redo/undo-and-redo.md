@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 還原並重做
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 5b9c9d12e2ccd76f75ec2a74815f9c68c43c06a2
 workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 使用 <b>SDHistoryUtils.UndoGroup</b> 類別，使用者可以在&#x200B;*一個指令中將*&#x200B;所有動作&#x200B;*分組，以解除或重新執行*。
 
-這些群組由 *使用者命名* ，並會在使用者介面的復原/重做清單中以該名稱出現。這使得大量行動更易管理。
+這些群組由 *使用者命名* ，並會在使用者介面的復原/重做清單中以該名稱出現。  這使得大量行動更易管理。
 
 ```
 import sd 

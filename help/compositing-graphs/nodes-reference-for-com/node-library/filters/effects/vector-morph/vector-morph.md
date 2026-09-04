@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 向量變態
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 1%
+source-wordcount: '188'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/vector-morph-grayscale.png)![](../../../../../../assets/vector-morph.png)
+![](vector-morph.resources/vector-morph-01.png)![](vector-morph.resources/vector-morph-02.png)
 
-## 向量變形（灰階）
-
-**收錄於：***濾鏡/效果*
-
-**中級**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,19 +39,23 @@ ht-degree: 1%
 
 向量變形和 [向量扭曲](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)非常相似：主要差別是這個變形節點不會在結果被推出畫布範圍時「循環」或「平鋪」。 相反地，它會夾住並重複邊緣。
 
-## 參數
-
-### 輸入
-
-* **輸入**： *色彩/灰階輸入*&#x200B;應該是變形目標的來源輸入。
-* **向量場**： *色彩輸入*&#x200B;用來驅動變形的向量貼圖。
-
-### 參數
-
-* **數量**： *0.0 - 1.0*&#x200B;設定扭曲效果的強度，作為向量地圖的乘數。
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>色彩/灰階輸入</i> | 應該是扭曲的目標來源輸入。 |
+| <b>向量場</b> <i>色彩輸入</i> | 向量地圖過去是驅動扭曲的。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>金額</b> <i>0.0 - 1.0</i> | 設定扭曲效果的強度，作為向量映射的乘數。 |

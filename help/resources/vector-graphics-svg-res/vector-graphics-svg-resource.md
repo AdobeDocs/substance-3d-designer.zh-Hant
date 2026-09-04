@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 向量圖形（SVG）資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 | 作者網址 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
 | 標記 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
 | 使用者資料 | 可選的額外資料，向量圖形不常用。 |
-| 圖書館節目 | 判斷 SVG 資源是否應該隱藏在[圖書館檢視中。](../../interface/the-library/the-library.md) |
+| 圖書館節目 | 判斷 SVG 資源是否應該隱藏在 [圖書館檢視中。](../../interface/the-library/the-library.md) |
 | 向量圖形品質 | 影響渲染品質。 音域並非線性，最佳品質在0.5時可達。 |
 
 ## SVG 製作
@@ -60,7 +60,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 * 支援筆劃，但筆劃寬度僅為 1 像素，筆劃樣式則被忽略;
 * 虛線風格肯定會壞掉;
 * 文字需要轉換成路徑/輪廓來渲染;
-* [不支援複合路徑](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ;
+* [不支援複合路徑](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ;
 * 不支援像漸層這類進階功能;
 * CSS 屬性的樣式元素不被支援。
 
@@ -87,7 +87,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 > 美術板會影響產生的 SVG 檔案結果。 有些 Illustrator 檔案範本會引入多個美術板。\
 > 盡量只有一個裁切好的美術板，並在存檔為 SVG 時，在美術板視窗中選擇它。
 
-![Illustrator SVG 匯出選項](../../assets/svg-export-options-ai.jpg "Illustrator SVG 匯出選項"){width="512px"}
+![Illustrator SVG 匯出選項](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Illustrator SVG 匯出選項"){width="512px"}
 
 ### 墨境
 

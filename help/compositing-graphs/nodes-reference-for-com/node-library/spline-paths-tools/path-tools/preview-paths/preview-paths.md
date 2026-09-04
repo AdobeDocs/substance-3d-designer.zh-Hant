@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 預覽路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/preview-paths-icon.png "節點圖示")
+![節點圖示](preview-paths.resources/preview-paths-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -41,24 +41,24 @@ ht-degree: 1%
 </tr>
 </table>
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>背景</b> *顏色*\
-背景圖片放在上面，顯示路徑。 這也控制渲染大小。
+## 輸入
 
-<b>路徑</b> *顏色*\
-一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。
+|  |  |
+|:---|:---|
+| <b>背景</b> <i>顏色</i> | 背景圖片放在上面，顯示路徑。 這也控制渲染大小。 |
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>顯示角布</b> *林*\
-每個頂點上顯示一個標記為角點的正方形（加法混合）。
-
-<b>顯示頂點布</b> *林值*\
-每個頂點顯示一個圓形（加法混合）。 角落仍以方格形式顯示。
-
-<b>段 厚度 （px）</b> *浮動*\
-調整渲染片段的像素厚度。
+|  |  |
+|:---|:---|
+| <b>展覽角</b> <i>布林值</i> | 每個頂點上顯示一個標記為角點的正方形（加法混合）。 |
+| <b>展示頂點</b> <i>布林值</i> | 每個頂點顯示一個圓形（加法混合）。 角落仍以方格形式顯示。 |
+| <b>段厚（px）</b> <i>浮標</i> | 調整渲染片段的像素厚度。 |
 
 ## 範例
 
@@ -66,12 +66,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/PathsToSpline-Variant2-Before_1.jpg "節點範例 1")
+![節點範例 1](preview-paths.resources/preview-paths-02.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/PathsToSpline-Variant1-Before_1.jpg "節點範例 2")
+![節點範例 2](preview-paths.resources/preview-paths-03.jpg "節點範例 2")
 
 </td>
 </tr>

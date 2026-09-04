@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Python 問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Python 實作的功能包括[檔案總管](../../interface/the-explorer-window/t
 
 ## &#39;QtForPython&#39; 模組無法載入
 
-<b>![（錯誤）](../../assets/error.svg) 問題</b>
+<b>![（錯誤）](python-issues.resources/error.svg) 子嗣</b>
 
 Python 模組「QtForPython」無法載入，導致 Python 中實作的功能缺失，例如[檔案總管](../../interface/the-explorer-window/the-explorer-window.md)工具列中的[發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)/[發送動作](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)，以及移除圖表中未使用的節點的工具。
 
 此外，許多 [Python 插件](../../scripting/plugin-basics/plugin-basics.md) 會無法載入，或無法如預期運作。
 
-<b>![（打了](../../assets/check.svg) 推薦步驟</b>
+<b>![（滴答）](python-issues.resources/check.svg) 建議步驟</b>
 
 Designer 安裝的 QtForPython 及其相依套件，與系統上現有的安裝之間很可能存在衝突。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立一個變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -64,4 +64,4 @@ Set 節點的使用有點特殊：
 >
 > 如果你有多個變數要建立，只要重複 *Set* 和 *Sequence* 節點的建立操作，並將最後一個序列節點設為輸出節點：
 > 
-> ![](../../../assets/image2015-12-18-18-43-8.png)
+> ![](create-a-variable.resources/create-a-variable-01.png)

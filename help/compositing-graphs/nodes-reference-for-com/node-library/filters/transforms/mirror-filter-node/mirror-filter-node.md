@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 鏡像（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 1%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
 
@@ -22,40 +22,44 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/mirror-2.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-01.png){width="128px"}
 
-![](../../../../../../assets/mirror-grayscale.png){width="128px"}
+![](mirror-filter-node.resources/mirror-filter-node-02.png){width="128px"}
 
-## 鏡子（灰階）
-
-**收錄於：***濾波器/轉換*
-
-**中級**
+<b>收錄於：</b> 《濾波器>轉換》
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 鏡像輸入影像從選定的軸上，從選定的一側。 非常實用且快速達成對稱效果。
 
-## 參數
-
-* **模式**：鏡像軸 X、鏡像軸 Y、鏡角&#x200B;***選擇鏡像左右、上到下，或兩者皆有。*
-* **軸 X 偏移**&#x200B;量： *0.0 - 1.0*&#x200B;僅在選擇軸 X 時使用，請定義偏移量。
-* **軸 Y 偏移**： *0.0 - 1.0*&#x200B;僅在選擇軸 Y 時使用，請定義偏移量。
-* **反轉軸 X**： *假/真*&#x200B;僅在選擇軸 X 時使用，翻轉方向。
-* **反轉軸Y**： *假/真*&#x200B;僅在選擇軸Y時使用，翻轉方向。
-* **角落類型**： *左上、右上、左下、右*&#x200B;下 僅在選擇角型時使用，定義從哪個角落鏡像。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/mirror-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>模式</b> <i>鏡像軸X，鏡像軸Y，鏡角</i> | 選擇鏡像左右、上下或兩者都做。 |
+| <b>軸 X 偏移量</b> <i>0.0 - 1.0</i> | 僅在選擇軸 X 時使用，定義偏移量。 |
+| <b>軸 Y 偏移</b> <i>0.0 - 1.0</i> | 僅在選擇軸Y時使用，定義偏移量。 |
+| <b>反轉軸 X</b> <i>錯誤/真實</i> | 只有在選擇軸 X 和翻轉方向時才會使用。 |
+| <b>反轉軸 Y</b> <i>錯誤/真實</i> | 僅在選擇軸Y時使用，翻轉方向。 |
+| <b>角型</b> <i>左上、右上、左下、右下</i> | 只有在選擇角型時才會使用，請定義從哪個角角鏡像。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="mirror-filter-node.resources/mirror-filter-node-03.png" />
+        </td>
+    </tr>
 </table>

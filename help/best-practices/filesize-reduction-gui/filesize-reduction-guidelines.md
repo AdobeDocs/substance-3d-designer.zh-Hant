@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 檔案大小減少指引
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 163ef15c862c56a1b59a4ccd47f4396c825be18f
+source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 檔案大小因素
 
-影響SBSAR[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)總檔案大小有幾個不同的因素。以下列出這些問題，並附有簡短說明。
+影響SBSAR總檔案大小有幾個不同的因素。 以下列出這些問題，並附有簡短說明。
 
 +++解決方法
 顯然影響很大。 盡量用最小解析度，記得你可能也希望 Substance 檔案能支援高解析度。 你可以用標準的解析度遮罩技巧，讓較小的位圖看起來更大。
@@ -63,14 +63,14 @@ ht-degree: 0%
 +++點陣圖格式封裝
 在資源屬性中，你可以選擇「原始」或「JPEG」壓縮。 這對最終結果會有相當大的影響。
 
-*可於：點陣資源 [屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*可於：點陣資源屬性，透過總管視窗找到。*
 
 +++
 
 +++點陣圖壓縮品質套件
 使用「Jpeg」點陣圖格式時，下方的滑桿會影響畫質和檔案大小。 這個滑桿的行為不太可預測，但 1 通常對應最高品質的 JPG 壓縮，0.5 則是最小的壓縮。
 
-*可於：點陣資源 [屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)，透過 [總管視窗找到。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)*
+*可於：點陣資源屬性，透過總管視窗找到。*
 
 +++
 

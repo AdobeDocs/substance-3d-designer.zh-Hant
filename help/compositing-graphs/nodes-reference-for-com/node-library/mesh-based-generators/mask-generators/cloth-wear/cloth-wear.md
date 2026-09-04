@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 布料穿著
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 1%
+source-wordcount: '162'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/cloth-wear.png){width="128px"}
+![](cloth-wear.resources/cloth-wear-01.png){width="128px"}
 
-## 布料穿著
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,26 +37,35 @@ ht-degree: 1%
 
 面具象徵布料上磨損的邊緣。 它使用布料細節高度圖來決定大部分視覺效果;沒有適當的地圖，效果看起來非常簡單。
 
-## 參數
-
-### 輸入
-
-* **布料高度**： *灰階輸入*\
-  只有布料圖案的高度。 這不是你（烘焙）物件的高度，而是平鋪細節圖案。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-* **曲率**： *灰階輸入*\
-  烘焙/產生曲率來決定凸起的邊緣。
-
-### 參數
-
-* **硬邊量**： *0.0 - 1.0*
-* **磨損柔軟度**： *0.0 - 5.0*&#x200B;決定磨損邊緣的模糊程度與柔軟度。
-
-## 範例圖片
-
-![](../../../../../../assets/cloth-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>布料高度</b> <i>灰階輸入</i> | 只有布料圖案的高度。 這不是你（烘焙）物件的高度，而是平鋪細節圖案。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙/產生曲率來決定凸起的邊緣。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>硬邊量</b> <i>0.0 - 1.0</i> |  |
+| <b>柔軟穿戴</b> <i>0.0 - 5.0</i> | 判斷磨損邊緣的模糊程度和柔軟程度。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="cloth-wear.resources/cloth-wear-02.gif" />
+        </td>
+    </tr>
 </table>

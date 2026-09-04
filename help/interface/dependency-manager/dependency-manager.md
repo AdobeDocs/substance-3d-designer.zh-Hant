@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 相依性管理器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 你可以在檔案總管中右鍵點擊套件，然後在情境選單中選擇「相依性管理器」選項來存取。
 
-![相依性管理器](../../assets/dependency-manager.png "相依性管理")
+![相依性管理器](dependency-manager.resources/dependency-manager-01.png "相依性管理")

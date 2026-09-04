@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 一般混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-blend.png){width="128px"}
+![](normal-blend.resources/normal-blend-01.png){width="128px"}
 
-## 一般混合
-
-**收錄於：***濾鏡/法線貼圖*
-
-**中級**
+<b>收錄於：</b> 法線貼圖>濾波器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,30 +37,35 @@ ht-degree: 1%
 
 法線混合並非用來合併（疊加）法線貼圖，因為上方貼圖會為下方貼圖增加細節。 為此，改用[普通聯合。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
 
-## 參數
-
-### 輸入
-
-* **NormalFG**： *色彩輸入*\
-  前景/頂法線貼圖。
-* **NormalBG：***色彩輸入*\
-  背景/底部法線貼圖。
-* **遮罩**： *灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。 可以用「使用遮罩」參數切換。
-
-### 參數
-
-* **不透明度**： *0.0 - 1.0*\
-  前景與背景之間的不透明度融合
-* **使用面具**： *虛假/真實*\
-  切換面具地圖的使用開關。
-
-## 範例圖片
-
-![](../../../../../../assets/normalblend-ex.gif)
-
-*（.gif格式引入抖動，例如，應用內結果平滑）*
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>普通射門</b> <i>色彩輸入</i> | 前景/頂法線貼圖。 |
+| <b>正常血糖</b> <i>色彩輸入</i> | 背景/底部法線貼圖。 |
+| <b>面具</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 可以用「使用遮罩」參數切換。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>不透明度</b> <i>0.0 - 1.0</i> | 前景與背景之間的不透明度融合 |
+| <b>使用面具</b> <i>錯誤/真實</i> | 切換面具地圖的使用開關。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="normal-blend.resources/normal-blend-02.gif" /><br><i>（.gif格式引入抖動，例如，應用內結果平滑）</i>
+        </td>
+    </tr>
 </table>

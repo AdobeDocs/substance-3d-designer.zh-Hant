@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 位圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：點陣](../../../../assets/comp_bitmap.png "圖原子節點：點陣圖"){width="200px"}
+![原子節點：點陣](bitmap.resources/bitmap-01.png "圖原子節點：點陣圖"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,7 +69,7 @@ ht-degree: 0%
 >
 > 此節點依賴外部資源，因此在操作時有幾點需要注意：
 > 
-> * 點陣節點可以回傳彩色或灰階，但即使資源是灰階點陣圖，預設仍為彩色。 這會影響圖表的效能和複雜度，因此如果需要，務必切換到「灰階」[色彩模式](#parameters) 。
+> * 點陣節點可以回傳彩色或灰階，但即使資源是灰階點陣圖，預設仍為彩色。 這會影響圖表的效能和複雜度，因此如果需要，務必切換到「灰階」 [色彩模式](#parameters) 。
 > * 刪除點陣圖節點不會[刪除套件](../../../../glossary/glossary.md) [中的點陣資源](../../../../resources/bitmap-resource/bitmap-resource.md)，你必須在[檔案總管](../../../../interface/the-explorer-window/the-explorer-window.md)中手動刪除。
 > * 另一方面，刪除 [檔案總管中的位圖資源](../../../../resources/bitmap-resource/bitmap-resource.md) 時要小心：該資源仍能在該工作階段的圖表中運作，因為它被存放在快取中，但下次載入 [套件](../../../../glossary/glossary.md)時該資源會被標記為遺失。
 > * 當 Substance 圖被 [煮熟](../../../../glossary/glossary.md)時，點陣解析度會固定在圖中解析度，而非基於原始大小。 建議確保點陣圖節點的「輸出大小」 [基參數](../../../../glossary/glossary.md) 使用「絕對」 [繼承方法](../../../../glossary/glossary.md)，節點後 [接一個設定為「相對於父節點」（即主機圖解析度）的二維](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 轉換節點。
@@ -104,8 +104,8 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>彩色模式</b> *布林值* | 決定節點的輸出類型，可選擇以彩色或灰階返回。 |
-| <b>PKG 資源路徑</b> *弦* | 節點 [所參考的點陣資源](../../../../resources/bitmap-resource/bitmap-resource.md) 路徑。 建議不要手動輸入，而是從檔案總管複製資源貼到參數文字欄位，或直接 [從檔案總管](../../../../interface/the-explorer-window/the-explorer-window.md) 拖放點陣資源到圖表中的點陣節點。 |
-| <b>調整尺寸方法</b> *整數* | 在放大或縮小點陣圖時，應該使用的重取樣方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i>對拉伸影像的來源像素進行 [雙線性濾波](../../../../glossary/glossary.md)插值。</li> <li data-preserve-html="true"><i>最近拉伸：</i>拉伸影像，並使用最近來源像素的顏色。</li> </ul> |
+| <b>PKG 資源路徑</b> *弦* | 節點 [所參考的點陣資源](../../../../resources/bitmap-resource/bitmap-resource.md) 路徑。   建議不要手動輸入，而是從檔案總管複製資源貼到參數文字欄位，或直接 [從檔案總管](../../../../interface/the-explorer-window/the-explorer-window.md) 拖放點陣資源到圖表中的點陣節點。 |
+| <b>調整尺寸方法</b> *整數* | 在放大或縮小點陣圖時，應該使用的重取樣方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>平滑拉伸：</i> 對拉伸影像的來源像素進行 [雙線性濾波](../../../../glossary/glossary.md) 插值。</li> <li data-preserve-html="true"><i>最近拉伸：</i> 拉伸影像，並使用最近來源像素的顏色。</li> </ul> |
 
 ## 點陣圖繪製工具
 

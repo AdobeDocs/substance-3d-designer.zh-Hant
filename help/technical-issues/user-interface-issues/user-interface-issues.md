@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用者介面問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 10884d1625fcdcebcbdfd7fbed776453c4f1267a
 workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 0%
@@ -28,14 +28,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-**![（出错）](../../assets/error.svg) 子嗣**
+**![（出错）](user-interface-issues.resources/error.svg) 子嗣**
 
 使用者介面元素有時太小或太大。
 
 </td>
 <td style="border: 0;" valign="top">
 
-**![（滴答）](../../assets/check.svg) 建議步驟**
+**![（滴答）](user-interface-issues.resources/check.svg) 建議步驟**
 
 Designer 從作業系統&#x200B;*取得特定尺度的使用者介面元素*。因此，任何對使用者介面縮放的調整都應在作業系統的顯示設定中進行。
 

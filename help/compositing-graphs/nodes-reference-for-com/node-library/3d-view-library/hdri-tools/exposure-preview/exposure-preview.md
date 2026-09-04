@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 曝光預覽
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 7%
 
 ---
 
@@ -22,33 +22,38 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/hdr-exposure-preview.png){width="200px"}
+![](exposure-preview.resources/exposure-preview-01.png){width="200px"}
 
-## 曝光預覽
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**很簡單**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 輔助節點用來預覽曝光步驟。 使用者設定最小值與最大值，節點會產生更大且多張原始輸入不同曝光版本的影像。 不同版本總是水平堆疊，數量取決於節點或圖的解析度。
 
-## 參數
-
-* **最大曝光（EV）：***-8.0 - 8.0*\
-  最上面最亮影像的最大曝光。
-* **最小曝光（EV）：***-8.0 - 8.0*&#x200B;底部最暗影像的最低曝光。
-
-## 範例圖片
-
-![](../../../../../../assets/exp-preview-ex.png)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>最大曝光（EV）</b> <i>-8.0 - 8.0</i> | 最上面最亮影像的最大曝光。 |
+| <b>最小曝光（EV）</b> <i>-8.0 - 8.0</i> | 底部最暗的影像曝光最低。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="exposure-preview.resources/exposure-preview-02.png" />
+        </td>
+    </tr>
 </table>

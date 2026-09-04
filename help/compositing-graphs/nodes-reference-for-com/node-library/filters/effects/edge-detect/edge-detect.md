@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 邊緣偵測
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 1%
+source-wordcount: '122'
+ht-degree: 7%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-detect.png){width="128px"}
+![](edge-detect.resources/edge-detect-01.png){width="128px"}
 
-## 邊緣偵測
-
-**收錄於：***濾鏡/效果*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>效應
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,20 +37,27 @@ ht-degree: 1%
 
 在許多需要邊緣遮罩的情況下非常有用。 請記得它在高對比度輸入時效果最佳;如果需要，先調整對比度再傳送到這個節點。
 
-## 參數
-
-* **邊緣寬度**： *1.0 - 16.0*&#x200B;偵測到邊緣周圍區域的寬度。
-* **邊緣圓度**： *0.0 - 16.0*&#x200B;圓潤、模糊並平滑產生的遮罩。
-* **反轉**： *錯誤/真實*\
-  結果會被反轉。
-* **公差**： *0.0 - 1.0*&#x200B;邊緣應出現位置的容忍限制因子。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/edge-detect-ex.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>邊寬</b> <i>1.0 - 16.0</i> | 偵測到邊緣區域的寬度。 |
+| <b>邊緣圓度</b> <i>0.0 - 16.0</i> | 圓潤、模糊並平滑生成的遮罩。 |
+| <b>倒轉</b> <i>錯誤/真實</i> | 結果會被反轉。 |
+| <b>耐受性</b> <i>0.0 - 1.0</i> | 邊緣應該出現的位置的容差限制因子。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-detect.resources/edge-detect-02.png" />
+        </td>
+    </tr>
 </table>

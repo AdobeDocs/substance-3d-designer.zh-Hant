@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 貼圖偏移
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 2%
 
 ---
@@ -22,29 +22,27 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
+![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
 
 </td>
 </tr>
 </table>
 
-**收錄於：***濾鏡/變形*
-
-**很簡單**
+<b>收錄於：</b> 《Filter > Transformation》
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -54,32 +52,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>灰階/彩色</i> | 描述 <i>一個3D物件的3D材質</i> 。<br>這個物件通常以 <i>單位立方體</i>來描述。 |
+
+<a name="parameters"></a>
+
 ## 參數
 
-### 輸入
+|  |  |
+|:---|:---|
+| <b>偏移</b> <i>Float3</i> | 對於連接輸入</b>的 <b>3D 貼圖</i>所描述<i>的物件所施加的世界空間</i>偏移<i>量。 |
 
-* **輸入***灰階/彩色*\
-  描述 *一個3D物件的3D材質* 。\
-  這個物件通常以 *單位立方體*&#x200B;來描述。
+## 範例
 
-### 參數
-
-* **偏移** *Float3*\
-  對於連接輸入&#x200B;**的** 3D 貼圖&#x200B;*所描述*&#x200B;的物件所施加的世界空間&#x200B;*偏移*&#x200B;量。
-
-## 範例圖片
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dtextureoffset-node.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
+        </td>
+    </tr>
 </table>

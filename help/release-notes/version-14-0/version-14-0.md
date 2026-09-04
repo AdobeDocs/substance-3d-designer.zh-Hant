@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -20,21 +20,21 @@ ht-degree: 0%
 
 # 版本 14.0
 
-<b>Substance 3D Designer 14.0 </b>帶來了多項生活品質提升（圖形導航、效能等） 但最重要的是，它包含了許多新節點（色彩操作、桑原濾鏡、直方圖工具、斜角平滑、方向距離等）。 以下有更多關於這些變動的細節。 
+<b>Substance 3D Designer 14.0 </b>帶來了多項生活品質提升（圖形導航、效能等） 但最重要的是，它包含了許多新節點（色彩操作、桑原濾鏡、直方圖工具、斜角平滑、方向距離等）。 以下有更多關於這些變動的細節。
 
 *發行日期：2024年7月30日*
 
-![](../../assets/2024-BannerRN.png)
+![](version-14-0.resources/version-14-0-01.png)
 
 ## 新內容
 
 這個 14.0 版本帶來了許多新內容，並包含以下列出的新節點：
 
-* <b>專門用於色彩操作的節點：</b>一個節點<b>（</b>[Quantize color](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>）</b>用來<b> </b>減少圖片中的顏色數量並從中擷取調色盤，一組工具節點用來建立自己的色彩調色盤（[檢視](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)/[建立](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md)/[修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>色彩調色盤），還有一個節點用來使用識別映射[（套用色彩調色盤](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）套用到另一張圖片。 你也會找到 [ID to mask 灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md)節點，將 ID 映射（由 Quantize color 計算）轉換成灰階遮罩。 有了這整套節點，你就擁有用顏色創造風格化效果所需的一切。
+* <b>專用於色彩操作的節點：</b>一個節點<b>（</b>[量化顏色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b><b> </b>減少圖片中的顏色數量，並從中提取調色盤，這是一系列工具節點，用來建立你自己的調色盤（[檢視](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [建立](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>另一個用來使用 ID 映射[（套用色彩調色盤](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）套用到另一張影像。 你也會找到 [ID to mask 灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 節點，將 ID 映射（由 Quantize color 計算）轉換成灰階遮罩。 有了這整套節點，你就擁有用顏色創造風格化效果所需的一切。
 
-![](../../assets/GIF2_2.gif){zoomable="yes"}
+![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
 
-![量化色彩 2](../../assets/GIF3_2.gif){zoomable="yes"}
+![量化色彩 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
 
 * <b>桑原濾鏡</b>：如果你想更進一步的風格化，可以透過各向異性桑原色彩[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)濾鏡產生一些繪畫般的效果。在細節上，它會套用各向異性方向模糊，以符合影像細節。 結果是影像似乎沿著內部形狀的方向流動。
 
@@ -43,8 +43,8 @@ ht-degree: 0%
 其他強大的節點加入隊伍：
 
 * [<b>曲率平滑</b>](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)：這個新版本現在正確支援所有平鋪模式，新增兩個輸出（凸性和凹度），並且在準確度和效能上都有所提升。
-* <b>[直方圖平衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md)：</b> 此節點透過調整數值以取得均勻分布，使灰階影像的直方圖得到均衡。 此節點附有兩個伴隨節點：[直方圖渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md)以輸出影像直方圖，直[方圖計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>則以像素列編碼直方圖。
-* <b>[斜角平滑](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)：</b>多虧了他的一個，你可以從遮罩的邊界（向外、向內或兩者）繪製漸層或平面色。 節點 [Directional distance](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>也會畫梯度，但方向是特定的。
+* <b>[直方圖平衡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-equalize/histogram-equalize.md)：</b> 此節點透過調整數值以取得均勻分布，使灰階影像的直方圖得到均衡。 此節點配有兩個伴隨節點： [直方圖渲染](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-render/histogram-render.md) 以輸出影像直方圖，以及 [直方圖計算](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-compute/histogram-compute.md)<b> </b>將直方圖編碼為一列像素。
+* <b>[斜角平滑](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/bevel-smooth/bevel-smooth.md)：</b> 多虧了他的一個，你可以從遮罩的邊界（向外、向內或兩者）繪製漸層或平面色。 節點 [方向距離](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/directional-distance/directional-distance.md)<b> </b>也會畫漸層，但方向是特定的。
 * <b>[正常解體](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-uncombine/normal-uncombine.md)：</b>此節點與法線結合[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)節點相反，它從法線貼圖中移除高度圖描述的表面細節。
 
 <table>
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
+      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
+      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
+      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
+      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
+      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
+      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -132,26 +132,26 @@ ht-degree: 0%
 ## 生活品質提升
 
 * <b>在大型專案中，效能 </b>與 <b>反應</b> 速度都有所提升。 例如，移除節點的速度可以快 75 倍。 [同時，參考多次相同點陣圖的圖形也縮短了烹調](../../glossary/glossary.md) 時間。
-* <b>繼承參數</b>：當參數被 [繼承](../../glossary/glossary.md)時，我們不再顯示預設值，而是顯示繼承的參數，讓你知道目前使用的值。 想了解更多關於繼承的資訊，請參閱[我們文件](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的專頁。
+* <b>繼承參數</b>：當參數被 [繼承](../../glossary/glossary.md)時，我們不再顯示預設值，而是顯示繼承的參數，讓你知道目前使用的值。 想了解更多關於繼承的資訊，請參閱 [我們文件](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)的專頁。
 * <b>MacOS 上的觸控板支援</b> 已經完全重新設計，使其更自然且與其他軟體保持一致。 將節點移出圖視[&#128279;](../../interface/the-graph-view/the-graph-view.md)圖邊界也被重新思考，以使節點在所有作業系統間更流暢且一致。
 
 * <b>2D 視圖：</b>當 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)啟用平板顯示時，你現在甚至可以取得原本圖塊上不存在的像素值：檢查[取樣](../../glossary/glossary.md)和跨圖塊的值轉換非常有幫助。
 
-![二維視角](../../assets/2dview.gif){width="320px" zoomable="yes"}
+![二維視角](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
 
-* <b>漸層地圖</b>：用滑鼠中鍵點擊將所有[漸層鍵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)向左或向右移動（這樣就能保留所有鍵之間的空隙）。
+* <b>漸層地圖</b>：用滑鼠中鍵點擊將所有 [漸層鍵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 向左或向右移動（這樣就能保留所有鍵之間的空隙）。
 * <b>參數</b>：為了透過參數注入自訂函式，現在可以使用編輯函數小工具。 這是一個強大的解決方案，可以用來建立自訂工具，讓你想用 [Substance 函數圖](../../function-graphs/the-function-graph/the-function-graph.md)來驅動參數。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![編輯功能](../../assets/functionedit.png){zoomable="yes"}
+![編輯功能](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![編輯函數 2](../../assets/functionedit2.png){zoomable="yes"}
+![編輯函數 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 ## 視覺特效平台需求
 
-每年，[VFX 參考平台](https://vfxplatform.com/)都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們&#x200B;*會*&#x200B;更新所有相依系統，以尊重所有這些建議。
+每年， [VFX 參考平台](https://vfxplatform.com/) 都會公布一份工具與函式庫版本清單，適用於所有 VFX 產業軟體，以減少軟體間的不相容性。 一如往常，我們 *會* 更新所有相依系統，以尊重所有這些建議。
 
 請注意，這些更新帶來兩大主要後果：
 

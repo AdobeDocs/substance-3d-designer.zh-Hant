@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 樣條橋映射器顏色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 1%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-bridge-mapper-color-icon.png "節點圖示")
+![節點圖示](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -49,48 +49,39 @@ ht-degree: 0%
 >
 > 另 [見樣條橋映射灰階](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>樣條座標</b> *色彩*&#x200B;輸入樣條點的座標編碼在彩色影像的 RGBA 通道中：\
-<b>R</b> - X 位置\
-<b>G</b> - Y 位置\
-<b>B</b> - 身高\
-    <b>A</b> - 打包資料：\
-* 符號：樣條鍵為閉（負）或開（正）;\
-* 絕對值：厚度 + 1。
+## 輸入
 
-<b>樣條資料</b> *色彩*&#x200B;輸入樣條的額外資料編碼於彩色影像的 RGBA 通道中。\
-<b>R</b> - 切線 X\
-<b>G</b> - 切線 Y\
-<b>B</b> - 未上場\
-<b>A</b> - 未上場
+|  |  |
+|:---|:---|
+| <b>樣條座標</b> <i>顏色</i> | 彩色影像RGBA通道中編碼的輸入樣條點座標：<br><b>R</b> - X 位置<br><b>G</b> - Y 位置<br><b>B</b> - 高度<br><b>A</b> - 填充資料：<br>符號：樣條線為閉合（負）或開（正）;<br>- 絕對值：厚度 + 1。 |
+| <b>樣條資料</b> <i>顏色</i> | 彩色影像的 RGBA 通道中編碼的輸入樣條線額外資料。<br><b>R</b> - 切線 x<br><b>G</b> - 切線 y<br><b>B</b> - 未使用<br><b>A</b> - 未使用 |
+| <b>樣條量</b> <i>整數</i> | 輸入樣條的數量。 |
+| <b>色彩地圖</b> <i>顏色</i> | 應該映射到輸入樣條線的輸入色彩影像。 |
 
-<b>樣條量</b> *整數*：輸入樣條的數量。
+<a name="outputs"></a>
 
-<b>色彩映射&#x200B;</b>*顏色*&#x200B;應映射到輸入樣條的輸入色彩影像。
+## 輸出
 
-## 輸出連接器
+|  |  |
+|:---|:---|
+| <b>顏色</b> <i>灰階</i> | 將輸入的彩色影像映射到背景上的樣條曲線，作為彩色影像的結果。 |
+| <b>高度</b> <i>灰階</i> | 樣條曲線的高度映射成灰階影像。 |
+| <b>紫外線</b> <i>顏色</i> | 映射影像的 UV（即座標），編碼在彩色影像的紅色（U）和綠色（V）通道中。 |
+| <b>面具</b> <i>灰階</i> | 一個樣條曲線映射的遮罩。 |
 
-<b>顏色</b> *灰階*&#x200B;將輸入的彩色影像映射到背景上的樣條，作為彩色影像。
-
-<b>高度</b> *灰階*&#x200B;樣條曲線的高度映射在樣條曲線上，作為灰階影像。
-
-<b>紫外線</b> *色彩*&#x200B;映射影像的 UV（即座標），編碼於彩色影像的紅色（U）與綠色（V）通道中。
-
-<b>面具</b> *灰階*：樣條曲線上映射的遮罩。
+<a name="parameters"></a>
 
 ## 參數
 
-<b>分段數量</b> *整數*&#x200B;樣條在影像座標穿越前會被簡化為段。\
-線段越多，曲線上的映射就越平滑。
-
-<b>減少紫外線拉伸</b> *布林值*：調整從一個樣條線插值到下一個樣條線的方法，以減少樣條間距離不均勻時的拉伸。
-
-<b>紫外線尺度</b> *Float2*&#x200B;調整影像座標的縮放。 數值越高，圖塊越密集。
-
-<b>紫外線旋轉</b> *浮動*&#x200B;將影像座標繞中心旋轉。
-
-<b>背景色</b> *Float4*&#x200B;輸出影像中背景的顏色。
+|  |  |
+|:---|:---|
+| <b>分段數量</b> <i>整數</i> | 樣條會被簡化成段，然後影像座標會穿越它們。 線段越多，曲線上的映射就越平滑。 |
+| <b>減少紫外線拉伸</b> <i>布林值</i> | 調整從一個樣條線插值到下一個樣條座標的方法，以減少樣條間距離不均時的拉伸。 |
+| <b>紫外線尺度</b> <i>Float2</i> | 調整影像座標的比例。 數值越高，圖塊越密集。 |
+| <b>紫外線旋轉</b> <i>浮標</i> | 會將影像座標繞中心旋轉。 |
+| <b>背景色</b> <i>Float4</i> | 輸出影像中背景的顏色。 |
 
 ## 範例
 
@@ -101,11 +92,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-02.jpg" alt="SplineBridgeMapper灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="樣條橋映射器顏色變體1-之後">
+      <img src="spline-bridge-mapper-color.resources/spline-bridge-mapper-color-03.jpg" alt="樣條橋映射器顏色變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -114,7 +105,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "節點範例 2")
+![節點範例 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-04.gif "節點範例 2")
 
 </td>
 </tr>
@@ -124,12 +115,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "節點範例 1")
+![節點範例 1](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-05.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "節點範例 2")
+![節點範例 2](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-06.jpg "節點範例 2")
 
 </td>
 </tr>

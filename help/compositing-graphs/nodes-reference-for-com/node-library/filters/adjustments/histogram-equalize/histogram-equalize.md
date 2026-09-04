@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 直方圖等化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 27326c60e0247617a8f57554a68c9663934cd2bc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方圖均衡：圖示](../../../../../../assets/histogram_equalize.png "直方圖等化：圖示"){width="200px"}
+![直方圖均衡：圖示](histogram-equalize.resources/histogram-equalize-01.png "直方圖等化：圖示"){width="200px"}
 
-<b>收錄於：</b>篩選>調整
+<b>收錄於：</b> 篩選>調整
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -39,88 +39,74 @@ ht-degree: 2%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>輸入</b> *灰階* 初級 | 直方圖應被均衡化的影像。 |
+|:---|:---|
+| <b>輸入</b> <i>灰階</i> 初級 | 直方圖應被均衡化的影像。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>產出</b> *灰階* | 結果影像已套用直方圖等化。 |
+|:---|:---|
+| <b>產出</b> <i>灰階</i> | 結果影像已套用直方圖等化。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
-| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。 可用解析度以像素為單位：256、512、1024、2048、4096 |
-| <b>直方圖平滑</b> *浮標* | 直方圖可透過重新分配影像中的灰階值來平滑，以平衡&#x200B;*各值間的差異*。 這個參數會調整平滑的強度。 |
+|:---|:---|
+| <b>直方圖解析度</b> *整數* | 直方圖的寬度。 較高的值能讓更細緻的值分布。   可用解析度以像素為單位：256、512、1024、2048、4096 |
+| <b>直方圖平滑</b> *浮標* | 直方圖可透過重新分配影像中的灰階值來平滑，以平衡 *各值間的差異* 。   這個參數會調整平滑的強度。 |
 
 ## 範例
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram-equalize-02.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram-equalize-03.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 1](../../../../../../assets/histogram_equalize_example_3.png "直方圖等化：範例 1"){zoomable="yes"}
+![直方圖等化：範例 1](histogram-equalize.resources/histogram-equalize-04.png "直方圖等化：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram-equalize-05.jpg" alt="histogram_equalize_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram-equalize-06.jpg" alt="histogram_equalize_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 2](../../../../../../assets/histogram_equalize_example_5.png "直方圖等化：範例 2"){zoomable="yes"}
+![直方圖等化：範例 2](histogram-equalize.resources/histogram-equalize-07.png "直方圖等化：範例 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram-equalize-08.jpg" alt="histogram_equalize_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram-equalize-09.jpg" alt="histogram_equalize_example_4_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 3](../../../../../../assets/histogram_equalize_example_6.png "直方圖等化：範例 3"){zoomable="yes"}
+![直方圖等化：範例 3](histogram-equalize.resources/histogram-equalize-10.png "直方圖等化：範例 3"){zoomable="yes"}

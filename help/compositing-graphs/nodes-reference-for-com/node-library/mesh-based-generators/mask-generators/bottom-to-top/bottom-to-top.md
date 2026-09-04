@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 從底部到頂部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: c002fea6f396f09ccb3218bd290db812d8367dc4
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 1%
+source-wordcount: '199'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top-01.png){width="128px"}
 
-## 從底部到頂部
-
-**在：***基於網格的產生器/遮罩產生器中*
-
-**很簡單**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,29 +37,36 @@ ht-degree: 1%
 
 這會產生從模型底部到頂部的白轉黑過渡，對於基於幾何的衰減與選擇非常有用。
 
-## 參數
-
-### 輸入
-
-* **位置**： *顏色輸入*\
-  烘焙位置地圖。 必備！
-* **粗糙度：***灰階輸入*\
-  這跟 PBR 粗糙度無關，只是用來打斷過渡的（可選）變化地圖。 只有當粗糙度設定高於0時才會出現。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  它會像調整亮度一樣，將結果的平均亮度在黑白之間切換。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整過渡的對比度。
-* **粗糙度\_Variation**： *0.0 - 1.0*&#x200B;決定粗糙度貼圖中需要融入的程度以增加變化。 將這個值增加到 0 就會顯示地圖欄位。
-
-## 範例圖片
-
-![](../../../../../../assets/bottom-to-top-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>職位</b> <i>色彩輸入</i> | 烘焙位置地圖。 必備！ |
+| <b>粗糙度</b> <i>灰階輸入</i> | 這跟 PBR 粗糙度無關，只是用來打斷過渡的（可選）變化地圖。 只有當粗糙度設定高於0時才會出現。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 它會像調整亮度一樣，將結果的平均亮度在黑白之間切換。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整過渡的對比度。 |
+| <b>Roughness_Variation</b> <i>0.0 - 1.0</i> | 決定要在粗糙度貼圖中融合多少以增加變化。 將這個值增加到 0 就會顯示地圖欄位。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="bottom-to-top.resources/bottom-to-top-02.gif" />
+        </td>
+    </tr>
 </table>

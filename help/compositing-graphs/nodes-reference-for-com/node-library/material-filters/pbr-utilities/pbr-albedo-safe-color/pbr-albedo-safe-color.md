@@ -10,10 +10,10 @@ helpx_tags: ""
 title: PBR Albedo安全染料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 1%
+source-wordcount: '140'
+ht-degree: 2%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-albedo-safe-color.png){width="128px"}
+![](pbr-albedo-safe-color.resources/pbr-albedo-safe-color-01.png){width="128px"}
 
-## PBR Albedo安全染料
-
-**收錄於：***材料過濾器/PBR工具*
-
-**很簡單**
+<b>收錄於：</b> PBR工具>材料過濾器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,17 +39,15 @@ ht-degree: 1%
 
 這對於快速修正工具非常有用，特別是在學習PBR時，但並非絕對且必須永遠正確的度量。
 
-## 參數
-
-* **PBR 工作流程**： *基色 - 金屬色、漫射 - 鏡面*&#x200B;切換兩種不同 PBR 工作流程。
-* **容差**： *0.0 - 1.0*&#x200B;對於超出範圍的數值的容忍度。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>PBR 工作流程</b> <i>底色 - 金屬色，漫射 - 鏡面色</i> | 可在兩種不同的 PBR 工作流程間切換。 |
+| <b>耐受性</b> <i>0.0 - 1.0</i> | 對於超出範圍的數值的容忍度。 |

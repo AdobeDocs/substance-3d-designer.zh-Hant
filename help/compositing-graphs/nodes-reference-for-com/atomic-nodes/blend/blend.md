@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：混合](../../../../assets/comp_blend_1.png "原子節點：混合"){width="200px"}
+![原子節點：混合](blend.resources/blend-01.png "原子節點：混合"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -83,7 +83,7 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>不透明度</b> *浮標* | 前景圖層的不透明度與背景融合。 它獨立於不透明度輸入運作，並作為額外的乘數。 |
-| <b>混合模式</b> *整數*[靜態](../../../../glossary/glossary.md) | 設定要使用的混合操作。 請參閱 [專門的混合模式](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)頁面。 |
+| <b>混合模式</b> *整數*[靜態](../../../../glossary/glossary.md) | 設定要使用的混合操作。   請參閱 [專門的混合模式](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)頁面。 |
 | <b>Alpha 混合</b> *整數*[靜態](../../../../glossary/glossary.md) | 判斷當色彩輸入具有 Alpha 通道時的混合行為：<ul data-preserve-html="true"> <li data-preserve-html="true">使用來源 alpha</li> <li data-preserve-html="true">忽略 alpha</li> <li data-preserve-html="true">純α混合</li> <li data-preserve-html="true">預乘 alpha 混合</li> </ul> |
 | <b>耕作區域</b> *Float4* [靜態](../../../../glossary/glossary.md) | 允許設定自訂裁切區域，作為額外的不透明度遮罩。 裁切的區域只顯示背景。 |
 

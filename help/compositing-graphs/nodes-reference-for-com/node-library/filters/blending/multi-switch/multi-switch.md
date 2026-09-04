@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 多重交換器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 1%
+source-wordcount: '147'
+ht-degree: 4%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/multi-switch-greyscale.png){width="128px"}
+![](multi-switch.resources/multi-switch-01.png){width="128px"}
 
-![](../../../../../../assets/multi-switch.png){width="128px"}
+![](multi-switch.resources/multi-switch-02.png){width="128px"}
 
-## 多重開關（灰階）
-
-**收錄於：***濾鏡/混合*
-
-**很簡單**
+<b>收錄於：</b> 濾鏡>混合
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -45,19 +41,23 @@ ht-degree: 1%
 
 重要：務必使用適合你輸入的版本！ 用「多開關」來控制色彩輸入，用「多開關灰階」來表示灰階輸入。
 
-## 參數
-
-### 輸入
-
-* **輸入 1-20**： *色彩輸入*
-
-### 參數
-
-* **輸入編號**： *2 - 20*&#x200B;需要暴露的輸入數量。 重要提示：當編號減少時，不會移除連接！
-* **輸入選擇**： *1 - 20*&#x200B;將回傳哪些輸入作為結果。
-
-## 範例圖片
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>輸入 1-20</b> <i>色彩輸入</i> |  |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>輸入號碼</b> <i>2 - 20</i> | 需要暴露的輸入數量。 重要提示：當編號減少時，不會移除連接！ |
+| <b>輸入選擇</b> <i>1 - 20</i> | 要回傳哪個輸入作為結果。 |

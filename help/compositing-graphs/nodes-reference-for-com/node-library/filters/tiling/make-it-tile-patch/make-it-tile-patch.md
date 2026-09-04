@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 讓它成為瓦片補丁
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 0%
+source-wordcount: '268'
+ht-degree: 8%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/make-it-tile-patch.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-01.png)
 
-![](../../../../../../assets/make-it-tile-patch-grayscale.png)
+![](make-it-tile-patch.resources/make-it-tile-patch-02.png)
 
-## Make It Tile Patch（灰階）
-
-**收錄於：***濾波器/磁磚*
-
-**複合體**
+<b>收錄於：</b> 濾波器>平鋪
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -47,27 +43,36 @@ ht-degree: 0%
 
 若要對整個材質進行此操作，請參見 [Smart Auto Tile](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/smart-auto-tile/smart-auto-tile.md)。
 
-## 參數
-
-* **遮罩尺寸**： *0.0 - 1.0*&#x200B;蓋章時所用圓形遮罩尺寸。
-* **遮罩精度**： *0.0 - 1.0*&#x200B;遮罩的衰減/平滑度精度。
-* **遮罩變形**： *-100.0 - 100.0*&#x200B;在遮罩邊緣引入變形。 有助於避免音色間平滑且未定義的過渡。
-* **圖案尺寸寬度**： *0.0 - 1000.0*&#x200B;不均勻地改變徽章寬度。
-* **圖案尺寸高度**： *0.0 - 1000.0*&#x200B;不均勻地改變徽章高度。
-* **無障礙**： *0.0 - 1.0*\
-  引入平移隨機性，稍微移動區域。
-* **尺寸變化**： *0.0 - 100.0*&#x200B;引入遮罩尺寸變化。
-* **八度**： *0 - 6*&#x200B;這是決定總音長的主要控制鍵。
-* **旋轉**： *-360.0 - 360.0*&#x200B;預旋轉補丁。
-* **旋轉變體**： *0.0 - 360.0*&#x200B;新增每個徽章印記的隨機旋轉。
-* **背景色**：*（色彩值）*設定沒有補丁出現區域的背景色。
-* **色彩變化**：*0.0 - 1.0（僅限彩色版本）*每個版本引入顏色變化。
-* **亮度變化** *（僅限灰階版本）*每個音色引入亮度變化。
-
-## 範例圖片
-
-![](../../../../../../assets/patch-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>面具尺寸</b> <i>0.0 - 1.0</i> | 印章時所用圓形遮罩的尺寸。 |
+| <b>遮罩精準度</b> <i>0.0 - 1.0</i> | 遮罩的衰減/平滑度精度。 |
+| <b>面罩變形</b> <i>-100.0 - 100.0</i> | 會引入遮罩邊緣的變形現象。 有助於避免音色間平滑且未定義的過渡。 |
+| <b>圖案尺寸寬度</b> <i>0.0 - 1000.0</i> | 能不均勻地改變補丁的寬度。 |
+| <b>圖案尺寸高度</b> <i>0.0 - 1000.0</i> | 補丁高度變化不均勻。 |
+| <b>混亂</b> <i>0.0 - 1.0</i> | 引入平移隨機性，稍微移動區域。 |
+| <b>尺寸變化</b> <i>0.0 - 100.0</i> | 引入面罩尺寸變化。 |
+| <b>八度</b> <i>0 - 6</i> | 這是決定總尺寸的主要控制項。 |
+| <b>旋轉</b> <i>-360.0 - 360.0</i> | 預先旋轉補丁。 |
+| <b>旋轉變化</b> <i>0.0 - 360.0</i> | 每個徽章印章都會隨機輪替。 |
+| <b>背景色</b> <i>（色彩值）</i> | 設定沒有補丁的區域的背景色。 |
+| <b>顏色變化</b> <i>0.0 - 1.0（僅限彩色版本）</i> | 每個補丁引入顏色變化。 |
+| <b>亮度變化</b> <i>（僅限灰階版本）</i> | 每個音色都引入亮度變化。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="make-it-tile-patch.resources/make-it-tile-patch-03.gif" />
+        </td>
+    </tr>
 </table>

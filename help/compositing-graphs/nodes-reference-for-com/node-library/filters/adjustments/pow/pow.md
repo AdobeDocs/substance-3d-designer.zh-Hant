@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 砰
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '84'
+ht-degree: 5%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pow-1.png){width="128px"}
+![](pow.resources/pow-01.png){width="128px"}
 
-![](../../../../../../assets/pow-grayscale.png){width="128px"}
+![](pow.resources/pow-02.png){width="128px"}
 
-## Pow（灰階）
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,14 +39,24 @@ ht-degree: 2%
 
 重要提示：請確保使用正確的版本，視你使用的是彩色還是灰階輸入！
 
-## 參數
-
-* **指數**： *0.0 - 10.0*&#x200B;以指數來驅動輸入。
-
-## 範例圖片
-
-![](../../../../../../assets/pow.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>指數</b> <i>0.0 - 10.0</i> | 用指數來驅動輸入。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pow.resources/pow-03.gif" />
+        </td>
+    </tr>
 </table>

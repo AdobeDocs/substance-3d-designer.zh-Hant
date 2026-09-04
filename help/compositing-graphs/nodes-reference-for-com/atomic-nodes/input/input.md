@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 輸入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入顏色](../../../../assets/comp_inputcolor_1.png "原子節點：輸入顏色"){width="200px"}
+![原子節點：輸入顏色](input.resources/input-01.png "原子節點：輸入顏色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入灰階](../../../../assets/comp_inputgrayscale_1.png "原子節點：輸入灰階"){width="200px"}
+![原子節點：輸入灰階](input.resources/input-02.png "原子節點：輸入灰階"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入值](../../../../assets/comp_inputnumeric_1.png "原子節點：輸入值"){width="200px"}
+![原子節點：輸入值](input.resources/input-03.png "原子節點：輸入值"){width="200px"}
 
 </td>
 </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>識別碼</b> *弦* | 唯一必須且獨特的屬性。 不可包含空格。 這個模組用於標記輸入（如果沒有設定標籤），以及區分不同的輸出。 不要只把這些設定放在「input\_1」！ |
+| <b>識別碼</b> *弦* | 唯一必須且獨特的屬性。 不可包含空格。   這個模組用於標記輸入（如果沒有設定標籤），以及區分不同的輸出。 不要只把這些設定放在「input\_1」！ |
 | <b>描述</b> *弦* | Designer 函式庫與 Painter 書架中使用的可選描述。 |
-| <b>唱片公司</b> *弦* | UI 標籤 用於 Designer 和 Painter UI 中漂亮的標籤。 可以包含空格。 建議用類似識別碼的名稱，只是用空白鍵代替底線。 |
+| <b>唱片公司</b> *弦* | UI 標籤 用於 Designer 和 Painter UI 中漂亮的標籤。 可以包含空格。   建議用類似識別碼的名稱，只是用空白鍵代替底線。 |
 | <b>使用者資料</b> *弦* | 額外且可選的使用者資料可用於特定的過濾操作，基本上是一個萬用字元、自訂資料欄位。 |
-| <b>團體</b> *弦* | Group 屬性用於將輸入群組在一起，用於設計者的[連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 具有相同（大小寫區分）群組屬性的輸入，將以單一連接方式呈現為緊湊材質模式。 |
+| <b>團體</b> *弦* | Group 屬性用於將輸入群組在一起，用於設計者的 [連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。   具有相同（大小寫區分）群組屬性的輸入，將以單一連接方式呈現為緊湊材質模式。 |
 
 ## 繼承
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substance 圖中的主要輸入](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substance 圖中的主要輸入](input.resources/input-04.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>
@@ -157,6 +157,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>組成部分</b> *弦* | 這決定了最終輸入中實際包含哪些通道。 這是舊有設定，現在已經不再被積分和圖形使用。 |
+| <b>組成部分</b> *弦* | 這決定了最終輸入中實際包含哪些通道。   這是舊有設定，現在已經不再被積分和圖形使用。 |
 | <b>使用情況</b> *弦* | 為此輸入定義一種型別或使用方式。 它指示其他節點應該如何連接到這個輸入。 |
 | <b>色彩空間</b> *弦* | 設定該輸入應解讀的色彩空間。 |

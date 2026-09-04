@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 替換顏色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 2%
+source-wordcount: '66'
+ht-degree: 4%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/replace-color.png){width="128px"}
+![](replace-color.resources/replace-color-01.png){width="128px"}
 
-## 替換顏色
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,17 +37,25 @@ ht-degree: 2%
 
 欲了解更進階版本，請參見 [「替換色彩範圍](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/replace-color-range/replace-color-range.md) 」或 [「色彩匹配](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/color-match/color-match.md) 」。
 
-## 參數
-
-* **來源顏色**：*（色彩值）*開始轉換色調的顏色。
-* **目標顏色**：*（色彩值）*用來調整色調的顏色。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/replace-color-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>來源顏色</b> <i>（色彩值）</i> | 顏色可以開始轉換色調。 |
+| <b>目標顏色</b> <i>（色彩值）</i> | 顏色可以讓色調轉向。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="replace-color.resources/replace-color-02.png" />
+        </td>
+    </tr>
 </table>

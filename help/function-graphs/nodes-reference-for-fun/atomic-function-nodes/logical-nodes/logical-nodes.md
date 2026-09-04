@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 合乎邏輯
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 邏輯節點用於在圖中加入多種條件：
 
-![](../../../../assets/image2015-12-23-11-23-21.png)
+![](logical-nodes.resources/logical-nodes-01.png)
 
 ## And *節點*
 
-![](../../../../assets/image2015-12-23-11-30-9.png)
+![](logical-nodes.resources/logical-nodes-02.png)
 
 And 節點接收兩個布林節點作為輸入：
 
@@ -35,7 +35,7 @@ And 節點接收兩個布林節點作為輸入：
 
 ## *Or* 節點
 
-![](../../../../assets/image2015-12-23-11-30-44.png)
+![](logical-nodes.resources/logical-nodes-03.png)
 
 Or 節點接收兩個布林節點作為輸入：
 
@@ -44,7 +44,7 @@ Or 節點接收兩個布林節點作為輸入：
 
 ## *Not* 節點
 
-![](../../../../assets/image2015-12-23-11-31-46.png)
+![](logical-nodes.resources/logical-nodes-04.png)
 
 Not 節點會接收一個布林值作為輸入：它會查看輸入值並回傳其相反值：
 

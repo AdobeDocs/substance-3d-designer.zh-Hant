@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 圖實例與子圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: b0053a42604f68604350a6bb3a2148970536c3c7
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 圖實例與子圖
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/graph-instances-sub-graphs-01.png)
 
 圖實例是指向 <b>另一個圖</b>的節點。 由宿主圖中實例節點所參考的圖，可以稱為 <b>宿主圖的子圖</b> 。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 節點可透過選擇節點並在情境選單中使用「從選取中建立圖形」快速分割成新圖。 接著會提示你設定新圖的識別碼，該識別碼應該是唯一的。
 
-請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)和[輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)節點，將這些連結帶到子圖。
+請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 和 [輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，將這些連結帶到子圖。
 
 此外，將原始節點替換為引用新圖的實例節點，則應在事後手動完成。
 
@@ -58,18 +58,18 @@ ht-degree: 0%
 
 ### 我可以把自己的圖實例加入節點函式庫嗎？
 
-<b>是的，這是可行 </b>的，但需要特定的設定。 更多資訊請參閱[本文件中的「管理自訂內容與篩選」](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/creating-library-filters-for-projects-170459772.html)頁面。
+<b>是的，這是可行 </b>的，但需要特定的設定。 更多資訊請參閱 [本文件中的「管理自訂內容與篩選」](../../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) 頁面。
 
 ### 你能檢查圖實例的來源圖嗎？
 
-![（勾選）](../../../assets/check.svg)是的，*且僅限*&#x200B;於從 Substance 3D 檔案（SBS）**載入**&#x200B;的圖形實例。這些實例節點帶有 *深紅色* 標籤。\
+![（勾選）](graph-instances-sub-graphs.resources/check.svg)是的，*且僅限*&#x200B;於從 Substance 3D 檔案（SBS）**載入**&#x200B;的圖形實例。這些實例節點帶有 *深紅色* 標籤。\
 右鍵點擊該節點以開啟其情境選單，並選擇 **「開啟參考** 」選項。
 
 >[!NOTE]
 >
 > 在檢查來源圖時，只要&#x200B;**在偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區段勾選&#x200B;***上下文編輯**&#x200B;選項，就可以使用實例圖*&#x200B;的輸入資料。
 
-![（減）](../../../assets/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
+![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
 右鍵點擊該節點以開啟其上下文選單，並選擇 **載入套件** 選項。
 
 >[!NOTE]

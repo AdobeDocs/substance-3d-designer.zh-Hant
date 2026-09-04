@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 提取材質值與紋理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -58,21 +58,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從材質輸入建立圖形 - 在「3D View」視窗](../../assets/createGraphFromTexturesActionViewport.png "中操作 從材質輸入建立圖形 - 在「3D View」視窗中操作"){zoomable="yes"}
+![從材質輸入建立圖形 - 在「3D View」視窗](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-01.png "中操作 從材質輸入建立圖形 - 在「3D View」視窗中操作"){zoomable="yes"}
 
 *3D 視角中的動作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從材質輸入建立圖表 - 在「材質」選單](../../assets/createGraphFromTexturesActionMaterials.png "中的動作 從材質輸入建立圖表 - 在「材質」選單中的動作"){zoomable="yes"}
+![從材質輸入建立圖表 - 在「材質」選單](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-02.png "中的動作 從材質輸入建立圖表 - 在「材質」選單中的動作"){zoomable="yes"}
 
 *材料選單中的動作*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從材質輸入建立圖表 - 在「屬性」底座](../../assets/createGraphFromTexturesActionProps.png "中的動作 從材質輸入建立圖表 - 在「屬性」底座中的動作"){zoomable="yes"}
+![從材質輸入建立圖表 - 在「屬性」底座](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-03.png "中的動作 從材質輸入建立圖表 - 在「屬性」底座中的動作"){zoomable="yes"}
 
 *《物業碼頭》中的行動*
 
@@ -80,12 +80,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![從材質材質建立圖的結果 從材質材質](../../assets/createGraphFromTexturesResult.png "材質建立圖的結果"){zoomable="yes"}
+![從材質材質建立圖的結果 從材質材質](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-04.png "材質建立圖的結果"){zoomable="yes"}
 
 *從材質紋理建立圖的結果*
 
 +++示範
-![從貼圖輸入建立圖形 - 示範](../../assets/createGraphFromTextures.gif "從貼圖輸入建立圖形 - 示範"){zoomable="yes"}
+![從貼圖輸入建立圖形 - 示範](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-05.gif "從貼圖輸入建立圖形 - 示範"){zoomable="yes"}
 
 
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 對於使用&#x200B;*內嵌紋理*&#x200B;的格式（例如：USDZ），紋理需要擷取並複製到磁碟上。 這會產生額外步驟來選擇要擷取貼圖的位置。
+> 對於使用 *內嵌紋理* 的格式（例如：USDZ），紋理需要擷取並複製到磁碟上。 這會產生額外步驟來選擇要擷取貼圖的位置。
 
 ## 萃取質地
 
@@ -116,14 +116,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從 Properties Dock 中擷取貼圖 - 在 Properties Dock](../../assets/extractTextureAction.png "中執行動作 將 擷取到圖表 - 在 Properties Dock 中執行"){zoomable="yes"}
+![從 Properties Dock 中擷取貼圖 - 在 Properties Dock](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-06.png "中執行動作 將 擷取到圖表 - 在 Properties Dock 中執行"){zoomable="yes"}
 
 物業碼頭中關於物質財產的訴訟
 
 </td>
 <td style="border: 0;" valign="top">
 
-![將貼圖擷取到圖表 - 「選擇目的地圖表」對話框](../../assets/extractTextureSelectGraph.png "將貼圖擷取到圖表 - 「選擇目的地圖表」對話框"){zoomable="yes"}
+![將貼圖擷取到圖表 - 「選擇目的地圖表」對話框](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-07.png "將貼圖擷取到圖表 - 「選擇目的地圖表」對話框"){zoomable="yes"}
 
 「選擇目的地圖」對話框
 
@@ -136,12 +136,12 @@ ht-degree: 0%
 </tr>
 </table>
 
-![紋理萃取](../../assets/extractTextureResult.png "的結果 紋理萃取的結果"){zoomable="yes"}
+![紋理萃取](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-08.png "的結果 紋理萃取的結果"){zoomable="yes"}
 
 紋理提取的結果
 
 +++示範
-![從貼圖擷取貼圖 - 示範](../../assets/extractTextureToGraph.gif "擷取貼圖至圖 - 示範"){zoomable="yes"}
+![從貼圖擷取貼圖 - 示範](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-09.gif "擷取貼圖至圖 - 示範"){zoomable="yes"}
 
 
 
@@ -170,21 +170,21 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![擷取到圖的值 - 在屬性掛鉤](../../assets/extractValueAction.png "中的動作 從圖中提取到圖的值 - 在屬性停靠中的動作"){zoomable="yes"}
+![擷取到圖的值 - 在屬性掛鉤](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-10.png "中的動作 從圖中提取到圖的值 - 在屬性停靠中的動作"){zoomable="yes"}
 
 物業碼頭中關於物質財產的訴訟
 
 </td>
 <td style="border: 0;" valign="top">
 
-![將值抽取到圖 - 「選擇目標圖」對話框](../../assets/extractValueSelectGraph.png "擷取到圖的值 - 「選擇目標圖」對話框"){zoomable="yes"}
+![將值抽取到圖 - 「選擇目標圖」對話框](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-11.png "擷取到圖的值 - 「選擇目標圖」對話框"){zoomable="yes"}
 
 「選擇目的地圖」對話框
 
 </td>
 <td style="border: 0;" valign="top">
 
-![擷取圖中的值 - 值處理器節點函式](../../assets/extractValueResult2.png "中的常數節點 擷取圖中的值 - 值處理器節點函式中的常數節點"){zoomable="yes"}
+![擷取圖中的值 - 值處理器節點函式](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-12.png "中的常數節點 擷取圖中的值 - 值處理器節點函式中的常數節點"){zoomable="yes"}
 
 Value 處理器節點函式中的常數節點
 
@@ -192,12 +192,12 @@ Value 處理器節點函式中的常數節點
 </tr>
 </table>
 
-![價值萃取](../../assets/extractValueResult.png "的結果 價值萃取的結果"){zoomable="yes"}
+![價值萃取](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-13.png "的結果 價值萃取的結果"){zoomable="yes"}
 
 價值提取的結果
 
 +++示範
-![擷取圖的值 - 示範](../../assets/extractValueToGraph.gif "擷取圖的值 - 示範"){zoomable="yes"}
+![擷取圖的值 - 示範](extracting-materials-values-and-textures.resources/extracting-materials-values-and-textures-14.gif "擷取圖的值 - 示範"){zoomable="yes"}
 
 
 

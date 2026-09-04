@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 極限
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '99'
+ht-degree: 2%
 
 ---
 
@@ -22,33 +22,31 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/min-max.png){width="200px"}
+![](min-max.resources/min-max-01.png){width="200px"}
 
-## 極限
-
-**收錄於：***濾鏡/調整*
-
-**中級**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
-最小極大分析會找出灰階輸入中最亮和最暗的值，並以值[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)的形式回傳[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)。它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels節點的 Value Inputs，並將最小最大值的值輸入輸入到它。
+最小極大值會找出灰階輸入中最亮與最暗的值，並返回為 [值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。 它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)節點的 Value Inputs，並將最小最大值的值輸入輸入到它。
 
-要用這個節點搭配 Levels，你至少應該知道如何使用 [「Expose Parameter」下拉選單](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，以及 [「Value Input Tab](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)」。
-
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-![](../../../../../../assets/minmax.png)
+要用這個節點搭配 Levels，你至少應該知道如何使用 [「Expose Parameter」下拉選單](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，以及 [「Value」輸入標籤](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 
 </td>
 </tr>
+</table>
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="min-max.resources/min-max-02.png" />
+        </td>
+    </tr>
 </table>

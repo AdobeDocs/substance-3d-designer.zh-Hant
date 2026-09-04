@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 教學學習
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![「第一步」教學插圖](../../assets/64d93414-7ea9-49d9-b962-a4e6f4a12765.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
+[![「第一步」教學插圖](tutorials-learning.resources/tutorials-learning-01.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/first-steps-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![「創作你的第一個素材」教學插圖](../../assets/d18e3495-5683-4024-a8af-d255380c0739.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
+[![「創作你的第一個素材」教學插圖](tutorials-learning.resources/tutorials-learning-02.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/getting-started-with-substance-3d-designer?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -60,7 +60,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![「快速提示」教學插圖](../../assets/ds-learn-quicktips.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
+[![「快速提示」教學插圖](tutorials-learning.resources/tutorials-learning-03.jpg)](https://www.youtube.com/playlist?list=PLB0wXHrWAmCy457vxKM4rQuJ-nvYm9j4M)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![「你的智慧型手機是材質掃描器」教學插圖](../../assets/73d18800-637b-410b-8ceb-22ad6b61ec89.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
+[![「你的智慧型手機是材質掃描器」教學插圖](tutorials-learning.resources/tutorials-learning-04.jpg)](https://creativecloud.adobe.com/cc/learn/substance-3d-designer/web/your-smartphone-is-a-material-scanner?locale=en)
 
 </td>
 <td style="border: 0;" valign="top">

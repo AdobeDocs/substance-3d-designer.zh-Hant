@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 色度萃取物
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 4%
+source-wordcount: '38'
+ht-degree: 5%
 
 ---
 
@@ -22,33 +22,29 @@ ht-degree: 4%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/chrominance-extract.png)
+![](chrominance-extract.resources/chrominance-extract-01.png)
 
-## 色度萃取物
-
-**收錄於：***濾鏡/調整*
-
-**很簡單**
+<b>收錄於：</b> 篩選>調整
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 從輸入中提取色度值。 結果是亮度被剝離。
 
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/chrominance-example.png" width="300px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="chrominance-extract.resources/chrominance-extract-02.png" />
+        </td>
+    </tr>
 </table>

@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 織布產生器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 1%
+source-wordcount: '135'
+ht-degree: 9%
 
 ---
 
@@ -22,37 +22,42 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-generator.png){width="128px"}
+![](weave-generator.resources/weave-generator-01.png){width="128px"}
 
-## 織布產生器
-
-**收錄於：***貼圖產生器**/圖案*
-
-**中級**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 此節點會產生簡單的織布圖案，並提供幾個選項。 它比預設的織紋圖案能控制更多，並呈現出其他節點無法達成的圖案。
 
-## 參數
-
-* **Tile X**： *1 - 20*&#x200B;設定 X 軸上重複的方塊數量。
-* **圖塊 Y**： *1 - 20*&#x200B;設定 Y 軸重複的方塊數量。
-* **形狀**： *0.0 - 1.0*&#x200B;設定針目曲線高度輪廓。
-* **織法**： *1 - 10*&#x200B;設定每塊縫線的針數。
-* **縫隙**： *0.0 - 1.0*&#x200B;設定 X 軸和 Y 軸的針距。
-* **非平方展開**： *假/真*\
-  能以非平方比率補償擠壓與拉伸。
-
-## 範例圖片
-
-![](../../../../../../assets/weave-generator-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>方塊 X</b> <i>1 - 20</i> | 設定 X 軸上重複的方塊數量。 |
+| <b>Y 牌</b> <i>1 - 20</i> | 設定 Y 軸重複的方塊數量。 |
+| <b>形狀</b> <i>0.0 - 1.0</i> | 設定針目曲線高度輪廓。 |
+| <b>編織</b> <i>1 - 10</i> | 設定每塊縫幾針。 |
+| <b>差距</b> <i>0.0 - 1.0</i> | 在X軸和Y軸上設定針距。 |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="weave-generator.resources/weave-generator-02.gif" />
+        </td>
+    </tr>
 </table>

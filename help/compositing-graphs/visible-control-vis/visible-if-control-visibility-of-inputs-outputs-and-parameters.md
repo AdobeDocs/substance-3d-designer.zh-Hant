@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 可見的 if 表達式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1511dc8cc9a91529359172ad81cd2c1c0606448f
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 可見的 if 表達式
 
-「可見的如果」表達式讓你能<b>控制圖形中輸入、輸出和參數的可見性</b>。
+「可見的如果」表達式讓你能 <b>控制圖形中輸入、輸出和參數的可見性</b> 。
 
 在暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，你可能想根據其他參數的狀態隱藏或顯示參數或節點連接器。例如，只有當布林參數按鈕設為 `true`時才會顯示滑桿，否則不會有影響，可能會讓使用者感到困惑。
 
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點;
 * 圖的 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。
 
-![切換輸入參數可見](../../assets/visible-if-example.gif "性切換輸入參數可見性"){width="512px"}
+![切換輸入參數可見](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "性切換輸入參數可見性"){width="512px"}
 
 如果邏輯運算式的值值為 `true`，該參數、輸入或輸出會在所有 [代表當前圖的實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 中顯示。 否則，它會被 *隱藏*&#x200B;起來。
 
@@ -72,9 +72,9 @@ input["identifier"]
 * 布林、浮點數和整數輸入。
 * `true` 以及 `false` 數值（大小寫區分，無大寫！）
 * `.x` ： 存取子參數
-* `&&`<b> </b>：且
-* `||`<b> </b>： 或
-* `!`<b> </b>：不是
+* `&&`<b> </b>：且
+* `||`<b> </b>： 或
+* `!`<b> </b>：不是
 * `<`<b>， </b>`>`<b>， ， </b>`<=`<b></b>`>=`<b>， </b>`==`<b>， ， ： </b>`!=` 比較
 * `()` ：括號
 

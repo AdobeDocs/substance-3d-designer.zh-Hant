@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 邊緣選擇
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/edge-select.png){width="128px"}
+![](edge-select.resources/edge-select-01.png){width="128px"}
 
-## 邊緣選擇
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**中級**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,34 +37,42 @@ ht-degree: 1%
 
 這個遮罩是根據曲率選擇任何邊的最佳方式。 凸、凹面在任何層次或對比度下都可以被隔離，這提供了一個極佳的捷徑，避免透過 [層級節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)手動完成這些操作。
 
-## 參數
-
-### 輸入
-
-* **曲率**： *灰階輸入*\
-  烘焙地圖用於高亮邊緣。 必備！
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  設定凸與凹邊的總高亮數量。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整凸與凹的高光對比度。
-* **凸面**
-  * **凸邊寬度**： *0.0 - 1.0*&#x200B;設定凸邊的高亮寬度。 要注意，稍微增加柔軟度可能會導致邊緣變薄。
-  * **凸柔和度**： *0.0 - 1.0*&#x200B;凸邊的過渡軟度設定。
-  * **凸強度**： *0.0 - 1.0*&#x200B;設定凸邊中邊緣高亮的最大強度。 設為 0 以表示不高亮。
-* **凹面**
-  * **凹邊寬度**： *0.0 - 1.0*&#x200B;凹邊的高亮寬度設定。 要注意，稍微增加柔軟度可能會導致邊緣變薄。
-  * **凹面柔和度**： *0.0 - 1.0*&#x200B;凹面邊緣的過渡軟度設定。
-  * **凹面強度**： *0.0 - 1.0*&#x200B;為凹面邊緣設定邊緣高亮的最大強度。 設為 0 以表示不高亮。
-
-## 範例圖片
-
-![](../../../../../../assets/edge-select-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙地圖用於高亮邊緣。 必備！ |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定凸與凹邊的總高亮數量。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整凸與凹的高光對比度。 |
+| <b>凸面</b> |  |
+| <b>凸邊寬度</b> <i>0.0 - 1.0</i> | 設定凸邊的高亮寬度。 要注意，稍微增加柔軟度可能會導致邊緣變薄。 |
+| <b>凸軟度</b> <i>0.0 - 1.0</i> | 將凸邊的過渡軟度設定。 |
+| <b>凸強度</b> <i>0.0 - 1.0</i> | 設定凸邊的邊緣高亮強度。 設為 0 以表示不高亮。 |
+| <b>凹面</b> |  |
+| <b>凹邊寬度</b> <i>0.0 - 1.0</i> | 設定凹邊的高亮寬度。 要注意，稍微增加柔軟度可能會導致邊緣變薄。 |
+| <b>凹軟</b> <i>0.0 - 1.0</i> | 將過渡部分的柔和度設定為凹面邊緣。 |
+| <b>凹面強度</b> <i>0.0 - 1.0</i> | 將凹面邊緣的高亮亮度設定為最大。 設為 0 以表示不高亮。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="edge-select.resources/edge-select-02.gif" />
+        </td>
+    </tr>
 </table>

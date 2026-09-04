@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 形狀濺射資料擷取
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 2%
+source-wordcount: '71'
+ht-degree: 1%
 
 ---
 
@@ -22,32 +22,28 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter-data-extract.png){width="128px"}
+![](shape-splatter-data-extract.resources/shape-splatter-data-extract-01.png){width="128px"}
 
-## 形狀濺射資料擷取
-
-**收錄於：***貼圖產生器**/圖案*
-
-**複合體**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 Data separator/splitter utility for [Shape Splatter Data for Shape Splatter](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter/shape-splatter.md) Data. 允許轉換與顯示個別資料，以進行自訂計算、驗證資料或深入了解 Shape Splatter。
 
-## 參數
-
-### 輸入
-
-* **濺射資料1**： *色彩輸入*
-* **濺血資料 2**： *色彩輸入*
-
-*沒有參數。*
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>血腥數據 1</b> <i>色彩輸入</i> |  |
+| <b>血腥資料 2</b> <i>色彩輸入</i> |  |

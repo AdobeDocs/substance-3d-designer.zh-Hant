@@ -10,9 +10,9 @@ helpx_tags: ""
 title: RGBA 合併
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '93'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/rgba-merge.png){width="128px"}
+![](rgba-merge.resources/rgba-merge-01.png){width="128px"}
 
-## RGBA 合併
-
-**收錄於：***濾鏡/頻道*
-
-**很簡單**
+<b>收錄於：</b> 濾波器>通道
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,23 +37,17 @@ ht-degree: 1%
 
 非常實用的節點，可以把頻道地圖堆疊在一起。 例如，可以用來將 Smoothness、Metallic 和 AO 打包到各自的 R、G 和 B 通道中。
 
-## 參數
-
-### 輸入
-
-* **R**： *灰階輸入*
-* **G**： *灰階輸入*
-* **B**： *灰階輸入*
-* **答**： *灰階輸入*
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>R</b> <i>灰階輸入</i> |  |
+| <b>G</b> <i>灰階輸入</i> |  |
+| <b>B</b> <i>灰階輸入</i> |  |
+| <b>A</b> <i>灰階輸入</i> |  |

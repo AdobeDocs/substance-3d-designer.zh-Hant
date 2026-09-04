@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖建立禮儀
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '1163'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 讓圖表更乾淨、更易讀的首要因素，是將框架放在圖的核心群組周圍。 沒有影格，一個大型圖幾乎無法閱讀，即使是小圖，畫出影格後也會更容易理解。 Frames 的一大優勢是<b> 它們的名字總是以相同的比例</b>呈現，即使你拉得很遠。
 
-![實體圖](../../assets/frames.gif "中的框架 實質圖中的框架")
+![實體圖](graph-creation-etiquette.resources/graph-creation-etiquette-01.gif "中的框架 實質圖中的框架")
 
 框架讓理解圖表中發生的事情變得容易許多。 他們可以幫助你作為作者幾個月後回來工作，或是同事等使用者，幫助你熟悉不熟悉的圖表。
 
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 輸入和輸出應放在圖的兩端：所有輸出在右邊，所有輸入在左邊，且垂直排列。 這讓尋找和辨識它們變得更容易。
 
-![輸入與輸出配置](../../assets/inout.gif "輸入與輸出配置")
+![輸入與輸出配置](graph-creation-etiquette.resources/graph-creation-etiquette-02.gif "輸入與輸出配置")
 
 上述例子是極端例子：幀不一定是必需或可行的，但應該很明顯，In-和Output的垂直對齊比隨機、隨機擺放更清楚。
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 在大型且非常長的圖中，有時會跨越非常大的跨度建立連結。 這導致連結線在圖中交叉，且控制不佳。 捷徑「Alt + Shift 拖曳」可以讓你重新組織這些連結，透過細分連結並在中間加一個額外的 handle，將它們重新導向不同的路徑。 建議在合理情況下加以利用。
 
-![連結重路由](../../assets/linkjreroute.gif "連結重新路由")
+![連結重路由](graph-creation-etiquette.resources/graph-creation-etiquette-03.gif "連結重新路由")
 
 ### 標籤、標識與用法
 
@@ -73,15 +73,15 @@ ht-degree: 0%
 
 預設建議的標籤永遠不夠，請花時間和精力在暴露的參數以及輸入輸出中加入自訂標籤。
 
-![識別碼與標籤](../../assets/output-label.png "識別碼與標籤")
+![識別碼與標籤](graph-creation-etiquette.resources/graph-creation-etiquette-04.png "識別碼與標籤")
 
 盡量不要讓識別碼和標籤差異太大：如果識別碼在其他地方（多個函式中）被使用，就很難找到哪個 UI 屬性對應哪個變數。
 
-![識別碼清晰](../../assets/labelvsidentifier.png "度識別碼清晰度")
+![識別碼清晰](graph-creation-etiquette.resources/graph-creation-etiquette-05.png "度識別碼清晰度")
 
 試著讓你的標籤與你在框架（框架標籤）和評論中使用的詞彙相符。 這樣比較容易找出圖表中哪個區段連結到哪個暴露的參數
 
-![匹配框架與參數標籤匹配](../../assets/match-labels.png "框架與參數標籤")
+![匹配框架與參數標籤匹配](graph-creation-etiquette.resources/graph-creation-etiquette-06.png "框架與參數標籤")
 
 ### 參數設定
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 * 理想上，資料會盡可能保持灰階，只有在絕對必要時才會轉換。 這降低了複雜度並節省了效能。
 * 輸入與輸出應以正確類型為基準來建立或設定：例如，若「遮罩」輸入會被轉成灰階作為二進位遮罩，那麼將「遮罩」設為彩色就毫無意義。
 
-![彩色與灰階轉換](../../assets/colorgray01.png "彩色與灰階轉換")
+![彩色與灰階轉換](graph-creation-etiquette.resources/graph-creation-etiquette-07.png "彩色與灰階轉換")
 
 ### 解析度控制
 

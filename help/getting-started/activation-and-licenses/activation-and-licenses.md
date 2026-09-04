@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 啟動與執照
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -23,8 +23,8 @@ ht-degree: 0%
 啟動流程取決於你在哪裡購買或能使用 Designer：
 
 | 版本 | 啟動過程 |
-| --- | --- |
-| 創意雲端桌面 | 請參閱 HelpX 文件[&#128279;](https://helpx.adobe.com/tw/support/substance-3d-designer.html)中的專屬頁面。若有任何問題，[Creative Cloud 的文件](https://helpx.adobe.com/tw/creative-cloud/user-guide.html)可能會提供更多解答。 |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 創意雲端桌面（CCD） | 從 CCD 應用程式安裝產品，然後啟動。 如果你遇到授權問題，請參考這些頁面： [應用程式因訂閱錯誤](https://helpx.adobe.com/tw/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) 無法啟動 / [帳號、方案與帳單協助](https://helpx.adobe.com/tw/account/individual.html) |
 | 蒸汽 | 直接從你的 Steam 遊戲庫啟動產品。 |
 | 實質（獨立作品） | 請參考下方說明的啟動流程。 |
 
@@ -36,13 +36,13 @@ ht-degree: 0%
 
 * <b>評估此產品</b>：舊有試驗已不再提供。 你可以在這裡或使用 Creative Cloud Desktop 開始為每個 Substance 3D 應用程式[&#128279;](https://www.adobe.com/creativecloud/3d-augmented-reality.html)開啟 30 天試用。每個試驗都獨立於其他Substance 3D應用程式，所以你可以一次嘗試一個或全部。
 * <b>使用授權檔案</b>啟用：請於 2022 年 9 月 30 日前，使用 Substance 3D 網站[&#128279;](https://store.substance3d.com/user)帳號頁面下載的授權檔案（<b>\*.key</b>）啟用產品。
-* <b>使用您的帳戶</b>啟用：舊有物質帳戶已無法再用於啟用。 [更多關於Substance帳戶的資訊請見此](https://helpx.adobe.com/tw/substance-3d/unlisted/faq-end-of-life-accounts.html)處。
+* <b>使用您的帳戶</b>啟用：舊有物質帳戶已無法再用於啟用。
 
 >[!IMPORTANT]
 >
 > 要用啟用精靈安裝授權檔案，請確保以管理員身份執行 Designer，並暫時停用防毒軟體。
 
-![啟動精靈](../../assets/activation-wizard.png "啟動精靈")
+![啟動精靈](activation-and-licenses.resources/activation-and-licenses-01.png "啟動精靈")
 
 ### 手動啟動
 

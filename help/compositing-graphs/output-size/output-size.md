@@ -10,17 +10,17 @@ helpx_tags: ""
 title: 輸出大小
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 4%
+source-wordcount: '1006'
+ht-degree: 5%
 
 ---
 
 
 # 輸出大小
 
-它是圖形<b>基礎參數<b></b>中的第一個，與輸出格式</b>（或位元深度）一起，必須充分理解，因為它對圖形的輸出有重大影響，無論是在 Designer 內，還是作為已發佈[的 Substance 3D 資產（SBSAR）](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/publishing-sbsar-file-200574380.html)檔案，都會影響圖形的輸出。
+它是圖形<b>基礎參數</b><b>中的第一個，與輸出格式</b>（或位元深度）一起，必須充分理解，因為它對圖形的輸出有重大影響，無論是在 Designer 內，還是作為已發佈的 Substance 3D 資產（SBSAR）[&#128279;](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)檔案，都會影響圖形的輸出。
 
 >[!TIP]
 >
@@ -28,7 +28,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
-> 用 ![](../../assets/props-output-size-lock.jpg) 鎖定鍵讓高度值 *和寬度值相符* 。
+> 用 ![](output-size.resources/output-size-01.jpg) 鎖定鍵讓高度值 *和寬度值相符* 。
 
 <table>
 <tr style="border: 0;">
@@ -57,9 +57,9 @@ ht-degree: 4%
 </tr>
 </table>
 
-輸出大小特性利用&#x200B;*對數步進*&#x200B;來輕鬆映射二的冪次方遞增（例如 256、512、1024 等） 調整為&#x200B;*線性尺度*（例如 8、9、10 等）。 這表示將 X 或 Y 的輸出大小值增減 1 等同於將當前解析度乘除 2。
+輸出大小特性利用 *對數步進* 來輕鬆映射二的冪次方遞增（例如 256、512、1024 等） 調整為 *線性尺度* （例如 8、9、10 等）。 這表示將 X 或 Y 的輸出大小值增減 1 等同於將當前解析度乘除 2。
 
-當輸出大小值由[函數](../../function-graphs/function-graphs.md)控制時，這同樣適用，該函數應輸出目標對數值（相對或絕對），而非目標解析度。
+當輸出大小值由 [函數](../../function-graphs/function-graphs.md)控制時，這同樣適用，該函數應輸出目標對數值（相對或絕對），而非目標解析度。
 
 >[!IMPORTANT]
 >
@@ -96,18 +96,18 @@ ht-degree: 4%
 * Node： *相對於輸入* ——此時使用節點 [主輸入](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) 繼承的值
 * [點陣](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md) 節點： *絕對* — 請參考 [點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md) 頁面和 [效能優化指引](../../best-practices/performance-optimization/performance-optimization-guidelines.md) ，了解原因
 
-點擊節點或圖形的屬性，然後在[屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板的基礎參數</b>區找到<b>輸出大小</b>屬性<b>。點擊繼承方法下拉選單，選擇所需的繼承方式。
+點擊節點或圖形的屬性，然後在[屬性](../../interface/properties/properties.md)面板的基礎參數</b>區找到<b>輸出大小</b>屬性<b>。點擊繼承方法下拉選單，選擇所需的繼承方式。
 
-![輸出大小繼承法](../../assets/change-mode.gif "輸出大小繼承法"){width="512px"}
+![輸出大小繼承法](output-size.resources/output-size-02.gif "輸出大小繼承法"){width="512px"}
 
 ## 範例問題
 
 如果你是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的新手，可能會遇到一些常見問題。我們將在下面列出一些範例及解決方案。
 
 +++問題一
-**![（錯誤）](../../assets/error.svg) 問題**
+**![（錯誤）](output-size.resources/error.svg) 問題**
 
-![範例問題1](../../assets/problem2-bad.png "範例問題1")
+![範例問題1](output-size.resources/output-size-03.png "範例問題1")
 
 
 
@@ -115,9 +115,9 @@ ht-degree: 4%
 
 在圖的屬性中，輸出大小屬性的繼承方法被設定為 *絕對*，這會停止繼承，改用任意值。
 
-**![（滴答聲）](../../assets/check.svg) 解決方案**
+**![（滴答聲）](output-size.resources/check.svg) 解決方案**
 
-![範例問題1 解](../../assets/problem2-good.png "法範例問題1 解法")
+![範例問題1 解](output-size.resources/output-size-04.png "法範例問題1 解法")
 
 
 
@@ -126,9 +126,9 @@ ht-degree: 4%
 +++
 
 +++問題二
-**![（錯誤）](../../assets/error.svg) 問題**
+**![（錯誤）](output-size.resources/error.svg) 問題**
 
-![範例問題2](../../assets/problem1-bad.png "範例問題2")
+![範例問題2](output-size.resources/output-size-05.png "範例問題2")
 
 
 
@@ -136,9 +136,9 @@ ht-degree: 4%
 
 問題出在點陣[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點。[它預設採用&#x200B;*絕對*&#x200B;繼承方法，並根據點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md)選擇了 512\*512 作為解析。連接該節點的節點設定為 *相對於輸入*，因此其輸出大小會繼承自點陣節點。
 
-**![（滴答聲）](../../assets/check.svg) 解決方案**
+**![（滴答聲）](output-size.resources/check.svg) 解決方案**
 
-![範例問題2 解](../../assets/problem1-good.png "法範例問題2 解法")
+![範例問題2 解](output-size.resources/output-size-06.png "法範例問題2 解法")
 
 
 
@@ -147,9 +147,9 @@ ht-degree: 4%
 +++
 
 +++問題三
-**![（錯誤）](../../assets/error.svg) 問題**
+**![（錯誤）](output-size.resources/error.svg) 問題**
 
-![範例問題3](../../assets/problem3-bad.png "範例問題3")
+![範例問題3](output-size.resources/output-size-07.png "範例問題3")
 
 
 
@@ -157,9 +157,9 @@ ht-degree: 4%
 
 問題是因為轉換二維[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點的相對修飾值為 3，使輸出變大了 8 倍。
 
-**![（滴答聲）](../../assets/check.svg) 解決方案**
+**![（滴答聲）](output-size.resources/check.svg) 解決方案**
 
-![範例問題3 解](../../assets/problem3-good.png "法範例問題3 解法")
+![範例問題3 解](output-size.resources/output-size-08.png "法範例問題3 解法")
 
 
 

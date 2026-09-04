@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 模糊總部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 1%
+source-wordcount: '105'
+ht-degree: 6%
 
 ---
 
@@ -22,20 +22,16 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/blur-hq-1.png){width="128px"}
+![](blur-hq.resources/blur-hq-01.png){width="128px"}
 
-![](../../../../../../assets/blur-hq-grayscale.png){width="128px"}
+![](blur-hq.resources/blur-hq-02.png){width="128px"}
 
-## Blur HQ（灰階）
-
-**收錄於：***濾鏡/模糊*
-
-**很簡單**
+<b>收錄於：</b> 模糊>濾鏡
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -43,16 +39,25 @@ ht-degree: 1%
 
 重要：務必使用適合你輸入的版本！ 用「Blur HQ」來輸入顏色，或用「Blur HQ Grayscale」來輸入灰階。
 
-## 參數
-
-* **強度**： *0.0 - 16.0*\
-  模糊的強度（半徑）。 這個數值越高，模糊的距離就越遠。
-* **品質**： *0 - 1*&#x200B;增加內部取樣量以提升品質，但計算速度降低。
-
-## 範例圖片
-
-![](../../../../../../assets/hqblur-example.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>強度</b> <i>0.0 - 16.0</i> | 模糊的強度（半徑）。 這個數值越高，模糊的距離就越遠。 |
+| <b>品質</b> <i>0 - 1</i> | 增加內部取樣量以提升品質，但計算速度降低。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="blur-hq.resources/blur-hq-03.gif" />
+        </td>
+    </tr>
 </table>

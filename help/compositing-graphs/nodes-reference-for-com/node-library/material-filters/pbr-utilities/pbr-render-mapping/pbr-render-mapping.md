@@ -10,9 +10,9 @@ helpx_tags: ""
 title: PBR 渲染映射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '187'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/pbr-render-mapping-color.png)![](../../../../../../assets/pbr-render-mapping-grayscale.png)
+![](pbr-render-mapping.resources/pbr-render-mapping-01.png)![](pbr-render-mapping.resources/pbr-render-mapping-02.png)
 
-## PBR 渲染映射（彩色/灰階）
-
-**收錄於：***材料過濾器/PBR工具*
-
-**很簡單**
+<b>收錄於：</b> PBR工具>材料過濾器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,24 +37,38 @@ ht-degree: 1%
 
 彩色與灰階版本分別適用於兩種資料：漫射地圖使用彩色，粗糙度及金屬及其他灰階地圖使用灰階。
 
-### 輸入
+</td>
+</tr>
+</table>
 
-* **材質**： *色彩/灰階輸入*\
-  貼圖要映射到形狀上。
-* **UV：***色彩輸入* PBR 渲染節點的強制 UV 資料輸入[。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>材質</b> <i>色彩/灰階輸入</i> | 貼圖要映射到形狀上。 |
+| <b>紫外線</b> <i>色彩輸入</i> | 必須從 PBR 渲染節點輸入 [UV 資料。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md) |
+
+<a name="parameters"></a>
 
 ## 參數
 
-* **背景色**：*（色彩值）*設定一個純色值作為背景。
+|  |  |
+|:---|:---|
+| <b>背景色</b> <i>（色彩值）</i> | 設定一個純色值作為背景使用。 |
 
-## 範例圖片
+## 範例
 
 範例是一個由四個不同 PBR 渲染映射節點組成的合成，使用[線性梯度](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/gradient-linear-1/gradient-linear-1.md)上的[直方圖選擇](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-select/histogram-select.md)作為遮罩。
 
-![](../../../../../../assets/pbr-render-mapping-ex.png){width="256px"}
-
-![](../../../../../../assets/pbr-render-mapping-ex-2.png){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-03.png" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="pbr-render-mapping.resources/pbr-render-mapping-04.png" />
+        </td>
+    </tr>
 </table>

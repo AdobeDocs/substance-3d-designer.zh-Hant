@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 普通聯合測試
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '139'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-combine.png){width="128px"}
+![](normal-combine.resources/normal-combine-01.png){width="128px"}
 
 <b>收錄於：</b> 法線貼圖>濾波器
 
@@ -43,19 +43,23 @@ ht-degree: 2%
 
 這是將 2D 生成的法線貼圖細節加入烘焙貼圖的最佳且最正確的方法。
 
-如果你想混合兩個法線貼圖而不合併它們的細節（例如使用遮罩），你應該使用[法線混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
+如果你想混合兩個法線貼圖而不合併它們的細節（例如使用遮罩），你應該使用 [法線混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-blend/normal-blend.md)。
 
-## 輸入連接器
+<a name="inputs"></a>
 
-<b>普通雙</b> *色*&#x200B;描述
+## 輸入
 
-<b>普通1</b> *色*&#x200B;描述
+|  |  |
+|:---|:---|
+| <b>普通2</b> <i>顏色</i> | 說明 |
+| <b>普通 1</b> <i>顏色</i> | 說明 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>技術</b> *整數*&#x200B;集合，採用內部混合技術，以速度換取品質。\
-*- 白片（低畫質）
-* 通道混音器（高品質）
-* 注重細節（高品質）*
+|  |  |
+|:---|:---|
+| <b>技巧</b> *整數* | 設定採用哪種內部混合技術，以速度換取品質。<br><br>*- 白色調整（低品質）<br>* 通道混音器（高品質）<br>* 細節導向（高品質）* |
 
 ## 範例

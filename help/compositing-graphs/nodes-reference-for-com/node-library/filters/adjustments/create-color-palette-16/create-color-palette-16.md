@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 創造色彩調色盤（16）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/CreateColorPalette16.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](create-color-palette-16.resources/create-color-palette-16-01.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -43,46 +43,32 @@ ht-degree: 1%
 </tr>
 </table>
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<a name="inputs"></a>
 
-
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 參數
-
-</td>
-</tr>
-</table>
-
-## 輸入連接器
+## 輸入
 
 |  |  |
-| --- | --- |
-| <b>調色盤</b> *色彩 原色* | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。 此輸入為可選。 若使用，節點設定的顏色會附加到此調色盤中。 調色盤可用「檢視色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化。 |
-| <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量。 如果這個數字與「調色盤」影像輸入中的實際顏色數量不符，視覺化可能不完整，或有比絕對必要的空白欄位還多。 |
+|:---|:---|
+| <b>調色盤</b> <i>色彩 原色</i> | 一個以像素列編碼的有序 RGB 顏色清單。 調色盤最多可容納256種顏色。   此輸入為可選。 若使用，節點設定的顏色會附加到此調色盤中。   調色盤可用「檢視色彩調色盤[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md)」節點來視覺化。 |
+| <b>調色盤色彩量</b> <i>整數</i> | 調色盤中儲存的顏色數量。   如果這個數字與「調色盤」影像輸入中的實際顏色數量不符，視覺化可能不完整，或有比絕對必要的空白欄位還多。 |
 
-## 輸出連接器
+<a name="outputs"></a>
+
+## 輸出
 
 |  |  |
-| --- | --- |
-| <b>調色盤</b> *顏色* | 附上了更新後的調色盤，並附上指定顏色。 |
-| <b>調色盤色彩量</b> *整數* | 調色盤中儲存的顏色數量更新，並加上指定的顏色數量。 |
+|:---|:---|
+| <b>調色盤</b> <i>顏色</i> | 附上了更新後的調色盤，並附上指定顏色。 |
+| <b>調色盤色彩量</b> <i>整數</i> | 調色盤中儲存的顏色數量更新，並加上指定的顏色數量。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
 |  |  |
-| --- | --- |
+|:---|:---|
 | <b>顏色數量</b> *整數* | 調色盤中應該加入多少顏色。 |
-| <b>顏色#</b> *Float3*   *可用參數數量與「色彩量」值相同* | 一種應該加入調色盤的顏色。 顏色會依照這個編號清單的順序附加到調色盤中。 |
+| <b>顏色#</b> *Float3*   *可用參數數量與「色彩量」值相同* | 一種應該加入調色盤的顏色。   顏色會依照這個編號清單的順序附加到調色盤中。 |
 
 ## 範例
 
@@ -90,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![建立色彩調色盤：範例 1](../../../../../../assets/create_color_palette_example_1.png "建立色彩調色盤：範例 1"){zoomable="yes"}
+![建立色彩調色盤：範例 1](create-color-palette-16.resources/create-color-palette-16-02.png "建立色彩調色盤：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![建立色彩調色盤：範例 2](../../../../../../assets/create_color_palette_example_2.png "建立色彩調色盤：範例 2"){zoomable="yes"}
+![建立色彩調色盤：範例 2](create-color-palette-16.resources/create-color-palette-16-03.png "建立色彩調色盤：範例 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![建立色彩調色盤：範例 3](../../../../../../assets/create_color_palette_example_3.png "建立色彩調色盤：範例 3"){zoomable="yes"}
+![建立色彩調色盤：範例 3](create-color-palette-16.resources/create-color-palette-16-04.png "建立色彩調色盤：範例 3"){zoomable="yes"}

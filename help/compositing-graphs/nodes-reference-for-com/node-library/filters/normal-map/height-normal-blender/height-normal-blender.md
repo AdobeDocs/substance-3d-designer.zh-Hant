@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高度標準攪拌機
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 2%
+source-wordcount: '126'
+ht-degree: 3%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-normal-blender.png){width="128px"}
+![](height-normal-blender.resources/height-normal-blender-01.png){width="128px"}
 
-## 高度標準攪拌機
-
-**收錄於：***濾鏡/法線貼圖*
-
-**很簡單**
+<b>收錄於：</b> 法線貼圖>濾波器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,27 +37,24 @@ ht-degree: 2%
 
 這比手動用分開節點來快速混合細節，但你可能會覺得某些需求缺乏控制和細膩度。
 
-## 參數
-
-### 輸入
-
-* **高度**： *灰階輸入*\
-  用來混合的灰階高度圖。
-* **一般：***色彩輸入*\
-  用來混合的基礎法線貼圖。
-
-### 參數
-
-* **正常強度**： *0.0 - 16.0*&#x200B;高度輸入的正常轉換強度。
-* **一般格式**： *DirectX、OpenGL*\
-  切換不同的法線貼圖格式（反轉綠色通道）。
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>高度</b> <i>灰階輸入</i> | 用來混合的灰階高度圖。 |
+| <b>正常</b> <i>色彩輸入</i> | 用來混合的基礎法線貼圖。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>正常強度</b> <i>0.0 - 16.0</i> | 高度輸入的正常換算強度。 |
+| <b>一般格式</b> <i>DirectX、OpenGL</i> | 切換不同的法線貼圖格式（反轉綠色通道）。 |

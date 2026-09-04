@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 水晶2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/crystal-2.png){width="128px"}
+![](crystal-2.resources/crystal-2-01.png){width="128px"}
 
-## 水晶2
-
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,21 +37,26 @@ ht-degree: 1%
 
 這有點小眾的聲音：對於需要這類細節的罕見情況很有用，例如重現細膩的大理石圖案或做布料時。
 
-## 參數
-
-* **比例**： *1 - 16*\
-  設定了效果的全球尺度。
-* **無障礙**： *0.0 - 1.0*\
-  透過相位移來引入微小的變化。
-* **非平方展開**： *假/真*\
-  能以非平方比率補償擠壓與拉伸。
-
-## 範例圖片
-
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell1_position-par_dx_table_row-r0-column-c0_image" src="../../../../../../assets/crystal-2-1.png" width="256px"/></div> |
-| --- |
-|  |
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>規模</b> <i>1 - 16</i> | 設定了效果的全球尺度。 |
+| <b>混亂</b> <i>0.0 - 1.0</i> | 透過相位移來引入微小的變化。 |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="crystal-2.resources/crystal-2-02.png" />
+        </td>
+    </tr>
 </table>

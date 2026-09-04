@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 油漆磨損
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 6%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/paint-wear.png){width="128px"}
+![](paint-wear.resources/paint-wear-01.png){width="128px"}
 
-## 油漆磨損
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**中級**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,34 +37,40 @@ ht-degree: 1%
 
 這個面具象徵油漆剝落與邊緣磨損。
 
-## 參數
-
-### 輸入
-
-* **環境遮蔽**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。
-* **曲率**： *灰階輸入*\
-  烘焙貼圖用於內部效果和遮罩。
-* **變異遮罩**： *灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **等級**： *0.0 - 1.0*\
-  設定總油漆磨損量，逐漸顯現。
-* **對比**&#x200B;度： *0.0 - 1.0*\
-  調整結果的對比度。
-* **遮蔽度**： *0.0 - 1.0*&#x200B;設定烘焙 AO 在較暗區域防止磨損的效果。
-* **半徑**： *0.0 - 2.0*&#x200B;設定剝削效應從凸邊擴散的範圍。
-* **變化**： *0.0 - 1.0*&#x200B;設定變化量（垃圾搖滾）以融入效果中。
-* **覆蓋變體遮罩**： *False/True*&#x200B;啟用自訂變體（grunge）地圖輸入槽。
-
-## 範例圖片
-
-![](../../../../../../assets/paint-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>環境遮蔽</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 |
+| <b>曲率</b> <i>灰階輸入</i> | 烘焙貼圖用於內部效果和遮罩。 |
+| <b>變異遮罩</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>關卡</b> <i>0.0 - 1.0</i> | 設定總油漆磨損量，逐漸顯現。 |
+| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
+| <b>遮蔽</b> <i>0.0 - 1.0</i> | 它設定了烘烤 AO 在較暗區域防止磨損的效果。 |
+| <b>半徑</b> <i>0.0 - 2.0</i> | 用以設定剝落效應從凸邊緣擴散的程度。 |
+| <b>變體</b> <i>0.0 - 1.0</i> | 設定變化（如垃圾搖滾）以融入效果中。 |
+| <b>覆寫變異遮罩</b> <i>錯誤/真實</i> | 啟用自訂變體（垃圾搖滾）地圖輸入槽。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="paint-wear.resources/paint-wear-02.gif" />
+        </td>
+    </tr>
 </table>

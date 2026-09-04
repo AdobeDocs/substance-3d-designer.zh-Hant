@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 實質圖中的繼承
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1692'
+source-wordcount: '1681'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明繼承如何在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中應用[於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，以及繼承對圖的輸出影響。
 
-![繼承方法](../../assets/inheritance-overview-1.jpg "繼承方法"){width="1400px"}
+![繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-01.jpg "繼承方法"){width="1400px"}
 
 ## 概觀
 
@@ -38,7 +38,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![「絕對」繼承方法](../../assets/ds-inheritance-absolute.png "圖示 「絕對」繼承方法圖示"){width="128px"}
+![「絕對」繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-02.png "圖示 「絕對」繼承方法圖示"){width="128px"}
 
 <b>絕對</b>
 
@@ -47,7 +47,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </td>
 <td style="border: 0;" valign="top">
 
-![「相對於輸入」繼承方法](../../assets/ds-inheritance-relative-to-input.png "的圖示 「相對於輸入」繼承方法的圖示"){width="128px"}
+![「相對於輸入」繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "的圖示 「相對於輸入」繼承方法的圖示"){width="128px"}
 
 <b>相對於輸入</b>
 
@@ -56,7 +56,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </td>
 <td style="border: 0;" valign="top">
 
-![相對於父繼承方法的圖示 相對於父繼承方法](../../assets/ds-inheritance-relative-to-parent.png "的圖示"){width="128px"}
+![相對於父繼承方法的圖示 相對於父繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "的圖示"){width="128px"}
 
 <b>相對於母本</b>
 
@@ -66,7 +66,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </tr>
 </table>
 
-![繼承方法示範繼](../../assets/inheritance-overview.gif "承方法示範")
+![繼承方法示範繼](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-05.gif "承方法示範")
 
 繼承方法用於節點的 [基礎參數，該參數](../../compositing-graphs/graph-parameters/graph-parameters.md)是所有 *節點共同擁有的參數集合，控制其行為的基本面向* 。 這些參數包括：
 
@@ -86,17 +86,17 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 >[!NOTE]
 >
-> **輸出大小：**&#x200B;使用![](../../assets/props-output-size-lock.jpg)鎖定鍵讓高度值&#x200B;*與寬度值相符*\
-> **隨機種子：** 使用 ![](../../assets/prop-randomise.jpg) 按鈕為隨機種子指派新的隨機值。
+> **輸出大小：**&#x200B;使用![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-06.jpg)鎖定鍵讓高度值&#x200B;*與寬度值相符*\
+> **隨機種子：** 使用 ![](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-07.jpg) 按鈕為隨機種子指派新的隨機值。
 
 ## 變革
 
 ### 繼承方法的變更
 
-在[屬性](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)面板中，節點屬性的基礎參數[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)區塊中列出的所有參數，都有一個（圖示）<b>「設定繼承方法</b>」下拉按鈕，位於標籤對面。\
+在屬性面板中，節點屬性的基礎參數[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)區塊中列出的所有參數，都有一個（圖示）<b>「設定繼承方法</b>」下拉按鈕，位於標籤對面。\
 這個按鈕讓你選擇應該用來執行參數的繼承方法。
 
-![變更繼承方法](../../assets/inheritance-change.gif "變更繼承方法"){width="512px"}
+![變更繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-08.gif "變更繼承方法"){width="512px"}
 
 在大多數情況下， *節點*&#x200B;的基底參數會設定為 *相對於輸入*，以利用串接節點的程序行為，而 *圖*&#x200B;的基底參數則設為 *相對於父*&#x200B;節點，讓全域參數能適應圖所處的情境。
 
@@ -146,7 +146,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![「相對於輸入」繼承方法](../../assets/ds-inheritance-relative-to-input.png "的圖示 「相對於輸入」繼承方法的圖示"){width="128px"}
+![「相對於輸入」繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-03.png "的圖示 「相對於輸入」繼承方法的圖示"){width="128px"}
 
 <b>相對於輸入</b>
 
@@ -155,7 +155,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </td>
 <td style="border: 0;" valign="top">
 
-![相對於父繼承方法的圖示 相對於父繼承方法](../../assets/ds-inheritance-relative-to-parent.png "的圖示"){width="128px"}
+![相對於父繼承方法的圖示 相對於父繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-04.png "的圖示"){width="128px"}
 
 <b>相對於母本</b>
 
@@ -180,17 +180,17 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![主要輸入色彩/灰階](../../assets/inheritance-primary-input-both.png){width="48px"}
+![主要輸入色彩/灰階](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-09.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![主要輸入色](../../assets/inheritance-primary-input-color.png){width="48px"}
+![主要輸入色](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-10.png){width="48px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![主要輸入灰階](../../assets/inheritance-primary-input-grayscale.png){width="48px"}
+![主要輸入灰階](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-11.png){width="48px"}
 
 </td>
 </tr>
@@ -201,7 +201,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </td>
 <td style="border: 0;" valign="top">
 
-![輸入連接器類型](../../assets/inheritance-primary-input.jpg "輸入連接器類型")
+![輸入連接器類型](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-12.jpg "輸入連接器類型")
 
 </td>
 </tr>
@@ -233,14 +233,14 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 **範例A**
 
-![繼承圖 繼](../../assets/inheritance-schematic-a.png "承圖 A"){zoomable="yes"}
+![繼承圖 繼](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-13.png "承圖 A"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **範例B**
 
-![繼承圖B](../../assets/inheritance-schematic-b.png "繼承圖 B"){zoomable="yes"}
+![繼承圖B](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-14.png "繼承圖 B"){zoomable="yes"}
 
 </td>
 </tr>
@@ -252,14 +252,14 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 **範例C**
 
-![繼承圖 C](../../assets/inheritance-schematic-c.png "繼承圖 C"){zoomable="yes"}
+![繼承圖 C](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-15.png "繼承圖 C"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 **範例D**
 
-![繼承圖 D](../../assets/inheritance-schematic-d.png "繼承圖 D"){zoomable="yes"}
+![繼承圖 D](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-16.png "繼承圖 D"){zoomable="yes"}
 
 </td>
 </tr>
@@ -295,6 +295,6 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) 節點非常容易受到這種影響，因為它被頻繁使用。它的 <b>背景</b> 輸入就是主要輸入。
 
-![輸出大小繼承](../../assets/inheritance-blend.jpg "輸出大小繼承"){width="512px"}
+![輸出大小繼承](inheritance-in-substance-compositing-graphs.resources/inheritance-in-substance-compositing-graphs-17.jpg "輸出大小繼承"){width="512px"}
 
 你需要注意混合兩個輸入的順序：你想保留解析度和精度的輸入，如果需要的混合模式允許的話，應該連接到背景輸入。 如果沒有，那你可能需要調整 Blend 節點的基礎參數和繼承方法來補償。

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 主工具列
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![主工具列](../../assets/mainmenu.png "主工具列")
+![主工具列](the-main-toolbar.resources/the-main-toolbar-01.png "主工具列")
 
 </td>
 </tr>
@@ -37,21 +37,21 @@ ht-degree: 0%
 
 ## 快速存取按鈕
 
-![](../../assets/newsubstance.png)  <b>New Substance 圖...：</b> （Ctrl+N） 會 [顯示新圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 視窗，然後建立一個包含 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的新套件。
+![](the-main-toolbar.resources/the-main-toolbar-02.png)  <b>New Substance 圖...：</b> （Ctrl+N） 會 [顯示新圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 視窗，然後建立一個包含 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的新套件。
 
-![](../../assets/open.png)  <b>開啟...：</b> （Ctrl+O） 開啟現有[的物質套件（.SBS， .SBSAR， .SBSASM）。](../../getting-started/overview/overview.md)
+![](the-main-toolbar.resources/the-main-toolbar-03.png)  <b>開啟...：</b> （Ctrl+O） 開啟現有[的物質套件（.SBS， .SBSAR， .SBSASM）。](../../getting-started/overview/overview.md)
 
-![](../../assets/saveall.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有套件。
+![](the-main-toolbar.resources/the-main-toolbar-04.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有套件。
 
-![](../../assets/undo.png)  <b>復原：</b> （Ctrl+Z）還原上一次操作。
+![](the-main-toolbar.resources/the-main-toolbar-05.png)  <b>復原：</b> （Ctrl+Z）還原上一次操作。
 
-![](../../assets/redo.png)  <b>重做：</b> （Ctrl+Y）重做上次未完成的操作。
+![](the-main-toolbar.resources/the-main-toolbar-06.png)  <b>重做：</b> （Ctrl+Y）重做上次未完成的操作。
 
 ## 檔案
 
 <b>新增：</b> 開啟子選單以建立圖表或套件：
 
-* <b>新物質圖......：</b>（Ctrl+N） 呈現[新物質圖](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/create-a-graph-102400068.html)視窗，讓你可以設定新的[物質圖;](../../compositing-graphs/substance-compositing-graphs.md)
+* <b>新實體圖...：</b>（Ctrl+N） 呈現[新圖形](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)視窗，讓你能建立新的[實體圖;](../../compositing-graphs/substance-compositing-graphs.md)
 * <b>新 Substance 函數圖：</b> 建立一個包含 [Substance 函數圖](../../function-graphs/function-graphs.md)的新套件;
 * <b>Empty：</b> 產生一個空的套件。
 
@@ -110,11 +110,11 @@ ht-degree: 0%
 
 <b>視窗未最大化：</b>當任何面板被&#x200B;*最大化*&#x200B;時，此選項會將其恢復最大化，並恢復視窗最大化前&#x200B;*的*&#x200B;版面配置
 
-<b>Explorer：</b> 顯示/隱藏 [Explorer視窗。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)
+<b>探險者：</b> 顯示/隱藏探 [險者](../the-explorer-window/the-explorer-window.md)。
 
 <b>圖表：</b> 顯示/隱藏 [圖表視窗](../../interface/the-graph-view/the-graph-view.md)。
 
-<b>參數：</b> 顯示/隱藏 [屬性視窗](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/parameters-ui-129368153.html)。
+<b>參數：</b>顯示/隱藏屬性[&#128279;](../properties/properties.md)。
 
 <b>控制台：</b> 顯示/隱藏控制台視窗。
 
@@ -122,7 +122,7 @@ ht-degree: 0%
 
 <b>依賴管理工具：</b> 顯示/隱藏 [依賴管理工具](../../interface/dependency-manager/dependency-manager.md)。
 
-<b>2D 視圖：</b> 顯示/隱藏 [2D 視圖。](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html)
+<b>2D 視圖：</b> 顯示/隱藏 [2D 視圖](../2d-view/2d-view.md)。
 
 <b>圖書館：</b> 顯示/隱藏 [圖書館視窗。](../../interface/the-library/the-library.md)
 
@@ -153,9 +153,9 @@ ht-degree: 0%
 
 <b>給予回饋......：</b> 在 Adobe [支援社群](https://www.adobe.com/go/Substance-3D-feedback-Designer) 首頁開啟你的瀏覽器。
 
-<b>Substance 3D 資產：</b> 瀏覽 [訂閱者的高級 3D 內容](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html) （前稱 Substance Source）。
+<b>Substance 3D 資產：</b> 瀏覽 [訂閱者的高級 3D 內容](https://substance3d.adobe.com/assets) （前稱 Substance Source）。
 
-<b>Substance 3D 社群資產：</b> 讓你瀏覽 [免費社群資產](https://helpx.adobe.com/tw/substance-3d/unlisted/community-assets.html) （前稱 Substance Share）。
+<b>Substance 3D 社群資產：</b> 讓你瀏覽 [免費社群資產](https://substance3d.adobe.com/community-assets/) （前稱 Substance Share）。
 
 <b>管理我的帳號\*：</b> 開啟你的 Adobe 帳號網頁。
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立 MDL 圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明如何在 Substance 3D Designer 中建立 MDL 圖以撰寫 MDL 材料的過程。
 
-![MDL 圖建立路徑](../../assets/mdl-new-graph-hl.png "MDL 圖建立路徑")
+![MDL 圖建立路徑](creating-an-mdl-graph.resources/creating-an-mdl-graph-01.png "MDL 圖建立路徑")
 
 *在 Designer 介面中建立新 MDL 圖形的路徑*
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 您可以使用以下任一方法建立 MDL 圖：
 
 * 在主選單欄選擇新> MDL 圖表&#x200B;**選項&#x200B;*>**&#x200B;檔案*
-* 點擊![](../../assets/mdl-new-graph-icon.png)**主工具列中的&#x200B;*「新增 MDL 圖表**」按鈕*
+* 點擊![](creating-an-mdl-graph.resources/creating-an-mdl-graph-02.png)**主工具列中的&#x200B;*「新增 MDL 圖表**」按鈕*
 * 在檔案總管面板中右鍵點擊&#x200B;*現有套件&#x200B;***，選擇**&#x200B;新> MDL 圖表&#x200B;**選項**
 
 您將看到 **新的 MDL 圖表** 對話框，詳見下方。
 
-![新 MDL 圖對話框](../../assets/mdl-templates.png "新 MDL 圖對話")
+![新 MDL 圖對話框](creating-an-mdl-graph.resources/creating-an-mdl-graph-03.png "新 MDL 圖對話")
 
 *新的 MDL 圖形對話框*
 
@@ -59,10 +59,10 @@ ht-degree: 0%
 
 範本清單可透過&#x200B;*專案&#x200B;**組合框旁**&#x200B;的按鈕*&#x200B;以不同模式顯示：
 
-* **![](../../assets/mdl-template-recent-icon.png)顯示最近使用的**：篩選清單，依照最近到最近的&#x200B;*順序顯示最後使用的*&#x200B;範本，頂端為最新的項目
-* **![](../../assets/mdl-template-graphs-icon.png)顯示圖表**：範本僅&#x200B;*依標籤*&#x200B;顯示，依模板目錄中 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 檔案的順序排列
-* **![](../../assets/mdl-template-packages-icon.png)顯示 Substance 3D 檔案**：範本依其標籤顯示，作為 *其所屬* Substance 3D 檔案的子檔，依範本目錄中檔案的順序排列
-* **![](../../assets/mdl-template-directory-icon.png)顯示目錄**：範本依照其所屬&#x200B;*目錄的子目錄*&#x200B;標籤顯示，順序依照範本目錄中檔案的順序排列
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-04.png)顯示最近使用的**：篩選清單，依照最近到最近的&#x200B;*順序顯示最後使用的*&#x200B;範本，頂端為最新的項目
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-05.png)顯示圖表**：範本僅&#x200B;*依標籤*&#x200B;顯示，依模板目錄中 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 檔案的順序排列
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-06.png)顯示 Substance 3D 檔案**：範本依其標籤顯示，作為 *其所屬* Substance 3D 檔案的子檔，依範本目錄中檔案的順序排列
+* **![](creating-an-mdl-graph.resources/creating-an-mdl-graph-07.png)顯示目錄**：範本依照其所屬&#x200B;*目錄的子目錄*&#x200B;標籤顯示，順序依照範本目錄中檔案的順序排列
 
 ### 屬性
 

@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f320cf6842ff56ac24912ceda264f30c28317c05
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Substance 3D Designer 提供以下配置：
 |  |  |
 | --- | --- |
 | <b>2D 與 3D 視圖顯示預設</b> | 設定 2D 視圖與 [3D 視](../interface/3d-view/3d-view.md)圖視窗的預設&#x200B;*顯示*&#x200B;色彩空間[&#128279;](../interface/2d-view/2d-view.md)。*預設值：由 OpenColor IO 設定檔設定* |
-| <b>色彩管理縮圖</b> | 讓 Designer 自動將節點&#x200B;*縮圖*&#x200B;轉換成&#x200B;*圖形中的工作*&#x200B;色彩空間。 *預設：已勾選* |
+| <b>色彩管理縮圖</b> | 讓 Designer 自動將節點 *縮圖* 轉換成 *圖形中的工作* 色彩空間。 *預設：已勾選* |
 
 ## Adobe ACE
 
@@ -88,7 +88,7 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 
 |  |  |
 | --- | --- |
-| <b>工作空間</b> | 此設定允許你選擇工作色彩空間，在 *Substance 3D Designer 中執行色彩操作*。 *預設值：sRGB IEC61966-2.1* |
+| <b>工作空間</b> | 此設定允許你選擇工作色彩空間，在 *Substance 3D Designer 中執行色彩操作* 。 *預設值：sRGB IEC61966-2.1* |
 | <b>呈現意圖</b> | 這個選項讓你可以控制顏色&#x200B;*在工作色彩空間範圍之外***&#x200B;時，該如何轉換顏色。*預設：相對比色* |
 
 ### 點陣色彩空間預設值
@@ -96,7 +96,7 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 |  |  |
 | --- | --- |
 | <b>8 位元影像</b> | 設定預設 ICC 配置檔用於 8-bit bitmap。 *預設值：* sRGB IEC61966-2.1 ** |
-| <b>16 位元影像</b> | 將預設 ICC 設定檔設為使用 16 位元位圖。 **預設值：*sRGB IEC61966-2.1*** |
+| <b>16 位元影像</b> | 將預設 ICC 設定檔設為使用 16 位元位圖。 **預設值： *sRGB IEC61966-2.1*** |
 | <b>浮點影像</b> | 設定預設的 ICC 配置檔用於浮點精度點陣圖，例如 *\*.exr *或*\*.hdr* 格式的 *HDR* 影像。*預設：原始設定（即未套用設定檔）* |
 | <b>若有，請使用內嵌的 ICC 設定檔</b> | 讓設計師使用嵌入點陣圖中的 ICC 設定檔，取代上述預設設定。 *預設：已勾選* |
 
@@ -152,18 +152,18 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 > 
 > 特別是，**檔案名稱**&#x200B;可用來自動&#x200B;*設定適當的色彩空間*。請注意，檔名中的色彩空間名稱必須 *與 OpenColorIO 設定檔中的名稱* 相符（例如 *myImage\_utility - 線性 -srgb.png* 會設定為 *Utility - Linear - sRGB* 色彩空間）。
 
-![位圖色彩空間設定](../assets/2019-3-0-bitmap-clr-space.png "位元色彩空間設定")
+![位圖色彩空間設定](color-management.resources/color-management-01.png "位元色彩空間設定")
 
 ## 出口產品
 
 使用<b>匯出輸出</b>對話框時，可以為每個&#x200B;*輸出指派<b>色彩空間</b>（OCIO）或附加 <b>ICC 設定檔</b>（Adobe ACE）。*\
 Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩空間。
 
-![匯出輸出對話框](../assets/2019-3-0-clr-mgt-export-outputs.png "匯出輸出對話框"){width="512px"}
+![匯出輸出對話框](color-management.resources/color-management-02.png "匯出輸出對話框"){width="512px"}
 
-你也可以為從 2D View[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/2d-view-deprecated-129368155.html) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
+你也可以為從 2D View[&#128279;](../interface/2d-view/2d-view.md) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
 
-![2D 檢視匯出選項](../assets/2019-3-0-clr-mgt-save-image.png "2D 檢視匯出選項")
+![2D 檢視匯出選項](color-management.resources/color-management-03.png "2D 檢視匯出選項")
 
 ## 2D 與 3D 視圖
 
@@ -171,7 +171,7 @@ Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩�
 
 你可以 *隨時透過顯示工具列的下拉選單切換* 色彩管理並更改 *視圖的顯示變換* 。
 
-![2D 檢視](../assets/2019-3-0-clr-mgt-display-toolbar.png "中的色彩空間設定 2D 檢視中的色彩空間設定"){width="512px"}
+![2D 檢視](color-management.resources/color-management-04.png "中的色彩空間設定 2D 檢視中的色彩空間設定"){width="512px"}
 
 ### 函式庫 HDRI 環境
 
@@ -180,7 +180,7 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 
 在這種情況下，圖書館 HDRI 環境的色彩空間應該在 3D 檢視面板<b>的環境</b>選單中手動&#x200B;*設定*。
 
-![3D 檢視環境](../assets/2019-3-0-clr-mgt-hdri-env.png "的色彩空間設定 3D 檢視環境的色彩空間設定"){width="512px"}
+![3D 檢視環境](color-management.resources/color-management-05.png "的色彩空間設定 3D 檢視環境的色彩空間設定"){width="512px"}
 
 ## 色彩轉換節點
 
@@ -209,9 +209,9 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 </tr>
 </table>
 
-這些工具在處理未使用&#x200B;*色彩管理或 [Substance 3D 素材](https://helpx.adobe.com/tw/substance-3d/unlisted/assets.html)庫材質的*&#x200B;圖表時非常有用。
+這些工具在處理未使用&#x200B;*色彩管理或 [Substance 3D 素材](https://substance3d.adobe.com/assets)庫材質的*&#x200B;圖表時非常有用。
 
-![函式庫](../assets/2019-3-0-clr-mgt-nodes.png "中的色彩轉換節點函式庫中的色彩轉換節點"){width="512px"}
+![函式庫](color-management.resources/color-management-06.png "中的色彩轉換節點函式庫中的色彩轉換節點"){width="512px"}
 
 ## 已知限制
 

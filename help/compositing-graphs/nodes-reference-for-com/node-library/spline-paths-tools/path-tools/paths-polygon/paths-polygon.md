@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 路徑多邊形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 2%
+source-wordcount: '110'
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/paths-polygon-icon.png "節點圖示")
+![節點圖示](paths-polygon.resources/paths-polygon-01.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -41,16 +41,21 @@ ht-degree: 2%
 </tr>
 </table>
 
-## 輸出連接器
+<a name="outputs"></a>
 
-<b>路徑</b> *顏色*\
-包含一條編碼路徑的清單，描述一個編碼段的清單。\
-此資訊不允許直接使用或修改。 搜尋路徑以尋找相容節點。
+## 輸出
+
+|  |  |
+|:---|:---|
+| <b>路徑</b> <i>顏色</i> | 包含一條編碼路徑的清單，描述一個編碼段的清單。<br>此資訊不允許直接使用或修改。 搜尋路徑以尋找相容節點。 |
+
+<a name="parameters"></a>
 
 ## 參數
 
-<b>整數邊數</b>* *\
-提示：輸入介於100到1000之間的數字以產生圓圈。
+|  |  |
+|:---|:---|
+| <b>面數</b> <i>整數</i> | 提示：輸入介於100到1000之間的數字以產生圓圈。 |
 
 ## 範例
 
@@ -58,12 +63,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/PathsPolygon_Variant1_1.jpg "節點範例 1")
+![節點範例 1](paths-polygon.resources/paths-polygon-02.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/PathsPolygon_Variant2.jpg "節點範例 2")
+![節點範例 2](paths-polygon.resources/paths-polygon-03.jpg "節點範例 2")
 
 </td>
 </tr>

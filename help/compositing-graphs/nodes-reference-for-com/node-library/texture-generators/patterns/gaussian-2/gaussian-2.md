@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 高斯2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '61'
-ht-degree: 3%
+source-wordcount: '57'
+ht-degree: 8%
 
 ---
 
@@ -22,34 +22,38 @@ ht-degree: 3%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gaussian-2.png){width="128px"}
+![](gaussian-2.resources/gaussian-2-01.png){width="128px"}
 
-## 高斯2
-
-**收錄於：***貼圖產生器**/圖案*
-
-**很簡單**
+<b>收錄於：</b> 紋理產生器>圖案
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 簡單的高斯斑點圖案。
 
-## 參數
-
-* **鋪磚**： *1 - 16*\
-  設定結果應該鋪磚的次數。
-* **非平方展開**： *假/真*\
-  能以非平方比率補償擠壓與拉伸。
-
-## 範例圖片
-
-![](../../../../../../assets/gaussian-2-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>鋪磚</b> <i>1 - 16</i> | 設定結果應該鋪磚的次數。 |
+| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="gaussian-2.resources/gaussian-2-02.gif" />
+        </td>
+    </tr>
 </table>

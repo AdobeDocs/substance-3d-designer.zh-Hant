@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 場景資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 0b8b2d2c05587d7fe84a71bb54244a492540d6dc
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ ht-degree: 0%
 * 點選 *套件的 RMB* ，並在情境選單中選擇 <b>連結> 3D 網格</b> 選項
 * 選擇任何支援的 3D 場景檔案
 * 如果 <b>跳出「連結成 Udim 網格</b> 」對話框提示，請點擊 *「否* 」，除非你想烘焙 UV 圖塊
-* 在資源總管載[入後，點選&#x200B;*右鍵*，然後在情境選單中選擇<b>「烘焙模型資訊</b>](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/the-explorer-129368147.html)」選項
+* 在資源總管載[入後，點選&#x200B;*右鍵*，然後在情境選單中選擇<b>「烘焙模型資訊</b>](../../interface/the-explorer-window/the-explorer-window.md)」選項
 * [會出現烘焙模型資訊](../../bakers/bakers.md)對話框，讓你可以設定並執行任何網格貼圖烘焙
 
-![烘焙網格貼圖](../../assets/bake-model-information.gif "烘焙網格貼圖"){width="512px"}
+![烘焙網格貼圖](3d-scene-resource.resources/3d-scene-resource-01.gif "烘焙網格貼圖"){width="512px"}
 
 ## UDIM/UV-tile 的使用
 

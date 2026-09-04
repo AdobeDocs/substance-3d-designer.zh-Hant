@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 輸出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '805'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：輸出](../../../../assets/comp_output_1.png "原子節點：輸出"){width="200px"}
+![原子節點：輸出](output.resources/output-01.png "原子節點：輸出"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,23 +37,23 @@ ht-degree: 0%
 </tr>
 </table>
 
-同樣地，當已發佈的 [SBSAR 檔案](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)包含此圖時，該檔案可輸出該影像，並用於任何使用該檔案的整合或外掛。
+同樣地，當已發佈的 [SBSAR 檔案](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 包含此圖時，該檔案可輸出該影像，並用於任何使用該檔案的整合或外掛。
 
 它有一個單一輸入槽，且不拘型別，意即在與其連接的資料型別之後自動輸入。
 
 它沒有參數，而是有屬性，對於正確標示輸出並使其用於預期用途非常重要。
 
-每個 Substance 圖必須至少有一個&#x200B;**&#x200B;輸出節點。若無輸出，圖無法回傳實際結果，並[會觸發警告](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md)。
+每個 Substance 圖必須至少有一個&#x200B;**&#x200B;輸出節點。若無輸出，圖無法回傳實際結果，並 [會觸發警告](../../../../technical-issues/warnings-and-errors/warnings-and-errors.md) 。
 
 ## 屬性
 
 |  |  |
 | --- | --- |
-| <b>識別碼</b> *弦* | 輸出的唯一識別碼。 此屬性不能留空，且不得包含特殊字元或空格。 識別碼是因為節點的標籤是空白的，「Label」屬性會留空。 它也可以用來命名 [匯出的材質](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
+| <b>識別碼</b> *弦* | 輸出的唯一識別碼。 此屬性不能留空，且不得包含特殊字元或空格。   識別碼是因為節點的標籤是空白的，「Label」屬性會留空。 它也可以用來命名 [匯出的材質](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *弦* | 輸出工具提示的可選描述是 Substance 圖表。 |
 | <b>唱片公司</b> *弦* | 此標記用於輸出節點，並在代表此圖的實例節點[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中作為對應連接器。標籤可能包含空格和特殊字元。 |
 | <b>使用者資料</b> *弦* | 可選的元資料可用於特定過濾操作。 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d/apps/painter.html) 利用這些資料來 [推動部分功能](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)...... |
-| <b>團體</b> *弦* | 屬性用於將輸出群組在一起，用於 Designer [的連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 具有相同「群組」屬性的輸出會在「Compact Material」連結建立模式下以單一連線呈現。 |
+| <b>團體</b> *弦* | 屬性用於將輸出群組在一起，用於 Designer [的連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。   具有相同「群組」屬性的輸出會在「Compact Material」連結建立模式下以單一連線呈現。 |
 
 ## 整合屬性
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>組成部分</b> *弦* | 用來將一些貼圖通道映射到 AxF 工作流程中適當的 SVBRDF 著色器輸入。 |
-| <b>使用情況</b> *弦* | 定義輸出節點的型別與使用方式。 這個房產很重要，因為它能驅動：<ul data-preserve-html="true"> <li data-preserve-html="true">在使用某些 [連結建立模式時，Substance 圖中節點的連結](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md) </li> <li data-preserve-html="true">將貼圖與 3D View 中的著色器連結（見下文：「[關於 3D View](#usages-role-3dview) 中使用的角色」）</li> <li data-preserve-html="true">在整合/插件中將貼圖與材質連結</li> </ul> |
+| <b>使用情況</b> *弦* | 定義輸出節點的型別與使用方式。 這個房產很重要，因為它能驅動：<ul data-preserve-html="true"> <li data-preserve-html="true">在使用某些[連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)時，Substance 圖中節點的連結 </li> <li data-preserve-html="true">將貼圖與 3D View 中的著色器連結（見下文：「[關於 3D View](#usages-role-3dview) 中使用的角色」）</li> <li data-preserve-html="true">在整合/插件中將貼圖與材質連結</li> </ul> |
 | <b>色彩空間</b> *弦* | 設定該輸出應解讀的色彩空間。 在其他應用程式中被部分整合使用，且在 Designer 中沒有影響。 |
 
 ### 關於 3D 視圖中使用的角色
@@ -101,11 +101,11 @@ ht-degree: 0%
 <table>
   <tr style="border: 0">
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput2.png" alt="defaultouput2">
+      <img src="output.resources/output-02.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td style="border: 0">
-      <img src="../../../../assets/defaultouput1.png" alt="預設1">
+      <img src="output.resources/output-03.png" alt="預設1">
       <br><i>之後</i>
     </td>
   </tr>

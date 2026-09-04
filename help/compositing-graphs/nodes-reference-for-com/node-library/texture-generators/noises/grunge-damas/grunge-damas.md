@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾達瑪斯
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '140'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungedamas.jpg){width="200px"}
+![](grunge-damas.resources/grunge-damas-01.jpg){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,19 +39,29 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 參數
 
-* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
-* **對比***浮動*&#x200B;調整影像的對比度。
-* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
-* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
-* 進階
-  * **失真***浮點*&#x200B;調整圖案中的失真量。
-  * **分割整***數*&#x200B;調整模式中的分割或梯度重複數量。
-  * **波***浪整數*&#x200B;調整圖案中的波浪數量。
-  * **細節** *浮動*&#x200B;調整較小失真強度。
-  * **旋轉隨機***浮動*&#x200B;調整每個波浪旋轉的隨機性。
+|  |  |
+|:---|:---|
+| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
+| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
+| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
+| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>進階</b> |  |
+| <b>失真</b> <i>浮標</i> | 調整圖案中的失真程度。 |
+| <b>部門</b> <i>整數</i> | 調整圖案中的分段或漸層重複數量。 |
+| <b>波浪</b> <i>整數</i> | 調整波形中的波浪數量。 |
+| <b>詳情</b> <i>浮標</i> | 調整較小失真強度。 |
+| <b>旋轉隨機</b> <i>浮標</i> | 調整每個波的旋轉隨機性。 |
 
-## 範例圖片
+## 範例
 
-![](../../../../../../assets/grungedamas-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="grunge-damas.resources/grunge-damas-02.jpg" />
+        </td>
+    </tr>
+</table>

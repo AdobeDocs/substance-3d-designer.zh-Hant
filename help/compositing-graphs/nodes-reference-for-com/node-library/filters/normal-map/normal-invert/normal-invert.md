@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 普通無脊椎
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '106'
 ht-degree: 1%
 
 ---
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-invert.png){width="128px"}
+![](normal-invert.resources/normal-invert-01.png){width="128px"}
 
-## 普通無脊椎
-
-**收錄於：***濾鏡/法線貼圖*
-
-**很簡單**
+<b>收錄於：</b> 法線貼圖>濾波器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,19 +37,17 @@ ht-degree: 1%
 
 請記得，幾乎每個使用 Normalmap 作為輸入或輸出的節點，都有反轉 Green 通道的選項，適用於 DirectX 或 OpenGL 風格的法線貼圖。 這表示在這些情況下，你幾乎不需要這個節點。
 
-## 參數
-
-* **倒紅**： *錯誤/真實*
-* **倒綠色**： *錯誤/真實*
-* **反轉藍**： *錯誤/真實*
-* **反轉阿爾法**： *錯誤/真實*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
-
 </td>
 </tr>
 </table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>倒紅</b> <i>錯誤/真實</i> |  |
+| <b>英弗特格林</b> <i>錯誤/真實</i> |  |
+| <b>逆藍</b> <i>錯誤/真實</i> |  |
+| <b>逆阿爾法</b> <i>錯誤/真實</i> |  |

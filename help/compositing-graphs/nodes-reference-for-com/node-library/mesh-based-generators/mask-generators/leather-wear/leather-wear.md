@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 皮革服飾
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 1%
+source-wordcount: '253'
+ht-degree: 5%
 
 ---
 
@@ -22,18 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/leather-wear.png){width="128px"}
+![](leather-wear.resources/leather-wear-01.png){width="128px"}
 
-## 皮革服飾
-
-**收錄於：***基於網格的生成器**/遮罩生成器*
-
-**中級**
+<b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,32 +37,40 @@ ht-degree: 1%
 
 此面具以皮革圖案代表磨損，邊緣磨損更多，基於曲線。 其功能類似 [玻璃纖維邊緣磨損](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear/fiber-glass-edge-wear.md) ，且參數大致相同。
 
-## 參數
-
-### 輸入
-
-* **曲率**： *灰階輸入*\
-  用於邊緣放置的烘焙地圖。 必備！
-* **環境遮蔽**： *灰階輸入*\
-  烘焙地圖會遮蔽某些區域。 建議，但不是必須的。
-* **垃圾搖滾輸入**： *灰階輸入*\
-  可選的 Grunge 地圖輸入槽，可透過「使用自訂 Grunge」參數切換。
-* **遮罩（可選）：***灰階輸入*\
-  遮罩槽用於遮蔽節點的效果。
-
-### 參數
-
-* **穿著等級**： *0.0 - 1.0*&#x200B;設定全球磨損等級，逐步展現。
-* **磨損對比**&#x200B;度： *0.0 - 1.0*&#x200B;設定效果對比度。
-* **垃圾搖滾量**： *0.0 - 1.0*&#x200B;設定垃圾搖滾（預設皮革圖案）的比例，讓它們在邊緣間融合。
-* **環境遮蔽遮罩**： *0.0 - 1.0*&#x200B;設定 AO 遮蔽磨損效果的程度。
-* **曲率權重**： *0.0 - 1.0*&#x200B;設定曲率邊緣對最終結果的影響程度。 即使設定為 0，你仍然需要曲率貼圖。
-* **使用 Custom Grunge**： *False/True*&#x200B;啟用內建預設皮革圖案的覆蓋。 改用自訂輸入槽吧。
-
-## 範例圖片
-
-![](../../../../../../assets/leather-wear-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="inputs"></a>
+
+## 輸入
+
+|  |  |
+|:---|:---|
+| <b>曲率</b> <i>灰階輸入</i> | 用於邊緣放置的烘焙地圖。 必備！ |
+| <b>環境遮蔽</b> <i>灰階輸入</i> | 烘焙地圖會遮蔽某些區域。 建議，但不是必須的。 |
+| <b>垃圾搖滾輸入</b> <i>灰階輸入</i> | 可選的 Grunge 地圖輸入槽，可透過「使用自訂 Grunge」參數切換。 |
+| <b>面具（選用）</b> <i>灰階輸入</i> | 遮罩槽用於遮蔽節點的效果。 |
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>磨損程度</b> <i>0.0 - 1.0</i> | 設定全球磨損水平，逐步揭示。 |
+| <b>戴對比</b> <i>0.0 - 1.0</i> | 設定效果的對比。 |
+| <b>垃圾搖滾量</b> <i>0.0 - 1.0</i> | 設定髒污（預設皮革圖案）的量，讓邊緣間融合。 |
+| <b>環境遮蔽</b> <i>0.0 - 1.0</i> | 設定 AO 掩蓋磨損影響的程度。 |
+| <b>曲率權重</b> <i>0.0 - 1.0</i> | 設定曲率邊緣對最終結果的影響程度。 即使設定為 0，你仍然需要曲率貼圖。 |
+| <b>使用自訂垃圾搖滾</b> <i>錯誤/真實</i> | 可覆蓋內建預設皮革圖案。 改用自訂輸入槽吧。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="leather-wear.resources/leather-wear-02.gif" />
+        </td>
+    </tr>
 </table>

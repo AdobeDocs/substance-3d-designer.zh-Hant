@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 實體函數圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -24,14 +24,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[實質函數圖處理](https://substance3d.adobe.com/) <b>單一值</b> （整數、浮點數、向量），而非影像資料（整組像素）。 函數也是帶有節點網路的圖，但 [所用](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
+[實質函數圖處理](https://substance3d.adobe.com/)<b>單一值</b>（整數、浮點數、向量），而非影像資料（整組像素）。函數也是帶有節點網路的圖，但 [所用](../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)節點與介面不同 [於一般的實體圖](../compositing-graphs/substance-compositing-graphs.md)。 工作流程完全基於 <b>數學運算</b> ，不會顯示任何圖片預覽縮圖，因此在使用 Substance 3D Designer 時，是 <b>更進階的方式</b> 。
 
-函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或 [FX-Map](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 的行為[&#128279;](https://helpx.adobe.com/tw/substance-3d/unlisted/documentation/sddoc/values-in-substance-3d-graphs-180192235.html)，以及在圖中使用[值。](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
+函式可用於多種情境，主要包括修改暴露參數的行為[、撰寫像素處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Map的](../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)行為[，以及在Substance圖](../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)中使用[數值。](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
 
 </td>
 </tr>
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 簡單函數
 
-![](../assets/lerpfunction_1.png)
+![](function-graphs.resources/function-graphs-02.png)
 
 在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數[&#128279;](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見，但會使用自訂函數。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 進階功能
 
-![](../assets/pixel-function_1.png){width="545px"}
+![](function-graphs.resources/function-graphs-03.png){width="545px"}
 
 這個進階功能展示了像素處理器的 [內部運作，該處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 旨在根據第二個灰階遮罩輸入的強度調整色彩貼圖輸入的色調。
 

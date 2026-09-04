@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 面對普通
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 2%
+source-wordcount: '59'
+ht-degree: 1%
 
 ---
 
@@ -22,32 +22,18 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/facing-normal.png){width="128px"}
+![](facing-normal.resources/facing-normal-01.png){width="128px"}
 
-## 面對普通
-
-**收錄於：***濾鏡/法線貼圖*
-
-**很簡單**
+<b>收錄於：</b> 法線貼圖>濾波器
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 此濾波器將法線貼圖作為入口影像，產生灰階影像，其值對應於法線在貼圖空間中面向觀察者的程度。
-
-## 參數
-
-*沒有參數。*
-
-## 範例圖片
-
-|  |
-| --- |
-| 本頁無附帶圖片。 |
 
 </td>
 </tr>

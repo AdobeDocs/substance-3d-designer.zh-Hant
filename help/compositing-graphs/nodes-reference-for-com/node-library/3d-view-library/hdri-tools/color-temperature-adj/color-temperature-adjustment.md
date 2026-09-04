@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 色溫調整
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 6c55ac0f1f6da5bc5683a34a4eca174f978eac64
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 7%
 
 ---
 
@@ -22,35 +22,39 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-temperature-adjustement.png){width="250px"}
+![](color-temperature-adjustment.resources/color-temperature-adjustment-01.png){width="250px"}
 
-## 色溫調整
-
-**收錄於：***3D 視圖/HDRI 工具*
-
-**很簡單**
+<b>收錄於：</b> HDRI 工具> 3D 視圖
 
 </td>
-<td style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
 調整輸入影像的色彩平衡。 類似於攝影中的白平衡調整。 可以用來調整 HDR 影像中走調的暖色或冷色。
 
-## 參數
-
-* **溫度**： *-1.0 - 1.0*\
-  在暖色和冷色間切換。
-* **洋紅色**： *-1.0 - 1.0*\
-  調性在洋紅色和綠色之間切換。
-* **色彩空間**：*HDR（線性）、LDR（sRGB）*決定輸入影像色彩空間的解讀方式。
-
-## 範例圖片
-
-![](../../../../../../assets/color-tempadjust-ex.gif)
-
 </td>
 </tr>
+</table>
+
+<a name="parameters"></a>
+
+## 參數
+
+|  |  |
+|:---|:---|
+| <b>溫度</b> <i>-1.0 - 1.0</i> | 在暖色和冷色間切換。 |
+| <b>洋紅色</b> <i>-1.0 - 1.0</i> | 調性在洋紅色和綠色之間切換。 |
+| <b>色彩空間</b> <i>HDR（線性）、LDR（sRGB）</i> | 判斷輸入影像的色彩空間如何被解讀。 |
+
+## 範例
+
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="color-temperature-adjustment.resources/color-temperature-adjustment-02.gif" />
+        </td>
+    </tr>
 </table>

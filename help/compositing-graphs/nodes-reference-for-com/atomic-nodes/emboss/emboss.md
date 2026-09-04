@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 壓印
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：Emboss](../../../../assets/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
+![原子節點：Emboss](emboss.resources/emboss-01.png "原子節點：Emboss"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,10 +78,10 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>強度</b> *浮標* | 調整全域照明強度效果。 設定「高度」貼圖的強度，進而影響光影效果的強度 |
-| <b>光角</b> *浮標* | 設定光線模擬的角度。 定義浮雕圖像高光的照明角度 |
-| <b>高光色</b> *浮動/漂浮4* | 設定面向光線角度的區域顏色。 如果輸入圖片是彩色，則設定高亮的顏色。 |
-| <b>陰影顏色</b> *浮動/漂浮4* | 設定面向遠離光線角度的區域顏色。 設定壓印影像陰影區域的顏色。 |
+| <b>強度</b> *浮標* | 調整全域照明強度效果。   設定「高度」貼圖的強度，進而影響光影效果的強度 |
+| <b>光角</b> *浮標* | 設定光線模擬的角度。   定義浮雕圖像高光的照明角度 |
+| <b>高光色</b> *浮動/漂浮4* | 設定面向光線角度的區域顏色。   如果輸入圖片是彩色，則設定高亮的顏色。 |
+| <b>陰影顏色</b> *浮動/漂浮4* | 設定面向遠離光線角度的區域顏色。   設定壓印影像陰影區域的顏色。 |
 
 ## 輸入連接器
 

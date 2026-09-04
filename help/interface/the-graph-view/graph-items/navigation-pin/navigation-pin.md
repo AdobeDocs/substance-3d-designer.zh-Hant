@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 釘住
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ea96f5a148246d20263c4ecf0b67d0b4a51f28a8
+source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 0%
@@ -24,14 +24,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![導航圖示](../../../../assets/graphatomic-pin_1.png "導航圖示")
+![導航圖示](navigation-pin.resources/navigation-pin-01.png "導航圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 釘子是一種輔助工具，讓你能快速跳躍在圖表中的特定位置。
 
-你可以用他們的<b>描述</b> 屬性設定自訂標籤。
+你可以用他們的 <b>描述</b> 屬性設定自訂標籤。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
 +++
 
 +++情境選單
-在圖表檢視中，在空格按 <b>右鍵</b>並選擇 <b>「新增腳位</b> 」選項。
+在圖表檢視中，在空格按 <b>右鍵</b> 並選擇 <b>「新增腳位</b> 」選項。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++
 
 +++圖書館
-在函式庫中，選擇<b>「圖項目</b>」類別，然後拖放「釘選」項目到圖譜檢視中。
+在函式庫中，選擇 <b>「圖項目</b> 」類別，然後拖放「釘選」項目到圖譜檢視中。
 
 +++
 
@@ -78,4 +78,4 @@ ht-degree: 0%
 
 針腳會在視窗中以目前的縮放等級框定。
 
-![瓶子：跳到瓶](../../../../assets/graph-pin_jumping.gif "子 針腳：跳到瓶子")
+![瓶子：跳到瓶](navigation-pin.resources/navigation-pin-02.gif "子 針腳：跳到瓶子")
