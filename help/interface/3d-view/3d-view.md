@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
