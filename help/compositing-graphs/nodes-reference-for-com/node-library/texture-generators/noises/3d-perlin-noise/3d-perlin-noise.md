@@ -37,7 +37,7 @@ ht-degree: 0%
 
 **3D Perlin 噪聲**&#x200B;節點根據位置圖&#x200B;**輸入在三維空間**&#x200B;中產生 Perlin 噪聲。
 
-此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
+此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
 
 >[!WARNING]
 >

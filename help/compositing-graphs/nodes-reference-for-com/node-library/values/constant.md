@@ -52,8 +52,8 @@ ht-degree: 0%
 
 整數只有一個分量。 它作為選擇的索引非常有用，例如：
 
-* 選擇以下拉選單形式呈現給使用者的選項（見本頁](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）[。
-* 選擇多交換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的[輸入。<b></b>
+* 選擇以下拉選單形式呈現給使用者的選項（見本頁[&#128279;](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）。
+* 選擇多交換[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的輸入。<b></b>
 
 >[!IMPORTANT]
 >
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 Integer2 節點會產生一個靜態的 2 分量整數向量，分量為 （X， Y）。
 
-Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile 產生](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)器節點一樣[。
+Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile 產生[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)器節點一樣。
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ Float2 常用於 [取樣座標](../../../../function-graphs/nodes-reference-for-
 
 Float3 節點會產生一個三成分（X、Y、Z）向量。
 
-Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)[，例如 3D SDF 節點](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)，以及作為儲存 RGB 顏色的更簡單方式——即不使用 Alpha。
+Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) [，例如 3D SDF 節點](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)，以及作為儲存 RGB 顏色的更簡單方式——即不使用 Alpha。
 
 </td>
 </tr>

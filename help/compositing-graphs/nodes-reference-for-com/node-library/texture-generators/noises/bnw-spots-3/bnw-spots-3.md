@@ -39,7 +39,7 @@ ht-degree: 1%
 
 粗糙 <b>的黑白（BnW）斑點</b> 聲的變體。
 
-另見：[BnW 地點 1，BnW [](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)
+另見：[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)BnW 地點 1，BnW [&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 2
 
 </td>
 </tr>

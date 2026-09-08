@@ -37,7 +37,7 @@ ht-degree: 0%
 
 **3D Voronoi** 節點根據位置圖&#x200B;**輸入在 3D 空間**&#x200B;中產生 Voronoi 雜訊。
 
-此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
+此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
 
 >[!WARNING]
 >
@@ -60,7 +60,7 @@ ht-degree: 0%
 * **偏移** *Float3*\
   對 3D Voronoi 雜訊在 X **、** Y **和** Z **軸的位置施加偏移&#x200B;**。**
 * **混亂** *Float3*\
-  隨機偏移的強度&#x200B;*，分別施加在X **軸、**Y **軸和**Z **軸的雜訊**點*&#x200B;上。
+  隨機偏移的強度&#x200B;*，分別施加在X **軸、**&#x200B;Y **軸和**&#x200B;Z **軸的雜訊**&#x200B;點*&#x200B;上。
 * **失真強度***浮球*\
   控制對 3D Voronoi 噪音施加的扭曲效果&#x200B;*強度*。
 * **失真尺度乘法***浮點*\

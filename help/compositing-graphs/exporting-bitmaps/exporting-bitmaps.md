@@ -31,7 +31,7 @@ ht-degree: 0%
 * 你<b> 是從圖（Graph）匯出，不是從套件（Package</b>）匯出。 套件本身不會產生影像內容。
 * 匯出的位圖數量（及解析度）由 <b>圖的輸出</b> 決定。
 * 所有輸出/位圖的檔案類型都設定好了。
-* 匯出和出版](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)是不同的[，務必清楚兩者的差異！
+* 匯出和出版[&#128279;](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)是不同的，務必清楚兩者的差異！
 
 ## 出口方法
 
@@ -81,13 +81,13 @@ ht-degree: 0%
 
 ## 匯出對話框（批次/UV 圖塊）
 
-在 Designer 中處理 UV 圖塊網格時，匯出對話框可以用稍微不同的方式，讓多個 UV 磚可以一次批量匯出。 務必了解這個工作流程，並且正確地將 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)分配[給一個或多個 UV-Tiles。\
+在 Designer 中處理 UV 圖塊網格時，匯出對話框可以用稍微不同的方式，讓多個 UV 磚可以一次批量匯出。 務必了解這個工作流程，並且正確地將 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)分配給一個或多個 UV-Tiles。\
 批次分頁也是將圖表匯出到與工作解析度（父）解析度不同的快速方法。
 
 用上面提到的方法開始對話框，只要確保你在檔案總管&#x200B;*裡右鍵點擊* UV-Tile-指派的圖表，或是你在圖譜檢視中用&#x200B;*工具按鈕開啟了該 UV-Tile 指派的圖*。
 
 1. <b>批次分頁</b>：請確保選擇此分頁，而非標準 <b>的 From Graph </b>方法，否則選項 2-3 將無法使用。
 1. <b>UV 圖塊：</b> 就像 Outputs 一樣，允許你切換開啟或關閉特定 UV 圖塊的匯出。
-1. <b>[輸出大小](../../compositing-graphs/output-size/output-size.md）： </b>覆蓋匯出解析度，讓你能更精簡、更有效率地工作，同時以最大輸出速度完成。
+1. <b>[輸出大小](../../compositing-graphs/output-size/output-size.md)： </b>覆蓋匯出解析度，讓你能更精簡、更有效率地工作，同時以最大輸出速度完成。
 
 ![批次匯出輸出對話框](../../assets/batch.png "批次匯出輸出對話框")

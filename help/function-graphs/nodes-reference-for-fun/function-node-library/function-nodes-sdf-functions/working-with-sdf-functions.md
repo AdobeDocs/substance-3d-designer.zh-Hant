@@ -26,7 +26,7 @@ SDF 函數是 Substance 函數圖，結合工具集中可用的 SDF 節點，並
 
 作為起點，請記住基本工作流程如下：
 
-1. 在 3D 檢視](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)節點中撰寫一個 SDF 函數[以視覺化結果。
+1. 在 3D 檢視[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)節點中撰寫一個 SDF 函數以視覺化結果。
 2. 將最終函數圖複製（或 [實](../../../../glossary/glossary.md#instance-node)例化）到支援 SDF 函數 [的節點參數中，例如 Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md)。
 
 <img style="display: block; margin: auto;" src="working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="Substance 3D Designer 中 3D SDF 功能節點的動態圖" />
@@ -64,7 +64,7 @@ SDF 函數節點設計用於專用的 Substance 函數圖，因此僅能在該�
 節點參數若要以函式形式表示，則使用「編輯函數」按鈕。
 
 你需要知道的關於物質函數圖的事項：
-* 與 Substance 圖類似，節點連接器是&#x200B;*專門化*&#x200B;的，意即只能連接到代表其類型](../../function-nodes-overview/function-nodes-overview.md#color-coding)、顏色&#x200B;*相符*[的其他連接器。
+* 與 Substance 圖類似，節點連接器是&#x200B;*專門化*&#x200B;的，意即只能連接到代表其類型[&#128279;](../../function-nodes-overview/function-nodes-overview.md#color-coding)、顏色&#x200B;*相符*的其他連接器。
 * 節點沒有參數，只能有輸入。 （當然有少數特定例外）
 * 該圖只有一個輸出節點。 右鍵點擊節點，選擇 `Set as output` 指定為輸出節點。
 * 同樣地，與 Substance 圖類似，還有 *原子* 節點——基礎建構單元——以及 *代表其他 Substance 函數圖的實例* 節點。
@@ -178,9 +178,9 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 ### 營運商
 
 這些節點讓你能組合和修改用圖元建立的形狀。 包括：
-* **像是 Union](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md)、[Intersection](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md) 和 [Subtrimion](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md) 這類純布林**&#x200B;運算[子，讓你能以不同方式組合形狀。
+* **像是 Union[&#128279;](sdf-functions-operators/3d-sdf-op-union/3d-sdf-op-union.md)、[Intersection](sdf-functions-operators/3d-sdf-op-intersection/3d-sdf-op-intersection.md) 和 [Subtrimion](sdf-functions-operators/3d-sdf-op-subtraction/3d-sdf-op-subtraction.md) 這類純布林**&#x200B;運算子，讓你能以不同方式組合形狀。
 * **變形布林** 運算子，如 [圓入（Rounding](sdf-functions-operators/3d-sdf-op-rounding/3d-sdf-op-rounding.md) ）和 [變形（Morph](sdf-functions-operators/3d-sdf-op-morph/3d-sdf-op-morph.md) ），能讓你結合形狀並產生混合效果。
-* **其他專門**&#x200B;的操作符，如 [Shell 和 [Symmetry](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md)](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)，能讓你修改和/或複製形狀。
+* **其他專門**&#x200B;的操作符，如 [&#128279;](sdf-functions-operators/3d-sdf-op-symmetry/3d-sdf-op-symmetry.md)Shell 和 [Symmetry](sdf-functions-operators/3d-sdf-op-shell/3d-sdf-op-shell.md)，能讓你修改和/或複製形狀。
 
 +++ 節點
 
@@ -228,7 +228,7 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 你可以定義基本材質屬性：顏色、粗糙度和金屬度，用於 3D 檢視器節點的直接視覺化，或作為 Shape splatter v2 節點材質工作的基礎。\
 你也可以為形狀的不同部分指派材質 ID，將它們分隔開來。
 
-以下將了解這些節點[](#material-id)的應用。
+以下將了解這些節點[&#128279;](#material-id)的應用。
 
 +++ 節點
 
@@ -266,13 +266,13 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 
 當你在 3D 檢視器節點的上下文中完成一個 SDF 函式後，你可以複製整個函式並貼到 [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點，作為該節點的形狀產生器使用。
 
-將 Shape 類型&#x200B;**參數設**&#x200B;為 `SDF function`，然後前往 **Pattern SDF 函數**&#x200B;參數，點擊&#x200B;**編輯函數**按鈕即可開啟該參數的功能圖。
+將 Shape 類型&#x200B;**參數設**&#x200B;為 `SDF function`，然後前往 **Pattern SDF 函數**&#x200B;參數，點擊&#x200B;**編輯函數**&#x200B;按鈕即可開啟該參數的功能圖。
 接著你可以把從 3D 檢視器節點複製的函式貼到那張圖裡。 （別忘了再設定函數圖的輸出節點！）
 
 務必調整 **SDF 的包圍框架大小** 參數，使其符合 [你在 3D 檢視節點中使用的包圍框架](#the-bounding-frame) ，並確保形狀繪製正確。
 
 ![working-with-sdf-shape-splatter-v2.png](working-with-sdf-functions.resources/working-with-sdf-shape-splatter-v2.png)\
-*Shape Splatter v2 的&#x200B;**Shape 類型**設定為 `SDF function`。 注意&#x200B;**SDF 邊界框架尺寸**已調整以符合該形狀。*
+*Shape Splatter v2 的&#x200B;**Shape 類型**&#x200B;設定為 `SDF function`。 注意&#x200B;**SDF 邊界框架尺寸**&#x200B;已調整以符合該形狀。*
 
 >[!TIP]
 > 
@@ -281,11 +281,11 @@ SDF 功能的基本組件，讓你能創造基本形狀，如球體、方框、�
 > 這帶來多項好處：
 > * 你對函式的任何更新都會反映在兩個節點上，不需要再複製貼上。 這對於複雜形狀來說是極大的生活品質提升。
 > * 圖可以有一個描述性的名稱，在實例節點中可見，這會讓你使用自己的 SDF 圖形庫更易管理，也讓圖表更易閱讀。
-> * 你可以為函數圖建立輸入，然後搭配 Get](../../atomic-function-nodes/get-nodes/get-nodes.md) 節點使用[。這些輸入會在實例節點中以輸入連接器的形式暴露，讓你能輕鬆做出形狀的變化。
+> * 你可以為函數圖建立輸入，然後搭配 Get[&#128279;](../../atomic-function-nodes/get-nodes/get-nodes.md) 節點使用。這些輸入會在實例節點中以輸入連接器的形式暴露，讓你能輕鬆做出形狀的變化。
 
 ### 材質識別
 
-SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來區分形狀的各個部分，並在 3D 檢視](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)器和 [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點中分配不同的材質[。
+SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來區分形狀的各個部分，並在 3D 檢視[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)器和 [Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點中分配不同的材質。
 
 請注意，不同材質 ID 的表面會被硬邊分割成混合形狀，如下範例所示。
 
@@ -317,7 +317,7 @@ SDF 形狀可以被指派一個材質 ID，這是一個整數值，可以用來�
 
 [Set color](./sdf-functions-material/set-color/set-color.md)、[Set roughness](./sdf-functions-material/set-roughness/set-roughness.md) 和 [Set metalness](./sdf-functions-material/set-metalness/set-metalness.md) 節點讓你在 SDF 函式中為形狀定義這些材質屬性。
 
-然後，當該 SDF 函式作為 Shape splatter v2](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點的形狀類型[時，這些材質屬性會以 SDF 顏色&#x200B;**、** SDF 粗糙度&#x200B;**和** SDF 金屬度&#x200B;**輸出的貼圖**&#x200B;形式提供。這些地圖可作為使用其他節點進行更複雜材質工作的基礎。
+然後，當該 SDF 函式作為 Shape splatter v2[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點的形狀類型時，這些材質屬性會以 SDF 顏色&#x200B;**、** SDF 粗糙度&#x200B;**和** SDF 金屬度&#x200B;**輸出的貼圖**&#x200B;形式提供。這些地圖可作為使用其他節點進行更複雜材質工作的基礎。
 
 請注意，與材質 ID 不同，數值會 *以漸層形式插* 值於混合形狀間，如下例所示。
 
