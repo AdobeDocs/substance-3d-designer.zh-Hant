@@ -35,7 +35,7 @@ ht-degree: 4%
 
 簡單的黑白線性漸層。 給出完美平滑且插值的結果，以呈現完美的梯度躍遷。
 
-儘管簡單，這是一個極為實用的模式，可以作為許多其他節點的建構單元！ 例如，可以搭配直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起進行[。
+儘管簡單，這是一個極為實用的模式，可以作為許多其他節點的建構單元！ 例如，可以搭配直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起進行。
 
 </td>
 </tr>
