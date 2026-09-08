@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/hdr-range-viewer.html"
 breadcrumb-title: ''
 description: 使用 HDR 範圍檢視器節點來視覺化 HDR 材質範圍，分析並調整高動態範圍值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: HDR 範圍檢視器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '66'
 ht-degree: 10%
@@ -24,9 +24,9 @@ ht-degree: 10%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](hdr-range-viewer.resources/hdr-range-viewer-01.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer-grayscale.png){width="128px"}
 
-![](hdr-range-viewer.resources/hdr-range-viewer-02.png){width="128px"}
+![](../../../../../../assets/hdr-range-viewer.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -55,7 +55,7 @@ ht-degree: 10%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="hdr-range-viewer.resources/hdr-range-viewer-03.png" />
+            <img src="../../../../../../assets/hdr-viewer-example.png" />
         </td>
     </tr>
 </table>

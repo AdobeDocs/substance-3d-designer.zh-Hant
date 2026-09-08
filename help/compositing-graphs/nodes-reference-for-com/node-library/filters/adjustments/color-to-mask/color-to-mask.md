@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/color-to-mask.html"
 breadcrumb-title: ''
 description: 使用「色彩轉遮罩」節點，將特定顏色轉換成遮罩，以建立選擇性處理與遮罩效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 從顏色到遮罩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![遮罩顏色 - 圖示](color-to-mask.resources/color-to-mask-01.png "遮罩顏色遮罩 - 圖示"){width="200px"}
+![遮罩顏色 - 圖示](../../../../../../assets/color_to_mask.png "遮罩顏色遮罩 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-range.html"
 breadcrumb-title: ''
 description: 使用直方圖範圍節點，根據直方圖範圍重新映射材質值，進行色彩校正與調整。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖範圍
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-range.resources/histogram-range-01.png){width="128px"}
+![](../../../../../../assets/histogram-range-1.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -56,7 +56,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="histogram-range.resources/histogram-range-02.gif" />
+            <img src="../../../../../../assets/histogram-range.gif" />
         </td>
     </tr>
 </table>

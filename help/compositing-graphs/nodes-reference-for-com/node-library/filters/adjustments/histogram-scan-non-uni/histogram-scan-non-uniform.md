@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-scan-non-uniform.html"
 breadcrumb-title: ''
 description: 使用直方圖掃描非均勻節點進行非均勻直方圖掃描，以進行進階色彩校正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖掃描非均勻
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform-01.png){width="128px"}
+![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)的進階版本，新增控制與輸入，能以每像素層級驅動效果，而非均勻地覆蓋整幅影像。可用來實現更複雜的對比與遮罩過渡。
+直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)的進階版本[，新增控制與輸入，能以每像素層級驅動效果，而非均勻地覆蓋整幅影像。可用來實現更複雜的對比與遮罩過渡。
 
 它比一般 [直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)複雜得多，所以在嘗試使用非均勻版本前，務必熟悉它。
 

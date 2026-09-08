@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/highpass.html"
 breadcrumb-title: ''
 description: 使用高通節點從材質中提取高頻細節，以創造銳化與細節增強效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高通
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](highpass.resources/highpass-01.png){width="128px"}
+![](../../../../../../assets/high-pass-greyscale.png){width="128px"}
 
-![](highpass.resources/highpass-02.png){width="128px"}
+![](../../../../../../assets/high-pass.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -57,10 +57,10 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-03.gif" />
+            <img src="../../../../../../assets/highpass.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="highpass.resources/highpass-04.png" />
+            <img src="../../../../../../assets/highpass-example.png" />
         </td>
     </tr>
 </table>
