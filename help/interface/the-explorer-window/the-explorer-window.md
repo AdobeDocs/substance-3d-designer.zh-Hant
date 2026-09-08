@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-explorer-window.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-explorer-window.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 的 Explorer 視窗瀏覽、整理和管理你的專案檔案與資源。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 總管
 
-本頁介紹了Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html)中的Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
+本頁介紹了Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html)中的Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
 
 <table>
 <tr style="border: 0;">
@@ -61,7 +61,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 ![](../../assets/sendto-icon.jpg)  <b>發佈或 [發送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> 選定元素：
 
 * [將任一選定的套件發佈至Substance 3D資產（SBSAR）;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
-* 將所選套件寄送至 [Substance 3D Sampler](https://www.adobe.com/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 或 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html)。
+* 將所選套件寄送至 [Substance 3D Sampler](https://www.adobe.com/tw/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html)。
 
 ![](../../assets/republish.png)  <b>發佈或傳送如前版本：</b> 以相同設定發佈或傳送選取的元素。 此選項僅適用於本場至少已發佈&#x200B;*過一次***&#x200B;的套件。
 
@@ -120,7 +120,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 <b>帶依賴</b> 的匯出和儲存和發佈是不同的。 它會收集你的 SBS 檔案，收集所有參考的資源和相依，並建立一個自成一體的套件。 對話框讓你選擇要收集哪些函式庫，以及檔案是否應該是壓縮壓縮檔（7-zip）。 這是個不錯的選擇，可以與他人分享 SBS 檔案，不用擔心遺漏相依。
 
-<b>發送至...</b> 會開啟一個子選單，讓你直接 [將包裹傳送](send-to-interoperability/send-to-interoperability.md) 到 [Substance 3D取樣器](https://www.adobe.com/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html)、 [Substance 3D Stager](https://www.adobe.com/products/substance3d-stager.html) 或 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
+<b>發送至...</b> 會開啟一個子選單，讓你直接 [將包裹傳送](send-to-interoperability/send-to-interoperability.md) 到 [Substance 3D取樣器](https://www.adobe.com/tw/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html)、 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html) 或 [Substance Player](https://helpx.adobe.com/substance-3d-player/home.html)。
 
 <b>複製</b> 會複製所選的包裹。
 

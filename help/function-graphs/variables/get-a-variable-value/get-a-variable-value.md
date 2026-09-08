@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/variables/get-a-variable-value.html"
 breadcrumb-title: ''
 description: 學習如何使用 Get Variable 節點在 Substance 3D Designer 函式圖中檢索變數值。
 helpx_creative_field: ""

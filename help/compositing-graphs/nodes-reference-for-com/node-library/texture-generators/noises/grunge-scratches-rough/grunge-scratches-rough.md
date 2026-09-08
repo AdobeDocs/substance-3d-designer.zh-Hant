@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: 使用 Grunge Scratches Rough 節點加入粗糙刮痕圖案，創造重度磨損和損傷效果。
 helpx_creative_field: ""

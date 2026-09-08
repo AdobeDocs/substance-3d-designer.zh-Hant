@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fractal-sum-2.html"
 breadcrumb-title: ''
 description: 使用 Fractal Sum 2 節點產生帶有兩個八度的分形雜訊，以創造有機的紋理變化。
 helpx_creative_field: ""
