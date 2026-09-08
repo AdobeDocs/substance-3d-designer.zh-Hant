@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-sobel.html"
 breadcrumb-title: ''
 description: 使用 Normal Sobel 節點，利用 Sobel 邊緣偵測從高度圖產生法線貼圖，以取得表面細節。
 helpx_creative_field: ""

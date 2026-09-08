@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: 使用極座標轉笛卡兒節點，將貼圖從極座標轉換成笛卡兒座標。
 helpx_creative_field: ""
