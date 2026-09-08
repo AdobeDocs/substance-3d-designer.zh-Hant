@@ -65,12 +65,12 @@ Experience League 透過自訂流程渲染 GitHub 風味的 Markdown還有自己
   ```
 
 * 表格前必須有空行，否則表格無法被渲染成表格。
-* 表格無法乾淨地保存多段或複雜的區塊內容cell — 此儲存庫需要在資料表儲存格內放置圖片/清單（例如比較表在 `overview.md`，它會退回到內嵌 HTML（`<div>`， `<b>`， /`<ul>``<li>`） 每個`data-preserve-html="true"`標記是為了避免管線剝光。 還是照這個現有模式走吧除非必要，否則會發明新的內嵌 HTML。
+* 表格無法乾淨地保存多段或複雜的區塊內容cell — 此儲存庫需要在資料表儲存格內放置圖片/清單（例如比較表在 `overview.md`，它會退回到內嵌 HTML（`<div>`， `<b>`， /`<ul>`&#x200B;`<li>`） 每個`data-preserve-html="true"`標記是為了避免管線剝光。 還是照這個現有模式走吧除非必要，否則會發明新的內嵌 HTML。
 
 ## 程式碼
 
 * 內嵌代碼：單一回溯刻數。
-* 有圍欄區塊：三重回溯，並可選語法語言標註（` ```python `、 ` ```javascript `，等）。
+* 有圍欄區塊：三重回溯，並可選語法語言標註（` `&#x200B;``python `、 ` ``&#x200B;`javascript `，等）。
 
 ## 筆記/警示區塊
 
@@ -90,7 +90,7 @@ Experience League 透過自訂流程渲染 GitHub 風味的 Markdown還有自己
 >This is an IMPORTANT note.
 ```
 
-支援類型：`NOTE`， `TIP`， `IMPORTANT`， `CAUTION``WARNING`，
+支援類型：`NOTE`， `TIP`， `IMPORTANT`， `CAUTION`&#x200B;`WARNING`，
 `ADMINISTRATION`, `AVAILABILITY`, `PREREQUISITES`, `ERROR`, `INFO`, `SUCCESS`.
 
 ## 影片嵌入
