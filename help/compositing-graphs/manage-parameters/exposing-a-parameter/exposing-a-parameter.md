@@ -49,12 +49,12 @@ ht-degree: 0%
 +++
 
 +++為什麼不一直自動暴露所有參數？
-<b> [物質圖表](../../../compositing-graphs/substance-compositing-graphs.md）可能非常複雜，且可能同時包含數百個參數。 不應該總是向使用者展示所有參數，尤其是當你建立一個簡單目標、不需要太多參數的圖形時。</b> 在揭露參數時，你是 UI 或 UX 設計師：你會思考哪些控制項合理、哪些數值需要，以及如何讓它對自己、線上其他使用者或同事都容易使用。
+<b> [物質圖表](../../../compositing-graphs/substance-compositing-graphs.md)可能非常複雜，且可能同時包含數百個參數。 不應該總是向使用者展示所有參數，尤其是當你建立一個簡單目標、不需要太多參數的圖形時。</b> 在揭露參數時，你是 UI 或 UX 設計師：你會思考哪些控制項合理、哪些數值需要，以及如何讓它對自己、線上其他使用者或同事都容易使用。
 
 +++
 
 +++我需要懂數學才能曝光嗎？ 我應該理解物質函數圖嗎？
-***不必具備數學知識即可良好運用 Exposing Parameters，函數的使用也不需要。***  作為初學者，你幾乎可以完全避免在函數圖](../../../function-graphs/function-graphs.md)中做數學運算[。唯一強烈建議的是對不同資料類型有 [不錯的基礎知識，例如整數、浮點數和布林。](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
+***不必具備數學知識即可良好運用 Exposing Parameters，函數的使用也不需要。***  作為初學者，你幾乎可以完全避免在函數圖[&#128279;](../../../function-graphs/function-graphs.md)中做數學運算。唯一強烈建議的是對不同資料類型有 [不錯的基礎知識，例如整數、浮點數和布林。](../../../function-graphs/nodes-reference-for-fun/function-nodes-overview/function-nodes-overview.md)
 
 +++
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
 ### 單曝光法
 
-1. 在屬性](../../../interface/properties/properties.md)面板的「特定參數」標籤下找到你想暴露[的參數
+1. 在屬性[&#128279;](../../../interface/properties/properties.md)面板的「特定參數」標籤下找到你想暴露的參數
 1. 點選下 ![](exposing-a-parameter.resources/image2020-9-17-15-35-59.png) 拉選項按鈕
 1. 從下拉選單中選擇![](exposing-a-parameter.resources/image2020-9-17-15-37-7.png)<b>「暴露」作為新圖形輸入</b>，這是第一個選項。
 1. <b>會出現 Expose 參數</b>對話框，請依照你的需求設定任何參數屬性。
@@ -104,7 +104,7 @@ ht-degree: 0%
 | --- | --- |
 | [漸層斜坡](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)、 [曲線編輯器](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/curve/curve.md)、 [字型](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)、 [關卡直方圖](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) | 要求無法提供使用者自訂參數的小工具。 |
 
-另一個重大限制與靜態參數](../../../glossary/glossary.md)有關[。這些在已發佈的Substance 3D資產（SBSAR）](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中無法更改[。
+另一個重大限制與靜態參數[&#128279;](../../../glossary/glossary.md)有關[。這些在已發佈的Substance 3D資產（SBSAR）](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中無法更改。
 
 靜態參數——與動態參數不同——*在圖*&#x200B;被煮熟&#x200B;*後無法即時編輯，也就是說，為了快速且有效率地執行演算法，無法即時編輯*。每次圖表被 *編輯* 或 *發佈*&#x200B;時，Designer 都會進行煮食。
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 預覽模式旨在盡可能準確地呈現已發佈的 Substance 3D 資產（SBSAR](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)）的體驗[。因此，本頁列出的限制在此模式下也會適用，例如 *列表中缺少*&#x200B;靜態參數。
+> 預覽模式旨在盡可能準確地呈現已發佈的 Substance 3D 資產（SBSAR[&#128279;](../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)）的體驗。因此，本頁列出的限制在此模式下也會適用，例如 *列表中缺少*&#x200B;靜態參數。
 
 ![複製並貼上輸入參數](exposing-a-parameter.resources/copy-paste-params-2.gif "複製並貼上輸入參數"){width="512px"}
 
