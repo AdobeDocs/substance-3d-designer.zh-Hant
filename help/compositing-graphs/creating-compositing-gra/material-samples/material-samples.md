@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習與實驗。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 材料樣本
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 材料樣本
 
-![材料範例 - 模板卡](../../../assets/materialSamples-cards.png "材料範例 - 模板卡片")
+![材料範例 - 模板卡](material-samples.resources/materialSamples-cards.png "材料範例 - 模板卡片")
 
 Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習與實驗。
 
@@ -36,14 +36,14 @@ Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![新物質圖對話框 - 材料樣本](../../../assets/newGraphDialog-samples-1.png "新物質圖對話框 - 材料樣本"){zoomable="yes"}
+![新物質圖對話框 - 材料樣本](material-samples.resources/newGraphDialog-samples-1.png "新物質圖對話框 - 材料樣本"){zoomable="yes"}
 
 打開 <b>分類</b> 組合框，選擇 <b>材料範例</b> 以列出可用的範本。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![材料樣本 - 橫幅按鈕](../../../assets/materialSamples-bannerButton.png "材料樣本 - 橫幅按鈕"){zoomable="yes"}
+![材料樣本 - 橫幅按鈕](material-samples.resources/materialSamples-bannerButton.png "材料樣本 - 橫幅按鈕"){zoomable="yes"}
 
 你可以直接使用放置的「前往取樣</b>」按鈕，直接進入對話框<b>中的樣本列表在 <b>主畫面</b>。
 
@@ -60,7 +60,7 @@ Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習�
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![材料範例 - 模板卡片工具提示](../../../assets/newGraphDialog-sampleTooltip.png "材料範例 - 模板卡片工具提示"){zoomable="yes"}
+![材料範例 - 模板卡片工具提示](material-samples.resources/newGraphDialog-sampleTooltip.png "材料範例 - 模板卡片工具提示"){zoomable="yes"}
 
 </td>
 </tr>
@@ -79,4 +79,4 @@ Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習�
 > 3D 視圖中的材質會自動切換到 <code>OpenPBR 表面</code> 著色器以
 > 請準確查看範例。
 
-![材料範例 - 圖表](../../../assets/materialSamples-graph.png "材質範例 - 圖表"){zoomable="yes"}
+![材料範例 - 圖表](material-samples.resources/materialSamples-graph.png "材質範例 - 圖表"){zoomable="yes"}
