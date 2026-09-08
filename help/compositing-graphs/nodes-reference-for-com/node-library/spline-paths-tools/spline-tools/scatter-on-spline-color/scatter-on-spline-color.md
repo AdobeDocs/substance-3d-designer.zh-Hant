@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color.html"
 breadcrumb-title: ''
 description: 使用散佈在樣條線色彩節點上，將色彩元素沿著樣條路徑分配，以呈現程序式圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條色上的散射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '3092'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](scatter-on-spline-color.resources/scatter-on-spline-color-01.png "節點圖示")
+![節點圖示](../../../../../../assets/scatter-on-spline-color-icon.png "節點圖示")
 
 收錄於：樣條與路徑工具 > 樣條鍵工具
 
@@ -167,11 +167,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-02.jpg" alt="ScatterOnSpline灰階變體1-之前">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant1-Before.jpg" alt="ScatterOnSpline灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-03.jpg" alt="ScatterOnSplineColor-Variant1-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant1-After.jpg" alt="ScatterOnSplineColor-Variant1-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -183,11 +183,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-04.jpg" alt="ScatterOnSpline灰階變體2-之前">
+      <img src="../../../../../../assets/ScatterOnSplineGrayscale-Variant2-Before.jpg" alt="ScatterOnSpline灰階變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="scatter-on-spline-color.resources/scatter-on-spline-color-05.jpg" alt="ScatterOnSplineColor-Variant2-After">
+      <img src="../../../../../../assets/ScatterOnSplineColor-Variant2-After.jpg" alt="ScatterOnSplineColor-Variant2-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -201,12 +201,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](scatter-on-spline-color.resources/scatter-on-spline-color-06.gif "節點範例 1")
+![節點範例 1](../../../../../../assets/ScatterOnSplineGrayscale-Demo.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](scatter-on-spline-color.resources/scatter-on-spline-color-07.gif "節點範例 2")
+![節點範例 2](../../../../../../assets/ScatterOnSplineColor-Demo.gif "節點範例 2")
 
 </td>
 </tr>

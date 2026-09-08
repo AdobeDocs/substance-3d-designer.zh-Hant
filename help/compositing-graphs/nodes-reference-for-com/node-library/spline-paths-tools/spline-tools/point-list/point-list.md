@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用點列表節點來建立和管理點清單，用於樣條線和路徑生成。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 點數列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](point-list.resources/point-list-01.png "節點圖示")
+![節點圖示](../../../../../../assets/point-list-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 此節點可用來向樣條（多元二次）[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點，以建立樣條曲線。
+> 此節點可用來向樣條（多元二次）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點[，以建立樣條曲線。
 
 >[!IMPORTANT]
 >
@@ -93,12 +93,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](point-list.resources/point-list-02.jpg "節點範例 1")
+![節點範例 1](../../../../../../assets/PointList-Variant1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](point-list.resources/point-list-03.gif "節點範例 2")
+![節點範例 2](../../../../../../assets/PointList-Demo1.gif "節點範例 2")
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/mask-to-paths.html"
 breadcrumb-title: ''
 description: 使用 Mask to Paths 節點將遮罩材質轉換成路徑資料，方便程序化路徑生成。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 面具到路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](mask-to-paths.resources/mask-to-paths-01.png "節點圖示")
+![節點圖示](../../../../../../assets/mask-to-paths-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -74,7 +74,7 @@ ht-degree: 0%
 | <b>遮罩閾值</b> <i>浮標</i> | 遮罩</b>的灰階值<b>將用來分離形狀的外部（遮&lt; Mask Threshold Value) and the inside (values >罩閾值值）。 |
 | <b>毀滅之路</b> <i>浮標</i> | 隱含地控制將生成的線段數量。<br>大量減取會使圓形形狀呈現某種多邊形，而不減量則會產生幾乎一個像素的線段。<br>合理的分量能更好地匹配直線和曲線的形狀，而不會產生太多直線的中間點。 |
 | <b>關閉開啟的路徑</b> <i>布林值</i> | 在開放路徑的起點與終點頂點之間建立一段。<br>關閉這個功能可能會修正以意想不到的方式穿越你模式的不良路線，但路徑可能不再關閉。 |
-| <b>角落門檻</b> <i>浮標</i> | 每個編碼在路徑中的頂點都可以攜帶一個旗標，指示它是硬的（即轉角）還是平滑的。<br>此參數允許你根據相鄰線段間的角度標記多或少的角點。<br><i>注意：</i>目前任何現有節點都不支援此「角」標誌，但可在路徑頂點處理器[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點中使用。你也可以用 [預覽路徑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) 節點來視覺化角落。 |
+| <b>角落門檻</b> <i>浮標</i> | 每個編碼在路徑中的頂點都可以攜帶一個旗標，指示它是硬的（即轉角）還是平滑的。<br>此參數允許你根據相鄰線段間的角度標記多或少的角點。<br><i>注意：</i>目前任何現有節點都不支援此「角」標誌，但可在路徑頂點處理器](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md)節點中使用[。你也可以用 [預覽路徑](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md) 節點來視覺化角落。 |
 | <b>路徑啟動模式</b> <i>整數</i> | 選擇每個生成路徑繞過遮罩形狀的起點的方法。<br>這在使用專用節點將生成 <b>路徑轉換為樣條</b> 時有重大影響，因為多個樣條節點會使用樣條的起點與結束點。<br>*- 最銳頂點：* 與前後頂點&#x200B;<br>*形成最低角度的頂點- 在指定方向的極點：* 指定方向&#x200B;<br>*上的最後一個頂點- 最接近指定位置<br>* 的頂點 最遠離指定位置<br>的頂點* 自訂啟動函式：* 使用自訂函式選擇應作為每條路徑起始點的頂點 |
 | <b>創業方向</b> <i>浮標</i> | 描述選擇啟動頂點方向的角度。 對於每個路徑，選擇該方向的最後一個頂點。<br>這個值是 *旋轉 X 向左向量所需的旋轉* 次數。 這表示 0 設定方向向量為 （-1， 0），0.25（90 度）則設定方向向量為 （0， 1）。<br><i>注意：</i> 當 <b>路徑啟動模式</b> 設定為「某方向的極點」時，此參數可用 |
 | <b>新創目標職位</b> <i>Float2</i> | 影像中用來選擇啟動頂點的位置。<br>對於每條路徑，根據所選 <b>路徑啟動模式</b>，選擇最接近或最遠離此位置的頂點。<br><i>注意：</i> 當 <b>路徑啟動模式</b> 設定為「最接近指定位置的頂點」或「距離指定位置最遠的頂點」時，此參數可用 |
@@ -92,11 +92,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-02.jpg" alt="MaskToPaths-Variant2-Before">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-Before.jpg" alt="MaskToPaths-Variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-03.jpg" alt="MaskToPaths-變體2-After">
+      <img src="../../../../../../assets/MaskToPaths-Variant2-After.jpg" alt="MaskToPaths-變體2-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-04.jpg" alt="MaskToPaths-變體1-之前">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-Before.jpg" alt="MaskToPaths-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="mask-to-paths.resources/mask-to-paths-05.jpg" alt="MaskToPaths-變體1-之後">
+      <img src="../../../../../../assets/MaskToPaths-Variant1-After.jpg" alt="MaskToPaths-變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -126,12 +126,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 2](mask-to-paths.resources/mask-to-paths-06.gif "節點範例 2"){zoomable="yes"}
+![節點範例 2](../../../../../../assets/MaskToPaths-Demo2.gif "節點範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 1](mask-to-paths.resources/mask-to-paths-07.gif "節點範例 1"){zoomable="yes"}
+![節點範例 1](../../../../../../assets/MaskToPaths-Demo1.gif "節點範例 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -141,12 +141,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 3：啟動模式](mask-to-paths.resources/mask-to-paths-08.gif "節點範例 3：啟動模式"){zoomable="yes"}
+![節點範例 3：啟動模式](../../../../../../assets/MaskToPaths-Demo3.gif "節點範例 3：啟動模式"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 3：排序模式](mask-to-paths.resources/mask-to-paths-09.gif "節點範例 3：排序模式"){zoomable="yes"}
+![節點範例 3：排序模式](../../../../../../assets/MaskToPaths-Demo4.gif "節點範例 3：排序模式"){zoomable="yes"}
 
 </td>
 </tr>

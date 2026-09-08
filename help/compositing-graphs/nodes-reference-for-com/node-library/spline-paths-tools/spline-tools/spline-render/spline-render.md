@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-render.html"
 breadcrumb-title: ''
 description: 使用 Spline Render 節點將樣條線渲染成材質，並可自訂寬度、顏色和混合模式。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-render.resources/spline-render-01.png "節點圖示")
+![節點圖示](../../../../../../assets/spline-render-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -98,11 +98,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-02.jpg" alt="樣條渲染變體2之前">
+      <img src="../../../../../../assets/SplineRender-Variant2-Before.jpg" alt="樣條渲染變體2之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-03.jpg" alt="樣條渲染變體2-After">
+      <img src="../../../../../../assets/SplineRender-Variant2-After.jpg" alt="樣條渲染變體2-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -114,11 +114,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="樣條渲染變體1之前">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="樣條渲染變體1之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-05.jpg" alt="樣條渲染變體1-After">
+      <img src="../../../../../../assets/SplineRender-Variant1-After.jpg" alt="樣條渲染變體1-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -135,11 +135,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-render.resources/spline-render-04.jpg" alt="樣條渲染變體1之前">
+      <img src="../../../../../../assets/SplineRender-Variant1-Before.jpg" alt="樣條渲染變體1之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-render.resources/spline-render-06.jpg" alt="樣條渲染變體3">
+      <img src="../../../../../../assets/SplineRender-Variant3.jpg" alt="樣條渲染變體3">
       <br><i>之後</i>
     </td>
   </tr>
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 1](spline-render.resources/spline-render-07.gif "節點範例 1")
+![節點範例 1](../../../../../../assets/SplineRender-Demo.gif "節點範例 1")
 
 </td>
 </tr>
