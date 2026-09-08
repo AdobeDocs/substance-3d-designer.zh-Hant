@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: 利用皮革老化節點，根據網狀曲線為皮革材料添加磨損模式和老化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 皮革風化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 6eb38d6ccaadda1d070e4e0b67311312adb7d082
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](leather-weathering.resources/leather-weathering-01.png){width="128px"}
+![](../../../../../../assets/leather-weathering.png){width="128px"}
 
 <b>收錄於：</b> 基於網狀的發電機>風化
 
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 說明
 
-這是一種全材質效果，能同時在多個聲道上運作。 它增加了隨機的皮革磨損效果，並能控制老化和髒污程度。 它與布料風化[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)類似，但專為皮革調校。<br>除非你插入了正式烘焙的 AO 和世界空間法線貼圖，否則這個效果效果不太好，因為這需要這些來充分計算和產生所有東西。
+這是一種全材質效果，能同時在多個聲道上運作。 它增加了隨機的皮革磨損效果，並能控制老化和髒污程度。 它與布料風化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)類似[，但專為皮革調校。<br>除非你插入了正式烘焙的 AO 和世界空間法線貼圖，否則這個效果效果不太好，因為這需要這些來充分計算和產生所有東西。
 
 使用完整素材時，務必充分理解 [連結創建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) 。
 
@@ -89,10 +89,10 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-weathering-02.gif" />
+            <img src="../../../../../../assets/leather-ex.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="leather-weathering.resources/leather-weathering-03.png" />
+            <img src="../../../../../../assets/leather-ex2.png" />
         </td>
     </tr>
 </table>
