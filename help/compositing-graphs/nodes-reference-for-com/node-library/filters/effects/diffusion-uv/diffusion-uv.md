@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/diffusion-uv.html"
 breadcrumb-title: ''
 description: 使用 Diffusion UV 節點在 UV 空間中套用擴散效果，創造平滑的色彩過渡和混合效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 擴散紫外線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](diffusion-uv.resources/diffusion-uv-01.png){width="200px"}
+![](../../../../../../assets/diffusion-uv-icon.png){width="200px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -69,18 +69,18 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-02.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01a-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-03.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01a-after.jpg" />
         </td>
     </tr>
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-04.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01b-before.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="diffusion-uv.resources/diffusion-uv-05.jpg" />
+            <img src="../../../../../../assets/diffusion-uv-01b-after.jpg" />
         </td>
     </tr>
 </table>

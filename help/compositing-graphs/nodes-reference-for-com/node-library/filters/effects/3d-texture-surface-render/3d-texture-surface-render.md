@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
 description: 使用 3D Texture Surface Render 節點，從 3D 資料渲染表面貼圖，以建立程序化表面效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 貼圖表面渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-surface-render.resources/3d-texture-surface-render-01.png){width="200px"}
+![](../../../../../../assets/3dtexturesurfacerender.png){width="200px"}
 
 <b>收錄於：</b> 濾波>效應
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 **3D Texture Surface Render** 節點會渲染由 *3D 材質*&#x200B;描述的形狀表面，並利用其從 3D 距離場&#x200B;**影像輸入得到**&#x200B;的對應&#x200B;*距離場*。
 
-該曲面在單位立方體&#x200B;*的範圍內*&#x200B;表示。光照是利用&#x200B;**&#x200B;**&#x200B;環境輸入影像映射到無限球體來計算的。
+該曲面在單位立方體&#x200B;*的範圍內*&#x200B;表示。光照是利用&#x200B;****&#x200B;環境輸入影像映射到無限球體來計算的。
 
 >[!NOTE]
 >
@@ -77,19 +77,19 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-02.jpg" />
+            <img src="../../../../../../assets/3dtexturesurfacerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-03.jpg" />
+            <img src="../../../../../../assets/3dtexturesurfacerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-04.jpg" />
+            <img src="../../../../../../assets/3dtexturesurfacerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-05.jpg" />
+            <img src="../../../../../../assets/3dtexturesurfacerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-surface-render.resources/3d-texture-surface-render-06.png" />
+            <img src="../../../../../../assets/3dtexturesurfacerender-node.png" />
         </td>
     </tr>
 </table>
