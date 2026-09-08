@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gradient-linear-2.html"
 breadcrumb-title: ''
 description: 使用 Gradient Linear 2 節點來建立線性漸層，並加強色彩轉換方向的控制。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度線性 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gradient-linear-2.resources/gradient-linear-2-01.png){width="128px"}
+![](../../../../../../assets/gradient-linear-2.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 簡單、平滑的雙面漸層。 能呈現完美的黑-白-黑漸層，插值也完美。
 
-儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試！
+儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試[！
 
 </td>
 </tr>
@@ -55,7 +55,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gradient-linear-2.resources/gradient-linear-2-02.gif" />
+            <img src="../../../../../../assets/gradient-linear-2-ex.gif" />
         </td>
     </tr>
 </table>

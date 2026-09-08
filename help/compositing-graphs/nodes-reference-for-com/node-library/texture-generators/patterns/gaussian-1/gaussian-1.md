@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/gaussian-1.html"
 breadcrumb-title: ''
 description: 利用 Gaussian 1 節點產生高斯噪音模式，以創造有機的紋理與變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高斯1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '58'
 ht-degree: 8%
@@ -24,7 +24,7 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](gaussian-1.resources/gaussian-1-01.png){width="128px"}
+![](../../../../../../assets/gaussian-1.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -53,7 +53,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="gaussian-1.resources/gaussian-1-02.gif" />
+            <img src="../../../../../../assets/gaussian-1-ex.gif" />
         </td>
     </tr>
 </table>

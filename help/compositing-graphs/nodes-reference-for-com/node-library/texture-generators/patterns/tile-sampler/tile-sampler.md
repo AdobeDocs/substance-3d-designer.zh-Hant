@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-sampler.html"
 breadcrumb-title: ''
 description: 使用 Tile Sampler 節點從輸入貼圖中取樣並排列圖塊，在 Substance 3D Designer 中創造瓦片圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 瓷磚樣本
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-sampler.resources/tile-sampler-01.png){width="128px"}
+![](../../../../../../assets/tile-sampler.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 說明
 
-Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
+Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本[。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
 
 Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸入映射驅動的特定參數。
 
@@ -122,7 +122,7 @@ Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-sampler.resources/tile-sampler-02.png" /><br><i>範例說明參數如何由輸入映射（圖案分布、比例、旋轉）驅動。</i>
+            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>範例說明參數如何由輸入映射（圖案分布、比例、旋轉）驅動。</i>
         </td>
     </tr>
 </table>
