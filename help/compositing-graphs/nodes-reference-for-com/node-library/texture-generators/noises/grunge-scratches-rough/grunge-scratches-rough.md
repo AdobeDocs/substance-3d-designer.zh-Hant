@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
 breadcrumb-title: ''
 description: 使用 Grunge Scratches Rough 節點加入粗糙刮痕圖案，創造重度磨損和損傷效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾刮刮粗糙
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungescratchesrough.jpg){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,40 +39,40 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 參數
 
-* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
-* **對比***浮動*&#x200B;調整影像的對比度。
-* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
-* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
-* 進階
-  * **刮痕量***浮動*&#x200B;調整表面刮痕的數量。
-  * **刮刮平鋪***整數*&#x200B;調整刮痕上鋪平貼的量。
-  * **刮痕模糊***浮動*&#x200B;調整刮痕的模糊程度。
-  * **刮痕寬度***浮點*&#x200B;調整刮痕的寬度。
-  * **刮痕長度***浮子*&#x200B;調整刮痕的長度。
-  * **刮痕遮罩***浮球*&#x200B;調整刮痕部分遮罩強度。
-  * **刮痕髒污***浮球*&#x200B;調整刮痕的髒度，破壞刮痕的銳利度與連續性。
-  * **雙刮擦***浮動*&#x200B;調整第二個刮痕的不透明度，並帶有輕微變形效果。
-  * **刮痕斑***點強度浮球*&#x200B;調整刮痕旁邊受損斑點的強度。
-  * **刮痕斑點整數平鋪** **&#x200B;調整損壞斑點的平鋪。
-  * **塵埃強度***浮球*&#x200B;調整塵埃覆蓋層的強度。
-  * **灰塵平鋪***整數*&#x200B;調整塵埃覆蓋層的平鋪。
-  * **銳利強度***浮動*&#x200B;調整全域銳化效果的強度。
+|  |  |
+|:---|:---|
+| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
+| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
+| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
+| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>進階</b> |  |
+| <b>刮盤數量</b> <i>浮標</i> | 調整表面的刮痕數量。 |
+| <b>刮板</b> <i>整數</i> | 調整刮痕上鋪磚的量。 |
+| <b>刮痕模糊</b> <i>浮標</i> | 調整刮痕的模糊程度。 |
+| <b>刮圖寬度</b> <i>浮標</i> | 可以調整刮痕的寬度。 |
+| <b>刮痕長度</b> <i>浮標</i> | 調整刮痕的長度。 |
+| <b>刮痕遮罩</b> <i>浮標</i> | 調整刮痕部分遮罩的強度。 |
+| <b>刮痕髒污</b> <i>浮標</i> | 調整刮痕的髒污程度，破壞刮痕的銳利度與連續性。 |
+| <b>雙刮</b> <i>浮標</i> | 調整與每個刮痕同時施加的第二個刮痕的不透明度，並帶有輕微變形效果。 |
+| <b>刮痕強度</b> <i>浮標</i> | 調整刮痕旁邊受損斑點的強度。 |
+| <b>刮痕平鋪</b> <i>整數</i> | 調整損壞區域的瓷磚。 |
+| <b>塵埃強度</b> <i>浮標</i> | 調整塵埃覆蓋層的強度。 |
+| <b>塵埃鋪設</b> <i>整數</i> | 調整塵埃覆蓋層的平鋪。 |
+| <b>銳利強度</b> <i>浮標</i> | 調整全域銳化效應的強度。 |
 
-## 範例圖片
+## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungescratchesrough-variant2.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungescratchesrough-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungescratchesrough-variant2.jpg" />
+        </td>
+    </tr>
 </table>

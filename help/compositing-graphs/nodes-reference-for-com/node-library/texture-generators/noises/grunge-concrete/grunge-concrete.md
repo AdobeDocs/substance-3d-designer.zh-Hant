@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: 使用 Grunge Concrete 節點生成類似混凝土的 Grunge 圖案，以創造風化的磚石紋理。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 垃圾混凝土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '150'
+ht-degree: 2%
 
 ---
 
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungeconcrete.jpg){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,20 +39,30 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 參數
 
-* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
-* **對比***浮動*&#x200B;調整影像的對比度。
-* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
-* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
-* 進階
-  * **Base Noisness** *Float*&#x200B;調整基底貼圖的噪音。
-  * **灰塵斑點 不透明度***浮動*&#x200B;調整灰塵顆粒的透明度。
-  * **反轉泥土***布林*&#x200B;反轉泥土顆粒的影響。
-  * **刮痕不透明度***浮點*&#x200B;調整刮痕的不透明度。
-  * **銳化***浮點*&#x200B;調整施加在影像上的銳化效果強度。
-  * **大變化***強度浮點*&#x200B;調整施加在基底貼圖上的大尺度（低頻）變化。
+|  |  |
+|:---|:---|
+| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
+| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
+| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
+| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>進階</b> |  |
+| <b>基底噪聲</b> <i>浮標</i> | 調整基底材質的雜訊。 |
+| <b>泥斑不透明度</b> <i>浮標</i> | 調整髒污點的透明度。 |
+| <b>反轉泥土</b> <i>布林值</i> | 反轉那些塵埃點的衝擊。 |
+| <b>刮痕不透明度</b> <i>浮標</i> | 可以調整刮痕的不透明度。 |
+| <b>磨利</b> <i>浮標</i> | 調整施加在影像上的銳化效果強度。 |
+| <b>大變異強度</b> <i>浮標</i> | 調整套用到基底紋理的大規模（低頻）變化。 |
 
-## 範例圖片
+## 範例
 
-![](../../../../../../assets/grungeconcrete-variant.jpg){width="256px"}
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungeconcrete-variant.jpg" />
+        </td>
+    </tr>
+</table>

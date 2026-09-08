@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: 使用 Grunge Splashes Dusty 節點來製作塵封的飛濺圖案，加入風化的紋理細節。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾濺起塵土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '139'
 ht-degree: 2%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungesplashesdusty.jpg){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,31 +39,31 @@ ht-degree: 2%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 參數
 
-* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
-* **對比***浮動*&#x200B;調整影像的對比度。
-* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
-* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
-* 進階
-  * **水花***數量 浮水*&#x200B;調整水面上的水花數量。
-  * **濺射失真***漂浮*&#x200B;調整濺射上變形效果的強度。
-  * **水花與泥土比例** *浮球*&#x200B;調整 *表面的泥土與水花比例* 。
-  * **泥土擴散***浮球*&#x200B;調整土壤的擴散。
+|  |  |
+|:---|:---|
+| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
+| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
+| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
+| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>進階</b> |  |
+| <b>濺射數量</b> <i>浮標</i> | 調整水面濺起的水花數量。 |
+| <b>濺射失真</b> <i>浮標</i> | 調整濺水時變形效果的強度。 |
+| <b>濺水/髒污比</b> <i>浮標</i> | 調整 *表面的髒污與濺水比例* 。 |
+| <b>泥土擴散</b> <i>浮標</i> | 調整土壤的擴散。 |
 
-## 範例圖片
+## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungesplashesdusty-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungesplashesdusty-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungesplashesdusty-variant.jpg" />
+        </td>
+    </tr>
 </table>

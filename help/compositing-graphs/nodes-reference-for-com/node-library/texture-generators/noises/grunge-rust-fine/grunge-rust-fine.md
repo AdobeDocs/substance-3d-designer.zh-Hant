@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ''
 description: 使用 Grunge Rust Fine 節點生成細緻的鏽蝕圖案，為金屬增添腐蝕和風化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾 生鏽 Fine
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '176'
 ht-degree: 1%
 
 ---
@@ -22,16 +22,14 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/grungerustfine.jpg){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**很簡單**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -41,32 +39,32 @@ ht-degree: 1%
 </tr>
 </table>
 
+<a name="parameters"></a>
+
 ## 參數
 
-* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
-* **對比***浮動*&#x200B;調整影像的對比度。
-* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
-* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
-* 進階
-  * **底色 Grunge 對比***浮球*&#x200B;調整用作鏽斑底底的 grunge 質地對比度。
-  * **基礎扭曲強度***浮動*&#x200B;調整作為鏽蝕基礎的垃圾搖滾地圖所施加的扭曲效果強度。
-  * **條紋***強度漂浮*&#x200B;調整底色垃圾搖滾紋理上較亮條紋和斑點的強度。
-  * **噪音強度***浮點*&#x200B;調整施加在基礎垃圾搖滾紋理上的噪音強度。
-  * **銳利強度***浮動*&#x200B;調整全域銳化效果的強度。
+|  |  |
+|:---|:---|
+| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
+| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
+| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
+| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
+| <b>進階</b> |  |
+| <b>基礎垃圾搖滾對比</b> <i>浮標</i> | 調整用來做鐵鏽底底的髒污質感對比度。 |
+| <b>基礎曲速強度</b> <i>浮標</i> | 調整作為鏽蝕基礎的垃圾搖滾地圖上扭曲效果的強度。 |
+| <b>條紋強度</b> <i>浮標</i> | 調整底色 grunge 質感上較亮條紋和斑點的強度。 |
+| <b>噪音強度</b> <i>浮標</i> | 調整施加在基礎垃圾搖滾紋理上的噪音強度。 |
+| <b>銳利強度</b> <i>浮標</i> | 調整全域銳化效應的強度。 |
 
-## 範例圖片
+## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/grungerustfine-variant.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungerustfine-variant2.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/grungerustfine-variant.jpg" />
+        </td>
+    </tr>
 </table>
