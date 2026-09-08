@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/3d-texture-offset.html"
 breadcrumb-title: ''
 description: 使用 3D 貼圖偏移節點來偏移 3D 空間中的貼圖，創造視差效果和表面變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 貼圖偏移
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 2%
@@ -28,12 +28,12 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3d-texture-offset-01.png){width="200px"}
+![](../../../../../../assets/3dtextureoffsetgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](3d-texture-offset.resources/3d-texture-offset-02.png){width="200px"}
+![](../../../../../../assets/3dtextureoffsetcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -73,10 +73,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3d-texture-offset-03.jpg" />
+            <img src="../../../../../../assets/3dtextureoffset-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-offset.resources/3d-texture-offset-04.png" />
+            <img src="../../../../../../assets/3dtextureoffset-node.png" />
         </td>
     </tr>
 </table>

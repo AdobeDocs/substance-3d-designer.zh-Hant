@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-uncombine.html"
 breadcrumb-title: ''
 description: 使用法線解合節點將合併的法線貼圖資料分離成獨立的 X、Y 和 Z 元件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 普通未合併
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![正常解合圖示](normal-uncombine.resources/normal-uncombine-01.png "正常解合圖示"){width="200px"}
+![正常解合圖示](../../../../../../assets/NormalUncombine.png "正常解合圖示"){width="200px"}
 
 <b>收錄於：</b> 法線貼圖>濾波器
 
@@ -70,44 +70,44 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-02.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../../../../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-03.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../../../../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![普通解合：範例2](normal-uncombine.resources/normal-uncombine-04.png "普通解合：範例2"){zoomable="yes"}
+![普通解合：範例2](../../../../../../assets/normal_uncombine_example_4.png "普通解合：範例2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-05.jpg" alt="normal_uncombine_example_1_before">
+      <img src="../../../../../../assets/normal_uncombine_example_1_before.jpg" alt="normal_uncombine_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-06.jpg" alt="normal_uncombine_example_1_after">
+      <img src="../../../../../../assets/normal_uncombine_example_1_after.jpg" alt="normal_uncombine_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![普通解合：範例4](normal-uncombine.resources/normal-uncombine-07.png "正常未合併：範例4"){zoomable="yes"}
+![普通解合：範例4](../../../../../../assets/normal_uncombine_example_6.png "正常未合併：範例4"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-08.jpg" alt="normal_uncombine_example_2_before">
+      <img src="../../../../../../assets/normal_uncombine_example_2_before.jpg" alt="normal_uncombine_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="normal-uncombine.resources/normal-uncombine-09.jpg" alt="normal_uncombine_example_2_after">
+      <img src="../../../../../../assets/normal_uncombine_example_2_after.jpg" alt="normal_uncombine_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![普通解體：範例6](normal-uncombine.resources/normal-uncombine-10.png "正常解體：範例6"){zoomable="yes"}
+![普通解體：範例6](../../../../../../assets/normal_uncombine_example_5.png "正常解體：範例6"){zoomable="yes"}
