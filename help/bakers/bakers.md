@@ -30,7 +30,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-烘焙視窗可以透過檔案總管](../interface/the-explorer-window/the-explorer-window.md)視窗中的[網格檔案進入。右鍵點擊網格名稱，選擇「**烘焙模型資訊**」以開啟烘焙視窗。
+烘焙視窗可以透過檔案總管[&#128279;](../interface/the-explorer-window/the-explorer-window.md)視窗中的網格檔案進入。右鍵點擊網格名稱，選擇「**烘焙模型資訊**」以開啟烘焙視窗。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
