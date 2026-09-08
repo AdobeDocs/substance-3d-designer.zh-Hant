@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 說明
 
-**3D 紋理體積渲染**&#x200B;節點會根據&#x200B;****3D 有符號距離場**&#x200B;影像輸入，渲染由 *3D 紋理*&#x200B;描述的形狀體積。
+**3D 紋理體積渲染**&#x200B;節點會根據&#x200B;**&#x200B;**&#x200B;3D 有符號距離場**&#x200B;影像輸入，渲染由 *3D 紋理*&#x200B;描述的形狀體積。
 
 體積在單位立方&#x200B;*體的範圍內*&#x200B;表示。照明是利用 *定向光* 和 *半球形天窗*&#x200B;計算的。
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 |  |  |
 |:---|:---|
 | <b>3D 有符號距離場</b> <i>灰階</i> | 這張4096x4096的影像代表形狀有符號距離場</i>的256<i>個切片</i><i>，排列成16x16格子。<br>你可以使用 [3D Texture SDF](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-sdf/3d-texture-sdf.md) 節點來計算 256 個切片的 3D 貼圖的有符號距離場。 |
-| <b>密度</b> <i>灰階</i> | 4096x4096 的影像代表形狀密度</i>的 256 <i>切片</i><i>，排列成 16x16 格子。密度以灰階值映射，從 0（完全透明）到 1（完全不透明）。<br>你可以使用 [3D 體積遮罩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) 或 3D 雜訊節點（3D[ Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)、 [3D Voronoi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md)、 [3D Ridged Noise Fractal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md) 等），搭配 [3D 貼圖位置](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) 節點作為位置輸入，產生一個包含 256 片的 3D 貼圖體積遮罩。 |
+| <b>密度</b> <i>灰階</i> | 4096x4096 的影像代表形狀密度</i>的 256 <i>切片</i><i>，排列成 16x16 格子。密度以灰階值映射，從 0（完全透明）到 1（完全不透明）。<br>你可以使用 [3D 體積遮罩](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/3d-volume-mask/3d-volume-mask.md) 或 3D 雜訊節點（3D[&#x200B; Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)、 [3D Voronoi](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-voronoi/3d-voronoi.md)、 [3D Ridged Noise Fractal](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-ridged-noise-fractal/3d-ridged-noise-fractal.md) 等），搭配 [3D 貼圖位置](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-texture-position/3d-texture-position.md) 節點作為位置輸入，產生一個包含 256 片的 3D 貼圖體積遮罩。 |
 
 <a name="parameters"></a>
 

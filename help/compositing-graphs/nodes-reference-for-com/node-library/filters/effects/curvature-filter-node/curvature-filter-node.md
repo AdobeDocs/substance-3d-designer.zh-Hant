@@ -35,7 +35,7 @@ ht-degree: 4%
 
 執行簡單且嚴格的單次曲率轉換為輸入 [法線貼](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)圖。 結果的地圖凸面區域帶有白色調，凹面則以黑色調呈現。 曲率總是會產生像素級的細線和銳利的過渡。
 
-這個節點對於快速高亮或調暗某些邊緣很有用。 與 Curvature Smooth](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)（品質較高）和 [Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（選項較多）相比[，它有限制。
+這個節點對於快速高亮或調暗某些邊緣很有用。 與 Curvature Smooth[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md)（品質較高）和 [Curvature Sobel](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-sobel/curvature-sobel.md)（選項較多）相比，它有限制。
 
 </td>
 </tr>
