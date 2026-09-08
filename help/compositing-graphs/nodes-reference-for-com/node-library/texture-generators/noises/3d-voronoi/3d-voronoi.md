@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: 使用 3D Voronoi 節點根據 3D 世界位置產生 Voronoi 圖案，以建立體積細胞紋理。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 3D 沃羅諾伊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -22,113 +22,73 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="41.60%" style="border: 0;" valign="top">
+<td width="33.33%" style="border: 0;" valign="top">
 
 ![](../../../../../../assets/3dvoronoi.png){width="200px"}
 
-**收錄於：***材質產生器**/噪音*
-
-**中級**
+<b>收錄於：</b> 貼圖產生器>噪音
 
 </td>
-<td width="58.30%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;" valign="top">
 
 ## 說明
 
-**3D Voronoi** 節點根據位置圖&#x200B;**輸入在 3D 空間**&#x200B;中產生 Voronoi 雜訊。
+<b>3D Voronoi</b> 節點根據位置圖</b>輸入在 3D 空間<b>中產生 Voronoi 雜訊。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
-
->[!WARNING]
->
-> 這種雜訊僅用於 *GPU 引擎*（例如 **Direct3D** 或 **OpenGL）。**&#x200B;到 **工具>切換引擎......** 或按 **F9** 鍵選擇想要的引擎。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
 
 </td>
 </tr>
 </table>
 
+>[!WARNING]
+>
+> 這種雜訊僅用於 <i>GPU 引擎</i>（例如 <b>Direct3D</b> 或 <b>OpenGL）。</b>到 <b>工具>切換引擎......</b> 或按 <b>F9</b> 鍵選擇想要的引擎。
+
+<a name="parameters"></a>
+
 ## 參數
 
-* **反布***林*\
-  將輸出影像反轉。
-* **比例***浮球*\
-  控制 3D Voronoi 噪音的比例。\
-  *注意*：當&#x200B;**任一&#x200B;*軸啟用*平鋪**&#x200B;時，縮放調整會被&#x200B;*階梯調整*。這是預料之中的。
-* **尺寸** *Float3*\
-  控制 X **、** Y **和** Z **軸 3D Voronoi 雜訊**&#x200B;的大小。不均勻的數值會導致 *拉伸或壓縮* 效果。\
-  *注意*：當&#x200B;**任一&#x200B;*軸啟用*平鋪**&#x200B;時，大小調整會是&#x200B;*階*&#x200B;梯式的。這是預料之中的。
-* **偏移** *Float3*\
-  對 3D Voronoi 雜訊在 X **、** Y **和** Z **軸的位置施加偏移&#x200B;**。**
-* **混亂** *Float3*\
-  隨機偏移的強度&#x200B;*，分別施加在X **軸、**&#x200B;Y **軸和**&#x200B;Z **軸的雜訊**&#x200B;點*&#x200B;上。
-* **失真強度***浮球*\
-  控制對 3D Voronoi 噪音施加的扭曲效果&#x200B;*強度*。
-* **失真尺度乘法***浮點*\
-  控制扭曲效果中變形圖案&#x200B;*的尺度*，由變形強度&#x200B;**控制**。
-* **圓弧浮***球*\
-  繞&#x200B;*過噪音的每個點，使斜*&#x200B;率&#x200B;*呈現*&#x200B;凸面。\
-  *注意* ：當 **Style** 參數設為 *Edge* 時，此參數不可用。
-* **距離刻度***浮點*\
-  調整 *噪音點周圍梯度* 的距離。
-* **距離模式***整數*\
-  設定計算雜訊中每一點周圍距離梯度&#x200B;*的方法*：
-  * *歐幾里得*
-  * *曼哈頓*
-  * *切比雪夫*
-  * *明可夫斯基*
-* **明可夫斯基數字***花車*\
-  閔可夫斯基距離的階數 *p* 。 若將距離梯度劃分為象限，該數值對這些象限的影響如下：
-  * p 恰好&#x200B;*是* 1：直線
-  * p 小&#x200B;**&#x200B;於 1：凹面
-  * p 大&#x200B;**&#x200B;於 1：凸\
-    有趣的價值觀：\
-    *- 1.0*：曼哈頓距離\
-    *- 2.0*：歐幾里得距離\
-    *- 無限大*：切比雪夫距離\
-    *注意*：此參數僅在距離 **模式** 參數設為 *Minkowski* 時可用。
-* **樣式***整數*&#x200B;設定&#x200B;**&#x200B;渲染 3D Voronoi 雜訊資料的方法，考慮雜訊基於三維空間中的一組點：
-  * *F1*：三維空間中距離最近點&#x200B;*的*&#x200B;距離
-  * *F2*：三維空間中第二接近點&#x200B;*的*&#x200B;距離
-  * *F2-F1*- *F1\* F2 *-* F1/F2 *-*&#x200B;邊緣&#x200B;*：*&#x200B;三維空間中雜訊各單元* 之間的邊
-  * *隨機顏色*：為三維空間中每個噪聲單元指派一個&#x200B;*隨機的平面色*
-* **邊緣厚度***浮動*&#x200B;調整 3D Voronoi 雜訊單元間偵測到的邊緣厚度。邊緣在 X、Y 和 Z 軸上被偵測，因此根據細胞 *深度*&#x200B;不同，某些厚度可能增長得更快。\
-  *注意*：此參數僅在 Style **參數設為 *Edge* 時可用**。
-* **啟用平鋪布***林*\
-  調整 3D Voronoi 噪音，使其產生的圖案 *在 X、Y 和 Z 軸重複* 出現。
+|  |  |
+|:---|:---|
+| <b>倒轉</b> <i>布林值</i> | 將輸出影像反轉。 |
+| <b>規模</b> <i>浮標</i> | 控制 3D Voronoi 噪音的縮放。<br><br><i>注意：當<b>任何軸</i>上啟用<i>平鋪</b>時，縮放調整會是<i>階</i>梯式的。</i>這是預料之中的。 |
+| <b>規模</b> <i>Float3</i> | 控制 X</b>、<b>Y</b> 和 <b>Z</b> 軸 3D Voronoi 雜訊<b>的大小。值不均勻會導致<i>拉伸或壓縮</i>效果。<br><br><i>注意</i>：當<b>任一</i>軸啟用<i>平鋪</b>時，尺寸調整會是<i>階</i>梯式的。這是預料之中的。 |
+| <b>偏移</b> <i>Float3</i> | 對 3D Voronoi 雜訊在 X</b>、<b>Y</b> 和 <b>Z</b> 軸的位置施加偏移<i></i>。<b> |
+| <b>混亂</b> <i>Float3</i> | 隨機偏移的強度<i>，分別施加在X</b>軸、<b>Y</b>軸和<b>Z</b>軸的雜訊<b>點</i>上。 |
+| <b>失真強度</b> <i>浮標</i> | 控制對 3D Voronoi 噪音施加的扭曲效果</i>強度<i>。 |
+| <b>失真尺度倍增器</b> <i>浮標</i> | 控制扭曲效果中變形圖案</i>的尺度<i>，由變形強度</b>控制<b>。 |
+| <b>圓弧</b> <i>浮標</i> | 在雜訊的每個點周圍將 <i>斜率</i> 四捨五入，使其 <i>凸</i>起。<br><br><i>注意</i>：當 <b>Style</b> 參數設為 <i>Edge</i> 時，此參數無法使用。 |
+| <b>距離尺度</b> <i>浮標</i> | 調整 <i>噪音點周圍梯度</i> 的距離。 |
+| <b>距離模式</b> <i>整數</i> | 設定計算雜訊中每個點距離梯度的方法：- 歐幾里得</i><br>-<i>曼哈頓</i><br>-<i>切比雪夫</i><br>-<i>明可夫斯基 <i><br><br><i></i></i> |
+| <b>明可夫斯基數</b> <i>浮標</i> | 閔可夫斯基距離的階數 <i>p</i> 。 若將距離梯度分為象限，此數值對象限的影響如下：<br><br>- p 為</i> <i>1：直線<br> - p <i>小</i>於 1：凹<br> p <i>大於</i> 1：<br><br>凸 有趣值：<br>- <i>1.0</i>：曼哈頓距離<br> - <i>2.0</i>：歐幾里得距離<br> - <i>無限</i>：切比雪夫距離<br><br><i>注意</i>：此參數僅在距離<b>模式</b>參數設為<i>明可夫斯基</i>。 |
+| <b>風格</b> <i>整數</i> | 設定渲染三維沃羅諾伊雜訊資料的方法，考慮雜訊基於三維空間中的一組點：<br><br>- <i>F1</i>：三<i>維空間<br>中最近點</i>的距離 - <i>F2</i>：三<i>維空間<br>中第二近點</i>的距離 - <i>F2-F1</i><br>- <i>F1\*F2</i><br>- <i>F1/F2</i><br>- <i>邊</i>：<i>三維空間<br>中雜訊各格</i>之間的邊- <i>隨機顏色</i>：<i></i> 在三維空間中，為雜訊的每個單元指派一個<i>隨機的平面色</i> |
+| <b>邊緣厚度</b> <i>浮標</i> | 調整偵測到的 3D Voronoi 雜訊單元間邊緣厚度。 邊是在 X、Y 和 Z 軸偵測，因此根據格子<i>的深度</i>，某些厚度可能增長得更快。<br><br><i>注意</i>：此參數僅在 Style <b></b> 參數設為 <i>Edge（邊緣</i>）時可用。 |
+| <b>啟用平鋪</b> <i>布林值</i> | 調整 3D Voronoi 噪音，使其產生的圖案 <i>在 X、Y 和 Z 軸重複</i> 出現。 |
 
-## 範例圖片
+## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant5.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant2.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant4.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant3.jpg){width="256px"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![](../../../../../../assets/3dvoronoi-variant6.jpg){width="256px"}
-
-</td>
-</tr>
+<table style="margin-top: 32px; margin-bottom: 32px">
+    <tr style="border: 0">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+        </td>
+    </tr>
+    <tr style="border: 0; background: transparent">
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+        </td>
+        <td style="border: 0; background: transparent">
+            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+        </td>
+    </tr>
 </table>
