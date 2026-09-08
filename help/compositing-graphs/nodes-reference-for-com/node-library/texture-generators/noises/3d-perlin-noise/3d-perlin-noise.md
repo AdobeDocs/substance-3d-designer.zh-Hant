@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: 使用 3D Perlin Noise 節點在 3D 空間中產生平滑的 Perlin 雜訊圖案，創造自然的體積紋理。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D Perlin 雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 1%
+source-wordcount: '276'
+ht-degree: 0%
 
 ---
 
@@ -22,58 +22,72 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](3d-perlin-noise.resources/3d-perlin-noise-01.png){width="200px"}
+![](../../../../../../assets/3dperlinnoise.png){width="200px"}
 
-<b>收錄於：</b> 貼圖產生器>噪音
+**收錄於：***材質產生器**/噪音*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 說明
 
-<b>3D Perlin 噪聲</b>節點根據位置圖</b>輸入在三維空間<b>中產生 Perlin 噪聲。
+**3D Perlin 噪聲**&#x200B;節點根據位置圖&#x200B;**輸入在三維空間**&#x200B;中產生 Perlin 噪聲。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
+
+>[!WARNING]
+>
+> 這種雜訊僅用於 *GPU 引擎*（例如 **Direct3D** 或 **OpenGL）。**&#x200B;到 **工具>切換引擎......** 或按 **F9** 鍵選擇想要的引擎。
 
 </td>
 </tr>
 </table>
 
->[!WARNING]
->
-> 這種雜訊僅用於 <i>GPU 引擎</i>（例如 <b>Direct3D</b> 或 <b>OpenGL）。</b>到 <b>工具>切換引擎......</b> 或按 <b>F9</b> 鍵選擇想要的引擎。
-
-<a name="parameters"></a>
-
 ## 參數
 
-|  |  |
-|:---|:---|
-| <b>倒轉</b> <i>布林值</i> | 將輸出影像反轉。 |
-| <b>規模</b> <i>浮標</i> | 控制 3D Perlin 雜訊的比例。 |
-| <b>規模</b> <i>Float3</i> | 控制 X</b>、<b>Y</b> 和 <b>Z</b> 軸上 <b>3D Perlin 雜訊的大小。不均勻的數值會導致 <i>拉伸或壓縮</i> 效果。 |
-| <b>偏移</b> <i>Float3</i> | 對 X</b>、<b>Y</b> 和 <b>Z</b> 軸上 3D Perlin 雜訊<b>的位置</i>施加偏移<i>。 |
-| <b>失真強度</b> <i>浮標</i> | 控制對 3D Perlin 雜訊施加的扭曲效果</i>強度<i>。 |
-| <b>失真尺度倍增器</b> <i>浮標</i> | 控制扭曲效果中變形圖案</i>的尺度<i>，由變形強度</b>控制<b>。 |
-| <b>基線</b> <i>浮標</i> | 對3D Perlin雜訊值分布的基準亮度</i>值施加<i>偏移</i>。<i> |
-| <b>對比</b> <i>浮標</i> | 調整 3D Perlin 雜訊的對比度。 |
-| <b>絕對</b> <i>布林值</i> | 在 3D Perlin 雜訊中使用絕對值。 這實際上<i>是</i>反轉低於0.5</i>值<i>的值分布。 |
-| <b>啟用平鋪</b> <i>布林值</i> | 調整 3D Perlin 雜訊，使其產生的圖案 <i>在 X、Y 和 Z 軸上重複</i> 出現。 |
+* **反布***林*\
+  將輸出影像反轉。
+* **比例***浮球*\
+  控制 3D Perlin 雜訊的比例。
+* **尺寸** *Float3*\
+  控制 X **、** Y **和** Z **軸上** 3D Perlin 雜訊的大小。不均勻的數值會導致 *拉伸或壓縮* 效果。
+* **偏移** *Float3*\
+  對 X **、** Y **和** Z **軸上 3D Perlin 雜訊**&#x200B;的位置&#x200B;*施加偏移*。
+* **失真強度***浮球*\
+  控制對 3D Perlin 雜訊施加的扭曲效果&#x200B;*強度*。
+* **失真尺度乘法***浮點*\
+  控制扭曲效果中變形圖案&#x200B;*的尺度*，由變形強度&#x200B;**控制**。
+* **基線***浮動*\
+  對3D Perlin雜訊值分布的基準亮度&#x200B;*值施加*&#x200B;偏移&#x200B;*。*
+* **對比***浮動*\
+  調整 3D Perlin 雜訊的對比度。
+* **絕對***布林*\
+  在 3D Perlin 雜訊中使用絕對值。 這實際上&#x200B;*是*&#x200B;反轉低於0.5 *值*&#x200B;的值分布。
+* **啟用平鋪布***林*\
+  調整 3D Perlin 雜訊，使其產生的圖案 *在 X、Y 和 Z 軸上重複* 出現。
 
-## 範例
+## 範例圖片
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-02.gif" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-03.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-perlin-noise.resources/3d-perlin-noise-04.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlin.gif){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlinnoise-variant2.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/3dperlinnoise-variant.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

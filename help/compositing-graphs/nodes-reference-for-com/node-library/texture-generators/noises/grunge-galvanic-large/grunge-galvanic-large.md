@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
 description: 利用 Grunge Galvanic Large 節點產生大規模的電腐蝕圖案，以達到金屬風化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾 Galvanic Large
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '118'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-galvanic-large.resources/grunge-galvanic-large-01.jpg){width="200px"}
+![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
 
-<b>收錄於：</b> 貼圖產生器>噪音
+**收錄於：***材質產生器**/噪音*
+
+**很簡單**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -39,30 +41,30 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 參數
 
-|  |  |
-|:---|:---|
-| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
-| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
-| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
-| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
-| <b>進階</b> |  |
-| <b>曲速強度</b> <i>浮標</i> | 調整主要變形效應的強度。 |
-| <b>脊線細節不透明度</b> <i>浮標</i> | 調整較亮紋理的不透明度。 |
-| <b>銳利強度</b> <i>浮標</i> | 調整全域銳化效應的強度。 |
+* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
+* **對比***浮動*&#x200B;調整影像的對比度。
+* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
+* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
+* 進階
+  * **曲速強度***浮動*&#x200B;調整主要扭曲效果的強度。
+  * **脊線細節不透明度***浮動*&#x200B;調整較亮脊線的不透明度。
+  * **銳利強度***浮動*&#x200B;調整全域銳化效果的強度。
 
-## 範例
+## 範例圖片
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-large.resources/grunge-galvanic-large-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvaniclarge-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungegalvaniclarge-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

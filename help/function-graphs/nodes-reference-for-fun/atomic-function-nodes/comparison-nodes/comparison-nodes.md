@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/comparison-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 函式圖中的比較節點，比較數值並產生布林值結果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 比較
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '50'
 ht-degree: 0%
@@ -24,4 +24,4 @@ ht-degree: 0%
 
 它會根據比較結果，回傳真或假：
 
-![](comparison-nodes.resources/comparison-nodes-01.png)
+![](../../../../assets/image2015-12-23-11-57-3.png)

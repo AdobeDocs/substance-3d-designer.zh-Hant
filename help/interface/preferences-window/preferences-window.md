@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中進入偏好設定視窗，自訂應用程式設定與行為。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 偏好設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 偏好設定視窗
 
-![偏好設定視窗](preferences-window.resources/preferences-window-01.png "偏好設定視窗")
+![偏好設定視窗](../../assets/image2021-6-22-20-56-1.png "偏好設定視窗")
 
 本頁呈現 <b>偏好設定</b> 視窗及其所有設定。
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 |  |                                                                                                                                         |
 | --- |-----------------------------------------------------------------------------------------------------------------------------------------|
-| <b>近期文件列表包含</b>  *預設值：10* | 這讓你能在主選單[&#128279;](../the-main-toolbar/the-main-toolbar.md)的檔案</b>項目中，選擇要列出<b>的「最近包裹</b>」項目<b>中的文件數量。 |
+| <b>近期文件列表包含</b>  *預設值：10* | 這讓你能在主選單](../the-main-toolbar/the-main-toolbar.md)的檔案</b>項目[中，選擇要列出<b>的「最近包裹</b>」項目<b>中的文件數量。 |
 
 ### 歷史記錄
 
 |  |  |
 | --- | --- |
-| **歷史堆疊大小** *預設值：200* | 這表示主選單[&#128279;](../the-main-toolbar/the-main-toolbar.md)中編輯>復原</b>項目中，任何時候<b>可用的復原操作數量。**注意：** 你需要的復原操作越多，應用程式所需的記憶體就越多。 |
+| **歷史堆疊大小** *預設值：200* | 這表示主選單](../the-main-toolbar/the-main-toolbar.md)中編輯>復原</b>項目[中，任何時候<b>可用的復原操作數量。**注意：** 你需要的復原操作越多，應用程式所需的記憶體就越多。 |
 
 ### 語言
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>反向放大檢視</b>  *預設：未勾選* | 如果勾選，縮放控制會在 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)、3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)和[圖表](../../interface/the-graph-view/the-graph-view.md)中反轉。 |
+| <b>反向放大檢視</b>  *預設：未勾選* | 如果勾選，縮放控制會在 2D 視圖](../../interface/2d-view/2d-view.md)、3D 視圖](../../interface/3d-view/3d-view.md)和[圖表](../../interface/the-graph-view/the-graph-view.md)中反轉[[。 |
 
 ### 路徑
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 #### 影像快取
 
 應用程式會為當前圖中每個渲染節點保留一張 *全解析度、未壓縮的影像* 。\
-實例節點會為其所參考圖中所有節點產生這些影像，並在計算出輸出[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)後刪除這些影像。此時只有輸出會被儲存在記憶體中。
+實例節點會為其所參考圖中所有節點產生這些影像，並在計算出輸出[](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)後刪除這些影像。此時只有輸出會被儲存在記憶體中。
 
 你可以設定系統記憶體中為縮圖和圖片分配的最大快取大小，並查看目前的使用情況。 若快取資料超出其分配的池，多餘的資料會寫入 <b>暫存資料夾</b> （見上文 <b>「路徑>暫存資料夾</b>」）。
 
@@ -78,7 +78,7 @@ ht-degree: 0%
 | <b>記憶體預算</b>  *預設：自動* | 此分配會自動計算至約 75% 的系統記憶體池。 若要手動設定此值，請選擇「*自訂*」選項，並在相鄰的輸入欄位設定一個值。 |
 
 請注意，寫入磁碟 *的速度比寫入系統記憶體慢* 好幾個數量級。 因此，隨著溢出資料需寫入暫存資料夾，圖形渲染時間將 *呈指數* 增加。\
-為避免這種情況發生，我們建議參考文件中效能優化指引[&#128279;](../../best-practices/performance-optimization/performance-optimization-guidelines.md)中減少圖表記憶體佔用的建議。
+為避免這種情況發生，我們建議參考文件中效能優化指引](../../best-practices/performance-optimization/performance-optimization-guidelines.md)中減少圖表記憶體佔用[的建議。
 
 #### 工作排程器
 
@@ -93,11 +93,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| **關閉高 DPI** *預設：未勾選* | <b>高 DPI</b> 模式可獨立於系統顯示與縮放設定，維持文字與使用者介面元素&#x200B;**&#x200B;的一致縮放。關閉（即填入&#x200B;*核取方塊*）會讓介面縮放，這會導致部分顯示器上的文字更大且更易讀，但也可能造成文字大小不一致及其他版面配置問題。**&#x200B;注意：**&#x200B; Designer 會從作業系統&#x200B;*取得特定尺度的使用者介面元素*。因此，任何對使用者介面縮放的調整都應在作業系統的顯示設定中進行。 為了確保在 Designer 中正確套用顯示設定，請 *登出* 作業系統使用者會話，並在更改這些設定後再登入。  &#x200B;** 注意：**  更改此設定僅在重新啟動應用程式後生效。 |
+| **關閉高 DPI** *預設：未勾選* | <b>高 DPI</b> 模式可獨立於系統顯示與縮放設定，維持文字與使用者介面元素&#x200B;**&#x200B;的一致縮放。關閉（即填入&#x200B;*核取方塊*）會讓介面縮放，這會導致部分顯示器上的文字更大且更易讀，但也可能造成文字大小不一致及其他版面配置問題。**注意：** Designer 會從作業系統&#x200B;*取得特定尺度的使用者介面元素*。因此，任何對使用者介面縮放的調整都應在作業系統的顯示設定中進行。 為了確保在 Designer 中正確套用顯示設定，請 *登出* 作業系統使用者會話，並在更改這些設定後再登入。  **注意：**  更改此設定僅在重新啟動應用程式後生效。 |
 
 ### 自動備份
 
-預設包含自動儲存功能，會在指定時間段建立當前開啟 SBS 套件[&#128279;](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)狀態的副本。自動存檔會放在 <b>SBS 套件位置的 .autosave</b> 資料夾中。
+預設包含自動儲存功能，會在指定時間段建立當前開啟 SBS 套件](https://docs.substance3d.com/display/DRAFTDESIGNER/.Overview+vDraftVersion)狀態[的副本。自動存檔會放在 <b>SBS 套件位置的 .autosave</b> 資料夾中。
 
 |  |  |
 | --- | --- |
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>發佈到 .sbsar 或傳送到其他應用程式時，請務必儲存 .sbs 檔案</b>  *預設：真* | 控制 SBS 套件在發佈[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)或傳送至其他應用程式時的自動儲存。 |
+| <b>發佈到 .sbsar 或傳送到其他應用程式時，請務必儲存 .sbs 檔案</b>  *預設：真* | 控制 SBS 套件在發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)或傳送至其他應用程式時[的自動儲存。 |
 
 ### 爐子
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 我們建議參考文件中效能優化指引[&#128279;](../../best-practices/performance-optimization/performance-optimization-guidelines.md)中減少圖形記憶體佔用的建議。
+> 我們建議參考文件中效能優化指引](../../best-practices/performance-optimization/performance-optimization-guidelines.md)中減少圖形記憶體佔用[的建議。
 
 ## 專案
 
@@ -141,30 +141,30 @@ ht-degree: 0%
 | --- | --- |
 | <b>Tab 鍵顯示節點選單</b>  *預設：已勾選* | 勾選後，「Tab」鍵會開啟 <b>節點選單</b>，模擬「空格」鍵的功能。 |
 | <b>透過點擊拖曳連接器來建立節點</b>  *預設：已勾選* | 如果勾選，點擊任何連接器時，拖曳游鼠元並釋放已建立連結到圖形空白區域，即可顯示 <b>節點選單</b>。   選單也會根據 *被點擊的連接器類型進行* 篩選。 這表示只有與點擊接頭相容的節點才會被顯示。 |
-| <b>開啟圖表時，以 3D 視圖查看輸出</b>  *預設：已勾選* | 若勾選，所有圖形輸出會在打開 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)時自動套用。這也會渲染所有屬於串流 [的節點，這些節點會指向輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。 |
+| <b>開啟圖表時，以 3D 視圖查看輸出</b>  *預設：已勾選* | 若勾選，所有圖形輸出會在打開 3D 視圖](../../interface/3d-view/3d-view.md)時自動套用[。這也會渲染所有屬於串流 [的節點，這些節點會指向輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。 |
 
 ### 物質合成圖
 
 |  |  |
 | --- | --- |
 | <b>開啟圖表時自動計算所有節點的縮圖</b>  *預設：已勾選* | 如果勾選，載入圖表時會自動渲染所有節點縮圖。 |
-| <b>開啟圖表時以 2D 視圖查看輸出</b>  *預設：已勾選* | 若勾選，打開 2D 檢視[&#128279;](../../interface/2d-view/2d-view.md)時，第一個圖的輸出會自動顯示。這也會渲染所有屬於串流的節點，這些節點會被導向該 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。 |
+| <b>開啟圖表時以 2D 視圖查看輸出</b>  *預設：已勾選* | 若勾選，打開 2D 檢視](../../interface/2d-view/2d-view.md)時，第一個圖的輸出會自動顯示。[這也會渲染所有屬於串流的節點，這些節點會被導向該 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。 |
 | <b>自動顯示新建立的合成節點</b>  *預設：已勾選* | 若勾選， [2D 檢視](../../interface/2d-view/2d-view.md) 會自動更新，顯示新建立節點的輸出。 |
 | <b>自動插入色彩/灰階轉換節點</b>  *預設：未勾選* | 若勾選，則會自動解決色彩/灰階連線類型不匹配，透過 *放置特定節點* 執行適當的轉換。   當灰 *階* 輸出（灰色連接器）連接到 *彩色* 輸入（黃色連接器）時， [梯度映射](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 節點會自動放置在兩個連接器之間。   當彩色&#x200B;**&#x200B;輸出（黃色連接器）連接到&#x200B;*灰階*&#x200B;輸入（灰色連接器）時，[灰色轉換](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/grayscale-conversion/grayscale-conversion.md)節點會自動放置在兩個連接器之間。 |
-| <b>在情境中啟用圖形編輯</b>  *預設：未勾選* | 預設情況下，當右鍵點擊該節點並選擇<b>「開啟參考</b>」來開啟由[實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)參考的圖時，該圖會被獨立&#x200B;*載入並編輯*。如果勾選，你可以利用當前圖在實例&#x200B;*中傳遞的資訊，編輯實例*&#x200B;所參考的圖。操作方法是右鍵點擊實例節點，選擇 <b>「在上下文</b>中開啟參考」，或使用 Ctrl+E 鍵擊。   這表示實例化的圖可以在其所實例化的圖上下文中進行編輯。 這對於觀察編輯對你正在處理的圖表產生的影響非常有幫助。 請參考下方範例。  **注意：**<b>使用上下文編輯時，圖表屬性[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)中會&#x200B;*關閉*&#x200B;預覽</b>和<b>預設</b>分頁。 |
+| <b>在情境中啟用圖形編輯</b>  *預設：未勾選* | 預設情況下，當右鍵點擊該節點並選擇<b>「開啟參考</b>」來開啟由[實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)參考的圖時，該圖會被獨立&#x200B;*載入並編輯*。如果勾選，你可以利用當前圖在實例&#x200B;*中傳遞的資訊，編輯實例*&#x200B;所參考的圖。操作方法是右鍵點擊實例節點，選擇 <b>「在上下文</b>中開啟參考」，或使用 Ctrl+E 鍵擊。   這表示實例化的圖可以在其所實例化的圖上下文中進行編輯。 這對於觀察編輯對你正在處理的圖表產生的影響非常有幫助。 請參考下方範例。  **注意：**<b>使用上下文編輯時，圖表屬性](../../compositing-graphs/graph-parameters/graph-parameters.md)中會&#x200B;*關閉[*&#x200B;預覽</b>和<b>預設</b>分頁。 |
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![禁用](preferences-window.resources/preferences-window-02.gif "上下文編輯 關閉上下文編輯")
+![禁用](../../assets/substance3ddesigner_incontext_no.gif "上下文編輯 關閉上下文編輯")
 
 *公開參考*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![啟用](preferences-window.resources/preferences-window-03.gif "上下文編輯 啟用上下文編輯 啟用上下文編輯")
+![啟用](../../assets/substance3ddesigner_incontext_yes.gif "上下文編輯 啟用上下文編輯 啟用上下文編輯")
 
 *上下文中的開放參考*
 
@@ -191,7 +191,7 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>GPU 光線追蹤</b>  *預設：已勾選* | 如果被檢查，會對相容烘焙器的[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing) GPU 執行光線追蹤。以下 GPU 光線追蹤後端將依 NVIDIA GPU 架構而定為預設：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：圖靈與更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal 與 Maxwell</li> </ul>  **注意：**&#x200B;更多關於 GPU 驅動烘焙器的資訊，請參閱 [Substance Bakers](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/home) 文件中的 [GPU 光線追蹤](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing)部分。**提示：**&#x200B;啟動應用程式時，你可以使用以下&#x200B;*命令列參數*&#x200B;強制&#x200B;**&#x200B;使用不同的 GPU 光線追蹤後端：<ul data-preserve-html="true"> <li data-preserve-html="true"><code>--原力-光學</code> ： 強制在 Nvidia Turing 或更新 GPU 上使用 Optix</li> <li data-preserve-html="true"><code>--強制DXR</code> ： 強制在 Nvidia Pascal GPU 上使用 DXR</li> </ul> |
+| <b>GPU 光線追蹤</b>  *預設：已勾選* | 如果被檢查，會對相容烘焙器的](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) GPU [執行光線追蹤。以下 GPU 光線追蹤後端將依 NVIDIA GPU 架構而定為預設：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>DXR</i>：圖靈與更新版本</li> <li data-preserve-html="true"><i>Optix</i>：Pascal 與 Maxwell</li> </ul>  **注意：**&#x200B;更多關於 GPU 驅動烘焙器的資訊，請參閱 [Substance Bakers](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home) 文件中的 [GPU 光線追蹤](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing)部分。**提示：**&#x200B;啟動應用程式時，你可以使用以下&#x200B;*命令列參數*&#x200B;強制&#x200B;**&#x200B;使用不同的 GPU 光線追蹤後端：<ul data-preserve-html="true"> <li data-preserve-html="true"><code>--原力-光學</code> ： 強制在 Nvidia Turing 或更新 GPU 上使用 Optix</li> <li data-preserve-html="true"><code>--強制DXR</code> ： 強制在 Nvidia Pascal GPU 上使用 DXR</li> </ul> |
 
 ## 圖書館
 
@@ -215,4 +215,4 @@ ht-degree: 0%
 > 
 > 當 Python 外掛定義了指派給節點的鍵盤快捷鍵時，該外掛會覆寫該快捷鍵。 這表示金鑰會觸發插件動作，而不是建立節點。
 > 
-> 這已經適用於節點對齊工具[&#128279;](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)所使用的 H、S 和 V 鍵。
+> 這已經適用於節點對齊工具](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)所使用的 [H、S 和 V 鍵。

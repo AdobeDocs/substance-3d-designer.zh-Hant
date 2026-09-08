@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的快捷鍵，以加快工作流程並提升生產力。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 捷徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 9%
@@ -32,11 +32,11 @@ ht-degree: 9%
 
 **窗戶**
 
-![Windows](shortcuts.resources/shortcuts-01.png "上的鍵盤快捷鍵 Windows 上的鍵盤快捷鍵"){zoomable="yes"}
+![Windows](../../assets/keyboard_shortcuts_win.png "上的鍵盤快捷鍵 Windows 上的鍵盤快捷鍵"){zoomable="yes"}
 
 **macOS**
 
-![macOS](shortcuts.resources/shortcuts-02.png "上的鍵盤快捷鍵 macOS 上的鍵盤快捷鍵"){zoomable="yes"}
+![macOS](../../assets/keyboard_shortcuts_mac.png "上的鍵盤快捷鍵 macOS 上的鍵盤快捷鍵"){zoomable="yes"}
 
 ## 捷徑列表
 
@@ -72,7 +72,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 在本文件的本頁[&#128279;](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式。
+> 在本文件的本頁](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式[。
 
 | 模式 | 窗戶 | macOS |
 | --- | --- | --- |

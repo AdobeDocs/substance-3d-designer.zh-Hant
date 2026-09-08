@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 使用 Grunge Leaky Paint 節點產生油漆滲漏圖案，以創造風化與老化的表面效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 垃圾搖滾漏漆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '140'
+source-wordcount: '134'
 ht-degree: 2%
 
 ---
@@ -22,14 +22,16 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="41.60%" style="border: 0;" valign="top">
 
-![](grunge-leaky-paint.resources/grunge-leaky-paint-01.jpg){width="200px"}
+![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
 
-<b>收錄於：</b> 貼圖產生器>噪音
+**收錄於：***材質產生器**/噪音*
+
+**很簡單**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="58.30%" style="border: 0;" valign="top">
 
 ## 說明
 
@@ -39,31 +41,31 @@ ht-degree: 2%
 </tr>
 </table>
 
-<a name="parameters"></a>
-
 ## 參數
 
-|  |  |
-|:---|:---|
-| <b>平衡</b> <i>浮標</i> | 調整明暗的平衡。 |
-| <b>對比</b> <i>浮標</i> | 調整影像的對比度。 |
-| <b>倒轉</b> <i>布林值</i> | 透過運算 `1-x` 反轉影像輸出。 |
-| <b>非平方展開</b> <i>布林值</i> | 能以非平方比率補償擠壓與拉伸。 |
-| <b>進階</b> |  |
-| <b>洩漏強度</b> <i>浮標</i> | 調整滴水的密度和強度。 |
-| <b>漏水量表</b> <i>整數</i> | 調整滴水分離的比例。 |
-| <b>漏角隨機</b> <i>浮標</i> | 可隨機調整&#x200B;*滴落*&#x200B;的最大角度&#x200B;*，並以轉數*&#x200B;為單位。 |
-| <b>漏氣清晰度</b> <i>浮標</i> | 調整滴落的清脆度和銳利度。 |
+* **平衡***浮動*&#x200B;調整暗與亮之間的平衡。
+* **對比***浮動*&#x200B;調整影像的對比度。
+* **反演***布林運算*&#x200B;是透過一個`1-x`運算反轉影像的輸出。
+* **非平方展開***布林*&#x200B;以非平方比率補償擠壓與拉伸。
+* 進階
+  * **漏水強度***浮球*&#x200B;調整滴漏的密度與強度。
+  * **漏水比例***整數*&#x200B;調整滴水分離的比例。
+  * **漏角 隨機***浮球*&#x200B;調整&#x200B;*滴水可隨機旋轉的最大角度*，依轉數&#x200B;*數*&#x200B;調整。
+  * **漏水清脆度***浮球*&#x200B;調整滴水的清脆度與銳利度。
 
-## 範例
+## 範例圖片
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-02.jpg" />
-        </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-leaky-paint.resources/grunge-leaky-paint-03.jpg" />
-        </td>
-    </tr>
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant.jpg){width="256px"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![](../../../../../../assets/grungeleakypaint-variant2.jpg){width="256px"}
+
+</td>
+</tr>
 </table>

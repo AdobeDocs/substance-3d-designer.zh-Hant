@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的 Substance 合成圖，用於建立程序貼圖與材質工作流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 物質圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](substance-compositing-graphs.resources/substance-compositing-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 以下是一些常見的使用案例範例。
 
 +++簡單的形狀
-![Substance 圖中的簡單形狀 Substance 圖](substance-compositing-graphs.resources/substance-compositing-graphs-02.png "中的簡單"){width="512px"}
+![Substance 圖中的簡單形狀 Substance 圖](../assets/simpleshape.png "中的簡單"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 +++
 
 +++調整濾波器
-![Substance 圖](substance-compositing-graphs.resources/substance-compositing-graphs-03.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
+![Substance 圖](../assets/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 +++
 
 +++完整內容
-![Substance 圖表](substance-compositing-graphs.resources/substance-compositing-graphs-04.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
+![Substance 圖表](../assets/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
 
 
 

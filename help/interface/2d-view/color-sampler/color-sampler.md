@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: 在 2D 視圖中使用色彩取樣工具，從材質中取樣顏色以進行精確的色彩匹配。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色彩取樣工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 # 色彩取樣工具
 
-![色彩取樣工具](color-sampler.resources/color-sampler-01.png "色彩取樣工具"){zoomable="yes"}
+![色彩取樣工具](../../../assets/color-sampler-demo.png "色彩取樣工具"){zoomable="yes"}
 
-色彩取樣器工具讓你在<b>調整參數或切換節點時，追蹤 2D 視圖[&#128279;](../../../interface/2d-view/2d-view.md)中特定像素</b>的值。
+色彩取樣器工具讓你在<b>調整參數或切換節點時，追蹤 2D 視圖](../../../interface/2d-view/2d-view.md)中[特定像素</b>的值。
 
 它會在視窗中放置一個針腳，並取樣該位置像素的顏色與位置。
 
@@ -30,16 +30,16 @@ ht-degree: 0%
 
 請依照以下步驟存取並使用此工具：
 
-1. 點擊 ![](color-sampler.resources/color-sampler-02.png) <b>2D 檢視工具列中的資訊</b> 按鈕，即可開啟資訊底座與工具列
-1. 點擊![](color-sampler.resources/color-sampler-03.png)<b>資訊工具列中的色彩取樣工具</b>按鈕
-1. 在視窗中，點擊你想要取樣的特定像素來放置![](color-sampler.resources/color-sampler-04.png)<b>針腳</b>
+1. 點擊 ![](../../../assets/color-sampler-information-button.png) <b>2D 檢視工具列中的資訊</b> 按鈕，即可開啟資訊底座與工具列
+1. 點擊![](../../../assets/color-sampler-tool-icon.png)<b>資訊工具列中的色彩取樣工具</b>按鈕
+1. 在視窗中，點擊你想要取樣的特定像素來放置![](../../../assets/color-sampler-pin-icon.png)<b>針腳</b>
 1. 請在資訊碼頭專用區查看取樣的數值
-1. 工具使用完成後，點擊![](color-sampler.resources/color-sampler-05.png)<b>刪除</b>按鈕，將該針從視窗中移除。\
+1. 工具使用完成後，點擊![](../../../assets/color-sampler-remove-pin.png)<b>刪除</b>按鈕，將該針從視窗中移除。\
    你也可以點擊 RMB 鍵，然後在情境選單中選擇「刪除」動作來移除該 PIN 針。
 
 以下是工具實際操作的示範：
 
-![色彩取樣器：使用 工具](color-sampler.resources/color-sampler-06.gif "色彩取樣器：使用 工具"){zoomable="yes"}
+![色彩取樣器：使用 工具](../../../assets/color-sampler-demo.gif "色彩取樣器：使用 工具"){zoomable="yes"}
 
 *點擊放大*
 
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 資訊面板中的彩色縮圖也可以直接拖放到這些參數的彩色縮圖上。
 
-![色彩取樣器：複製 RGBA 值](color-sampler.resources/color-sampler-07.gif "色彩取樣器：複製 RGBA 值"){zoomable="yes"}
+![色彩取樣器：複製 RGBA 值](../../../assets/color-sampler-demo-copy-rgba-values.gif "色彩取樣器：複製 RGBA 值"){zoomable="yes"}
 
 
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![取樣資訊](color-sampler.resources/color-sampler-08.png "取樣資訊"){zoomable="yes"}
+![取樣資訊](../../../assets/color-sampler-information.png "取樣資訊"){zoomable="yes"}
 
 </td>
 </tr>

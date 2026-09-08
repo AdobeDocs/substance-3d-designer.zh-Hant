@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/control-nodes.html"
 breadcrumb-title: ''
 description: Substance 3D Designer 功能圖中的存取控制節點，以控制流程與執行邏輯。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4b69ef5fd76498339222e7b72708f9833acf0e63
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # 控制節點
 
-本頁描述功能圖[&#128279;](../../../../function-graphs/the-function-graph/the-function-graph.md)中用於控制&#x200B;*執行*&#x200B;流程的節點。
+本頁描述功能圖](../../../../function-graphs/the-function-graph/the-function-graph.md)中[用於控制&#x200B;*執行*&#x200B;流程的節點。
 
 <table>
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![如果...否則](../../../../assets/IfElse_Node.jpg "節點如果...否則節點")
+![如果......否則節點](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/IfElse_Node.jpg "如果......否則節點")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![序列節點](../../../../assets/Sequence_Node.jpg "序列節點")
+![序列節點](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/Sequence_Node.jpg "序列節點")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -85,7 +85,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![白色迴路節點](../../../../assets/WhileLoop-Node.jpg "白色迴路節點")
+![白色迴路節點](https://helpx.adobe.com/content/dam/substance-3d-designer/function-graphs/nodes/atomic-function-nodes/control/WhileLoop-Node.jpg "白色迴路節點")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

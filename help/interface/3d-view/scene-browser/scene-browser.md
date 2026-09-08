@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ''
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 場景瀏覽器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 0%
@@ -26,9 +26,9 @@ ht-degree: 0%
 
 由於 Designer 使用 [USD](https://openusd.org/release/index.html) 來描述和管理其場景，其術語與概念都位於該場景樹中。
 
-透過點擊 3D 視圖場景工具列[&#128279;](../../../interface/3d-view/3d-view.md)中專用的切換按鈕![](scene-browser.resources/scene-browser-01.png)來顯示。
+透過點擊 3D 視圖場景工具列](../../../interface/3d-view/3d-view.md)中[專用的切換按鈕![](../../../assets/sceneBrowser-toggleButton.png)來顯示。
 
-![場景瀏覽器 - 已載入的 3D 場景](scene-browser.resources/scene-browser-02.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
+![場景瀏覽器 - 已載入的 3D 場景](../../../assets/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -63,7 +63,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![場景瀏覽器 - 場景樹](scene-browser.resources/scene-browser-03.png "場景瀏覽器 - 場景樹"){zoomable="yes"}
+![場景瀏覽器 - 場景樹](../../../assets/sceneBrowser-sceneTree.png "場景瀏覽器 - 場景樹"){zoomable="yes"}
 
 </td>
 </tr>
@@ -87,12 +87,12 @@ ht-degree: 0%
 
 當使用「編輯...」時，在燈光、攝影機和環境選單中操作，這些都是被編輯的物件，無論場景中是否有其他燈光、攝影機或環境。
 
-這些物件在匯出[&#128279;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時會包含在場景中。
+這些物件在匯出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時[會包含在場景中。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![場景瀏覽器 - 由設計師新增的物件以粗](scene-browser.resources/scene-browser-04.png "體列出場景瀏覽器 - 由設計師新增的物件以粗體列出"){zoomable="yes"}
+![場景瀏覽器 - 由設計師新增的物件以粗](../../../assets/sceneBrowser-addedByDesigner.png "體列出場景瀏覽器 - 由設計師新增的物件以粗體列出"){zoomable="yes"}
 
 </td>
 </tr>
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 父物件的狀態會延續到其子物件，因此停用父物件也會使其子物件失效。
 
-物件的可見性可以透過點擊其眼睛按鈕 ![](scene-browser.resources/scene-browser-05.png) 或從其情境選單切換。 選單中提供了幾個管理場景物件可見性的操作：
+物件的可見性可以透過點擊其眼睛按鈕 ![](../../../assets/sceneBrowser-eyeButton.png) 或從其情境選單切換。 選單中提供了幾個管理場景物件可見性的操作：
 
 * <b>隱藏：</b> 停用選取的物件。
 * <b>顯示：</b> 啟用所選物件。
@@ -128,7 +128,7 @@ ht-degree: 0%
 * <b>展開所有子節點：</b> 遞迴展開選取物件下的所有子節點清單。
 * <b>摺疊所有子節點：</b> 遞迴地將所選物件下所有子節點的清單合併。
 
-![場景瀏覽器 - 切換物件可見](scene-browser.resources/scene-browser-06.gif "性場景瀏覽器 - 切換物件可見性"){zoomable="yes"}
+![場景瀏覽器 - 切換物件可見](../../../assets/sceneBrowser-toggleVisibility.gif "性場景瀏覽器 - 切換物件可見性"){zoomable="yes"}
 
 ### 環境
 
@@ -138,13 +138,13 @@ ht-degree: 0%
 
 若啟用多個環境燈，其光照貢獻會&#x200B;**&#x200B;累積。
 
-![場景瀏覽器 - 切換環境可見](scene-browser.resources/scene-browser-07.gif "性場景瀏覽器 - 切換環境可見性"){zoomable="yes"}
+![場景瀏覽器 - 切換環境可見](../../../assets/sceneBrowser-toggleEnvLights.gif "性場景瀏覽器 - 切換環境可見性"){zoomable="yes"}
 
 ### 光源
 
 場景中的任何燈光也是一樣：每個燈都可以單獨切換。
 
-![場景瀏覽器 - 切換光源可見](scene-browser.resources/scene-browser-08.gif "性場景瀏覽器 - 切換光源可見性"){zoomable="yes"}
+![場景瀏覽器 - 切換光源可見](../../../assets/sceneBrowser-toggleLights.gif "性場景瀏覽器 - 切換光源可見性"){zoomable="yes"}
 
 ## 連接材料
 
@@ -163,7 +163,7 @@ Designer 列出的材質是場景樹中至少用於一個網格的材質物件�
 </td>
 <td style="border: 0;" valign="top">
 
-![場景瀏覽器 - 連通素材](scene-browser.resources/scene-browser-09.png "場景瀏覽器 - 連通素材"){zoomable="yes"}
+![場景瀏覽器 - 連通素材](../../../assets/sceneBrowser-connectedMaterial.png "場景瀏覽器 - 連通素材"){zoomable="yes"}
 
 </td>
 </tr>

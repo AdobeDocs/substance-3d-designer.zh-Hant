@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-006.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-006.html"
 breadcrumb-title: ''
 description: 使用 Grunge Map 006 節點生成程序化的垃圾搖滾圖案，以創造老化與風化的材料表面。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 垃圾搖滾地圖 006
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 7%
+source-wordcount: '129'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,40 @@ ht-degree: 7%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](grunge-map-006.resources/grunge-map-006-01.png){width="128px"}
+![](../../../../../../assets/grungemap-006.png){width="128px"}
 
-<b>收錄於：</b> 貼圖產生器>噪音
+## 垃圾搖滾地圖 006
+
+**收錄於：***材質產生器**/噪音*
+
+**很簡單**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 說明
 
 這會產生一個複雜的綜合噪聲圖。 它作為詳細程序式非常有用，但要注意這類程序非常耗效能，因此生成速度較慢。
 
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
-
 ## 參數
 
-|  |  |
-|:---|:---|
-| <b>平衡</b> <i>0.0 - 1.0</i> | 它會像調整亮度一樣，將結果的平衡從黑到白。 |
-| <b>對比</b> <i>0.0 - 1.0</i> | 調整結果的對比度。 |
-| <b>倒轉</b> <i>錯誤/真實</i> | 結果會被反轉。 |
-| <b>刷子圖案</b> <i>0.0 - 1.0</i> | 在邊緣加裝遮罩，方便用作刷子 alpha 使用。 |
-| <b>非平方展開</b> <i>錯誤/真實</i> | 能以非平方比率補償擠壓與拉伸。 |
+* **平衡**： *0.0 - 1.0*\
+  它會像調整亮度一樣，將結果的平衡從黑到白。
+* **對比**&#x200B;度： *0.0 - 1.0*\
+  調整結果的對比度。
+* **反轉**： *錯誤/真實*\
+  結果會被反轉。
+* **刷子圖案**： *0.0 - 1.0*\
+  在邊緣加裝遮罩，方便用作刷子 alpha 使用。
+* **非平方展開**： *假/真*\
+  能以非平方比率補償擠壓與拉伸。
 
-## 範例
+## 範例圖片
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-map-006.resources/grunge-map-006-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/grungemap-006-ex.gif)
+
+</td>
+</tr>
 </table>

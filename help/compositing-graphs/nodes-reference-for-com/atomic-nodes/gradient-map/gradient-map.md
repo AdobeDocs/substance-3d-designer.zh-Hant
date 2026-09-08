@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ''
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度映射](gradient-map.resources/gradient-map-01.png "原子節點：梯度映射"){width="200px"}
+![原子節點：梯度映射](../../../../assets/comp_gradient_1.png "原子節點：梯度映射"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -78,7 +78,7 @@ ht-degree: 0%
 * 點擊漸層編輯器</b>按鈕上的<b>左鍵;
 * 在漸層條中的針腳上按雙擊左鍵。 點擊的針腳會在漸層編輯器中自動被選中，讓你可以直接編輯它的數值。
 
-![漸層編輯器](gradient-map.resources/gradient-map-02.png "漸層編輯器")
+![漸層編輯器](../../../../assets/image2017-2-17-16-13-5.png "漸層編輯器")
 
 ### 編輯漸層圖釘
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 第一根和最後一個針腳前後的漸層部分分別設定為該針的顏色。
 
-![漸層編輯器 - 漸層檢視](gradient-map.resources/gradient-map-03.png "漸層編輯器 - 漸層檢視")
+![漸層編輯器 - 漸層檢視](../../../../assets/image2017-2-17-17-27-46.png "漸層編輯器 - 漸層檢視")
 
 以下控制項可用於編輯腳位：
 
@@ -105,7 +105,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![漸變編輯器 - 新增針](gradient-map.resources/gradient-map-04.gif "腳 漸層編輯器 - 新增針腳")
+![漸變編輯器 - 新增針](../../../../assets/move-pin.gif "腳 漸層編輯器 - 新增針腳")
 
 </td>
 </tr>
@@ -121,12 +121,12 @@ ht-degree: 0%
 
 你也可以選擇針腳並使用<b></b>位置參數來設定一個數值。位置是 [0;1] 範圍內的一個值，其中 0 是梯度的起點，1 是其終點。
 
-![梯度編輯器 - 腳位參數](gradient-map.resources/gradient-map-05.png "梯度編輯器 - 腳位位置參數")
+![梯度編輯器 - 腳位參數](../../../../assets/image2015-8-27-13-56-2.png "梯度編輯器 - 腳位位置參數")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![漸變編輯器 - 移動腳](gradient-map.resources/gradient-map-06.gif "漸層編輯器 - 移動腳")
+![漸變編輯器 - 移動腳](../../../../assets/movepin2.gif "漸層編輯器 - 移動腳")
 
 </td>
 </tr>
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![漸變編輯器 - 刪除釘腳](gradient-map.resources/gradient-map-07.gif "漸變編輯器 - 刪除釘腳")
+![漸變編輯器 - 刪除釘腳](../../../../assets/removepin.gif "漸變編輯器 - 刪除釘腳")
 
 </td>
 </tr>
@@ -165,7 +165,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![漸變編輯器：反轉位置](gradient-map.resources/gradient-map-08.gif "漸變編輯器：反轉位置")
+![漸變編輯器：反轉位置](../../../../assets/invert.gif "漸變編輯器：反轉位置")
 
 </td>
 </tr>
@@ -182,7 +182,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![漸變編輯器 - 清除全部](gradient-map.resources/gradient-map-09.gif "漸變編輯器 - 清除所有")
+![漸變編輯器 - 清除全部](../../../../assets/remove.gif "漸變編輯器 - 清除所有")
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ ht-degree: 0%
 
 ### 色彩選擇器
 
-![漸層編輯器 - 色彩選擇器](gradient-map.resources/gradient-map-10.png "漸層編輯器 - 色彩選擇器")
+![漸層編輯器 - 色彩選擇器](../../../../assets/image2017-2-17-18-21-29.png "漸層編輯器 - 色彩選擇器")
 
 色彩選擇器讓你可以用多種方式設定顏色：
 
@@ -245,7 +245,7 @@ ht-degree: 0%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![色彩選擇器 - 漸層區域與色相條](gradient-map.resources/gradient-map-11.gif "色彩選擇器 - 漸層區域與色相條")
+  ![色彩選擇器 - 漸層區域與色相條](../../../../assets/colorpalette.gif "色彩選擇器 - 漸層區域與色相條")
 
   </td>
   </tr>
@@ -264,7 +264,7 @@ ht-degree: 0%
   </td>
   <td width="33.33%" style="border: 0;" valign="top">
 
-  ![色彩選擇器 - RGB、HSV 與 Alpha 滑桿](gradient-map.resources/gradient-map-12.png "顏色選擇器 - RGB、HSV 與 Alpha 滑桿")
+  ![色彩選擇器 - RGB、HSV 與 Alpha 滑桿](../../../../assets/image2017-2-17-18-31-41.png "顏色選擇器 - RGB、HSV 與 Alpha 滑桿")
 
   </td>
   </tr>
@@ -281,7 +281,7 @@ ht-degree: 0%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![色彩選擇器 - 螢幕上](gradient-map.resources/gradient-map-13.gif "選擇 顏色選擇器 - 螢幕上選擇")
+  ![色彩選擇器 - 螢幕上](../../../../assets/pick.gif "選擇 顏色選擇器 - 螢幕上選擇")
 
   </td>
   </tr>
@@ -297,7 +297,7 @@ ht-degree: 0%
 </td>
 <td width="16.67%" style="border: 0;" valign="top">
 
-![顏色選擇器 - 還原顏色](gradient-map.resources/gradient-map-14.png "顏色選擇器 - 還原顏色")
+![顏色選擇器 - 還原顏色](../../../../assets/image2015-8-27-14-40-39.png "顏色選擇器 - 還原顏色")
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![色彩選擇器 - 按鈕](gradient-map.resources/gradient-map-15.gif "顏色選擇器 - 按鈕")
+![色彩選擇器 - 按鈕](../../../../assets/invert2.gif "顏色選擇器 - 按鈕")
 
 </td>
 </tr>
@@ -336,7 +336,7 @@ ht-degree: 0%
 
 漸層吸管是這個節點最實用的功能之一，因為你只要在參考圖片上畫一條線，就能創造出複雜的漸層。
 
-![漸層編輯器 - 漸層選取器](gradient-map.resources/gradient-map-16.gif "漸層編輯器 - 漸層選取器")
+![漸層編輯器 - 漸層選取器](../../../../assets/pickgradient.gif "漸層編輯器 - 漸層選取器")
 
 <b>精準</b>滑桿會幫助你調整新建立的漸層，透過增加或減少按鍵數量：按鍵數越低，漸變越能精確匹配你選擇的數值。
 

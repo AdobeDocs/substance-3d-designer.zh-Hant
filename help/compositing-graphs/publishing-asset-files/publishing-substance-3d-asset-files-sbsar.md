@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 學習如何從 Designer 發佈 Substance 3D 資產檔案（SBSAR），以便在其他應用程式和引擎中使用。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 發布 Substance 3D 資產檔案（SBSAR）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本頁說明 Substance 3D Designer 如何將套件發佈為 <b>Substance 3D 資產</b> 檔案，這是一種帶有 <b>SBSAR</b> 副檔名的特殊檔案格式，用於 Substance 生態系統及其他支援它的應用程式中。
 
-通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-sampler/using/home) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home)
+通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler](https://helpx.adobe.com/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)[
 
-![簡化](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "版 SBSAR 檔案發佈 簡化版")
+![簡化](../../assets/exportflow.png "版 SBSAR 檔案發佈 簡化版")
 
 ## 出版概念
 
@@ -33,8 +33,8 @@ ht-degree: 0%
 * 你<b> 發佈的是包含所有內容的套件</b>，而不是單一 [的 Substance 圖表](../../compositing-graphs/substance-compositing-graphs.md)。 接著，Substance 3D 資產可以讓你從這個套件中所有 Substance 圖表生成內容。
 * 已發佈的套件完全獨立 <b>：</b>所有所需資源都嵌入於檔案中。 這代表它們比 SBS 檔案更容易分享。
 * Substance 3D 資產的輸出可以完全動態</b>呈現<b>。[解析度不設定;可調整外洩參數。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) 然而，現在已無法編輯圖譜。
-* Substance 3D 資產可在 Designer 之外使用，適用於所有 Adobe Substance 3D 產品、Adobe Dimension 以及任何與 Substance 整合[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home)的應用程式。
-* 出版和出口[&#128279;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)是不同的，務必清楚兩者的差異。
+* Substance 3D 資產可在 Designer 之外使用，適用於所有 Adobe Substance 3D 產品、Adobe Dimension 以及任何與 Substance 整合](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)的[應用程式。
+* 出版和出口](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)是不同的[，務必清楚兩者的差異。
 
 ## 準備出版
 
@@ -43,8 +43,8 @@ ht-degree: 0%
 * 確保圖的解析度（[輸出大小](../../compositing-graphs/output-size/output-size.md)）設定為&#x200B;*相對於父[*&#x200B;體繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，表示解析度是動態的，可以即時更改。
 * 確保 [圖的輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 正確設定，包含名稱、標籤和使用標籤。
 * 確保 [參數（如有需要）正確組織並命名](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。
-* 如果一個圖描述了一種材料，請將其材料模型[&#128279;](../graph-parameters/graph-parameters.md)屬性設為該材料的模型。
-* 確保所有位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小[&#128279;](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。若非如此，其參考 [點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設 <b>的 256\*256</b> 解析度儲存在已發佈的 Substance 3D 資產檔案中，這會影響*&#x200B;一個或多個輸出的品質* 。
+* 如果一個圖描述了一種材料，請將其材料模型](../graph-parameters/graph-parameters.md)屬性設[為該材料的模型。
+* 確保所有位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。[[若非如此，其參考 [點陣圖資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設 <b>的 256\*256</b> 解析度儲存在已發佈的 Substance 3D 資產檔案中，這會影響*&#x200B;一個或多個輸出的品質* 。
 * 如果套件中有不應該在 Designer 以外存在的圖形（例如僅在特定情境下運作的輔助或「工具」子圖），請將它們設為隱藏在屬性中。 詳情請見下文。
 
 ## 出版方法
@@ -55,14 +55,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在檔案總管中，右鍵點選套件並選擇 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsar 檔案......**，然後用快捷鍵 Ctrl + P。
+在檔案總管中，右鍵點選套件並選擇 ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar 檔案......**，然後用快捷鍵 Ctrl + P。
 
-發佈一次對話框後，你也可以像之前&#x200B;**一樣使用 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png)** Publish .sbsar 檔案，重複發佈過程而不看到對話框，然後立即以相同設定發佈。
+發佈一次對話框後，你也可以像之前&#x200B;**一樣使用 ![](../../assets/image2020-9-23-11-15-35.png)** Publish .sbsar 檔案，重複發佈過程而不看到對話框，然後立即以相同設定發佈。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
+![](../../assets/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在檔案總管中，點擊頂部工具列的發佈按鈕 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) 。
+在檔案總管中，點擊頂部工具列的發佈按鈕 ![](../../assets/image2020-9-23-9-39-58.png) 。
 
-發佈一次對話框後，你也可以使用「發佈如前一頁」按鈕 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) 重複發佈過程，避免看到對話框，立即以相同設定發佈。
+發佈一次對話框後，你也可以使用「發佈如前一頁」按鈕 ![](../../assets/image2020-9-23-11-15-35.png) 重複發佈過程，避免看到對話框，立即以相同設定發佈。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
+![](../../assets/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![資產發佈選項](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "資產發佈選項")
+![資產發佈選項](../../assets/publish-dialog.png "資產發佈選項")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
+![](../../assets/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>
@@ -152,5 +152,5 @@ ht-degree: 0%
 
 * 已發行的Substance 3D資產套件是單向檔案格式。 你無法將 Substance 3D 資產「反編譯」回 Substance 3D 檔案（SBS）。 唯一能「編輯」Substance 3D 資產的方法，就是編輯原始的 Substance 3D 檔案。 你仍然可以將 Substance 3D 資產包內容作為新 Substance 圖表中的節點（開啟和拖放），所以這並不是很大的限制。
 * Substance 3D 資產檔案有版本可推斷相容性。 核心 Substance 引擎會不時更新新功能。 使用這些功能的套件需要由支援這些新功能的應用程式來讀取。 這並非所有 Substance 應用程式都會有問題，因為它們會同時更新，但插件和整合的相容性延遲可能會更長。\
-  請使用專案偏好設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的 Substance Engine 相容性顯示選項，追蹤任何潛在問題。
+  請使用專案偏好設定](../../interface/preferences-window/project-settings/project-settings.md)中的 [Substance Engine 相容性顯示選項，追蹤任何潛在問題。
 * 部分暴露的參數——例如 *靜態* 參數——一旦圖表作為 Substance 3D 資產的一部分發佈後會被 *隱藏* 。 請參閱[「暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」頁面的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)章節，了解這些參數的列表及一般靜態參數的相關知識。

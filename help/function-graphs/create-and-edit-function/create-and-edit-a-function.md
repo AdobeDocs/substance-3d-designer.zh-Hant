@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立和編輯功能圖，以建立可重複使用的節點網路。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立並編輯函式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 建立一個函數
 
-要建立函式，你只需要點選函式圖示 ![](create-and-edit-a-function.resources/create-and-edit-a-function-01.png) 並選擇「**Empty Function**」。
+要建立函式，你只需要點選函式圖示 ![](../../assets/image2017-3-7-17-10-8.png) 並選擇「**Empty Function**」。
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-02.png)
+![](../../assets/image2017-3-7-17-8-37.png)
 
 ## 編輯函式
 
 函式建立完成後，你可以再次點擊函式圖示，或在下拉選單中選擇編輯來修改它。
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-03.png)
+![](../../assets/image2017-3-7-17-11-42.png)
 
 接著你會進入圖的函數模式。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 你可以在圖表中右鍵點擊並選擇「新增元素」，或按下空白鍵來建立節點：
 
-![](create-and-edit-a-function.resources/create-and-edit-a-function-04.png){width="600px"}
+![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## 設定輸出
 

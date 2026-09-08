@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/node-finder.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-finder.html"
 breadcrumb-title: ''
 description: 使用節點搜尋器快速搜尋並定位物質圖中的節點，提升效率。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 節點尋找器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1342'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 節點尋找器
 
-![Node finder toolbar](node-finder.resources/node-finder-01.png "Node finder toolbar"){zoomable="yes"}
+![Node finder toolbar](../../../assets/node-finder-toolbar.png "Node finder toolbar"){zoomable="yes"}
 
 節點搜尋工具允許你使用文字查詢來搜尋 <b>節點和變數</b> 。 所有不符合查詢的節點都會調暗，使結果更突出。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 * 節點的 <b>UID</b> （唯一識別碼）
 * 節點的 <b>標籤</b>
 
-搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
+搜尋可遞迴遍歷[圖實例](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)，因此節點與變數能跨子圖](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)被找到[。如果你不確定要搜尋的確切詞彙，有模糊搜尋選項可用來套用容差。
 
 ## 介面
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 在圖視圖中，按 <b>Ctrl+F</b> （Windows）/ <b>Cmd+F</b> （macOS）即可顯示節點搜尋工具列，並自動將焦點設定在查詢欄位。 這讓你能快速進行搜尋。
 
-在 Graph View 工具列中，點擊 <b>節點搜尋器按鈕 ![](node-finder.resources/node-finder-02.png)</b> 即可顯示節點搜尋工具列。 顯示後，只有點擊這個按鈕才能關閉工具列。
+在 Graph View 工具列中，點擊 <b>節點搜尋器按鈕 ![](../../../assets/graph-node-finder.png)</b> 即可顯示節點搜尋工具列。 顯示後，只有點擊這個按鈕才能關閉工具列。
 
 <b>搜尋會遍</b>歷圖表。 換句話說，當透過以下動作開啟圖表時，搜尋仍然保持活躍：
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 * FX-Map：編輯FX-Map圖（Ctrl+E / Cmd+E）
 * 節點參數：編輯函數
 
-![節點尋找器：遍歷圖 durig 搜尋](node-finder.resources/node-finder-03.gif "節點尋找器：遍歷圖 durig 搜尋"){zoomable="yes"}
+![節點尋找器：遍歷圖 durig 搜尋](../../../assets/node-finder-traversal.gif "節點尋找器：遍歷圖 durig 搜尋"){zoomable="yes"}
 
 ### 搜尋查詢
 
-![節點尋找查詢欄位](node-finder.resources/node-finder-04.png "節點尋找查詢欄位"){zoomable="yes"}
+![節點尋找查詢欄位](../../../assets/node-finder-query-field.png "節點尋找查詢欄位"){zoomable="yes"}
 
 搜尋詞可以輸入此欄位，箭頭按鈕會開啟包含當前情境中部分變數的查詢建議清單。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 節點類型
 
-![節點類型](node-finder.resources/node-finder-05.png "節點類型"){zoomable="yes"}
+![節點類型](../../../assets/node-finder-node-types.png "節點類型"){zoomable="yes"}
 
 這個組合框可以讓你篩選搜尋結果，只保留特定類型的節點。
 
@@ -70,13 +70,13 @@ ht-degree: 0%
 +++節點類型列表
 該列表是依照當前圖型態的上下文而設。
 
-![節點類型（合成）](node-finder.resources/node-finder-06.png "節點類型（合成）"){zoomable="yes"}
+![節點類型（合成）](../../../assets/node-finder-types-compositing.png "節點類型（合成）"){zoomable="yes"}
 
 
 
 *用於合成圖的節點類型*
 
-![節點類型（函數）](node-finder.resources/node-finder-07.png "節點型別（函數）"){zoomable="yes"}
+![節點類型（函數）](../../../assets/node-finder-types-function.png "節點型別（函數）"){zoomable="yes"}
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 +++
 
 +++尋找原子節點
-![節點搜尋器：依「等級」類型搜尋（合成）](node-finder.resources/node-finder-08.png " 節點搜尋器：依「等級」類型搜尋（合成）"){zoomable="yes"}
+![節點搜尋器：依「等級」類型搜尋（合成）](../../../assets/node-finder-compositing-levels.png " 節點搜尋器：依「等級」類型搜尋（合成）"){zoomable="yes"}
 
 
 
@@ -94,13 +94,13 @@ ht-degree: 0%
 +++
 
 +++搜尋實例節點
-![節點搜尋器：依「實例」類型搜尋（合成）節點](node-finder.resources/node-finder-09.png "尋找器：依「實例」類型搜尋（合成）"){zoomable="yes"}
+![節點搜尋器：依「實例」類型搜尋（合成）節點](../../../assets/node-finder-compositing-instances.png "尋找器：依「實例」類型搜尋（合成）"){zoomable="yes"}
 
 
 
 *在 Substance 圖中搜尋「Instance」節點類型*
 
-![節點搜尋器：依「實例」類型（函式）搜尋節點](node-finder.resources/node-finder-10.png "尋找器：依「實例」類型（函式）搜尋"){zoomable="yes"}
+![節點搜尋器：依「實例」類型（函式）搜尋節點](../../../assets/node-finder-functions-instances.png "尋找器：依「實例」類型（函式）搜尋"){zoomable="yes"}
 
 
 
@@ -114,14 +114,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>搜尋選項按鈕![](node-finder.resources/node-finder-11.png)</b>會開啟一個可用於搜尋的設定清單，這些設定可以開關。
+<b>搜尋選項按鈕![](../../../assets/node-finder-search-options.png)</b>會開啟一個可用於搜尋的設定清單，這些設定可以開關。
 
 想了解更多這些選項，請參考下方的搜尋選項區塊。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點搜尋選項](node-finder.resources/node-finder-12.png "節點搜尋選項"){zoomable="yes"}
+![節點搜尋選項](../../../assets/node-finder-search-options-open.png "節點搜尋選項"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點搜尋器：依照圖標識](node-finder.resources/node-finder-13.png "搜尋 節點尋找器：依圖標識搜尋"){zoomable="yes"}
+![節點搜尋器：依照圖標識](../../../assets/node-finder-functions-identifier.png "搜尋 節點尋找器：依圖標識搜尋"){zoomable="yes"}
 
 *點擊圖片可放大*
 
@@ -161,7 +161,7 @@ ht-degree: 0%
 +++Explorer 中的識別碼
 圖會在 Explorer 中依其識別碼列出。
 
-![檔案總管：套件內容](node-finder.resources/node-finder-14.png "檔案總管：套件內容"){zoomable="yes"}
+![檔案總管：套件內容](../../../assets/explorer-package-simple.png "檔案總管：套件內容"){zoomable="yes"}
 
 
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 +++實例節點工具提示中的識別碼
 實例節點的工具提示包含其參考圖的識別碼。
 
-![實例節點工具提示中的圖識別碼 實例節點工具提示](node-finder.resources/node-finder-15.png "中的圖識別碼"){zoomable="yes"}
+![實例節點工具提示中的圖識別碼 實例節點工具提示](../../../assets/node-finder-compositing-identifier.png "中的圖識別碼"){zoomable="yes"}
 
 
 
@@ -182,12 +182,12 @@ ht-degree: 0%
 
 ### 暴露參數與變數
 
-可直接搜尋暴露參數[&#128279;](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼或其他變數。
+可直接搜尋暴露參數](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的識別碼[或其他變數。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點尋找器：節點變數](node-finder.resources/node-finder-16.png "節點尋找器：節點變數"){zoomable="yes"}
+![節點尋找器：節點變數](../../../assets/node-finder-compositing-variable.png "節點尋找器：節點變數"){zoomable="yes"}
 
 *點擊圖片可放大*
 
@@ -200,13 +200,13 @@ ht-degree: 0%
 
 這些包括 [目前圖型態的內建變數](../../../function-graphs/variables/system-variables/system-variables.md) ，以及圖中暴露參數的識別碼。
 
-![節點搜尋查詢建議節點](node-finder.resources/node-finder-17.png "尋找查詢建議"){zoomable="yes"}
+![節點搜尋查詢建議節點](../../../assets/node-finder-available-query-suggestions.png "尋找查詢建議"){zoomable="yes"}
 
 
 
 暴露參數的識別碼也可以直接複製或編輯到 [Substance 圖屬性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中。
 
-![節點尋找器：公開參數](node-finder.resources/node-finder-18.png "節點尋找器：公開參數"){zoomable="yes"}
+![節點尋找器：公開參數](../../../assets/node-finder-compositing-exposed-parameter.png "節點尋找器：公開參數"){zoomable="yes"}
 
 
 
@@ -219,7 +219,7 @@ ht-degree: 0%
 
 變數也可以直接從 SBS 檔案中的 XML 資料複製，使用任何文字編輯器。
 
-![節點搜尋器：來自控制台警告/錯誤](node-finder.resources/node-finder-19.png "的搜尋變數節點搜尋器：來自控制台的搜尋變數警告/錯誤"){zoomable="yes"}
+![節點搜尋器：來自控制台警告/錯誤](../../../assets/node-finder-console-identifier.png "的搜尋變數節點搜尋器：來自控制台的搜尋變數警告/錯誤"){zoomable="yes"}
 
 
 
@@ -228,7 +228,7 @@ ht-degree: 0%
 +++取得/集合節點
 當搜尋圖中的變數（包括外露參數）時，搜尋會標示 [Get](../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md) 或 [Set](../../../function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md) 節點在該節點參數函式中使用該變數的所有節點。
 
-![節點查找器：搜尋變數匹配 取得使用該變](node-finder.resources/node-finder-20.gif "數的節點 節點尋找器：搜尋變數匹配 取得使用該變數的節點"){zoomable="yes"}
+![節點查找器：搜尋變數匹配 取得使用該變](../../../assets/node-finder-exposed-parameter-01.gif "數的節點 節點尋找器：搜尋變數匹配 取得使用該變數的節點"){zoomable="yes"}
 
 
 
@@ -245,7 +245,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點搜尋器：依 UID](node-finder.resources/node-finder-21.png "搜尋 節點搜尋器：依 UID 搜尋"){zoomable="yes"}
+![節點搜尋器：依 UID](../../../assets/node-finder-compositing-uid-search.png "搜尋 節點搜尋器：依 UID 搜尋"){zoomable="yes"}
 
 *點擊圖片可放大*
 
@@ -260,7 +260,7 @@ ht-degree: 0%
 
 uid=1234567890
 
-![節點尋找器：複製節點 UID 動作](node-finder.resources/node-finder-22.png "節點尋找器：複製節點 UID 動作"){zoomable="yes"}
+![節點尋找器：複製節點 UID 動作](../../../assets/node-finder-compositing-uid-copy.png "節點尋找器：複製節點 UID 動作"){zoomable="yes"}
 
 
 
@@ -271,7 +271,7 @@ uid=1234567890
 
 節點 UID 也可以直接從 SBS 檔案中的 XML 資料複製，使用任何文字編輯器。
 
-![節點搜尋器：從主控台](node-finder.resources/node-finder-23.png "搜尋節點 UID 節點尋找器：從主控台搜尋節點 UID"){zoomable="yes"}
+![節點搜尋器：從主控台](../../../assets/node-finder-console-uid.png "搜尋節點 UID 節點尋找器：從主控台搜尋節點 UID"){zoomable="yes"}
 
 
 
@@ -289,14 +289,14 @@ uid=1234567890
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-<b>搜尋選項按鈕![](node-finder.resources/node-finder-11.png)</b>可以切換<b>遞迴</b>模式和<b>模糊</b>模式來搜尋節點。
+<b>搜尋選項按鈕![](../../../assets/node-finder-search-options.png)</b>可以切換<b>遞迴</b>模式和<b>模糊</b>模式來搜尋節點。
 
 兩者都可以同時啟用。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點搜尋選項](node-finder.resources/node-finder-12.png "節點搜尋選項"){zoomable="yes"}
+![節點搜尋選項](../../../assets/node-finder-search-options-open.png "節點搜尋選項"){zoomable="yes"}
 
 </td>
 </tr>
@@ -308,12 +308,12 @@ uid=1234567890
 
 這個選項在排查圖表時可能很重要，尤其是當你需要透過主控台中從警告或錯誤訊息中取得的 UID 來尋找節點時。
 
-![節點尋找器：遞迴搜尋](node-finder.resources/node-finder-24.png "節點尋找器：遞迴搜尋"){zoomable="yes"}
+![節點尋找器：遞迴搜尋](../../../assets/node-finder-recursion-01.png "節點尋找器：遞迴搜尋"){zoomable="yes"}
 
 *右側的查詢會標示下方的實例節點，因為它左邊的參考圖與該查詢有匹配*
 
 +++範例一
-![節點尋找器：遞迴搜尋範例 1](node-finder.resources/node-finder-25.gif "節點尋找器：遞迴搜尋範例 1"){zoomable="yes"}
+![節點尋找器：遞迴搜尋範例 1](../../../assets/node-finder-recursion-01.gif "節點尋找器：遞迴搜尋範例 1"){zoomable="yes"}
 
 
 
@@ -322,7 +322,7 @@ uid=1234567890
 +++
 
 +++範例二
-![節點尋找器：遞迴搜尋範例 2](node-finder.resources/node-finder-26.gif "節點尋找器：遞迴搜尋範例 2"){zoomable="yes"}
+![節點尋找器：遞迴搜尋範例 2](../../../assets/node-finder-recursion-02.gif "節點尋找器：遞迴搜尋範例 2"){zoomable="yes"}
 
 
 
@@ -336,4 +336,4 @@ uid=1234567890
 
 請注意，使用此選項很可能會導致不想要的配對。
 
-![節點尋找器：模糊模式](node-finder.resources/node-finder-27.png "節點尋找器：模糊模式"){zoomable="yes"}
+![節點尋找器：模糊模式](../../../assets/node-finder-functions-fuzzy.png "節點尋找器：模糊模式"){zoomable="yes"}

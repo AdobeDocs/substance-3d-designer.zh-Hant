@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/comment.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖表上加入註解，以記錄你的工作流程並解釋節點連接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 留言
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![留言圖示](comment.resources/comment-01.png "留言圖示")
+![留言圖示](../../../../assets/graphatomic-comment_1.png "留言圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -55,7 +55,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果某個快捷鍵被映射到偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中的「註解」項目，當圖表檢視有焦點時，請按該快捷鍵。
+如果某個快捷鍵被映射到偏好設定](../../../../interface/preferences-window/preferences-window.md)中的[「註解」項目，當圖表檢視有焦點時，請按該快捷鍵。
 
 +++
 
@@ -91,7 +91,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![留言：家長留言](comment.resources/comment-02.gif "留言：受保護留言")
+![留言：家長留言](../../../../assets/graph-comment_parented.gif "留言：受保護留言")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 0%
 
 ## HTML 格式化
 
-文字可以用 HTML 標籤來格式化。 這種格式是透過![](comment.resources/comment-03.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
+文字可以用 HTML 標籤來格式化。 這種格式是透過![](../../../../assets/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
 
 >[!TIP]
 >
-> 想了解更多此功能，請參閱<b>框架[&#128279;](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的說明</b>部分。
+> 想了解更多此功能，請參閱<b>框架](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的[說明</b>部分。
 
-![註解：HTML 標記](comment.resources/comment-04.gif "註解：HTML 標記")
+![註解：HTML 標記](../../../../assets/graph-comment_html-markup.gif "註解：HTML 標記")

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-simplex-noise.html"
 breadcrumb-title: ''
 description: 使用 3D 單純形雜訊節點來產生 3D 單純形雜訊圖案，創造平滑且自然的體積紋理。
 helpx_creative_field: ""
@@ -10,10 +10,10 @@ helpx_tags: ""
 title: 3D 單純形雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 5%
+source-wordcount: '133'
+ht-degree: 1%
 
 ---
 
@@ -22,41 +22,36 @@ ht-degree: 5%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
-![](3d-simplex-noise.resources/3d-simplex-noise-01.png){width="128px"}
+![](../../../../../../assets/3d-simplex-noise.png){width="128px"}
 
-<b>收錄於：</b> 貼圖產生器>噪音
+## 3D 單純形雜訊
+
+**收錄於：***材質產生器**/噪音*
+
+**中級**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ## 說明
 
 當烘焙位置圖插入輸入槽時，會產生程序性噪音。 它只設計給 GPU 引擎使用。\
 類似 [3D Perlin Noise](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/3d-perlin-noise/3d-perlin-noise.md)，但更快且簡單，適合效能與速度重視的情況。
 
-這種雜訊可以用 Cube 3D GBuffers[&#128279;](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) 作為輸入來測試，而非實際烘焙的貼圖（如下方範例圖片所示）。
-
-</td>
-</tr>
-</table>
-
-<a name="parameters"></a>
+這種雜訊可以用 Cube 3D GBuffers](https://support.allegorithmic.com/documentation/display/SDDOC/Cube+3D+GBuffers) 作為輸入來測試[，而非實際烘焙的貼圖（如下方範例圖片所示）。
 
 ## 參數
 
-|  |  |
-|:---|:---|
-| <b>規模</b> <i>0.0 - 64.0</i> | 設定效果的全域尺度。 |
-| <b>規模</b> <i>0.0 - 2.0</i> | 分別對 X、Y 和 Z 軸進行非均勻縮放。 |
+* **等級**： *0.0 - 64.0*\
+  設定效果的全域尺度。
+* **尺寸**： *0.0 - 2.0*&#x200B;分別對 X、Y 和 Z 軸進行非均勻縮放。
 
-## 範例
+## 範例圖片
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-simplex-noise.resources/3d-simplex-noise-02.gif" />
-        </td>
-    </tr>
+![](../../../../../../assets/3d-simplex.gif)
+
+</td>
+</tr>
 </table>

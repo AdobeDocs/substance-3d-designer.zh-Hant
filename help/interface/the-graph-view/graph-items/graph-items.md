@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items.html"
 breadcrumb-title: ''
 description: 學習 Substance 3D Designer 中的圖形項目，包括框架、註解、釘腳和用於組織圖表的入口節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖表項目
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 1%
@@ -26,14 +26,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![點節點圖示](graph-items.resources/graph-items-01.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
+[![點節點圖示](../../../assets/graphatomic-dot.png){width="128px"}](../../../interface/the-graph-view/graph-items/dot-node/dot-node.md)
 
 ## 點節點（亦稱 Portal）
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![框架圖示](graph-items.resources/graph-items-02.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
+[![框架圖示](../../../assets/graphatomic-frame.png){width="128px"}](../../../interface/the-graph-view/graph-items/frame/frame.md)
 
 ## 邊框
 
@@ -60,14 +60,14 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![留言圖示](graph-items.resources/graph-items-03.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
+[![留言圖示](../../../assets/graphatomic-comment.png){width="128px"}](../../../interface/the-graph-view/graph-items/comment/comment.md)
 
 ## 留言
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![導航圖示](graph-items.resources/graph-items-04.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
+[![導航圖示](../../../assets/graphatomic-pin.png){width="128px"}](../../../interface/the-graph-view/graph-items/navigation-pin/navigation-pin.md)
 
 ## 釘住
 
