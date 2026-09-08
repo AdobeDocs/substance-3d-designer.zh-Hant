@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters/parameter-presets.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立並使用參數預設來儲存並套用參數設定。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 參數預設
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 儲存和載入預設有兩種方式，兩者的使用情境不同，詳述如下。
 
-![載入/儲存預設下拉選單](../../../assets/preset-menu.gif "載入/儲存預設下拉選單"){width="512px"}
+![載入/儲存預設下拉選單](parameter-presets.resources/preset-menu.gif "載入/儲存預設下拉選單"){width="512px"}
 
 ## 外部預設
 
 外部預設包含磁碟上的外部檔案，一個 \*。SBSPRS 檔案。 它們可以在不同的圖和節點間轉移，但只能在應用程式內部進行。 它們的主要目的就是：轉移過多無法逐一複製的數值。
 
-外部預設可用於所有圖實例的特定參數[、大多數原子節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)的特定[&#128279;](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)參數（[例外為無法暴露](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的參數），以及實體圖[參數](../../graph-parameters/graph-parameters.md)參數中暴露的輸入參數。
+外部預設可用於所有圖實例的特定參數[、大多數原子節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)的特定[參數（[例外為無法暴露](../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的參數），以及實體圖[參數](../../graph-parameters/graph-parameters.md)參數中暴露的輸入參數。](../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)
 
 它們只需儲存並透過這個選單載入即可。 已儲存的 SBSPRS 檔案可載入於任何其他節點或圖形上。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > 即使是部分匹配也能運作：儲存在 SBSPRS 中且載入節點上不存在的參數，將被直接忽略。 這表示你可以在大多數 [相似的節點間轉移屬性，例如彩色與灰階版本的 Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)！ 所有共用參數都會載入。 匹配是根據識別碼和類型進行的。
 
-![嵌入預設](../../../assets/preset-embed.gif "編輯 嵌入預設編輯"){width="512px"}
+![嵌入預設](parameter-presets.resources/preset-embed.gif "編輯 嵌入預設編輯"){width="512px"}
 
 ## 嵌入式預設
 
