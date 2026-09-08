@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ''
 description: 使用方向扭曲節點對貼圖施加方向扭曲，以創造流動與動態效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向曲速
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：方向扭曲](../../../../assets/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="200px"}
+![原子節點：方向扭曲](directional-warp.resources/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -102,17 +102,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向扭曲 - 範例1](../../../../assets/dir-warp.gif "方向扭曲 - 範例1"){zoomable="yes"}
+![方向扭曲 - 範例1](directional-warp.resources/dir-warp.gif "方向扭曲 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![定向曲速 - 範例2](../../../../assets/dir-warp02.gif "方向性曲速 - 範例2"){zoomable="yes"}
+![定向曲速 - 範例2](directional-warp.resources/dir-warp02.gif "方向性曲速 - 範例2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向扭曲 - 範例 3](../../../../assets/dir-warp03.gif "方向扭曲 - 範例 3"){zoomable="yes"}
+![方向扭曲 - 範例 3](directional-warp.resources/dir-warp03.gif "方向扭曲 - 範例 3"){zoomable="yes"}
 
 </td>
 </tr>
