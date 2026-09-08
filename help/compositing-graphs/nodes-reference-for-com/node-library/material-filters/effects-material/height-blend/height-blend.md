@@ -35,7 +35,7 @@ ht-degree: 5%
 
 根據高度資訊組合兩個高度圖。 會產生混合的高度圖，也會產生一個黑白遮罩，可用於其他地方。
 
-這在你有兩個高品質高度貼圖要合併時很有用，但不一定是完整材質，因為材質高度混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)是必要的[。
+這在你有兩個高品質高度貼圖要合併時很有用，但不一定是完整材質，因為材質高度混合[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)是必要的。
 
 </td>
 </tr>

@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-這是 PBR 渲染節點](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)的擴充節點[，允許你將之前 [PBR 渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)的形狀上獨立貼圖。它的主要目標是讓你能從 PBR 渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)中重新映射每個獨立通道[，回到形狀上，從而建立合成的地圖與通道拆解，如下面的範例所示。你可以自由地用 PBR Render Mapping 節點作為元件來建立自己的合成方法和遮罩。
+這是 PBR 渲染節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)的擴充節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)，允許你將之前 [PBR 渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/pbr-utilities/pbr-render/pbr-render.md)的形狀上獨立貼圖。它的主要目標是讓你能從 PBR 渲染中重新映射每個獨立通道，回到形狀上，從而建立合成的地圖與通道拆解，如下面的範例所示。你可以自由地用 PBR Render Mapping 節點作為元件來建立自己的合成方法和遮罩。
 
 彩色與灰階版本分別適用於兩種資料：漫射地圖使用彩色，粗糙度及金屬及其他灰階地圖使用灰階。
 
