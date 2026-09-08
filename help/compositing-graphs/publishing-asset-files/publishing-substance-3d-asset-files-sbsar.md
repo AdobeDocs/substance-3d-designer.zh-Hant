@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 發布 Substance 3D 資產檔案（SBSAR）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本頁說明 Substance 3D Designer 如何將套件發佈為 <b>Substance 3D 資產</b> 檔案，這是一種帶有 <b>SBSAR</b> 副檔名的特殊檔案格式，用於 Substance 生態系統及其他支援它的應用程式中。
 
-通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-sampler/using/home) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home)
+通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler[&#128279;](https://helpx.adobe.com/tw/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home)
 
-![簡化](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-01.png "版 SBSAR 檔案發佈 簡化版")
+![簡化](../../assets/exportflow.png "版 SBSAR 檔案發佈 簡化版")
 
 ## 出版概念
 
@@ -55,14 +55,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在檔案總管中，右鍵點選套件並選擇 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) **Publish .sbsar 檔案......**，然後用快捷鍵 Ctrl + P。
+在檔案總管中，右鍵點選套件並選擇 ![](../../assets/image2020-9-23-9-39-58.png) **Publish .sbsar 檔案......**，然後用快捷鍵 Ctrl + P。
 
-發佈一次對話框後，你也可以像之前&#x200B;**一樣使用 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png)** Publish .sbsar 檔案，重複發佈過程而不看到對話框，然後立即以相同設定發佈。
+發佈一次對話框後，你也可以像之前&#x200B;**一樣使用 ![](../../assets/image2020-9-23-11-15-35.png)** Publish .sbsar 檔案，重複發佈過程而不看到對話框，然後立即以相同設定發佈。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-04.gif)
+![](../../assets/publish-rightclick.gif)
 
 </td>
 </tr>
@@ -72,14 +72,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在檔案總管中，點擊頂部工具列的發佈按鈕 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-02.png) 。
+在檔案總管中，點擊頂部工具列的發佈按鈕 ![](../../assets/image2020-9-23-9-39-58.png) 。
 
-發佈一次對話框後，你也可以使用「發佈如前一頁」按鈕 ![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-03.png) 重複發佈過程，避免看到對話框，立即以相同設定發佈。
+發佈一次對話框後，你也可以使用「發佈如前一頁」按鈕 ![](../../assets/image2020-9-23-11-15-35.png) 重複發佈過程，避免看到對話框，立即以相同設定發佈。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-05.gif)
+![](../../assets/publish-toolbutton.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![資產發佈選項](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-06.png "資產發佈選項")
+![資產發佈選項](../../assets/publish-dialog.png "資產發佈選項")
 
 </td>
 </tr>
@@ -131,7 +131,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](publishing-substance-3d-asset-files-sbsar.resources/publishing-substance-3d-asset-files-sbsar-07.png)
+![](../../assets/image2020-9-23-10-40-21.png)
 
 </td>
 </tr>

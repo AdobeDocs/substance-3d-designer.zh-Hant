@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 渲染器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 0%
@@ -38,11 +38,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光柵化器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-02.jpg" alt="3dRendererPathtracer-2">
+      <img src="../../../assets/3dRendererPathtracer-2.jpg" alt="3dRendererPathtracer-2">
       <br><i>GPU 路徑追蹤器</i>
     </td>
   </tr>
@@ -59,11 +59,11 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 <table>
   <tr>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-01.jpg" alt="3dRendererRasterizer-2">
+      <img src="../../../assets/3dRendererRasterizer-2.jpg" alt="3dRendererRasterizer-2">
       <br><i>光柵化器</i>
     </td>
     <td>
-      <img src="3d-renderers.resources/3d-renderers-03.jpg" alt="3dRendererOpenGL-2">
+      <img src="../../../assets/3dRendererOpenGL-2.jpg" alt="3dRendererOpenGL-2">
       <br><i>OpenGL</i>
     </td>
   </tr>
@@ -111,7 +111,7 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 
 +++
 
-![光柵化器 - 範例 1](3d-renderers.resources/3d-renderers-04.jpg "光柵化器 - 範例 1"){zoomable="yes"}
+![光柵化器 - 範例 1](../../../assets/3dRendererRasterizer.jpg "光柵化器 - 範例 1"){zoomable="yes"}
 
 <a name="gpu-pathtracer"></a>
 
@@ -145,7 +145,7 @@ Adobe 的 3D 渲染器從零開始打造，支援現代技術，如 [MaterialX](
 
 +++
 
-![GPU 路徑追蹤器 - 範例 1](3d-renderers.resources/3d-renderers-05.jpg "GPU 路徑追蹤器 - 範例 1"){zoomable="yes"}
+![GPU 路徑追蹤器 - 範例 1](../../../assets/3dRendererPathtracer.jpg "GPU 路徑追蹤器 - 範例 1"){zoomable="yes"}
 
 <a name="opengl"></a>
 
@@ -296,4 +296,4 @@ Designer 也提供使用 GLSLFX 檔案[&#128279;](../../../interface/3d-view/gls
 > 
 > 此渲染器已 **被**&#x200B;棄用：不會新增功能，未來的 Designer 版本將被淘汰。
 
-![OpenGL - 範例 1](3d-renderers.resources/3d-renderers-06.jpg "OpenGL - 範例 1"){zoomable="yes"}
+![OpenGL - 範例 1](../../../assets/3dRendererOpenGL.jpg "OpenGL - 範例 1"){zoomable="yes"}

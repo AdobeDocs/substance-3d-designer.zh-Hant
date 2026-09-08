@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 花鍵橋（2個花鍵）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-bridge-2-splines.resources/spline-bridge-2-splines-01.png "節點圖示")
+![節點圖示](../../../../../../assets/spline-bridge-2splines-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -108,11 +108,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-02.jpg" alt="樣條橋-2Splines_Variant1-前">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-Before.jpg" alt="樣條橋-2Splines_Variant1-前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-2-splines.resources/spline-bridge-2-splines-03.jpg" alt="花鍵橋2Splines_Variant1之後">
+      <img src="../../../../../../assets/SplineBridge-2Splines_Variant1-After.jpg" alt="花鍵橋2Splines_Variant1之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](spline-bridge-2-splines.resources/spline-bridge-2-splines-04.gif "節點範例 2")
+![節點範例 2](../../../../../../assets/SplineBridge-2Splines_Demo.gif "節點範例 2")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: UV 映射器色彩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](uv-mapper-color.resources/uv-mapper-color-01.png "節點圖示")
+![節點圖示](../../../../../../assets/uv-mapper-color-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -77,11 +77,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-02.jpg" alt="UVMapper-變體1-之前">
+      <img src="../../../../../../assets/UVMapper-Variant1-Before.jpg" alt="UVMapper-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-03.jpg" alt="UVMapper-變體1-之後">
+      <img src="../../../../../../assets/UVMapper-Variant1-After.jpg" alt="UVMapper-變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -93,11 +93,11 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-04.jpg" alt="UVMapper-變體2-之前">
+      <img src="../../../../../../assets/UVMapper-Variant2-Before.jpg" alt="UVMapper-變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="uv-mapper-color.resources/uv-mapper-color-05.jpg" alt="UVMapperColor-變體2-之後">
+      <img src="../../../../../../assets/UVMapperColor-Variant2-After.jpg" alt="UVMapperColor-變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -107,4 +107,4 @@ ht-degree: 2%
 </tr>
 </table>
 
-![圖](uv-mapper-color.resources/uv-mapper-color-06.jpg "中的節點圖中的節點")
+![圖](../../../../../../assets/UVMapperColor-Graph.jpg "中的節點圖中的節點")

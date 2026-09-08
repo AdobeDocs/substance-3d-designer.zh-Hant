@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑格式規範
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2491'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Paths 文件是一串路徑的清單，每條路徑描述一個段落列表，�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路徑多邊形編碼資料](paths-format-specifications.resources/paths-format-specifications-01.jpg "路徑多邊形編碼資料")
+![路徑多邊形編碼資料](../../../../../../assets/PathsPolygon_Data.jpg "路徑多邊形編碼資料")
 
 </td>
 </tr>
@@ -269,11 +269,11 @@ E.g. 如果文件中有三條路徑，它們會儲存在 U[（0,1）\*pixel\_siz
 
 你可以在第 3 次迭代節點的迭代參數中查看 `*paths\_trace*` [Fx-Map](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)，裡面有個使用範例。
 
-![sample_next](paths-format-specifications.resources/paths-format-specifications-02.png "的最小使用情境 sample_next")
+![sample_next](../../../../../../assets/paths-spec_fxmap-sample-next_02.png "的最小使用情境 sample_next")
 
 
 
-![預覽路徑中sample_next的使用案例（path_trace）預覽](paths-format-specifications.resources/paths-format-specifications-03.png "路徑中sample_next的使用案例（path_trace）")
+![預覽路徑中sample_next的使用案例（path_trace）預覽](../../../../../../assets/paths-spec_fxmap-sample-next_01.png "路徑中sample_next的使用案例（path_trace）")
 
 
 

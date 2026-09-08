@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 捷徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 9%
@@ -32,11 +32,11 @@ ht-degree: 9%
 
 **窗戶**
 
-![Windows](shortcuts.resources/shortcuts-01.png "上的鍵盤快捷鍵 Windows 上的鍵盤快捷鍵"){zoomable="yes"}
+![Windows](../../assets/keyboard_shortcuts_win.png "上的鍵盤快捷鍵 Windows 上的鍵盤快捷鍵"){zoomable="yes"}
 
 **macOS**
 
-![macOS](shortcuts.resources/shortcuts-02.png "上的鍵盤快捷鍵 macOS 上的鍵盤快捷鍵"){zoomable="yes"}
+![macOS](../../assets/keyboard_shortcuts_mac.png "上的鍵盤快捷鍵 macOS 上的鍵盤快捷鍵"){zoomable="yes"}
 
 ## 捷徑列表
 

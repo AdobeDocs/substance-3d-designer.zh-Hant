@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高斯雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![高斯雜訊 - 圖像](gaussian-noise.resources/gaussian-noise-01.png "高斯雜訊 - 圖像"){width="200px"}
+![高斯雜訊 - 圖像](../../../../../../assets/gaussian_noise-1.png "高斯雜訊 - 圖像"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯雜訊 - 範例 1](gaussian-noise.resources/gaussian-noise-02.png "高斯雜訊 - 範例 1"){zoomable="yes"}
+![高斯雜訊 - 範例 1](../../../../../../assets/gaussian_noise-1_1.png "高斯雜訊 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯雜訊 - 範例 2](gaussian-noise.resources/gaussian-noise-03.gif "高斯雜訊 - 範例 2"){zoomable="yes"}
+![高斯雜訊 - 範例 2](../../../../../../assets/noise_gaussian_noise_v2_speed0.6_aniso0.gif "高斯雜訊 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯雜訊 - 範例 3](gaussian-noise.resources/gaussian-noise-04.gif "高斯雜訊 - 範例 3"){zoomable="yes"}
+![高斯雜訊 - 範例 3](../../../../../../assets/noise_gaussian_noise_v2_speed0.6_aniso1.gif "高斯雜訊 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯雜訊 - 範例 4](gaussian-noise.resources/gaussian-noise-05.gif "高斯雜訊 - 範例 4"){zoomable="yes"}
+![高斯雜訊 - 範例 4](../../../../../../assets/noise_gaussian_noise_v2_speed0.3_aniso0.6.gif "高斯雜訊 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

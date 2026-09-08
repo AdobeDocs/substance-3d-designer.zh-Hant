@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漸變（動態）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度動態](gradient-dynamic.resources/gradient-dynamic-01.png "原子節點：梯度動態"){width="200px"}
+![原子節點：梯度動態](../../../../assets/comp_dyngradient_1.png "原子節點：梯度動態"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

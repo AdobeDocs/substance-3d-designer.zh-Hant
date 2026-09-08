@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 效能優化指引
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 +++
 
 +++切換圖的父解析度較慢
-它會重新計算圖形、快取和所有縮圖。 最好使用[匯出對話框](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的批次標籤，這樣可以避免大量且不必要的重新計算（例如匯出到 8192 解析度時）。
+它會重新計算圖形、快取和所有縮圖。 最好使用[<b>匯出對話框](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的批次</b>標籤，這樣可以避免大量且不必要的重新計算（例如匯出到 8192 解析度時）。
 
 +++
 
@@ -143,9 +143,9 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 >
 > 將點陣節點設[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)為「相對於父節點」並將[圖表發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)到 Substance 3D 資產（SBSAR），會將位圖儲存為 256x256 **的解析度**，而非原始大小。建議將位圖節點[輸出大小](../../compositing-graphs/output-size/output-size.md)的繼承方法[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)保持為「絕對」，並在點陣節點後方使用[設定為「相對於父」的轉換二維](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md)節點。
 
-![嵌入式位圖優化 1](performance-optimization-guidelines.resources/performance-optimization-guidelines-01.jpg "嵌入式點陣優化 1")
+![嵌入式位圖優化 1](../../assets/input-1.jpg "嵌入式點陣優化 1")
 
-![嵌入式位圖優化 2](performance-optimization-guidelines.resources/performance-optimization-guidelines-02.jpg "嵌入式位圖優化 2")
+![嵌入式位圖優化 2](../../assets/relativetoparent.jpg "嵌入式位圖優化 2")
 
 <table>
 <tr style="border: 0;">
@@ -156,7 +156,7 @@ Substance Engine 的 CPU 版本（SSE2） *實際上並不* 支援 16 位元色�
 </td>
 <td style="border: 0;" valign="top">
 
-![嵌入式位圖優化 3](performance-optimization-guidelines.resources/performance-optimization-guidelines-03.jpg "嵌入式位圖優化 3")
+![嵌入式位圖優化 3](../../assets/format.jpg "嵌入式位圖優化 3")
 
 </td>
 </tr>

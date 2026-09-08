@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 三角格網
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '1114'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](triangle-grid.resources/triangle-grid-01.jpg){width="200px"}
+![](../../../../../../assets/trianglegridgrayscale.jpg){width="200px"}
 
-![](triangle-grid.resources/triangle-grid-02.jpg){width="200px"}
+![](../../../../../../assets/trianglegridcolor.jpg){width="200px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -97,37 +97,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 1](triangle-grid.resources/triangle-grid-03.jpg "三角形格子：範例 1"){zoomable="yes"}
+![三角形格子：範例 1](../../../../../../assets/triangle_grid_color_example_1.jpg "三角形格子：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形網格：範例 2](triangle-grid.resources/triangle-grid-04.png "三角形格子：範例 2"){zoomable="yes"}
+![三角形網格：範例 2](../../../../../../assets/trianglegrid-variant2.png "三角形格子：範例 2"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：範例 3](triangle-grid.resources/triangle-grid-05.jpg "三角形格子：範例 3"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例4](triangle-grid.resources/triangle-grid-06.jpg "三角形格子：範例4"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例 5](triangle-grid.resources/triangle-grid-07.jpg "三角形子格子：範例 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![三角形格子：範例 6](triangle-grid.resources/triangle-grid-08.jpg "三角形格子：範例 6"){zoomable="yes"}
+![三角形格子：範例 3](../../../../../../assets/trianglegridcolor-variant2.jpg "三角形格子：範例 3"){zoomable="yes"}
 
 </td>
 </tr>
@@ -137,12 +117,32 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![三角形格子：皮革](triangle-grid.resources/triangle-grid-09.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
+![三角形格子：範例4](../../../../../../assets/triangle_grid_color_example_2.jpg "三角形格子：範例4"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![三角形格子：圖形](triangle-grid.resources/triangle-grid-10.png "三角形格子：圖形"){zoomable="yes"}
+![三角形格子：範例 5](../../../../../../assets/trianglegridcolor-variant4.jpg "三角形子格子：範例 5"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![三角形格子：範例 6](../../../../../../assets/trianglegridcolor-variant3.jpg "三角形格子：範例 6"){zoomable="yes"}
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0;">
+<td style="border: 0;" valign="top">
+
+![三角形格子：皮革](../../../../../../assets/trianglegrid-demo.png "三角形 皮革 三角形格子：皮革"){zoomable="yes"}
+
+</td>
+<td style="border: 0;" valign="top">
+
+![三角形格子：圖形](../../../../../../assets/trianglegrid-node.png "三角形格子：圖形"){zoomable="yes"}
 
 </td>
 </tr>

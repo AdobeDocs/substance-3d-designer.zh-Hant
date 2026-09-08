@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條橋映射機灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-01.png "節點圖示")
+![節點圖示](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-02.jpg" alt="SplineBridgeMapper灰階變體1-之前">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-03.jpg" alt="SplineBridgeMapper灰階變體1-之後">
+      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapper灰階變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-04.gif "節點範例 2")
+![節點範例 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "節點範例 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-05.jpg "節點範例 1")
+![節點範例 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-06.jpg "節點範例 2")
+![節點範例 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "節點範例 2")
 
 </td>
 </tr>

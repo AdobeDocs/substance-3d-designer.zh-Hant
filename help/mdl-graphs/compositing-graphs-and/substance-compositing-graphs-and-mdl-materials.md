@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 物質圖表與 MDL 材料
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Substance 圖的輸出可 *透過兩種方式傳遞給 MDL 材料的公開參數
 
 Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖曳至 3D 視圖，連接任何支援紋理取樣的 MDL 材質參數，無論識別碼為何。 會顯示可用的取樣器使用清單，你可以選擇所選材質的目標使用方式。
 
-![暴露的 MDL 圖形輸入](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-01.png "暴露的 MDL 圖形輸入")
+![暴露的 MDL 圖形輸入](../../assets/mdl-graph-inputs-samplers.png "暴露的 MDL 圖形輸入")
 
 *Substance 圖輸出的貼圖會與 MDL 圖在 3D View 中暴露的參數相連*
 
@@ -48,7 +48,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 實體圖實例可直接從 Explorer</b> 面板拖<b>入 MDL 圖中。來自Substance 3D檔案</b>（SBS）和<b>Substance 3D資產檔案</b>（SBSAR）的Substance圖<b>可用於MDL圖中。
 
 +++Substance 3D 檔案（SBS）中的 Substance 圖表
-![來自 MDL 圖](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-02.png "中 SBS 檔案的實質圖 來自 MDL 圖中 SBS 檔案中的實質圖")
+![來自 MDL 圖](../../assets/mdl-sbs-instance-hl.png "中 SBS 檔案的實質圖 來自 MDL 圖中 SBS 檔案中的實質圖")
 
 
 
@@ -57,7 +57,7 @@ Substance 圖中的個別紋理可透過在 Substance 圖節點上按 RMB 並拖
 +++
 
 +++Substance 3D 資產（SBSAR）中的 Substance 圖表
-![來自 MDL 圖](substance-compositing-graphs-and-mdl-materials.resources/substance-compositing-graphs-and-mdl-materials-03.png "中 SBSAR 檔案的實質圖 來自 MDL 圖中 SBSAR 檔案中的實質圖")
+![來自 MDL 圖](../../assets/mdl-sbsar-instance-hl.png "中 SBSAR 檔案的實質圖 來自 MDL 圖中 SBSAR 檔案中的實質圖")
 
 
 

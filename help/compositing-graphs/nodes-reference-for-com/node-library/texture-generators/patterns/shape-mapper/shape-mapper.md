@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形狀映射器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![形狀映射器 - 圖示](shape-mapper.resources/shape-mapper-01.png "形狀映射器 - 圖示"){width="200px"}
+![形狀映射器 - 圖示](../../../../../../assets/shape_mapper.png "形狀映射器 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 

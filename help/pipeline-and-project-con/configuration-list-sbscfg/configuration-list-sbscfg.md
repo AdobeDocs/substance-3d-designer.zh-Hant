@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 配置清單 - SBSCFG
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSCFG 檔案圖示](configuration-list-sbscfg.resources/configuration-list-sbscfg-01.png "SBSCFG 檔案圖示")
+![SBSCFG 檔案圖示](../../assets/sbscfg.png "SBSCFG 檔案圖示")
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 高亮區塊是與設定檔相關的部分，你只要將更多專案加入清單，這些專案就儲存在上述定義的 SBSCFG 檔案中。
 
-![專案設定](configuration-list-sbscfg.resources/configuration-list-sbscfg-02.png "專案設定")
+![專案設定](../../assets/config-ui.png "專案設定")
 
 ### 外部編輯為 XML
 

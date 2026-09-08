@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 體積遮罩
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-volume-mask.resources/3d-volume-mask-01.png){width="256px"}
+![](../../../../../../assets/3dvolumemask.png){width="256px"}
 
 <b>收錄於：</b> Generator > Pattern
 
@@ -67,16 +67,16 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-02.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-03.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-04.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-volume-mask.resources/3d-volume-mask-05.jpg" />
+            <img src="../../../../../../assets/3dvolumemask-variant4.jpg" />
         </td>
     </tr>
 </table>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 可見的 if 表達式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 * 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點;
 * 圖的 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。
 
-![切換輸入參數可見](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-control-visibility-of-inputs-outputs-and-parameters-01.gif "性切換輸入參數可見性"){width="512px"}
+![切換輸入參數可見](../../assets/visible-if-example.gif "性切換輸入參數可見性"){width="512px"}
 
 如果邏輯運算式的值值為 `true`，該參數、輸入或輸出會在所有 [代表當前圖的實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 中顯示。 否則，它會被 *隱藏*&#x200B;起來。
 

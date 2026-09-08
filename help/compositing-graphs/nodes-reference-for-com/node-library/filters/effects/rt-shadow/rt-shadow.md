@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT 陰影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT Shadows 節點圖示](rt-shadow.resources/rt-shadow-01.png "RT Shadows 節點圖示")
+![RT Shadows 節點圖示](../../../../../../assets/rt-shadow.png "RT Shadows 節點圖示")
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-02.jpg" />
+            <img src="../../../../../../assets/RTShadows-01.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-03.jpg" />
+            <img src="../../../../../../assets/RTShadows-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="rt-shadow.resources/rt-shadow-04.jpg" />
+            <img src="../../../../../../assets/RTShadows-03.jpg" />
         </td>
     </tr>
 </table>

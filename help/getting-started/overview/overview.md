@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 概觀
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 以下是它與其他應用的比較：
 
-|  | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/overview-01.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/overview-02.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/overview-03.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
+|  | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="../../assets/sa-appicon-noshadow-256.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="../../assets/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="../../assets/ds-appicon-noshadow-256.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
 | --- | --- | --- | --- |
 | <b>學習曲線</b> | 低 | 中 | 高 |
 | <b>作者資料</b> | 是的 | 是的 | 是的 |
@@ -60,7 +60,7 @@ Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-04.png)
+![](../../assets/ds-sbs-48.png)
 
 ### 物質3D檔案
 
@@ -71,7 +71,7 @@ Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Su
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-05.png)
+![](../../assets/sbsar-48.png)
 
 ### Substance 3D 資產
 
@@ -82,7 +82,7 @@ Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它�
 </td>
 <td style="border: 0;" valign="top">
 
-![](overview.resources/overview-06.png){width="48px"}
+![](../../assets/bmp-96.png){width="48px"}
 
 ### 靜態檔案
 
@@ -104,7 +104,7 @@ Substance 3D 檔案可以包含多種資源，這些資源服務於不同的用�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-07.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
+[![](../../assets/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-08.png){width="150px"}](../../function-graphs/function-graphs.md)
+[![](../../assets/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -142,7 +142,7 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](overview.resources/overview-09.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+[![](../../assets/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

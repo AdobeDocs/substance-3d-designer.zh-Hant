@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 條紋
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 11%
@@ -24,7 +24,7 @@ ht-degree: 11%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](stripes.resources/stripes-01.png){width="128px"}
+![](../../../../../../assets/stripes.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -58,7 +58,7 @@ ht-degree: 11%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="stripes.resources/stripes-02.gif" />
+            <img src="../../../../../../assets/stripes-ex.gif" />
         </td>
     </tr>
 </table>

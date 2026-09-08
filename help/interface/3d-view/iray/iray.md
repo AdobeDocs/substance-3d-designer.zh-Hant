@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 伊雷
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 0%
@@ -39,7 +39,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray 標誌](iray.resources/iray-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray 標誌](../../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -62,7 +62,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![中世紀城堡牆材料以伊雷](iray.resources/iray-02.png "繪製 中世紀城堡牆材料以伊雷繪製")
+![中世紀城堡牆材料以伊雷](../../../assets/iray-overview.png "繪製 中世紀城堡牆材料以伊雷繪製")
 
 *材質：[Mark Foreman* *](https://www.artstation.com/oggyart)製作[的中世紀城牆](https://oggyart.artstation.com/projects/Xnzx0a)**，可於我們的 [Substance 3D 資產](https://substance3d.adobe.com/assets)**&#x200B;庫取得*
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 > 將網格 *細分會在渲染前及渲染期間呈指數* 級增加處理時間。 我們建議在輸入價值時保持 *保守* 。\
 > 要小心參數方法使用&#x200B;*高&#x200B;***數字**&#x200B;值，而&#x200B;*長度方法使用低&#x200B;***最小長度**&#x200B;值。
 
-![場景選項](iray.resources/iray-03.gif "場景選項")
+![場景選項](../../../assets/iray-scene-subdivision.gif "場景選項")
 
 <a name="materials"></a>
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![材料選單](iray.resources/iray-04.png "材料選單")
+![材料選單](../../../assets/iray-mdl-list.png "材料選單")
 
 </td>
 </tr>
@@ -158,7 +158,7 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 * <b>對焦距離</b>：與焦點相機的距離——即影像最銳利的位置
 * <b>光圈直徑</b>：驅動相機光圈的數值。 數值越低，焦點前後的影像元素越銳利——簡單來說，這個數值控制景深效果的強度
 
-![相機設定](iray.resources/iray-05.png "相機設定")
+![相機設定](../../../assets/camera-dof.png "相機設定")
 
 <a name="environment"></a>
 
@@ -205,11 +205,11 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-06.png" alt="Iray - 隱藏環境">
+      <img src="../../../assets/iray-environment-hidden.png" alt="Iray - 隱藏環境">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-07.png" alt="Iray - 可見環境">
+      <img src="../../../assets/iray-env-visible.png" alt="Iray - 可見環境">
       <br><i>之後</i>
     </td>
   </tr>
@@ -217,9 +217,9 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 
 
-![Iray - 環境隱藏](iray.resources/iray-06.png "Iray - 環境隱藏")
+![Iray - 環境隱藏](../../../assets/iray-environment-hidden.png "Iray - 環境隱藏")
 
-![Iray - 環境可見](iray.resources/iray-07.png "Iray - 環境可見")
+![Iray - 環境可見](../../../assets/iray-env-visible.png "Iray - 環境可見")
 
 +++
 
@@ -229,11 +229,11 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-08.png" alt="Iray - 僅限無限球體">
+      <img src="../../../assets/iray-env-infinite-sphere.png" alt="Iray - 僅限無限球體">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-09.png" alt="Iray - 具有地面平面的無限球體">
+      <img src="../../../assets/iray-env-sphere-ground.png" alt="Iray - 具有地面平面的無限球體">
       <br><i>之後</i>
     </td>
   </tr>
@@ -241,35 +241,35 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 
 
-![Iray - 僅限](iray.resources/iray-08.png "無限球體 Iray - 僅限無限球體")
+![Iray - 僅限](../../../assets/iray-env-infinite-sphere.png "無限球體 Iray - 僅限無限球體")
 
-![Iray - 帶有地面平面](iray.resources/iray-09.png "的無限球面 Iray - 具有地面平面的無限球面")
+![Iray - 帶有地面平面](../../../assets/iray-env-sphere-ground.png "的無限球面 Iray - 具有地面平面的無限球面")
 
 +++
 
 +++旋轉環境
-![旋轉環境](iray.resources/iray-10.gif "旋轉環境")
+![旋轉環境](../../../assets/iray-env-rotation.gif "旋轉環境")
 
 
 
 +++
 
 +++調整接地平面
-![地面反射](iray.resources/iray-11.gif "地面反射")
+![地面反射](../../../assets/iray-env-ground-options.gif "地面反射")
 
 
 
 +++
 
 +++調整無限球面
-![環境尺度（球體）](iray.resources/iray-12.gif "環境尺度（球體）")
+![環境尺度（球體）](../../../assets/iray-env-sphere-radius.gif "環境尺度（球體）")
 
 
 
 +++
 
 +++調整包覆盒
-![環境尺度（立方體）](iray.resources/iray-13.gif "環境尺度（立方體）")
+![環境尺度（立方體）](../../../assets/iray-env-box-dimensions.gif "環境尺度（立方體）")
 
 
 
@@ -287,7 +287,7 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 * <b>解析度</b>：有效渲染解析度。 如果相機屬性中的「使用視窗解析度」選項設為 False，影像的比例會自動調整以符合解析度比例
 * <b>場景統計</b>：與渲染場景相關的統計數據列表，包含三角形數量、材質數量等
 
-![顯示選項](iray.resources/iray-14.png "顯示選項"){width="512px"}
+![顯示選項](../../../assets/iray-display-data.png "顯示選項"){width="512px"}
 
 <a name="renderer"></a>
 
@@ -316,11 +316,11 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-15.png" alt="Iray - 基礎渲染">
+      <img src="../../../assets/iray-renderer-none.png" alt="Iray - 基礎渲染">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - 啟用苛性取樣器">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - 啟用苛性取樣器">
       <br><i>之後</i>
     </td>
   </tr>
@@ -328,9 +328,9 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 
 
-![Iray - 基礎渲染](iray.resources/iray-15.png "Iray - 基礎渲染")
+![Iray - 基礎渲染](../../../assets/iray-renderer-none.png "Iray - 基礎渲染")
 
-![Iray - 啟用](iray.resources/iray-16.png "苛性取樣器 Iray - 啟用苛性取樣器")
+![Iray - 啟用](../../../assets/iray-renderer-caustics.png "苛性取樣器 Iray - 啟用苛性取樣器")
 
 +++
 
@@ -340,11 +340,11 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-16.png" alt="Iray - Firefly 過濾器已停用">
+      <img src="../../../assets/iray-renderer-caustics.png" alt="Iray - Firefly 過濾器已停用">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - 啟用螢火蟲過濾器">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - 啟用螢火蟲過濾器">
       <br><i>之後</i>
     </td>
   </tr>
@@ -352,9 +352,9 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 
 
-![Iray - Firefly 濾鏡停用](iray.resources/iray-16.png "Iray - Firefly 濾鏡已停用")
+![Iray - Firefly 濾鏡停用](../../../assets/iray-renderer-caustics.png "Iray - Firefly 濾鏡已停用")
 
-![Iray - 啟用](iray.resources/iray-17.png "螢火蟲濾鏡 Iray - 啟用螢火蟲濾鏡")
+![Iray - 啟用](../../../assets/iray-renderer-caustics-fireflies.png "螢火蟲濾鏡 Iray - 啟用螢火蟲濾鏡")
 
 +++
 
@@ -364,11 +364,11 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 <table>
   <tr>
     <td>
-      <img src="iray.resources/iray-17.png" alt="Iray - 後期去噪器停用">
+      <img src="../../../assets/iray-renderer-caustics-fireflies.png" alt="Iray - 後期去噪器停用">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="iray.resources/iray-18.png" alt="Iray - 啟用後去噪器">
+      <img src="../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png" alt="Iray - 啟用後去噪器">
       <br><i>之後</i>
     </td>
   </tr>
@@ -376,9 +376,9 @@ OpenGL 和 Iray 在相機設定上的主要差異在於 *景深* 的管理方式
 
 
 
-![Iray - 後期去噪器停用](iray.resources/iray-17.png "Iray - 後期去噪器已停用")
+![Iray - 後期去噪器停用](../../../assets/iray-renderer-caustics-fireflies.png "Iray - 後期去噪器已停用")
 
-![Iray - 啟用](iray.resources/iray-18.png "後去噪器 Iray - 啟用後去噪器")
+![Iray - 啟用](../../../assets/iray-renderer-caustics-fireflies-denoiser-180.png "後去噪器 Iray - 啟用後去噪器")
 
 +++
 
@@ -404,4 +404,4 @@ Iray 渲染器僅在 NVIDIA GPU 上提供硬體加速，帶來以下優點：
 > GPU 硬體加速採用 [NVIDIA CUDA](https://developer.nvidia.com/cuda-zone) 技術。 確保你的 *顯示卡驅動程式是最新的* ，以達到最佳的相容性和可靠性。 在這裡[&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us)找到你 NVIDIA GPU 的最新驅動程式。\
 > 對於多GPU配置，建議關閉 *SLI* 並只選擇一顆GPU以達到最佳可靠性。
 
-![Iray 偏好](iray.resources/iray-19.png "Iray 偏好")
+![Iray 偏好](../../../assets/iray-preferences-hardware.png "Iray 偏好")

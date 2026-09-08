@@ -1,7 +1,7 @@
 ---
 title: Shape splatter v2 映射器灰階
 description: Designer > Substance 合成圖 > Nodes 參考 > Node 庫 > Generator > Pattern > Shape splatter v2 mapper 灰階
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![形狀濺射 v2 映射器灰階圖示 形狀濺射 v2 映射器灰階圖示](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale-01.png "")
+![形狀濺射 v2 映射器灰階圖示 形狀濺射 v2 映射器灰階圖示](./shape-splatter-v2-mapper-grayscale.resources/shape-splatter-v2-mapper-grayscale.png "")
 
 <b>收錄於：</b> Generator > Pattern
 

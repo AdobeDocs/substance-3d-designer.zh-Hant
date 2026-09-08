@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 偏好設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1973'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 偏好設定視窗
 
-![偏好設定視窗](preferences-window.resources/preferences-window-01.png "偏好設定視窗")
+![偏好設定視窗](../../assets/image2021-6-22-20-56-1.png "偏好設定視窗")
 
 本頁呈現 <b>偏好設定</b> 視窗及其所有設定。
 
@@ -157,14 +157,14 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![禁用](preferences-window.resources/preferences-window-02.gif "上下文編輯 關閉上下文編輯")
+![禁用](../../assets/substance3ddesigner_incontext_no.gif "上下文編輯 關閉上下文編輯")
 
 *公開參考*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![啟用](preferences-window.resources/preferences-window-03.gif "上下文編輯 啟用上下文編輯 啟用上下文編輯")
+![啟用](../../assets/substance3ddesigner_incontext_yes.gif "上下文編輯 啟用上下文編輯 啟用上下文編輯")
 
 *上下文中的開放參考*
 

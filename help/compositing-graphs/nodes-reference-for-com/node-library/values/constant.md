@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 恆定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 +++ 函式庫中的常數節點
 
-![constants-library.png](constant.resources/constant-01.png)
+![constants-library.png](constant.resources/constants-library.png)
 
 +++
 
-<p style="text-align: center;"><img src="./constant.resources/constant-02.png" alt="常數浮點節點" /></p>
+<p style="text-align: center;"><img src="./constant.resources/constants-float-01.png" alt="常數浮點節點" /></p>
 
 ## 整數
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整數類型圖示 整數型別圖示](constant.resources/constant-03.png "")
+![整數類型圖示 整數型別圖示](../../../../assets/fn-constant-integer.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](constant.resources/constant-04.png "Integer2 type icon")
+![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -86,7 +86,7 @@ Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 類型圖示](constant.resources/constant-05.png "Integer3 類型圖示")
+![Integer3 類型圖示](../../../../assets/fn-constant-integer3.png "Integer3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 類型圖示](constant.resources/constant-06.png "Integer4 類型圖示")
+![Integer4 類型圖示](../../../../assets/fn-constant-integer4.png "Integer4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮點類型圖示](constant.resources/constant-07.png "浮點類型圖示")
+![浮點類型圖示](../../../../assets/fn-constant-float.png "浮點類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 類型圖示](constant.resources/constant-08.png "Float2 類型圖示")
+![Float2 類型圖示](../../../../assets/fn-constant-float2.png "Float2 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 常用於 [取樣座標](../../../../function-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 類型圖示](constant.resources/constant-09.png "Float3 類型圖示")
+![Float3 類型圖示](../../../../assets/fn-constant-float3.png "Float3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -181,7 +181,7 @@ Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 類型圖示](constant.resources/constant-10.png "Float4 類型圖示")
+![Float4 類型圖示](../../../../assets/fn-constant-float4.png "Float4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Float4 是儲存和設定顏色資訊的首選方式，當 XYZW 值映射到 RGB
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布林型別圖示](constant.resources/constant-11.png "")
+![布林型別圖示](../../../../assets/fn-constant-boolean.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

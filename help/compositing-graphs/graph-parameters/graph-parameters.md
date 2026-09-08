@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖參數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
@@ -41,7 +41,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![基礎參數](graph-parameters.resources/graph-parameters-01.png "基礎參數"){width="512px" zoomable="yes"}
+![基礎參數](../../assets/doc-graph-props-base-params.png "基礎參數"){width="512px" zoomable="yes"}
 
 </td>
 </tr>
@@ -53,11 +53,11 @@ ht-degree: 0%
 
 |                      |                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |:---------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>輸出大小</b> | 這個參數讓你可以選擇 *圖中影像的基底解析度* 。  使用該 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-02.jpg"/></div> 鎖定按鈕讓高度與寬度值相符，並在調整尺寸時保持影像方形。<br><br>*預設：（0,0） - 相對於父畫面*    [了解更多](../../compositing-graphs/output-size/output-size.md) |
+| <b>輸出大小</b> | 這個參數讓你可以選擇 *圖中影像的基底解析度* 。  使用該 <div><img data-preserve-html="true" height="22" src="../../assets/props-output-size-lock.jpg"/></div> 鎖定按鈕讓高度與寬度值相符，並在調整尺寸時保持影像方形。<br><br>*預設：（0,0） - 相對於父畫面*    [了解更多](../../compositing-graphs/output-size/output-size.md) |
 | <b>輸出格式</b> | 允許從以下選項中選擇 *圖形中的基底位元深度* ：<ul data-preserve-html="true"><li data-preserve-html="true">8位元</li><li data-preserve-html="true">16位元</li><li data-preserve-html="true">HDR 低精度 16F（16 位元浮點）</li><li data-preserve-html="true">HDR 高精度 32F（32 位元浮點）</li></ul>*預設值：每個通道 8 位元-相對於父通道* |
 | <b>像素尺寸</b> | 定義像素大小。 我們建議將寬度和高度值都&#x200B;**設為** 1 **。*預設值：（1,1） - 相對於父節點**&#x200B;**&#x200B;*** |
 | <b>平鋪模式</b> | 從以下選項定義圖中的基礎 *鋪磚模式* ：<ul data-preserve-html="true"> <li data-preserve-html="true">沒有鋪磚</li> <li data-preserve-html="true">水平鋪磚</li> <li data-preserve-html="true">垂直鋪磚</li> <li data-preserve-html="true">H+V 鋪磚（即水平與垂直）</li> </ul>*預設：H 與 V 平鋪 - 相對於父* |
-| <b>隨機種子</b> | 定義了圖的基礎 *隨機種子* 。  使用該 <div><img data-preserve-html="true" height="22" src="graph-parameters.resources/graph-parameters-03.jpg"/></div> 按鈕用來為隨機種子指派新的隨機值。<br><br>*預設值：0 - 相對於父種* |
+| <b>隨機種子</b> | 定義了圖的基礎 *隨機種子* 。  使用該 <div><img data-preserve-html="true" height="22" src="../../assets/prop-randomise.jpg"/></div> 按鈕用來為隨機種子指派新的隨機值。<br><br>*預設值：0 - 相對於父種* |
 
 <table>
 <tr style="border: 0;">
@@ -72,7 +72,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![圖屬性圖](graph-parameters.resources/graph-parameters-04.png "屬性"){zoomable="yes"}
+![圖屬性圖](../../assets/doc-graph-props-attributes.png "屬性"){zoomable="yes"}
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![輸入參數](graph-parameters.resources/graph-parameters-05.png "輸入參數"){zoomable="yes"}
+![輸入參數](../../assets/doc-graph-props-input-parameters.png "輸入參數"){zoomable="yes"}
 
 </td>
 </tr>
@@ -150,7 +150,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![輸入](graph-parameters.resources/graph-parameters-06.png "輸入"){zoomable="yes"}
+![輸入](../../assets/doc-graph-props-inputs.png "輸入"){zoomable="yes"}
 
 </td>
 </tr>
@@ -171,7 +171,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![輸出輸出](graph-parameters.resources/graph-parameters-07.png ""){zoomable="yes"}
+![輸出輸出](../../assets/doc-graph-props-outputs.png ""){zoomable="yes"}
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：方向模糊](directional-blur.resources/directional-blur-01.png "原子節點：方向模糊"){width="200px"}
+![原子節點：方向模糊](../../../../assets/comp_dirmotionblur_1.png "原子節點：方向模糊"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -69,14 +69,14 @@ ht-degree: 1%
 
 <b>方向模糊</b>
 
-![方向模糊比較](directional-blur.resources/directional-blur-02.png "方向模糊比較"){zoomable="yes"}
+![方向模糊比較](../../../../assets/dirblur-01.png "方向模糊比較"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
 <b>各向異性模糊</b>
 
-![各向異性模糊比較](directional-blur.resources/directional-blur-03.png "各向異性模糊比較"){zoomable="yes"}
+![各向異性模糊比較](../../../../assets/aniso-01.png "各向異性模糊比較"){zoomable="yes"}
 
 </td>
 </tr>

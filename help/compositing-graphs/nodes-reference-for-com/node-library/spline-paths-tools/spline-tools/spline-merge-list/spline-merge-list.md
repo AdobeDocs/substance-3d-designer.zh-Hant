@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條合併列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-merge-list.resources/spline-merge-list-01.png "節點圖示")
+![節點圖示](../../../../../../assets/spline-merge-list-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -82,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-02.jpg" alt="SplineMergeList-變體2-之前">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-Before.jpg" alt="SplineMergeList-變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-03.jpg" alt="SplineMergeList-變體2-之後">
+      <img src="../../../../../../assets/SplineMergeList-Variant2-After.jpg" alt="SplineMergeList-變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-04.jpg" alt="SplineMergeList-variant1-Before">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-Before.jpg" alt="SplineMergeList-variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-merge-list.resources/spline-merge-list-05.jpg" alt="SplineMergeList-變體1-After">
+      <img src="../../../../../../assets/SplineMergeList-Variant1-After.jpg" alt="SplineMergeList-變體1-After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -112,4 +112,4 @@ ht-degree: 1%
 </tr>
 </table>
 
-![節點示範](spline-merge-list.resources/spline-merge-list-06.gif "節點示範")
+![節點示範](../../../../../../assets/SplineMergeList-Demo.gif "節點示範")

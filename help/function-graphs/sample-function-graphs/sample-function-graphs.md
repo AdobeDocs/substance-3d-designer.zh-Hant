@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 範例函數圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 本專案作為功能圖的一般入門，以及它們如何用來擴展你在 Substance 合成圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中對節點參數的控制。
 
-[![Substance 函數圖表範例檔案圖示](sample-function-graphs.resources/sample-function-graphs-01.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
+[![Substance 函數圖表範例檔案圖示](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/c5aa6fa1-b72e-488b-60b2-eda2c85e5515)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](sample-function-graphs.resources/sample-function-graphs-02.png){width="512px"}
+![](../../assets/demo-functions.png){width="512px"}
 
 </td>
 </tr>

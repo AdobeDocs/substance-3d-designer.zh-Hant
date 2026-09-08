@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 隨機牌
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](tile-random.resources/tile-random-01.png){width="128px"}
+![](../../../../../../assets/tile-random.png){width="128px"}
 
 <b>收錄於：</b> 《產生器>模式》
 
@@ -106,7 +106,7 @@ Tile Random 產生一種程序化的圖塊圖案，其瓦片形狀比其對應�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="tile-random.resources/tile-random-02.png" />
+            <img src="../../../../../../assets/tile-random-1.png" />
         </td>
     </tr>
 </table>

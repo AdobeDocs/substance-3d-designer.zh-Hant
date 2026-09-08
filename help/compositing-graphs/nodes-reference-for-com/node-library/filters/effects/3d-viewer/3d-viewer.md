@@ -1,7 +1,7 @@
 ---
 title: 3D 檢視器
 description: Designer > Substance 合成圖 > Nodes 參考，> Node 函式庫 > Filter > Effect > 3D 檢視器
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1989'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D 檢視器圖示](./3d-viewer.resources/3d-viewer-01.png "3D 檢視器")
+![3D 檢視器圖示](./3d-viewer.resources/3d-viewer.png "3D 檢視器")
 
 <b>收錄於：</b> 濾波>效應
 
@@ -102,24 +102,24 @@ ht-degree: 0%
 <table style="border: none;">
     <tr style="width: 50%;">
         <td style="text-align: center">
-            <img src="3d-viewer.resources/3d-viewer-02.jpg" alt="範例一" />
+            <img src="3d-viewer.resources/3d-viewer-example-01.jpg" alt="範例一" />
         </td>
         <td style="width: 50%;">
             <table style="border: none;">
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-03.jpg" alt="範例一" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02a.jpg" alt="範例一" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-04.jpg" alt="範例二" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02b.jpg" alt="範例二" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top;">
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-05.jpg" alt="範例3" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02c.jpg" alt="範例3" />
                     </td>
                     <td style="text-align: center">
-                        <img src="3d-viewer.resources/3d-viewer-06.jpg" alt="範例4" />
+                        <img src="3d-viewer.resources/3d-viewer-example-02d.jpg" alt="範例4" />
                     </td>
                 </tr>
             </table>

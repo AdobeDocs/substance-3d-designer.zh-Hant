@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向性雜訊 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![方向性噪音 2 - 圖示](directional-noise-2.resources/directional-noise-2-01.png "方向性噪音 2 - 圖示"){width="200px"}
+![方向性噪音 2 - 圖示](../../../../../../assets/directional_noise_2.png "方向性噪音 2 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性雜訊2 - 範例1](directional-noise-2.resources/directional-noise-2-02.png "方向性雜訊2 - 範例1"){zoomable="yes"}
+![方向性雜訊2 - 範例1](../../../../../../assets/directional_noise_2_1.png "方向性雜訊2 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性雜訊 2 - 範例 2](directional-noise-2.resources/directional-noise-2-03.gif "方向性雜訊 2 - 範例 2"){zoomable="yes"}
+![方向性雜訊 2 - 範例 2](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso0.gif "方向性雜訊 2 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性噪音2 - 範例3](directional-noise-2.resources/directional-noise-2-04.gif "方向性噪音2 - 範例3"){zoomable="yes"}
+![方向性噪音2 - 範例3](../../../../../../assets/noise_directional_noise_2_v2_speed0.6_aniso1.gif "方向性噪音2 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性噪音 2 - 範例 4](directional-noise-2.resources/directional-noise-2-05.gif "方向性噪音 2 - 範例 4"){zoomable="yes"}
+![方向性噪音 2 - 範例 4](../../../../../../assets/noise_directional_noise_2_v2_speed0.3_aniso0.6.gif "方向性噪音 2 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

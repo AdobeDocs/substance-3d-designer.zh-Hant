@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 實體函數圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![](function-graphs.resources/function-graphs-01.png){width="120px"}](https://substance3d.adobe.com/)
+[![](../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td style="border: 0;" valign="top">
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 ### 簡單函數
 
-![](function-graphs.resources/function-graphs-02.png)
+![](../assets/lerpfunction_1.png)
 
 在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則會使用 0.8，中間的任何值則會線性插值。 這種函式在暴露參數[&#128279;](../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見，但會使用自訂函數。
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 進階功能
 
-![](function-graphs.resources/function-graphs-03.png){width="545px"}
+![](../assets/pixel-function_1.png){width="545px"}
 
 這個進階功能展示了像素處理器的 [內部運作，該處理器](../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md) 旨在根據第二個灰階遮罩輸入的強度調整色彩貼圖輸入的色調。
 

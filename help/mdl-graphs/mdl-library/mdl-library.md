@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 圖書館
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 </td>
 <td style="border: 0;" valign="top">
 
-![圖書館](mdl-library.resources/mdl-library-01.png "中的 MDL 資源 圖書館中的 MDL 資源")
+![圖書館](../../assets/mdl-library.png "中的 MDL 資源 圖書館中的 MDL 資源")
 
 *函式庫中的「mdl」區塊、vMaterials 函式庫及自訂內容皆有框架*
 
@@ -71,6 +71,6 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * 載入的 [MDL 圖](../../mdl-graphs/mdl-graphs.md)
 
-![3D 中檢視](mdl-library.resources/mdl-library-02.png "MDL 材料")
+![3D 中檢視](../../assets/mdl-apply-in-3dview-material-list.png "MDL 材料")
 
 *3D 視圖中的 MDL 材質*

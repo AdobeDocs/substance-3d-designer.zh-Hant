@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁介紹 Substance 3D Designer 中的 MDL 圖表，讓您能撰寫 MDL 材料並即時預覽其行為。
 
-![孔雀石MDL材料](mdl-graphs.resources/mdl-graphs-01.jpg "孔雀石MDL材料")
+![孔雀石MDL材料](../assets/mdl-malachite-example.jpg "孔雀石MDL材料")
 
 *孔雀石與Chrysocolla、Mark Foreman&#x200B;**[&#128279;](https://www.artstation.com/oggyart)的MDL資料可於我們的[Legacy Substance Share](https://share-legacy.substance3d.com/libraries/4043)**&#x200B;平台取得*
 
@@ -62,7 +62,7 @@ MDL 圖與 [Substance 圖](../compositing-graphs/substance-compositing-graphs.md
 >
 > 您可以在 NVIDIA MDL 文件中了解更多關於材料定義語言 [技術實作的資訊，該文件](https://raytracing-docs.nvidia.com/mdl/index.html)包含由 NVIDIA 撰寫與維護的 MDL 規範與 [MDL 手冊](http://mdlhandbook.com/)連結。
 
-![MDL 圖屬性](mdl-graphs.resources/mdl-graphs-02.png "MDL 圖屬性")
+![MDL 圖屬性](../assets/mdl-main.png "MDL 圖屬性")
 
 *屬性面板中的 MDL 圖形屬性*
 

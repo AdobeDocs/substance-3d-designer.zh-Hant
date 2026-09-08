@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 套用色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](apply-color-palette.resources/apply-color-palette-01.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](../../../../../../assets/ApplyColorPalette.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -64,31 +64,31 @@ ht-degree: 1%
 
 ## 範例
 
-![套用色彩調色盤：範例 1](apply-color-palette.resources/apply-color-palette-02.png "套用色彩調色盤：範例 1"){zoomable="yes"}
+![套用色彩調色盤：範例 1](../../../../../../assets/apply_color_palette_example_2.png "套用色彩調色盤：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-03.jpg" alt="apply_color_palette_example_1_before">
+      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-04.jpg" alt="apply_color_palette_example_1_after">
+      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![套用色彩調色盤：範例 3](apply-color-palette.resources/apply-color-palette-05.png "套用色彩調色盤：範例 3"){zoomable="yes"}
+![套用色彩調色盤：範例 3](../../../../../../assets/apply_color_palette_example_4.png "套用色彩調色盤：範例 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-06.jpg" alt="apply_color_palette_example_3_before">
+      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="apply-color-palette.resources/apply-color-palette-07.jpg" alt="apply_color_palette_example_3_after">
+      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>

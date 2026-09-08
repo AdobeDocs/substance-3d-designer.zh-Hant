@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 各向異性桑原色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向異性桑原色彩圖示](anisotropic-kuwahara.resources/anisotropic-kuwahara-01.png "各向異性桑原 彩色圖示"){width="200px"}
+![各向異性桑原彩色圖示](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/AnisotropicKuwaharaColor.png "各向異性桑原彩色圖示"){width="200px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -37,8 +37,6 @@ ht-degree: 0%
 
 這種可調整的模糊會計算或接收方向 *圖* 來判斷該流動，並可將該流線銳化成更平坦、更清晰的區域。
 
-另見： [各向異性桑原灰階](../anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)
-
 </td>
 </tr>
 </table>
@@ -47,7 +45,7 @@ ht-degree: 0%
 
 此濾鏡能產生繪畫效果，且有助於風格化。
 
-+++ 異向性
+<b>各向異性</b>
 
 流動強度主要由 [各向](#parameters) 異性參數控制，如下圖所示。
 
@@ -57,61 +55,65 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![一碗裝有桑原濾鏡、各向異性為零的水果。](anisotropic-kuwahara.resources/anisotropic-kuwahara-02.jpg){zoomable="yes"}
+![一碗裝有桑原濾鏡、各向異性為零的水果。](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_color_example_3_before.jpg){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![一碗裝有桑原濾鏡、各向異性為零的水果。](anisotropic-kuwahara.resources/anisotropic-kuwahara-03.jpg){zoomable="yes"}
+![一碗裝有桑原濾鏡、各向異性為零的水果。](https://helpx.adobe.com/content/dam/substance-3d-designer/substance-graphs/nodes/filters/effects/anisotropic-kuwahara/anisotropic_kuwahara_color_example_3_after.jpg){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-+++
+<a name="inputs"></a>
 
 ## 輸入
 
-|                                                   |                                                                                                                                                                                                                                                                                                                         |
-|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>輸入</b> <i>色彩 原色</i><br><code></code> | 應該處理的彩色影像。 |
+|  |  |
+|:---|:---|
+| <b>輸入</b> <i>原色</i> | 應該處理的彩色影像。 |
 | <b>各向異性角度圖</b> <i>灰階</i> | 灰階影像描述了對計算方向施加額外旋轉的效果，灰階值為轉數。   當「各向異性」參數設為 0 時，該映射仍有影響，因為它會影響桑原濾波器所用核的旋轉。 |
 | <b>坡度圖</b> <i>灰階</i> | 該地圖代表方向圖所遵循的斜率，依據「斜率圖輸入乘數」參數值。 |
 | <b>半徑地圖（可選）</b> <i>灰階</i> | 連接後，模糊的「半徑」會與輸入影像相乘。 |
 | <b>方向圖</b> <i>顏色</i> | 描述各向異性濾波核所使用的方向的映射。   當「各向異性」參數設為 0 時，該映射仍有影響，因為它會影響桑原濾波器所用核的旋轉。   注意：此輸入僅在「使用輸入方向圖」參數設為「True」時使用。 |
 
+<a name="outputs"></a>
+
 ## 輸出
 
-|                                   |                                                                                                                                                                                                                                      |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  |  |
+|:---|:---|
 | <b>產出</b> <i>顏色</i> | 節點對輸入影像施加各向異性模糊的結果。 |
 | <b>方向圖</b> <i>顏色</i> | 方向圖是根據輸入影像計算出來，並用來驅動各向異性模糊。   若「使用輸入方向圖」參數設為「True」，則輸入「方向圖」所提供的影像會被使用，輸出則維持原樣。 |
 
+<a name="parameters"></a>
+
 ## 參數
 
-|                                                                                                                              |                                                                                                                                                                                                                                                                               |
-|------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>半徑</b> <i>浮標</i> | 模糊半徑，數值越大，模糊效果越強。   最高數值是32。 |
-| <b>平滑度</b> <i>浮標</i> | 調整計算方向上顏色混合的程度。   當此值為 0 時，顏色大多會朝該方向移位，幾乎不會發生混合。 |
-| <b>銳利度</b> <i>浮標</i> | 提升模糊區域的對比度，使其看起來更平坦且更清晰。 |
-| <b>各向異性</b> <i>浮標</i> | 調整方向圖在模糊中的貢獻。   當參數值為 0 時，方向圖及其所有修飾符（包括參數與輸入映射）仍會受到影響，因為方向圖用於桑原濾波核。 |
-| <b>使用輸入方向圖</b> <i>布林值</i> | 當為「真」時，輸入影像不會計算方向圖，而是用連接到「方向圖」輸入的影像來驅動各向異性模糊。 |
-| <b>張量光滑度</b> <i>當「使用輸入方向圖」設為「False」時，浮點</i><br><br><i>可使用。</i> | 調整從影像計算並儲存在方向圖中的方向上的模糊強度。   提高這個數值能確保影像在高頻細節豐富時呈現更平滑的結果。 |
-| <b>各向異性角</b> <i>當「使用輸入方向圖」設為「False」時，浮點</i><br><br><i>可使用。</i> | 在方向圖上加入旋轉，以轉數計算。   這個額外的旋轉是&#x200B;**&#x200B;與「各向異性角度圖」輸入所指定的旋轉累積的。 |
-| <b>各向異性角度映射乘法</b> <i>當「使用輸入方向圖」設為「False」時，浮點</i><br><br><i>可使用。</i> | 調整「各向異性角度圖」輸入中的強度，這些值會以旋轉數相加到方向圖上。   這個額外的旋轉與「各向異性角」參數所指定的旋轉是 *累積* 的。 |
-| <b>斜率圖輸入乘法</b> <i>當「使用輸入方向圖」設為「False」時，浮點</i><br><br><i>可使用。</i> | 調整方向圖與「斜率圖」輸入所提供斜率的強度。 |
-| <b>忽略 alpha</b> <i>布林值</i> | 當「True」時，影像的 alpha 通道不會受到濾波器的影響。   當「False」時，濾波器也會套用到alpha通道。 |
+|  |  |
+|:---|:---|
+| <b>半徑</b> *浮標* | 模糊半徑，數值越大，模糊效果越強。   最高數值是32。 |
+| <b>平滑度</b> *浮標* | 調整計算方向上顏色混合的程度。   當此值為 0 時，顏色大多會朝該方向移位，幾乎不會發生混合。 |
+| <b>銳利度</b> *浮標* | 提升模糊區域的對比度，使其看起來更平坦且更清晰。 |
+| <b>各向異性</b> *浮標* | 調整方向圖在模糊中的貢獻。   當參數值為 0 時，方向圖及其所有修飾符（包括參數與輸入映射）仍會受到影響，因為方向圖用於桑原濾波核。 |
+| <b>使用輸入方向圖</b> *布林值* | 當為「真」時，輸入影像不會計算方向圖，而是用連接到「方向圖」輸入的影像來驅動各向異性模糊。 |
+| <b>張量光滑度</b> *當「使用輸入方向圖」設為「False」時，浮點*   *可使用。* | 調整從影像計算並儲存在方向圖中的方向上的模糊強度。   提高這個數值能確保影像在高頻細節豐富時呈現更平滑的結果。 |
+| <b>各向異性角</b> *當「使用輸入方向圖」設為「False」時，浮點*    *可使用。* | 在方向圖上加入旋轉，以轉數計算。   這個額外的旋轉是&#x200B;**&#x200B;與「各向異性角度圖」輸入所指定的旋轉累積的。 |
+| <b>各向異性角度映射乘法</b> *當「使用輸入方向圖」設為「False」時，浮點*   *可使用。* | 調整「各向異性角度圖」輸入中的強度，這些值會以旋轉數相加到方向圖上。   這個額外的旋轉與「各向異性角」參數所指定的旋轉是 *累積* 的。 |
+| <b>斜率圖輸入乘法</b> *當「使用輸入方向圖」設為「False」時，浮點*   *可使用。* | 調整方向圖與「斜率圖」輸入所提供斜率的強度。 |
+| <b>忽略 alpha</b> *布林值* | 當「True」時，影像的 alpha 通道不會受到濾波器的影響。   當「False」時，濾波器也會套用到alpha通道。 |
 
 ## 範例
 
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-04.jpg" alt="anisotropic_kuwahara_color_example_1_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-05.jpg" alt="anisotropic_kuwahara_color_example_1_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -120,11 +122,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-06.jpg" alt="anisotropic_kuwahara_color_example_2_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-07.jpg" alt="anisotropic_kuwahara_color_example_2_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -133,11 +135,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-08.jpg" alt="anisotropic_kuwahara_color_example_4_before">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="anisotropic-kuwahara.resources/anisotropic-kuwahara-09.jpg" alt="anisotropic_kuwahara_color_example_4_after">
+      <img src="https://helpx.adobe.com/libs/settings/wcm/designs/default/resources/0.gif" alt="anisotropic_kuwahara_color_example_4_after">
       <br><i>之後</i>
     </td>
   </tr>

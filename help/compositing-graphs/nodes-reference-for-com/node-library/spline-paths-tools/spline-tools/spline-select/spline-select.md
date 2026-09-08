@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 花鍵選擇
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](spline-select.resources/spline-select-01.png "節點圖示")
+![節點圖示](../../../../../../assets/spline-select-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -90,11 +90,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-02.jpg" alt="SplineSelect-變體1-之前">
+      <img src="../../../../../../assets/SplineSelect-Variant1-Before.jpg" alt="SplineSelect-變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-03.jpg" alt="花條選擇-變體1-之後2">
+      <img src="../../../../../../assets/SplineSelect-Variant1-After2.jpg" alt="花條選擇-變體1-之後2">
       <br><i>之後</i>
     </td>
   </tr>
@@ -106,11 +106,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="spline-select.resources/spline-select-04.jpg" alt="SplineSelect-variant2-Before">
+      <img src="../../../../../../assets/SplineSelect-Variant2-Before.jpg" alt="SplineSelect-variant2-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="spline-select.resources/spline-select-05.jpg" alt="SplineSelect-變體2-之後">
+      <img src="../../../../../../assets/SplineSelect-Variant2-After.jpg" alt="SplineSelect-變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](spline-select.resources/spline-select-06.gif "節點範例 1")
+![節點範例 1](../../../../../../assets/SplineSelect-Demo.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">

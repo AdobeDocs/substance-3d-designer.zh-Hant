@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑頂點處理器簡單
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-01.png "節點圖示")
+![節點圖示](../../../../../../assets/paths-vertex-processor-simple-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -87,7 +87,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 2](paths-vertex-processor-simple.resources/paths-vertex-processor-simple-02.gif "節點範例 2")
+![節點範例 2](../../../../../../assets/PathsVertexProcessor-Demo2.gif "節點範例 2")
 
 </td>
 <td style="border: 0;" valign="top">

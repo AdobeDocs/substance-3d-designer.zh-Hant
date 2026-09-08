@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 恆定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整數類型圖示 整數型別圖示](constant-nodes.resources/constant-nodes-01.png "")
+![整數類型圖示 整數型別圖示](../../../../assets/fn-constant-integer.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](constant-nodes.resources/constant-nodes-02.png "Integer2 type icon")
+![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -77,7 +77,7 @@ Integer2 並不常見，但例如用於在圖塊產生器[&#128279;](../../../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 類型圖示](constant-nodes.resources/constant-nodes-03.png "Integer3 類型圖示")
+![Integer3 類型圖示](../../../../assets/fn-constant-integer3.png "Integer3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 類型圖示](constant-nodes.resources/constant-nodes-04.png "Integer4 類型圖示")
+![Integer4 類型圖示](../../../../assets/fn-constant-integer4.png "Integer4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮點類型圖示](constant-nodes.resources/constant-nodes-05.png "浮點類型圖示")
+![浮點類型圖示](../../../../assets/fn-constant-float.png "浮點類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 類型圖示](constant-nodes.resources/constant-nodes-06.png "Float2 類型圖示")
+![Float2 類型圖示](../../../../assets/fn-constant-float2.png "Float2 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Float2 節點會產生靜態的雙成分 Float 向量。 分量命名為 X、Y�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 類型圖示](constant-nodes.resources/constant-nodes-07.png "Float3 類型圖示")
+![Float3 類型圖示](../../../../assets/fn-constant-float3.png "Float3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Float3 節點會產生一個靜態的三成分浮點向量。 元件名稱為 X�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 類型圖示](constant-nodes.resources/constant-nodes-08.png "Float4 類型圖示")
+![Float4 類型圖示](../../../../assets/fn-constant-float4.png "Float4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -197,7 +197,7 @@ Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布林型別圖示](constant-nodes.resources/constant-nodes-09.png "")
+![布林型別圖示](../../../../assets/fn-constant-boolean.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -214,7 +214,7 @@ Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![字串類型圖示](constant-nodes.resources/constant-nodes-10.png "字串類型圖示")
+![字串類型圖示](../../../../assets/fn-constant-string.png "字串類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 創造色彩調色盤（16）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
 workflow-type: tm+mt
 source-wordcount: '296'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](create-color-palette-16.resources/create-color-palette-16-01.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](../../../../../../assets/CreateColorPalette16.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -76,15 +76,15 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![建立色彩調色盤：範例 1](create-color-palette-16.resources/create-color-palette-16-02.png "建立色彩調色盤：範例 1"){zoomable="yes"}
+![建立色彩調色盤：範例 1](../../../../../../assets/create_color_palette_example_1.png "建立色彩調色盤：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![建立色彩調色盤：範例 2](create-color-palette-16.resources/create-color-palette-16-03.png "建立色彩調色盤：範例 2"){zoomable="yes"}
+![建立色彩調色盤：範例 2](../../../../../../assets/create_color_palette_example_2.png "建立色彩調色盤：範例 2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![建立色彩調色盤：範例 3](create-color-palette-16.resources/create-color-palette-16-04.png "建立色彩調色盤：範例 3"){zoomable="yes"}
+![建立色彩調色盤：範例 3](../../../../../../assets/create_color_palette_example_3.png "建立色彩調色盤：範例 3"){zoomable="yes"}

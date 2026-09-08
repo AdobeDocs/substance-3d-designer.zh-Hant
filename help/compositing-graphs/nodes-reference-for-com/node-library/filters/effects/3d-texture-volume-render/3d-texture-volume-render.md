@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 貼圖體積渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](3d-texture-volume-render.resources/3d-texture-volume-render-01.png){width="200px"}
+![](../../../../../../assets/3dtexturevolumerender.png){width="200px"}
 
 <b>收錄於：</b> 濾波>效應
 
@@ -87,22 +87,22 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-02.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-03.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-04.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-05.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-06.jpg" />
+            <img src="../../../../../../assets/3dtexturevolumerender-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="3d-texture-volume-render.resources/3d-texture-volume-render-07.png" />
+            <img src="../../../../../../assets/3dtexturevolumerender-node.png" />
         </td>
     </tr>
 </table>

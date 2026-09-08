@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主要 MDL 圖形概念
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1033'
 ht-degree: 0%
@@ -33,7 +33,7 @@ MDL 材質使用針對物理基礎渲染解決方案的描述，而 Designer 中
 </td>
 <td style="border: 0;" valign="top">
 
-[![NVIDIA Iray 標誌](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-01.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
+[![NVIDIA Iray 標誌](../../assets/iray-logo.jpg)](https://www.nvidia.com/en-us/design-visualization/iray/)
 
 </td>
 </tr>
@@ -52,7 +52,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 
 根節點包含縮圖，預覽其目前輸出。
 
-![MDL 圖的根節點](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-02.png "MDL 圖的根節點")
+![MDL 圖的根節點](../../assets/mdl-root-hl.png "MDL 圖的根節點")
 
 *MDL 圖中的根節點及其屬性在[屬性](../../interface/properties/properties.md)**面板中顯示*
 
@@ -81,7 +81,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 >
 > 僅可連接用於 *匹配資料型別* 的連接器。 顏色編碼的唯一目的是提升圖中傳遞資料類型及可連結連接器的可讀性。
 
-![MDL 節點連接器類型](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-03.png "MDL 節點連接器類型"){width="512px"}
+![MDL 節點連接器類型](../../assets/mdl-connector-types.png "MDL 節點連接器類型"){width="512px"}
 
 *連接器的外觀依 I/O 值類型而異，括號內顯示於 I/O 識別碼後方*
 
@@ -101,7 +101,7 @@ MDL 圖的結果由 <b>根</b> 節點定義。 只要圖中的任何節點輸出
 * 如果透過從輸出&#x200B;*連接器拖出*&#x200B;連結&#x200B;*來顯示*&#x200B;節點選單，列表中包含第一個輸入&#x200B;*的資料*&#x200B;型態與所選&#x200B;*輸出*&#x200B;型態相符的節點
 * 如果節點選單是透過&#x200B;*從輸入*&#x200B;連接器拖出&#x200B;*連結*&#x200B;來顯示，清單中包含輸出資料型態&#x200B;**&#x200B;與所選輸入&#x200B;*型態相符*&#x200B;的節點
 
-![過濾節點建立](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-04.gif "過濾節點建立")
+![過濾節點建立](../../assets/mdl-filtered-node-creation.gif "過濾節點建立")
 
 *在 MDL 圖中建立過濾節點時，請注意清單會根據連接器的值類型而改變*
 
@@ -111,6 +111,6 @@ MDL 材質可從外部來源接收資料，例如明暗與紋理。 這是透過
 
 資料可依其 *類型*&#x200B;傳遞至暴露節點。 例如，Float 值可以傳給暴露 <b>的浮點</b> 節點，紋理則可以傳給暴露 <b>的顏色</b> 節點（此時取樣像素的 RGBA 值會作為顏色值傳遞）。
 
-![暴露的圖形輸入](main-mdl-graph-concepts.resources/main-mdl-graph-concepts-05.png "暴露的圖形輸入")
+![暴露的圖形輸入](../../assets/mdl-graph-inputs-samplers.png "暴露的圖形輸入")
 
 *暴露節點會產生圖形輸入，既是原始值輸入，也是材質的取樣器*
