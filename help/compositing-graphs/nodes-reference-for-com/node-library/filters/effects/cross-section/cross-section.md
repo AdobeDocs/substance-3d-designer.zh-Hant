@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/cross-section.html"
 breadcrumb-title: ''
 description: 使用 Cross Section 節點根據高度貼圖建立橫截面遮罩，用於切割和切割效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 橫斷面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 07f136ebd89fbe737b6c042f1275bd348b2be514
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![「橫切面」節點圖示](../../../../../../assets/cross-section-2.png "「橫截面」節點圖示"){width="200px"}
+![「橫切面」節點圖示](cross-section.resources/cross-section-2.png "「橫截面」節點圖示"){width="200px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -69,10 +69,10 @@ ht-degree: 0%
 
 ## 範例
 
-![截面：範例1](../../../../../../assets/cross-section-example-01.gif "截面：範例1")
+![截面：範例1](cross-section.resources/cross-section-example-01.gif "截面：範例1")
 
-![截面：範例2](../../../../../../assets/cross-section-example-02.gif "截面：範例2")
+![截面：範例2](cross-section.resources/cross-section-example-02.gif "截面：範例2")
 
-![截面：範例3](../../../../../../assets/cross-section-example-03.png "截面：範例3")
+![截面：範例3](cross-section.resources/cross-section-example-03.png "截面：範例3")
 
-![截面：範例4](../../../../../../assets/cross-section-example-04.png "截面：範例4")
+![截面：範例4](cross-section.resources/cross-section-example-04.png "截面：範例4")
