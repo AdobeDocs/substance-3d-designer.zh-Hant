@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: 使用 MLV 色彩模糊濾鏡，將動態模糊效果套用到色彩貼圖上，營造動態視覺效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MLV 彩色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![MLV 顏色：圖示](../../../../../../assets/MLV_Color_Icon.png "MLV 顏色：圖示")
+![MLV 顏色：圖示](mlv-color.resources/MLV_Color_Icon.png "MLV 顏色：圖示")
 
 <b>收錄於：</b> 模糊>濾鏡
 
@@ -79,11 +79,11 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4A.png" alt="MLV_Variant4A">
+      <img src="mlv-color.resources/MLV_Variant4A.png" alt="MLV_Variant4A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant4B.png" alt="MLV_Variant4B">
+      <img src="mlv-color.resources/MLV_Variant4B.png" alt="MLV_Variant4B">
       <br><i>之後</i>
     </td>
   </tr>
@@ -92,11 +92,11 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5A.png" alt="MLV_Variant5A">
+      <img src="mlv-color.resources/MLV_Variant5A.png" alt="MLV_Variant5A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant5B.png" alt="MLV_Variant5B">
+      <img src="mlv-color.resources/MLV_Variant5B.png" alt="MLV_Variant5B">
       <br><i>之後</i>
     </td>
   </tr>
@@ -105,11 +105,11 @@ MLV 代表<b>「最小變異數均值」（Mean of Least Variance）。</b>這�
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3A.png" alt="MLV_Variant3A">
+      <img src="mlv-color.resources/MLV_Variant3A.png" alt="MLV_Variant3A">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/MLV_Variant3B.png" alt="MLV_Variant3B">
+      <img src="mlv-color.resources/MLV_Variant3B.png" alt="MLV_Variant3B">
       <br><i>之後</i>
     </td>
   </tr>
