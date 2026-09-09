@@ -68,7 +68,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 完整更新的音效清單請參見下方發行 [說明](#release-notes) 。
 
-範例：[單元 1[](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [濕氣噪音 1   ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+範例：[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)單元 1[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2 [方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [濕氣噪音 1   &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
 ![方向性無序雜訊](../../assets/directionaldisorder.gif){zoomable="yes"}
 
@@ -199,8 +199,8 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 * [3D 視角]鏡面層級未正確套用
 * [3D 視角]使用 Eclair 光柵器時，鏡面邊緣顏色無法使用。
 * [3D 視角]使用者新增素材不會套用在預設場景中
-* [3D 視角][烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
-* [3D 視角][貝克斯]FBX 檔案中沒有材質顏色
+* [3D 視角]&#x200B;[烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
+* [3D 視角]&#x200B;[貝克斯]FBX 檔案中沒有材質顏色
 * [烘焙師]FBX 檔案中的材質顏色無法正確偵測
 * [Bakers]在 JSON 預設匯出中，&#39;recompute\_tangents&#39; 選項總是 &#39;false&#39;
 * [烘焙師]CLI：連續執行同一烘焙機時，透過 JSON 檔案當機
