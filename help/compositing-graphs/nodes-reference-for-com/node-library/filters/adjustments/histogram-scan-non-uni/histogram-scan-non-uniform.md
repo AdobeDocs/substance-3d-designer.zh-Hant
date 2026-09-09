@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)的進階版本[，新增控制與輸入，能以每像素層級驅動效果，而非均勻地覆蓋整幅影像。可用來實現更複雜的對比與遮罩過渡。
+直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)的進階版本，新增控制與輸入，能以每像素層級驅動效果，而非均勻地覆蓋整幅影像。可用來實現更複雜的對比與遮罩過渡。
 
 它比一般 [直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)複雜得多，所以在嘗試使用非均勻版本前，務必熟悉它。
 
