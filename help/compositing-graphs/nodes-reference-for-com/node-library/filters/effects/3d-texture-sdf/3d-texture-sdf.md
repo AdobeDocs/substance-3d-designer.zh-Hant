@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-sdf.html"
 breadcrumb-title: ''
 description: 使用 3D Texture SDF 節點，從 3D 資料產生有符號距離場紋理，以創造平滑的形狀與效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 貼圖 SDF
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dtexturesdf.png){width="200px"}
+![](3d-texture-sdf.resources/3dtexturesdf.png){width="200px"}
 
 <b>收錄於：</b> 濾波>效應
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-**3D Texture SDF** 節點會&#x200B;*從&#x200B;**輸入**&#x200B;的* 3D 材質&#x200B;*遮罩（代表形狀*&#x200B;體積&#x200B;*的切片）產生形狀的有符號距離場*。
+**3D Texture SDF** 節點會&#x200B;*從&#x200B;**輸入**的* 3D 材質&#x200B;*遮罩（代表形狀*&#x200B;體積&#x200B;*的切片）產生形狀的有符號距離場*。
 
 </td>
 </tr>
@@ -61,13 +61,13 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-variant2.jpg" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dtexturesdf-node.png" />
+            <img src="3d-texture-sdf.resources/3dtexturesdf-node.png" />
         </td>
     </tr>
 </table>
