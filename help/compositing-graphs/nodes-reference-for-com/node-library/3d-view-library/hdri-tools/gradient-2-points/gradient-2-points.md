@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/gradient-2-points.html"
 breadcrumb-title: ''
 description: 使用 Gradient 2 Points 節點在 HDRI 環境中為天空與地面色過渡製作雙點漸層。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度2點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/gradient-2-points.png){width="250px"}
+![](gradient-2-points.resources/gradient-2-points.png){width="250px"}
 
 <b>收錄於：</b> HDRI 工具> 3D 視圖
 
@@ -57,7 +57,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/gradient-ex2.gif" />
+            <img src="gradient-2-points.resources/gradient-ex2.gif" />
         </td>
     </tr>
 </table>

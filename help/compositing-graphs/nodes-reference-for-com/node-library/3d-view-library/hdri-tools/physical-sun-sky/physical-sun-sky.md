@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/physical-sun-sky.html"
 breadcrumb-title: ''
 description: 使用 Physical SunSky 節點生成物理精確的太陽與天空照明環境，提供逼真的材質預覽。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 實體 SunSky
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 43dd5433948c89f68426040a2a2d76282072c75d
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 9%
@@ -24,7 +24,7 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/panorama-physical-sun-sky.png){width="200px"}
+![](physical-sun-sky.resources/panorama-physical-sun-sky.png){width="200px"}
 
 <b>收錄於：</b> HDRI 工具> 3D 視圖
 
@@ -59,7 +59,7 @@ ht-degree: 9%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/sky-ex.gif" />
+            <img src="physical-sun-sky.resources/sky-ex.gif" />
         </td>
     </tr>
 </table>
