@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 使用自動裁切節點自動裁切材質，移除空白邊框並優化材質尺寸。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 自動裁切
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropgrayscale.png){width="200px"}
+![](auto-crop.resources/autocropgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/autocropcolor.png){width="200px"}
+![](auto-crop.resources/autocropcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 **自動裁切**&#x200B;節點會&#x200B;**調整輸入**，使其內容要麼放在&#x200B;*圖片中央*&#x200B;且不調整大小，要麼&#x200B;*調整大小至影像的長度*。
 
-影像內容由一個框定義，該框貼合在 X 和 Y 的首尾像素上，該值&#x200B;*大*&#x200B;於 0 *（即非黑色）。**&#x200B;**&#x200B;**&#x200B;**&#x200B;***彩色**&#x200B;版本允許你從 RGB 和 Alpha 通道中選擇來定義該框。
+影像內容由一個框定義，該框貼合在 X 和 Y 的首尾像素上，該值&#x200B;*大*&#x200B;於 0 *（即非黑色）。***********彩色**&#x200B;版本允許你從 RGB 和 Alpha 通道中選擇來定義該框。
 
 </td>
 </tr>
@@ -69,22 +69,22 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-demo-01-resized.gif" />
+            <img src="auto-crop.resources/autocrop-demo-01-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant2.jpg" />
+            <img src="auto-crop.resources/autocrop-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant.jpg" />
+            <img src="auto-crop.resources/autocrop-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant4.png" />
+            <img src="auto-crop.resources/autocrop-variant4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-variant3.png" />
+            <img src="auto-crop.resources/autocrop-variant3.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/autocrop-node.png" />
+            <img src="auto-crop.resources/autocrop-node.png" />
         </td>
     </tr>
 </table>
