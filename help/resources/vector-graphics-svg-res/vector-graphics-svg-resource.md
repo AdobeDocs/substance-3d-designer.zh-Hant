@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中匯入並使用 SVG 向量圖形作為資源，用於程序化材質的建立。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 向量圖形（SVG）資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Substance 3D Designer 支援有限形式的向量圖形，透過可縮放向量圖形格式。 SVG 檔案可以用不同方式作為資源，作為圖表的資源。
 
-SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-refere
 
 ## SVG 儲存
 
-SVG 儲存取決於它們是連結還是匯入。 匯入的 SVG 檔案會嵌入 SBS 檔案中，[不需要像點陣](../../resources/bitmap-resource/bitmap-resource.md)圖那樣的外部檔案，並且可以使用向量編輯工具[&#128279;](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)進行編輯。
+SVG 儲存取決於它們是連結還是匯入。 匯入的 SVG 檔案會嵌入 SBS 檔案中，[不需要像點陣](../../resources/bitmap-resource/bitmap-resource.md)圖那樣的外部檔案，並且可以使用向量編輯工具](../../resources/vector-graphics-svg-res/vector-editing-tools/vector-editing-tools.md)進行[編輯。
 
 ## SVG 屬性
 
@@ -41,11 +41,11 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 | 識別碼 | 用於在套件中引用 SVG 資源，必須是唯一的。 |
 | 檔案路徑 | 資源參考的 SVG 檔案在磁碟上的路徑。 |
 | 說明 | 此說明顯示於 [本資源的探索器](../../interface/the-explorer-window/the-explorer-window.md) 與 [圖書館](../../interface/the-library/the-library.md) 工具提示中。 |
-| 類別 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
-| 標籤 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
-| 作者 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
-| 作者網址 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
-| 標記 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md) [&#128279;](../../interface/the-library/the-library.md)整理與整理。 |
+| 類別 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
+| 標籤 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
+| 作者 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
+| 作者網址 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
+| 標記 | 用於[圖書館的資源](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)[](../../interface/the-library/the-library.md)整理與整理。 |
 | 使用者資料 | 可選的額外資料，向量圖形不常用。 |
 | 圖書館節目 | 判斷 SVG 資源是否應該隱藏在 [圖書館檢視中。](../../interface/the-library/the-library.md) |
 | 向量圖形品質 | 影響渲染品質。 音域並非線性，最佳品質在0.5時可達。 |
@@ -60,7 +60,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 * 支援筆劃，但筆劃寬度僅為 1 像素，筆劃樣式則被忽略;
 * 虛線風格肯定會壞掉;
 * 文字需要轉換成路徑/輪廓來渲染;
-* [不支援複合路徑](https://helpx.adobe.com/ie/illustrator/desktop/manage-objects/reshape-transform-objects/create-compound-paths.html) ;
+* [不支援複合路徑](https://helpx.adobe.com/ie/illustrator/using/combining-objects.html#compound_paths) ;
 * 不支援像漸層這類進階功能;
 * CSS 屬性的樣式元素不被支援。
 
@@ -70,7 +70,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 
 ### Adobe 插畫家
 
-[如果你注意以下選項，Illustrator](https://www.adobe.com/tw/products/illustrator.html) 能讓你對 SVG 匯出有最大的控制權。
+[如果你注意以下選項，Illustrator](https://www.adobe.com/products/illustrator.html) 能讓你對 SVG 匯出有最大的控制權。
 
 * 只 <b>用另存為</b>， *不要* 用匯出新為！
 * <b>SVG 設定檔</b> 影響不大，不過 Tiny 設定檔（大多數時候）會預設為絕對正確的設定;
@@ -87,7 +87,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 > 美術板會影響產生的 SVG 檔案結果。 有些 Illustrator 檔案範本會引入多個美術板。\
 > 盡量只有一個裁切好的美術板，並在存檔為 SVG 時，在美術板視窗中選擇它。
 
-![Illustrator SVG 匯出選項](vector-graphics-svg-resource.resources/vector-graphics-svg-resource-01.jpg "Illustrator SVG 匯出選項"){width="512px"}
+![Illustrator SVG 匯出選項](../../assets/svg-export-options-ai.jpg "Illustrator SVG 匯出選項"){width="512px"}
 
 ### 墨境
 

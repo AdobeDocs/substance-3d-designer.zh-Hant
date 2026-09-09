@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 15.1 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1719'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 *發行日期：2025年12月11日*
 
-![旗幟設計師 15.1](version-15-1.resources/version-15-1-01.png)
+![旗幟設計師 15.1](../../assets/bannerweb.png)
 
 ## 改進圖的建立
 
@@ -36,13 +36,13 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 [了解更多](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
 
-![重新設計 新圖形視窗](version-15-1.resources/version-15-1-02.png){zoomable="yes"}
+![重新設計 新圖形視窗](../../assets/newgraph.png){zoomable="yes"}
 
 ## 嵌入取樣
 
 隨著重新設計的圖表建立視窗推出，我們在軟體中直接加入了各種 [<b>範例材料</b>](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md) 。 此項改進是回應您對學習資源取得更佳存取需求的要求。
 
-![新的範例圖建立視窗](version-15-1.resources/version-15-1-03.png){zoomable="yes"}
+![新的範例圖建立視窗](../../assets/GraphSample.png){zoomable="yes"}
 
 為了滿足這個需求，我們納入了布料（包括皮革和緞面）、木材、金屬、塑膠、陶瓷等材料樣本。 這些範例旨在幫助你輕鬆開始專案，並熟悉 Substance 3D Designer 中主要的家族節點
 
@@ -54,7 +54,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 [了解更多](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
 
-![材料設計中的木材樣本](version-15-1.resources/version-15-1-04.png){zoomable="yes"}
+![材料設計中的木材樣本](../../assets/samplegraph.png){zoomable="yes"}
 
 ## 新聲音
 
@@ -68,9 +68,9 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 完整更新的音效清單請參見下方發行 [說明](#release-notes) 。
 
-範例：[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md)單元 1[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2 [方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [濕氣噪音 1   &#x200B;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
+範例：[單元 1[](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/cells-1/cells-1.md)雲 2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/clouds-2/clouds-2.md) [方向刮痕](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/directional-scratches/directional-scratches.md) [濕氣噪音 1   ](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/moisture-noise/moisture-noise.md)
 
-![方向性無序雜訊](version-15-1.resources/version-15-1-05.gif){zoomable="yes"}
+![方向性無序雜訊](../../assets/directionaldisorder.gif){zoomable="yes"}
 
 ## 節點選單中的階層
 
@@ -82,12 +82,12 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![類別 1 的節點搜尋](version-15-1.resources/version-15-1-06.png){zoomable="yes"}
+![類別 1 的節點搜尋](../../assets/search1-2.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![類別 2 的節點搜尋](version-15-1.resources/version-15-1-07.png){zoomable="yes"}
+![類別 2 的節點搜尋](../../assets/search2.png){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,11 +108,11 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 <table>
   <tr>
     <td>
-      <img src="version-15-1.resources/version-15-1-08.png" alt="defaultouput2">
+      <img src="../../assets/defaultouput2.png" alt="defaultouput2">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-15-1.resources/version-15-1-09.png" alt="預設輸出中，縮圖永遠是相關的。">
+      <img src="../../assets/defaultouput1.png" alt="預設輸出中，縮圖永遠是相關的。">
       <br><i>之後</i>
     </td>
   </tr>
@@ -126,7 +126,7 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 
 [了解更多](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/get-nodes/get-nodes.md)
 
-![是定義節點](version-15-1.resources/version-15-1-10.png){zoomable="yes"}
+![是定義節點](../../assets/isdefined.png){zoomable="yes"}
 
 ## 發行說明
 
@@ -199,8 +199,8 @@ Substance Designer 15.1 帶來了全新設計的圖表創建視窗，提供直�
 * [3D 視角]鏡面層級未正確套用
 * [3D 視角]使用 Eclair 光柵器時，鏡面邊緣顏色無法使用。
 * [3D 視角]使用者新增素材不會套用在預設場景中
-* [3D 視角]&#x200B;[烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
-* [3D 視角]&#x200B;[貝克斯]FBX 檔案中沒有材質顏色
+* [3D 視角][烘焙機]材料顏色一旦覆寫或使用「彩色」烘焙器時會顯得過暗
+* [3D 視角][貝克斯]FBX 檔案中沒有材質顏色
 * [烘焙師]FBX 檔案中的材質顏色無法正確偵測
 * [Bakers]在 JSON 預設匯出中，&#39;recompute\_tangents&#39; 選項總是 &#39;false&#39;
 * [烘焙師]CLI：連續執行同一烘焙機時，透過 JSON 檔案當機

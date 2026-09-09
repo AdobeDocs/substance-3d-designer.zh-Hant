@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.1 版本的發布說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.1
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1381'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### Substance 材料圖表的新內容
 
-![](version-12-1.resources/version-12-1-01.png)
+![](../../assets/yellow-intense-reduce.png)
 
 這個版本新增了許多節點，你會發現一些新的模式、新的噪音、新的濾波器......
 
@@ -38,36 +38,36 @@ ht-degree: 0%
 
   * 我們新增了一個 <b>Tile Random 2</b> 節點，用來生成大小與比例隨機的相鄰圖塊，這對於快速建立完全不規則、帶有傾斜、圓角和斜角的格子非常實用。
 
-    ![](version-12-1.resources/version-12-1-02.gif){width="640px"}
+    ![](../../assets/tilerandom2-demo2.gif){width="640px"}
   * 新增 <b>三角形格子</b> 圖案，生成由三角形組成的網格。 我們在下面的材料中使用它，輕鬆且完美地模擬皮革紋理。 此產生器代表三維空間中的頂點曲面，並可用來創造各種多邊形樣式。
 
-    ![](version-12-1.resources/version-12-1-03.png){width="640px"}
+    ![](../../assets/trianglegrid-demo.png){width="640px"}
 * **新聲響**
 
   * 為了讓你有更多變化，新增 <b>了15張Grunge地圖</b> （Concrete、Leaks、Splashes Dirty等） 已新增至圖書館。
 
-    ![](version-12-1.resources/version-12-1-04.png){width="640px"}
+    ![](../../assets/grungemaps.png){width="640px"}
   * 你還會發現許多 <b>新的 2D 和 3D 噪音</b>，例如 Voronoi（2D 和 3D）、Voronoi 分形（2D 和 3D）、3D Ridged Fractal，以及目前 3D Perlin Noise（新增平鋪和絕對選項）的更新。\
     這些聲音都以 3D 空間映射，並提供多種風格，增加多樣性與控制，讓你有更多選擇來打造適合你素材的完美地圖，例如海洋和下方的科幻材質。
 
-    ![](version-12-1.resources/version-12-1-05.gif){width="640px"}
+    ![](../../assets/fractal-voronoi-sea.gif){width="640px"}
 
-    ![](version-12-1.resources/version-12-1-06.gif){width="640px"}
+    ![](../../assets/fractal-voronoi-scifi-panel.gif){width="640px"}
   * 一組 <b>3D 貼圖節點</b> （位置、SDF、偏移）和 <b>3D 渲染節點 </b>（表面或體積）用來建立和渲染 3D 貼圖，這些貼圖是 3D 模型切片的圖集。
 
-    ![](version-12-1.resources/version-12-1-07.png){width="640px"}
+    ![](../../assets/image2022-4-22-11-46-17.png){width="640px"}
 
 * **新濾鏡**
 
   * 透過<b>自動裁切</b>節點，你可以在圖片中心&#x200B;*放置一個形狀*&#x200B;而不調整大小，或調整大小以符合空間。舉例來說，你的形狀可以自由調整，同時保持均勻的位置和大小。
 
-    ![](version-12-1.resources/version-12-1-08.gif){width="640px"}
+    ![](../../assets/autocrop-demo-01-resized.gif){width="640px"}
   * 透過<b> Extend Shape</b> 節點，你可以將形狀的一段拉伸到自訂的方向和距離。
 
-    ![](version-12-1.resources/version-12-1-09.gif){width="640px"}
+    ![](../../assets/extendshape.gif){width="640px"}
   * 而使用 <b>Non-Uniform Rotation</b> 節點，你可以根據給定的映射旋轉輸入。
 
-    ![](version-12-1.resources/version-12-1-10.gif){width="640px"}
+    ![](../../assets/nonuniformrotation-demo-02-resized.gif){width="640px"}
 * **還有......**
 
   * 易度函數（函數圖）非常有用，能以非線性方式驅動一個數值。
@@ -89,19 +89,19 @@ ht-degree: 0%
 * <b>傳送給Stager\
   </b>你現在可以一鍵將 Substance 素材傳送到 Stager，就像 Sampler 和 Painter 一樣。 多虧了這個功能，不再需要以 SBSAR 發佈並載入個別檔案（需要 Stager 1.2.0 版本搭配新的材質管理器）
 
-  ![](version-12-1.resources/version-12-1-11.gif)
+  ![](../../assets/sendtostagershort.gif)
 
 ### 其他
 
 * 如果你正在製作布料，現在可以在 3D 視圖中顯示專用網格，讓你更清楚看到材質在垂墜形狀上的呈現方式。 在 3D 視圖面板中開啟 <b>場景</b> 選單，選擇 <b>布料</b> 選項來顯示此模型。
 
-  ![](version-12-1.resources/version-12-1-12.png){width="640px"}
+  ![](../../assets/fabric-rendering.png){width="640px"}
 
 * 我們也新增了一些 Substance 模型圖的場景管理節點。 這些節點允許你重新命名、重父、融合或展開場景元素，以組織場景階層。 還有一個新節點用來設定場景中一個或多個元素的樞軸。
 
 * 在 Designer 中處理專案時，你可能會遇到警告和錯誤訊息，這些訊息會通知你專案中出現問題。 在這個版本中，我們 <b>改進了錯誤管理系統</b> ，讓所有錯誤和警告都能在檔案總管中顯示：所有資料都集中在一處，讓你更容易檢查專案是否有問題。
 
-  ![](version-12-1.resources/version-12-1-13.png){width="640px"}
+  ![](../../assets/warning-overview-explorer.png){width="640px"}
 
 ## 發行說明
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 * [內容]量化灰階節點的新版本
 * [內容]新 Voronoi 與 Voronoi 分形聲（2D/3D）
 * [內容]閾值：加入「降低」與「降低且相等」的比較模式
-* [內容]&#x200B;[3D 視圖]新增一個網格配合，用於展示布料到已運送的資源中
+* [內容][3D 視圖]新增一個網格配合，用於展示布料到已運送的資源中
 * [實體模型]新擴展群組實例節點
 * [物質模型]新熔斷節點
 * [物質模型]新命名節點
@@ -176,8 +176,8 @@ ht-degree: 0%
 * [內容]洪水填充：布林參數的文字滲透按鈕
 * [內容]多角度到法線節點第一個取樣光角參數的範圍錯誤
 * [物質模型]節點的屬性顯示識別碼而非標籤
-* [物質模型]&#x200B;[3D 視角]重新開啟專案時的刷新問題
-* [物質模型]&#x200B;[3Dview] 使用線框預覽時的刷新問題
+* [物質模型][3D 視角]重新開啟專案時的刷新問題
+* [物質模型][3Dview] 使用線框預覽時的刷新問題
 * [參數]在特定情況下快速連續刪除圖輸入時會當機
 * [參數]在編輯參考描述時，重設實例參數時會當機
 * [位圖]對於在圖中丟棄的點陣圖檔案，UDIM 偵測不會被觸發

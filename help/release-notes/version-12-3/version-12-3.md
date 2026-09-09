@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-3.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.3 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 12.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 發行日期： *2022年10月6日*
 
-![](version-12-3.resources/version-12-3-01.png){width="1111px"}
+![](../../assets/largef.png){width="1111px"}
 
 ## 主要特色
 
@@ -33,20 +33,20 @@ ht-degree: 0%
 如果你習慣製作圖表，你會希望能夠製作子圖（或圖形實例），以便重複使用你的作品，讓圖表更簡潔且更有效率。\
 現在 Substance 模型圖也可以這樣做：只要把子圖從 Explorer 拖放到主圖，當作實例節點使用即可。
 
-![](version-12-3.resources/version-12-3-02.gif){width="600px"}
+![](../../assets/subgraph.gif){width="600px"}
 
 我們也引入了 Substance 模型圖（如 Output scene）的輸出節點概念。 你現在可以在圖中加入一個或多個輸出。\
 當你的圖被實例化到另一個圖時，每個輸出都會對應一個輸出腳位。
 
-![](version-12-3.resources/version-12-3-03.png){width="600px"}
+![](../../assets/image2022-10-4-15-31-27.png){width="600px"}
 
 當你右鍵點擊實例節點時，當然可以存取其參考的子圖來檢視或編輯它。
 
-![](version-12-3.resources/version-12-3-04.png){width="600px"}
+![](../../assets/image2022-10-4-16-28-36.png){width="600px"}
 
 多虧了子圖和暴露的參數，你可以創造複雜的資產並套用無限變化，如下方插圖所示。
 
-![](version-12-3.resources/version-12-3-05.gif){width="600px"}
+![](../../assets/seasons.gif){width="600px"}
 
 ### Substance 模型圖的其他改進
 
@@ -55,18 +55,18 @@ ht-degree: 0%
   使用 <b>Visible If</b>，你可以為參數可視性加入條件，保持介面乾淨且實用。 此機制已適用於 Substance 圖，現在也擴展至實體模型圖，當然，語法相同。 <b>\
   </b>
 
-  ![](version-12-3.resources/version-12-3-06.gif){width="600px"}
+  ![](../../assets/visibleif.gif){width="600px"}
 
 * <b>新節點專屬曲線編輯\
   </b>此版本新增了專門用於曲線編輯的新節點： <b>反向曲線</b> 交換曲線的兩端， <b>曲線細分</b> 依兩種方法在線段上增加頂點， <b>平滑曲線 </b>平滑二維曲線上的所有角度，最後 <b>偏移曲線</b> 使二維曲線膨脹或放氣，如下所示。<b>
 
   </b>
 
-  ![](version-12-3.resources/version-12-3-07.gif){width="600px"}
+  ![](../../assets/curve-offset-4.gif){width="600px"}
 * <b>新圖形視窗 </b>\
   <b>新 Substance 模型圖</b>視窗現在也可用於 Substance 模型圖。你可以新增自己的範本，或選擇預設範本，然後直接輸入圖表名稱，選擇該圖表要加入的套件。
 
-  ![](version-12-3.resources/version-12-3-08.png){width="600px"}
+  ![](../../assets/image2022-10-5-15-25-42.png){width="600px"}
 
 ### 歡迎與新消息座談會
 
@@ -76,9 +76,9 @@ ht-degree: 0%
 
 這兩個面板也可從說明選單中存取。
 
-![](version-12-3.resources/version-12-3-09.png)
+![](../../assets/image2022-10-3-15-47-28.png)
 
-![](version-12-3.resources/version-12-3-10.png)
+![](../../assets/image2022-10-3-15-47-55.png)
 
 ### 其他
 
@@ -88,7 +88,7 @@ ht-degree: 0%
   在先前版本中，Designer 無法正確處理作業系統中設定的縮放因子。 如你在下方插圖中所見，所有內容在 4K 螢幕上完美管理，並以 125% 縮放，所有字型和按鈕都以一致大小顯示。\
   請注意，偏好設定中的「停用高 DPI」選項在這個新版本中已重設為 *False* ，因為這個選項不再需要這個選項才能使用介面。
 
-  ![](version-12-3.resources/version-12-3-11.gif){width="600px"}
+  ![](../../assets/highdpi-fix.gif){width="600px"}
 
 * **Steam 版本的 Apple Silicon 原生支援（M1 / M2）**\
   12.2 版的 Designer 是首個全面支援基於 M1 或 M2 晶片的新蘋果機種，但 Steam 版本卻沒有這項支援。 從現在起，所有 Designer 用戶都能在這些機器上享受更快且更有效率的體驗。

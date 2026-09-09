@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 15.0 版本的發佈說明，了解新的 3D 渲染器及原生 USD 支援。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 *發行日期：2025年7月15日*
 
-![橫幅](version-15-0.resources/version-15-0-01.png "版本 15.0 橫幅")
+![橫幅](../../assets/banner-47.png "版本 15.0 橫幅")
 
 ## 全新 3D 渲染器
 
 ### 新光柵化器與路徑追蹤器
 
-這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX[&#128279;](https://materialx.org/) 等技術。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
+這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX](https://materialx.org/) 等技術[。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
 
-![光柵化器中的陰影與半透明](version-15-0.resources/version-15-0-02.png)
+![光柵化器中的陰影與半透明](../../assets/feature_1b.png)
 
 [3D 視圖工具列](../../interface/3d-view/3d-view.md)已更新，能快速存取此渲染器中部分新功能：
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 * <b>色調映射： </b>透過設定檔呈現色彩範圍，以產生高動態範圍（HDR）效果。
 * <b>景深：</b> 模擬相機鏡頭（僅光柵器）的對焦特性。
 
-![Designer 15.0 的後期效果](version-15-0.resources/version-15-0-03.gif)
+![Designer 15.0 的後期效果](../../assets/postfx.gif)
 
 ## 資產版在背景下的說明
 
 當你在製作材質時，可能會想 [在特定的 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md)中預覽。 這也是為什麼我們加入了匯入並渲染完整場景的功能，包含所有材質、攝影機和燈光。 更棒的是，如果這個場景參考了 MaterialX 著色器，光柵器會正確渲染出來！
 
-![USD 場景已載入並用 Designer 渲染](version-15-0.resources/version-15-0-04.png)
+![USD 場景已載入並用 Designer 渲染](../../assets/feature_2.png)
 
 匯入後，你可以選擇網格（用 SHIFT + 點擊或多虧場景瀏覽器）並 [覆蓋其](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)材質來處理場景。 你可以：
 
@@ -76,17 +76,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![混合節點](version-15-0.resources/version-15-0-05.gif)
+![混合節點](../../assets/blend.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![模糊節點](version-15-0.resources/version-15-0-06.gif)
+![模糊節點](../../assets/blur.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![距離節點](version-15-0.resources/version-15-0-07.gif)
+![距離節點](../../assets/distance.gif)
 
 </td>
 </tr>
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 如果你需要處理非方形材質，這個新選項就是為你量身打造的。 在 [3D 視圖的材質屬性](../../interface/3d-view/material-properties/material-properties.md) 中，UV 控制平鋪的選項中，你現在可以為兩個軸設定不同的數值。
 
-![不同的U型比例](version-15-0.resources/version-15-0-08.png){zoomable="yes"}
+![不同的U型比例](../../assets/nonsquare.png){zoomable="yes"}
 
 ## 烘焙師
 
@@ -110,7 +110,7 @@ ht-degree: 0%
 
 ## 影片
 
-[![Substance 3D 設計師更新：新增渲染器、後製特效與上下文編輯 |Adobe Substance 3D](version-15-0.resources/version-15-0-09.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
+[![Substance 3D 設計師更新：新增渲染器、後製特效與上下文編輯 |Adobe Substance 3D](../../assets/video_15.png)](https://www.youtube.com/watch?v=6EkXxu-0Q_E)
 
 ## 發行說明
 
@@ -198,7 +198,7 @@ ht-degree: 0%
 ### 修正方法
 
 * [3D 視圖]匯出的 USD 場景中的貼圖未正確套用
-* [3D 視圖]&#x200B;[UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
+* [3D 視圖][UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
 * [麵包師們]「反外名。」和「平均。 非適用烘焙者的法線格為空白且可編輯
 * [烘焙者]「刷新」動作在偏好設定中關閉光線追蹤後端時會使用該功能
 * [烘焙師]在「刷新所有烘焙地圖」過程中失敗後，烘焙師被封鎖為忙碌

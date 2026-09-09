@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/cannot-create-load-a-project.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中排解建立或載入專案時的問題，並尋找解決方案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 無法 createload 專案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 應用程式太舊，無法開啟 URL
 
-**![（錯誤）](cannot-create-load-a-project.resources/error.svg) 子嗣**
+**![（錯誤）](../../assets/error.svg) 子嗣**
 
 **Substance 3D 檔案（SBS）**&#x200B;是由不支援其格式&#x200B;*的 Substance 3D Designer*&#x200B;版本載入。Substance 3D 檔案很可能 *是儲存在較新版本的軟體中，該版本* 使用更新格式來處理這些檔案。
 
-**![（滴答）](cannot-create-load-a-project.resources/check.svg) 建議步驟**
+**![（滴答）](../../assets/check.svg) 建議步驟**
 
 隨著 Substance 3D Designer 的演進，Substance 3D 檔案格式（SBS）也在演進。 通常，新版本的軟體需要 *更新你的檔案* ，才能支援最新功能。
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 首先，確認你使用的是最新版本的 Substance 3D Designer，這是你目前授權的授權。 以下是各版本更新的存取點：
 
-* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面[&#128279;](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤的更新區塊
-* <b>[Substance3d.com](http://Substance3d.com) 訂閱：</b>在 Substance 3D Designer 中按需更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權[&#128279;](https://store.substance3d.com/user)」區下載最新安裝程式
+* <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤[的更新區塊
+* <b>[Substance3d.com]（http://Substance3d.com） 訂閱：</b>在 Substance 3D Designer 中提示時更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權](https://store.substance3d.com/user)」區[下載最新安裝程式
 * <b>Steam：</b> 應用程式會預設自動更新。 你可以手動啟動 Substance 3D Designer，或進入下載頁面來觸發更新
 
 >[!WARNING]
@@ -54,21 +54,21 @@ ht-degree: 0%
 
 ## 建立或載入專案時會當機
 
-<b>![（錯誤）](cannot-create-load-a-project.resources/error.svg) 子嗣</b>
+<b>![（錯誤）](../../assets/error.svg） 問題</b>
 
-建立或載入專案時的當機，通常是因為 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)初始化時出現錯誤，而這個錯誤發生在工作區設定過程中。
+建立或載入專案時的當機，通常是因為 3D 視圖](../../interface/3d-view/3d-view.md)初始化[時出現錯誤，而這個錯誤發生在工作區設定過程中。
 
 如果系統是筆記型電腦，第三方應用程式可能會強制執行 *電源管理計畫* ，阻止 3D View 使用系統的 GPU。 如果沒有其他 GPU 裝置能替代執行此任務，可能會導致當機。
 
 當 *顯示設定或縮放* 在不同工作階段間改變，導致 3D View 渲染幀在無效座標時也可能發生當機。
 
-<b>![（滴答）](cannot-create-load-a-project.resources/check.svg) 建議步驟</b>
+<b>![（打了](../../assets/check.svg） 推薦步驟</b>
 
 考量到這次當機可能的原因有多重，我們建議依序進行以下故障排除步驟：
 
 更新顯示卡驅動程式
 
-首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[&#128279;](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
+首先，確保顯示卡驅動程式是最新的。 你可以在這裡（NVIDIA）、[這裡](https://www.amd.com/en/support)（AMD）或[這裡](https://downloadcenter.intel.com/product/80939/Graphics-Drivers)（Intel）找到你GPU的[](https://www.nvidia.com/Download/index.aspx?lang=en-us)最新版本。
 
 力的最佳效能
 
