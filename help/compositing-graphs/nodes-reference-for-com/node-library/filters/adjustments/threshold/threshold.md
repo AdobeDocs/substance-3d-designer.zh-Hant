@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 說明
 
-若&#x200B;**&#x200B;輸入像素值相對於&#x200B;**閾值**&#x200B;的比較標準符合模式&#x200B;**參數設定，**&#x200B;則回傳白色。\
+若&#x200B;**&#x200B;輸入像素值相對於&#x200B;**&#x200B;閾值&#x200B;**&#x200B;的比較標準符合模式&#x200B;**&#x200B;參數設定，**&#x200B;則回傳白色。\
 類似 [直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)，但對比度始終維持在最大。 這是一種更精確且快速的方式，能獲得與直方圖掃描相似的結果。
 
 </td>
