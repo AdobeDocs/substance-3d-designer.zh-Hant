@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/rt-shadow.html"
 breadcrumb-title: ''
 description: 使用 RT Shadows 節點從幾何體中即時計算陰影資訊，以創造動態光影效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: RT 陰影
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![RT Shadows 節點圖示](../../../../../../assets/rt-shadow.png "RT Shadows 節點圖示")
+![RT Shadows 節點圖示](rt-shadow.resources/rt-shadow.png "RT Shadows 節點圖示")
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-01.jpg" />
+            <img src="rt-shadow.resources/RTShadows-01.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-02.jpg" />
+            <img src="rt-shadow.resources/RTShadows-02.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/RTShadows-03.jpg" />
+            <img src="rt-shadow.resources/RTShadows-03.jpg" />
         </td>
     </tr>
 </table>
