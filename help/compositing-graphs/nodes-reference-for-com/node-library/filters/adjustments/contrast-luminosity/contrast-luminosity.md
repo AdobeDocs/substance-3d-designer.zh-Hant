@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
 breadcrumb-title: ''
 description: 使用對比亮度節點調整對比度與亮度值，以控制亮度與對比範圍。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 對比亮度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 13%
@@ -24,9 +24,9 @@ ht-degree: 13%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/contrast-luminosity-color.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-color.png){width="128px"}
 
-![](../../../../../../assets/contrast-luminosity-grayscale.png){width="128px"}
+![](contrast-luminosity.resources/contrast-luminosity-grayscale.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -55,7 +55,7 @@ ht-degree: 13%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/contrastluminosity-optim.gif" />
+            <img src="contrast-luminosity.resources/contrastluminosity-optim.gif" />
         </td>
     </tr>
 </table>

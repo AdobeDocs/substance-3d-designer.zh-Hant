@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/apply-color-palette.html"
 breadcrumb-title: ''
 description: 使用 Apply Color Palette 節點，透過色彩調色盤重新映射材質，以產生風格化的色彩效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 套用色彩調色盤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 49bf753c2fa3d673b519b3ed87cc8bc82616bee6
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/ApplyColorPalette.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](apply-color-palette.resources/ApplyColorPalette.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -64,31 +64,31 @@ ht-degree: 1%
 
 ## 範例
 
-![套用色彩調色盤：範例 1](../../../../../../assets/apply_color_palette_example_2.png "套用色彩調色盤：範例 1"){zoomable="yes"}
+![套用色彩調色盤：範例 1](apply-color-palette.resources/apply_color_palette_example_2.png "套用色彩調色盤：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_before.jpg" alt="apply_color_palette_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_1_after.jpg" alt="apply_color_palette_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![套用色彩調色盤：範例 3](../../../../../../assets/apply_color_palette_example_4.png "套用色彩調色盤：範例 3"){zoomable="yes"}
+![套用色彩調色盤：範例 3](apply-color-palette.resources/apply_color_palette_example_4.png "套用色彩調色盤：範例 3"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_before.jpg" alt="apply_color_palette_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
+      <img src="apply-color-palette.resources/apply_color_palette_example_3_after.jpg" alt="apply_color_palette_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
