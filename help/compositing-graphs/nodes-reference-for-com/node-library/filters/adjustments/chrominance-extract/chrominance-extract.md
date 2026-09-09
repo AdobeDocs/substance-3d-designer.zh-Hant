@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/chrominance-extract.html"
 breadcrumb-title: ''
 description: 使用色度萃取節點從紋理中提取色度資訊，用於色彩分析與處理。
 helpx_creative_field: ""
