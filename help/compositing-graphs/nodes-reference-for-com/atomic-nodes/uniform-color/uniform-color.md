@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 制服顏色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：均勻顏色](../../../../assets/comp_uniform_1.png "原子節點：均勻顏色"){width="200px"}
+![原子節點：均勻顏色](uniform-color.resources/comp_uniform_1.png "原子節點：均勻顏色"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

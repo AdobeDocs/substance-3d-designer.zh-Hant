@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 轉換二維
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：轉換二維](../../../../assets/comp_transformation_1.png "原子節點：轉換二維"){width="200px"}
+![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 > 
 > 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法[&#128279;](../../../../glossary/glossary.md)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
-> ![](../../../../assets/tilingmode.png)
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 灰階量化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: fca95f162552b0e651c7b590588b69c2c5f5a0c4
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化灰階圖示 量化灰階圖示](../../../../../../assets/quantize-grayscale.png ""){width="200px"}
+![量化灰階圖示 量化灰階圖示](quantize-grayscale.resources/quantize-grayscale.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -52,6 +52,6 @@ ht-degree: 1%
 
 ## 範例
 
-![範例1](../../../../../../assets/quantizegrayscale.gif "範例1")
+![範例1](quantize-grayscale.resources/quantizegrayscale.gif "範例1")
 
-![範例2](../../../../../../assets/quantizegrayscale.png "範例2")
+![範例2](quantize-grayscale.resources/quantizegrayscale.png "範例2")

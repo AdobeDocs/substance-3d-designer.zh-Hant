@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖等化
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方圖均衡：圖示](../../../../../../assets/histogram_equalize.png "直方圖等化：圖示"){width="200px"}
+![直方圖均衡：圖示](histogram-equalize.resources/histogram_equalize.png "直方圖等化：圖示"){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -69,44 +69,44 @@ ht-degree: 2%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 1](../../../../../../assets/histogram_equalize_example_3.png "直方圖等化：範例 1"){zoomable="yes"}
+![直方圖等化：範例 1](histogram-equalize.resources/histogram_equalize_example_3.png "直方圖等化：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_before.jpg" alt="histogram_equalize_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_2_after.jpg" alt="histogram_equalize_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 2](../../../../../../assets/histogram_equalize_example_5.png "直方圖等化：範例 2"){zoomable="yes"}
+![直方圖等化：範例 2](histogram-equalize.resources/histogram_equalize_example_5.png "直方圖等化：範例 2"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_before.jpg" alt="histogram_equalize_example_4_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
+      <img src="histogram-equalize.resources/histogram_equalize_example_4_after.jpg" alt="histogram_equalize_example_4_after">
       <br><i>之後</i>
     </td>
   </tr>
 </table>
 
-![直方圖等化：範例 3](../../../../../../assets/histogram_equalize_example_6.png "直方圖等化：範例 3"){zoomable="yes"}
+![直方圖等化：範例 3](histogram-equalize.resources/histogram_equalize_example_6.png "直方圖等化：範例 3"){zoomable="yes"}

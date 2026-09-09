@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 技術問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Designer 包含直接回報當機和錯誤的功能。
 </td>
 <td style="border: 0;" valign="top">
 
-![當機報告對話框](technical-issues.resources/technical-issues-01.png "當機報告對話框"){zoomable="yes"}
+![當機報告對話框](../assets/crash-reporter-2.png "當機報告對話框"){zoomable="yes"}
 
 *點擊放大*
 
@@ -91,7 +91,7 @@ Designer 包含直接回報當機和錯誤的功能。
 </td>
 <td style="border: 0;" valign="top">
 
-![錯誤回報對話框](technical-issues.resources/technical-issues-02.png "錯誤回報對話框"){zoomable="yes"}
+![錯誤回報對話框](../assets/bug-reporter.png "錯誤回報對話框"){zoomable="yes"}
 
 *點擊放大*
 

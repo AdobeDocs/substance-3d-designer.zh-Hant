@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖掃描非均勻
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/histogram-scan-non-uniform.png){width="128px"}
+![](histogram-scan-non-uniform.resources/histogram-scan-non-uniform.png){width="128px"}
 
 <b>收錄於：</b> 篩選>調整
 

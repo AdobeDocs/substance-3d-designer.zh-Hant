@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 16.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *發行日期：2026年4月14日*
 
-<img src="./version-16-0.resources/version-16-0-01.jpg" alt="Substance 3D Designer 16.0 版橫幅" style="margin-top: 32px; margin-bottom: 32px">
+<img src="./version-16-0.resources/version-16-0-banner.jpg" alt="Substance 3D Designer 16.0 版橫幅" style="margin-top: 32px; margin-bottom: 32px">
 
 <a name="shape-splatter-v2-nodes"></a>
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-02.gif" alt="形狀濺射 v2：泊松分布" /><br><i>泊松分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-poisson.gif" alt="形狀濺射 v2：泊松分布" /><br><i>泊松分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-03.gif" alt="形狀濺射 v2：均勻分布" /><br><i>均勻分布</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-distribution-uniform.gif" alt="形狀濺射 v2：均勻分布" /><br><i>均勻分布</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-04.gif" alt="密度地圖" /><br><i>形狀濺射 v2：密度地圖</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-density-map.gif" alt="密度地圖" /><br><i>形狀濺射 v2：密度地圖</i>
         </td>
     </tr>
 </table>
@@ -60,13 +60,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-05.gif" alt="形狀濺射 v2：隨機 3D 旋轉" /><br><i>隨機三維旋轉</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-3d-rotation.gif" alt="形狀濺射 v2：隨機 3D 旋轉" /><br><i>隨機三維旋轉</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-07.gif" alt="形狀濺射 v2：形狀擠出" /><br><i>形狀擠出</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-shape-extrusion.gif" alt="形狀濺射 v2：形狀擠出" /><br><i>形狀擠出</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-08.jpg" alt="形狀濺射 v2：3D SDF 形狀" /><br><i>3D SDF 形狀</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.resources/shape-splatter-v2-sdf.jpg" alt="形狀濺射 v2：3D SDF 形狀" /><br><i>3D SDF 形狀</i>
         </td>
     </tr>
 </table>
@@ -83,13 +83,13 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px; border: none">
     <tr style="border: 0">
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-05.gif" alt="Shape splatter v2 色彩映射器：三平面映射" /><br><i>三平面映射</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-tiling.gif" alt="Shape splatter v2 色彩映射器：三平面映射" /><br><i>三平面映射</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-03.gif" alt="形狀濺射 v2 色彩貼圖器：法線貼圖" /><br><i>法線映射</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-normal.gif" alt="形狀濺射 v2 色彩貼圖器：法線貼圖" /><br><i>法線映射</i>
         </td>
         <td style="width: 33%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-04.jpg" alt="形狀濺射 v2 色彩貼圖器：從 SDF 形狀中，依材質 ID 映射" /><br><i>從 SDF 形狀中依材質 ID 映射</i>
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2-mapper-color/shape-splatter-v2-mapper-color.resources/shape-splatter-v2-mapper-color-matID-02.jpg" alt="形狀濺射 v2 色彩貼圖器：從 SDF 形狀中，依材質 ID 映射" /><br><i>從 SDF 形狀中依材質 ID 映射</i>
         </td>
     </tr>
 </table>
@@ -102,7 +102,7 @@ ht-degree: 0%
             <p>自訂圖案可以單獨提供給 Shape splatter v2 節點，或打包在格子圖集中，以實現更精簡且更有效率的工作流程。</p><p>由於新增了網 <a href="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.md">格圖集</a> 節點，打包模式變得更簡單。</p>
         </td>
         <td style="text-align: right; width: 33%; margin-left: 32px; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-02.png" alt="格子圖集色彩節點" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/grid-atlas-color/grid-atlas-color.resources/grid-atlas-color-graph.png" alt="格子圖集色彩節點" />
         </td>
     </tr>
 </table>
@@ -117,7 +117,7 @@ ht-degree: 0%
             <p><b>Rusty bolts</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材質範例</a>可供跳躍 Shape splatter v2 系列節點及其功能。</p><p>圖表有組織並註解，引導你了解結構、節點設定與技巧。</p><p>它也 <i>完全可</i> 編輯，可以作為沙盒，讓你更實際地了解 Shape splatter v2 工具組。 你可以製作任意多的範例圖表，歡迎隨意嘗試！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-20.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
         </td>
     </tr>
 </table>
@@ -130,7 +130,7 @@ ht-degree: 0%
             <p>Designer 16.0 新增了一種強大的方法，利用龐大的節點目錄來產生功能圖中的三維形狀，以撰寫 SDF 函數。</p><p>有符號距離場是將空間表示為數學上定義的曲面距離。 隨著這些曲面被轉換並結合各種運算符，它們可用來定義越來越複雜的形狀。</p>
         </td>
         <td style="text-align: right; width: 25%; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-02.gif" alt="使用 SDF 函數建構形狀" />
+            <img src="./version-16-0.resources/version-16-0-SDFFunctionsBreakdown.gif" alt="使用 SDF 函數建構形狀" />
         </td>
     </tr>
 </table>
@@ -148,7 +148,7 @@ SDF 函數包含一 [組新的節點](../../function-graphs/nodes-reference-for-
 > 
 > 請前往 [「與 SDF 功能](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) 合作」頁面，開始操作這些節點。
 
-<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-01.gif" alt="SDF 功能節點" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 功能節點" />
 
 輕量化節點搭配清晰易讀的圖示，讓打造 3D SDF 函式比你想像中還要容易，尤其是這個工具組的新成員......
 
@@ -161,24 +161,24 @@ SDF 函數包含一 [組新的節點](../../function-graphs/nodes-reference-for-
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="width: 50%; border: 0">
         <td style="text-align: center; width: 50%; border: 0; padding: 15px">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-02.jpg" alt="範例一" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-01.jpg" alt="範例一" />
         </td>
         <td style="width: 50%; border: 0; padding: 0">
             <table>
                 <tr style="vertical-align: top; border: 0">
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-03.jpg" alt="範例一" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02a.jpg" alt="範例一" />
                     </td>
                     <td style="text-align: center; border: 0">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-04.jpg" alt="範例二" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02b.jpg" alt="範例二" />
                     </td>
                 </tr>
                 <tr style="vertical-align: top; border: 0; background: transparent">
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-05.jpg" alt="範例3" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02c.jpg" alt="範例3" />
                     </td>
                     <td style="text-align: center; border: 0; background: transparent">
-                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-06.jpg" alt="範例4" />
+                        <img src="../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.resources/3d-viewer-example-02d.jpg" alt="範例4" />
                     </td>
                 </tr>
             </table>
@@ -193,17 +193,17 @@ SDF 函數包含一 [組新的節點](../../function-graphs/nodes-reference-for-
 
 此材質模型現已支援整個應用程式，並在我們的新渲染器（Rasterizer、GPU Pathtracer）及 OpenGL 渲染器中均 [配備專用著色器](../../interface/3d-view/material-properties/material-properties.md#openpbr) 。
 
-<img style="display: block; margin: auto" src="./version-16-0.resources/version-16-0-03.gif" alt="Substance 3D Designer 中的 OpenPBR 支援及與其他 DCC 的比較" />
+<img style="display: block; margin: auto" src="./version-16-0.resources/OpenPBRShort.gif" alt="Substance 3D Designer 中的 OpenPBR 支援及與其他 DCC 的比較" />
 
 開始使用這個廣泛採用的產業標準，搭配新的圖表範本，或是瀏覽基於 OpenPBR 的內建材料範例。
 
 <table style="border: none; margin-top: 32px; margin-bottom: 32px">
     <tr style="vertical-align: top; border: 0">
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-04.png" alt="OpenPBR 範本" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-01.png" alt="OpenPBR 範本" />
         </td>
         <td style="text-align: center; border: 0">
-            <img src="./version-16-0.resources/version-16-0-05.png" alt="OpenPBR 材料範例" />
+            <img src="./version-16-0.resources/version-16-0-openpbr-02.png" alt="OpenPBR 材料範例" />
         </td>
     </tr>
 </table>
@@ -217,7 +217,7 @@ OpenPBR 著色器支援的效果比現有著色器更多，例如薄膜和薄牆
         <td style="border: 0">同時，透過新增 <a href="../../compositing-graphs/graph-parameters/graph-parameters.md#attributes">Substance 圖形的「Material model」屬性</a> ，確保在 3D 視圖中觀看的圖形使用適合該圖材質模型的著色器，也更容易讓特定著色器的工作流程保持同步。
         </td>
         <td style="text-align: right; margin-left: 32px; border: 0">
-            <img src="./version-16-0.resources/version-16-0-06.png" alt="OpenPBR 材料範例" />
+            <img src="./version-16-0.resources/version-16-0-materialModel.png" alt="OpenPBR 材料範例" />
         </td>
     </tr>
 </table>
@@ -236,7 +236,7 @@ OpenPBR 著色器支援的效果比現有著色器更多，例如薄膜和薄牆
 
 這些控制項同時適用於我們的新渲染器（Rasterizer、GPU Pathtracer）以及 OpenGL 渲染器。
 
-<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/displacement-01.gif" alt="3D 視圖中的位移彈出視窗" />
+<img style="display: block; margin: auto" src="../../interface/3d-view/displacement/displacement.resources/3d-view-displacement-popup-mograph.gif" alt="3D 視圖中的位移彈出視窗" />
 
 如果場景包含多個材質，請按住 <code>Shift 鍵先選擇你想調整的場景物件</code> 點擊它（僅限光柵器與 GPU Pathtracer）或在場景瀏覽器中選擇。
 
@@ -256,7 +256,7 @@ OpenPBR 著色器支援的效果比現有著色器更多，例如薄膜和薄牆
             <p>為了更方便存取 Substance 圖中的常數值，<a href="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md"></a>新增節點以產生每種類型的簡單值。</p><p>你可以在 <b>函式庫的值&gt;常數</b> 區找到所有這些資料。</p>
         </td>
         <td style="width: 60%; border: 0">
-            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constant-02.png" alt="常數「浮點」節點" />
+            <img src="../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.resources/constants-float-01.png" alt="常數「浮點」節點" />
         </td>
     </tr>
 </table>

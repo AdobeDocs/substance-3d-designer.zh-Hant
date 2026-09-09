@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 無法 createload 專案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 21af965a075e8c119d16922f15b867da99c21397
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ## 應用程式太舊，無法開啟 URL
 
-**![（錯誤）](cannot-create-load-a-project.resources/error.svg) 子嗣**
+**![（錯誤）](../../assets/error.svg) 子嗣**
 
 **Substance 3D 檔案（SBS）**&#x200B;是由不支援其格式&#x200B;*的 Substance 3D Designer*&#x200B;版本載入。Substance 3D 檔案很可能 *是儲存在較新版本的軟體中，該版本* 使用更新格式來處理這些檔案。
 
-**![（滴答）](cannot-create-load-a-project.resources/check.svg) 建議步驟**
+**![（滴答）](../../assets/check.svg) 建議步驟**
 
 隨著 Substance 3D Designer 的演進，Substance 3D 檔案格式（SBS）也在演進。 通常，新版本的軟體需要 *更新你的檔案* ，才能支援最新功能。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 首先，確認你使用的是最新版本的 Substance 3D Designer，這是你目前授權的授權。 以下是各版本更新的存取點：
 
 * <b>Adobe Substance 3D 訂閱：</b>請前往 Adobe Creative Cloud 桌面[&#128279;](https://creativecloud.adobe.com/en/apps/download/creative-cloud)應用程式應用程式中應用程式標籤的更新區塊
-* <b>[Substance3d.com](http://Substance3d.com) 訂閱：</b>在 Substance 3D Designer 中按需更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權[&#128279;](https://store.substance3d.com/user)」區下載最新安裝程式
+* <b>[Substance3d.com]（http://Substance3d.com） 訂閱：</b>在 Substance 3D Designer 中提示時更新，或在 [Substance3d.com](http://substance3d.com) 網站的「我的授權[&#128279;](https://store.substance3d.com/user)」區下載最新安裝程式
 * <b>Steam：</b> 應用程式會預設自動更新。 你可以手動啟動 Substance 3D Designer，或進入下載頁面來觸發更新
 
 >[!WARNING]
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 建立或載入專案時會當機
 
-<b>![（錯誤）](cannot-create-load-a-project.resources/error.svg) 子嗣</b>
+<b>![（錯誤）](../../assets/error.svg) 問題</b>
 
 建立或載入專案時的當機，通常是因為 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)初始化時出現錯誤，而這個錯誤發生在工作區設定過程中。
 
@@ -62,7 +62,7 @@ ht-degree: 0%
 
 當 *顯示設定或縮放* 在不同工作階段間改變，導致 3D View 渲染幀在無效座標時也可能發生當機。
 
-<b>![（滴答）](cannot-create-load-a-project.resources/check.svg) 建議步驟</b>
+<b>![（打了](../../assets/check.svg) 推薦步驟</b>
 
 考量到這次當機可能的原因有多重，我們建議依序進行以下故障排除步驟：
 

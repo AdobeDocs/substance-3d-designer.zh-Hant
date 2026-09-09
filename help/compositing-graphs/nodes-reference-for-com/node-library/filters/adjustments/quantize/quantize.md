@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 量化色彩（簡單）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 7f15827b198bfbc133601581dc54ed894e98d89d
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![量化色彩圖示量化色彩圖示](../../../../../../assets/quantize.png ""){width="200px"}
+![量化色彩圖示量化色彩圖示](quantize.resources/quantize.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 

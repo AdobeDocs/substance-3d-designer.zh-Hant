@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 反應擴散快處理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 2ea5b90ca7a4cbcd0b0049b156e8ded334aa0ceb
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![反應擴散節點圖示](../../../../../../assets/reaction-diffusion.png "反應擴散節點圖示")
+![反應擴散節點圖示](reaction-diffusion-fast.resources/reaction-diffusion.png "反應擴散節點圖示")
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -74,17 +74,17 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![範例1](../../../../../../assets/reactdiff03.png "範例1")
+![範例1](reaction-diffusion-fast.resources/reactdiff03.png "範例1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![範例2](../../../../../../assets/reactdiff02.png "範例2")
+![範例2](reaction-diffusion-fast.resources/reactdiff02.png "範例2")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![範例3](../../../../../../assets/reactdiff01.gif "範例3")
+![範例3](reaction-diffusion-fast.resources/reactdiff01.gif "範例3")
 
 </td>
 </tr>

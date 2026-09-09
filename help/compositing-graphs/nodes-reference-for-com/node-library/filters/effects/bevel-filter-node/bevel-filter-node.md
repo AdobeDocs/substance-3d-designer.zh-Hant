@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 斜角（濾波節點）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 132a27ad47b0272a877b913eaa7957ccf8b549fd
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bevel.png){width="128px"}
+![](bevel-filter-node.resources/bevel.png){width="128px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -69,7 +69,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/bevel-example.png" />
+            <img src="bevel-filter-node.resources/bevel-example.png" />
         </td>
     </tr>
 </table>

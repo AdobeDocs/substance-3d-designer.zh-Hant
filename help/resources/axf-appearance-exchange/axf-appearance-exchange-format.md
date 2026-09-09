@@ -10,7 +10,7 @@ helpx_tags: ""
 title: AxF（外觀交換格式）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-[![AxF 檔案圖示](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-01.png)](https://www.xrite.com/axf)
+[![AxF 檔案圖示](../../assets/axf-file-icon.png)](https://www.xrite.com/axf)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -64,7 +64,7 @@ AxF 檔案匯入工作流程可從以下兩種方法之一開始：
 
 點擊<b>主畫面[&#128279;](../../interface/home-screen/home-screen.md)左側的「匯入 AxF...</b>」按鈕。
 
-![AxF：從主畫面](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-02.png "開始匯入 AxF：從主畫面開始匯入"){width="600px"}
+![AxF：從主畫面](../../assets/axf_home-screen.png "開始匯入 AxF：從主畫面開始匯入"){width="600px"}
 
 +++
 
@@ -72,7 +72,7 @@ AxF 檔案匯入工作流程可從以下兩種方法之一開始：
 
 在檔案總管中[點選套件的 RMB，然後在套件的情境選單中選擇<b>匯入 AxF</b>](../../interface/the-explorer-window/the-explorer-window.md) >。
 
-![AxF：從 Explorer](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-03.png "開始匯入 AxF：從 Explorer 開始匯入"){width="600px"}
+![AxF：從 Explorer](../../assets/axf_explorer.png "開始匯入 AxF：從 Explorer 開始匯入"){width="600px"}
 
 +++
 
@@ -90,7 +90,7 @@ AxF 檔案匯入工作流程可從以下兩種方法之一開始：
 
 <b>元資料</b> 與 <b>屬性</b> 列出從 AxF 檔案中素材擷取的資料。 這些會影響某些 Substance 圖範本屬性的設定方式（詳見 [下方圖範本](#graph-templates) 章節）。
 
-![AxF：匯入對話框](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-04.png "AxF：匯入對話框")
+![AxF：匯入對話框](../../assets/axf_import.png "AxF：匯入對話框")
 
 ### 結果
 
@@ -110,7 +110,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：匯入流程](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-05.png "的套件結果 AxF：匯入流程的套件結果")
+![AxF：匯入流程](../../assets/axf_package.png "的套件結果 AxF：匯入流程的套件結果")
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：在匯入對話框](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-06.png "中新增範本 AxF：在匯入對話框中新增範本")
+![AxF：在匯入對話框](../../assets/axf_add-template.png "中新增範本 AxF：在匯入對話框中新增範本")
 
 </td>
 </tr>
@@ -151,7 +151,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：物質圖範本](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-07.png "AxF：物質圖範本")
+![AxF：物質圖範本](../../assets/axf-templates.png "AxF：物質圖範本")
 
 </td>
 </tr>
@@ -186,7 +186,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 </td>
 <td style="border: 0;" valign="top">
 
-![AxF：物質圖參數](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-08.png "AxF：物質圖參數")
+![AxF：物質圖參數](../../assets/axf_graph-props.png "AxF：物質圖參數")
 
 </td>
 </tr>
@@ -209,7 +209,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 >
 > 檔案中資源的變更會被新增為 *一層*。 這表示每次從 Designer 匯出到同一個 AxF 檔案時，該檔案的大小都會增加。
 
-![出口 AxF](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-09.gif)
+![出口 AxF](../../assets/exportaxf.gif)
 
 <table>
 <tr style="border: 0;">
@@ -219,12 +219,12 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 <b>AxF</b> 匯出對話框作為專用分頁可在<b>匯出輸出</b>對話框中使用。
 
-在[圖表檢視](../../interface/the-graph-view/the-graph-view.md)工具列中，開啟<b>![](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-10.jpg)工具</b>選單，選擇<b>「匯出輸出...</b>」選項以顯示對話框，然後選擇 <b>AxF</b> 標籤。
+在[圖表檢視](../../interface/the-graph-view/the-graph-view.md)工具列中，開啟<b>![](../../assets/tools.jpg)工具</b>選單，選擇<b>「匯出輸出...</b>」選項以顯示對話框，然後選擇 <b>AxF</b> 標籤。
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![AxF：圖表檢視工具列](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-11.png "中的匯出選項 AxF：圖表檢視工具列中的匯出選項")
+![AxF：圖表檢視工具列](../../assets/axf_graph-export.png "中的匯出選項 AxF：圖表檢視工具列中的匯出選項")
 
 </td>
 </tr>
@@ -242,7 +242,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 >
 > 圖形輸出必須將其 <b>Group</b> 屬性設為 &#39;AxF&#39;，才能在此對話框中列出。
 
-![AxF：匯出對話框](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-12.png "AxF：匯出對話框")
+![AxF：匯出對話框](../../assets/axf_export.png "AxF：匯出對話框")
 
 點擊 <b>「開始匯出 </b>」以編輯目標 AxF 檔案，新增包含映射輸出變更的圖層。
 
@@ -258,7 +258,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 此外，輸出的 <b>群組</b> 屬性 *必須* 設為「AxF」，才能在 AxF 匯出對話框中列出（見上文）。
 
-![AxF：物質圖的輸出使用](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-13.png "情況 AxF：物質圖的輸出使用情況")
+![AxF：物質圖的輸出使用](../../assets/axf_output_usage.png "情況 AxF：物質圖的輸出使用情況")
 
 資源可以是具有特定通道數量的貼圖（例如點陣圖）或統一圖（即數值）。 圖的輸出必須完全符合該頻道數量。 若非如此，匯出時該資源會產生錯誤，且該資源將保持不變。
 
@@ -285,7 +285,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 那你應該在 3D View 中使用 **OpenGL 渲染器** ，並選擇 <code>AxF SVBRF</code> 著色器。\
 接著，你可以拖放你在匯入對話框中設定的 Substance 圖，將其輸出連接到著色器。
 
-![AxF：觀賞轉化](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-14.gif "AxF：觀賞轉化")
+![AxF：觀賞轉化](../../assets/axf-view-for-convert.gif "AxF：觀賞轉化")
 
 +++
 
@@ -302,7 +302,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中視覺化其輸出。
 
-![AxF： SVBRDF GLSLFX 著色器](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-15.png "AxF： SVBRDF GLSLFX 著色器"){width="600px"}
+![AxF： SVBRDF GLSLFX 著色器](../../assets/axf_glslfx-svbrdf.png "AxF： SVBRDF GLSLFX 著色器"){width="600px"}
 
 這個著色器目前 *仍在開發* 中，有些功能仍未被支援。 因此，雖然它能提供材料特性的概覽，但不應用於細微調整。
 
@@ -311,7 +311,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中視覺化其輸出。
 
-![AxF：版本觀看](axf-appearance-exchange-format.resources/axf-appearance-exchange-format-16.gif "AxF：版本觀看")
+![AxF：版本觀看](../../assets/axf-view-for-edit.gif "AxF：版本觀看")
 <i>注意：</i> 請忽略從切換到 Iray 渲染器的影片部分，直到最後，因為 Iray 渲染器和 MDL 支援在 Designer 16.0.0 版本中已被 <i>移除</i> 。
 
 +++

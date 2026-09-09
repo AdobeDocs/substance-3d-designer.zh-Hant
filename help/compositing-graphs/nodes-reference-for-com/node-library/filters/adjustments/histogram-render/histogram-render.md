@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖渲染
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![各向異性桑原灰階圖示 各向異性桑原灰階圖示](../../../../../../assets/histogram_render.png ""){width="200px"}
+![各向異性桑原灰階圖示 各向異性桑原灰階圖示](histogram-render.resources/histogram_render.png ""){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -69,6 +69,6 @@ ht-degree: 1%
 
 ## 範例
 
-![直方圖渲染：範例 1](../../../../../../assets/histogram_render_example_1.png "直方圖渲染：範例 1"){zoomable="yes"}
+![直方圖渲染：範例 1](histogram-render.resources/histogram_render_example_1.png "直方圖渲染：範例 1"){zoomable="yes"}
 
-![直方圖渲染：範例 2](../../../../../../assets/histogram_render_example_2.png "直方圖渲染：範例 2"){zoomable="yes"}
+![直方圖渲染：範例 2](histogram-render.resources/histogram_render_example_2.png "直方圖渲染：範例 2"){zoomable="yes"}

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 14.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 2e92fd4d2b50ba675396d016e31e4a60d338711b
+source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
 workflow-type: tm+mt
 source-wordcount: '1626'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 *發行日期：2024年7月30日*
 
-![](version-14-0.resources/version-14-0-01.png)
+![](../../assets/2024-BannerRN.png)
 
 ## 新內容
 
@@ -32,9 +32,9 @@ ht-degree: 0%
 
 * <b>專用於色彩操作的節點：</b>一個節點<b>（</b>[量化顏色](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/quantize-color/quantize-color.md)<b>） </b><b> </b>減少圖片中的顏色數量，並從中提取調色盤，這是一系列工具節點，用來建立你自己的調色盤（[檢視](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/view-color-palette/view-color-palette.md) / [建立](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/create-color-palette-16/create-color-palette-16.md) / [修改](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/modify-color-palette/modify-color-palette.md)<b> </b>另一個用來使用 ID 映射[（套用色彩調色盤](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/apply-color-palette/apply-color-palette.md)）套用到另一張影像。 你也會找到 [ID to mask 灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/id-to-mask/id-to-mask.md) 節點，將 ID 映射（由 Quantize color 計算）轉換成灰階遮罩。 有了這整套節點，你就擁有用顏色創造風格化效果所需的一切。
 
-![](version-14-0.resources/version-14-0-02.gif){zoomable="yes"}
+![](../../assets/GIF2_2.gif){zoomable="yes"}
 
-![量化色彩 2](version-14-0.resources/version-14-0-03.gif){zoomable="yes"}
+![量化色彩 2](../../assets/GIF3_2.gif){zoomable="yes"}
 
 * <b>桑原濾鏡</b>：如果你想更進一步的風格化，可以透過各向異性桑原色彩[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara/anisotropic-kuwahara.md)/[灰階](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/anisotropic-kuwahara-gra/anisotropic-kuwahara-grayscale.md)濾鏡產生一些繪畫般的效果。在細節上，它會套用各向異性方向模糊，以符合影像細節。 結果是影像似乎沿著內部形狀的方向流動。
 
@@ -56,11 +56,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-04.jpg" alt="curvature_smooth_example_1_before">
+      <img src="../../assets/curvature_smooth_example_1_before.jpg" alt="curvature_smooth_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-05.jpg" alt="curvature_smooth_example_1_after">
+      <img src="../../assets/curvature_smooth_example_1_after.jpg" alt="curvature_smooth_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -74,11 +74,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-06.jpg" alt="histogram_equalize_example_1_before">
+      <img src="../../assets/histogram_equalize_example_1_before.jpg" alt="histogram_equalize_example_1_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-07.jpg" alt="histogram_equalize_example_1_after">
+      <img src="../../assets/histogram_equalize_example_1_after.jpg" alt="histogram_equalize_example_1_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -97,11 +97,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-08.jpg" alt="bevel_smooth_example_6_before">
+      <img src="../../assets/bevel_smooth_example_6_before.jpg" alt="bevel_smooth_example_6_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-09.jpg" alt="bevel_smooth_example_6_after">
+      <img src="../../assets/bevel_smooth_example_6_after.jpg" alt="bevel_smooth_example_6_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -115,11 +115,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="version-14-0.resources/version-14-0-10.jpg" alt="normal_uncombine_example_3_before">
+      <img src="../../assets/normal_uncombine_example_3_before.jpg" alt="normal_uncombine_example_3_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="version-14-0.resources/version-14-0-11.jpg" alt="normal_uncombine_example_3_after">
+      <img src="../../assets/normal_uncombine_example_3_after.jpg" alt="normal_uncombine_example_3_after">
       <br><i>之後</i>
     </td>
   </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 * <b>2D 視圖：</b>當 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)啟用平板顯示時，你現在甚至可以取得原本圖塊上不存在的像素值：檢查[取樣](../../glossary/glossary.md)和跨圖塊的值轉換非常有幫助。
 
-![二維視角](version-14-0.resources/version-14-0-12.gif){width="320px" zoomable="yes"}
+![二維視角](../../assets/2dview.gif){width="320px" zoomable="yes"}
 
 * <b>漸層地圖</b>：用滑鼠中鍵點擊將所有 [漸層鍵](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md) 向左或向右移動（這樣就能保留所有鍵之間的空隙）。
 * <b>參數</b>：為了透過參數注入自訂函式，現在可以使用編輯函數小工具。 這是一個強大的解決方案，可以用來建立自訂工具，讓你想用 [Substance 函數圖](../../function-graphs/the-function-graph/the-function-graph.md)來驅動參數。
@@ -146,12 +146,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![編輯功能](version-14-0.resources/version-14-0-13.png){zoomable="yes"}
+![編輯功能](../../assets/functionedit.png){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![編輯函數 2](version-14-0.resources/version-14-0-14.png){zoomable="yes"}
+![編輯函數 2](../../assets/functionedit2.png){zoomable="yes"}
 
 </td>
 </tr>

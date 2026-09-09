@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 法向量旋轉
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: f792519db40504d7bb888acf0dc418c6ebfd688a
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/normal-vector-rotation.png){width="128px"}
+![](normal-vector-rotation.resources/normal-vector-rotation.png){width="128px"}
 
 <b>收錄於：</b> 法線貼圖>濾波器
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均勻模糊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: f25074f2fc4bb66ad781ad2510fdf43ba8aaae69
+source-git-commit: 5efb14d81ad72b1982785319e446d7eb318c9a03
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 8%
@@ -24,9 +24,9 @@ ht-degree: 8%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/non-uniform-blur-grayscale.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur-grayscale.png){width="128px"}
 
-![](../../../../../../assets/non-uniform-blur.png){width="128px"}
+![](non-uniform-blur.resources/non-uniform-blur.png){width="128px"}
 
 <b>收錄於：</b> 模糊>濾鏡
 
@@ -67,7 +67,7 @@ ht-degree: 8%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniform-example.gif" /><br><i>下方範例是由模糊貼圖槽中90度的梯度斜坡驅動。</i>
+            <img src="non-uniform-blur.resources/nonuniform-example.gif" /><br><i>下方範例是由模糊貼圖槽中90度的梯度斜坡驅動。</i>
         </td>
     </tr>
 </table>
