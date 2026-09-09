@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 距離
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：距離](../../../../assets/comp_distance_1.png "原子節點：距離"){width="200px"}
+![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -87,7 +87,7 @@ ht-degree: 1%
 | <b>彩色模式</b> *布林值* | 在灰階和彩色輸出影像之間切換。 也會改變「來源輸入」的輸入類型。 |
 | <b>最大距離</b> *浮標* | 調整遮罩中偵測最近邊界的最大距離（像素數）。 |
 | <b>結合來源/距離</b> *布林值* | 判斷可選的「來源輸入」如何與最終單元結合。<ul data-preserve-html="true"> <li data-preserve-html="true"><i>結合：</i> 將「來源輸入」值與漸入微弱的線性遮罩結合。 若「來源輸入」輸入已連接，則其值與計算出的距離結合。</li> <li data-preserve-html="true"><i>僅有來源：</i> 僅從「來源輸入」輸出純色。</li> </ul> |
-| <b>距離模式</b> *整數* | 選擇計算擷取遮罩中最近邊界距離的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>歐幾里得：</i> X/Y差的平方總和。</li> <li data-preserve-html="true"><i>曼哈頓：</i> X/Y 差異的絕對值總和。</li> <li data-preserve-html="true"><i>切比雪夫：</i> X/Y 差異的絕對值最大值。</li> </ul>  <div><img alt="距離模式範例" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="../../../../assets/distance-comparison.jpg" title="距離模式範例"/></div> |
+| <b>距離模式</b> *整數* | 選擇計算擷取遮罩中最近邊界距離的方法：<ul data-preserve-html="true"> <li data-preserve-html="true"><i>歐幾里得：</i> X/Y差的平方總和。</li> <li data-preserve-html="true"><i>曼哈頓：</i> X/Y 差異的絕對值總和。</li> <li data-preserve-html="true"><i>切比雪夫：</i> X/Y 差異的絕對值最大值。</li> </ul>  <div><img alt="距離模式範例" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_table_copy_copy_copy_row-yj03rtt-column-0i13nfd_image" src="distance.resources/distance-comparison.jpg" title="距離模式範例"/></div> |
 
 ## 輸入連接器
 
@@ -108,17 +108,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif){width="250px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif){width="250px"}
 
 </td>
 </tr>

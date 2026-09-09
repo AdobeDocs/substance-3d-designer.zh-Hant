@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 輸入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -24,17 +24,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入顏色](../../../../assets/comp_inputcolor_1.png "原子節點：輸入顏色"){width="200px"}
+![原子節點：輸入顏色](input.resources/comp_inputcolor_1.png "原子節點：輸入顏色"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入灰階](../../../../assets/comp_inputgrayscale_1.png "原子節點：輸入灰階"){width="200px"}
+![原子節點：輸入灰階](input.resources/comp_inputgrayscale_1.png "原子節點：輸入灰階"){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![原子節點：輸入值](../../../../assets/comp_inputnumeric_1.png "原子節點：輸入值"){width="200px"}
+![原子節點：輸入值](input.resources/comp_inputnumeric_1.png "原子節點：輸入值"){width="200px"}
 
 </td>
 </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-[![Substance 圖中的主要輸入](../../../../assets/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+[![Substance 圖中的主要輸入](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
 
 </td>
 </tr>

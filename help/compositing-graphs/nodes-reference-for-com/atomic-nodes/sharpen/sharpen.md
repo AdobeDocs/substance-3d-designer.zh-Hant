@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 磨利
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![銳利節點圖示 銳化節點圖示](../../../../assets/sharpen-4.png "")
+![銳利節點圖示 銳化節點圖示](sharpen.resources/sharpen-4.png "")
 
 <b>收錄於：</b> 原子節點
 
@@ -56,4 +56,4 @@ ht-degree: 2%
 
 ## 範例
 
-![銳化節點 - 範例 1](../../../../assets/sharpen-ex.png "銳化節點 - 範例 1")
+![銳化節點 - 範例 1](sharpen.resources/sharpen-ex.png "銳化節點 - 範例 1")

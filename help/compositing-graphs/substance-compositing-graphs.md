@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 物質圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](substance-compositing-graphs.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 以下是一些常見的使用案例範例。
 
 +++簡單的形狀
-![Substance 圖中的簡單形狀 Substance 圖](../assets/simpleshape.png "中的簡單"){width="512px"}
+![Substance 圖中的簡單形狀 Substance 圖](substance-compositing-graphs.resources/simpleshape.png "中的簡單"){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 +++
 
 +++調整濾波器
-![Substance 圖](../assets/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
+![Substance 圖](substance-compositing-graphs.resources/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
 
 
 
@@ -66,7 +66,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 +++
 
 +++完整內容
-![Substance 圖表](../assets/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
+![Substance 圖表](substance-compositing-graphs.resources/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
 
 
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 烘焙師
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -35,13 +35,13 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![3D 場景資源情境選單中的「烘焙模式資訊」選項 3D 場景資源情境選](../assets/sd-mesh-right-click.png "單中的「烘焙模式資訊」選項")
+![3D 場景資源情境選單中的「烘焙模式資訊」選項 3D 場景資源情境選](bakers.resources/sd-mesh-right-click.png "單中的「烘焙模式資訊」選項")
 
 </td>
 </tr>
 </table>
 
-![烘焙窗口](../assets/sd-window-overview.png "烘焙窗口")
+![烘焙窗口](bakers.resources/sd-window-overview.png "烘焙窗口")
 
 ## 概觀
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-mesh-selection.png)
+![](bakers.resources/sd-mesh-selection.png)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../assets/sd-output.png)
+![](bakers.resources/sd-output.png)
 
 </td>
 </tr>
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 這個面板控制高多邊形網格列表及相關設定。 更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
 
-![高解析度網格](../assets/sd-high.png "高解析度網格")
+![高解析度網格](bakers.resources/sd-high.png "高解析度網格")
 
 ### 預設值
 
 更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
 
-![預設值](../assets/sd-default-values.png "預設值")
+![預設值](bakers.resources/sd-default-values.png "預設值")
 
 ### Baker 渲染清單與設定
 
@@ -118,4 +118,4 @@ ht-degree: 0%
 
 欲了解更多具體參數，請參閱： [Bakers 設定](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
 
-![Bakers 渲染列表](../assets/sd-baker-list.png "Bakers 渲染列表")
+![Bakers 渲染列表](bakers.resources/sd-baker-list.png "Bakers 渲染列表")

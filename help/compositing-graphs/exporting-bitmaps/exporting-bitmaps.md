@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 匯出點陣圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明 Substance 3D Designer 如何匯出至多種不同的點陣圖檔案格式，以及如何將多個 UV-Tile 分批匯出。如果你想匯 [出成 PSD 檔案](../exporting-psd-files/exporting-psd-files.md)，有專門的頁面。
 
-![簡化](../../assets/exportflow.png "出口 簡化匯出")
+![簡化](exporting-bitmaps.resources/exportflow.png "出口 簡化匯出")
 
 ## 概念匯出
 
@@ -43,14 +43,14 @@ ht-degree: 0%
 
 在 [檔案總管](../../interface/the-explorer-window/the-explorer-window.md) 視窗中，右鍵點擊匯出圖，並選擇 **「匯出輸出為點陣圖」**
 
-![](../../assets/export-explorer.gif)
+![](exporting-bitmaps.resources/export-explorer.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-在 [圖表檢視](../../interface/the-graph-view/the-graph-view.md)中，點擊工具按鈕 ![](../../assets/image2019-9-17-14-44-17.png) 並選擇 **「匯出輸出...」**
+在 [圖表檢視](../../interface/the-graph-view/the-graph-view.md)中，點擊工具按鈕 ![](exporting-bitmaps.resources/image2019-9-17-14-44-17.png) 並選擇 **「匯出輸出...」**
 
-![](../../assets/export-graph.gif)
+![](exporting-bitmaps.resources/export-graph.gif)
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ ht-degree: 0%
 1. <b>自動匯出：</b> 切換按鈕可啟用圖表輸出的自動重新匯出，只要有變更。 只針對目前的圖表。 根據設定，可能會很重且很慢。
 1. <b>匯出按鈕：</b> 匯出時使用目前設定，或關閉對話框。
 
-![匯出輸出對話框](../../assets/fromgraph-1.png "匯出輸出對話框")
+![匯出輸出對話框](exporting-bitmaps.resources/fromgraph-1.png "匯出輸出對話框")
 
 ## 匯出對話框（批次/UV 圖塊）
 
@@ -90,4 +90,4 @@ ht-degree: 0%
 1. <b>UV 圖塊：</b> 就像 Outputs 一樣，允許你切換開啟或關閉特定 UV 圖塊的匯出。
 1. <b>[輸出大小](../../compositing-graphs/output-size/output-size.md)： </b>覆蓋匯出解析度，讓你能更精簡、更有效率地工作，同時以最大輸出速度完成。
 
-![批次匯出輸出對話框](../../assets/batch.png "批次匯出輸出對話框")
+![批次匯出輸出對話框](exporting-bitmaps.resources/batch.png "批次匯出輸出對話框")

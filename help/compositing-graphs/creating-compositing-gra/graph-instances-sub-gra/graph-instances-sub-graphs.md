@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖實例與子圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 圖實例與子圖
 
-![](../../../assets/sub-graph.png)
+![](graph-instances-sub-graphs.resources/sub-graph.png)
 
 圖實例是指向 <b>另一個圖</b>的節點。 由宿主圖中實例節點所參考的圖，可以稱為 <b>宿主圖的子圖</b> 。
 
@@ -62,14 +62,14 @@ ht-degree: 0%
 
 ### 你能檢查圖實例的來源圖嗎？
 
-![（勾選）](../../../assets/check.svg)是的，*且僅限*&#x200B;於從 Substance 3D 檔案（SBS）**載入**&#x200B;的圖形實例。這些實例節點帶有 *深紅色* 標籤。\
+![（勾選）](graph-instances-sub-graphs.resources/check.svg)是的，*且僅限*&#x200B;於從 Substance 3D 檔案（SBS）**載入**&#x200B;的圖形實例。這些實例節點帶有 *深紅色* 標籤。\
 右鍵點擊該節點以開啟其情境選單，並選擇 **「開啟參考** 」選項。
 
 >[!NOTE]
 >
 > 在檢查來源圖時，只要&#x200B;**在偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區段勾選&#x200B;***上下文編輯**&#x200B;選項，就可以使用實例圖*&#x200B;的輸入資料。
 
-![（減）](../../../assets/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
+![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
 右鍵點擊該節點以開啟其上下文選單，並選擇 **載入套件** 選項。
 
 >[!NOTE]

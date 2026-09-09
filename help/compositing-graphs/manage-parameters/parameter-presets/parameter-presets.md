@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 參數預設
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
 workflow-type: tm+mt
 source-wordcount: '479'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 儲存和載入預設有兩種方式，兩者的使用情境不同，詳述如下。
 
-![載入/儲存預設下拉選單](../../../assets/preset-menu.gif "載入/儲存預設下拉選單"){width="512px"}
+![載入/儲存預設下拉選單](parameter-presets.resources/preset-menu.gif "載入/儲存預設下拉選單"){width="512px"}
 
 ## 外部預設
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 >
 > 即使是部分匹配也能運作：儲存在 SBSPRS 中且載入節點上不存在的參數，將被直接忽略。 這表示你可以在大多數 [相似的節點間轉移屬性，例如彩色與灰階版本的 Tile Sampler](../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md)！ 所有共用參數都會載入。 匹配是根據識別碼和類型進行的。
 
-![嵌入預設](../../../assets/preset-embed.gif "編輯 嵌入預設編輯"){width="512px"}
+![嵌入預設](parameter-presets.resources/preset-embed.gif "編輯 嵌入預設編輯"){width="512px"}
 
 ## 嵌入式預設
 

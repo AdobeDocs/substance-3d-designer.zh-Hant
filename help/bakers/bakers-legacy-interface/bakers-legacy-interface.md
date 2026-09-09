@@ -10,9 +10,9 @@ helpx_tags: ""
 title: Bakers 傳承介面
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '380'
 ht-degree: 2%
 
 ---
@@ -24,25 +24,25 @@ ht-degree: 2%
 
 ## 概觀
 
-![](../../assets/image2017-3-13-9-33-40.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-33-40.png)
 
 烘焙面板分為四個部分：
 
 ### 1：場景
 
-![](../../assets/image2017-3-13-9-35-53.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-35-53.png)
 
 讓你定義網格中哪個部分參與烘焙過程。
 
 版本 6 新增內容，你還可以依材質選擇：
 
-![](../../assets/image2017-3-13-9-45-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-45-26.png)
 
 ### 2：烘焙師
 
-![](../../assets/image2017-3-13-9-46-26.png)
+![](bakers-legacy-interface.resources/image2017-3-13-9-46-26.png)
 
-按下 ![](../../assets/image2017-3-13-9-47-47.png) 按鈕，你可以將想要的烘焙師加入加工清單
+按下 ![](bakers-legacy-interface.resources/image2017-3-13-9-47-47.png) 按鈕，你可以將想要的烘焙師加入加工清單
 
 >[!NOTE]
 >
@@ -50,21 +50,21 @@ ht-degree: 2%
 
 點擊烘焙師排版中的「+」可以把烘焙師加到堆疊中（你可以把任意數量的烘焙師放進堆疊裡）。
 
-.![](../../assets/image2017-3-13-9-52-8.png)
+.![](bakers-legacy-interface.resources/image2017-3-13-9-52-8.png)
 
-你可以按 ![](../../assets/image2017-3-13-9-54-33.png)
+你可以按 ![](bakers-legacy-interface.resources/image2017-3-13-9-54-33.png)
 
-你可以選擇烘焙流程並使用 ![](../../assets/image2017-3-13-9-55-33.png)
+你可以選擇烘焙流程並使用 ![](bakers-legacy-interface.resources/image2017-3-13-9-55-33.png)
 
 ### 3：麵包師參數
 
-![](../../assets/image2017-3-13-13-24-0.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-24-0.png)
 
 此區塊顯示目前所選烘焙師的具體選項。
 
 ### 4：共同參數
 
-![](../../assets/image2017-3-13-13-28-12.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-28-12.png)
 
 顯示烘焙師間共享的參數。
 
@@ -82,4 +82,4 @@ ht-degree: 2%
 
 版本 6 新增功能：你現在可以用取消按鈕取消烘焙過程：
 
-![](../../assets/image2017-3-13-13-50-4.png)
+![](bakers-legacy-interface.resources/image2017-3-13-13-50-4.png)

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理參數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![全域「管理參數」選單在屬性](../../assets/manage-parameters-menu-global.png "中 全域「管理參數」選單 在「屬性管理」選單"){zoomable="yes"}
+![全域「管理參數」選單在屬性](manage-parameters.resources/manage-parameters-menu-global.png "中 全域「管理參數」選單 在「屬性管理」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![屬性中的](../../assets/manage-parameters-menu.png "本地「管理參數」選單 屬性中的本地「管理參數」選單"){zoomable="yes"}
+![屬性中的](manage-parameters.resources/manage-parameters-menu.png "本地「管理參數」選單 屬性中的本地「管理參數」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -108,7 +108,7 @@ ht-degree: 0%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![節點上下文選單中的「管理參數」選單「節點上下文選單](../../assets/manage-parameters-node-menu.png "中的管理參數」選單"){zoomable="yes"}
+![節點上下文選單中的「管理參數」選單「節點上下文選單](manage-parameters.resources/manage-parameters-node-menu.png "中的管理參數」選單"){zoomable="yes"}
 
 </td>
 </tr>
@@ -129,7 +129,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![複製並貼上參數](../../assets/copy-paste-parameters.gif "複製並貼上參數"){zoomable="yes"}
+![複製並貼上參數](manage-parameters.resources/copy-paste-parameters.gif "複製並貼上參數"){zoomable="yes"}
 
 </td>
 </tr>

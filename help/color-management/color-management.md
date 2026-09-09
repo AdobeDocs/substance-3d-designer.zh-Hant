@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色彩管理
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 583588c4e12e3d0857c2b16200945e36ea523151
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -152,18 +152,18 @@ Designer 附帶多款 ICC 檔案。 你可以在 `resources > icc` Designer 安�
 > 
 > 特別是，**檔案名稱**&#x200B;可用來自動&#x200B;*設定適當的色彩空間*。請注意，檔名中的色彩空間名稱必須 *與 OpenColorIO 設定檔中的名稱* 相符（例如 *myImage\_utility - 線性 -srgb.png* 會設定為 *Utility - Linear - sRGB* 色彩空間）。
 
-![位圖色彩空間設定](../assets/2019-3-0-bitmap-clr-space.png "位元色彩空間設定")
+![位圖色彩空間設定](color-management.resources/2019-3-0-bitmap-clr-space.png "位元色彩空間設定")
 
 ## 出口產品
 
 使用<b>匯出輸出</b>對話框時，可以為每個&#x200B;*輸出指派<b>色彩空間</b>（OCIO）或附加 <b>ICC 設定檔</b>（Adobe ACE）。*\
 Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩空間。
 
-![匯出輸出對話框](../assets/2019-3-0-clr-mgt-export-outputs.png "匯出輸出對話框"){width="512px"}
+![匯出輸出對話框](color-management.resources/2019-3-0-clr-mgt-export-outputs.png "匯出輸出對話框"){width="512px"}
 
 你也可以為從 2D View[&#128279;](../interface/2d-view/2d-view.md) 儲存的*影像*&#x200B;指派色彩空間（OCIO）或附加 ICC 設定檔（Adobe ACE）。
 
-![2D 檢視匯出選項](../assets/2019-3-0-clr-mgt-save-image.png "2D 檢視匯出選項")
+![2D 檢視匯出選項](color-management.resources/2019-3-0-clr-mgt-save-image.png "2D 檢視匯出選項")
 
 ## 2D 與 3D 視圖
 
@@ -171,7 +171,7 @@ Designer 會在 *儲存影像檔案前，先將圖片轉換* 成指定的色彩�
 
 你可以 *隨時透過顯示工具列的下拉選單切換* 色彩管理並更改 *視圖的顯示變換* 。
 
-![2D 檢視](../assets/2019-3-0-clr-mgt-display-toolbar.png "中的色彩空間設定 2D 檢視中的色彩空間設定"){width="512px"}
+![2D 檢視](color-management.resources/2019-3-0-clr-mgt-display-toolbar.png "中的色彩空間設定 2D 檢視中的色彩空間設定"){width="512px"}
 
 ### 函式庫 HDRI 環境
 
@@ -180,7 +180,7 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 
 在這種情況下，圖書館 HDRI 環境的色彩空間應該在 3D 檢視面板<b>的環境</b>選單中手動&#x200B;*設定*。
 
-![3D 檢視環境](../assets/2019-3-0-clr-mgt-hdri-env.png "的色彩空間設定 3D 檢視環境的色彩空間設定"){width="512px"}
+![3D 檢視環境](color-management.resources/2019-3-0-clr-mgt-hdri-env.png "的色彩空間設定 3D 檢視環境的色彩空間設定"){width="512px"}
 
 ## 色彩轉換節點
 
@@ -211,7 +211,7 @@ Designer 附帶的 HDRI 環境屬於 <b>線性 sRGB</b> 色彩空間。\
 
 這些工具在處理未使用&#x200B;*色彩管理或 [Substance 3D 素材](https://substance3d.adobe.com/assets)庫材質的*&#x200B;圖表時非常有用。
 
-![函式庫](../assets/2019-3-0-clr-mgt-nodes.png "中的色彩轉換節點函式庫中的色彩轉換節點"){width="512px"}
+![函式庫](color-management.resources/2019-3-0-clr-mgt-nodes.png "中的色彩轉換節點函式庫中的色彩轉換節點"){width="512px"}
 
 ## 已知限制
 

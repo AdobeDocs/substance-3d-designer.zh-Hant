@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 關卡
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：關卡](../../../../assets/comp_levels_1.png "原子節點：關卡"){width="200px"}
+![原子節點：關卡](levels.resources/comp_levels_1.png "原子節點：關卡"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,9 +76,9 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 </td>
 <td width="66.67%" style="border: 0;" valign="top">
 
-![](../../../../assets/levels-2-1.png)
+![](levels.resources/levels-2-1.png)
 
-![](../../../../assets/levels-1-1.png)
+![](levels.resources/levels-1-1.png)
 
 </td>
 </tr>
@@ -101,7 +101,7 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 
 在「特定參數」標頭列中，你可以找到按鈕，方便存取直方圖的功能：
 
-![等級節點快速動作](../../../../assets/levels-2.png "等級節點快速動作")
+![等級節點快速動作](levels.resources/levels-2.png "等級節點快速動作")
 
 <b>1 - 反轉：</b> 交換「水平化低」與「平衡化高」參數的值。
 
@@ -113,7 +113,7 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 
 直方圖編輯器適合視覺化、快速調整，當不需要精確數值，且參數外露也不重要時。 這通常是使用關卡最快速且最簡單的方式。
 
-![](../../../../assets/levels-histo.gif)
+![](levels.resources/levels-histo.gif)
 
 根據輸入類型（彩色或灰階），你可以使用直方圖上方的下拉選單選擇你要修改的通道。
 

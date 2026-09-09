@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲線
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '619'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：曲線](../../../../assets/comp_curve_1.png "原子節點：曲線"){width="200px"}
+![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 要建立一個點，只需雙擊曲線視圖中的任意位置：
 
-![](../../../../assets/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif)
 
 ### 控制點數影響
 
@@ -112,31 +112,31 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-5-36.png)
+![](curve.resources/image2017-2-17-14-5-36.png)
 
 </td>
 </tr>
 </table>
 
-![](../../../../assets/image2017-2-17-14-13-27.png)  將點模式重設為預設值。
+![](curve.resources/image2017-2-17-14-13-27.png)  將點模式重設為預設值。
 
-![](../../../../assets/image2017-2-17-14-12-6.png)  鎖定/解鎖兩個貝茲處理器，讓使用者能同時或獨立移動它們。
+![](curve.resources/image2017-2-17-14-12-6.png)  鎖定/解鎖兩個貝茲處理器，讓使用者能同時或獨立移動它們。
 
-![](../../../../assets/image2017-2-17-14-14-0.png)  兩端由貝濟爾（Bezier）處理員控制。
+![](curve.resources/image2017-2-17-14-14-0.png)  兩端由貝濟爾（Bezier）處理員控制。
 
-![](../../../../assets/image2017-2-17-14-16-22.png)  點的右側由貝茲處理器控制，左側則保持平坦。
+![](curve.resources/image2017-2-17-14-16-22.png)  點的右側由貝茲處理器控制，左側則保持平坦。
 
-![](../../../../assets/image2017-2-17-14-18-25.png)  點的左側由貝茲爾處理器控制，右側則保持平坦。
+![](curve.resources/image2017-2-17-14-18-25.png)  點的左側由貝茲爾處理器控制，右側則保持平坦。
 
-![](../../../../assets/image2017-2-17-14-19-32.png)  尖端側保持平坦
+![](curve.resources/image2017-2-17-14-19-32.png)  尖端側保持平坦
 
-![](../../../../assets/curvepointsmodes.gif)
+![](curve.resources/curvepointsmodes.gif)
 
 ### 顯示輸入直方圖
 
-你可以只要點擊 ，就能顯示或隱藏輸入的直方圖 ![](../../../../assets/image2017-2-17-14-50-13.png)
+你可以只要點擊 ，就能顯示或隱藏輸入的直方圖 ![](curve.resources/image2017-2-17-14-50-13.png)
 
-![](../../../../assets/image2017-2-17-14-48-35.png)
+![](curve.resources/image2017-2-17-14-48-35.png)
 
 ### 分別控制每個通道（顏色輸入）
 
@@ -151,15 +151,15 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-2-17-14-52-43.png)
+![](curve.resources/image2017-2-17-14-52-43.png)
 
 </td>
 </tr>
 </table>
 
-在 RGB 曲線模式下，你可以按/按開 ![](../../../../assets/image2017-2-17-14-55-0.png)來隱藏或顯示各通道曲線：
+在 RGB 曲線模式下，你可以按/按開 ![](curve.resources/image2017-2-17-14-55-0.png)來隱藏或顯示各通道曲線：
 
-![](../../../../assets/image2017-2-17-14-55-38.png)
+![](curve.resources/image2017-2-17-14-55-38.png)
 
 ### 對齊、鏡像與翻轉
 
@@ -178,7 +178,7 @@ ht-degree: 0%
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![](../../../../assets/image2017-6-27-16-11-9.png)
+![](curve.resources/image2017-6-27-16-11-9.png)
 
 </td>
 </tr>
@@ -203,7 +203,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/ctrl.gif)
+![](curve.resources/ctrl.gif)
 
 </td>
 </tr>
@@ -220,7 +220,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/shift.gif)
+![](curve.resources/shift.gif)
 
 </td>
 </tr>
@@ -237,7 +237,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/altclick.gif)
+![](curve.resources/altclick.gif)
 
 </td>
 </tr>
@@ -247,11 +247,11 @@ ht-degree: 0%
 
 在調整處理器時，可能會遇到一個處理器在曲線視角上的情況。
 
-在這種情況下，你可以用按鈕 ![](../../../../assets/image2017-2-20-19-11-53.png) 來調整大小。
+在這種情況下，你可以用按鈕 ![](curve.resources/image2017-2-20-19-11-53.png) 來調整大小。
 
-按鍵會 ![](../../../../assets/image2017-2-20-19-12-45.png) 把縮放重設成 1
+按鍵會 ![](curve.resources/image2017-2-20-19-12-45.png) 把縮放重設成 1
 
-![](../../../../assets/viewzoom.gif)
+![](curve.resources/viewzoom.gif)
 
 ## 輸入連接器
 

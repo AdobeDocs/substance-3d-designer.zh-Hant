@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立物質圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新物質圖對話框 - 從主畫面](../../assets/newGraphDialog-create-homeScreen.png "建立 新物質圖對話框 - 從主畫面建立"){zoomable="yes"}
+  ![新物質圖對話框 - 從主畫面](creating-a-substance-compositing-graph.resources/newGraphDialog-create-homeScreen.png "建立 新物質圖對話框 - 從主畫面建立"){zoomable="yes"}
 
   </td>
   </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新實體圖對話框 - 從 Explorer](../../assets/newGraphDialog-create-explorer.png "建立 新 Substance 圖對話框 - 從 Explorer 建立"){zoomable="yes"}
+  ![新實體圖對話框 - 從 Explorer](creating-a-substance-compositing-graph.resources/newGraphDialog-create-explorer.png "建立 新 Substance 圖對話框 - 從 Explorer 建立"){zoomable="yes"}
 
   </td>
   </tr>
@@ -65,12 +65,12 @@ ht-degree: 0%
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
 
-  在主工具列中，點擊![](../../assets/image2021-6-22-20-36-44.png)<b>「新物質圖表</b>」按鈕。
+  在主工具列中，點擊![](creating-a-substance-compositing-graph.resources/image2021-6-22-20-36-44.png)<b>「新物質圖表</b>」按鈕。
 
   </td>
   <td style="border: 0;" valign="top">
 
-  ![新實體圖對話框 - 從主工具列](../../assets/newGraphDialog-create-mainToolbar.png "建立 新物質圖對話框 - 從主工具列建立"){zoomable="yes"}
+  ![新實體圖對話框 - 從主工具列](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainToolbar.png "建立 新物質圖對話框 - 從主工具列建立"){zoomable="yes"}
 
   </td>
   </tr>
@@ -86,7 +86,7 @@ ht-degree: 0%
   </td>
   <td style="border: 0;" valign="top">
 
-  ![](../../assets/newGraphDialog-create-mainMenu.png)
+  ![](creating-a-substance-compositing-graph.resources/newGraphDialog-create-mainMenu.png)
 
   </td>
   </tr>
@@ -102,7 +102,7 @@ ht-degree: 0%
 
 無論用哪種方法建立新的 Substance 圖，你都會 <b>看到「New Substance 圖</b> 」的對話框，讓你可以設定新的圖。
 
-![新物質圖對話框 - 材料](../../assets/newGraphDialog-materials.png "新物質圖對話框 - 材料"){zoomable="yes"}
+![新物質圖對話框 - 材料](creating-a-substance-compositing-graph.resources/newGraphDialog-materials.png "新物質圖對話框 - 材料"){zoomable="yes"}
 
 ### 範本
 
@@ -139,7 +139,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![新物質圖表對話框 - 縮圖卡片](../../assets/newGraphDialog-thumbnailCard.png "新物質圖表對話框 - 縮圖卡片")
+![新物質圖表對話框 - 縮圖卡片](creating-a-substance-compositing-graph.resources/newGraphDialog-thumbnailCard.png "新物質圖表對話框 - 縮圖卡片")
 
 </td>
 </tr>
@@ -155,7 +155,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 所有範例皆基於 [OpenPBR 材質模型](../../interface/3d-view/material-properties/material-properties.md#openpbr)。
 
-![材質範例 - 主畫面橫幅](../../assets/materialSamples-banner.png "材質範例 - 主畫面橫幅"){zoomable="yes"}
+![材質範例 - 主畫面橫幅](creating-a-substance-compositing-graph.resources/materialSamples-banner.png "材質範例 - 主畫面橫幅"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -174,7 +174,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td style="border: 0;" valign="top">
 
-![新實體圖對話框 - 範本提示](../../assets/newGraphDialog-tooltipTemplate.png "新物質圖對話框 - 範本提示"){zoomable="yes"}
+![新實體圖對話框 - 範本提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipTemplate.png "新物質圖對話框 - 範本提示"){zoomable="yes"}
 
 </td>
 </tr>
@@ -193,14 +193,14 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新物質圖對話框 - 檢視模式](../../assets/newGraphDialog-viewModes.png "新物質圖對話框 - 檢視模式"){zoomable="yes"}
+![新物質圖對話框 - 檢視模式](creating-a-substance-compositing-graph.resources/newGraphDialog-viewModes.png "新物質圖對話框 - 檢視模式"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
 +++檢視模式
-![新物質圖對話框 - 縮圖檢視](../../assets/newGraphDialog-viewMode-thumbnails.png "新物質圖對話框 - 縮圖檢視"){zoomable="yes"}
+![新物質圖對話框 - 縮圖檢視](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-thumbnails.png "新物質圖對話框 - 縮圖檢視"){zoomable="yes"}
 
 
 
@@ -208,7 +208,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 卡片上有縮圖，提供範本類型的預覽或圖示。
 
-![新實體圖對話框 - 列表檢視](../../assets/newGraphDialog-viewMode-list.png "新物質圖對話框 - 列表檢視"){zoomable="yes"}
+![新實體圖對話框 - 列表檢視](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-list.png "新物質圖對話框 - 列表檢視"){zoomable="yes"}
 
 
 
@@ -216,7 +216,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 範本僅依標籤列出。
 
-![新實體圖對話框 - 套件檢視](../../assets/newGraphDialog-viewMode-packages.png "新實體圖對話框 - 套件檢視"){zoomable="yes"}
+![新實體圖對話框 - 套件檢視](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-packages.png "新實體圖對話框 - 套件檢視"){zoomable="yes"}
 
 
 
@@ -226,7 +226,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 將滑鼠移至套件檔案項目，即可顯示工具提示及其完整路徑。
 
-![新實體圖對話框 - 目錄檢視](../../assets/newGraphDialog-viewMode-directories.png "新實體圖對話框 - 目錄檢視"){zoomable="yes"}
+![新實體圖對話框 - 目錄檢視](creating-a-substance-compositing-graph.resources/newGraphDialog-viewMode-directories.png "新實體圖對話框 - 目錄檢視"){zoomable="yes"}
 
 
 
@@ -252,7 +252,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 將問號圖示滑停即可顯示提示，並有一個按鈕直接連結到此頁面，方便你隨時回頭查看這份文件。
 
-![新物質圖表對話框 - 說明提示](../../assets/newGraphDialog-tooltipHelp.png "新物質圖表對話框 - 說明提示"){zoomable="yes"}
+![新物質圖表對話框 - 說明提示](creating-a-substance-compositing-graph.resources/newGraphDialog-tooltipHelp.png "新物質圖表對話框 - 說明提示"){zoomable="yes"}
 
 <a name="managing-templates"></a>
 
@@ -271,7 +271,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![新實體圖對話框 - 依類別](../../assets/newGraphDialog-categories.png "篩選新物質圖對話框 - 依類別篩選"){zoomable="yes"}
+![新實體圖對話框 - 依類別](creating-a-substance-compositing-graph.resources/newGraphDialog-categories.png "篩選新物質圖對話框 - 依類別篩選"){zoomable="yes"}
 
 </td>
 </tr>
@@ -290,7 +290,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td width="50.00%" style="border: 0;" valign="top">
 
-![新實體圖對話框 - 設定模板分類](../../assets/newGraphDialog-templateCategorySetup.png "新物質圖表對話框 - 設定模板分類"){zoomable="yes"}
+![新實體圖對話框 - 設定模板分類](creating-a-substance-compositing-graph.resources/newGraphDialog-templateCategorySetup.png "新物質圖表對話框 - 設定模板分類"){zoomable="yes"}
 
 </td>
 </tr>
@@ -309,7 +309,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![新 Substance 圖表對話框 - 依專案檔案](../../assets/newGraphDialog-projectFiles.png "篩選 新 Substance 圖表對話框 - 依專案檔案篩選"){zoomable="yes"}
+![新 Substance 圖表對話框 - 依專案檔案](creating-a-substance-compositing-graph.resources/newGraphDialog-projectFiles.png "篩選 新 Substance 圖表對話框 - 依專案檔案篩選"){zoomable="yes"}
 
 </td>
 </tr>

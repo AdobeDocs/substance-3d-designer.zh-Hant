@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 壓印
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：Emboss](../../../../assets/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
+![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
