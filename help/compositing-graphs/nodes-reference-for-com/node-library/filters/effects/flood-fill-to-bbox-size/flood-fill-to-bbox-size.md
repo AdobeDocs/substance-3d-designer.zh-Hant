@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-bbox-size.html"
 breadcrumb-title: ''
 description: 使用 Flood Fill to BBox Size 節點，將區域填充為邊界框大小值，以達成程序縮放效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 注水至BBox尺寸
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 3%
@@ -24,7 +24,7 @@ ht-degree: 3%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/floodfill-to-bbox-size.png){width="128px"}
+![](flood-fill-to-bbox-size.resources/floodfill-to-bbox-size.png){width="128px"}
 
 <b>收錄於：</b> 濾鏡>效應
 
@@ -54,7 +54,7 @@ ht-degree: 3%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/floodbbox-ex1.png" />
+            <img src="flood-fill-to-bbox-size.resources/floodbbox-ex1.png" />
         </td>
     </tr>
 </table>

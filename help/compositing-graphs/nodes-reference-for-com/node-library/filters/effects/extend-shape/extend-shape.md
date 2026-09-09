@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/extend-shape.html"
 breadcrumb-title: ''
 description: 使用 Extend Shape 節點將形狀延伸到邊界之外，以建立擴展遮罩和圖案效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 延伸形狀
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: a4ccdbff5343e3ece0312bd9b3318fb236f07308
+source-git-commit: 5c9ae53c1de18b1c09789a480cba6b1d70bd350d
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
@@ -28,12 +28,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapegrayscale.png){width="200px"}
+![](extend-shape.resources/extendshapegrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/extendshapecolor.png){width="200px"}
+![](extend-shape.resources/extendshapecolor.png){width="200px"}
 
 </td>
 </tr>
@@ -77,16 +77,16 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape.gif" />
+            <img src="extend-shape.resources/extendshape.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant.jpg" />
+            <img src="extend-shape.resources/extendshape-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-variant2.jpg" />
+            <img src="extend-shape.resources/extendshape-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/extendshape-node.png" />
+            <img src="extend-shape.resources/extendshape-node.png" />
         </td>
     </tr>
 </table>
