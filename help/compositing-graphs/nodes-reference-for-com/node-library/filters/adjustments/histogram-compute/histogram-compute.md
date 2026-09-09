@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/histogram-compute.html"
 breadcrumb-title: ''
 description: 使用直方圖計算節點，從紋理中計算直方圖資料，進行分析與處理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 直方圖計算
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 029f702d9b6a4d0dfaa83a4ae8447c02f70be355
+source-git-commit: 25c39c29f26db98b103665dba13e7619ed624d0b
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![直方圖計算：圖示](../../../../../../assets/histogram_compute.png "直方圖計算：圖示"){width="200px"}
+![直方圖計算：圖示](histogram-compute.resources/histogram_compute.png "直方圖計算：圖示"){width="200px"}
 
 <b>收錄於：</b> 篩選>調整
 
@@ -77,16 +77,16 @@ ht-degree: 1%
 
 ## 範例
 
-![直方圖計算：範例 1](../../../../../../assets/histogram_compute_example_1.jpg "直方圖計算：範例 1"){zoomable="yes"}
+![直方圖計算：範例 1](histogram-compute.resources/histogram_compute_example_1.jpg "直方圖計算：範例 1"){zoomable="yes"}
 
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
+      <img src="histogram-compute.resources/histogram_compute_example_2_before.jpg" alt="histogram_compute_example_2_before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
+      <img src="histogram-compute.resources/histogram_compute_example_2_after.jpg" alt="histogram_compute_example_2_after">
       <br><i>之後</i>
     </td>
   </tr>
