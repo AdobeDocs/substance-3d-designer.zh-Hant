@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: 使用非均勻旋轉節點來套用非均勻旋轉轉換，以創造螺旋和漩渦效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 非均勻旋轉
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 1%
@@ -28,12 +28,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationgrayscale.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationgrayscale.png){width="200px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../../../assets/nonuniformrotationcolor.png){width="200px"}
+![](non-uniform-rotation.resources/nonuniformrotationcolor.png){width="200px"}
 
 </td>
 </tr>
@@ -46,9 +46,9 @@ ht-degree: 1%
 
 ## 說明
 
-**非均勻旋轉**&#x200B;節點會利用&#x200B;**旋轉映射**&#x200B;輸入來旋轉&#x200B;**&#x200B;**&#x200B;輸入。
+**非均勻旋轉**&#x200B;節點會利用&#x200B;**旋轉映射**&#x200B;輸入來旋轉&#x200B;****&#x200B;輸入。
 
-影像的數值代表&#x200B;**&#x200B;數圈。旋轉是圍繞樞 &#x200B;** 軸位置 **&#x200B; 值或 &#x200B;** 樞軸位置地圖** 輸入所指定的位置進行。\
+影像的數值代表&#x200B;**&#x200B;數圈。旋轉是圍繞樞 **軸位置** 值或 **樞軸位置地圖** 輸入所指定的位置進行。\
 旋轉映射輸入中的&#x200B;**正值會產生&#x200B;*順*時針**&#x200B;旋轉。
 
 </td>
@@ -83,13 +83,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-demo-02-resized.gif" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-demo-02-resized.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-variant-png.jpg" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-variant-png.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/nonuniformrotation-node.png" />
+            <img src="non-uniform-rotation.resources/nonuniformrotation-node.png" />
         </td>
     </tr>
 </table>

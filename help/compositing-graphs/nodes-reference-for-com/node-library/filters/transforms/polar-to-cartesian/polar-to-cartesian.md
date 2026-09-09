@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/polar-to-cartesian.html"
 breadcrumb-title: ''
 description: 使用極座標轉笛卡兒節點，將貼圖從極座標轉換成笛卡兒座標。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 極座標到笛卡兒
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '47'
 ht-degree: 4%
@@ -24,9 +24,9 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/polar-to-cartesian.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian.png){width="128px"}
 
-![](../../../../../../assets/polar-to-cartesian-grayscale.png){width="128px"}
+![](polar-to-cartesian.resources/polar-to-cartesian-grayscale.png){width="128px"}
 
 <b>收錄於：</b> 《濾波器>轉換》
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/polar-to-cartesian-example.png" />
+            <img src="polar-to-cartesian.resources/polar-to-cartesian-example.png" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/quad-transform.html"
 breadcrumb-title: ''
 description: 使用四邊形變換節點對貼圖進行四邊形變換，以進行透視修正和變形。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 四邊變換
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 2%
@@ -24,9 +24,9 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/quad-transform-grayscale.png){width="128px"}
+![](quad-transform.resources/quad-transform-grayscale.png){width="128px"}
 
-![](../../../../../../assets/quad-transform.png){width="128px"}
+![](quad-transform.resources/quad-transform.png){width="128px"}
 
 <b>收錄於：</b> 《濾波器>轉換》
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/quad-example.gif" />
+            <img src="quad-transform.resources/quad-example.gif" />
         </td>
     </tr>
 </table>

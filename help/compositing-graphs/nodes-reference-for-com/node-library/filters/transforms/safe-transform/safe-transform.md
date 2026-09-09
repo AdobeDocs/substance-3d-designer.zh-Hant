@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: 使用安全轉換節點來套用轉換，同時保留貼圖邊界並避免產生瑕疵。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 安全變形
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 03373417b3d82a278c159aa83baf282b67c9cbe3
+source-git-commit: caf740432682ed82eb55ad2f84bc9dd6ed15ad14
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 5%
@@ -24,9 +24,9 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/safe-transform.png)
+![](safe-transform.resources/safe-transform.png)
 
-![](../../../../../../assets/safe-transform-grayscale.png)
+![](safe-transform.resources/safe-transform-grayscale.png)
 
 <b>收錄於：</b> 《濾波器>轉換》
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## 說明
 
-Transform 2D[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 的平鋪安全版本。它允許你在不破壞平鋪的情況下縮放、旋轉和偏移，也不會因為小幅偏移和旋轉而損失像素細節（銳利度或銳利度）。
+Transform 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 的平鋪安全版本[。它允許你在不破壞平鋪的情況下縮放、旋轉和偏移，也不會因為小幅偏移和旋轉而損失像素細節（銳利度或銳利度）。
 
 當需要最大控制或完美銳利度時，對轉換噪音非常有用。
 
