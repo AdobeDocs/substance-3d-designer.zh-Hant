@@ -35,7 +35,7 @@ ht-degree: 3%
 
 ## 說明
 
-將輸入的笛卡兒座標（X&amp;Y）轉換為極座標（角度與半徑）。 極座標到笛卡兒](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)則可[逆轉。
+將輸入的笛卡兒座標（X&amp;Y）轉換為極座標（角度與半徑）。 極座標到笛卡兒[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/polar-to-cartesian/polar-to-cartesian.md)則可逆轉。
 
 </td>
 </tr>
