@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-3.html"
 breadcrumb-title: ''
 description: 利用 Cells 3 節點產生中間細胞模式，創造有機與生物質地效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 細胞 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![格子 3 - 圖示](../../../../../../assets/cells_3.png "格子 3 - 圖示"){width="200px"}
+![格子 3 - 圖示](cells-3.resources/cells_3.png "格子 3 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -77,12 +77,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![格子 3 - 範例 1](../../../../../../assets/cells_3_1.png "格子 3 - 範例 1"){zoomable="yes"}
+![格子 3 - 範例 1](cells-3.resources/cells_3_1.png "格子 3 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![單元 3 - 範例 2](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso0.gif "單元格 3 - 範例 2"){zoomable="yes"}
+![單元 3 - 範例 2](cells-3.resources/noise_cells_3_v2_speed0.6_aniso0.gif "單元格 3 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -92,12 +92,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![格子 3 - 範例 3](../../../../../../assets/noise_cells_3_v2_speed0.6_aniso1.gif "格子 - 範例 3"){zoomable="yes"}
+![格子 3 - 範例 3](cells-3.resources/noise_cells_3_v2_speed0.6_aniso1.gif "格子 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![格子 3 - 範例 4](../../../../../../assets/noise_cells_3_v2_speed0.3_aniso0.6.gif "格子 3 - 範例 4"){zoomable="yes"}
+![格子 3 - 範例 4](cells-3.resources/noise_cells_3_v2_speed0.3_aniso0.6.gif "格子 3 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>
