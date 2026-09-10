@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-perlin-noise.html"
 breadcrumb-title: ''
 description: 使用 3D Perlin Noise 節點在 3D 空間中產生平滑的 Perlin 雜訊圖案，創造自然的體積紋理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D Perlin 雜訊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dperlinnoise.png){width="200px"}
+![](3d-perlin-noise.resources/3dperlinnoise.png){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 <b>3D Perlin 噪聲</b>節點根據位置圖</b>輸入在三維空間<b>中產生 Perlin 噪聲。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
 
 </td>
 </tr>
@@ -67,13 +67,13 @@ ht-degree: 1%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlin.gif" />
+            <img src="3d-perlin-noise.resources/3dperlin.gif" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoise-variant2.jpg" />
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dperlinnoise-variant.jpg" />
+            <img src="3d-perlin-noise.resources/3dperlinnoise-variant.jpg" />
         </td>
     </tr>
 </table>
