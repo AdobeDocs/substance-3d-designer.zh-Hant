@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用 Spline Mapper Grayscale 節點，將灰階材質沿著樣條路徑映射，並可自訂參數。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條映射器灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '1120'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-mapper-grayscale-icon.png "節點圖示")
+![節點圖示](spline-mapper-grayscale.resources/spline-mapper-grayscale-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -111,11 +111,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
+      <img src="spline-mapper-grayscale.resources/SplineMapperColor-Variant1-Before.jpg" alt="SplineMapperColor-Variant1-Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapper灰階變體1-之後">
+      <img src="spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After.jpg" alt="SplineMapper灰階變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -124,7 +124,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineMapperGrayscale-Demo.gif "節點範例 2")
+![節點範例 2](spline-mapper-grayscale.resources/SplineMapperGrayscale-Demo.gif "節點範例 2")
 
 </td>
 </tr>
@@ -134,7 +134,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 3](../../../../../../assets/SplineMapperGrayscale-Variant1-After1.jpg "節點範例 3")
+![節點範例 3](spline-mapper-grayscale.resources/SplineMapperGrayscale-Variant1-After1.jpg "節點範例 3")
 
 </td>
 <td style="border: 0;" valign="top">
