@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
 breadcrumb-title: ''
 description: 使用 Gaussian Spots 2 節點來產生進階的高斯點圖案，以創造有機的紋理變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高斯斑點 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![高斯斑點 2 - 圖標](../../../../../../assets/gaussian_spots_2.png "高斯斑點 2 - 圖標"){width="200px"}
+![高斯斑點 2 - 圖標](gaussian-spots-2.resources/gaussian_spots_2.png "高斯斑點 2 - 圖標"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -70,12 +70,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯斑點 2 - 範例 1](../../../../../../assets/gaussian_spots_2_1.png "高斯斑點 2 - 範例 1"){zoomable="yes"}
+![高斯斑點 2 - 範例 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "高斯斑點 2 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯斑點 2 - 範例 2](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "高斯斑點 2 - 範例 2"){zoomable="yes"}
+![高斯斑點 2 - 範例 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "高斯斑點 2 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -85,12 +85,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![高斯斑點2 - 範例3](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "高斯斑點2 - 範例3"){zoomable="yes"}
+![高斯斑點2 - 範例3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "高斯斑點2 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![高斯斑點2 - 範例4](../../../../../../assets/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "高斯斑點2 - 範例4"){zoomable="yes"}
+![高斯斑點2 - 範例4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "高斯斑點2 - 範例4"){zoomable="yes"}
 
 </td>
 </tr>
