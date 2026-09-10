@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 泥土坡度
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![泥土漸層 - 圖示](../../../../../../assets/dirt_gradient.png "泥土漸層 - 圖示"){width="200px"}
+![泥土漸層 - 圖示](dirt-gradient.resources/dirt_gradient.png "泥土漸層 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -67,12 +67,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 1](../../../../../../assets/dirt_gradient_1.png "失真漸變 - 範例 1"){zoomable="yes"}
+![失真漸變 - 範例 1](dirt-gradient.resources/dirt_gradient_1.png "失真漸變 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 2](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso0.gif "失真漸變 - 範例 2"){zoomable="yes"}
+![失真漸變 - 範例 2](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso0.gif "失真漸變 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 3](../../../../../../assets/noise_dirt_gradient_v2_speed0.6_aniso1.gif "失真漸變 - 範例 3"){zoomable="yes"}
+![失真漸變 - 範例 3](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.6_aniso1.gif "失真漸變 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![失真漸變 - 範例 4](../../../../../../assets/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "失真漸變 - 範例 4"){zoomable="yes"}
+![失真漸變 - 範例 4](dirt-gradient.resources/noise_dirt_gradient_v2_speed0.3_aniso0.6.gif "失真漸變 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

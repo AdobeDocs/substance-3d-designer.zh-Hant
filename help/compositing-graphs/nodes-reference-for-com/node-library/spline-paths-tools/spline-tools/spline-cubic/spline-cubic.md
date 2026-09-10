@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條（立方曲線）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-cubic-icon.png "節點圖示")
+![節點圖示](spline-cubic.resources/spline-cubic-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -101,12 +101,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineCubic-Variant1.jpg "節點範例 1")
+![節點範例 1](spline-cubic.resources/SplineCubic-Variant1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineCubic-Variant2.jpg "節點範例 2")
+![節點範例 2](spline-cubic.resources/SplineCubic-Variant2.jpg "節點範例 2")
 
 </td>
 </tr>
@@ -116,7 +116,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 3](../../../../../../assets/SplineCubic-Demo.gif "節點範例 3")
+![節點範例 3](spline-cubic.resources/SplineCubic-Demo.gif "節點範例 3")
 
 </td>
 <td style="border: 0;" valign="top">

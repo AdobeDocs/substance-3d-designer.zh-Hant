@@ -10,7 +10,7 @@ helpx_tags: ""
 title: BnW 3 個地點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![BnW 點數 3 - 圖示](../../../../../../assets/bnw_spots_3.png "BnW 點數 3 - 圖示"){width="200px"}
+![BnW 點數 3 - 圖示](bnw-spots-3.resources/bnw_spots_3.png "BnW 點數 3 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW 地點 3 - 範例 1](../../../../../../assets/bnw_spots_3_1.png "BnW 地點 3 - 範例 1"){zoomable="yes"}
+![BnW 地點 3 - 範例 1](bnw-spots-3.resources/bnw_spots_3_1.png "BnW 地點 3 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW 點數 3 - 範例 2](../../../../../../assets/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "BnW 點數 3 - 範例 2"){zoomable="yes"}
+![BnW 點數 3 - 範例 2](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso0.gif "BnW 點數 3 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![BnW 點數 3 - 範例 3](../../../../../../assets/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "BnW 點數 3 - 範例 3"){zoomable="yes"}
+![BnW 點數 3 - 範例 3](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.6_aniso1.gif "BnW 點數 3 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![BnW 點數 3 - 範例 4](../../../../../../assets/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "BnW 點數 3 - 範例 4"){zoomable="yes"}
+![BnW 點數 3 - 範例 4](bnw-spots-3.resources/noise_bnw_spots_3_v2_speed0.3_aniso0.6.gif "BnW 點數 3 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

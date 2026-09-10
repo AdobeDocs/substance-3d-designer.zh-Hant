@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用路徑樣條工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e23f692fa31d1e7b9eeac692bb41186441fdda53
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 0%
@@ -46,7 +46,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![路徑多邊形輸出](../../../../../assets/PathsPolygon_Data.jpg "路徑多邊形輸出")
+![路徑多邊形輸出](working-with-path-and-spline-tools.resources/PathsPolygon_Data.jpg "路徑多邊形輸出")
 
 </td>
 </tr>
@@ -69,7 +69,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![二維視圖](../../../../../assets/SplineCubic-Demo.gif "中的樣條三次曲線 二維視圖中的樣條三次曲線")
+![二維視圖](working-with-path-and-spline-tools.resources/SplineCubic-Demo.gif "中的樣條三次曲線 二維視圖中的樣條三次曲線")
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 只要將這兩個設定改成建議狀態，你應該會注意到顯著的效能提升。
 
-![圖書館](../../../../../assets/PathsTools.jpg "中的路徑工具圖書館中的路徑工具")
+![圖書館](working-with-path-and-spline-tools.resources/PathsTools.jpg "中的路徑工具圖書館中的路徑工具")
 
 ## 路徑工具
 
@@ -97,7 +97,7 @@ ht-degree: 0%
 另外，也可以透過「遮罩到路徑[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)」節點從灰階影像中擷取路徑。\
 目前這是產生複雜形狀的唯一方法，並且讓你能利用整個 Substance 圖形節點[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/nodes-reference-for-substance-compositing-graphs.md)庫，產生最終會轉換成路徑的形狀。
 
-![路徑產生節點路徑](../../../../../assets/Paths_Generation.jpg "產生節點"){width="600px"}
+![路徑產生節點路徑](working-with-path-and-spline-tools.resources/Paths_Generation.jpg "產生節點"){width="600px"}
 
 ### 編輯路徑
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![預覽路徑節點](../../../../../assets/PreviewPaths_Node.jpg "預覽路徑節點")
+![預覽路徑節點](working-with-path-and-spline-tools.resources/PreviewPaths_Node.jpg "預覽路徑節點")
 
 </td>
 </tr>
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 <b>遮罩 > 遮罩轉為路徑 > 路徑轉為樣條</b>
 
-![路徑到樣條](../../../../../assets/Spline_PathToSpline.jpg "曲線路徑 路徑到 樣條曲線")
+![路徑到樣條](working-with-path-and-spline-tools.resources/Spline_PathToSpline.jpg "曲線路徑 路徑到 樣條曲線")
 
 ### 路徑格式規範
 
@@ -146,7 +146,7 @@ ht-degree: 0%
 
 你可以利用這個規格來製作屬於自己的節點，並充分利用 [Paths 頂點處理器](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-vertex-processor/paths-vertex-processor.md) 節點。
 
-![函式庫中的樣條鍵工具函](../../../../../assets/SplineTools.jpg "式庫中的樣條鍵工具")
+![函式庫中的樣條鍵工具函](working-with-path-and-spline-tools.resources/SplineTools.jpg "式庫中的樣條鍵工具")
 
 ## 花鍵工具
 
@@ -185,7 +185,7 @@ ht-degree: 0%
 
 這會影響需要將樣條線合併的節點，例如[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-gra/spline-bridge-mapper-grayscale.md)樣條橋（列表）、[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)樣條橋映射器和[樣條合併清單](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-merge-list/spline-merge-list.md)。
 
-![附加帶有連結建立模式](../../../../../assets/LinkCreationMode_Splines.gif "的樣條 附帶連結建立模式的樣條")
+![附加帶有連結建立模式](working-with-path-and-spline-tools.resources/LinkCreationMode_Splines.gif "的樣條 附帶連結建立模式的樣條")
 
 ### 樣鍵輸入與輸出
 
@@ -212,7 +212,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條線節點](../../../../../assets/Spline_PreviewOutput.jpg "上的預覽輸出樣條線節點上的預覽輸出")
+![樣條線節點](working-with-path-and-spline-tools.resources/Spline_PreviewOutput.jpg "上的預覽輸出樣條線節點上的預覽輸出")
 
 </td>
 </tr>
@@ -231,7 +231,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![樣條以段](../../../../../assets/Spline_Segments.jpg "形式渲染 樣條曲線以段形式渲染")
+![樣條以段](working-with-path-and-spline-tools.resources/Spline_Segments.jpg "形式渲染 樣條曲線以段形式渲染")
 
 </td>
 </tr>

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 通往樣條的路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/paths-to-splines-icon.png "節點圖示")
+![節點圖示](paths-to-spline.resources/paths-to-splines-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -82,11 +82,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-Before.jpg" alt="路徑至縱線變體1-之前">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-Before.jpg" alt="路徑至縱線變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant1-After.jpg" alt="路徑至樣線變體1-之後">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant1-After.jpg" alt="路徑至樣線變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -98,11 +98,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-After.jpg" alt="路徑至斜線變體2-之後">
+      <img src="paths-to-spline.resources/PathsToSpline-Variant2-After.jpg" alt="路徑至斜線變體2-之後">
       <br><i>之後</i>
     </td>
   </tr>

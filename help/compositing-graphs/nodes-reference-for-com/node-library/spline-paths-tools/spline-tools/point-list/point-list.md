@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 點數列表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/point-list-icon.png "節點圖示")
+![節點圖示](point-list.resources/point-list-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -93,12 +93,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/PointList-Variant1.jpg "節點範例 1")
+![節點範例 1](point-list.resources/PointList-Variant1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/PointList-Demo1.gif "節點範例 2")
+![節點範例 2](point-list.resources/PointList-Demo1.gif "節點範例 2")
 
 </td>
 </tr>

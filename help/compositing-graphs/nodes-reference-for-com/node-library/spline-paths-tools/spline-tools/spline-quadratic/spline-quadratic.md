@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條曲線（二次曲線）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 4ae20991693573dd44016a411c233b071fa96df6
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：圖示](../../../../../../assets/spline-quadratic-icon.png "樣條曲線（二次曲線）：符號")
+![樣條曲線（二次曲線）：圖示](spline-quadratic.resources/spline-quadratic-icon.png "樣條曲線（二次曲線）：符號")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -103,12 +103,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條（二次）：範例 1](../../../../../../assets/spline-quadratic-example-1.png "樣條（二次）：範例 1"){zoomable="yes"}
+![樣條（二次）：範例 1](spline-quadratic.resources/spline-quadratic-example-1.png "樣條（二次）：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：範例 2](../../../../../../assets/spline-quadratic-example-2.png "樣條曲線（二次曲線）：範例 2"){zoomable="yes"}
+![樣條曲線（二次曲線）：範例 2](spline-quadratic.resources/spline-quadratic-example-2.png "樣條曲線（二次曲線）：範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -118,7 +118,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條曲線（二次曲線）：示範](../../../../../../assets/spline-quadratic-demo.gif "樣條曲線（二次曲線）：範例曲線"){zoomable="yes"}
+![樣條曲線（二次曲線）：示範](spline-quadratic.resources/spline-quadratic-demo.gif "樣條曲線（二次曲線）：範例曲線"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">

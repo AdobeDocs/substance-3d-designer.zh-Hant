@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 從底部到頂部
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 4%
@@ -24,7 +24,7 @@ ht-degree: 4%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/bottom-to-top.png){width="128px"}
+![](bottom-to-top.resources/bottom-to-top.png){width="128px"}
 
 <b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
@@ -66,7 +66,7 @@ ht-degree: 4%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/bottom-to-top-ex.gif" />
+            <img src="bottom-to-top.resources/bottom-to-top-ex.gif" />
         </td>
     </tr>
 </table>

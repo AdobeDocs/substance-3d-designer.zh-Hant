@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑扭曲
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4034c519f3367597b09165c267379fd8ac4e7062
+source-git-commit: f9ae596767e754b5c0f62ed6bdb6f16dd33bb799
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/paths-warp-icon.png "節點圖示")
+![節點圖示](paths-warp.resources/paths-warp-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 路徑工具
 
@@ -74,11 +74,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant1-After.jpg" alt="路徑扭曲變體1之後">
+      <img src="paths-warp.resources/PathsWarp-Variant1-After.jpg" alt="路徑扭曲變體1之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -90,11 +90,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
+      <img src="paths-warp.resources/PathsToSpline-Variant2-Before.jpg" alt="路徑至斜線變體2-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/PathsWarp-Variant2-After.jpg" alt="路徑扭曲變體2之後">
+      <img src="paths-warp.resources/PathsWarp-Variant2-After.jpg" alt="路徑扭曲變體2之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -108,7 +108,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/PathsWarp-Demo1.gif "節點範例 1")
+![節點範例 1](paths-warp.resources/PathsWarp-Demo1.gif "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">

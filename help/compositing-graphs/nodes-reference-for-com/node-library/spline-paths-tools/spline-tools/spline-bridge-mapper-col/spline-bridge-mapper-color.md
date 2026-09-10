@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條橋映射器顏色
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-bridge-mapper-color-icon.png "節點圖示")
+![節點圖示](spline-bridge-mapper-color.resources/spline-bridge-mapper-color-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -92,11 +92,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperColor-Variant1-After.jpg" alt="樣條橋映射器顏色變體1-之後">
+      <img src="spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After.jpg" alt="樣條橋映射器顏色變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -105,7 +105,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapperColor-Demo.gif "節點範例 2")
+![節點範例 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Demo.gif "節點範例 2")
 
 </td>
 </tr>
@@ -115,12 +115,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineBridgeMapperColor-Variant1-After1.jpg "節點範例 1")
+![節點範例 1](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Variant1-After1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapperColor-Graph.jpg "節點範例 2")
+![節點範例 2](spline-bridge-mapper-color.resources/SplineBridgeMapperColor-Graph.jpg "節點範例 2")
 
 </td>
 </tr>

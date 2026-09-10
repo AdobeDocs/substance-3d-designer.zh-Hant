@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 沃羅諾伊
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/3dvoronoi.png){width="200px"}
+![](3d-voronoi.resources/3dvoronoi.png){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -71,24 +71,24 @@ ht-degree: 0%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant5.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant2.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
         </td>
     </tr>
     <tr style="border: 0; background: transparent">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant4.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant3.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/3dvoronoi-variant6.jpg" />
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
         </td>
     </tr>
 </table>

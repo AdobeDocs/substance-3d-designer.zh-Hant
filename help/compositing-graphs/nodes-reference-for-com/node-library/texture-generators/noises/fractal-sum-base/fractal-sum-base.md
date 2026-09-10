@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 分形和基底
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![分形和基底 - 圖示](../../../../../../assets/fractal_sum_base.png "分形和基底 - 圖示"){width="200px"}
+![分形和基底 - 圖示](fractal-sum-base.resources/fractal_sum_base.png "分形和基底 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -72,12 +72,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![分形和基底 - 範例 1](../../../../../../assets/fractal_sum_base_1.png "分形和基底 - 範例 1"){zoomable="yes"}
+![分形和基底 - 範例 1](fractal-sum-base.resources/fractal_sum_base_1.png "分形和基底 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![分形和基底 - 範例 2](../../../../../../assets/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形和基底 - 範例 2"){zoomable="yes"}
+![分形和基底 - 範例 2](fractal-sum-base.resources/noise_fractal_sum_base_v2_speed0.6_aniso0.gif "分形和基底 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>

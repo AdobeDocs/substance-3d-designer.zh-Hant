@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 花鍵橋（列表）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-bridge-list-icon.png "節點圖示")
+![節點圖示](spline-bridge-list.resources/spline-bridge-list-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_Before.jpg" alt="花鍵橋List_Variant1_Before">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_Before.jpg" alt="花鍵橋List_Variant1_Before">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridge-List_Variant1_After.jpg" alt="樣條橋-List_Variant1_After">
+      <img src="spline-bridge-list.resources/SplineBridge-List_Variant1_After.jpg" alt="樣條橋-List_Variant1_After">
       <br><i>之後</i>
     </td>
   </tr>
@@ -126,10 +126,10 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridge-List_Demo.gif "節點範例 2")
+![節點範例 2](spline-bridge-list.resources/SplineBridge-List_Demo.gif "節點範例 2")
 
 </td>
 </tr>
 </table>
 
-![圖](../../../../../../assets/SplineBridge-List_Graph.jpg "中的節點圖中的節點")
+![圖](spline-bridge-list.resources/SplineBridge-List_Graph.jpg "中的節點圖中的節點")
