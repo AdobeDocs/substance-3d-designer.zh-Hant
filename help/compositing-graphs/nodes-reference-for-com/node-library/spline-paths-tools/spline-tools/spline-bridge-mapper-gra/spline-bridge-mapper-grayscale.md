@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-bridge-mapper-grayscale.html"
 breadcrumb-title: ''
 description: 使用 Spline Bridge Mapper 灰階節點，將兩個帶有灰階貼圖的樣條紋架接。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條橋映射機灰階
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-bridge-mapper-grayscale-icon.png "節點圖示")
+![節點圖示](spline-bridge-mapper-grayscale.resources/spline-bridge-mapper-grayscale-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -91,11 +91,11 @@ ht-degree: 1%
 <table>
   <tr>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-Before.jpg" alt="SplineBridgeMapper灰階變體1-之前">
       <br><i>之前</i>
     </td>
     <td>
-      <img src="../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapper灰階變體1-之後">
+      <img src="spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After.jpg" alt="SplineBridgeMapper灰階變體1-之後">
       <br><i>之後</i>
     </td>
   </tr>
@@ -104,7 +104,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapper-Demo.gif "節點範例 2")
+![節點範例 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapper-Demo.gif "節點範例 2")
 
 </td>
 </tr>
@@ -114,12 +114,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineBridgeMapperGrayscale-Variant1-After1.jpg "節點範例 1")
+![節點範例 1](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Variant1-After1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineBridgeMapperGrayscale-Graph.jpg "節點範例 2")
+![節點範例 2](spline-bridge-mapper-grayscale.resources/SplineBridgeMapperGrayscale-Graph.jpg "節點範例 2")
 
 </td>
 </tr>

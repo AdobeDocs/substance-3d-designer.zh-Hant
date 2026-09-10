@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-circle.html"
 breadcrumb-title: ''
 description: 使用樣條圈節點來建立圓形樣條，產生圓形圖案和形狀。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條圈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 86e504c9dfe76516c56a7950f0bf70090270a60c
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-circle-icon.png "節點圖示")
+![節點圖示](spline-circle.resources/spline-circle-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -96,12 +96,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineCircle-Variant1.jpg "節點範例 1")
+![節點範例 1](spline-circle.resources/SplineCircle-Variant1.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineCircle-Demo.gif "節點範例 2")
+![節點範例 2](spline-circle.resources/SplineCircle-Demo.gif "節點範例 2")
 
 </td>
 </tr>
@@ -111,12 +111,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![範例3](../../../../../../assets/SplineCircle-Variant2.jpg "範例3")
+![範例3](spline-circle.resources/SplineCircle-Variant2.jpg "範例3")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![範例4](../../../../../../assets/SplineCircle-Variant3.jpg "範例4")
+![範例4](spline-circle.resources/SplineCircle-Variant3.jpg "範例4")
 
 </td>
 </tr>
