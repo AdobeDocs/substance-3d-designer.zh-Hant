@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/scatter-splines-on-splines.html"
 breadcrumb-title: ''
 description: 使用 Scatter Splines on Splines 節點，將子樣條沿著父樣條路徑分布。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條上的散射樣條
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '2832'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![樣條上的散射樣條：圖示](../../../../../../assets/scatter-splines-on-splines-icon.png "樣條上的散佈樣條：圖示")
+![樣條上的散射樣條：圖示](scatter-splines-on-splines.resources/scatter-splines-on-splines-icon.png "樣條上的散佈樣條：圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 節點提供深度自訂選項，控制樣條線的散佈方式，讓你可以散布簡單的直線樣條，或是你自己的自訂樣條。
 
-這個節點讓你可以用樣條曲線映射[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器節點來建立複雜的結構來映射顏色和影像，或作為骨[架用散佈在樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)鍵上放置形狀。
+這個節點讓你可以用樣條曲線映射](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-mapper-grayscale/spline-mapper-grayscale.md)器節點來建立複雜的結構來映射顏色和影像[，或作為骨[架用散佈在樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-spline-grayscale/scatter-on-spline-grayscale.md)鍵上放置形狀。
 
 </td>
 </tr>
@@ -54,7 +54,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-[![視訊樣條節點](../../../../../../assets/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
+[![視訊樣條節點](scatter-splines-on-splines.resources/video_spline.png)](https://youtu.be/aUUWV1dYQdI)
 
 </td>
 </tr>
@@ -162,12 +162,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條上的散射樣條：範例 1](../../../../../../assets/scatter-splines-on-splines-example-1.png "樣條上的散射樣條：範例 1"){zoomable="yes"}
+![樣條上的散射樣條：範例 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-1.png "樣條上的散射樣條：範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條上的散射樣條：範例 1](../../../../../../assets/scatter-splines-on-splines-example-2.png "樣條上的散射樣條：範例 1"){zoomable="yes"}
+![樣條上的散射樣條：範例 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-2.png "樣條上的散射樣條：範例 1"){zoomable="yes"}
 
 </td>
 </tr>
@@ -177,12 +177,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條上的散射樣條：範例 3](../../../../../../assets/scatter-splines-on-splines-example-4.png "樣條上的散射樣條：範例 3"){zoomable="yes"}
+![樣條上的散射樣條：範例 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-4.png "樣條上的散射樣條：範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條上的散射樣條：範例 4](../../../../../../assets/scatter-splines-on-splines-example-3.png "樣條鍵上的散射樣條：範例 4"){zoomable="yes"}
+![樣條上的散射樣條：範例 4](scatter-splines-on-splines.resources/scatter-splines-on-splines-example-3.png "樣條鍵上的散射樣條：範例 4"){zoomable="yes"}
 
 </td>
 </tr>
@@ -194,15 +194,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![散布樣條上的樣條曲線：渲染 1](../../../../../../assets/scatter-splines-on-splines-demo-1.png "散布樣條：渲染 1"){zoomable="yes"}
+![散布樣條上的樣條曲線：渲染 1](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-1.png "散布樣條：渲染 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![散佈樣條：渲染2](../../../../../../assets/scatter-splines-on-splines-demo-3.png "散佈樣條：渲染2 散射樣條：渲染2"){zoomable="yes"}
+![散佈樣條：渲染2](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-3.png "散佈樣條：渲染2 散射樣條：渲染2"){zoomable="yes"}
 
 </td>
 </tr>
 </table>
 
-![散佈樣條曲線：渲染 3](../../../../../../assets/scatter-splines-on-splines-demo-2.png "散佈樣條曲線：渲染 3"){zoomable="yes"}
+![散佈樣條曲線：渲染 3](scatter-splines-on-splines.resources/scatter-splines-on-splines-demo-2.png "散佈樣條曲線：渲染 3"){zoomable="yes"}

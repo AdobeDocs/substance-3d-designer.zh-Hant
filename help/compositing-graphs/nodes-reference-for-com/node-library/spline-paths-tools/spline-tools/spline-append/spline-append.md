@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: 使用 Spline Append 節點將多個樣條線附加在一起，以建立更長的連續路徑。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣條附錄
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: e4c44720897b98db608bc9feabb860d4b1baf332
+source-git-commit: 29dd2e6adc826f63ee26defc0032b0e52d4e30fb
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![節點圖示](../../../../../../assets/spline-append-icon.png "節點圖示")
+![節點圖示](spline-append.resources/spline-append-icon.png "節點圖示")
 
 <b>收錄於：</b> 樣條與路徑工具 > 樣條鍵工具
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) [上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
+> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)[上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
 
 <a name="inputs"></a>
 
@@ -91,15 +91,15 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![節點範例 1](../../../../../../assets/SplineAppend-Demo.jpg "節點範例 1")
+![節點範例 1](spline-append.resources/SplineAppend-Demo.jpg "節點範例 1")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![節點範例 2](../../../../../../assets/SplineAppend-Graph.jpg "節點範例 2")
+![節點範例 2](spline-append.resources/SplineAppend-Graph.jpg "節點範例 2")
 
 </td>
 </tr>
 </table>
 
-![節點示範](../../../../../../assets/SplineAppend-Demo2.gif "節點示範")
+![節點示範](spline-append.resources/SplineAppend-Demo2.gif "節點示範")
