@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/clouds-3.html"
 breadcrumb-title: ''
 description: 使用 Clouds 3 節點來產生進階的雲圖案，以創造大氣與體積紋理效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 雲 3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![雲 3 - 圖示](../../../../../../assets/clouds_3.png "雲 3 - 圖示"){width="200px"}
+![雲 3 - 圖示](clouds-3.resources/clouds_3.png "雲 3 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -69,12 +69,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雲 3 - 範例 1](../../../../../../assets/clouds_3_1.png "雲 3 - 範例 1"){zoomable="yes"}
+![雲 3 - 範例 1](clouds-3.resources/clouds_3_1.png "雲 3 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![雲 3 - 範例 2](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso0.gif "雲 3 - 範例 2"){zoomable="yes"}
+![雲 3 - 範例 2](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso0.gif "雲 3 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,12 +84,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雲 3 - 範例 3](../../../../../../assets/noise_clouds_3_v2_speed0.6_aniso1.gif "雲 3 - 範例 3"){zoomable="yes"}
+![雲 3 - 範例 3](clouds-3.resources/noise_clouds_3_v2_speed0.6_aniso1.gif "雲 3 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![雲 3 - 範例 4](../../../../../../assets/noise_clouds_3_v2_speed0.3_aniso0.6.gif "雲 3 - 範例 4"){zoomable="yes"}
+![雲 3 - 範例 4](clouds-3.resources/noise_clouds_3_v2_speed0.3_aniso0.6.gif "雲 3 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>

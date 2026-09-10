@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-noise-4.html"
 breadcrumb-title: ''
 description: 使用 Directional Noise 4 節點產生具有四個八度的方向性噪音模式，以建立各向異性紋理。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向性雜訊 4
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 1f6cd80beb50560ef8711ff67335b0bb54df04ca
+source-git-commit: 93824555c1b2d3de289eaf470e6f929ebf90dd71
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![方向性噪音 4 - 圖示](../../../../../../assets/directional_noise_4.png "方向性噪音 4 - 圖示"){width="200px"}
+![方向性噪音 4 - 圖示](directional-noise-4.resources/directional_noise_4.png "方向性噪音 4 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -71,12 +71,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性雜訊 4 - 範例 1](../../../../../../assets/directional_noise_4_1.png "方向性雜訊 4 - 範例 1"){zoomable="yes"}
+![方向性雜訊 4 - 範例 1](directional-noise-4.resources/directional_noise_4_1.png "方向性雜訊 4 - 範例 1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性噪音 4 - 範例 2](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso0.gif "方向性噪音 4 - 範例 2"){zoomable="yes"}
+![方向性噪音 4 - 範例 2](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso0.gif "方向性噪音 4 - 範例 2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -86,12 +86,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![方向性雜訊4 - 範例3](../../../../../../assets/noise_directional_noise_4_v2_speed0.6_aniso1.gif "方向性雜訊4 - 範例3"){zoomable="yes"}
+![方向性雜訊4 - 範例3](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.6_aniso1.gif "方向性雜訊4 - 範例3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![方向性雜訊 4 - 範例 4](../../../../../../assets/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "方向性雜訊 4 - 範例 4"){zoomable="yes"}
+![方向性雜訊 4 - 範例 4](directional-noise-4.resources/noise_directional_noise_4_v2_speed0.3_aniso0.6.gif "方向性雜訊 4 - 範例 4"){zoomable="yes"}
 
 </td>
 </tr>
