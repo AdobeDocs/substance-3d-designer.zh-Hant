@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/height-blend.html"
 breadcrumb-title: ''
 description: 使用 Height Blend 節點根據高度貼圖來混合材質，創造逼真的材質過渡。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 高度混合
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: db158eba37ce52811a853adc20ca6143f96a79b6
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/height-blend.png){width="128px"}
+![](height-blend.resources/height-blend.png){width="128px"}
 
 <b>收錄於：</b> 《材料濾>效應》
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 根據高度資訊組合兩個高度圖。 會產生混合的高度圖，也會產生一個黑白遮罩，可用於其他地方。
 
-這在你有兩個高品質高度貼圖要合併時很有用，但不一定是完整材質，因為材質高度混合[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)是必要的。
+這在你有兩個高品質高度貼圖要合併時很有用，但不一定是完整材質，因為材質高度混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/material-height-blend/material-height-blend.md)是必要的[。
 
 </td>
 </tr>
