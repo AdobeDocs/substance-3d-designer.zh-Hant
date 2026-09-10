@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/color-equalizer.html"
 breadcrumb-title: ''
 description: 使用色彩均衡器節點來平衡掃描材質的色彩變化，以達到貼圖外觀一致。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 色彩均衡器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: ca90755a159a7e0297bb26d1e3522b0cfeb6f2ac
+source-git-commit: 2c331b568074714ea71231410f997f965e2bcdaa
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 6%
@@ -24,7 +24,7 @@ ht-degree: 6%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/color-equalizer.png){width="128px"}
+![](color-equalizer.resources/color-equalizer.png){width="128px"}
 
 <b>收錄於：</b> 《材料濾>掃描處理》
 
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 說明
 
-這個節點就像高品質的高通[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)器一樣，用於色彩差異。一般高通器會去除飽和度並可能帶來不必要的銳利感，而色彩均衡器則能平衡色彩差異並以使用者可選擇的尺度去除不想要的色調。
+這個節點就像高品質的高通](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)器[一樣，用於色彩差異。一般高通器會去除飽和度並可能帶來不必要的銳利感，而色彩均衡器則能平衡色彩差異並以使用者可選擇的尺度去除不想要的色調。
 
 如果照片或掃描中有不想要的色彩差異，或是你想去除的色調，這非常有用。 如果你用 [過 Highpass](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/highpass/highpass.md)，這個節點應該會讓你感到熟悉。
 
