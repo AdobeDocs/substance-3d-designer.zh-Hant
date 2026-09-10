@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/fiber-glass-edge-wear.html"
 breadcrumb-title: ''
 description: 使用玻璃纖維邊緣磨損節點，根據網狀曲率在玻璃纖維邊緣生成磨損遮罩。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 玻璃纖維邊緣磨損
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/fiber-glass-edge-wear.png){width="128px"}
+![](fiber-glass-edge-wear.resources/fiber-glass-edge-wear.png){width="128px"}
 
 <b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
@@ -75,7 +75,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/fiber-glass-edge-wear-ex.gif" />
+            <img src="fiber-glass-edge-wear.resources/fiber-glass-edge-wear-ex.gif" />
         </td>
     </tr>
 </table>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/selective-dirt.html"
 breadcrumb-title: ''
 description: 使用選擇性泥土節點，根據網格幾何產生選擇性泥土累積遮罩，以實現逼真的風化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 選擇性泥土
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 4f071c204e1a6c09a04372b7bdaf7cd044080fcc
+source-git-commit: 78cf3f307bd33c6d8b399043ff1c5e5d1764b606
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/selective-dirt.png){width="128px"}
+![](selective-dirt.resources/selective-dirt.png){width="128px"}
 
 <b>收錄於：</b> 基於網格的生成器>遮罩生成器
 
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://support.allegorithmic.com/documentation/display/SPDOC/Substance+Painter) 裡[的智慧口罩](https://support.allegorithmic.com/documentation/display/SPDOC/Smart+Materials+and+Masks)。
 
-這個 [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 遮罩代表凸邊上的簡單泥土效果。
+這個 [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 遮罩代表凸邊上的簡單泥土效果。
 
 </td>
 </tr>
@@ -67,7 +67,7 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/selective-dirt-ex.gif" />
+            <img src="selective-dirt.resources/selective-dirt-ex.gif" />
         </td>
     </tr>
 </table>
