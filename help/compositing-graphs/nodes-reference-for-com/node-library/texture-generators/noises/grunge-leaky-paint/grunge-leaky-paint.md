@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-leaky-paint.html"
 breadcrumb-title: ''
 description: 使用 Grunge Leaky Paint 節點產生油漆滲漏圖案，以創造風化與老化的表面效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 垃圾搖滾漏漆
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungeleakypaint.jpg){width="200px"}
+![](grunge-leaky-paint.resources/grungeleakypaint.jpg){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -60,10 +60,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungeleakypaint-variant2.jpg" />
+            <img src="grunge-leaky-paint.resources/grungeleakypaint-variant2.jpg" />
         </td>
     </tr>
 </table>

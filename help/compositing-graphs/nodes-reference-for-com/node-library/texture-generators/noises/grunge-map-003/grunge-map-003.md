@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-003.html"
 breadcrumb-title: ''
 description: 使用 Grunge Map 003 節點來建立程序化的垃圾搖滾紋理，以增加表面變化和老化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 垃圾搖滾地圖 003
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungemap-003.png){width="128px"}
+![](grunge-map-003.resources/grungemap-003.png){width="128px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -56,7 +56,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungemap-003-ex.gif" />
+            <img src="grunge-map-003.resources/grungemap-003-ex.gif" />
         </td>
     </tr>
 </table>

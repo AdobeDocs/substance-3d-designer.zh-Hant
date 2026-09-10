@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-large.html"
 breadcrumb-title: ''
 description: 利用 Grunge Galvanic Large 節點產生大規模的電腐蝕圖案，以達到金屬風化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 垃圾搖滾 Galvanic Large
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 1668632724231982c98a508ae7f87642c5888648
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungegalvaniclarge.jpg){width="200px"}
+![](grunge-galvanic-large.resources/grungegalvaniclarge.jpg){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -59,10 +59,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungegalvaniclarge-variant2.jpg" />
+            <img src="grunge-galvanic-large.resources/grungegalvaniclarge-variant2.jpg" />
         </td>
     </tr>
 </table>
