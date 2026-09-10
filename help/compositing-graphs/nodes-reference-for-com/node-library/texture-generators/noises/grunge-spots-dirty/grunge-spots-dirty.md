@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
 breadcrumb-title: ''
 description: 使用 Grunge Spots 的髒污節點來添加髒污點圖案，創造風化與老化的材質效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 垃圾搖滾辨識骯髒
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 78ee271bee643682c3815dd1657d66accb2f31c4
+source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/grungespotsdirty.jpg){width="200px"}
+![](grunge-spots-dirty.resources/grungespotsdirty.jpg){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -58,10 +58,10 @@ ht-degree: 2%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespotsdirty-variant2.jpg" />
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/grungespotsdirty-variant.jpg" />
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
         </td>
     </tr>
 </table>
