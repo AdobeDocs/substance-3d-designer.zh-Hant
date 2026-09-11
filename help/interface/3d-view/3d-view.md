@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 檢視
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 以下部分簡要說明如何執行常見動作，並附上動畫動圖說明流程。
 
-![視窗導航](../../assets/3d-navigate.gif "視窗導航 視窗導航")
+![視窗導航](3d-view.resources/3d-navigate.gif "視窗導航 視窗導航")
 
 ### 導航
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 > * 滑鼠滾輪向上&#x200B;*拉近場景*
 > * 右鍵和拉動 *會把* 場景推開
 > 
-> 縮放方向可以在偏好設定[&#128279;](../../interface/preferences-window/preferences-window.md)中反轉。
+> 縮放方向可以在偏好設定](../../interface/preferences-window/preferences-window.md)中[反轉。
 
 ### 選擇與聚焦
 
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 <b>按 Esc 取消選取。</b> 游標不一定要在網格上。
 
-![3D 檢視 - 聚焦並取消選擇](../../assets/sceneBrowser-focus.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
+![3D 檢視 - 聚焦並取消選擇](3d-view.resources/sceneBrowser-focus.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
 
 *選擇、聚焦、取消選擇*
 
-![3D 視圖 - 情境選單](../../assets/sceneBrowser-contextualMenu.gif "3D 視圖 - 情境選單"){zoomable="yes"}
+![3D 視圖 - 情境選單](3d-view.resources/sceneBrowser-contextualMenu.gif "3D 視圖 - 情境選單"){zoomable="yes"}
 
 *選擇，情境選單*
 
@@ -106,7 +106,7 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 要設定精確旋轉，請在頂部 3D 檢視工具列使用 <b>環境>編輯</b> ，並在屬性視窗中更改 <b>旋轉角度</b> 滑桿。
 
-若要使用預設的 HDR 光源環境，請點選<b>庫[&#128279;](../../interface/the-library/the-library.md)中 3D View 類別</b>的 <b>HDRI 環境</b>區塊，然後拖放任意圖示至 3D 視圖。
+若要使用預設的 HDR 光源環境，請點選<b>庫](../../interface/the-library/the-library.md)中 3D View 類別</b>[的 <b>HDRI 環境</b>區塊，然後拖放任意圖示至 3D 視圖。
 
 要使用你自己自訂的 HDR 光源環境，請在檔案總管視窗中拖放檔案到套件中匯入 HDR 影像（<b></b>提示時連結該檔案）。然後拖放資源，選擇 <b>緯度/經度全景</b> 作為目標。
 
@@ -114,17 +114,17 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 到 <b>燈光>編輯屬性</b> ，切換場景中的點燈光。
 
-點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-在相機模式下 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
+在相機模式下 <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
 
 ## 以 3D 視圖檢視資料
 
-![查看 Substance 圖表輸出](../../assets/3d-material.gif "查看 Substance 圖表輸出")
+![查看 Substance 圖表輸出](3d-view.resources/3d-material.gif "查看 Substance 圖表輸出")
 
 ### 物質圖
 
-你可以在 3D 視圖中將整個材質視為完整材質。 這是最常見的工作方式，會將輸出節點[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的使用屬性與 3D 視圖材質的相關貼圖槽匹配。這表示你的輸出必須正確設定（使用模板確保如此），並且你選擇了材質/視窗著色器支援
+你可以在 3D 視圖中將整個材質視為完整材質。 這是最常見的工作方式，會將輸出節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的使用屬性與 3D 視圖材質的相關貼圖槽匹配[。這表示你的輸出必須正確設定（使用模板確保如此），並且你選擇了材質/視窗著色器支援
 
 你可以在圖表檢視中點擊 *RMB* 一個空區域[，然後在情境選單中選擇&#x200B;**「在 3D 檢視**&#x200B;中檢視輸出」選項，即可查看所有圖表的](../../interface/the-graph-view/the-graph-view.md)輸出。
 
@@ -140,19 +140,19 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 > 
 > 如果你使用包含多個單一材質的自訂網格，系統會要求你選擇要將材質指派到哪個材質槽。 使用上述任一方法，點擊老虎機確認你的選擇。 欲了解更多關於材料及其作業的資訊，請閱讀以下詳細章節。
 
-![3D 視圖中](../../assets/3d-channel.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
+![3D 視圖中](3d-view.resources/3d-channel.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
 
 ### 個別節點/圖形輸出
 
-你可以在 3D View[&#128279;](https://substance3d.adobe.com/) 中看到任何可用材質通道中的單一輸出。這種方式較少使用，但很適合預覽快速測試或沒有輸出的單一節點。
+你可以在 3D View](https://substance3d.adobe.com/) 中看到任何可用材質通道[中的單一輸出。這種方式較少使用，但很適合預覽快速測試或沒有輸出的單一節點。
 
-你可以在圖表檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中右鍵點擊任何節點，選擇<b>「在 3D 檢視</b>中檢視」即可。你會看到一份可用頻道清單，讓你分配節點。 點擊任意一鍵確認。
+你可以在圖表檢視](../../interface/the-graph-view/the-graph-view.md)中右鍵點擊[任何節點，選擇<b>「在 3D 檢視</b>中檢視」即可。你會看到一份可用頻道清單，讓你分配節點。 點擊任意一鍵確認。
 
 你也可以用 *RMB* 從圖形視圖拖放任意節點到 3D 視圖。 你會看到一份可用頻道清單，讓你分配節點。 點擊任意一鍵確認。
 
-你可以透過在 Explorer[&#128279;](../the-explorer-window/the-explorer-window.md) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
+你可以透過在 Explorer](../the-explorer-window/the-explorer-window.md) dock 中展開圖形資源[，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
 
-![查看自訂 3D 網格](../../assets/3d-mesh.gif "查看自訂 3D 網格")
+![查看自訂 3D 網格](3d-view.resources/3d-mesh.gif "查看自訂 3D 網格")
 
 ## 查看（自訂）3D 場景
 
@@ -161,7 +161,7 @@ Designer 提供十幾種預設網格。 這些網格擁有統一且可用的 UV 
 
 關於自訂 3D 場景，請前往 [「與 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md) 共作」部分。
 
-![材料性質](../../assets/3d-materials.gif "的變化 材料性質的改變")
+![材料性質](3d-view.resources/3d-materials.gif "的變化 材料性質的改變")
 
 ## 變更著色器屬性
 
@@ -184,11 +184,11 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 > * <b>光柵器/GPU 路徑追蹤器：</b> 位於渲染器設定（渲染器>編輯設定），會影響 *整個場景*。
 > * <b>OpenGL：</b> 位於材料屬性中，影響材料。
 
-![匯出場景](../../assets/3d-view-export-scene.gif "匯出場景")
+![匯出場景](3d-view.resources/3d-view-export-scene.gif "匯出場景")
 
 ## 匯出場景
 
-在此頁面[&#128279;](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)了解如何匯出 3D 場景。
+在此頁面](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)了解如何匯出 3D 場景[。
 
 ### 匯出鑲嵌網格（僅限 OpenGL 渲染器）
 
@@ -221,7 +221,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 >
 > **TDR（僅限 Windows）**
 > 
-> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
+> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議[的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
 
 ## 選單列
 
@@ -230,11 +230,11 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 +++場景
 <b>場景</b>選單處理顯示的幾何體（3D 資源）以及 3D 視圖狀態。3D 資源只包含網格，場景狀態是燈光、攝影機及相關設定，也可以包含網格。
 
-![場景選單網格](../../assets/3d-view-meshes.png "場景選單網格")
+![場景選單網格](3d-view.resources/3d-view-meshes.png "場景選單網格")
 
 
 
-<b>編輯：</b>在屬性[&#128279;](../../interface/properties/properties.md)面板載入場景選項。讓你切換 3D 網格的可見性。
+<b>編輯：</b>在屬性](../../interface/properties/properties.md)面板載入場景選項[。讓你切換 3D 網格的可見性。
 
 <b>標準原語：</b> 在 3D 視圖中顯示以下任何簡單 3D 網格。
 
@@ -276,7 +276,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <b>儲存狀態檔...： </b>將3D視圖的當前狀態儲存到 [場景狀態檔](../../working-with-3d-scenes/working-with-3d-scenes.md) （\*.sbsscn）。
 
-<b>將當前狀態儲存為預設： </b>將 3D 視圖的當前狀態設為 [場景狀態檔案](../../working-with-3d-scenes/working-with-3d-scenes.md) ，預設用於建立新 3D 視圖時。 這個檔案每次重置或初始化 3D 視圖時都會載入，並且可以在專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中設定。
+<b>將當前狀態儲存為預設： </b>將 3D 視圖的當前狀態設為 [場景狀態檔案](../../working-with-3d-scenes/working-with-3d-scenes.md) ，預設用於建立新 3D 視圖時。 這個檔案每次重置或初始化 3D 視圖時都會載入，並且可以在專案設定](../../interface/preferences-window/project-settings/project-settings.md)中設定[。
 
 <b>出口場景：</b> *（僅 Rasterizer/GPU Pathtracer 渲染器）* 將當前場景匯出為 [扁平化場景](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)，僅寫入結果場景，且會遺失原始場景的引用。 匯出場景的內容取決於所選匯出格式所支援的功能。\
 可用格式：STL、FBX、GLB、GLTF、PLY、USDC、USD、USD、USDA、USDZ、OBJ。
@@ -301,19 +301,19 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <b>編輯</b> - 在屬性視窗中編輯目前材質的設定。
 
-<b>著色器列表</b> - 目前 3D 渲染器[&#128279;](../../interface/3d-view/3d-renderers/3d-renderers.md)上所有可用的[著色器](../../glossary/glossary.md)。
+<b>著色器列表</b> - 目前 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)上所有[可用的[著色器](../../glossary/glossary.md)。
 
 <b>載入定義...： </b>（僅限 OpenGL 渲染器）讓你能載入自訂 [的 GLSLFX 著色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 著色器會加入上述清單。
 
-<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值會被帶入。
+<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值[會被帶入。
 
 <b>更名：</b> 更換本素材的標籤。
 
 <b>重置材質：</b> 將所有著色器參數重置為預設值。 如果貼圖連接到著色器的任何取樣器，它們就是斷開的。
 
-<b>將材質重設為場景狀態：</b>*（僅限 Rasterizer/GPU Pathtracer 渲染器）*&#x200B;將所有覆寫材質[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的屬性重置為場景的原始值，包括原始材質（如有的話）。
+<b>將材質重設為場景狀態：</b>*（僅限 Rasterizer/GPU Pathtracer 渲染器）*&#x200B;將所有覆寫材質](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的屬性[重置為場景的原始值，包括原始材質（如有的話）。
 
-<b>新增： </b>新增一項內容到清單中。 預設情況下未被使用，並可[透過場景瀏覽器](../../interface/3d-view/scene-browser/scene-browser.md)連接至場景材質[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
+<b>新增： </b>新增一項內容到清單中。 預設情況下未被使用，並可[透過場景瀏覽器](../../interface/3d-view/scene-browser/scene-browser.md)連接至場景材質](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)[。
 
 +++
 
@@ -402,13 +402,13 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 +++渲染器
 <b>渲染器</b>選單允許你切換 3D 渲染器，並透過<b>編輯屬性</b>動作存取目前 3D 渲染器的屬性。
 
-可用的渲染器及其設定已在此專頁[&#128279;](../../interface/3d-view/3d-renderers/3d-renderers.md)中詳述。
+可用的渲染器及其設定已在此專頁](../../interface/3d-view/3d-renderers/3d-renderers.md)中詳述[。
 
 +++
 
 ## 場景工具列
 
-**&#x200B;**&#x200B;場景工具列預設位於 3D 視圖左側邊框，提供觀看與互動場景的控制。
+****&#x200B;場景工具列預設位於 3D 視圖左側邊框，提供觀看與互動場景的控制。
 
 它還能讓你存取 [位移彈出視窗](displacement/displacement.md) 和 [場景瀏覽器](scene-browser/scene-browser.md) 底座。
 
@@ -431,7 +431,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 >[!INFO]
 >
->場景瀏覽器及其功能在專屬頁面[&#128279;](../../interface/3d-view/scene-browser/scene-browser.md)中有詳細介紹。
+>場景瀏覽器及其功能在專屬頁面](../../interface/3d-view/scene-browser/scene-browser.md)中有詳細[介紹。
 
 
 <img src="3d-view.resources/3d-view-scene-toolbar-select.png" width="24" />  <b>精選</b>
@@ -440,7 +440,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <code>左邊</code> 在場景中選擇一個網格。
 
-選擇場景中的單一網格。 選取的網格在視窗中有藍色輪廓，並在場景瀏覽器[&#128279;](../../interface/3d-view/scene-browser/scene-browser.md)中被高亮顯示。
+選擇場景中的單一網格。 選取的網格在視窗中有藍色輪廓，並在場景瀏覽器](../../interface/3d-view/scene-browser/scene-browser.md)中被高亮顯示[。
 
 選定網格會有一個情境選單，點擊右鍵即可顯示<code></code>.
 
@@ -472,25 +472,25 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <img src="3d-view.resources/3d-view-scene-toolbar-render-settings.png" width="24" />  <b>渲染器設定</b>
 
-在屬性[&#128279;](../properties/properties.md)底座中顯示目前渲染器的設定。
+在屬性](../properties/properties.md)底座中顯示目前渲染器的[設定。
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-pathtracer.png" width="24" />  <b>啟用 Pathtracer</b>
 
-切換 GPU Pathtracer[&#128279;](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器的選擇。
+切換 GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器的選擇[。
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-shadows.png" width="24" />  <b>啟用陰影</b>
 
-切換光柵化[&#128279;](3d-renderers/3d-renderers.md#rasterizer)器渲染器中即時陰影的渲染。
+切換光柵化](3d-renderers/3d-renderers.md#rasterizer)器渲染器中[即時陰影的渲染。
 
 <br>
 
 <img src="3d-view.resources/3d-view-scene-toolbar-ground-plane.png" width="24" />  <b>啟用接地平面</b>
 
-切換 Rasterizer[&#128279;](3d-renderers/3d-renderers.md#rasterizer) 和 [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器中地面平面的渲染。
+切換 Rasterizer](3d-renderers/3d-renderers.md#rasterizer) 和 [GPU Pathtracer](3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器中[地面平面的渲染。
 
 <br>
 
@@ -526,25 +526,25 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg)<b>背面剔除</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg)<b>背面剔除</b>
 
 關閉這個選項後，*你就能從兩側看到網格面*。這個選項可以和線框圖搭配使用。
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg)<b>邊界盒</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg)<b>邊界盒</b>
 
 切換網格邊界框的顯示。
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg)<b>頂點切空間</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg)<b>頂點切空間</b>
 
 以彩色裝置顯示所有頂點的切線、雙法向與法向量。
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg)<b>線框</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg)<b>線框</b>
 
 切換網格顯示為線框圖。
 
@@ -574,7 +574,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 ### 彩色通道
 
-你可以用![](../../assets/2d-view-icon-channels.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
+你可以用![](3d-view.resources/2d-view-icon-channels.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
 
 色彩頻道按鈕的&#x200B;*圖示*&#x200B;會根據目前顯示的頻道而改變&#x200B;*。<b>*</b>
 
@@ -582,4 +582,4 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 為了最準確的色彩呈現，影像預設會以&#x200B;*與螢幕*&#x200B;使用的&#x200B;*色彩空間相符的色彩空間*&#x200B;顯示。
 
-可用的控制會依專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的色彩管理模式而定。想了解更多這些控制，請參考 [本頁的色彩管理](../../color-management/color-management.md) 區。
+可用的控制會依專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的[色彩管理模式而定。想了解更多這些控制，請參考 [本頁的色彩管理](../../color-management/color-management.md) 區。
