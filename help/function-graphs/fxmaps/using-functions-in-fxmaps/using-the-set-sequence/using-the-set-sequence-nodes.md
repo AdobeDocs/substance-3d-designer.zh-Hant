@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用 SetSequence 節點來創造連續模式和程序變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 使用 SetSequence 節點
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![集合與序列節點集合](../../../../assets/image2017-3-17-15-5-5.png "與序列節點")
+![集合與序列節點集合](using-the-set-sequence-nodes.resources/image2017-3-17-15-5-5.png "與序列節點")
 
 </td>
 </tr>
@@ -61,7 +61,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![集合節點](../../../../assets/image2017-3-17-15-12-52.png "集合節點")
+![集合節點](using-the-set-sequence-nodes.resources/image2017-3-17-15-12-52.png "集合節點")
 
 </td>
 </tr>
@@ -76,7 +76,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![集合節點範例](../../../../assets/image2018-8-30-17-45-35.png "集合節點範例")
+![集合節點範例](using-the-set-sequence-nodes.resources/image2018-8-30-17-45-35.png "集合節點範例")
 
 </td>
 </tr>
@@ -95,7 +95,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![序列節點](../../../../assets/image2017-3-17-15-17-38.png "序列節點")
+![序列節點](using-the-set-sequence-nodes.resources/image2017-3-17-15-17-38.png "序列節點")
 
 </td>
 </tr>
@@ -112,17 +112,17 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![序列節點範例](../../../../assets/image2018-8-30-17-49-41.png "序列節點範例")
+![序列節點範例](using-the-set-sequence-nodes.resources/image2018-8-30-17-49-41.png "序列節點範例")
 
 </td>
 </tr>
 </table>
 
-**&#x200B;**&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
+****&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
 
 例如，你可以&#x200B;*先設定*&#x200B;一個變數，之後&#x200B;*在某個點更新*&#x200B;其值，然後&#x200B;*讀取*&#x200B;最終值，同時確保這些動作以特定順序&#x200B;*發生*。
 
-![序列節點](../../../../assets/image2018-8-30-17-52-27.png "鏈結序列節點鏈結")
+![序列節點](using-the-set-sequence-nodes.resources/image2018-8-30-17-52-27.png "鏈結序列節點鏈結")
 
 ## 可變能見度
 
@@ -148,7 +148,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限性質](../../../../assets/image2018-8-30-18-1-6.png "象限性質")
+![象限性質](using-the-set-sequence-nodes.resources/image2018-8-30-18-1-6.png "象限性質")
 
 </td>
 </tr>
@@ -167,13 +167,13 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![象限的顏色/亮度函數](../../../../assets/image2018-8-30-18-4-46.png "象限的顏色/亮度函數")
+![象限的顏色/亮度函數](using-the-set-sequence-nodes.resources/image2018-8-30-18-4-46.png "象限的顏色/亮度函數")
 
 </td>
 </tr>
 </table>
 
-![圖案散](../../../../assets/image2018-8-30-18-5-30.png "落 圖案散落")
+![圖案散](using-the-set-sequence-nodes.resources/image2018-8-30-18-5-30.png "落 圖案散落")
 
 <table>
 <tr style="border: 0;">
@@ -184,7 +184,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![Pattern rotation 的參數功能選單](../../../../assets/image2018-8-30-18-7-57.png "Pattern rotation 的參數功能選單")
+![Pattern rotation 的參數功能選單](using-the-set-sequence-nodes.resources/image2018-8-30-18-7-57.png "Pattern rotation 的參數功能選單")
 
 </td>
 </tr>
@@ -199,7 +199,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![模式旋轉 取得浮點輸出](../../../../assets/image2018-8-30-18-10-58.png "模式旋轉 取得浮點輸出")
+![模式旋轉 取得浮點輸出](using-the-set-sequence-nodes.resources/image2018-8-30-18-10-58.png "模式旋轉 取得浮點輸出")
 
 </td>
 </tr>
@@ -207,4 +207,4 @@ ht-degree: 0%
 
 光度現在也控制旋轉。
 
-![圖案旋轉](../../../../assets/image2018-8-30-18-12-25.png "圖案旋轉")
+![圖案旋轉](using-the-set-sequence-nodes.resources/image2018-8-30-18-12-25.png "圖案旋轉")

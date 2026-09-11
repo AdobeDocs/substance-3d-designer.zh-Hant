@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/constant-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 函式圖中的常數節點，以定義常數值與參數。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 恆定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 恆定
 
-常數節點是一種建立靜態值，用於 Substance 函數圖的方法。 與變[&#128279;](../../../../function-graphs/variables/variables.md)數不同，它們無法外部修改。
+常數節點是一種建立靜態值，用於 Substance 函數圖的方法。 與變](../../../../function-graphs/variables/variables.md)數不同[，它們無法外部修改。
 
 此外，本頁還提供每種資料類型及常見使用案例的額外資訊。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整數類型圖示 整數型別圖示](../../../../assets/fn-constant-integer.png "")
+![整數類型圖示 整數型別圖示](constant-nodes.resources/fn-constant-integer.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -43,8 +43,8 @@ ht-degree: 0%
 
 整數只有一個分量。 它作為選擇的索引非常有用，例如：
 
-* 選擇以下拉選單形式呈現給使用者的選項（見本頁[&#128279;](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）。
-* 選擇多交換[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的輸入。<b></b>
+* 選擇以下拉選單形式呈現給使用者的選項（見本頁](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）[。
+* 選擇多交換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的[輸入。<b></b>
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant-nodes.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 Integer2 節點會產生一個靜態的 2 分量整數向量，分量為 （X， Y）。
 
-Integer2 並不常見，但例如用於在圖塊產生器[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)中設定 X 和 Y 的二維平鋪。
+Integer2 並不常見，但例如用於在圖塊產生器](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)中設定 X 和 Y 的二維平鋪[。
 
 </td>
 </tr>
@@ -77,7 +77,7 @@ Integer2 並不常見，但例如用於在圖塊產生器[&#128279;](../../../..
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 類型圖示](../../../../assets/fn-constant-integer3.png "Integer3 類型圖示")
+![Integer3 類型圖示](constant-nodes.resources/fn-constant-integer3.png "Integer3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -97,7 +97,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 類型圖示](../../../../assets/fn-constant-integer4.png "Integer4 類型圖示")
+![Integer4 類型圖示](constant-nodes.resources/fn-constant-integer4.png "Integer4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -123,7 +123,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮點類型圖示](../../../../assets/fn-constant-float.png "浮點類型圖示")
+![浮點類型圖示](constant-nodes.resources/fn-constant-float.png "浮點類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 類型圖示](../../../../assets/fn-constant-float2.png "Float2 類型圖示")
+![Float2 類型圖示](constant-nodes.resources/fn-constant-float2.png "Float2 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -157,7 +157,7 @@ Float2 節點會產生靜態的雙成分 Float 向量。 分量命名為 X、Y�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 類型圖示](../../../../assets/fn-constant-float3.png "Float3 類型圖示")
+![Float3 類型圖示](constant-nodes.resources/fn-constant-float3.png "Float3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -175,7 +175,7 @@ Float3 節點會產生一個靜態的三成分浮點向量。 元件名稱為 X�
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 類型圖示](../../../../assets/fn-constant-float4.png "Float4 類型圖示")
+![Float4 類型圖示](constant-nodes.resources/fn-constant-float4.png "Float4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -191,20 +191,20 @@ Float4 會產生靜態的四分量浮點向量。元件名稱為 X、Y、Z、W�
 
 ## 其他
 
-Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 字串與 Text[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) 節點一同在 Designer 6 版本中引入。
+Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 字串與 Text](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md) 節點一同[在 Designer 6 版本中引入。
 
 <table>
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布林型別圖示](../../../../assets/fn-constant-boolean.png "")
+![布林型別圖示](constant-nodes.resources/fn-constant-boolean.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
 <b>布林值</b>
 
-布林值是最簡單的資料型態，只知道兩個狀態：真或假、1 或 0。 它以白色表示。 在不施放[&#128279;](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用邏輯節點的情況下，無法在布[林與整數之間交換。](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 布林運算相當常見，是控制函數或圖流的絕佳方式，典型的用途是切換 [節點。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
+布林值是最簡單的資料型態，只知道兩個狀態：真或假、1 或 0。 它以白色表示。 在不施放](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/cast-nodes/cast-nodes.md)或使用[邏輯節點的情況下，無法在布[林與整數之間交換。](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/logical-nodes/logical-nodes.md) 布林運算相當常見，是控制函數或圖流的絕佳方式，典型的用途是切換 [節點。](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/switch/switch.md)<b></b>
 
 </td>
 </tr>
@@ -214,7 +214,7 @@ Substance 函式圖中還有兩種額外的資料型態：布林值與字串。 
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![字串類型圖示](../../../../assets/fn-constant-string.png "字串類型圖示")
+![字串類型圖示](constant-nodes.resources/fn-constant-string.png "字串類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">

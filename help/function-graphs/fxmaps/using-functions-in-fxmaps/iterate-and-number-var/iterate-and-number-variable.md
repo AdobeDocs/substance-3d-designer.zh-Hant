@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-variable.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用迭代和數字變數來創造循環模式和程序變化。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 迭代與數值變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4e61f5588fb279e139240ac5939d6b7e58e1027a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 # 迭代並$number變數
 
-![](../../../../assets/iterate-1.jpg)
+![](iterate-and-number-variable.resources/iterate-1.jpg)
 
 迭代節點會依照迭代值指定的時間，將連接到正確輸出的節點渲染出來。
 
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../../../assets/1-iteration.png"/></div> | 1 次迭代：高斯圖案被渲染一次 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="iterate-and-number-variable.resources/1-iteration.png"/></div> | 1 次迭代：高斯圖案被渲染一次 |
 | --- | --- |
-| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../../../assets/10-iterations.png"/></div> | 10 次迭代：高斯圖案在同一位置渲染 10 次 |
+| <div><img class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="iterate-and-number-variable.resources/10-iterations.png"/></div> | 10 次迭代：高斯圖案在同一位置渲染 10 次 |
 
 使用迭代節點時，可以用 $number 變數取得目前的迭代值。 $number 是一個浮動值，起始數為 0。
 
@@ -34,12 +34,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/position-function.jpg){width="300px"}
+![](iterate-and-number-variable.resources/position-function.jpg){width="300px"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../../assets/10-iterations-position-function.png){width="300px"}
+![](iterate-and-number-variable.resources/10-iterations-position-function.png){width="300px"}
 
 </td>
 </tr>
