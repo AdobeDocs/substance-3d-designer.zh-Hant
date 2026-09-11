@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/fibers-1.html"
 breadcrumb-title: ''
 description: 使用 Fibers 1 節點來建立基本的纖維貼圖，用來模擬布料、頭髮和纖維材質。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 ## 說明
 
-簡單的纖維狀圖案。 可用於  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中，用於繩索、網格或布料的高度圖與細節。
+簡單的纖維狀圖案。 可用於  [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 中，用於繩索、網格或布料的高度圖與細節。
 
 </td>
 </tr>
