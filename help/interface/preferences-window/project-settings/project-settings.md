@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/project-settings.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window/project-settings.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 偏好設定中設定專案，以自訂預設專案行為。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 專案設定
 
-本頁呈現 <b>Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中的專案設定</b>，以及其中包含的設定。
+本頁呈現 <b>Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中的專案設定</b>，以及其中包含的設定。
 
 Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並在工作站間分享。這些偏好設定可在偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)視窗的專案</b>標籤中找到<b>。
 
@@ -97,8 +97,8 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 | <b>預設資源名稱</b> | 這個設定讓你可以設定預設 **的命名範本，該範本** 會用於輸出影像檔案。 烘焙視窗中可用的[別名也可以在這裡使用（例如 *$（mesh）、**$（bakername）、**$（udim）、**$（custom）*）。<br><br>*預設：$（mesh）\_$（bakername）](../../../bakers/bakers.md)* |
 | <b>預設預設</b> | 打開[烘焙視窗](../../../bakers/bakers.md)時，你可以用這個選項指向預設&#x200B;*的 JSON* 檔案，讓它&#x200B;**已經設定**&#x200B;好特定的烘焙器和設定。這個檔案設定好後，可以依照你的需求&#x200B;<br><br>*從烘焙視窗匯出 預設：無* |
 | <b>名稱過濾模式</b> | 場景物件名稱應該用來匹配低多邊形與高多邊形場景物件：<ul data-preserve-html="true"> <li data-preserve-html="true">幾何名稱：使用網格幾何物件名稱</li> <li data-preserve-html="true">父名稱（Legacy）：使用網格幾何物件的父名稱（與 Designer 14.1 及以下版本相同）</li> </ul>*預設：幾何名稱* |
-| <b>資源名稱巨集</b> | 你可以用&#x200B;*自己的字串來替代 [$（bakername）* 別名，為每個烘焙師](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)設定。當  ***$（custom）*** 別名被用於輸出圖片名稱時，該別名會被與該烘焙者列表相符的字串取代。 如果列表中對應烘焙者的儲存格留空，*則該烘焙師的 $（custom）* 別名不會&#x200B;**&#x200B;被替換。範例：指派給「Curvature Map From Mesh」烘焙器的「c-mesh」值會自動將 t\_mymesh\_**$（custom）***重新命名*為 *t\_mymesh\_**&#x200B;c-mesh***，用於 Curvature From Mesh *的輸出。預設&#x200B;*<br><br>*：無* |
-| <b>子網格名稱濾波器</b> | 在烘焙者中使用&#x200B;**「按名稱**&#x200B;匹配」選項[時，若低畫質和高解析度網格的部分&#x200B;**&#x200B;**&#x200B;**&#x200B;名稱相同，則會被&#x200B;*匹配。*](../../../bakers/bakers.md)這個設定讓你可以自訂後綴，以符合你的工作流程。 網格部分匹配可以讓光線在烘焙操作中忽略不想要的幾何形狀。舉例來說：body.fbx *網格中的* body-torso &#x200B;**\_low ***物件會與* body\_high.fbx 中的 *body-torso &#x200B;**\\_high&#x200B;*** 物件相匹配，**&#x200B;前提是這些物件&#x200B;*存在於這些網格中。**預設：\_low（低多邊形網格）/ \_high（高多邊形網格）*&#x200B;同樣地，**&#x200B;**&#x200B;對於網格中包含定義&#x200B;**&#x200B;後綴&#x200B;**&#x200B;的部分，背面也可以&#x200B;*選擇性忽略*，對特定烘焙**&#x200B;者[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)則包含忽略 Ignore Backface ***選項<br><br>*&#x200B;預設：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多邊形網格後綴可*任意順序*組合（例如 *body-torso\_low\_ignorebf*） |
+| <b>資源名稱巨集</b> | 你可以用&#x200B;*自己的字串來替代 [$（bakername）* 別名，為每個烘焙師](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/bakers-settings)設定。當  ***$（custom）*** 別名被用於輸出圖片名稱時，該別名會被與該烘焙者列表相符的字串取代。 如果列表中對應烘焙者的儲存格留空，*則該烘焙師的 $（custom）* 別名不會&#x200B;**&#x200B;被替換。範例：指派給「Curvature Map From Mesh」烘焙器的「c-mesh」值會自動將 t\_mymesh\_**$（custom）***重新命名*為 *t\_mymesh\_**&#x200B;c-mesh***，用於 Curvature From Mesh *的輸出。預設&#x200B;*<br><br>*：無* |
+| <b>子網格名稱濾波器</b> | 在烘焙者中使用&#x200B;**「按名稱**&#x200B;匹配」選項[時，若低畫質和高解析度網格的部分&#x200B;**&#x200B;**&#x200B;**&#x200B;名稱相同，則會被&#x200B;*匹配。*](../../../bakers/bakers.md)這個設定讓你可以自訂後綴，以符合你的工作流程。 網格部分匹配可以讓光線在烘焙操作中忽略不想要的幾何形狀。舉例來說：body.fbx *網格中的* body-torso &#x200B;**\_low ***物件會與* body\_high.fbx 中的 *body-torso &#x200B;**\\_high&#x200B;*** 物件相匹配，**&#x200B;前提是這些物件&#x200B;*存在於這些網格中。**預設：\_low（低多邊形網格）/ \_high（高多邊形網格）*&#x200B;同樣地，**&#x200B;**&#x200B;對於網格中包含定義&#x200B;**&#x200B;後綴&#x200B;**&#x200B;的部分，背面也可以&#x200B;*選擇性忽略*，對特定烘焙**&#x200B;者[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/bakers-settings)則包含忽略 Ignore Backface ***選項<br><br>*&#x200B;預設：\_ignorebf *<br><br>*&#x200B;注意：*忽略背面和低/高多邊形網格後綴可*任意順序*組合（例如 *body-torso\_low\_ignorebf*） |
 
 ### 色彩管理
 
@@ -136,7 +136,7 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 
 *預設：已勾選*
 
-如果 [函式庫中包含的 Photoshop](https://www.adobe.com/products/photoshop.html) 文件（\*.PSD 檔案）有多 <b>層圖層</b>，則有選項允許您在庫中將每個圖層的內容*&#x200B;作為獨立的影像條目* 顯示。
+如果 [函式庫中包含的 Photoshop](https://www.adobe.com/tw/products/photoshop.html) 文件（\*.PSD 檔案）有多 <b>層圖層</b>，則有選項允許您在庫中將每個圖層的內容*&#x200B;作為獨立的影像條目* 顯示。
 
 *預設：已勾選*
 

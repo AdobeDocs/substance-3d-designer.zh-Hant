@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/dependency-manager.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/dependency-manager.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的相依性管理器來檢視和管理專案中的資源相依。
 helpx_creative_field: ""
