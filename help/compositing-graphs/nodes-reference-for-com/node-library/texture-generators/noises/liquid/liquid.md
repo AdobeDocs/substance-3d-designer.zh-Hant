@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 說明
 
-這是高斯雜訊](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的一種簡單變體[，它[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)會自我扭曲，產生液態效果。
+這是高斯雜訊[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/gaussian-noise/gaussian-noise.md)的一種簡單變體，它[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)會自我扭曲，產生液態效果。
 
 </td>
 </tr>
