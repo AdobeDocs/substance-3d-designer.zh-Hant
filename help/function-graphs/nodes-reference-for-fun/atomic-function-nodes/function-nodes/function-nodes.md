@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/function-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 功能圖中的功能節點，以呼叫並執行自訂功能圖。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 功能
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f28a2ba2531cfc4456744ff151432ed8308275ec
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -27,7 +27,7 @@ ht-degree: 1%
 ## 節點列表
 
 +++砰
-![Pow 節點圖示](../../../../assets/Pow_Node.jpg "Pow 節點圖示")
+![Pow 節點圖示](function-nodes.resources/Pow_Node.jpg "Pow 節點圖示")
 
 
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 +++
 
 +++2Pow
-![2Pow 節點圖示](../../../../assets/2Pow_Node.jpg "2Pow 節點圖示")
+![2Pow 節點圖示](function-nodes.resources/2Pow_Node.jpg "2Pow 節點圖示")
 
 
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 +++
 
 +++平方根
-![平方根節點圖示](../../../../assets/SquareRoot_Node.jpg "平方根節點圖示")
+![平方根節點圖示](function-nodes.resources/SquareRoot_Node.jpg "平方根節點圖示")
 
 
 
@@ -54,7 +54,7 @@ ht-degree: 1%
 +++
 
 +++指數
-![指數節點圖示](../../../../assets/Exponential_Node.jpg "指數節點圖示")
+![指數節點圖示](function-nodes.resources/Exponential_Node.jpg "指數節點圖示")
 
 
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 +++
 
 +++對數
-![對數節點圖示](../../../../assets/Logarithm_Node.jpg "對數節點圖示")
+![對數節點圖示](function-nodes.resources/Logarithm_Node.jpg "對數節點圖示")
 
 
 
@@ -74,7 +74,7 @@ ht-degree: 1%
 +++
 
 +++對數底數為2
-![對數進位 2 節點圖示](../../../../assets/LogarithmBase2_Node.jpg "對數進位 節點 2 進位圖示")
+![對數進位 2 節點圖示](function-nodes.resources/LogarithmBase2_Node.jpg "對數進位 節點 2 進位圖示")
 
 
 
@@ -83,7 +83,7 @@ ht-degree: 1%
 +++
 
 +++絕對
-![絕對節點圖示](../../../../assets/Absolute_Node.jpg "絕對節點圖示")
+![絕對節點圖示](function-nodes.resources/Absolute_Node.jpg "絕對節點圖示")
 
 
 
@@ -92,7 +92,7 @@ ht-degree: 1%
 +++
 
 +++凱爾
-![Ceil 節點圖示](../../../../assets/Ceil_Node.jpg "Ceil 節點 圖示")
+![Ceil 節點圖示](function-nodes.resources/Ceil_Node.jpg "Ceil 節點 圖示")
 
 
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 +++
 
 +++下限
-![地板節點圖示](../../../../assets/Floor_Node.jpg "地板節點圖示")
+![地板節點圖示](function-nodes.resources/Floor_Node.jpg "地板節點圖示")
 
 
 
@@ -110,7 +110,7 @@ ht-degree: 1%
 +++
 
 +++線性插值
-![線性插值節點圖示線性插值節點圖示](../../../../assets/LinearInterpolation_Node.jpg "")
+![線性插值節點圖示線性插值節點圖示](function-nodes.resources/LinearInterpolation_Node.jpg "")
 
 
 
@@ -119,7 +119,7 @@ ht-degree: 1%
 +++
 
 +++最低限度
-![最小節點圖示 最小節點圖示](../../../../assets/Minimum_Node.jpg "")
+![最小節點圖示 最小節點圖示](function-nodes.resources/Minimum_Node.jpg "")
 
 
 
@@ -128,7 +128,7 @@ ht-degree: 1%
 +++
 
 +++極限
-![最大節點圖示 最大節點圖示](../../../../assets/Maximum_Node.jpg "")
+![最大節點圖示 最大節點圖示](function-nodes.resources/Maximum_Node.jpg "")
 
 
 
@@ -137,7 +137,7 @@ ht-degree: 1%
 +++
 
 +++餘弦
-![餘弦節點圖示](../../../../assets/Cosine_Node.jpg "餘弦結圖示")
+![餘弦節點圖示](function-nodes.resources/Cosine_Node.jpg "餘弦結圖示")
 
 
 
@@ -146,7 +146,7 @@ ht-degree: 1%
 +++
 
 +++正弦
-![正弦節圖示](../../../../assets/Sine_Node.jpg "正弦節圖示")
+![正弦節圖示](function-nodes.resources/Sine_Node.jpg "正弦節圖示")
 
 
 
@@ -155,7 +155,7 @@ ht-degree: 1%
 +++
 
 +++正切
-![切節點圖示切節點圖示](../../../../assets/Tangent_Node.jpg "")
+![切節點圖示切節點圖示](function-nodes.resources/Tangent_Node.jpg "")
 
 
 
@@ -164,7 +164,7 @@ ht-degree: 1%
 +++
 
 +++弧切線2
-![弧切線 2 節點圖示](../../../../assets/ArcTangent2_Node.jpg "弧切線 2 節點圖示")
+![弧切線 2 節點圖示](function-nodes.resources/ArcTangent2_Node.jpg "弧切線 2 節點圖示")
 
 
 
@@ -177,7 +177,7 @@ ht-degree: 1%
 +++
 
 +++笛卡兒
-![絕對節點圖示](../../../../assets/Absolute_Node.jpg "絕對節點圖示")
+![絕對節點圖示](function-nodes.resources/Absolute_Node.jpg "絕對節點圖示")
 
 
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 +++
 
 +++隨機
-![隨機節點圖示](../../../../assets/Random_Node.jpg "隨機節點圖示")
+![隨機節點圖示](function-nodes.resources/Random_Node.jpg "隨機節點圖示")
 
 
 
