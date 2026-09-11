@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管理自訂內容與過濾器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 這表示只要有一個或多個專案檔案，你可以設定應該加入 <b>函式庫</b>的內容資料夾，以及分類和篩選器來排序和整理這些內容。
 
-![圖書館](../../../assets/library-filters.png "中的自訂內容 圖書館中的自訂內容")
+![圖書館](managing-custom-content-and-filters.resources/library-filters.png "中的自訂內容 圖書館中的自訂內容")
 
 ## 圖屬性
 
@@ -57,11 +57,11 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 
 分類（即資料夾）和篩選器是透過以下按鈕建立與編輯的：
 
-<b>![](../../../assets/library-icon-new-folder.png) 新增資料夾：</b> 在圖書館檢視中建立可擴充的資料夾。 你 *無法* 建立子資料夾。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-folder.png) 新增資料夾：</b> 在圖書館檢視中建立可擴充的資料夾。 你 *無法* 建立子資料夾。
 
-<b>![](../../../assets/library-icon-new-filter.png) 新增過濾器：</b> 在所選資料夾中新增一個新的過濾器。 你 *無法* 在現有的預設資料夾中新增過濾器。
+<b>![](managing-custom-content-and-filters.resources/library-icon-new-filter.png) 新增過濾器：</b> 在所選資料夾中新增一個新的過濾器。 你 *無法* 在現有的預設資料夾中新增過濾器。
 
-<b>![](../../../assets/library-icon-edit.png) 編輯項目：</b> 編輯目前選取的資料夾或過濾器。 你 *無法* 編輯預設資料夾和過濾器的任何屬性。
+<b>![](managing-custom-content-and-filters.resources/library-icon-edit.png) 編輯項目：</b> 編輯目前選取的資料夾或過濾器。 你 *無法* 編輯預設資料夾和過濾器的任何屬性。
 
 要 *移除* 資料夾或過濾器，請 *右鍵點擊* 該資料夾，然後從上下文選單中選擇 <b>「移除</b> 」選項。
 
@@ -76,7 +76,7 @@ SBS 與 SBSAR 檔案中的圖表[可&#x200B;*透過圖屬性區塊中的資料](
 >
 > 正確設定這些檔案非常重要&#x200B;**，以確保你編輯&#x200B;*的是正確的專案*！
 
-![自訂濾鏡版](../../../assets/library-filters-edit.png "自訂濾鏡版")
+![自訂濾鏡版](managing-custom-content-and-filters.resources/library-filters-edit.png "自訂濾鏡版")
 
 **過濾器**&#x200B;通常需要設定&#x200B;**&#x200B;條件以達成過濾目的。這些條件依據以下標準進行配置：
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 工作流程概述
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 [圖類型](#graph-types)
 
-![資料流程簡化](../../assets/graph-direction.png "資料流程簡化")
+![資料流程簡化](workflow-overview.resources/graph-direction.png "資料流程簡化")
 
 ## 基於節點的工作流程
 
@@ -40,7 +40,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 主要優點是你的工作流程會變得 <b>非線性</b>。 與手動執行的操作進入歷史堆疊不同，你隨時可以更換或修改節點。 如果你覺得第一次調整對比度，影響了整個影像效果，結果一直到最後，還是可以回頭調整，甚至完全刪掉，而不會失去後續所做的所有工作。
 
-![圖實例簡化](../../assets/sub-graph.png "圖實例")
+![圖實例簡化](workflow-overview.resources/sub-graph.png "圖實例")
 
 ## 圖實例工作流程
 
@@ -48,7 +48,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 
 關於實體圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中圖實例的更多資訊，文件[中有專門的章節](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
-![圖參數簡化](../../assets/parameters-5.png "圖參數")
+![圖參數簡化](workflow-overview.resources/parameters-5.png "圖參數")
 
 ## 自訂參數
 
@@ -62,7 +62,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/graph-5.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -84,7 +84,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 以下是一些常見的使用案例範例。
 
 +++簡單的形狀
-![Substance 圖中的簡單形狀 Substance 圖](../../assets/simpleshape.png "中的簡單"){width="512px"}
+![Substance 圖中的簡單形狀 Substance 圖](workflow-overview.resources/simpleshape.png "中的簡單"){width="512px"}
 
 
 
@@ -95,7 +95,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++調整濾波器
-![Substance 圖](../../assets/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
+![Substance 圖](workflow-overview.resources/simplefilter.png "中的調整濾波器 Substance 圖中的調整濾波器"){width="512px"}
 
 
 
@@ -106,7 +106,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++完整內容
-![Substance 圖表](../../assets/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
+![Substance 圖表](workflow-overview.resources/simplematerial.png "中的完整內容 Substance 圖表中完整資料"){width="512px"}
 
 
 
@@ -120,7 +120,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-[![](../../assets/function-1.png){width="120px"}](https://substance3d.adobe.com/)
+[![](workflow-overview.resources/function-1.png){width="120px"}](https://substance3d.adobe.com/)
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -140,7 +140,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 以下是 Substance 函數圖常見使用案例中的一些範例。
 
 +++簡單函數
-![簡單函數圖簡單函數圖](../../assets/lerpfunction.png ""){width="256px"}
+![簡單函數圖簡單函數圖](workflow-overview.resources/lerpfunction.png ""){width="256px"}
 
 
 
@@ -151,7 +151,7 @@ Substance 圖是[支援最廣泛的圖](../../getting-started/overview/overview.
 +++
 
 +++進階功能
-![進階功能](../../assets/pixel-function.png "進階功能"){width="512px"}
+![進階功能](workflow-overview.resources/pixel-function.png "進階功能"){width="512px"}
 
 
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 瓷磚樣本
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-sampler.png){width="128px"}
+![](tile-sampler.resources/tile-sampler.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -122,7 +122,7 @@ Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex2.png" /><br><i>範例說明參數如何由輸入映射（圖案分布、比例、旋轉）驅動。</i>
+            <img src="tile-sampler.resources/tilesampler-ex2.png" /><br><i>範例說明參數如何由輸入映射（圖案分布、比例、旋轉）驅動。</i>
         </td>
     </tr>
 </table>

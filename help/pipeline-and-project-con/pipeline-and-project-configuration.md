@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管線與專案配置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Designer 有三個層級或組態檔，每個層級都有不同的用途。 在 
 </td>
 <td style="border: 0;" valign="top">
 
-![設定檔案階層](../assets/filestructureoverview.png "設定檔案階層")
+![設定檔案階層](pipeline-and-project-configuration.resources/filestructureoverview.png "設定檔案階層")
 
 </td>
 </tr>

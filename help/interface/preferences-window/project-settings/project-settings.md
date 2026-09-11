@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 專案設定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
 workflow-type: tm+mt
 source-wordcount: '2687'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Substance 3D Designer 允許你為每個專案&#x200B;*建立偏好設定*，並
 >
 > 如需更多關於如何在生產流程&#x200B;**中建立及整合 Substance 3D Designer**&#x200B;的資訊，我們&#x200B;*強烈建議*&#x200B;參考[文件中的管線與專案設定](../../../pipeline-and-project-con/pipeline-and-project-configuration.md)章節。
 
-![專案設定](../../../assets/2019-3-0-prefs-proj-01.png "專案設定"){zoomable="yes"}
+![專案設定](project-settings.resources/2019-3-0-prefs-proj-01.png "專案設定"){zoomable="yes"}
 
 ## 配置
 

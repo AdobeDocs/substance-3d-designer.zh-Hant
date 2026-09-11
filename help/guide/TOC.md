@@ -602,7 +602,7 @@ ht-degree: 3%
           + [物理太陽/天空](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/physical-sun-sky/physical-sun-sky.md)
           + [平面燈](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/plane-light/plane-light.md)
           + [形狀燈](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md)
-          + [球光](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/sphere-light/sphere-light.md)
+          + [球形光](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/sphere-light/sphere-light.md)
           + [拉直地平線](/help/compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/straighten-horizon/straighten-horizon.md)
       + 價值觀{#values}
         + [恆定](/help/compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)

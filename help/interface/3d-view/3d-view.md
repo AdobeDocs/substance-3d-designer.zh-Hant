@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 檢視
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
 workflow-type: tm+mt
 source-wordcount: '3514'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 以下部分簡要說明如何執行常見動作，並附上動畫動圖說明流程。
 
-![視窗導航](../../assets/3d-navigate.gif "視窗導航 視窗導航")
+![視窗導航](3d-view.resources/3d-navigate.gif "視窗導航 視窗導航")
 
 ### 導航
 
@@ -84,11 +84,11 @@ ht-degree: 0%
 
 <b>按 Esc 取消選取。</b> 游標不一定要在網格上。
 
-![3D 檢視 - 聚焦並取消選擇](../../assets/sceneBrowser-focus.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
+![3D 檢視 - 聚焦並取消選擇](3d-view.resources/sceneBrowser-focus.gif "3D 檢視 - 聚焦與取消選擇"){zoomable="yes"}
 
 *選擇、聚焦、取消選擇*
 
-![3D 視圖 - 情境選單](../../assets/sceneBrowser-contextualMenu.gif "3D 視圖 - 情境選單"){zoomable="yes"}
+![3D 視圖 - 情境選單](3d-view.resources/sceneBrowser-contextualMenu.gif "3D 視圖 - 情境選單"){zoomable="yes"}
 
 *選擇，情境選單*
 
@@ -114,13 +114,13 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 到 <b>燈光>編輯屬性</b> ，切換場景中的點燈光。
 
-點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="../../assets/image2020-9-17-10-30-37.png" width="24" />
+點光 1 可以透過按住 LMB 或 RMB 並在光照模式下拖曳視窗來繞過場景原點移動。 <img src="3d-view.resources/image2020-9-17-10-30-37.png" width="24" />
 
-在相機模式下 <img src="../../assets/image2020-9-17-10-31-32.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
+在相機模式下 <img src="3d-view.resources/image2020-9-17-10-31-32.png" width="24" /> 你也可以暫時切換到光影模式，方法是同時按住 Ctrl+⇧ 鍵搭配滑鼠按鍵。
 
 ## 以 3D 視圖檢視資料
 
-![查看 Substance 圖表輸出](../../assets/3d-material.gif "查看 Substance 圖表輸出")
+![查看 Substance 圖表輸出](3d-view.resources/3d-material.gif "查看 Substance 圖表輸出")
 
 ### 物質圖
 
@@ -140,7 +140,7 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 > 
 > 如果你使用包含多個單一材質的自訂網格，系統會要求你選擇要將材質指派到哪個材質槽。 使用上述任一方法，點擊老虎機確認你的選擇。 欲了解更多關於材料及其作業的資訊，請閱讀以下詳細章節。
 
-![3D 視圖中](../../assets/3d-channel.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
+![3D 視圖中](3d-view.resources/3d-channel.gif "檢視節點與圖形輸出 3D 視圖中檢視節點與圖形輸出")
 
 ### 個別節點/圖形輸出
 
@@ -152,7 +152,7 @@ Designer 預設支援基於影像的光照（IBL）。 使用高動態範圍點�
 
 你可以透過在 Explorer[&#128279;](../the-explorer-window/the-explorer-window.md) dock 中展開圖形資源，並用 *LMB* 將該輸出拖曳到 3D 視圖，來查看任何單一的圖形輸出。你會看到一份可用頻道清單，讓你指派節點。 點擊任意一鍵確認。
 
-![查看自訂 3D 網格](../../assets/3d-mesh.gif "查看自訂 3D 網格")
+![查看自訂 3D 網格](3d-view.resources/3d-mesh.gif "查看自訂 3D 網格")
 
 ## 查看（自訂）3D 場景
 
@@ -161,7 +161,7 @@ Designer 提供十幾種預設網格。 這些網格擁有統一且可用的 UV 
 
 關於自訂 3D 場景，請前往 [「與 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md) 共作」部分。
 
-![材料性質](../../assets/3d-materials.gif "的變化 材料性質的改變")
+![材料性質](3d-view.resources/3d-materials.gif "的變化 材料性質的改變")
 
 ## 變更著色器屬性
 
@@ -184,7 +184,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 > * <b>光柵器/GPU 路徑追蹤器：</b> 位於渲染器設定（渲染器>編輯設定），會影響 *整個場景*。
 > * <b>OpenGL：</b> 位於材料屬性中，影響材料。
 
-![匯出場景](../../assets/3d-view-export-scene.gif "匯出場景")
+![匯出場景](3d-view.resources/3d-view-export-scene.gif "匯出場景")
 
 ## 匯出場景
 
@@ -230,7 +230,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 +++場景
 <b>場景</b>選單處理顯示的幾何體（3D 資源）以及 3D 視圖狀態。3D 資源只包含網格，場景狀態是燈光、攝影機及相關設定，也可以包含網格。
 
-![場景選單網格](../../assets/3d-view-meshes.png "場景選單網格")
+![場景選單網格](3d-view.resources/3d-view-meshes.png "場景選單網格")
 
 
 
@@ -526,25 +526,25 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <br>
 
-![](../../assets/3d-view-display-backface-culling.jpg)<b>背面剔除</b>
+![](3d-view.resources/3d-view-display-backface-culling.jpg)<b>背面剔除</b>
 
 關閉這個選項後，*你就能從兩側看到網格面*。這個選項可以和線框圖搭配使用。
 
 <br>
 
-![](../../assets/3d-view-display-bounding-box.jpg)<b>邊界盒</b>
+![](3d-view.resources/3d-view-display-bounding-box.jpg)<b>邊界盒</b>
 
 切換網格邊界框的顯示。
 
 <br>
 
-![](../../assets/3d-view-display-vertex-tangent-space.jpg)<b>頂點切空間</b>
+![](3d-view.resources/3d-view-display-vertex-tangent-space.jpg)<b>頂點切空間</b>
 
 以彩色裝置顯示所有頂點的切線、雙法向與法向量。
 
 <br>
 
-![](../../assets/3d-view-display-wireframe.jpg)<b>線框</b>
+![](3d-view.resources/3d-view-display-wireframe.jpg)<b>線框</b>
 
 切換網格顯示為線框圖。
 
@@ -574,7 +574,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 ### 彩色通道
 
-你可以用![](../../assets/2d-view-icon-channels.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
+你可以用![](3d-view.resources/2d-view-icon-channels.png)<b>「色彩通道」</b>按鈕顯示圖片的單一通道。這會開啟一個組合框，讓你選擇顯示紅<b></b>、<b>綠</b><b>、藍</b>三頻道。透過選擇 <b>RGB</b> 選項，所有通道影像的正常畫面會被恢復。
 
 色彩頻道按鈕的&#x200B;*圖示*&#x200B;會根據目前顯示的頻道而改變&#x200B;*。<b>*</b>
 

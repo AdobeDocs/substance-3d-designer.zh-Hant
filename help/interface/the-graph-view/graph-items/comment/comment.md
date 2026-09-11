@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 留言
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![留言圖示](../../../../assets/graphatomic-comment_1.png "留言圖示")
+![留言圖示](comment.resources/graphatomic-comment_1.png "留言圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -91,7 +91,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![留言：家長留言](../../../../assets/graph-comment_parented.gif "留言：受保護留言")
+![留言：家長留言](comment.resources/graph-comment_parented.gif "留言：受保護留言")
 
 </td>
 </tr>
@@ -99,10 +99,10 @@ ht-degree: 0%
 
 ## HTML 格式化
 
-文字可以用 HTML 標籤來格式化。 這種格式是透過![](../../../../assets/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
+文字可以用 HTML 標籤來格式化。 這種格式是透過![](comment.resources/graph-frames_html-markup-button.png)<b>評論<b>的 Description</b> 屬性中的 HTML 標記</b>按鈕切換的。
 
 >[!TIP]
 >
 > 想了解更多此功能，請參閱<b>框架[&#128279;](../../../../interface/the-graph-view/graph-items/frame/frame.md)文件的說明</b>部分。
 
-![註解：HTML 標記](../../../../assets/graph-comment_html-markup.gif "註解：HTML 標記")
+![註解：HTML 標記](comment.resources/graph-comment_html-markup.gif "註解：HTML 標記")

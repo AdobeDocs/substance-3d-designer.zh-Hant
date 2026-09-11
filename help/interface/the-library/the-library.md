@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖書館
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁介紹 **Substance 3D Designer 的函式庫** 面板、其版面設計，以及提供搜尋和篩選內容的工具。
 
-![圖書館圖書館](../../assets/library-main.png "")
+![圖書館圖書館](the-library.resources/library-main.png "")
 
 ## 概觀
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![從函式庫](../../assets/library-create-node.gif "中丟棄節點 從庫中丟棄節點")
+![從函式庫](the-library.resources/library-create-node.gif "中丟棄節點 從庫中丟棄節點")
 
 </td>
 </tr>
@@ -112,14 +112,14 @@ ht-degree: 0%
 ### 以名稱搜尋資產
 
 位於內容</b>區左上角<b>的<b>搜尋</b>欄，讓你可以依名稱&#x200B;*搜尋*&#x200B;任何資產。以這種方式搜尋內容時，分類區的當前選擇<b></b>會被忽略，而是&#x200B;*搜尋整個圖書館</b>中<b>的內容*。\
-你可以依圖表類型&#x200B;*篩選搜尋結果*，使用![](../../assets/library-icon-search-filter.png)<b>搜尋</b><b>欄旁的「篩選...</b>」圖示。
+你可以依圖表類型&#x200B;*篩選搜尋結果*，使用![](the-library.resources/library-icon-search-filter.png)<b>搜尋</b><b>欄旁的「篩選...</b>」圖示。
 
 >[!NOTE]
 >
 > 搜尋欄會考慮你尋找的資產名稱，也會 *包含該資產可能包含的標籤* ，或 *是它所屬的類別* 。\
 > 例如，輸入「*Normal*」會列出所有可用來產生或修改法線貼圖的資產。 這是發掘新節點、進而產生新可能性的好方法！
 
-![圖書館](../../assets/library-search-2.png "中的資產搜尋圖書館中的資產搜尋")
+![圖書館](the-library.resources/library-search-2.png "中的資產搜尋圖書館中的資產搜尋")
 
 <table>
 <tr style="border: 0;">
@@ -127,12 +127,12 @@ ht-degree: 0%
 
 ### 庫資產視覺化
 
-透過![](../../assets/library-icon-view-mode.png)<b>顯示模式</b>下拉按鈕，你可以選擇內容項目的顯示大小。
+透過![](the-library.resources/library-icon-view-mode.png)<b>顯示模式</b>下拉按鈕，你可以選擇內容項目的顯示大小。
 
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![圖書館資產檢視模式](../../assets/library-display-modes.png "圖書館資產檢視模式")
+![圖書館資產檢視模式](the-library.resources/library-display-modes.png "圖書館資產檢視模式")
 
 </td>
 </tr>
@@ -142,12 +142,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](../../assets/library-icon-toggle-label.png) **切換標籤**&#x200B;按鈕可以顯示或隱藏節點的標籤。
+![](the-library.resources/library-icon-toggle-label.png) **切換標籤**&#x200B;按鈕可以顯示或隱藏節點的標籤。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![標籤切換](../../assets/library-toggle-label.png "標籤切換 標籤切換")
+![標籤切換](the-library.resources/library-toggle-label.png "標籤切換 標籤切換")
 
 </td>
 </tr>
@@ -163,7 +163,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![資產資訊工具提示](../../assets/library-item-tooltip.png "資產資訊工具提示")
+![資產資訊工具提示](the-library.resources/library-item-tooltip.png "資產資訊工具提示")
 
 </td>
 </tr>
@@ -180,13 +180,13 @@ ht-degree: 0%
 
 ### 我的最愛
 
-你可以使用![](../../assets/library-icon-favoritepng.png)<b>「新增到最愛</b>」按鈕，將內容</b>區塊<b>中的任何項目加入你的<b>收藏</b>清單。這個按鈕還能讓你 *從這個清單中移除* 已經新增的內容。\
+你可以使用![](the-library.resources/library-icon-favoritepng.png)<b>「新增到最愛</b>」按鈕，將內容</b>區塊<b>中的任何項目加入你的<b>收藏</b>清單。這個按鈕還能讓你 *從這個清單中移除* 已經新增的內容。\
 當內容加入此清單時，會在函式庫的「最愛</b>」類別中提供<b>，且在搜尋圖中節點時，若搜尋詞與該節點相符，該節點會顯示&#x200B;*在節點選單列表的最上方</b><b>*。<b></b>
 
 </td>
 <td style="border: 0;" valign="top">
 
-![圖書館](../../assets/library-favourites.png "收藏 圖書館收藏")
+![圖書館](the-library.resources/library-favourites.png "收藏 圖書館收藏")
 
 </td>
 </tr>

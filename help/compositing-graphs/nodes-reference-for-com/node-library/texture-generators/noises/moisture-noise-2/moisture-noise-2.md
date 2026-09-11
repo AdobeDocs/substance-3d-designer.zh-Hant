@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 濕氣噪音 2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8774511f26429071b91a2eeeb8728ac36dc31ed5
+source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![濕氣噪音 2 - 圖示](../../../../../../assets/moisture_noise_2.png "濕氣噪音 2 - 圖示"){width="200px"}
+![濕氣噪音 2 - 圖示](moisture-noise-2.resources/moisture_noise_2.png "濕氣噪音 2 - 圖示"){width="200px"}
 
 <b>收錄於：</b> 貼圖產生器>噪音
 
@@ -75,12 +75,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![濕氣雜訊2 - 範例1](../../../../../../assets/moisture_noise_2_1.png "濕氣雜訊2 - 範例1"){zoomable="yes"}
+![濕氣雜訊2 - 範例1](moisture-noise-2.resources/moisture_noise_2_1.png "濕氣雜訊2 - 範例1"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![濕氣雜訊2 - 範例2](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso0.gif "濕氣雜訊2 - 範例2"){zoomable="yes"}
+![濕氣雜訊2 - 範例2](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso0.gif "濕氣雜訊2 - 範例2"){zoomable="yes"}
 
 </td>
 </tr>
@@ -90,12 +90,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![濕氣雜訊 2 - 範例 3](../../../../../../assets/noise_moisture_noise_2_speed0.6_aniso1.gif "濕氣雜訊 2 - 範例 3"){zoomable="yes"}
+![濕氣雜訊 2 - 範例 3](moisture-noise-2.resources/noise_moisture_noise_2_speed0.6_aniso1.gif "濕氣雜訊 2 - 範例 3"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![濕氣雜訊2 - 範例4](../../../../../../assets/noise_moisture_noise_2_speed0.3_aniso0.6.gif "濕氣雜訊2 - 範例4"){zoomable="yes"}
+![濕氣雜訊2 - 範例4](moisture-noise-2.resources/noise_moisture_noise_2_speed0.3_aniso0.6.gif "濕氣雜訊2 - 範例4"){zoomable="yes"}
 
 </td>
 </tr>

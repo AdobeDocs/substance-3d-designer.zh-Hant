@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 輸出
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -22,12 +22,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width: 30%; vertical-align: top">
 
 ![原子節點：輸出](output.resources/comp_output_1.png "原子節點：輸出"){width="200px"}
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 輸出節點指定 <b>物質圖的結果</b> ，或若存在多個輸出節點則指定其結果之一。
 
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 ## 屬性
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>識別碼</b> *弦* | 輸出的唯一識別碼。 此屬性不能留空，且不得包含特殊字元或空格。   識別碼是因為節點的標籤是空白的，「Label」屬性會留空。 它也可以用來命名 [匯出的材質](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *弦* | 輸出工具提示的可選描述是 Substance 圖表。 |
 | <b>唱片公司</b> *弦* | 此標記用於輸出節點，並在代表此圖的實例節點[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中作為對應連接器。標籤可能包含空格和特殊字元。 |
@@ -61,19 +61,21 @@ ht-degree: 0%
 
 因此，它們對點陣圖匯出[&#128279;](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的格式沒有影響。此外，Designer 中僅 <b>使用使用</b> 屬性，詳情請見下文。
 
-<b>使用情況</b>
++++ 使用情況
 
-|  |  |
-| --- | --- |
+|                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>組成部分</b> *弦* | 用來將一些貼圖通道映射到 AxF 工作流程中適當的 SVBRDF 著色器輸入。 |
-| <b>使用情況</b> *弦* | 定義輸出節點的型別與使用方式。 這個房產很重要，因為它能驅動：<ul data-preserve-html="true"> <li data-preserve-html="true">在使用某些[連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)時，Substance 圖中節點的連結 </li> <li data-preserve-html="true">將貼圖與 3D View 中的著色器連結（見下文：「[關於 3D View](#usages-role-3dview) 中使用的角色」）</li> <li data-preserve-html="true">在整合/插件中將貼圖與材質連結</li> </ul> |
+| <b>使用情況</b> *弦* | 定義輸出節點的型別與使用方式。 這個房產很重要，因為它能驅動：<ul data-preserve-html="true"> <li data-preserve-html="true">在使用某些[連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)時，Substance 圖中節點的連結 </li> <li data-preserve-html="true">將貼圖與 3D View 中的著色器連結（見下文：「[關於 3D View](#about-the-role-of-usages-in-the-3d-view) 中使用的角色」）</li> <li data-preserve-html="true">在整合/插件中將貼圖與材質連結</li> </ul> |
 | <b>色彩空間</b> *弦* | 設定該輸出應解讀的色彩空間。 在其他應用程式中被部分整合使用，且在 Designer 中沒有影響。 |
+
++++
 
 ### 關於 3D 視圖中使用的角色
 
 由於圖形輸出通常是特定紋理通道的最終結果，輸出可以自動傳送到3D View所用著色器的適當取樣器。
 
-事實上，若 <b>輸出 Usage</b> 屬性 *與 3D View 中的取樣器使用* 量相符，會連接到該取樣器。 例如，一個有 `basecolor` 使用情況的輸出會連接到 `basecolor` 3D View 著色器的取樣器。 在 3D 檢視[&#128279;](https://substance3d.adobe.com/documentation/display/draftdesigner/.3d%20view%20vdraftversion)頁面的 3D 檢視[&#128279;](../../../../interface/3d-view/3d-view.md)區塊中，「查看資料」了解更多。
+事實上，若 <b>輸出 Usage</b> 屬性 *與 3D View 中的取樣器使用* 量相符，會連接到該取樣器。 例如，一個有 `basecolor` 使用情況的輸出會連接到 `basecolor` 3D View 著色器的取樣器。 （了解更多： [&#x200B; 以3D視圖](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)查看資料）
 
 在圖形檢視中[點選空白區域的 RMB，並在情境選單中選擇<b>「3D 檢視</b>中的輸出」選項，將所有輸出連接到 3D 檢視取樣器，並有&#x200B;*相同的使用情況*。](../../../../interface/the-graph-view/the-graph-view.md)
 

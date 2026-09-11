@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 邊框
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![框架圖示](../../../../assets/graphatomic-frame_1.png "框架圖示")
+![框架圖示](frame.resources/graphatomic-frame_1.png "框架圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 標題設定在 <b>標題</b> 屬性中以灰色置於畫面左上角。
 
-![幀（預設狀態）](../../../../assets/graph-frames-default.png "幀（預設狀態）")
+![幀（預設狀態）](frame.resources/graph-frames-default.png "幀（預設狀態）")
 
 
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 可透過拖曳該標題列或標題來移動畫面。
 
-![框架（懸停狀態）](../../../../assets/graph-frames-hover.png "框架（懸停狀態）")
+![框架（懸停狀態）](frame.resources/graph-frames-hover.png "框架（懸停狀態）")
 
 
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 +++已選取
 選取後，標題與框架輪廓會以白色高亮顯示。 輪廓變得更粗。
 
-![框架（選擇狀態）](../../../../assets/graph-frames-selected.png "框架（選擇狀態）")
+![框架（選擇狀態）](frame.resources/graph-frames-selected.png "框架（選擇狀態）")
 
 
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 
 基於此，使用鍵盤快捷鍵建立框架能讓在圖表中框出內容更快。
 
-![框架：創造方法](../../../../assets/graph-frames_creation.gif "框架：創造方法"){width="480px"}
+![框架：創造方法](frame.resources/graph-frames_creation.gif "框架：創造方法"){width="480px"}
 
 >[!TIP]
 >
@@ -130,7 +130,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![框架：互動區域](../../../../assets/graph-frames_interaction-zones.png "框架：互動區域")
+![框架：互動區域](frame.resources/graph-frames_interaction-zones.png "框架：互動區域")
 
 </td>
 </tr>
@@ -149,7 +149,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![幀數：格線吸附](../../../../assets/graph-frames_grid-snapping.gif "幀：格線吸附")
+![幀數：格線吸附](frame.resources/graph-frames_grid-snapping.gif "幀：格線吸附")
 
 </td>
 </tr>
@@ -164,7 +164,7 @@ ht-degree: 0%
 
 標題大小可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能清晰閱讀。 你可以透過在圖表檢視[&#128279;](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單中勾選「框架標題」<b>選項來達成此目標。
 
-![框架：標題](../../../../assets/graph_frames_title.gif "框架：標題"){width="640px"}
+![框架：標題](frame.resources/graph_frames_title.gif "框架：標題"){width="640px"}
 
 
 
@@ -173,11 +173,11 @@ ht-degree: 0%
 +++說明
 <b>描述</b>是可選的額外文字，可用來標註框架內容。
 
-文字可以用 HTML 標籤來格式化。 此格式可透過點擊 ![](../../../../assets/graph-frames_html-markup-button.png) <b>HTML 標記</b> 按鈕切換。
+文字可以用 HTML 標籤來格式化。 此格式可透過點擊 ![](frame.resources/graph-frames_html-markup-button.png) <b>HTML 標記</b> 按鈕切換。
 
 詳情請見下方的說明區。
 
-![框架：描述](../../../../assets/graph-frames_description.gif "框架：說明"){width="640px"}
+![框架：描述](frame.resources/graph-frames_description.gif "框架：說明"){width="640px"}
 
 
 
@@ -188,7 +188,7 @@ ht-degree: 0%
 
 顏色的 alpha 通道控制 *畫面的不透明度* ，值為 0 表示畫面完全透明。
 
-![框架：色彩](../../../../assets/graph-frames_colour.gif "框架：顏色"){width="640px"}
+![框架：色彩](frame.resources/graph-frames_colour.gif "框架：顏色"){width="640px"}
 
 
 
@@ -211,7 +211,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![框架（預設描述）](../../../../assets/graph-frames-descr.png "框架（預設描述）"){zoomable="yes"}
+![框架（預設描述）](frame.resources/graph-frames-descr.png "框架（預設描述）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -223,12 +223,12 @@ ht-degree: 0%
 
 ### HTML 格式化
 
-文字可以透過框架的 <b>Description</b> 屬性中的 HTML 標籤來格式化。 格式化必須透過![](../../../../assets/graph-frames_html-markup-button.png)<b>該屬性中的 HTML 標記</b>按鈕來啟用。
+文字可以透過框架的 <b>Description</b> 屬性中的 HTML 標籤來格式化。 格式化必須透過![](frame.resources/graph-frames_html-markup-button.png)<b>該屬性中的 HTML 標記</b>按鈕來啟用。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![框架（HTML格式描述）](../../../../assets/graph-frames-descr-html.png "框架（HTML格式描述）"){zoomable="yes"}
+![框架（HTML格式描述）](frame.resources/graph-frames-descr-html.png "框架（HTML格式描述）"){zoomable="yes"}
 
 </td>
 </tr>
@@ -285,7 +285,7 @@ ht-degree: 0%
 
 因此，節點中心點的位置不應在被 *刻意移動*&#x200B;之前改變。
 
-![框架包含：高節點](../../../../assets/frame_inclusion_node_tall.png "框架包含關係：高節點")
+![框架包含：高節點](frame.resources/frame_inclusion_node_tall.png "框架包含關係：高節點")
 
 
 
@@ -297,11 +297,11 @@ ht-degree: 0%
 
 徽章、連接器及節點下方顯示的資訊皆被忽略。
 
-![框架包含：停靠節點](../../../../assets/frame_inclusion_node_docked.png "框架包含：停靠節點")
+![框架包含：停靠節點](frame.resources/frame_inclusion_node_docked.png "框架包含：停靠節點")
 
 
 
-![框架包含：節點](../../../../assets/frame_inclusion_node.png "框架包含：節點")
+![框架包含：節點](frame.resources/frame_inclusion_node.png "框架包含：節點")
 
 
 
@@ -312,7 +312,7 @@ ht-degree: 0%
 
 連接器、傳送門圖示和名稱都被忽略了。
 
-![框架包含：點節點](../../../../assets/frame_inclusion_dot.png "框架包含：點節點")
+![框架包含：點節點](frame.resources/frame_inclusion_dot.png "框架包含：點節點")
 
 
 
@@ -329,11 +329,11 @@ ht-degree: 0%
 
 
 
-![框架包含：父級註解框架](../../../../assets/frame_inclusion_comment_parented.png "包含：父級註解")
+![框架包含：父級註解框架](frame.resources/frame_inclusion_comment_parented.png "包含：父級註解")
 
 
 
-![框架收錄：評論](../../../../assets/frame_inclusion_comment.png "框架收錄：評論")
+![框架收錄：評論](frame.resources/frame_inclusion_comment.png "框架收錄：評論")
 
 
 
@@ -342,7 +342,7 @@ ht-degree: 0%
 +++瓶子
 <b>使用圖示尖端</b>。
 
-![框架包含：導航腳](../../../../assets/frame_inclusion_pin.png "框架包含：導航腳")
+![框架包含：導航腳](frame.resources/frame_inclusion_pin.png "框架包含：導航腳")
 
 
 
@@ -355,7 +355,7 @@ ht-degree: 0%
 
 標題被忽略了。
 
-![框架包含：巢狀框架](../../../../assets/frame_inclusion_frame.png "框架包含：巢狀框架")
+![框架包含：巢狀框架](frame.resources/frame_inclusion_frame.png "框架包含：巢狀框架")
 
 
 
@@ -363,7 +363,7 @@ ht-degree: 0%
 
 ## 尺寸與內容的配合
 
-![框架：尺寸與內容](../../../../assets/graph-frames_fit-size-to-content.png "相符 框架：尺寸與內容相符")
+![框架：尺寸與內容](frame.resources/graph-frames_fit-size-to-content.png "相符 框架：尺寸與內容相符")
 
 當你在圖表中做調整時，畫面可能不再優雅地調整到內容上。 在這種情況下，可以自動調整畫面的位置和大小，使其能根據內容的跨度調整，並以一個介質格作為填充。
 
@@ -386,14 +386,14 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![框架：尺寸與內容相符（附說明）](../../../../assets/graph-frames_fit-description.png " 框架：尺寸與內容相符（含說明）")
+![框架：尺寸與內容相符（附說明）](frame.resources/graph-frames_fit-description.png " 框架：尺寸與內容相符（含說明）")
 
 </td>
 </tr>
 </table>
 
 +++範例
-![框架：尺寸與內容匹配（GIF）框架](../../../../assets/graph-frames_fit-size-to-content.gif "：尺寸與內容匹配（GIF）"){width="640px"}
+![框架：尺寸與內容匹配（GIF）框架](frame.resources/graph-frames_fit-size-to-content.gif "：尺寸與內容匹配（GIF）"){width="640px"}
 
 
 
@@ -401,7 +401,7 @@ ht-degree: 0%
 
 ## 自動展開
 
-![影格：自動展開](../../../../assets/graph-frames_auto-expand.png "影格：自動展開")
+![影格：自動展開](frame.resources/graph-frames_auto-expand.png "影格：自動展開")
 
 隨著圖的成長，影格內容可能需要重新排列。 節點可能會移動以騰出空間給新增內容，或是內容需要更拉開以促進可讀性。
 
@@ -416,7 +416,7 @@ ht-degree: 0%
 > 雖然 <b>在移動過程中任何時候按下或放開 Shift</b> 鍵以觸發或取消自動調整畫面，但 *完成動作時必須* 長按才能有效執行調整。
 
 +++範例
-![影格：自動展開（GIF）影](../../../../assets/graph-frames_auto-expand.gif "格：自動展開（GIF）"){width="640px"}
+![影格：自動展開（GIF）影](frame.resources/graph-frames_auto-expand.gif "格：自動展開（GIF）"){width="640px"}
 
 
 

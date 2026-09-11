@@ -10,7 +10,7 @@ helpx_tags: ""
 title: Substance 3D Designer 使用者指南
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Substance 3D Designer 使用者指南
 
-![Substance 3D Designer 主視窗](../assets/sdsummerinterface.jpg "Substance 3D Designer 主視窗")
+![Substance 3D Designer 主視窗](home.resources/sdsummerinterface.jpg "Substance 3D Designer 主視窗")
 
 [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款材質製作軟體。 它讓你可以用節點圖從程序圖案和雜訊產生貼圖，還能操作點陣圖。
 

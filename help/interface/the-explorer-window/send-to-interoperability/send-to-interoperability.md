@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 傳送至...  互通性
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 傳送至...  互通性
 
-![從設計師傳送到 Substance 3D 應用程式](../../../assets/explorer-interop.png "從設計師傳送到 Substance 3D 應用程式"){width="512px"}
+![從設計師傳送到 Substance 3D 應用程式](send-to-interoperability.resources/explorer-interop.png "從設計師傳送到 Substance 3D 應用程式"){width="512px"}
 
 Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adobe.com/tw/products/substance3d-sampler.html)、[Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 及 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html) 具有互通性。它讓你能 *快速傳送* 和 *重寄* 作品，促進 Substance 3D 生態系統的迭代。
 
@@ -49,7 +49,7 @@ Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adob
 </td>
 <td style="border: 0;" valign="top">
 
-![Substance 圖的 Type 屬性](../../../assets/type-attribute.jpg "Substance 圖的 Type 屬性")
+![Substance 圖的 Type 屬性](send-to-interoperability.resources/type-attribute.jpg "Substance 圖的 Type 屬性")
 
 </td>
 </tr>
@@ -76,12 +76,12 @@ Adobe Substance 3D Designer 與 Substance 3D Sampler[&#128279;](https://www.adob
 傳送內容可透過以下方式進行：
 
 * 右鍵點選套件，並在情境選單中開啟 <b>「送出...</b> 」子選單，然後選擇 <b>目標應用程式的「送出...</b> 」選項;
-* 點選![](../../../assets/sendto-icon.jpg)<b>檔案總管面板頂端的「發佈/送出</b>」按鈕，然後選擇<b>目標應用程式的「寄出...</b>」選項。
+* 點選![](send-to-interoperability.resources/sendto-icon.jpg)<b>檔案總管面板頂端的「發佈/送出</b>」按鈕，然後選擇<b>目標應用程式的「寄出...</b>」選項。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![在檔案總管](../../../assets/explorer-sendto-displayed.jpg "中的發佈/傳送選單 在檔案總管中的發佈/送出選單")
+![在檔案總管](send-to-interoperability.resources/explorer-sendto-displayed.jpg "中的發佈/傳送選單 在檔案總管中的發佈/送出選單")
 
 </td>
 </tr>

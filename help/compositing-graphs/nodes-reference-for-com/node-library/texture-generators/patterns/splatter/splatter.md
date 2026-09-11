@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 濺射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 9%
@@ -24,9 +24,9 @@ ht-degree: 9%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter.png)
+![](splatter.resources/splatter.png)
 
-![](../../../../../../assets/splatter-color.png)
+![](splatter.resources/splatter-color.png)
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -77,7 +77,7 @@ Splatter 很適合快速壓印某些形狀，不需要太多調整。
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/splatter-ex.gif" />
+            <img src="splatter.resources/splatter-ex.gif" />
         </td>
     </tr>
 </table>

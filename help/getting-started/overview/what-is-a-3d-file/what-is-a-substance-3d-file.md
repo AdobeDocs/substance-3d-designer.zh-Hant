@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 什麼是Substance 3D檔案
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 什麼是 Substance 3D 檔案？
 
-![參數磚牆材料](../../../assets/MaterialsOverview.gif "參數磚牆材料")
+![參數磚牆材料](what-is-a-substance-3d-file.resources/MaterialsOverview.gif "參數磚牆材料")
 
 *由Käy Vriend製作的磚牆材料範例。\
 參數可調整以動態控制材質外觀。*

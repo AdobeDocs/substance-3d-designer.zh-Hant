@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 烘焙問題
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-<b>![（錯誤）](../../assets/error.svg) 問題</b>
+<b>![（錯誤）](baking-issues.resources/error.svg) 子嗣</b>
 
 當「匹配」選項設為「依網格名稱」時，匹配似乎沒有套用，或在所有場景物件間不一致。
 
-<b>![（打了](../../assets/check.svg) 推薦步驟</b>
+<b>![（滴答）](baking-issues.resources/check.svg) 建議步驟</b>
 
 在 Designer 14.1 及以下版本中，低多邊形與高多邊形物件會以其父物件的名稱&#x200B;**&#x200B;來匹配——大多數情況下，是父物件的變換。
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![場景樹](../../assets/sceneTree_objectsName.png "中的幾何物件及其父節點幾何物件及其場景樹中的父節點"){zoomable="yes"}
+![場景樹](baking-issues.resources/sceneTree_objectsName.png "中的幾何物件及其父節點幾何物件及其場景樹中的父節點"){zoomable="yes"}
 
 </td>
 </tr>

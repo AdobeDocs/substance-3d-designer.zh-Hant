@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 物質圖中的值
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
@@ -34,18 +34,18 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <div><img alt="價值處理器節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="../../assets/valueprocessor.png" title="價值處理器節點圖示" width="100px"/></div>  <b>[價值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)可以接收任意數量的灰階或色彩輸入，並允許你根據這些輸入從計算中回傳單一值。 |
-| <div><img alt="值輸入節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="../../assets/inputnumeric.png" title="值輸入節點圖示" width="100px"/></div>  **[價值輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)允許你在子圖上建立一個明確定義為 Value 的輸入槽。 |
+| <div><img alt="價值處理器節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="價值處理器節點圖示" width="100px"/></div>  <b>[價值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)可以接收任意數量的灰階或色彩輸入，並允許你根據這些輸入從計算中回傳單一值。 |
+| <div><img alt="值輸入節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="值輸入節點圖示" width="100px"/></div>  **[價值輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)允許你在子圖上建立一個明確定義為 Value 的輸入槽。 |
 
 此外，其他節點也會以特定方式處理：
 
 [如果你插入 Output 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)，它會自動調整成 Value Output，就像之前用 Grayscale 和 Color 一樣。
 
-![輸出值節點](../../assets/values-output.gif "輸出值節點"){width="512px"}
+![輸出值節點](values-in-substance-compositing-graphs.resources/values-output.gif "輸出值節點"){width="512px"}
 
 每個節點（[Atomic](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)和 [Library](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)/Instance）都有一個新分頁，可以定義 Value 輸入。
 
-![在節點](../../assets/values-inputs.gif "上加入輸入值 在節點上加入輸入值")
+![在節點](values-in-substance-compositing-graphs.resources/values-inputs.gif "上加入輸入值 在節點上加入輸入值")
 
 ## 與價值觀共事
 
@@ -57,4 +57,4 @@ ht-degree: 0%
 
 為了突出顯示 Value 的暴露或使用位置，任何有 Value Inputs 或 Value Outputs 的節點都會以粗黃色邊框標示：
 
-![與價值觀](../../assets/yellowhighlight.png "共事")
+![與價值觀](values-in-substance-compositing-graphs.resources/yellowhighlight.png "共事")

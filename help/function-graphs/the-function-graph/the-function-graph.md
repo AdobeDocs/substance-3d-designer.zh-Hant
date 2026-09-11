@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 物質函數圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 乍看之下，Substance 函數圖和 Substance 圖非常相似，工作流程也幾乎相同。
 
-![實體函數圖](../../assets/image2015-12-18-11-29-28.png "實質函數圖")
+![實體函數圖](the-function-graph.resources/image2015-12-18-11-29-28.png "實質函數圖")
 
 ## 導航方式類似
 
@@ -53,7 +53,7 @@ Substance 函數圖中可用的節點與你在 Substance 圖中遇到的完全�
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![Substance 函數圖節點列表](../../assets/image2015-12-18-13-46-55.png "Substance 函數圖節點列表")
+![Substance 函數圖節點列表](the-function-graph.resources/image2015-12-18-13-46-55.png "Substance 函數圖節點列表")
 
 </td>
 </tr>
@@ -72,7 +72,7 @@ Substance 函數圖中可用的節點與你在 Substance 圖中遇到的完全�
 </td>
 <td style="border: 0;" valign="top">
 
-![物質函數圖的輸出節點](../../assets/image2015-12-18-13-49-43.png "實質函數圖的輸出節點")
+![物質函數圖的輸出節點](the-function-graph.resources/image2015-12-18-13-49-43.png "實質函數圖的輸出節點")
 
 </td>
 </tr>
@@ -82,7 +82,7 @@ Substance 函數圖中可用的節點與你在 Substance 圖中遇到的完全�
 
 要定義輸出，只需右鍵點擊產生預期輸出的節點，然後點選 *「設定為輸出」節點：*
 
-![定義輸出節點](../../assets/setoutputnode.gif "定義輸出節點")
+![定義輸出節點](the-function-graph.resources/setoutputnode.gif "定義輸出節點")
 
 >[!WARNING]
 >
@@ -99,7 +99,7 @@ Substance 函數圖中可用的節點與你在 Substance 圖中遇到的完全�
 </td>
 <td style="border: 0;" valign="top">
 
-![開放參照的實質函數圖](../../assets/image2017-6-27-10-44-55.png "開放參照的實質函數圖")
+![開放參照的實質函數圖](the-function-graph.resources/image2017-6-27-10-44-55.png "開放參照的實質函數圖")
 
 </td>
 </tr>
@@ -107,4 +107,4 @@ Substance 函數圖中可用的節點與你在 Substance 圖中遇到的完全�
 
 如果你有一個包含多個函式的 SBS，你可以直接拖放到 Substance 函數圖中，選擇你想匯入的函式列表：
 
-![從套件](../../assets/sbsdrag.gif "中移除物質函數圖 從套件中移除物質函數圖")
+![從套件](the-function-graph.resources/sbsdrag.gif "中移除物質函數圖 從套件中移除物質函數圖")

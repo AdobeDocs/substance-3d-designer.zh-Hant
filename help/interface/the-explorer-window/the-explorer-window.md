@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 總管
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 </td>
 <td style="border: 0;" valign="top">
 
-![探險者碼頭](../../assets/explorer-3.jpg "探險者碼頭")
+![探險者碼頭](the-explorer-window.resources/explorer-3.jpg "探險者碼頭")
 
 </td>
 </tr>
@@ -56,16 +56,16 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 這個工具列讓你能快速執行與整體工作流程相關的功能。 所有按鈕都是 *情境感知*&#x200B;的，也就是說它們會根據你在檔案總管中當前選擇來啟動和改變行為。
 
-![](../../assets/save.png)  <b>儲存</b> 所選套件。
+![](the-explorer-window.resources/save.png)  <b>儲存</b> 所選套件。
 
-![](../../assets/sendto-icon.jpg)  <b>發佈或 [發送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> 選定元素：
+![](the-explorer-window.resources/sendto-icon.jpg)  <b>發佈或 [發送](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)</b> 選定元素：
 
 * [將任一選定的套件發佈至Substance 3D資產（SBSAR）;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)
 * 將所選套件寄送至 [Substance 3D Sampler](https://www.adobe.com/tw/products/substance3d-sampler.html)、 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Substance 3D Stager](https://www.adobe.com/tw/products/substance3d-stager.html)。
 
-![](../../assets/republish.png)  <b>發佈或傳送如前版本：</b> 以相同設定發佈或傳送選取的元素。 此選項僅適用於本場至少已發佈&#x200B;*過一次***&#x200B;的套件。
+![](the-explorer-window.resources/republish.png)  <b>發佈或傳送如前版本：</b> 以相同設定發佈或傳送選取的元素。 此選項僅適用於本場至少已發佈&#x200B;*過一次***&#x200B;的套件。
 
-![](../../assets/graph-cleaner.jpg)  <b>移除選取圖中未使用的節點</b> 。 該工具遵循以下規則：
+![](the-explorer-window.resources/graph-cleaner.jpg)  <b>移除選取圖中未使用的節點</b> 。 該工具遵循以下規則：
 
 * 此工具僅在所選項目為 *相同類型*&#x200B;時可用：僅限圖表、資料夾或套件;
 * 當選取包含資料夾或套件時，工具會遞迴&#x200B;*地清理其中*&#x200B;的所有圖表;
@@ -77,14 +77,14 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![發佈/傳送下拉選單](../../assets/explorer-sendto-displayed.jpg "發佈/發送下拉選單")
+![發佈/傳送下拉選單](the-explorer-window.resources/explorer-sendto-displayed.jpg "發佈/發送下拉選單")
 
 *發佈/傳送*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![移除未使用的節點下拉選單](../../assets/explorer-graph-cleaner.jpg "移除未使用的節點下拉選單")
+![移除未使用的節點下拉選單](the-explorer-window.resources/explorer-graph-cleaner.jpg "移除未使用的節點下拉選單")
 
 *移除未使用的節點*
 
@@ -200,9 +200,9 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 Explorer 底座底部的工具列提供有關套件或套件資源的資訊：
 
-<b>![](../../assets/explorer-dependencies.jpg)相依性：</b> 當選擇套件時，其套件相依性會列在專用面板中。
+<b>![](the-explorer-window.resources/explorer-dependencies.jpg)相依性：</b> 當選擇套件時，其套件相依性會列在專用面板中。
 
-<b>![](../../assets/explorer-information.jpg)資訊：</b> 提供與目前所選套件或資源相關的元資料：
+<b>![](the-explorer-window.resources/explorer-information.jpg)資訊：</b> 提供與目前所選套件或資源相關的元資料：
 
 * 套件：套件的完整檔案路徑
 * [點陣資源](../../resources/bitmap-resource/bitmap-resource.md)：資源的完整檔案路徑、ICC [設定檔](../../color-management/color-management.md)、影像大小及 [匯入方式](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md) （即 *連結* 或 *匯入*）
@@ -211,14 +211,14 @@ Explorer 底座底部的工具列提供有關套件或套件資源的資訊：
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![相依](../../assets/explorer-dependencies-displayed.jpg "面板相依相依面板")
+![相依](the-explorer-window.resources/explorer-dependencies-displayed.jpg "面板相依相依面板")
 
 *相依關係*
 
 </td>
 <td style="border: 0;" valign="top">
 
-![資訊面板](../../assets/explorer-information-displayed.jpg "資訊面板")
+![資訊面板](the-explorer-window.resources/explorer-information-displayed.jpg "資訊面板")
 
 *資訊*
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 變數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 為此，你可以從以下數值中選擇：
 
-![](../../assets/image2015-12-18-14-10-36.png)
+![](variables.resources/image2015-12-18-14-10-36.png)
 
 ## 布林值
 

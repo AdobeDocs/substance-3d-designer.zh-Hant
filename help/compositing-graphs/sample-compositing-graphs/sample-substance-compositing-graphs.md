@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 樣本物質圖表
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -32,12 +32,12 @@ ht-degree: 0%
 
 本專案提供一個簡單的圖形設定，可作為其他圖形中的濾波器使用。 [濾鏡](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md) 是用來修改和/或混合一個或多個輸入影像的節點。
 
-[![篩選器範例檔案圖示](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
+[![篩選器範例檔案圖示](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/f1509448-39d4-4b4a-5d3f-1e0ab0313335)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![「濾鏡」取樣](../../assets/demo-filter.png "「濾鏡取樣」取樣"){zoomable="yes"}
+![「濾鏡」取樣](sample-substance-compositing-graphs.resources/demo-filter.png "「濾鏡取樣」取樣"){zoomable="yes"}
 
 </td>
 </tr>
@@ -53,12 +53,12 @@ ht-degree: 0%
 
 您可以在我們文件的這一頁[&#128279;](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)了解繼承相關資訊。
 
-[![繼承範例檔案圖示](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
+[![繼承範例檔案圖示](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/9b155f58-74a1-40b6-47ed-d360b18e0bc4)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![「繼承」範例](../../assets/demo-inheritance.png "「繼承」範例"){zoomable="yes"}
+![「繼承」範例](sample-substance-compositing-graphs.resources/demo-inheritance.png "「繼承」範例"){zoomable="yes"}
 
 </td>
 </tr>
@@ -74,12 +74,12 @@ ht-degree: 0%
 
 本專案展示了 Pixel 處理器的兩個簡單應用案例：作為產生器與濾波器。 它同時也是進一步應用 [函數圖](../../function-graphs/function-graphs.md)的跳板。
 
-[![像素處理器範例檔案圖示](../../assets/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
+[![像素處理器範例檔案圖示](sample-substance-compositing-graphs.resources/sbs-1.png){width="64px"}](https://shared-assets.adobe.com/link/ad8e013e-ae48-4290-740a-9b28387cab38)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![「像素處理器」取樣](../../assets/demo-pixel-processor.png "「像素處理器」取樣"){zoomable="yes"}
+![「像素處理器」取樣](sample-substance-compositing-graphs.resources/demo-pixel-processor.png "「像素處理器」取樣"){zoomable="yes"}
 
 </td>
 </tr>

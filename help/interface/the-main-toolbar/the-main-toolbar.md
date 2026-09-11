@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 主工具列
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 2a6e26cc03e887569a518cadd171ae1b51ae6abd
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 </td>
 <td width="41.67%" style="border: 0;" valign="top">
 
-![主工具列](../../assets/mainmenu.png "主工具列")
+![主工具列](the-main-toolbar.resources/mainmenu.png "主工具列")
 
 </td>
 </tr>
@@ -37,15 +37,15 @@ ht-degree: 0%
 
 ## 快速存取按鈕
 
-![](../../assets/newsubstance.png)  <b>New Substance 圖...：</b> （Ctrl+N） 會 [顯示新圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 視窗，然後建立一個包含 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的新套件。
+![](the-main-toolbar.resources/newsubstance.png)  <b>New Substance 圖...：</b> （Ctrl+N） 會 [顯示新圖](../../compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md) 視窗，然後建立一個包含 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的新套件。
 
-![](../../assets/open.png)  <b>開啟...：</b> （Ctrl+O） 開啟現有[的物質套件（.SBS， .SBSAR， .SBSASM）。](../../getting-started/overview/overview.md)
+![](the-main-toolbar.resources/open.png)  <b>開啟...：</b> （Ctrl+O） 開啟現有[的物質套件（.SBS， .SBSAR， .SBSASM）。](../../getting-started/overview/overview.md)
 
-![](../../assets/saveall.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有套件。
+![](the-main-toolbar.resources/saveall.png)  <b>全部儲存：</b>（Ctrl+⇧+S）儲存檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)中列出的所有套件。
 
-![](../../assets/undo.png)  <b>復原：</b> （Ctrl+Z）還原上一次操作。
+![](the-main-toolbar.resources/undo.png)  <b>復原：</b> （Ctrl+Z）還原上一次操作。
 
-![](../../assets/redo.png)  <b>重做：</b> （Ctrl+Y）重做上次未完成的操作。
+![](the-main-toolbar.resources/redo.png)  <b>重做：</b> （Ctrl+Y）重做上次未完成的操作。
 
 ## 檔案
 

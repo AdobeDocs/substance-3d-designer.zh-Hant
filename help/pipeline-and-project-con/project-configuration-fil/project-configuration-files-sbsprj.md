@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 專案設定檔 - SBSPRJ
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![SBSPRJ 檔案圖示](../../assets/sbsprj.png "SBSPRJ 檔案圖示")
+![SBSPRJ 檔案圖示](project-configuration-files-sbsprj.resources/sbsprj.png "SBSPRJ 檔案圖示")
 
 </td>
 </tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 
 一旦你在編輯器中打開 SBSPRJ 檔案，你會看到一個相當直接的結構化版面，區塊對應 UI 中的分頁。 這裡不會記錄所有設定，因為內容相當容易理解。
 
-![XML 編輯](../../assets/project-xml.png "XML 編輯")
+![XML 編輯](project-configuration-files-sbsprj.resources/project-xml.png "XML 編輯")
 
 ## 相對路徑與別名
 

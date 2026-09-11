@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 濺血圈
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 7%
@@ -24,9 +24,9 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/splatter-circular.png){width="128px"}
+![](splatter-circular.resources/splatter-circular.png){width="128px"}
 
-![](../../../../../../assets/splatter-circular-color.png){width="128px"}
+![](splatter-circular.resources/splatter-circular-color.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -118,7 +118,7 @@ Splatter Circular 產生基於環狀的圖案，並具備多種控制。 它可�
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/circularsplatter-ex.png" />
+            <img src="splatter-circular.resources/circularsplatter-ex.png" />
         </td>
     </tr>
 </table>

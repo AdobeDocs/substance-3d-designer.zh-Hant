@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 建立並編輯函式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 0%
@@ -22,15 +22,15 @@ ht-degree: 0%
 
 ## 建立一個函數
 
-要建立函式，你只需要點選函式圖示 ![](../../assets/image2017-3-7-17-10-8.png) 並選擇「**Empty Function**」。
+要建立函式，你只需要點選函式圖示 ![](create-and-edit-a-function.resources/image2017-3-7-17-10-8.png) 並選擇「**Empty Function**」。
 
-![](../../assets/image2017-3-7-17-8-37.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-8-37.png)
 
 ## 編輯函式
 
 函式建立完成後，你可以再次點擊函式圖示，或在下拉選單中選擇編輯來修改它。
 
-![](../../assets/image2017-3-7-17-11-42.png)
+![](create-and-edit-a-function.resources/image2017-3-7-17-11-42.png)
 
 接著你會進入圖的函數模式。
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 你可以在圖表中右鍵點擊並選擇「新增元素」，或按下空白鍵來建立節點：
 
-![](../../assets/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
+![](create-and-edit-a-function.resources/capture-d-e-cran-2015-02-04-10-05-16.png){width="600px"}
 
 ## 設定輸出
 
