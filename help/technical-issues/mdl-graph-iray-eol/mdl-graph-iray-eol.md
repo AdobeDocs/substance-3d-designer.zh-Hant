@@ -26,7 +26,7 @@ MDL 圖形與 Iray 渲染器均<b>於 Substance 3D Designer 16.0.0</b> 版本<b>
 
 若想做寫實3D渲染，可以使用我們的GPU Pathtracer渲染器。 此渲染器由內部開發，將逐步推廣至Substance 3D應用。
 
-關於 MDL 支援，隨著 MaterialX](https://materialx.org/) 作為可互換且廣泛支援材質定義的著色語言，它將被 Substance 3D [移除。
+關於 MDL 支援，隨著 MaterialX[&#128279;](https://materialx.org/) 作為可互換且廣泛支援材質定義的著色語言，它將被 Substance 3D 移除。
 
 15.1.3</b> 版本<b>是&#x200B;*最後一個*&#x200B;支援 MDL 圖形與 Iray 渲染器的 Designer 版本。因此，使用此功能的使用者不應升級至更高版本。
 

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 設定 SDF 場景材質的基色、粗糙度與金屬度。
 
-這些值接著可以取回 Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 輸出[中所有已濺射的 SDF 形狀。
+這些值接著可以取回 Shape splatter v2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 輸出中所有已濺射的 SDF 形狀。
 
 </td>
 </tr>

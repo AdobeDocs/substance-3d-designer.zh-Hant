@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 總管
 
-本頁介紹了Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html)中的[Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
+本頁介紹了Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html)中的Explorer停靠座。這個 dock 讓你可以管理包裹及其資源。
 
 <table>
 <tr style="border: 0;">
@@ -71,7 +71,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 * 當選取包含資料夾或套件時，工具會遞迴&#x200B;*地清理其中*&#x200B;的所有圖表;
 * 如果其中一個目標圖是 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，則有第二個選項，可以清理該圖中節點上的所有參數函數。
 
-想了解更多關於此工具的資訊，請參閱圖視圖](../../interface/the-graph-view/the-graph-view.md)頁面的[「移除未使用節點」區塊。
+想了解更多關於此工具的資訊，請參閱圖視圖[&#128279;](../../interface/the-graph-view/the-graph-view.md)頁面的「移除未使用節點」區塊。
 
 <table>
 <tr style="border: 0;">
@@ -112,7 +112,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 <b>新版</b>可以讓你建立新的圖表（[Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)、[點陣](../../resources/bitmap-resource/bitmap-resource.md)圖和[向量圖形](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)資源，以及&#x200B;*用於排序內容的資料夾*
 
-<b>匯入</b>和<b>連結</b>可以讓你帶資源進來[](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
+<b>匯入</b>和<b>連結</b>可以讓你帶資源進來[&#128279;](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 <b>重新載入</b>、 <b>儲存、另存新檔</b> 和<b> 另存副本</b> ，讓你可以儲存到磁碟，或從磁碟中調出之前儲存的套件版本。
 
@@ -140,7 +140,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 +++物質圖
 
-<b>開啟：</b>（返回）在圖檢視](../../interface/the-graph-view/the-graph-view.md)中開啟此圖[。
+<b>開啟：</b>（返回）在圖檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中開啟此圖。
 
 <b>複製：</b> *（Ctrl-C）* 將目前的圖表複製到剪貼簿。
 
@@ -158,7 +158,7 @@ Explorer 是你專案的起點和結束點，因為它讓你能創建、儲存�
 
 +++3D 場景資源
 
-<b>開啟：</b>（返回）在3D視圖](../../interface/3d-view/3d-view.md)中使用此3D網格[，取代標準的立方體或平面。
+<b>開啟：</b>（返回）在3D視圖[&#128279;](../../interface/3d-view/3d-view.md)中使用此3D網格，取代標準的立方體或平面。
 
 <b>複製：</b> （Ctrl-C）將此資源複製到剪貼簿。
 

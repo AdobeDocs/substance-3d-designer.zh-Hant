@@ -26,7 +26,7 @@ FX-Map 代表一種特殊類型的圖，稱為馬可夫鏈。 馬可夫鏈代表
 
 ## 建立 FX-Map 圖表
 
-如果你想看 FX-Map 圖，只要在 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)中加入[一個 FX-Map 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)[，然後右鍵點擊該節點，按 CMD + E（OS X）或 CTRL + E（Windows）即可開啟該圖。這個 FX-Map 圖表會出現在圖表面板的新分頁中;你可以點擊分頁在這張圖表和 Substance 圖表之間切換。
+如果你想看 FX-Map 圖，只要在 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中加入[一個 FX-Map 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)，然後右鍵點擊該節點，按 CMD + E（OS X）或 CTRL + E（Windows）即可開啟該圖。這個 FX-Map 圖表會出現在圖表面板的新分頁中;你可以點擊分頁在這張圖表和 Substance 圖表之間切換。
 
 ## FX-Maps 是做什麼用的？
 

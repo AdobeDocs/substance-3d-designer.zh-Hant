@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 此節點可用來向樣條（多元二次）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點[，以建立樣條曲線。
+> 此節點可用來向樣條（多元二次）[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點，以建立樣條曲線。
 
 >[!IMPORTANT]
 >

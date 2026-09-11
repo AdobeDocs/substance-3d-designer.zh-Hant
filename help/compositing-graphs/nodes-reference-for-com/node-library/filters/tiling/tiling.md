@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 鋪磚
 
-平鋪類別包含用於改善貼圖平鋪的節點。 請記得掃描處理](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)中還有其他節點可用於此[操作。
+平鋪類別包含用於改善貼圖平鋪的節點。 請記得掃描處理[&#128279;](../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/scan-processing.md)中還有其他節點可用於此操作。
 
 請使用左側的導覽清單，瀏覽所有「平</b>鋪」下的<b>節點。
 

@@ -26,13 +26,13 @@ ht-degree: 0%
 > 
 > 確保你的其他腳本和版本控制環境都相應調整。
 
-Designer 提供 Perforce](https://www.perforce.com/) （P4） 版本控制系統的 Python 整合[。
+Designer 提供 Perforce[&#128279;](https://www.perforce.com/) （P4） 版本控制系統的 Python 整合。
 
-整合後在檔案總管](../../../interface/the-explorer-window/the-explorer-window.md)的套件情境選單中新增了自訂的「版本控制」子選單，並新增[自訂圖示以匹配 P4 中套件的狀態。
+整合後在檔案總管[&#128279;](../../../interface/the-explorer-window/the-explorer-window.md)的套件情境選單中新增了自訂的「版本控制」子選單，並新增自訂圖示以匹配 P4 中套件的狀態。
 
 ## 準備P4
 
-在 P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) 中[，請記下工作區名稱與路徑，如下所示：
+在 P4V[&#128279;](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) 中，請記下工作區名稱與路徑，如下所示：
 
 ![P4V 工作區資訊](../../../assets/p4v-workspace-strings.jpg "P4V 工作區資訊"){zoomable="yes"}
 

@@ -32,7 +32,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
-> 此節點需要由 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點產生[的輸入資料。
+> 此節點需要由 Shape splatter v2[&#128279;](../shape-splatter-v2/shape-splatter-v2.md) 節點產生的輸入資料。
 > 
 > Shape splatter v2 系列的其他節點：
 > * [Shape splatter v2 映射器灰階](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)
