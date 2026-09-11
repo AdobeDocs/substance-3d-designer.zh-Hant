@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/weave-2.html"
 breadcrumb-title: ''
 description: 使用 Weave 2 節點在 Substance 3D Designer 中建立帶有可自訂線性屬性的進階織布布圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 織網2
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/weave-2.png){width="128px"}
+![](weave-2.resources/weave-2.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -55,7 +55,7 @@ ht-degree: 7%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/weave2-ex.gif" />
+            <img src="weave-2.resources/weave2-ex.gif" />
         </td>
     </tr>
 </table>

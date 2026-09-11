@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 恆定
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: b63bc7a45aa6eadef1b72eb05d4a6aded05866a8
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 0%
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![整數類型圖示 整數型別圖示](../../../../assets/fn-constant-integer.png "")
+![整數類型圖示 整數型別圖示](constant.resources/fn-constant-integer.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -52,8 +52,8 @@ ht-degree: 0%
 
 整數只有一個分量。 它作為選擇的索引非常有用，例如：
 
-* 選擇以下拉選單形式呈現給使用者的選項（見本頁[&#128279;](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）。
-* 選擇多交換[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的輸入。<b></b>
+* 選擇以下拉選單形式呈現給使用者的選項（見本頁](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)的「下拉清單」）[。
+* 選擇多交換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md)節點的[輸入。<b></b>
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer2 type icon](../../../../assets/fn-constant-integer2.png "Integer2 type icon")
+![Integer2 type icon](constant.resources/fn-constant-integer2.png "Integer2 type icon")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 Integer2 節點會產生一個靜態的 2 分量整數向量，分量為 （X， Y）。
 
-Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile 產生[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)器節點一樣。
+Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile 產生](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)器節點一樣[。
 
 </td>
 </tr>
@@ -86,7 +86,7 @@ Integer2 的一個常見使用情境是設定 X 和 Y 格子大小，就像 Tile
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer3 類型圖示](../../../../assets/fn-constant-integer3.png "Integer3 類型圖示")
+![Integer3 類型圖示](constant.resources/fn-constant-integer3.png "Integer3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -103,7 +103,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Integer4 類型圖示](../../../../assets/fn-constant-integer4.png "Integer4 類型圖示")
+![Integer4 類型圖示](constant.resources/fn-constant-integer4.png "Integer4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -126,7 +126,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![浮點類型圖示](../../../../assets/fn-constant-float.png "浮點類型圖示")
+![浮點類型圖示](constant.resources/fn-constant-float.png "浮點類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -143,7 +143,7 @@ Integer3 節點會產生一個靜態的三成分整數向量，其分量為 （X
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float2 類型圖示](../../../../assets/fn-constant-float2.png "Float2 類型圖示")
+![Float2 類型圖示](constant.resources/fn-constant-float2.png "Float2 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -162,7 +162,7 @@ Float2 常用於 [取樣座標](../../../../function-graphs/nodes-reference-for-
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float3 類型圖示](../../../../assets/fn-constant-float3.png "Float3 類型圖示")
+![Float3 類型圖示](constant.resources/fn-constant-float3.png "Float3 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -171,7 +171,7 @@ Float2 常用於 [取樣座標](../../../../function-graphs/nodes-reference-for-
 
 Float3 節點會產生一個三成分（X、Y、Z）向量。
 
-Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md) [，例如 3D SDF 節點](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)，以及作為儲存 RGB 顏色的更簡單方式——即不使用 Alpha。
+Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d/cube-3d.md)[，例如 3D SDF 節點](../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)，以及作為儲存 RGB 顏色的更簡單方式——即不使用 Alpha。
 
 </td>
 </tr>
@@ -181,7 +181,7 @@ Float3 主要用於處理 3D 物件及 [3D 縮放座標](../../../../compositing
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![Float4 類型圖示](../../../../assets/fn-constant-float4.png "Float4 類型圖示")
+![Float4 類型圖示](constant.resources/fn-constant-float4.png "Float4 類型圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -202,7 +202,7 @@ Float4 是儲存和設定顏色資訊的首選方式，當 XYZW 值映射到 RGB
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![布林型別圖示](../../../../assets/fn-constant-boolean.png "")
+![布林型別圖示](constant.resources/fn-constant-boolean.png "")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
