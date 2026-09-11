@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer 中的圖形檢視來建立和編輯基於節點的材質圖。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖視圖
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '3558'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 本頁介紹 Substance 3D Designer 的圖形檢視底座。
 
-圖視圖是 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的主要視窗，你可以在這裡撰寫和編輯圖表。圖視圖有兩個主要區域：頂部的工具列，提供快速存取特定功能，以及節點放置的實際圖區。
+圖視圖是 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 的主要[視窗，你可以在這裡撰寫和編輯圖表。圖視圖有兩個主要區域：頂部的工具列，提供快速存取特定功能，以及節點放置的實際圖區。
 
-圖形檢視適用於所有圖形類型，但在 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)、[函數圖](../../function-graphs/function-graphs.md)與 [FX-Map 圖](../../function-graphs/fxmaps/fxmaps.md)之間略有差異，主要在工具列區域。
+圖形檢視適用於所有圖形類型，但在 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)、[函數圖](../../function-graphs/function-graphs.md)與 [FX-Map 圖](../../function-graphs/fxmaps/fxmaps.md)之間略有[差異，主要在工具列區域。
 
 ## 視窗導航
 
@@ -47,13 +47,13 @@ ht-degree: 0%
 > * 滑鼠滾輪向上 *拉近圖表* 視圖
 > * Alt+RMB 並向上 *拖曳會把* 圖形視圖推開
 > 
-> 縮放方向可以在偏好設定[&#128279;](../../interface/preferences-window/preferences-window.md)中反轉。
+> 縮放方向可以在偏好設定](../../interface/preferences-window/preferences-window.md)中[反轉。
 
-![視窗導航](../../assets/navigating.gif "視窗導航 視窗導航")
+![視窗導航](the-graph-view.resources/navigating.gif "視窗導航 視窗導航")
 
 你可以 <b>用 F 鍵專注於</b> 選取的節點，或如果沒有選取，則專注於整個圖表。
 
-導航也可以透過使用<b>導航圖釘</b>和 F2 鍵來進行，詳見[&#128279;](../../interface/the-graph-view/graph-items/graph-items.md)下方[圖表項目](#graph-items)。
+導航也可以透過使用<b>導航圖釘</b>和 F2 鍵來進行，詳見[下方[圖表項目](#graph-items)。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ## 移動物體
 
@@ -88,17 +88,17 @@ ht-degree: 0%
 
 <b>新增註解：</b> 新增一個無子級 [的註解](../../interface/the-graph-view/graph-items/graph-items.md) 圖物件;
 
-<b>新增框架：</b>新增框架[&#128279;](../../interface/the-graph-view/graph-items/graph-items.md)圖形物件;
+<b>新增框架：</b>新增框架[](../../interface/the-graph-view/graph-items/graph-items.md)圖形物件;
 
 <b>新增 pin：</b> 新增 [Pin](../../interface/the-graph-view/graph-items/graph-items.md) 圖形物件;
 
 <b>新增點數節點：</b> 新增一個 [點](../../interface/the-graph-view/graph-items/graph-items.md) 數節點;
 
-<b>在 3D 視圖中檢視輸出：</b>透過匹配使用情況，將所有圖形輸出指派給 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中的材料，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
+<b>在 3D 視圖中檢視輸出：</b>透過匹配使用情況，將所有圖形輸出指派給 3D 視圖](../../interface/3d-view/3d-view.md)中的材料[，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
 
-<b>在 3D 視圖中重置與檢視輸出：</b>在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中重置材料，並透過匹配使用方式將所有圖形輸出指派給該材質，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
+<b>在 3D 視圖中重置與檢視輸出：</b>在 3D 視圖](../../interface/3d-view/3d-view.md)中重置材料[，並透過匹配使用方式將所有圖形輸出指派給該材質，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
 
-<b>以 2D 視圖檢視輸出：</b>在 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)中顯示圖表的其中一個輸出，詳見[下方與 2D 視圖](#interacting-with-the-2d-view)互動;
+<b>以 2D 視圖檢視輸出：</b>在 2D 視圖](../../interface/2d-view/2d-view.md)中顯示圖表的其中一個輸出[，詳見[下方與 2D 視圖](#interacting-with-the-2d-view)互動;
 
 <b>計算節點縮圖：</b> 觸發計算圖中所有節點的結果——這些節點將儲存在 [影像快取](../../interface/preferences-window/preferences-window.md) 中——並使用它們的第一個輸出作為縮圖;
 
@@ -148,9 +148,9 @@ ht-degree: 0%
 * 右鍵點擊圖表的一個空白區域，然後選擇 <b>新增節點</b>。 只有 [原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md) 才能這樣放置。
 * 從圖書館檢視拖曳縮圖到圖表檢視。 此方法適用於[所有類型的節點，包括節點實例](../../compositing-graphs/nodes-reference-for-com/node-library/node-library.md)。
 * 按 <b>空白鍵</b> 進入 <b>節點選單</b>。 詳見下方。
-* 使用映射到節點的鍵盤快捷鍵。 映射是在偏好設定視窗[&#128279;](../../interface/preferences-window/preferences-window.md)中進行。
+* 使用映射到節點的鍵盤快捷鍵。 映射是在偏好設定視窗](../../interface/preferences-window/preferences-window.md)中進行[。
 
-![節點擺放](../../assets/nodecreation.gif "節點擺放")
+![節點擺放](the-graph-view.resources/nodecreation.gif "節點擺放")
 
 如果在選擇另一個節點時放置了節點，Designer 會嘗試自動將新節點連接到舊節點。\
 這種自動連線總是會將新節點置於舊節點 *之後* 。
@@ -168,7 +168,7 @@ ht-degree: 0%
 
 在圖視圖中按 <b>空白鍵</b> 會顯示節點選單。
 
-這個選單透過搜尋介面提供存取函式庫[&#128279;](../../interface/the-library/the-library.md)中所有節點，並讓你喜愛的節點出現在清單頂端。
+這個選單透過搜尋介面提供存取函式庫](../../interface/the-library/the-library.md)中[所有節點，並讓你喜愛的節點出現在清單頂端。
 
 您可以使用方向鍵瀏覽搜尋結果。 清單會 *循環*，使用第一個項目的「向上」箭頭鍵會跳到最後一個項目。
 
@@ -180,7 +180,7 @@ ht-degree: 0%
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
 
-![圖檢視：節點選單](../../assets/graph-node-menu_fuzzy-search.png "圖視圖：節點選單")
+![圖檢視：節點選單](the-graph-view.resources/graph-node-menu_fuzzy-search.png "圖視圖：節點選單")
 
 </td>
 </tr>
@@ -199,23 +199,23 @@ ht-degree: 0%
 * <b>上游：</b>在節點上點擊 RMB 並選擇「<b>選擇上游節點」</b>選項：選擇該節點及所有與該節點&#x200B;**&#x200B;輸入相連的串流節點;
 * <b>下游：</b> 在節點上點擊 RMB，選擇 <b>「選擇下游節點」</b> 選項：選擇該節點及所有連接該節點 *輸出* 的串流節點。
 
-![選擇節點](../../assets/graph-selecting-nodes.gif "選擇節點")
+![選擇節點](the-graph-view.resources/graph-selecting-nodes.gif "選擇節點")
 
 ### 節點上下文選單
 
 點擊節點上的右鍵時，會出現一個情境選單，並可能包含以下選項：
 
-<b>以 2D 視圖檢視輸出：</b>在 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)中顯示節點的其中一個輸出，詳見[下方與 2D 視圖](#interacting-with-the-2d-view)互動;
+<b>以 2D 視圖檢視輸出：</b>在 2D 視圖](../../interface/2d-view/2d-view.md)中顯示節點的其中一個輸出[，詳見[下方與 2D 視圖](#interacting-with-the-2d-view)互動;
 
-<b>3D 視圖</b>中的檢視：透過匹配使用情況，將所有節點的輸出指派給 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中的材料，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
+<b>3D 視圖</b>中的檢視：透過匹配使用情況，將所有節點的輸出指派給 3D 視圖](../../interface/3d-view/3d-view.md)中的[材料，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
 
-<b>重置並以 3D 視圖檢視：</b>在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中重置材質，並透過匹配使用量將節點所有輸出指派給該材質，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
+<b>重置並以 3D 視圖檢視：</b>在 3D 視圖](../../interface/3d-view/3d-view.md)中重置材質[，並透過匹配使用量將節點所有輸出指派給該材質，詳見[下方「與 3D 視圖](#interacting-with-the-3d-view)互動」;
 
-<b>以 3D 視圖查看輸出\*：</b>透過匹配使用情況，將特定節點輸出指派給 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中的材料;
+<b>以 3D 視圖查看輸出\*：</b>透過匹配使用情況，將特定節點輸出指派給 3D 視圖](../../interface/3d-view/3d-view.md)中的[材料;
 
 <b>新增註解：</b> 建立註 [解](../../interface/the-graph-view/graph-items/graph-items.md) 圖物件並將其父節點設定;
 
-<b>新增框架：</b>建立框架[&#128279;](../../interface/the-graph-view/graph-items/graph-items.md)圖形物件並將其擬合到所選節點;
+<b>新增框架：</b>建立框架[](../../interface/the-graph-view/graph-items/graph-items.md)圖形物件並將其擬合到所選節點;
 
 <b>將資訊複製到剪貼簿：</b> 將節點的唯一識別碼（UID）複製到剪貼簿;
 
@@ -223,9 +223,9 @@ ht-degree: 0%
 
 <b>Create\*：</b> 為每個節點的輸入和/或輸出建立輸入和/或輸出節點;
 
-<b>Open reference\*：</b>將該節點[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)所參考的圖載入為獨立的圖視圖分頁;
+<b>Open reference\*：</b>將該節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)所參考的圖[載入為獨立的圖視圖分頁;
 
-<b>在上下文中開啟參考\*\*：</b>將該節點[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)在當前圖上下文中所參考的圖載入，作為現有圖視圖分頁中的麵包屑;
+<b>在上下文中開啟參考\*\*：</b>將該節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)在當前圖上下文中所參考的圖[載入，作為現有圖視圖分頁中的麵包屑;
 
 <b>從選取建立圖：</b> 將選取的節點複製到新圖中;
 
@@ -248,7 +248,7 @@ ht-degree: 0%
 <b>停用節點/選擇：</b> 停用該節點或所選節點，使其不影響串流結果，詳見 <b>下方「停用節點</b> 」。
 
 <b>\*</b>：僅適用於 [圖實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 節點。\
-<b>\*\*：</b>僅適用於[圖實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點，且在<b>偏好設定[&#128279;](../../interface/preferences-window/preferences-window.md)中勾選啟用上下文編輯</b>選項時。\
+<b>\*\*：</b>僅適用於[圖實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點，且在<b>偏好設定](../../interface/preferences-window/preferences-window.md)中勾選[啟用上下文編輯</b>選項時。\
 <b>\*\*\*</b> ：僅在選擇包含兩個連結，或三個節點且其中兩個節點連接到同一第三個節點的輸入時使用。
 
 >[!IMPORTANT]
@@ -268,7 +268,7 @@ ht-degree: 0%
 > * 對於 *輸入* 連接器：節點會退回到該輸入的預設值設定;
 > * 對於 *輸出* 連接器：計算圖時資料會被忽略並丟棄。
 
-![連接節點](../../assets/links.gif "連接節點")
+![連接節點](the-graph-view.resources/links.gif "連接節點")
 
 你可以<b>在每個連接器上點擊 LMB，*順序不*&#x200B;限，建立</b>新連結。\
 此外，若在選擇節點 A 時建立節點 B，則 *節點 A 的第一個輸出* 會自動連接到 *節點 B 的主要輸入* 。
@@ -291,7 +291,7 @@ ht-degree: 0%
 
 被停用的節點具有以下行為：
 
-* 它們以 ![](../../assets/graph-badge-disabled.png)  <b>殘障</b> 徽章&#x200B;*、*&#x200B;虛線&#x200B;*輪廓及內部*&#x200B;重道* 連結取代縮圖顯示;
+* 它們以 ![](the-graph-view.resources/graph-badge-disabled.png)  <b>殘障</b> 徽章&#x200B;*、*&#x200B;虛線&#x200B;*輪廓及內部*&#x200B;重道* 連結取代縮圖顯示;
 * 節點會以主要 *輸入*&#x200B;輸出接收到的資料;
 * 停用節點可以串 *連* 起來;
 * 它們的性質與連結 *不會被修改*;
@@ -309,7 +309,7 @@ ht-degree: 0%
 > * *主要輸入與輸出的類型*&#x200B;必須&#x200B;*相符*——即灰階對灰階，顏色對顏色
 > * 所有被選中的節點必須具有 *相同的狀態* ——也就是說，所有節點都必須啟用，啟用規則相同
 
-![停用節點](../../assets/graph-disable-node.gif "停用節點"){width="512px"}
+![停用節點](the-graph-view.resources/graph-disable-node.gif "停用節點"){width="512px"}
 
 ## 與2D視圖互動
 
@@ -317,9 +317,9 @@ ht-degree: 0%
 >
 > 這只適用於 [物質圖](../../compositing-graphs/substance-compositing-graphs.md)。
 
-若要在 2D 視圖[&#128279;](../../interface/2d-view/2d-view.md)中顯示節點輸出，請雙擊節點上的 LMB，或點擊該節點的 RMB，然後在情境選單中選擇「[以 2D 視圖](#interacting-with-the-2d-view)檢視輸出」的選項。如果節點有多個輸出，請在子選單中選擇想要的輸出。
+若要在 2D 視圖](../../interface/2d-view/2d-view.md)中顯示節點輸出[，請雙擊節點上的 LMB，或點擊該節點的 RMB，然後在情境選單中選擇「[以 2D 視圖](#interacting-with-the-2d-view)檢視輸出」的選項。如果節點有多個輸出，請在子選單中選擇想要的輸出。
 
-你可以在2D視圖中顯示任何圖形輸出，方法是點擊圖形視圖[&#128279;](https://substance3d.adobe.com/)中空白區域的右鍵，並在情境選單中選擇[「2D視圖](#interacting-with-the-2d-view)中檢視輸出」。如果圖有多個輸出，請在子選單中選擇想要的輸出。
+你可以在2D視圖中顯示任何圖形輸出，方法是點擊圖形視圖](https://substance3d.adobe.com/)中空白區域[的右鍵，並在情境選單中選擇[「2D視圖](#interacting-with-the-2d-view)中檢視輸出」。如果圖有多個輸出，請在子選單中選擇想要的輸出。
 
 ## 與 3D 視圖互動
 
@@ -327,7 +327,7 @@ ht-degree: 0%
 >
 > 這只適用於 [物質圖](../../compositing-graphs/substance-compositing-graphs.md)。
 
-要在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中套用節點輸出，請點擊節點上的 RMB，並在情境選單中選擇「<b>在 3D 視圖</b>中檢視」選項。如果節點有多個輸出，請在子選單中選擇想要的輸出。 然後選擇目前在 3D 視圖中使用的著色器的目標通道。
+要在 3D 視圖](../../interface/3d-view/3d-view.md)中套用節點輸出[，請點擊節點上的 RMB，並在情境選單中選擇「<b>在 3D 視圖</b>中檢視」選項。如果節點有多個輸出，請在子選單中選擇想要的輸出。 然後選擇目前在 3D 視圖中使用的著色器的目標通道。
 
 （*[僅限* Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)）你可以在 3D 視圖中點擊空白區域的 RMB，然後在情境選單中選擇<b>「在 3D 視圖</b>中檢視輸出」選項來套用所有圖形輸出。確保圖中有一個或多個 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，且 [設定正確](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
@@ -341,78 +341,78 @@ ht-degree: 0%
 
 主工具列可在每種圖形類型中找到，提供通用功能，以及切換其他工具列的可視性。 你可以找到以下功能：
 
-![](../../assets/image2020-6-26-16-25-57.png)  <b>焦點選擇</b> （F）\
+![](the-graph-view.resources/image2020-6-26-16-25-57.png)  <b>焦點選擇</b> （F）\
 聚焦於選擇，或是整個場景（如果選擇為空）。
 
-![](../../assets/image2020-6-26-16-26-8.png)  <b>重置縮放</b> （Z）\
+![](the-graph-view.resources/image2020-6-26-16-26-8.png)  <b>重置縮放</b> （Z）\
 將目前的縮放等級恢復到預設狀態，並將視圖置中於圖表中央。 可以是放大或縮小。
 
-![](../../assets/image2020-6-26-16-26-26.png)  <b>匯出圖視圖\
+![](the-graph-view.resources/image2020-6-26-16-26-26.png)  <b>匯出圖視圖\
 </b>以 1：1 解析度匯出完整圖表作為影像。 分享整個圖表的截圖很有用。
 
-![](../../assets/image2020-6-26-16-26-37.png)  <b>節點資訊\
+![](the-graph-view.resources/image2020-6-26-16-26-37.png)  <b>節點資訊\
 </b>*- 顯示連接器名稱：* 切換節點上每個連接器的名稱顯示。\
 *- 顯示節點徽章：* 切換所有節點的節點徽章。\
 *- 顯示節點大小：* 切換節點解析度顯示（[僅限 Substance 圖表](../../compositing-graphs/substance-compositing-graphs.md) ）。\
 *- 顯示時序：* 切換每個節點毫秒時序的顯示（[僅限 Substance 圖表](../../compositing-graphs/substance-compositing-graphs.md) ）。\
-*- 縮小時限制文字縮放：*&#x200B;將圖表項目[&#128279;](../../interface/the-graph-view/graph-items/graph-items.md)的文字保持在超過縮放閾值的恆定螢幕大小，縮小時文字清晰可見。
+*- 縮小時限制文字縮放：*&#x200B;將圖表項目](../../interface/the-graph-view/graph-items/graph-items.md)的文字[保持在超過縮放閾值的恆定螢幕大小，縮小時文字清晰可見。
 
-![](../../assets/image2020-6-26-16-26-52.png)<b> 節點搜尋</b> 器（Ctrl+F）\
+![](the-graph-view.resources/image2020-6-26-16-26-52.png)<b> 節點搜尋</b> 器（Ctrl+F）\
 啟用工具尋找圖表中的節點、暴露參數及其他變數。 詳情請見 [專屬頁面](../../interface/the-graph-view/node-finder/node-finder.md)。
 
-![](../../assets/image2020-6-26-16-27-43.png)  <b>高光流\
+![](the-graph-view.resources/image2020-6-26-16-27-43.png)  <b>高光流\
 </b>選取目前選擇節點之前或之後連接的任何節點。 它適合追蹤複雜的節點路徑。
 
-![](../../assets/image2020-6-26-16-28-30.png)  <b>節點調色盤\
+![](the-graph-view.resources/image2020-6-26-16-28-30.png)  <b>節點調色盤\
 </b>顯示或隱藏節點工具列，請見下方。
 
-![](../../assets/image2020-6-26-16-32-33.png)  <b>矩形連結\
+![](the-graph-view.resources/image2020-6-26-16-32-33.png)  <b>矩形連結\
 </b>在節點間切換圓形或矩形連結。 FX-Maps 不提供 [。](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 
-![](../../assets/image2020-6-26-16-38-2.png)  <b>節點對齊工具\
+![](the-graph-view.resources/image2020-6-26-16-38-2.png)  <b>節點對齊工具\
 </b>讓工具能夠排列圖中選取的節點。 詳情請見 [專屬頁面](../../interface/the-graph-view/node-alignment-tools/node-alignment-tools.md)。
 
-僅在物質圖表[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)上：
+僅在物質圖表](../../compositing-graphs/substance-compositing-graphs.md)上[：
 
-![](../../assets/image2020-6-26-16-29-6.png)  <b>父體大小\
+![](the-graph-view.resources/image2020-6-26-16-29-6.png)  <b>父體大小\
 </b>切換父解析度控制設定的顯示，詳見下方。
 
-![](../../assets/image2020-6-26-16-31-15.png)  <b>連結建立模式</b> （1、2、3）\
+![](the-graph-view.resources/image2020-6-26-16-31-15.png)  <b>連結建立模式</b> （1、2、3）\
 可選擇標準（1）、材料（2）及緊湊材料（3）連結建立模式，分別或批次連結節點連接器。 詳情請見 [專屬頁面](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。
 
-![](../../assets/image2020-6-26-16-33-35.png)  <b>時序控制\
+![](the-graph-view.resources/image2020-6-26-16-33-35.png)  <b>時序控制\
 </b>讓你重置所有節點和時間點。
 
-![](../../assets/image2020-6-26-16-34-12.png)  <b>工具\
+![](the-graph-view.resources/image2020-6-26-16-34-12.png)  <b>工具\
 </b>*- 清潔：* 移除所有未連接 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點的串流節點。\
 *- 匯出輸出：* 開啟 [點陣圖匯出介面](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。\
 *- 重新匯出輸出：* 再次執行先前的匯出操作。\
 *- PSD 匯出器：* 開啟 [PSD 匯出器](../../compositing-graphs/exporting-psd-files/exporting-psd-files.md) 介面。
 
-![](../../assets/image2020-6-26-16-37-16.png)  <b>節點影像快取\
+![](the-graph-view.resources/image2020-6-26-16-37-16.png)  <b>節點影像快取\
 </b>切換節點影像快取切換的顯示，詳見下文。
 
-![](../../assets/graph-cleaner.jpg) 移除未使用的節點\
+![](the-graph-view.resources/graph-cleaner.jpg) 移除未使用的節點\
 </b>顯示移除圖表中未使用節點的選項，詳見下文。
 
 ### 節點調色盤
 
 節點工具列會依圖類型而異：
 
-[![節點調色盤](../../assets/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
+[![節點調色盤](the-graph-view.resources/image2020-6-26-16-45-31.png)](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)<br>
 <b>[實體圖](../../compositing-graphs/substance-compositing-graphs.md)：參見[原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)與[圖項目](../../interface/the-graph-view/graph-items/graph-items.md)</b>。
 
 
-![圖表項目調色盤](../../assets/image2020-6-26-16-46-32.png "圖形項目面板")<br>
+![圖表項目調色盤](the-graph-view.resources/image2020-6-26-16-46-32.png "圖形項目面板")<br>
 <b>[實體函數圖](../../function-graphs/function-graphs.md)：</b> 請參見 [圖題](../../interface/the-graph-view/graph-items/graph-items.md)。
 
 
-![FX-Map 調色盤](../../assets/image2020-6-26-16-48-4.png "FX-Map 調色盤")<br>
+![FX-Map 調色盤](the-graph-view.resources/image2020-6-26-16-48-4.png "FX-Map 調色盤")<br>
 <b>[FX-Map 圖表](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)：</b> 請參見 [圖表項目。](../../interface/the-graph-view/graph-items/graph-items.md)
 
 ### 父體大小
 
-![父大小工具列](../../assets/image2020-6-26-17-0-48.png "父大小工具列")
+![父大小工具列](the-graph-view.resources/image2020-6-26-17-0-48.png "父大小工具列")
 
 此工具列僅在 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)中提供，並設定[圖父&#x200B;*圖*&#x200B;的輸出大小](../../compositing-graphs/output-size/output-size.md)，若使用&#x200B;*相對於父[*&#x200B;繼承法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，則會影響圖的輸出大小。
 
@@ -420,7 +420,7 @@ ht-degree: 0%
 
 ### 節點影像快取
 
-![節點影像快取設定](../../assets/graph-toolbar-node-cache.png "節點影像快取設定")
+![節點影像快取設定](the-graph-view.resources/graph-toolbar-node-cache.png "節點影像快取設定")
 
 此功能切換了在計算 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)節點時的快取使用。
 
@@ -432,13 +432,13 @@ ht-degree: 0%
 
 ### 移除未使用的節點
 
-![移除未使用的節點下拉選單](../../assets/graph-cleaner-menu.jpg "移除未使用的節點下拉選單")
+![移除未使用的節點下拉選單](the-graph-view.resources/graph-cleaner-menu.jpg "移除未使用的節點下拉選單")
 
 當你在圖表中迭代並嘗試各種方法時，有些對最終結果毫無影響的節點可能會被遺漏。 這不僅增加了雜亂，也造成浪費計算，因為所有節點都在圖渲染的第一階段就被評估。
 
-![](../../assets/graph-cleaner.jpg)移除未使用節點</b>工具會刪除所有不&#x200B;*屬於串流的節點*，而串流最終&#x200B;*以輸出*&#x200B;節點結束。唯一的例外是 *輸入* 節點，因為刪除這些節點會改變 [參考此圖的實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 介面。
+![](the-graph-view.resources/graph-cleaner.jpg)移除未使用節點</b>工具會刪除所有不&#x200B;*屬於串流的節點*，而串流最終&#x200B;*以輸出*&#x200B;節點結束。唯一的例外是 *輸入* 節點，因為刪除這些節點會改變 [參考此圖的實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 介面。
 
-![移除未使用的節點](../../assets/graph-cleaner.gif "移除未使用的節點")
+![移除未使用的節點](the-graph-view.resources/graph-cleaner.gif "移除未使用的節點")
 
 第一個選項是將清潔功能專門應用於 *目前* 的圖表。
 

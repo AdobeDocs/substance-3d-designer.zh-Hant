@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/dot-node.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中使用點節點和入口節點來建立連接點並組織圖形流程。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 點節點（亦稱 Portal）
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 4b938349fed501f5f6b3e3a70a1006519749e4e1
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="25.00%" style="border: 0;" valign="top">
 
-![點節點圖示](../../../../assets/graphatomic-dot_1.png "點點節點圖示")
+![點節點圖示](dot-node.resources/graphatomic-dot_1.png "點點節點圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -44,7 +44,7 @@ ht-degree: 0%
 +++連結插入
 按住 <b>Alt</b> 鍵並懸停在連線上顯示點節點預覽，然後點擊左鍵在該連接點上新增點節點。
 
-![插入點點](../../../../assets/dot-node-insert-optim.gif ""){width="512px"}
+![插入點點](dot-node.resources/dot-node-insert-optim.gif ""){width="512px"}
 
 
 
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 你可以繼續拖曳新連線，重複這個操作，讓該連線以你喜歡的方式路由。
 
-![點：從連接器](../../../../assets/graph-dot_create-from-connector.gif "創建 點：從連接器創建")
+![點：從連接器](dot-node.resources/graph-dot_create-from-connector.gif "創建 點：從連接器創建")
 
 
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 +++節點選單
 按 <b>空白鍵</b> 顯示 <b>節點選單</b>，然後選擇「Dot」項目，或在搜尋欄輸入「dot」，這樣可以快速浮現該項目並找到它。
 
-![節點選單](../../../../assets/dot-node-insert-menu.png "中的點節點選單中的節點")
+![節點選單](dot-node.resources/dot-node-insert-menu.png "中的點節點選單中的節點")
 
 
 
@@ -85,7 +85,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![合併連結](../../../../assets/dot-node-congrenate-links-optim.gif "合併連結"){width="512px"}
+![合併連結](dot-node.resources/dot-node-congrenate-links-optim.gif "合併連結"){width="512px"}
 
 </td>
 </tr>
@@ -97,7 +97,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="16.67%" style="border: 0;" valign="top">
 
-![點節點作為入口 - 圖示](../../../../assets/DotNode_Portal-1.png "點節點作為入口 - 圖示")
+![點節點作為入口 - 圖示](dot-node.resources/DotNode_Portal-1.png "點節點作為入口 - 圖示")
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -108,7 +108,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-![點節點作為入口](../../../../assets/DotNode_Portal.gif "點節點作為入口")
+![點節點作為入口](dot-node.resources/DotNode_Portal.gif "點節點作為入口")
 
 ### 創建傳送門
 
@@ -136,6 +136,6 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> FX-Map 圖[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md)不支援將點節點作為入口。
+> FX-Map 圖](../../../../function-graphs/fxmaps/fxmaps.md)不支援[將點節點作為入口。
 
 看看這個關於點節點作為傳送門的教學：
