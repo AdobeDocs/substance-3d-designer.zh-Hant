@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/tile-generator.html"
 breadcrumb-title: ''
 description: 使用圖塊產生器節點來創建具有可自訂尺寸、偏移和變化控制的程序化圖塊圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 圖塊產生器
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 5%
@@ -24,7 +24,7 @@ ht-degree: 5%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/tile-generator.png){width="128px"}
+![](tile-generator.resources/tile-generator.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -118,16 +118,16 @@ ht-degree: 5%
 <table style="margin-top: 32px; margin-bottom: 32px">
     <tr style="border: 0">
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/tilesampler-ex.png" />
+            <img src="tile-generator.resources/tilesampler-ex.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-50-18.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-50-18.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-52-4.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-52-4.png" />
         </td>
         <td style="border: 0; background: transparent">
-            <img src="../../../../../../assets/image2020-9-17-14-53-47.png" />
+            <img src="tile-generator.resources/image2020-9-17-14-53-47.png" />
         </td>
     </tr>
 </table>

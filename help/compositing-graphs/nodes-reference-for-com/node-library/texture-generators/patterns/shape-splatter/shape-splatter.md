@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns/shape-splatter.html"
 breadcrumb-title: ''
 description: 使用 Shape Splatter 節點將形狀散布到材質中，創造程序化圖案與細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 形狀濺射
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 79916cdb133abb1a43d11012c9d23c3c6d27b079
+source-git-commit: dbfe5b7ce453a6178d8d970698d3a5f8225151b4
 workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 7%
@@ -24,7 +24,7 @@ ht-degree: 7%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![](../../../../../../assets/shape-splatter.png){width="128px"}
+![](shape-splatter.resources/shape-splatter.png){width="128px"}
 
 <b>收錄於：</b> 紋理產生器>圖案
 
@@ -33,7 +33,7 @@ ht-degree: 7%
 
 ## 說明
 
-這是一個非常複雜的節點，設計用來搭配搭配的節點 [Shape Splatter Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)、 [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) 以及 [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)。 用來以類似 Tile Sampler 或 Generator 的方式[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)潑灑形狀，但採用動態且非破壞性的過程，透過類似 [Flood Fill 的多層系統控制每一步。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) [&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) Flood Fill 是從外部來源取得基礎輸入地圖，而 Shape Splatter 則能在單一步驟內產生地圖及相關資料，作為 Flood Fill[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) 的進階版本。
+這是一個非常複雜的節點，設計用來搭配搭配的節點 [Shape Splatter Blend](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-blend/shape-splatter-blend.md)、 [Shape Splatter to Mask](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-to-mask/shape-splatter-to-mask.md) 以及 [Shape Splatter Data Extract](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-data-ext/shape-splatter-data-extract.md)。 用來以類似 Tile Sampler 或 Generator 的方式[潑灑形狀，但採用動態且非破壞性的過程，透過類似 [Flood Fill 的多層系統控制每一步。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md)[](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-sampler/tile-sampler.md) Flood Fill 是從外部來源取得基礎輸入地圖，而 Shape Splatter 則能在單一步驟內產生地圖及相關資料，作為 Flood Fill](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md) 的進階版本[。
 
 它的主要目的是允許將形狀放置在高度圖上並由高度圖驅動，然後從 Splatter Data 生成各種地圖。 例如，在地形上放置石頭、樹枝和樹葉，並由各種地圖來定向和驅動。 不同貼圖可用於高度、法線、底色、粗糙度及其他任何通道，且皆基於相同的共用濺射資料。
 
