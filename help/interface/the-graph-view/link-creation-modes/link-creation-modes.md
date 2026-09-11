@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/link-creation-modes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖形檢視中學習連結建立模式，以有效連接節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 連結建立模式
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 01adf91721f742481a84e22a1fa0c22e5e0de887
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 0%
@@ -26,22 +26,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![連結建立模式：標準](../../../assets/link-creation-mode-standard.gif "連結建立模式：標準"){zoomable="yes"}
+![連結建立模式：標準](link-creation-modes.resources/link-creation-mode-standard.gif "連結建立模式：標準"){zoomable="yes"}
 
 *點擊放大*
 
-<b>![](../../../assets/image2020-10-6-19-40-25.png) 標準賽</b> （1）
+<b>![](link-creation-modes.resources/image2020-10-6-19-40-25.png) 標準賽</b> （1）
 
 不強制執行任何條件。
 
 </td>
 <td style="border: 0;" valign="top">
 
-![連結建立模式：素材](../../../assets/link-creation-mode-material.gif "連結創建模式：素材"){zoomable="yes"}
+![連結建立模式：素材](link-creation-modes.resources/link-creation-mode-material.gif "連結創建模式：素材"){zoomable="yes"}
 
 *點擊放大*
 
-![](../../../assets/image2020-10-6-17-11-20.png)<b>素材（</b>2）
+![](link-creation-modes.resources/image2020-10-6-17-11-20.png)<b>素材（</b>2）
 
 輸入與輸出會根據其使用情況進行匹配。
 
@@ -50,11 +50,11 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![連結建立模式：緊湊材質](../../../assets/link-creation-mode-compact-material.gif "連結建立模式：緊湊材質"){zoomable="yes"}
+![連結建立模式：緊湊材質](link-creation-modes.resources/link-creation-mode-compact-material.gif "連結建立模式：緊湊材質"){zoomable="yes"}
 
 *點擊放大*
 
-![](../../../assets/image2020-10-6-19-40-46.png)<b>緊湊材料</b>（3）
+![](link-creation-modes.resources/image2020-10-6-19-40-46.png)<b>緊湊材料</b>（3）
 
 和材料一樣。
 
@@ -64,13 +64,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-你可以隨時在圖表工具列中切換模式，點擊![](../../../assets/link-creation-mode.png)<b>連結建立模式</b>按鈕，或使用上述鍵盤快捷鍵切換。
+你可以隨時在圖表工具列中切換模式，點擊![](link-creation-modes.resources/link-creation-mode.png)<b>連結建立模式</b>按鈕，或使用上述鍵盤快捷鍵切換。
 
 在<b>物質模式與<b>緊湊材料</b>模式中，輸入與輸出&#x200B;*之間不匹配的使用*&#x200B;方式是被</b>禁止的連接。
 
 ## 模式
 
-|  | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-17-11-20.png"/></div> 緊湊 | <div><img data-preserve-html="true" height="23" src="../../../assets/image2020-10-6-19-40-46.png"/></div> 緻密材料 |
+|  | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-25.png"/></div> 標準 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-17-11-20.png"/></div> 緊湊 | <div><img data-preserve-html="true" height="23" src="link-creation-modes.resources/image2020-10-6-19-40-46.png"/></div> 緻密材料 |
 | --- | --- | --- | --- |
 | <b>輸入</b> | 所有輸入都是可見的 | 所有輸入都是可見的 | 每組只能輸入一個 |
 | <b>輸出</b> | 所有輸出皆可見 | 所有輸出皆可見 | 每組只有一個輸出 |
@@ -92,7 +92,7 @@ ht-degree: 0%
 </td>
 <td width="25.00%" style="border: 0;" valign="top">
 
-![節點](../../../assets/link-creation-mode-group-node.png "上的群組膠囊 節點上的群組膠囊"){zoomable="yes"}
+![節點](link-creation-modes.resources/link-creation-mode-group-node.png "上的群組膠囊 節點上的群組膠囊"){zoomable="yes"}
 
 </td>
 </tr>
@@ -107,7 +107,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![群組屬性](../../../assets/link-creation-mode-group.png "群組屬性"){zoomable="yes"}
+![群組屬性](link-creation-modes.resources/link-creation-mode-group.png "群組屬性"){zoomable="yes"}
 
 *點擊放大*
 
@@ -133,7 +133,7 @@ ht-degree: 0%
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
 
-![使用屬性](../../../assets/link-creation-mode-usage.png "使用屬性"){zoomable="yes"}
+![使用屬性](link-creation-modes.resources/link-creation-mode-usage.png "使用屬性"){zoomable="yes"}
 
 *點擊放大*
 
