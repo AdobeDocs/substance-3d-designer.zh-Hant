@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/output-size.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/output-size.html"
 breadcrumb-title: ''
 description: 設定Substance合成圖形的輸出大小設定，以控制紋理解析度和品質。
 helpx_creative_field: ""
@@ -102,7 +102,7 @@ Output size屬性使用&#x200B;*對數步長*&#x200B;來輕鬆對應兩個冪的
 
 ## 範例問題
 
-如果你是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 的新手，可能會遇到一些常見問題。我們將在下面列出一些範例及解決方案。
+如果你是 Adobe Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 的新手，可能會遇到一些常見問題。我們將在下面列出一些範例及解決方案。
 
 +++問題一
 **![（錯誤）](../../assets/error.svg) 問題**

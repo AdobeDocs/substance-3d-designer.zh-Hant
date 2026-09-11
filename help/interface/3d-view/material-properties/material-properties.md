@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/material-properties.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/material-properties.html"
 breadcrumb-title: ''
 description: 在 3D 視圖中設定材質屬性，預覽並調整 Substance 材質在 3D 物件上的呈現方式。
 helpx_creative_field: ""
@@ -197,7 +197,7 @@ Adobe 標準材質（ASM）模型於 Designer 11.2 中引入，並成為 Designe
 
 雖然 Designer 已將 OpenPBR 作為新的預設模型，但 ASM 仍然包含在內，且其屬性也被共享透過光柵化器、GPU Pathtracer 及 OpenGL [3D 渲染器](../3d-renderers/3d-renderers.md)。
 
-此模型在此有文件說明[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)。
+此模型在此有文件說明[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)。
 
 <a name="usdpreviewsurface"></a>
 

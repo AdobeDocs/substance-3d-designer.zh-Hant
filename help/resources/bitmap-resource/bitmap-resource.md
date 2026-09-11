@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/bitmap-resource.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/bitmap-resource.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入、建立及使用點陣圖資源，以製作基於材質的材質。
 helpx_creative_field: ""

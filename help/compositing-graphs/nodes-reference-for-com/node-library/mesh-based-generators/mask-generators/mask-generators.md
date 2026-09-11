@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取遮罩產生節點，根據網格幾何與屬性建立遮罩。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 遮罩產生器
 
-此類別包含一系列黑白遮罩產生節點。 根據烘焙的貼圖資訊，他們會產生遮罩，然後用來混合材質和其他效果。 這些節點類似 [於 Substance Painter 中的智慧面具](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) 與 [生成器](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/generators) 。
+此類別包含一系列黑白遮罩產生節點。 根據烘焙的貼圖資訊，他們會產生遮罩，然後用來混合材質和其他效果。 這些節點類似 [於 Substance Painter 中的智慧面具](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/features/smart-materials-and-masks) 與 [生成器](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/content/creating-custom-effects/generators) 。
 
 這些節點都需要 [烘焙地圖，](../../../../../bakers/bakers.md) 因為沒有 [烘焙地圖](../../../../../bakers/bakers.md) ，效果會很有限。
 

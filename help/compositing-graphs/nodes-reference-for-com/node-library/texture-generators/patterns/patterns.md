@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/patterns.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取圖案生成節點，以創建幾何形狀、圖塊及程序圖案。
 helpx_creative_field: ""

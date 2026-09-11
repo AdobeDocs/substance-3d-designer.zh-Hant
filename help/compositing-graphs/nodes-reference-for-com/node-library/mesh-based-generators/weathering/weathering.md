@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取風化節點，根據網格幾何體加入真實的磨損與老化效果。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 風化
 
-風化節點更進一步 [，讓 Mask Generators](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) 更進一步：它們會根據參數和烘焙貼圖，做出完整的材質風化效果。 這個概念與 [Substance Painter中的Smart Materials](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks) 非常相似。
+風化節點更進一步 [，讓 Mask Generators](../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-generators.md) 更進一步：它們會根據參數和烘焙貼圖，做出完整的材質風化效果。 這個概念與 [Substance Painter中的Smart Materials](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/features/smart-materials-and-masks) 非常相似。
 
 你需要有一個或多個烘焙的貼圖，才能從這些節點獲得完整結果。
 

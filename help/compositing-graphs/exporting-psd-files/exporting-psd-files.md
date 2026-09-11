@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/exporting-psd-files.html"
 breadcrumb-title: ''
 description: 學習如何將 Substance 合成圖表匯出為 PSD 檔案，供 Adobe Photoshop 及其他影像編輯工作流程使用。
 helpx_creative_field: ""

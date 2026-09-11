@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/best-practices/filesize-reduction-guidelines.html"
 breadcrumb-title: ''
 description: 學習減少 Substance 圖檔案大小的指引，以優化效能與儲存需求。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 在某些情況下，Substance 3D 資產（SBSAR）[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的總檔案大小可能是一個重要因素。本頁涵蓋幾個關鍵領域與設定，建議在嘗試縮小檔案大小時留意。
 
-檔案大小主要由 [嵌入的點陣圖決定。](../../resources/bitmap-resource/bitmap-resource.md) 這些檔案會連結、嵌入或烘焙，並作為資源加入  [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 檔案（SBS）。 只有用於圖形中的位圖，也就是直接或透過節點鏈連接到輸出的位圖，才會被發佈在 Substance 3D 資產中。 在 Substance 3D 檔案中，點陣圖對檔案大小沒有影響，因為所有點陣資源仍儲存在檔案外部。
+檔案大小主要由 [嵌入的點陣圖決定。](../../resources/bitmap-resource/bitmap-resource.md) 這些檔案會連結、嵌入或烘焙，並作為資源加入  [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 檔案（SBS）。 只有用於圖形中的位圖，也就是直接或透過節點鏈連接到輸出的位圖，才會被發佈在 Substance 3D 資產中。 在 Substance 3D 檔案中，點陣圖對檔案大小沒有影響，因為所有點陣資源仍儲存在檔案外部。
 
 >[!IMPORTANT]
 >

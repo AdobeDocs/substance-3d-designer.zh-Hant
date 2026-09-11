@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 偏好設定中設定版本控制，以整合 Git 及其他系統。
 helpx_creative_field: ""
