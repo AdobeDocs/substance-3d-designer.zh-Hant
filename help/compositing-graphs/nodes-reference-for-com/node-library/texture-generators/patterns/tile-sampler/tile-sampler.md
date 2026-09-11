@@ -33,7 +33,7 @@ ht-degree: 5%
 
 ## 說明
 
-Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本[。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
+Tile Sampler 是終極的圖塊圖案生成節點。 它是 Tile Generator[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 的進化版、更複雜的版本。截至 2017 2.1 版本，Tile Sampler 與 [Generator](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/tile-generator/tile-generator.md) 之間的差異大幅縮小。 主要差異現在只在七個不同的地圖槽位上，可用於駕駛縮放、位置、旋轉、大小、顏色和遮罩。 它們的效果可以分開混合。
 
 Tile Sampler 適合建立人工程序式模式，並可額外控制由外部輸入映射驅動的特定參數。
 
