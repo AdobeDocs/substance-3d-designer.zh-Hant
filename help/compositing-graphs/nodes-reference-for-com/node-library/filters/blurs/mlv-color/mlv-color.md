@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/mlv-color.html"
 breadcrumb-title: ''
 description: 使用 MLV 色彩模糊濾鏡，將動態模糊效果套用到色彩貼圖上，營造動態視覺效果。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/bakers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/bakers.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer 烘焙工具，將網格資訊計算成貼圖檔案。
 helpx_creative_field: ""
@@ -24,13 +24,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 想了解更多烘焙知識，請參考 [烘焙說明](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/home)。
+> 想了解更多烘焙知識，請參考 [烘焙說明](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/home)。
 
 <table>
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-烘焙視窗可以透過檔案總管[&#128279;](../interface/the-explorer-window/the-explorer-window.md)視窗中的網格檔案進入。右鍵點擊網格名稱，選擇「**烘焙模型資訊**」以開啟烘焙視窗。
+烘焙視窗可以透過檔案總管](../interface/the-explorer-window/the-explorer-window.md)視窗中的[網格檔案進入。右鍵點擊網格名稱，選擇「**烘焙模型資訊**」以開啟烘焙視窗。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -93,13 +93,13 @@ ht-degree: 0%
 
 ### 高解析度網格
 
-這個面板控制高多邊形網格列表及相關設定。 更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
+這個面板控制高多邊形網格列表及相關設定。 更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
 
 ![高解析度網格](bakers.resources/sd-high.png "高解析度網格")
 
 ### 預設值
 
-更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
+更多資訊請參閱 [常見參數](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/common-parameters) 。
 
 ![預設值](bakers.resources/sd-default-values.png "預設值")
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 點擊清單中的烘焙器時，烘焙者參數檢視會更新其特定參數。
 
-欲了解更多具體參數，請參閱： [Bakers 設定](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
+欲了解更多具體參數，請參閱： [Bakers 設定](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/bakers-settings)。
 
 ![Bakers 渲染列表](bakers.resources/sd-baker-list.png "Bakers 渲染列表")

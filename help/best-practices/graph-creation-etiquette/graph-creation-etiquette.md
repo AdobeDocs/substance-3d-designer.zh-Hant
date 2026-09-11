@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/best-practices/graph-creation-etiquette.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices/graph-creation-etiquette.html"
 breadcrumb-title: ''
 description: 學習建立 Substance 圖表的最佳實務與禮儀，以確保工作流程乾淨、可維護且高效。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 #### 圖表項目
 
-圖項目是輔助物件，可以在圖圖檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)中放置在節點旁邊或周圍。三者中，框架提供最快且最大的好處，而評論與導航圖釘則更適合特定情境。
+圖項目是輔助物件，可以在圖圖檢視](../../interface/the-graph-view/the-graph-view.md)中放置在節點[旁邊或周圍。三者中，框架提供最快且最大的好處，而評論與導航圖釘則更適合特定情境。
 
 #### 框架
 
@@ -107,7 +107,7 @@ ht-degree: 0%
 
 ### 解析度控制
 
-控制物質圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)的解析度可能令人困惑，因此必須謹慎操作才能正確操作。犯錯可能導致嚴重影響表現，或造成品質低劣且無法使用的結果。
+控制物質圖](../../compositing-graphs/substance-compositing-graphs.md)的解析度[可能令人困惑，因此必須謹慎操作才能正確操作。犯錯可能導致嚴重影響表現，或造成品質低劣且無法使用的結果。
 
 [要完全理解這個主題，務必了解絕對輸出大小與相對輸出大小。](../../compositing-graphs/output-size/output-size.md)
 

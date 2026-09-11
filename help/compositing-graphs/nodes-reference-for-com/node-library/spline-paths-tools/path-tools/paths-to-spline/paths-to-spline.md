@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-to-spline.html"
 breadcrumb-title: ''
 description: 使用 Paths to Spline 節點將路徑資料轉換為樣條線，以便用於基於樣條的節點。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
+將路徑轉換成樣條曲線，並可透過[樣條線渲染](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-render/spline-render.md)節點視覺化並處理[](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)。
 
 </td>
 </tr>
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 >[!TIP]
 >
-> 此節點可在 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後使用，形成一條將遮罩轉換為樣條的鏈。
+> 此節點可在 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 節點之後[使用，形成一條將遮罩轉換為樣條的鏈。
 
 <a name="inputs"></a>
 
@@ -53,7 +53,7 @@ ht-degree: 1%
 
 |  |  |
 |:---|:---|
-| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個 Path-processing 節點。 |
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個 Path-processing 節點。 |
 
 <a name="outputs"></a>
 

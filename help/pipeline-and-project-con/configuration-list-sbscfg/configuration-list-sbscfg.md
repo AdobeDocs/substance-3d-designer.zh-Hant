@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/configuration-list-sbscfg.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中使用 SBSCFG 配置清單來管理專案設定和預設。
 helpx_creative_field: ""

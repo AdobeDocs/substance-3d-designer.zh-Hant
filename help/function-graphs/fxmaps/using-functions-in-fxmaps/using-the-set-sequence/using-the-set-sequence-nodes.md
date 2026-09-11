@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence-nodes.html"
 breadcrumb-title: ''
 description: 學習如何在 FXMaps 中使用 SetSequence 節點來創造連續模式和程序變化。
 helpx_creative_field: ""
@@ -118,7 +118,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-**&#x200B;**&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
+****&#x200B;序列節點可以串&#x200B;*接*&#x200B;以控制圖的執行流程。
 
 例如，你可以&#x200B;*先設定*&#x200B;一個變數，之後&#x200B;*在某個點更新*&#x200B;其值，然後&#x200B;*讀取*&#x200B;最終值，同時確保這些動作以特定順序&#x200B;*發生*。
 

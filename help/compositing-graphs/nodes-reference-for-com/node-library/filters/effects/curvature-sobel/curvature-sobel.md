@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/curvature-sobel.html"
 breadcrumb-title: ''
 description: 使用 Curvature Sobel 節點來偵測曲率邊，使用索貝爾運算子來建立基於邊緣的遮罩。
 helpx_creative_field: ""

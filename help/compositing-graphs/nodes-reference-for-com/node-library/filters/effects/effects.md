@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取效果濾鏡節點，為材質添加光暈、陰影和變形等視覺效果。
 helpx_creative_field: ""

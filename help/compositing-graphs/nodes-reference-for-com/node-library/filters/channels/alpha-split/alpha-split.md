@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/alpha-split.html"
 breadcrumb-title: ''
 description: 使用 Alpha Split 節點從 RGBA 貼圖中提取 alpha 通道，進行獨立處理與操作。
 helpx_creative_field: ""

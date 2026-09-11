@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/logical-nodes.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 函式圖中的邏輯節點，以執行布林邏輯運算與比較。
 helpx_creative_field: ""

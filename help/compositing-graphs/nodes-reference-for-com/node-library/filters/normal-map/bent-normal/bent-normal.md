@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/bent-normal.html"
 breadcrumb-title: ''
 description: 使用 Bent Normal 節點來產生 Bent 法線貼圖，以考慮環境光遮蔽和間接光照。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-根據高度圖輸入產生彎曲法線貼圖。 彎曲法線貼圖是法向[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)與環境遮蔽（RTAO）[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)的特殊版本，能產生帶有嵌入環境遮蔽的法線貼圖。\
+根據高度圖輸入產生彎曲法線貼圖。 彎曲法線貼圖是法向[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)與環境遮蔽（RTAO）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/ambient-occlusion-rtao/ambient-occlusion-rtao.md)的特殊版本[，能產生帶有嵌入環境遮蔽的法線貼圖。\
 這可以在即時引擎中使用，將環境遮蔽（Ambient Occlusion）內建於法線貼圖中，例如為了更精確地反映金屬的遮蔽反射。
 
 由於計算時間，此節點不應與 CPU（SSE）引擎搭配使用。

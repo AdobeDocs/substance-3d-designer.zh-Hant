@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/min-max.html"
 breadcrumb-title: ''
 description: 使用最小最大節點（Min Max）來夾住貼圖值在最小與最大閾值之間，以控制值範圍。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-最小極大值會找出灰階輸入中最亮與最暗的值，並返回為 [值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。 它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)節點的 Value Inputs，並將最小最大值的值輸入輸入到它。
+最小極大值會找出灰階輸入中最亮與最暗的值，並返回為 [值](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。 它設計成一個更細緻、手動的[自動等級](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)替代方案，透過暴露 Levels](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)節點的 [Value Inputs，並將最小最大值的值輸入輸入到它。
 
 要用這個節點搭配 Levels，你至少應該知道如何使用 [「Expose Parameter」下拉選單](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，以及 [「Value」輸入標籤](../../../../../values-compositing-graphs/values-in-substance-compositing-graphs.md)。
 

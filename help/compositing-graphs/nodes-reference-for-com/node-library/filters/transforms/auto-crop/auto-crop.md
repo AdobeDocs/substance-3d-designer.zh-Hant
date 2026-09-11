@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/auto-crop.html"
 breadcrumb-title: ''
 description: 使用自動裁切節點自動裁切材質，移除空白邊框並優化材質尺寸。
 helpx_creative_field: ""
@@ -48,7 +48,7 @@ ht-degree: 1%
 
 **自動裁切**&#x200B;節點會&#x200B;**調整輸入**，使其內容要麼放在&#x200B;*圖片中央*&#x200B;且不調整大小，要麼&#x200B;*調整大小至影像的長度*。
 
-影像內容由一個框定義，該框貼合在 X 和 Y 的首尾像素上，該值&#x200B;*大*&#x200B;於 0 *（即非黑色）。**&#x200B;**&#x200B;**&#x200B;**&#x200B;***彩色**&#x200B;版本允許你從 RGB 和 Alpha 通道中選擇來定義該框。
+影像內容由一個框定義，該框貼合在 X 和 Y 的首尾像素上，該值&#x200B;*大*&#x200B;於 0 *（即非黑色）。***********彩色**&#x200B;版本允許你從 RGB 和 Alpha 通道中選擇來定義該框。
 
 </td>
 </tr>

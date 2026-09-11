@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/facing-normal.html"
 breadcrumb-title: ''
 description: 使用 Facing Normal 節點根據表面面向方向產生法線貼圖，以創造基於方向的效果。
 helpx_creative_field: ""

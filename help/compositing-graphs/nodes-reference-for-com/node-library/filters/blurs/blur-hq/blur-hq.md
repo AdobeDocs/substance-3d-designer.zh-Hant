@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs/blur-hq.html"
 breadcrumb-title: ''
 description: 使用 Blur HQ 節點對材質施加高品質模糊效果，創造流暢且專業的模糊效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 6%
 
 ## 說明
 
-對結果進行高品質高斯模糊處理。 品質比 [標準的原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md) [好多了。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
+對結果進行高品質高斯模糊處理。 品質比 [標準的原子盒模糊](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)[好多了。](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blur/blur.md)
 
 重要：務必使用適合你輸入的版本！ 用「Blur HQ」來輸入顏色，或用「Blur HQ Grayscale」來輸入灰階。
 

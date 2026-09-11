@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
 breadcrumb-title: ''
 description: 使用 3D Voronoi 節點根據 3D 世界位置產生 Voronoi 圖案，以建立體積細胞紋理。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 <b>3D Voronoi</b> 節點根據位置圖</b>輸入在 3D 空間<b>中產生 Voronoi 雜訊。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/package-metadata.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/package-metadata.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立和管理有組織資產庫的套件元資料。
 helpx_creative_field: ""

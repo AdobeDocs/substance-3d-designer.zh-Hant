@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/bnw-spots-3.html"
 breadcrumb-title: ''
 description: 使用 BnW Spots 3 節點來產生進階的黑白點圖案，用於製作材質變化和遮罩。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 1%
 
 粗糙 <b>的黑白（BnW）斑點</b> 聲的變體。
 
-另見：[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)BnW 地點 1，BnW [&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 2
+另見：[BnW 地點 1，BnW [](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-1/bnw-spots-1.md)地點 2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/noises/bnw-spots-2/bnw-spots-2.md)
 
 </td>
 </tr>

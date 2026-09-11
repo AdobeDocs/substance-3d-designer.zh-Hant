@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-position.html"
 breadcrumb-title: ''
 description: 使用 3D 貼圖位置節點，從 3D 貼圖中提取位置資訊，以建立空間效果與貼圖。
 helpx_creative_field: ""

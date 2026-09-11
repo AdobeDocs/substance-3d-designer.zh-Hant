@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/ambient-occlusion-hbao-filter-node.html"
 breadcrumb-title: ''
 description: 使用環境遮蔽 HBAO 濾鏡節點，利用基於地平線的演算法生成環境遮蔽貼圖，呈現逼真的陰影效果。
 helpx_creative_field: ""

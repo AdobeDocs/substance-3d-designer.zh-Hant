@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/packaging-plugins.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/packaging-plugins.html"
 breadcrumb-title: ''
 description: 學習如何將 Python 外掛打包到 Substance 3D Designer 的發行與安裝。
 helpx_creative_field: ""

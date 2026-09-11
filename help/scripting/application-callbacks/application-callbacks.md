@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/application-callbacks.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/application-callbacks.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer Python 外掛中使用應用程式回調來回應應用程式事件。
 helpx_creative_field: ""

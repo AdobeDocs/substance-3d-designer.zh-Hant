@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/multi-color-equalizer.html"
 breadcrumb-title: ''
 description: 使用多色均衡器節點（Multi Color Equalizer）節點，將多個紋理通道的顏色均衡，以實現掃描材質的一致性處理。
 helpx_creative_field: ""

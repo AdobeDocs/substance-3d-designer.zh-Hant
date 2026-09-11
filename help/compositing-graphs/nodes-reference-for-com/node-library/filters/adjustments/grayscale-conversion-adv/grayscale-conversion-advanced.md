@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/grayscale-conversion-advanced.html"
 breadcrumb-title: ''
 description: 使用灰階轉換進階節點，將顏色轉換成灰階，並對轉換方法進行進階控制。
 helpx_creative_field: ""

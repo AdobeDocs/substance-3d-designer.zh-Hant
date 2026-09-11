@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/best-practices.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/best-practices.html"
 breadcrumb-title: ''
 description: 取得 Substance 3D Designer 的最佳實務指南，優化您的工作流程並打造高效的材料。
 helpx_creative_field: ""

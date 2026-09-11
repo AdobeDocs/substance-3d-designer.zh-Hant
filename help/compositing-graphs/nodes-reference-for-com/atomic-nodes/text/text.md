@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ''
 description: 使用 Text 節點生成帶有可自訂字型與樣式的文字紋理，以創造基於文字的圖案。
 helpx_creative_field: ""

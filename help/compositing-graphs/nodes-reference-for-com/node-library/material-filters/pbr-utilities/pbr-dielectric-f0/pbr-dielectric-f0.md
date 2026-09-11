@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-dielectric-f0.html"
 breadcrumb-title: ''
 description: 使用 PBR 介電 F0 節點來計算物理基礎材料工作流程的介電 F0 值。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/scan-processing/atlas-splitter.html"
 breadcrumb-title: ''
 description: 使用圖集分割器節點將材質圖集分割成獨立材質，以便處理掃描材質。
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 它也可以用來重新組織並移動所有元素到格子中。
 
-該節點作為洪水填充[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)節點的進階應用。
+該節點作為洪水填充](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/flood-fill/flood-fill.md)節點的[進階應用。
 
 </td>
 </tr>

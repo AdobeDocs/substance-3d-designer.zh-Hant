@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/2d-view/color-sampler.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/2d-view/color-sampler.html"
 breadcrumb-title: ''
 description: 在 2D 視圖中使用色彩取樣工具，從材質中取樣顏色以進行精確的色彩匹配。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![色彩取樣工具](../../../assets/color-sampler-demo.png "色彩取樣工具"){zoomable="yes"}
 
-色彩取樣器工具讓你在<b>調整參數或切換節點時，追蹤 2D 視圖[&#128279;](../../../interface/2d-view/2d-view.md)中特定像素</b>的值。
+色彩取樣器工具讓你在<b>調整參數或切換節點時，追蹤 2D 視圖](../../../interface/2d-view/2d-view.md)中[特定像素</b>的值。
 
 它會在視窗中放置一個針腳，並取樣該位置像素的顏色與位置。
 

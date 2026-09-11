@@ -26,7 +26,7 @@ ht-degree: 1%
 
 設定 SDF 場景材質的基底色。
 
-接著可以在 Shape splatter v2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 SDF 色彩&#x200B;*輸出中，為所有被濺射的 SDF 形狀*&#x200B;擷取此顏色。
+接著可以在 Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 [SDF 色彩&#x200B;*輸出中，為所有被濺射的 SDF 形狀*&#x200B;擷取此顏色。
 
 </td>
 </tr>

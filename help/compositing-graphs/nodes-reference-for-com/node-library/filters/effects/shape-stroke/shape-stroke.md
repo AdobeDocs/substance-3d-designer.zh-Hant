@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-stroke.html"
 breadcrumb-title: ''
 description: 使用 Shape Stroke 節點為形狀添加筆劃輪廓，以建立邊框和邊緣效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 說明
 
-在黑白遮罩（灰階版本）或帶有 alpha 通道的形狀（彩色版本）周圍加上筆劃或輪廓，這點你可能在其他 2D 影像編輯軟體中很熟悉。 可以視為Edge Detect[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)的更完整版本。
+在黑白遮罩（灰階版本）或帶有 alpha 通道的形狀（彩色版本）周圍加上筆劃或輪廓，這點你可能在其他 2D 影像編輯軟體中很熟悉。 可以視為Edge Detect](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/edge-detect/edge-detect.md)的更完整版本[。
 
 非常適合各種影像編輯效果。
 

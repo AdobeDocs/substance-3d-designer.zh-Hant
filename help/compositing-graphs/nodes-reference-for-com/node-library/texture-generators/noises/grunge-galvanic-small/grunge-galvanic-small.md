@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
 breadcrumb-title: ''
 description: 利用 Grunge 電化小節點產生小規模的電化學腐蝕圖案，以達到金屬風化效果。
 helpx_creative_field: ""

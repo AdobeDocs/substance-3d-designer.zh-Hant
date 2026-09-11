@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取 PBR 工具節點，處理基於物理的渲染材質屬性與轉換。
 helpx_creative_field: ""

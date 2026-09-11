@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random.html"
 breadcrumb-title: ''
 description: 利用隨機函數節點在特定範圍內，利用各種演算法產生隨機值。
 helpx_creative_field: ""
@@ -32,15 +32,15 @@ ht-degree: 2%
 
 隨機離散 [a， b]
 
-隨機均勻 &lbrack;-1， 1&lbrack;
+隨機均勻 [-1， 1[
 
-隨機均勻 &lbrack;a， b&lbrack;
+隨機均勻 [a， b[
 
-隨機均勻浮點2 &lbrack;a， b&lbrack;
+隨機均勻浮點2 [a， b[
 
-隨機均勻浮點3 &lbrack;a， b&lbrack;
+隨機均勻浮點3 [a， b[
 
-隨機均勻浮點4 &lbrack;a， b&lbrack;
+隨機均勻浮點4 [a， b[
 
 </td>
 <td style="border: 0;" valign="top">

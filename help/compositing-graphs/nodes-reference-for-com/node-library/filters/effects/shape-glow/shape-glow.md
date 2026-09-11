@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/shape-glow.html"
 breadcrumb-title: ''
 description: 使用 Shape Glow 節點為形狀和材質添加發光效果，創造明亮且具氛圍感的視覺效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 說明
 
-在輸入遮罩（灰階版本）或帶有 alpha 通道的形狀（彩色版本）周圍產生柔和的光暈。 與 Glow[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md) 相比，這種效果更接近其他 2D 影像編輯軟體，因為它是更完整的效果，且控制更多。
+在輸入遮罩（灰階版本）或帶有 alpha 通道的形狀（彩色版本）周圍產生柔和的光暈。 與 Glow](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/glow/glow.md) 相比[，這種效果更接近其他 2D 影像編輯軟體，因為它是更完整的效果，且控制更多。
 
 </td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blending/multi-switch.html"
 breadcrumb-title: ''
 description: 使用多重切換節點，根據選擇器在多個輸入貼圖間切換，以選擇條件貼圖。
 helpx_creative_field: ""
@@ -37,7 +37,7 @@ ht-degree: 4%
 
 作為開關盒，僅通過由「輸入選擇」參數定義的輸入。 所以如果連接兩個輸入，只有其中一個會被回傳（未修改），視使用者選擇而定。
 
-在圖表中加入多種選項非常有用。 結合[&#128279;](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)曝光（最好是下拉選單），可以有很大的自訂功能。
+在圖表中加入多種選項非常有用。 結合[](../../../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)曝光（最好是下拉選單），可以有很大的自訂功能。
 
 重要：務必使用適合你輸入的版本！ 用「多開關」來控制色彩輸入，用「多開關灰階」來表示灰階輸入。
 

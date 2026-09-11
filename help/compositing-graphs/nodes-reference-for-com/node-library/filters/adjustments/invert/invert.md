@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/invert.html"
 breadcrumb-title: ''
 description: 使用反轉節點來反轉材質中的顏色值，以產生負效果和遮罩反轉。
 helpx_creative_field: ""

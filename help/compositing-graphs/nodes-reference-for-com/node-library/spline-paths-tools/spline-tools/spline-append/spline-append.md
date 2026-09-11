@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/spline-append.html"
 breadcrumb-title: ''
 description: 使用 Spline Append 節點將多個樣條線附加在一起，以建立更長的連續路徑。
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md) [上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
+> 要注意你添加樣條的順序，因為這個順序在其他節點也會被考慮，例如[樣條](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/scatter-on-spline-color/scatter-on-spline-color.md)[上的散佈、樣條橋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)節點等。
 
 <a name="inputs"></a>
 

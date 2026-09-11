@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/variables.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/variables.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 函數圖中使用變數，以有效儲存和重複使用數值。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/uber-emboss.html"
 breadcrumb-title: ''
 description: 使用 Uber Emboss 節點來製作進階的壓紋效果，並可自訂深度、角度和光影控制。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 說明
 
-Emboss[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md) 的先進且功能豐富的版本。根據高度圖執行複雜的2D假光照效果。
+Emboss](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/emboss/emboss.md) 的先進且功能豐富的版本[。根據高度圖執行複雜的2D假光照效果。
 
 在某些材質風格需要大量控制時，這點很實用。
 

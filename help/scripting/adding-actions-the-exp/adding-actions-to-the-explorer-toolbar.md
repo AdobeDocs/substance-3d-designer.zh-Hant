@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/adding-actions-to-the-explorer-toolbar.html"
 breadcrumb-title: ''
 description: 學習如何使用 Python 腳本在 Substance 3D Designer 的 Explorer 工具列中新增自訂動作。
 helpx_creative_field: ""

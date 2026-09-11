@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-1.html"
 breadcrumb-title: ''
 description: 使用 Fur 1 節點生成基本毛髮貼圖，用於製作頭髮、布料和纖維材質效果。
 helpx_creative_field: ""

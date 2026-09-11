@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/spline-tools/point-list.html"
 breadcrumb-title: ''
 description: 使用點列表節點來建立和管理點清單，用於樣條線和路徑生成。
 helpx_creative_field: ""
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 此節點可用來向樣條（多元二次）[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點，以建立樣條曲線。
+> 此節點可用來向樣條（多元二次）](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)節點提供點[，以建立樣條曲線。
 
 >[!IMPORTANT]
 >

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/safe-transform.html"
 breadcrumb-title: ''
 description: 使用安全轉換節點來套用轉換，同時保留貼圖邊界並避免產生瑕疵。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 ## 說明
 
-Transform 2D[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 的平鋪安全版本。它允許你在不破壞平鋪的情況下縮放、旋轉和偏移，也不會因為小幅偏移和旋轉而損失像素細節（銳利度或銳利度）。
+Transform 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 的平鋪安全版本[。它允許你在不破壞平鋪的情況下縮放、旋轉和偏移，也不會因為小幅偏移和旋轉而損失像素細節（銳利度或銳利度）。
 
 當需要最大控制或完美銳利度時，對轉換噪音非常有用。
 

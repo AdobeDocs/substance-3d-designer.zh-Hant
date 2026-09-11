@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的函式庫來存取和管理節點預設、材質及自訂內容。
 helpx_creative_field: ""
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 圖書館面板是一個分割視圖&#x200B;*的資源管理器*，你可以在這裡找到並收集所有&#x200B;*需要在圖表中處理的資產*。</b> <b>
 
-它會&#x200B;*監控硬碟或網路上的資料夾*，這些資料夾會被加入[專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的「圖書館監控路徑[&#128279;](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary)」清單。這些資料夾中發生的任何變更——新增、移除及更新內容——都會 *帶* 入 <b>圖書館</b>。
+它會&#x200B;*監控硬碟或網路上的資料夾*，這些資料夾會被加入[專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的「圖書館監控路徑](https://docs.substance3d.com/display/SDDOC/Project+Settings#ProjectSettings-proj-libraryLibrary)[」清單。這些資料夾中發生的任何變更——新增、移除及更新內容——都會 *帶* 入 <b>圖書館</b>。
 
 >[!WARNING]
 >
@@ -37,7 +37,7 @@ ht-degree: 0%
 > 雖然你的自訂資源會被加入 **圖書館**，但由於現有分類的篩選規則，可能看不到。 我們建議你自行建立篩選器，並以資料夾組織，確保在專案進行時能可靠找到你的內容。\
 > 更多資訊請參閱 [文件中的「管理自訂內容與篩選器](./managing-custom-content/managing-custom-content-and-filters.md) 」章節。
 
-圖書館&#x200B;**&#x200B;**&#x200B;可監控所有支援[的資產 資源](../../resources/resources.md)：
+圖書館&#x200B;****&#x200B;可監控所有支援[的資產 資源](../../resources/resources.md)：
 
 * 來自 [物質套件](../../getting-started/overview/overview.md) （SBS）與 [物質檔案](../../getting-started/overview/overview.md) （SBSAR）的圖表
 * [點陣圖影像](../../resources/bitmap-resource/bitmap-resource.md)
@@ -65,14 +65,14 @@ ht-degree: 0%
 * 收藏：收集你標記為「收藏」的所有資產
 * [圖項目](../../interface/the-graph-view/graph-items/graph-items.md)：列出用於組織圖的特殊物件
 * [原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)：列出 Substance 圖的 [原子節點](../../compositing-graphs/substance-compositing-graphs.md)
-* [FX-Map 節點](../../function-graphs/fxmaps/fxmaps.md)：包含由 FX-Map[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 節點計算的圖形專屬節點
+* [FX-Map 節點](../../function-graphs/fxmaps/fxmaps.md)：包含由 FX-Map](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md) 節點計算[的圖形專屬節點
 * [功能節點](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/atomic-function-nodes.md)：列出函數圖的 [原子節點](../../function-graphs/function-graphs.md)
 * [紋理產生器](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/texture-generators.md)：包含代表 [實體圖](../../compositing-graphs/substance-compositing-graphs.md) 的節點，能自主產生內容
 * [過濾器](../../compositing-graphs/nodes-reference-for-com/node-library/filters/filters.md)：包含代表 [修改輸入的實體圖](../../compositing-graphs/substance-compositing-graphs.md) 節點
-* [樣條與路徑工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)：樣條[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)與[路徑](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)節點目錄
-* [SDF 功能](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)：包含用於 3D SDF 函式的創建節點，與 Shape splatter v2[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 及 [3D 檢視](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)器節點搭配使用
+* [樣條與路徑工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)：樣條](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-tools.md)與[路徑](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)節點目錄[
+* [SDF 功能](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md#sdf-functions)：包含用於 3D SDF 函式的創建節點，與 Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 及 [3D 檢視](../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/3d-viewer/3d-viewer.md)器節點搭配[使用
 * [函數](../../function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)：包含代表 [函數圖的節點](../../function-graphs/the-function-graph/the-function-graph.md)
-* [3D 視圖](../3d-view/3d-view.md)：提供與用於 3D 場景中基於影像光照的地圖相關的內容——例如 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中的環境貼圖，以及用於製作環境貼圖的節點
+* [3D 視圖](../3d-view/3d-view.md)：提供與用於 3D 場景中基於影像光照的地圖相關的內容——例如 3D View](../../interface/3d-view/3d-view.md) 中的[環境貼圖，以及用於製作環境貼圖的節點
 * PBR 材質：可用作佔位符，用以測試其他節點、「配方」或自訂工作區設置的預製材料。 想了解撰寫資料，我們建議參考我們專門 [的](../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)教材範例。
 * [值](../../compositing-graphs/nodes-reference-for-com/node-library/values/constant.md)：用於在 Substance 圖中產生簡單值的節點。
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 圖書館內容<b>以標示縮圖&#x200B;*形式呈現*。</b>這些縮圖會根據以下因素呈現不同的面向：
 
-* [SBS 與 SBSAR](../../getting-started/overview/overview.md) 檔案中的 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)以第一個&#x200B;*輸出*&#x200B;表示，若圖作者設定了自訂圖示，則以&#x200B;*圖示*&#x200B;表示[&#128279;](../../getting-started/overview/overview.md)
+* [SBS 與 SBSAR](../../getting-started/overview/overview.md) 檔案中的 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)以第一個&#x200B;*輸出*&#x200B;表示，若圖作者設定了自訂圖示，則以&#x200B;*圖示*&#x200B;表示[](../../getting-started/overview/overview.md)
 * [位圖](../../resources/bitmap-resource/bitmap-resource.md) 與 [向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) 則由 *點陣圖本身的微型渲染* 來表示
 * [3D 場景](../../resources/3d-scene-resource/3d-scene-resource.md)、 [功能圖](../../function-graphs/the-function-graph/the-function-graph.md)、 [字型](../../resources/font-resource/font-resource.md) 與 [AxF](../../resources/axf-appearance-exchange/axf-appearance-exchange-format.md) 檔案皆以 *每種類型的通用圖示* 表示
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 > **如果有縮圖問題**
 > 
 > 我們建議的故障排除步驟，針對任何與函式庫縮圖相關的問題（圖片錯誤、渲染卡在刷新圖示上等） 是手動觸發 *縮圖刷新*。\
-> 要做到這點，請使用&#x200B;**偏好設定視窗[&#128279;](../../interface/preferences-window/preferences-window.md)庫區塊中的[&#128279;](../../interface/preferences-window/preferences-window.md)「重建縮圖**」按鈕。
+> 要做到這點，請使用&#x200B;**偏好設定視窗](../../interface/preferences-window/preferences-window.md)庫區[塊中的[](../../interface/preferences-window/preferences-window.md)「重建縮圖**」按鈕。
 
 <table>
 <tr style="border: 0;">
@@ -171,7 +171,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 例如[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點——即非原子節點，此路徑是一個&#x200B;*超連結*，會在系統的檔案瀏覽器中顯示檔案。\
+> 例如[](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)節點——即非原子節點，此路徑是一個&#x200B;*超連結*，會在系統的檔案瀏覽器中顯示檔案。\
 > 原子節點使用特殊的別名路徑（例如， `graphatomic://`， ， `structure://`...） 該庫無法點擊，因為它指向內部函式庫。
 
 <table>

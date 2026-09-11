@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-concrete.html"
 breadcrumb-title: ''
 description: 使用 Grunge Concrete 節點生成類似混凝土的 Grunge 圖案，以創造風化的磚石紋理。
 helpx_creative_field: ""

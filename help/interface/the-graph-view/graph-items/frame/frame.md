@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/graph-items/frame.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 的圖形檢視中使用框架來組織和分組節點，以提升視覺清晰度。
 helpx_creative_field: ""
@@ -86,7 +86,7 @@ ht-degree: 0%
 +++
 
 +++捷徑
-如果在偏好設定[&#128279;](../../../../interface/preferences-window/preferences-window.md)中將鍵盤快捷鍵映射到「Frame」項目，當圖形檢視有焦點時，按下該快捷鍵即可。
+如果在偏好設定](../../../../interface/preferences-window/preferences-window.md)中將鍵盤快捷鍵映射到「Frame」項目[，當圖形檢視有焦點時，按下該快捷鍵即可。
 
 +++
 
@@ -157,12 +157,12 @@ ht-degree: 0%
 
 ## 屬性
 
-當選取框架時，屬性底座中可選[&#128279;](../../../../interface/properties/properties.md)出以下屬性：
+當選取框架時，屬性底座中可選[](../../../../interface/properties/properties.md)出以下屬性：
 
 +++標題
 <b>標題</b>位於畫面左上角。可透過「 <b>產權可見</b> 」屬性來開啟或關閉產權顯示。
 
-標題大小可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能清晰閱讀。 你可以透過在圖表檢視[&#128279;](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單中勾選「框架標題」<b>選項來達成此目標。
+標題大小可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能清晰閱讀。 你可以透過在圖表檢視](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單[中勾選「框架標題」<b>選項來達成此目標。
 
 ![框架：標題](../../../../assets/graph_frames_title.gif "框架：標題"){width="640px"}
 
@@ -206,7 +206,7 @@ ht-degree: 0%
 
 <b>標題</b>以粗體字體顯示在畫面左上方。標題的可見性可以開關。
 
-它的尺寸可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能保持可讀性。 你可以透過在圖表檢視[&#128279;](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單中勾選「框架標題」<b>選項來達成此目標。
+它的尺寸可以鎖定在最小螢幕尺寸，這樣縮小圖時仍能保持可讀性。 你可以透過在圖表檢視](../../../../interface/the-graph-view/the-graph-view.md)工具列的資訊</b>下拉選單[中勾選「框架標題」<b>選項來達成此目標。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -405,7 +405,7 @@ ht-degree: 0%
 
 隨著圖的成長，影格內容可能需要重新排列。 節點可能會移動以騰出空間給新增內容，或是內容需要更拉開以促進可讀性。
 
-為了方便調整，移動包含物件[&#128279;](#inclusion-rules)時可以自動展開畫面：在移動物件時按住 <b>Shift</b> 鍵，讓框架邊框自動調整，保持該物件在範圍內。
+為了方便調整，移動包含物件](#inclusion-rules)時可以自動展開畫面[：在移動物件時按住 <b>Shift</b> 鍵，讓框架邊框自動調整，保持該物件在範圍內。
 
 這同樣適用於可能包含多個物件的選擇。 此時，每個物件的主機影格會同時調整。
 

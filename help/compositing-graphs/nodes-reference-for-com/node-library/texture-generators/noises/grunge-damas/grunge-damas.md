@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-damas.html"
 breadcrumb-title: ''
 description: 使用 Grunge Damas 節點生成類似緞面的 grunge 圖案，打造華麗風化的表面細節。
 helpx_creative_field: ""

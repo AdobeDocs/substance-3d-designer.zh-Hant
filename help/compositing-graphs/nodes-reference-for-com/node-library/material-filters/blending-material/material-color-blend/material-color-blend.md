@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/blending-material/material-color-blend.html"
 breadcrumb-title: ''
 description: 使用 Material Color Blend 節點來混合材質間的色彩通道，以創造複合材質效果。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-此節點允許透過在上方混合純色來調整多通道全材質。 這是與[材質調整混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)的主要差異，後者只允許[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)對通道進行等級調整，而這個節點則使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)純色混合類型的調整。
+此節點允許透過在上方混合純色來調整多通道全材質。 這是與[材質調整混合](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/blending-material/material-adjustment-blend/material-adjustment-blend.md)的主要差異，後者只允許[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md)對通道進行等級調整，而這個節點則使用[](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)純色混合類型的調整。
 
 這個節點最有用的地方，是你想在漫射色或基色中加入平面色提示，或是想用固定的實色值「平整」其他通道時。
 

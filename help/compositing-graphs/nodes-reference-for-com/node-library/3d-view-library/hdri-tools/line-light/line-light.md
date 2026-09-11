@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/line-light.html"
 breadcrumb-title: ''
 description: 利用線光節點在HDRI環境中建立線性光源，以模擬螢光與條帶照明。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 說明
 
-根據空間中兩點的座標生成球面投影的線形。 與 Shape Light[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) 相比，它有更多選項來調整形狀方向和套用重複圖案。
+根據空間中兩點的座標生成球面投影的線形。 與 Shape Light](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/shape-light/shape-light.md) 相比[，它有更多選項來調整形狀方向和套用重複圖案。
 
 此節點的定位模式比其他 HDRI 光節點稍複雜。 建議嘗試幾種不同的尺寸模式，找出最適合你情況的。
 

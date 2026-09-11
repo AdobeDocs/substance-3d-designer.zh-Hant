@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 合成圖中管理與組織參數，以改善工作流程組織。
 helpx_creative_field: ""
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 此選單中的動作將影響 *該區塊中列出的所有* 參數：
 
-* <b>揭露參數：</b> 開啟「批次暴露參數」對話框。 對於每個暴露的參數，動作會建立一個新的圖形輸入，並自動根據該圖形輸入設定函式。 在這個專門頁面[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數的資訊。
+* <b>揭露參數：</b> 開啟「批次暴露參數」對話框。 對於每個暴露的參數，動作會建立一個新的圖形輸入，並自動根據該圖形輸入設定函式。 在這個專門頁面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數[的資訊。
 * <b>複製參數：</b> 請參閱 [下方的「複製並貼上參數](#copy-paste-parameters) 」章節。
 * <b>參數貼上：</b> 請參見 [下方的「複製並貼上參數](../../compositing-graphs/manage-parameters/manage-parameters.md) 」章節。
 * <b>將參數儲存為預設檔：</b> 在此 [專頁](../../compositing-graphs/manage-parameters/parameter-presets/parameter-presets.md)了解更多關於參數預設的資訊。
@@ -82,11 +82,11 @@ ht-degree: 0%
 </tr>
 </table>
 
-你可以用三種方式將 Substance 函數圖[&#128279;](../../function-graphs/the-function-graph/the-function-graph.md)套用到該參數：
+你可以用三種方式將 Substance 函數圖](../../function-graphs/the-function-graph/the-function-graph.md)套用[到該參數：
 
-* <b>以新圖形輸入方式暴露：</b> 這會建立一個新的圖形輸入，並自動用該圖形輸入設定函數。 在這個專門頁面[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數的資訊。
+* <b>以新圖形輸入方式暴露：</b> 這會建立一個新的圖形輸入，並自動用該圖形輸入設定函數。 在這個專門頁面](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)了解更多關於暴露參數[的資訊。
 * <b>空函式：</b> 從零開始編寫一個函式。
-* <b>Constant value：</b>從設定為參數當前值的常數值節點[&#128279;](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)開始編輯函式。
+* <b>Constant value：</b>從設定為參數當前值的常數值節點](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md)開始編輯函式[。
 * <b>重置：</b> 將參數重置為預設值與範圍。 若對參數套用函數，則該函數會被忽略。
 
 >[!NOTE]
@@ -137,7 +137,7 @@ ht-degree: 0%
 
 ## 原子節點的限制
 
-部分原子節點因實作與控制方式不同而無法提供[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
+部分原子節點因實作與控制方式不同而無法提供[](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)。
 
 這些行為......
 

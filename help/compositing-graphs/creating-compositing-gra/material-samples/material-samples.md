@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/material-samples.html"
 breadcrumb-title: ''
 description: Designer 提供精選的範例圖表，涵蓋多種材料類型，供你學習與實驗。
 helpx_creative_field: ""

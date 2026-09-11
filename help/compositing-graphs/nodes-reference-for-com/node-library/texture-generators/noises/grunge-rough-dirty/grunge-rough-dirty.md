@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
 breadcrumb-title: ''
 description: 使用 Grunge Rough Dirty 節點來產生粗糙與髒污泥的材質，以添加風化表面細節。
 helpx_creative_field: ""

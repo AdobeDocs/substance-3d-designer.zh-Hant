@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-nodes-overview.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 功能圖中可用於建構自訂函數的函數節點。
 helpx_creative_field: ""

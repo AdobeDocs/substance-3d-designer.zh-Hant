@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-merge.html"
 breadcrumb-title: ''
 description: 使用 RGBA 合併節點，將獨立的紅、綠、藍和 alpha 通道合併成單一 RGBA 貼圖。
 helpx_creative_field: ""

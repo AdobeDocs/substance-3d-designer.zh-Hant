@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview/what-is-a-substance-3d-file.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D 檔案格式，以及它們如何儲存程序化材質與貼圖，以便跨應用程式使用。
 helpx_creative_field: ""

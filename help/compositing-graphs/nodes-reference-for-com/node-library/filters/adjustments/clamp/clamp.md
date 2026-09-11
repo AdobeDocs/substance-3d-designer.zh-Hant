@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/clamp.html"
 breadcrumb-title: ''
 description: 使用 Clamp 節點將紋理值夾在指定的最小與最大範圍內，以控制數值限制。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/retrieving-the-installation-path.html"
 breadcrumb-title: ''
 description: 學習如何取得 Substance 3D Designer 安裝路徑，用於腳本和自動化用途。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 # 取回安裝路徑
 
-本頁彙整了根據版本與平台，如何取得 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 安裝路徑的資訊。
+本頁彙整了根據版本與平台，如何取得 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 安裝路徑[的資訊。
 
 ## 窗戶
 

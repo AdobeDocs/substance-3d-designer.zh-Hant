@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/blue-noise-fast.html"
 breadcrumb-title: ''
 description: 使用 Blue Noise Fast 節點產生快速藍噪點樣，創造高品質的紋理抖動與變化。
 helpx_creative_field: ""

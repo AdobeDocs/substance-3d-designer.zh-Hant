@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/3d-scene-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/3d-scene-resource.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中匯入並使用3D場景資源，進行材質預覽與測試。
 helpx_creative_field: ""
@@ -27,7 +27,7 @@ ht-degree: 0%
 3D 場景資源可用於多種工作流程：
 
 * [烘焙網格貼圖](../../bakers/bakers.md)
-* *在 3D 檢視中預覽 Substance 圖表的[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)貼圖* [&#128279;](../../interface/3d-view/3d-view.md)
+* *在 3D 檢視中預覽 Substance 圖表的](../../compositing-graphs/substance-compositing-graphs.md)[貼圖* [](../../interface/3d-view/3d-view.md)
 
 支援以下 3D 場景檔案格式：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 3D 場景 *只能* 連結，也就是說它們會停留在磁碟上的位置，只是在應用程式中被參考。
 
-當包含 3D 場景資源的套件以 Substance 3D[&#128279;](https://www.adobe.com/tw/products/substance3d/3d-augmented-reality.html) 資產（SBSAR）發佈時，該網格不會被&#x200B;*嵌入*，而是被丟棄。
+當包含 3D 場景資源的套件以 Substance 3D](https://www.adobe.com/products/substance3d/3d-augmented-reality.html) 資產（SBSAR）發佈[時，該網格不會被&#x200B;*嵌入*，而是被丟棄。
 
 ## 烘焙網格貼圖
 

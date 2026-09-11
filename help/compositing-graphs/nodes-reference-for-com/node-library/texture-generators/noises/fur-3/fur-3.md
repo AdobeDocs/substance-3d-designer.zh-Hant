@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-3.html"
 breadcrumb-title: ''
 description: 使用 Fur 3 節點生成進階毛皮貼圖，並可自訂屬性以製作頭髮和纖維效果。
 helpx_creative_field: ""

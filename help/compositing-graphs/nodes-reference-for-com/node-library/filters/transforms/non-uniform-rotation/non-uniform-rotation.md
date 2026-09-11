@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-uniform-rotation.html"
 breadcrumb-title: ''
 description: 使用非均勻旋轉節點來套用非均勻旋轉轉換，以創造螺旋和漩渦效果。
 helpx_creative_field: ""
@@ -46,9 +46,9 @@ ht-degree: 1%
 
 ## 說明
 
-**非均勻旋轉**&#x200B;節點會利用&#x200B;**旋轉映射**&#x200B;輸入來旋轉&#x200B;**&#x200B;**&#x200B;輸入。
+**非均勻旋轉**&#x200B;節點會利用&#x200B;**旋轉映射**&#x200B;輸入來旋轉&#x200B;****&#x200B;輸入。
 
-影像的數值代表&#x200B;**&#x200B;數圈。旋轉是圍繞樞 &#x200B;** 軸位置 **&#x200B; 值或 &#x200B;** 樞軸位置地圖** 輸入所指定的位置進行。\
+影像的數值代表&#x200B;**&#x200B;數圈。旋轉是圍繞樞 **軸位置** 值或 **樞軸位置地圖** 輸入所指定的位置進行。\
 旋轉映射輸入中的&#x200B;**正值會產生&#x200B;*順*時針**&#x200B;旋轉。
 
 </td>

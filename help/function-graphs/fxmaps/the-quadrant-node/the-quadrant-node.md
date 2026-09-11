@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-quadrant-node.html"
 breadcrumb-title: ''
 description: 使用 FXMaps 中的象限節點，將材質分成四個區塊，以創造拼貼圖案和變化。
 helpx_creative_field: ""

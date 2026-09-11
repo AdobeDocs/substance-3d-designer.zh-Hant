@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/old-versions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/old-versions.html"
 breadcrumb-title: ''
 description: 存取舊版 Substance 3D Designer 的發行說明，以回顧歷史特性與變更。
 helpx_creative_field: ""

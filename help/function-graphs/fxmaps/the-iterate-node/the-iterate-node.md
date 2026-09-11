@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/fxmaps/the-iterate-node.html"
 breadcrumb-title: ''
 description: 利用 FXMaps 中的 Iterate 節點，在材質中創造重複圖案和程序變化。
 helpx_creative_field: ""

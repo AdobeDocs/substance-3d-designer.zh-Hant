@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/user-interface-issues.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/user-interface-issues.html"
 breadcrumb-title: ''
 description: 排除 Substance 3D Designer 中的使用者介面問題，包括顯示問題與使用者介面故障。
 helpx_creative_field: ""

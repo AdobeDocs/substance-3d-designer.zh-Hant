@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/scripting-api-reference.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/scripting-api-reference.html"
 breadcrumb-title: ''
 description: 存取完整的 Substance 3D Designer Python 腳本 API 參考，用於外掛開發。
 helpx_creative_field: ""
@@ -59,7 +59,7 @@ context *（Context*）物件是 <b>API</b> 的主要入口。 使用者第一�
 
 要建立<b></b>特定資源，請參閱相關的物件靜態方法（例如：「*SDSBSCompGraph.sNew（）*」）。
 
-套件中也包含一個元資料字典（SDMetadataDict）。 你可以在這裡找到更多關於元資料[&#128279;](../../package-metadata/package-metadata.md)的資訊。
+套件中也包含一個元資料字典（SDMetadataDict）。 你可以在這裡找到更多關於元資料[](../../package-metadata/package-metadata.md)的資訊。
 
 ## 資源（SDResource）
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/weathering/leather-weathering.html"
 breadcrumb-title: ''
 description: 利用皮革老化節點，根據網狀曲線為皮革材料添加磨損模式和老化效果。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 9%
 
 ## 說明
 
-這是一種全材質效果，能同時在多個聲道上運作。 它增加了隨機的皮革磨損效果，並能控制老化和髒污程度。 它與布料風化[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)類似，但專為皮革調校。<br>除非你插入了正式烘焙的 AO 和世界空間法線貼圖，否則這個效果效果不太好，因為這需要這些來充分計算和產生所有東西。
+這是一種全材質效果，能同時在多個聲道上運作。 它增加了隨機的皮革磨損效果，並能控制老化和髒污程度。 它與布料風化](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/weathering/fabric-weathering/fabric-weathering.md)類似[，但專為皮革調校。<br>除非你插入了正式烘焙的 AO 和世界空間法線貼圖，否則這個效果效果不太好，因為這需要這些來充分計算和產生所有東西。
 
 使用完整素材時，務必充分理解 [連結創建模式](https://support.allegorithmic.com/documentation/display/SD5/Link+Creation+Modes) 。
 

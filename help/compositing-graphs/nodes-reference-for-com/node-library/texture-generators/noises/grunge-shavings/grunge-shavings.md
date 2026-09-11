@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-shavings.html"
 breadcrumb-title: ''
 description: 使用 Grunge Shavings 節點來產生刮鬍圖案，以製作木紋和材質紋理細節。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-**Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中的 Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
+**Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中的 [Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
 
 </td>
 </tr>

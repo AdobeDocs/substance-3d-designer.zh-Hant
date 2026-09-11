@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration/project-configuration-files-sbsprj.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中使用 SBSPRJ 專案設定檔來管理專案設定。
 helpx_creative_field: ""
@@ -77,7 +77,7 @@ ht-degree: 0%
 
 請參閱 [專案設定](../../interface/preferences-window/project-settings/project-settings.md) 頁面，了解如何管理專案檔案及更改專案設定。
 
-專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>[&#128279;](../../interface/the-library/the-library.md) [器，您可以在「管理自訂內容與篩選器](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)」頁面了解更多。
+專案檔案也包含圖書館的自訂<b>分類</b>與<b>篩選</b>](../../interface/the-library/the-library.md)[器，您可以在「管理自訂內容與篩選器](../../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)」頁面了解更多。[
 
 ## 外部編輯 XML
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 相對路徑與別名
 
-結合別名的相對路徑是專案配置中較為複雜但最重要的部分之一，本節將為其說明。 為特定專案檔案新增自訂別名，則可在專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中完成。
+結合別名的相對路徑是專案配置中較為複雜但最重要的部分之一，本節將為其說明。 為特定專案檔案新增自訂別名，則可在專案設定](../../interface/preferences-window/project-settings/project-settings.md)中[完成。
 
 在多個使用者電腦上，檔案互相引用系統中其他檔案的主要問題之一，就是絕對檔案路徑無法運作。 使用者可以在完全不同的位置定義他們的 SVN 儲存庫（例如： C：/John/Gamedev/SubstanceLibrary 或 D：/Dev/SubstanceLibrary）。 別名與相對路徑共同作用以解決此問題。 否則，你可能會打開別人的檔案，它會嘗試尋找該使用者在本地位置使用的自訂節點，而你可能沒有完全相同的定義。
 
@@ -145,6 +145,6 @@ ht-degree: 0%
 
 此設定檔的結果如下：
 
-**BaseAlias://** 會是 *C：/Versioncontrol/Substance/Base/*，ToolsAlias://**&#x200B;**&#x200B;會是 *C：/Versioncontrol/Substance/Tools/。*
+**BaseAlias://** 會是 *C：/Versioncontrol/Substance/Base/*，ToolsAlias://****&#x200B;會是 *C：/Versioncontrol/Substance/Tools/。*
 
 如果你只想定義  *C：/Versioncontrol/Substance/*，路徑會標示為 **「file：.」**，點代表檔案本身的位置。

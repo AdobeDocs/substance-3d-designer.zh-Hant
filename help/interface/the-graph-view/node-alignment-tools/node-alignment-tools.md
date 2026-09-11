@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-graph-view/node-alignment-tools.html"
 breadcrumb-title: ''
 description: 使用節點對齊工具在圖表檢視中組織和對齊節點，使圖表更清晰且易讀。
 helpx_creative_field: ""

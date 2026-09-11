@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的工作區介面，包括檢視、面板與自訂選項。
 helpx_creative_field: ""
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 圖視圖
 
-[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[&#x200B; 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
+[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[ 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
 
 ![圖視圖](../assets/graph-6.png "圖視圖")
 

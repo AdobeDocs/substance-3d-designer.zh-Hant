@@ -26,7 +26,7 @@ ht-degree: 1%
 
 設定SDF場景素材的金屬感。
 
-接著，這個值可以在 Shape splatter v2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 SDF 金屬度&#x200B;*輸出中，取得所有被濺射的 SDF 形狀*。
+接著，這個值可以在 Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 SDF 金屬度&#x200B;*輸出[中，取得所有被濺射的 SDF 形狀*。
 
 </td>
 </tr>

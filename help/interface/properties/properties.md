@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/properties.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/properties.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的屬性面板來檢視和編輯節點屬性及圖形參數。
 helpx_creative_field: ""
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 屬性
 
-本頁介紹 <b>Substance 3D Designer 的屬性 </b>面板、其版面設計，以及你可以在其中找到的不同展開、分類和參數。 它專注於 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)的性質。[功能圖](../../function-graphs/function-graphs.md) 和 [FX-Map](../../function-graphs/fxmaps/fxmaps.md) 圖的版面配置較為簡單。
+本頁介紹 <b>Substance 3D Designer 的屬性 </b>面板、其版面設計，以及你可以在其中找到的不同展開、分類和參數。 它專注於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的[性質。[功能圖](../../function-graphs/function-graphs.md) 和 [FX-Map](../../function-graphs/fxmaps/fxmaps.md) 圖的版面配置較為簡單。
 
 <table>
 <tr style="border: 0;">
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 概觀
 
-<b>屬性</b>面板是一個情境感應面板，會根據你在圖景檢視[&#128279;](../../interface/the-graph-view/the-graph-view.md)和[檔案總管](../the-explorer-window/the-explorer-window.md)視窗中的選擇而改變。
+<b>屬性</b>面板是一個情境感應面板，會根據你在圖景檢視](../../interface/the-graph-view/the-graph-view.md)和[檔案總管](../the-explorer-window/the-explorer-window.md)視窗中的選擇[而改變。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 ## 資源與套件
 
-屬性面板也會回應檔案總管[&#128279;](../the-explorer-window/the-explorer-window.md)中的選擇變更。它可以作為選擇圖表的另一種方式（而不是雙擊空白區域），也能讓你更改 Package 和 [Resource](../../resources/resources.md)屬性。
+屬性面板也會回應檔案總管](../the-explorer-window/the-explorer-window.md)中的[選擇變更。它可以作為選擇圖表的另一種方式（而不是雙擊空白區域），也能讓你更改 Package 和 [Resource](../../resources/resources.md)屬性。
 
 套件包含 **資訊**、 **屬性** 和 **元資料** 區塊。 [套件的元資料會在專屬頁面上描述。](../../package-metadata/package-metadata.md)
 

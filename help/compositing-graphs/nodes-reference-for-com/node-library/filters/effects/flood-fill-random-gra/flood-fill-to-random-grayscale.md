@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/flood-fill-to-random-grayscale.html"
 breadcrumb-title: ''
 description: 使用「洪水填充到隨機灰階」節點，將區域填充隨機灰階值，以創造變化圖案。
 helpx_creative_field: ""

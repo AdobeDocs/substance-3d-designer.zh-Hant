@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取材質過濾節點，以處理、混合及轉換各種工作流程所需的材料。
 helpx_creative_field: ""

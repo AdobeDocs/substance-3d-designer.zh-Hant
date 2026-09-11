@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ''
 description: 以實例節點形式存取現成的 Substance 功能圖，以加快工作流程並提升功能。
 helpx_creative_field: ""
@@ -465,15 +465,15 @@ Hejl tonemapper
 
 常態分布
 
-隨機均勻 &lbrack;-1， 1&lbrack;
+隨機均勻 [-1， 1[
 
-隨機均勻 &lbrack;a， b&lbrack;
+隨機均勻 [a， b[
 
-隨機均勻浮點2 &lbrack;a， b&lbrack;
+隨機均勻浮點2 [a， b[
 
-隨機均勻浮點3 &lbrack;a， b&lbrack;
+隨機均勻浮點3 [a， b[
 
-隨機均勻浮點4 &lbrack;a， b&lbrack;
+隨機均勻浮點4 [a， b[
 
 </td>
 </tr>

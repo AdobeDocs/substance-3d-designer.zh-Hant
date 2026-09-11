@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels/rgba-split.html"
 breadcrumb-title: ''
 description: 使用 RGBA 分割節點將貼圖分離成紅、綠、藍、阿爾法通道，方便個別處理。
 helpx_creative_field: ""

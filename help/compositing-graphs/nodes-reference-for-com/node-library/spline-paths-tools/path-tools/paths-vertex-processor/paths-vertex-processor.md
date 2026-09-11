@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools/paths-vertex-processor.html"
 breadcrumb-title: ''
 description: 使用 Paths 頂點處理器節點來轉換並操作路徑頂點，並有進階選項。
 helpx_creative_field: ""
@@ -46,7 +46,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-在查詢 prev.pos 或 next.pos 之前，務必先設定正確的 <b>Previous vertices accessed <b></b> 和 Next vertices accessed</b> 值&#x200B;**&#x200B; **\
+在查詢 prev.pos 或 next.pos 之前，務必先設定正確的 <b>Previous vertices accessed <b></b> 和 Next vertices accessed</b> 值&#x200B;** **\
 你也可以加入輸入影像，並從函式中取樣。 你必須先連接一個能從函數取樣的輸入。 （請注意，第一個輸入是 *圖片 1*！）\
 你也可以存取 *prev[2].pos* （Float2）、 *next[2].pos* （Float2）、 *vertex.corner* （bool）和 *path.id* （float）變數。
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果，或是連接到另一個&#x200B;*Path-processing* 節點。 |
+| <b>路徑</b> <i>顏色</i> | 一份編碼段路徑列表。 將此輸入連接到 Mask to Paths](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md) 的結果[，或是連接到另一個&#x200B;*Path-processing* 節點。 |
 | <b>輸入#</b> <i>彩色/灰階</i> | 應該在 <b>每個頂點函</b> 數參數函數中取樣的影像輸入。 |
 
 <a name="outputs"></a>
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 |  |  |
 |:---|:---|
-| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline）中，進一步以樣條線處理。 |
+| <b>路徑</b> <i>顏色</i> | 變形的路徑。 你可以使用[預覽路徑來了解結果代表什麼，使用其他路徑處理節點，或[輸入](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)到路徑到樣條線（Paths to Spline](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)）中，進一步以樣條線處理。 |
 
 <a name="parameters"></a>
 

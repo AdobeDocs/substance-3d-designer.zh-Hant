@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/adjustments/contrast-luminosity.html"
 breadcrumb-title: ''
 description: 使用對比亮度節點調整對比度與亮度值，以控制亮度與對比範圍。
 helpx_creative_field: ""

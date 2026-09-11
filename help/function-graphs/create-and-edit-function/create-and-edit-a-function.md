@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/create-and-edit-a-function.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 中建立和編輯功能圖，以建立可重複使用的節點網路。
 helpx_creative_field: ""

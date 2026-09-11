@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-4.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-12-4.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 12.4 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 3D 視圖中的快速存取按鈕
 
-我們在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中新增了一個工具列，對應顯示選單中[&#128279;](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
+我們在 3D 視圖](../../interface/3d-view/3d-view.md)中新增了一個工具列[，對應顯示選單中[](../../interface/3d-view/3d-view.md)所有可用的選項，方便快速存取所有選項（例如線框、格線、邊界框等）。就像按鈕切換一樣。 我們也新增了顯示/隱藏環境地圖的開關。
 
 ![](../../assets/final-3dview.gif){width="640px"}
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 選擇下游節點
 
-節點情境選單[&#128279;](../../interface/the-graph-view/the-graph-view.md)新增條目，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
+節點情境選單](../../interface/the-graph-view/the-graph-view.md)新增條目[，直接或間接選擇所有連接至所選節點輸出的節點。所以你選擇所有受你節點影響的節點。 刪除部分圖表或重新設計圖表佈局很有用。
 
 ![](../../assets/final-downstream.gif){width="640px"}
 
@@ -111,7 +111,7 @@ ht-degree: 0%
 * [3D 視圖]線框顯示屬性未被儲存
 * [內容]徑向模糊色彩參數不影響 alpha 通道
 * [本地化]額外的滑桿和按鈕會顯示在環境的 OpenGL 屬性中。
-* [MDL]&#x200B;[物質模型]刪除暴露節點時當機
+* [MDL][物質模型]刪除暴露節點時當機
 * [偏好設定]刪除後 Default\_config 檔案永遠不會被重建
 * [物質模型]當機重排序參數在實例層級不會出現
 * [API]SDProperty.getDefaultValue（） 幾乎總是回傳 None

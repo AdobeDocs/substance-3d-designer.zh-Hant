@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/mesh-based-generators/mask-generators/bottom-to-top.html"
 breadcrumb-title: ''
 description: 使用「從底到頂」節點，根據網格世界位置產生從底部到頂部的漸層遮罩。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 4%
 
 ## 說明
 
-根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
+根據烘焙的地圖和使用者設定產生黑白遮罩。 類似 [Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 裡[的智慧口罩](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/features/smart-materials-and-masks)。
 
 這會產生從模型底部到頂部的白轉黑過渡，對於基於幾何的衰減與選擇非常有用。
 

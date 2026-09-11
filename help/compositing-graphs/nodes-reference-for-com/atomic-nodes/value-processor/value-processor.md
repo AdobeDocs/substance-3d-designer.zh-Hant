@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/value-processor.html"
 breadcrumb-title: ''
 description: 使用值處理器節點（Value Processor）來處理並操作貼圖值，並透過數學運算進行自訂調整。
 helpx_creative_field: ""
@@ -31,7 +31,7 @@ ht-degree: 1%
 
 計算一個 [物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md) 並輸出結果。
 
-它與像素處理器[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)相當，但不同之處在於它不會為每個像素計算函數，而是計算單一值，並將其呈現[在物質圖](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)中。
+它與像素處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)相當[，但不同之處在於它不會為每個像素計算函數，而是計算單一值，並將其呈現[在物質圖](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)中。
 
 </td>
 </tr>

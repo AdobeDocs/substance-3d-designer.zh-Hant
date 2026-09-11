@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-splashes-dusty.html"
 breadcrumb-title: ''
 description: 使用 Grunge Splashes Dusty 節點來製作塵封的飛濺圖案，加入風化的紋理細節。
 helpx_creative_field: ""

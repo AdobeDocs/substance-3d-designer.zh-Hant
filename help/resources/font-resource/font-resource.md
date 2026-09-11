@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/font-resource.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/font-resource.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中匯入並使用字型資源，為材質添加文字與排版。
 helpx_creative_field: ""
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 * 右鍵點擊套件，選擇 <b>「連結>字型」</b>
 * 選擇.otf或.ttf檔案。
-* 在你的圖表中放置一個[文字節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)。[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)
+* 在你的圖表中放置一個[文字節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/text/text.md)。](../../compositing-graphs/substance-compositing-graphs.md)[
 * 在字型</b>屬性下<b>，任何字體資源都會在列表頂端找到。
 
 請注意，字型列表在屬性開啟時不會自動重新整理。 你必須切換到另一個屬性視窗，再回到文字節點，才能看到新連結的字型。

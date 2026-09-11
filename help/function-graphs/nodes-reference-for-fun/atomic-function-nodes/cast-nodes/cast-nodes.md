@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/atomic-function-nodes/cast-nodes.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 函式圖中使用鑄造節點，將浮點數、整數和向量的資料型態轉換。
 helpx_creative_field: ""

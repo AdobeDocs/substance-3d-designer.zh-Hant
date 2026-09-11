@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/pbr-utilities/pbr-metal-reflectance.html"
 breadcrumb-title: ''
 description: 使用 PBR 金屬反射節點來計算物理基礎材料工作流程的金屬反射率值。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ## 說明
 
-這是一個快速的預設輔助節點，用來回傳幾種預設&#x200B;**&#x200B;**&#x200B;純金屬的正確反射顏色。它可以用於金屬模型的基色，或鏡面/光澤模型的鏡面通道。
+這是一個快速的預設輔助節點，用來回傳幾種預設&#x200B;****&#x200B;純金屬的正確反射顏色。它可以用於金屬模型的基色，或鏡面/光澤模型的鏡面通道。
 
 這個節點在你想從純金屬開始時很有用，也能避免從圖表中挑選顏色。
 

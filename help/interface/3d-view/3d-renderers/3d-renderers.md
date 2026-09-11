@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/3d-renderers.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/3d-renderers.html"
 breadcrumb-title: ''
 description: 在 3D 視圖中選擇光柵化器和路徑追蹤器渲染器，以提升不同的預覽品質與效能。
 helpx_creative_field: ""
@@ -163,7 +163,7 @@ OpenGL 渲染器提供快速即時渲染，預設可依使用情境提供少數�
 
 <b>鑲嵌 + 位移</b> - 將幾何體細分，並沿法線位移頂點。
 
-在這裡了解更多關於 OpenPBR 的 Designer [&#128279;](../material-properties/material-properties.md#openpbr)資訊。
+在這裡了解更多關於 OpenPBR 的 Designer [](../material-properties/material-properties.md#openpbr)資訊。
 
 +++
 
@@ -178,7 +178,7 @@ Adobe 標準化著色器。 確保所有 Adobe Substance 3D 應用程式間的�
 
 <b>鑲嵌 + 位移</b> - 將幾何體細分，並沿法線位移頂點。
 
-Adobe 標準材料在本節[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細記錄。
+Adobe 標準材料在本節](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)文件中有詳細[記錄。
 
 +++
 
@@ -290,7 +290,7 @@ Unlit debug shader 可以在沒有光照的情況下視覺化貼圖。 只使用
 
 +++
 
-Designer 也提供使用 GLSLFX 檔案[&#128279;](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)為 OpenGL 渲染器自訂著色器的功能。
+Designer 也提供使用 GLSLFX 檔案](../../../interface/3d-view/glslfx-shaders/glslfx-shaders.md)為 OpenGL 渲染器[自訂著色器的功能。
 
 >[!IMPORTANT]
 > 

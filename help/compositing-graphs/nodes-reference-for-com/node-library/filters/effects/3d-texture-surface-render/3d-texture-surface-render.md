@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/effects/3d-texture-surface-render.html"
 breadcrumb-title: ''
 description: 使用 3D Texture Surface Render 節點，從 3D 資料渲染表面貼圖，以建立程序化表面效果。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 **3D Texture Surface Render** 節點會渲染由 *3D 材質*&#x200B;描述的形狀表面，並利用其從 3D 距離場&#x200B;**影像輸入得到**&#x200B;的對應&#x200B;*距離場*。
 
-該曲面在單位立方體&#x200B;*的範圍內*&#x200B;表示。光照是利用&#x200B;**&#x200B;**&#x200B;環境輸入影像映射到無限球體來計算的。
+該曲面在單位立方體&#x200B;*的範圍內*&#x200B;表示。光照是利用&#x200B;****&#x200B;環境輸入影像映射到無限球體來計算的。
 
 >[!NOTE]
 >

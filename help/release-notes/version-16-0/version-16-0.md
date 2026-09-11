@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 形狀散射的新方法
 
-新的 [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點解鎖了之前一直具挑戰性的複雜散射行為，包含&#x200B;**更多形狀分布方法**（泊松圓盤、均勻分布）*預設無*&#x200B;碰撞，並能透過密度貼&#x200B;**圖控制&#x200B;*特定區域**&#x200B;形狀的乾淨收集*。\
+新的 [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點解鎖了之前一直具挑戰性的複雜散射行為，包含&#x200B;**更多形狀分布方法**（泊松圓盤、均勻分布）*預設無*&#x200B;碰撞，並能透過密度貼&#x200B;**圖控制&#x200B;*特定區域**形狀的乾淨收集*。\
 進階使用者可設定 *由函數圖定義的自訂分布* 。
 
 <table style="margin-top: 32px; margin-bottom: 32px">
@@ -230,7 +230,7 @@ OpenPBR 著色器支援的效果比現有著色器更多，例如薄膜和薄牆
 
 ## 3D 視圖中的位移控制
 
-現在在 3D 視圖中調整位移與細分變得更快且更容易，且在 3D 視圖工具列中新增的位移彈出視窗[&#128279;](../../interface/3d-view/displacement/displacement.md)中，直接存取。
+現在在 3D 視圖中調整位移與細分變得更快且更容易，且在 3D 視圖工具列中新增的位移彈出視窗](../../interface/3d-view/displacement/displacement.md)中，直接存取[。
 
 調整 **高度比例**、 **高度等級** 和 **細分** 值，避免在材質屬性和渲染器設定中反覆調整。
 

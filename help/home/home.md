@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/home.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/home.html"
 breadcrumb-title: ''
 description: 學習如何使用 Substance 3D Designer 以節點為基礎的工作流程來製作程序化材質、材質和 3D 資產。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ![Substance 3D Designer 主視窗](../assets/sdsummerinterface.jpg "Substance 3D Designer 主視窗")
 
-[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款材質製作軟體。 它讓你可以用節點圖從程序圖案和雜訊產生貼圖，還能操作點陣圖。
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款材質製作軟體。 它讓你可以用節點圖從程序圖案和雜訊產生貼圖，還能操作點陣圖。
 
 Designer 中使用的詞彙或概念對你來說不熟悉嗎？ 請參考我們的 [詞彙表](../glossary/glossary.md) 了解相關資訊。
 
@@ -36,7 +36,7 @@ Designer 中使用的詞彙或概念對你來說不熟悉嗎？ 請參考我們�
 
 * [啟用與授權](../getting-started/activation-and-licenses/activation-and-licenses.md) — 本頁提供如何啟用和管理授權的資訊，讓你能開始使用 Designer。
 * [系統需求](../getting-started/system-requirements/system-requirements.md) — 本頁列出系統需求及硬體相容性資訊。
-* [概述](../getting-started/overview/overview.md) — 本頁概述 Substance 3D Designer https://www.adobe.com/tw/products/substance3d-designer.html、與 Substance 生態系統中其他應用程式的比較，以及您將使用的檔案類型與資源。
+* [概述](../getting-started/overview/overview.md) — 本頁概述 Substance 3D Designer https://www.adobe.com/products/substance3d-designer.html、與 Substance 生態系統中其他應用程式的比較，以及您將使用的檔案類型與資源。
 * [工作流程概述](../getting-started/workflow-overview/workflow-overview.md) — 本頁說明基於節點的工作流程概念，並總結可在 Designer 中撰寫的三種主要圖形類型。
 * [捷徑](../getting-started/shortcuts/shortcuts.md) — 在本頁你可以找到 Substance 3D Designer 所有捷徑的概覽。
 * [教學與學習](../getting-started/tutorials-learning/tutorials-learning.md) — 如果你喜歡透過影片或其他更專注的學習材料深入學習，這些教學是入門的好選擇：
@@ -47,7 +47,7 @@ Designer 中使用的詞彙或概念對你來說不熟悉嗎？ 請參考我們�
 ## 介面
 
 * [主畫面](../interface/home-screen/home-screen.md) — 當你啟動 Substance 3D Designer 時，主畫面會歡迎你。 它幫助你開始使用軟體並取得最有用的連結。
-* [自訂您的工作區](../interface/customizing-your-wor/customizing-your-workspace.md) — 本頁介紹 Adobe Substance 3D Designer https://www.adobe.com/tw/products/substance3d-designer.html 使用者介面中面板的排列方式，並善用其功能來提升工作流程。
+* [自訂您的工作區](../interface/customizing-your-wor/customizing-your-workspace.md) — 本頁介紹 Adobe Substance 3D Designer https://www.adobe.com/products/substance3d-designer.html 使用者介面中面板的排列方式，並善用其功能來提升工作流程。
 * [主工具列](../interface/the-main-toolbar/the-main-toolbar.md) — 本頁介紹 Adobe Substance 3D Designer 的主工具列與選單，位於主視窗左上角。
 * [偏好設定](../interface/preferences-window/preferences-window.md) — 本頁呈現偏好設定視窗及其所有設定。
 * [Explorer](../interface/the-explorer-window/the-explorer-window.md) — 本頁介紹 Adobe Substance 3D Designer 中的 Explorer 底座。 這個 dock 讓你可以管理包裹及其資源。

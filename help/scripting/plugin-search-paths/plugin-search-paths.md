@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中設定插件搜尋路徑，指定 Python 插件的位置。
 helpx_creative_field: ""

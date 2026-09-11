@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/nadir-patch.html"
 breadcrumb-title: ''
 description: 使用 Nadir Patch 節點來修補 HDRI 全景圖的 Nadir 區域，以修正環境地圖底部的瑕疵。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 5%
 
 此節點提供連接球面映射影像中央基點（天頂）的功能。 它可以用來隱藏或「複製」醜陋的天底，或可見的相機或三腳架。 它的運作方式類似 [複製補丁](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/scan-processing/clone-patch/clone-patch.md)，但可以調整球面映射影像。 使用者選擇影像中其他位置的點，即克隆並混合的底部點。 處理時不需要其他外部輸入，只需單一 HDRI，但可使用外部遮罩作為音色效果的 alpha。
 
-效果可透過 Nadir 萃取[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)快速檢查與驗證。
+效果可透過 Nadir 萃取](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/3d-view-library/hdri-tools/nadir-extract/nadir-extract.md)快速檢查與驗證[。
 
 </td>
 </tr>

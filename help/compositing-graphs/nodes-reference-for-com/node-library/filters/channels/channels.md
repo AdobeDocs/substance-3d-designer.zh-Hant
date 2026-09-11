@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/channels.html"
 breadcrumb-title: ''
 description: 存取 Substance 3D Designer 中的通道過濾節點，以操作並合併 RGBA 通道資料。
 helpx_creative_field: ""

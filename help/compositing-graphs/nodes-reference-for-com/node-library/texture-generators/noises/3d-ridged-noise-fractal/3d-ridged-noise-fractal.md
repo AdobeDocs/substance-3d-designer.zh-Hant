@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-ridged-noise-fractal.html"
 breadcrumb-title: ''
 description: 使用 3D Ridged Noise 分形節點，在 3D 空間中產生 Ridged 分形噪音圖案，創造山脈紋理。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 <b>3D Ridged Noise 分形</b>節點根據<i>位置圖</b>輸入在 3D 空間<b>中產生分形</i> Ridged 噪聲。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
 
 </td>
 </tr>

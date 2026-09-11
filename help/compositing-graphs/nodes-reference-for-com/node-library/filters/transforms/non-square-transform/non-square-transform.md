@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/transforms/non-square-transform.html"
 breadcrumb-title: ''
 description: 使用 Non-Square Transform 節點，對具有獨立 X 和 Y 縮放的非正方形材質套用變換。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 4%
 
 ## 說明
 
-非方形安全的 Transform 2D[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 版本。自動偵測非正方形比例，並能將正方形輸入影像轉換到非正方形畫布上。
+非方形安全的 Transform 2D](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 版本[。自動偵測非正方形比例，並能將正方形輸入影像轉換到非正方形畫布上。
 
 務必完全了解 [圖參數](../../../../../../compositing-graphs/graph-parameters/graph-parameters.md)，才能充分利用這個節點，因為你需要正確設定幾個參數：
 

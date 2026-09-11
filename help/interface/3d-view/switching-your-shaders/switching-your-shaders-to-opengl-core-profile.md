@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/switching-your-shaders-to-opengl-core-profile.html"
 breadcrumb-title: ''
 description: 學習如何在 Substance 3D Designer 3D 視圖中切換到 OpenGL 核心設定檔，以提升相容性與效能。
 helpx_creative_field: ""
@@ -132,7 +132,7 @@ outColor = vec4(myColor.rgb, 1.0);
 
 在新版本的著色語言中，材質查詢 API 既簡化又增強。
 
-， `texture1D()`&#x200B;`texture2D()`， `texture3D()`， 與`textureCube()`函數皆成為 的`texture()`過載。\
+， `texture1D()``texture2D()`， `texture3D()`， 與`textureCube()`函數皆成為 的`texture()`過載。\
 同理，變為 `textureLod()`， `texture2DGrad()` `textureGrad()`變，`texture2DLod()`依此類推。
 
 你現在也能使用有用的功能，例如 `textureSize()` （查詢取樣器以 texel 計算大小）、 `textureOffset()` （取樣目標位置的鄰居）、 `textureFetch()` （提供像素取樣位置）等等。

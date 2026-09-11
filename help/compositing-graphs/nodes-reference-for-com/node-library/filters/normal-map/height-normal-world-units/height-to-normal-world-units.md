@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/height-to-normal-world-units.html"
 breadcrumb-title: ''
 description: 使用「高度轉法線世界單位」節點，將高度圖轉換為法線圖，並使用世界單位縮放技術，以達到更精確的細節。
 helpx_creative_field: ""

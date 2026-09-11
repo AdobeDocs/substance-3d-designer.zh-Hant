@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/3d-view-library/hdri-tools/straighten-horizon.html"
 breadcrumb-title: ''
 description: 使用 Straighten Horizon 節點在 HDRI 環境中將地平線拉直，以達到正確的對齊與方向。
 helpx_creative_field: ""

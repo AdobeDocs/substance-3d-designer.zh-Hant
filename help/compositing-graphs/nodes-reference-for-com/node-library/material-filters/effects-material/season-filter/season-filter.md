@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/material-filters/effects-material/season-filter.html"
 breadcrumb-title: ''
 description: 使用季節過濾節點對材料套用季節效果，創造春、夏、秋、冬季變化。
 helpx_creative_field: ""
@@ -35,7 +35,7 @@ ht-degree: 10%
 
 這個節點會加入像是動畫水面關卡、雪、冰和/或苔蘚等效果。
 
-請記住，這是較舊的濾網，並非設計成完全符合PBR標準。 它主要是為了保留舊有或相容性，雖然在某些情況下仍然有用。 較新的PBR正確版本可在《雪覆蓋[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)》和[《水位》](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)中找到。
+請記住，這是較舊的濾網，並非設計成完全符合PBR標準。 它主要是為了保留舊有或相容性，雖然在某些情況下仍然有用。 較新的PBR正確版本可在《雪覆蓋](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/snow-cover/snow-cover.md)》和[《水位》](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/material-filters/effects-material/water-level/water-level.md)中找到[。
 
 節點需要一套適當的材質輸入，主要是需要相當詳細的高度圖或法線貼圖。
 

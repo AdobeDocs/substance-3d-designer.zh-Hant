@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugins-packages.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugins-packages.html"
 breadcrumb-title: ''
 description: 學習如何為 Substance 3D Designer Python 腳本建立與結構化外掛套件。
 helpx_creative_field: ""

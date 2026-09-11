@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/normal-map/normal-blend.html"
 breadcrumb-title: ''
 description: 使用 Normal Blend 節點將法線貼圖混合在一起，創造表面細節間的平滑過渡。
 helpx_creative_field: ""
@@ -33,7 +33,7 @@ ht-degree: 3%
 
 ## 說明
 
-法線混合允許你用可選的遮罩將兩個法線貼圖混合在一起，同時確保所有數值保持正規化狀態。 它和原子混合節點[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)差異不大，但增加了法線貼圖的內部計算。
+法線混合允許你用可選的遮罩將兩個法線貼圖混合在一起，同時確保所有數值保持正規化狀態。 它和原子混合節點](../../../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)差異不大[，但增加了法線貼圖的內部計算。
 
 法線混合並非用來合併（疊加）法線貼圖，因為上方貼圖會為下方貼圖增加細節。 為此，改用[普通聯合。](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/filters/blurs.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中存取模糊濾鏡節點，套用各種模糊效果來平滑和軟化貼圖。
 helpx_creative_field: ""

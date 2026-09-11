@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs.html"
 breadcrumb-title: ''
 description: 取得 Substance 3D Designer 功能圖中所有節點的完整參考指南。
 helpx_creative_field: ""
