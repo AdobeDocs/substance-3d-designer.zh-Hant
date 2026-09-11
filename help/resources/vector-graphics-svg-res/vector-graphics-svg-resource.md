@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/vector-graphics-svg-resource.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/vector-graphics-svg-resource.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中匯入並使用 SVG 向量圖形作為資源，用於程序化材質的建立。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Substance 3D Designer 支援有限形式的向量圖形，透過可縮放向量圖形格式。 SVG 檔案可以用不同方式作為資源，作為圖表的資源。
 
-SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
+SVG 檔案 [可以透過原子 SVG 節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md) 建立或編輯，也可以由 [UV 轉 SVG 烘焙器建立。](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/bakers-settings/convert-uv-to-svg)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ SVG 資源在套件中有許多屬性可供自訂。 大多數屬性沒有主要
 
 ### Adobe 插畫家
 
-[如果你注意以下選項，Illustrator](https://www.adobe.com/products/illustrator.html) 能讓你對 SVG 匯出有最大的控制權。
+[如果你注意以下選項，Illustrator](https://www.adobe.com/tw/products/illustrator.html) 能讓你對 SVG 匯出有最大的控制權。
 
 * 只 <b>用另存為</b>， *不要* 用匯出新為！
 * <b>SVG 設定檔</b> 影響不大，不過 Tiny 設定檔（大多數時候）會預設為絕對正確的設定;
