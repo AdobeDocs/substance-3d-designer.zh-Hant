@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/the-library.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/the-library.html"
 breadcrumb-title: ''
 description: 使用 Substance 3D Designer 中的函式庫來存取和管理節點預設、材質及自訂內容。
 helpx_creative_field: ""
