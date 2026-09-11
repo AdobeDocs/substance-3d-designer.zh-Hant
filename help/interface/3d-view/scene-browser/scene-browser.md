@@ -26,7 +26,7 @@ ht-degree: 0%
 
 由於 Designer 使用 [USD](https://openusd.org/release/index.html) 來描述和管理其場景，其術語與概念都位於該場景樹中。
 
-透過點擊 3D 視圖場景工具列](../../../interface/3d-view/3d-view.md)中[專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
+透過點擊 3D 視圖場景工具列[&#128279;](../../../interface/3d-view/3d-view.md)中專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
 
 ![場景瀏覽器 - 已載入的 3D 場景](scene-browser.resources/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
 
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 當使用「編輯...」時，在燈光、攝影機和環境選單中操作，這些都是被編輯的物件，無論場景中是否有其他燈光、攝影機或環境。
 
-這些物件在匯出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時[會包含在場景中。
+這些物件在匯出[&#128279;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時會包含在場景中。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
