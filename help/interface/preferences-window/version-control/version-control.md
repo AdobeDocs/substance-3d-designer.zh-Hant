@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/preferences-window/version-control.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/preferences-window/version-control.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 偏好設定中設定版本控制，以整合 Git 及其他系統。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本控制
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -26,15 +26,15 @@ ht-degree: 0%
 > 
 > 確保你的其他腳本和版本控制環境都相應調整。
 
-Designer 提供 Perforce[&#128279;](https://www.perforce.com/) （P4） 版本控制系統的 Python 整合。
+Designer 提供 Perforce](https://www.perforce.com/) （P4） 版本控制系統的 Python 整合[。
 
-整合後在檔案總管[&#128279;](../../../interface/the-explorer-window/the-explorer-window.md)的套件情境選單中新增了自訂的「版本控制」子選單，並新增自訂圖示以匹配 P4 中套件的狀態。
+整合後在檔案總管](../../../interface/the-explorer-window/the-explorer-window.md)的套件情境選單中新增了自訂的「版本控制」子選單，並新增[自訂圖示以匹配 P4 中套件的狀態。
 
 ## 準備P4
 
-在 P4V[&#128279;](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) 中，請記下工作區名稱與路徑，如下所示：
+在 P4V](https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v) 中[，請記下工作區名稱與路徑，如下所示：
 
-![P4V 工作區資訊](../../../assets/p4v-workspace-strings.jpg "P4V 工作區資訊"){zoomable="yes"}
+![P4V 工作區資訊](version-control.resources/p4v-workspace-strings.jpg "P4V 工作區資訊"){zoomable="yes"}
 
 在任何文字編輯器或 IDE 中，開啟位於 Designer 安裝中的腳本：「*tools/version\_control/perforce.py*」。
 
@@ -54,7 +54,7 @@ cVerbose = False
 
 版本控制可在專案設定中設定 [，該設定](../../../interface/preferences-window/project-settings/project-settings.md)可在設計者 [偏好設定](../../../interface/preferences-window/preferences-window.md)中取得。
 
-![專案設定](../../../assets/p4v-project-settings.jpg "中的「版本控制」標籤「專案設定中的版本控制」標籤"){zoomable="yes"}
+![專案設定](version-control.resources/p4v-project-settings.jpg "中的「版本控制」標籤「專案設定中的版本控制」標籤"){zoomable="yes"}
 
 1. 前往「編輯>偏好設定」
 1. 前往「專案」，選擇目標 [專案檔案](../../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md) ，然後進入「版本控制」標籤
@@ -64,7 +64,7 @@ cVerbose = False
    * <b>名稱：</b> 輸入你之前從 P4V 取得的「工作區名稱」
    * <b>路徑：</b> 輸入你之前從 P4V 取得的「工作空間路徑」
 
-![P4 在 Designer 設定：workspace](../../../assets/p4v-project-settings-workspace.jpg "在 Designer 中設定 P4 設定：workspace"){zoomable="yes"}
+![P4 在 Designer 設定：workspace](version-control.resources/p4v-project-settings-workspace.jpg "在 Designer 中設定 P4 設定：workspace"){zoomable="yes"}
 
 ### 設定動作
 
@@ -88,7 +88,7 @@ cVerbose = False
 1. 在 Designer 安裝中選擇以下腳本：&#39;*tools/version\_control/perforce.py*&#39;
 1. 腳本應該會自動為其他所有動作設定。
 
-![P4 在 Designer 設定：actions](../../../assets/p4v-project-settings-actions.jpg "。P4 在 Designer 設定：actions。"){zoomable="yes"}
+![P4 在 Designer 設定：actions](version-control.resources/p4v-project-settings-actions.jpg "。P4 在 Designer 設定：actions。"){zoomable="yes"}
 
 ### 設定自訂動作
 
@@ -103,7 +103,7 @@ cVerbose = False
 1. 設定腳本副檔名或後綴，以及直譯器可執行檔的路徑
 1. 編輯 perforce.py 腳本以更新「p4」二進位檔的位置
 
-![Designer 中的 P4 設定：直譯器](../../../assets/p4v-project-settings-interpreters.jpg "Designer 中的 P4 設定：直譯器"){zoomable="yes"}
+![Designer 中的 P4 設定：直譯器](version-control.resources/p4v-project-settings-interpreters.jpg "Designer 中的 P4 設定：直譯器"){zoomable="yes"}
 
 ## 如何使用版本控制
 
@@ -123,12 +123,12 @@ cVerbose = False
    <tr style="border: 0;">
    <td style="border: 0;" valign="top">
 
-   ![「提交」對話「](../../../assets/p4v-submit.jpg "提交」對話"){zoomable="yes"}
+   ![「提交」對話「](version-control.resources/p4v-submit.jpg "提交」對話"){zoomable="yes"}
 
    </td>
    <td style="border: 0;" valign="top">
 
-   ![「還原」對話框](../../../assets/p4v-revert.jpg "「還原」對話框"){zoomable="yes"}
+   ![「還原」對話框](version-control.resources/p4v-revert.jpg "「還原」對話框"){zoomable="yes"}
 
    </td>
    </tr>
@@ -148,28 +148,28 @@ cVerbose = False
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![包裹圖示：最新](../../../assets/p4-up-to-date.png "套件圖示：最新")
+![包裹圖示：最新](version-control.resources/p4-up-to-date.png "套件圖示：最新")
 
 最新資訊
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包裹圖示：已借出](../../../assets/p4-checked-out.png "包裹圖示：已借出")
+![包裹圖示：已借出](version-control.resources/p4-checked-out.png "包裹圖示：已借出")
 
 退房
 
 </td>
 <td style="border: 0;" valign="top">
 
-![套件圖示：已新增](../../../assets/p4-added.png "套件圖示：已新增")
+![套件圖示：已新增](version-control.resources/p4-added.png "套件圖示：已新增")
 
 標記為新增
 
 </td>
 <td style="border: 0;" valign="top">
 
-![包裹圖示：不在倉庫](../../../assets/p4-not-in-depot.png "包裹圖示：不在倉庫")
+![包裹圖示：不在倉庫](version-control.resources/p4-not-in-depot.png "包裹圖示：不在倉庫")
 
 車站裡沒有
 
