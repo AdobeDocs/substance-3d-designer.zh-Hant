@@ -35,7 +35,7 @@ ht-degree: 5%
 
 簡單、平滑的雙面漸層。 能呈現完美的黑-白-黑漸層，插值也完美。
 
-儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試[！
+儘管簡單，它非常實用，且能滿足多種用途。 例如，可以搭配直方圖掃描[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md)一起嘗試！
 
 </td>
 </tr>
