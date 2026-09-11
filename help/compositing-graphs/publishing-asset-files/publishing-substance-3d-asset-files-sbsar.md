@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
 breadcrumb-title: ''
 description: 學習如何從 Designer 發佈 Substance 3D 資產檔案（SBSAR），以便在其他應用程式和引擎中使用。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 本頁說明 Substance 3D Designer 如何將套件發佈為 <b>Substance 3D 資產</b> 檔案，這是一種帶有 <b>SBSAR</b> 副檔名的特殊檔案格式，用於 Substance 生態系統及其他支援它的應用程式中。
 
-通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler[&#128279;](https://helpx.adobe.com/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home)
+通常使用 Substance 的 3D 資產比點陣圖更好，因為它更靈活且輕量。 如果你是在 Substance 3D Painter、Sampler[&#128279;](https://helpx.adobe.com/tw/substance-3d-sampler.html) 或 [Player](https://helpx.adobe.com/substance-3d-player/home.html) 中使用它們，使用[「傳送到...」功能會更快。功能](../../interface/the-explorer-window/send-to-interoperability/send-to-interoperability.md)。 [&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home)
 
 ![簡化](publishing-substance-3d-asset-files-sbsar.resources/exportflow.png "版 SBSAR 檔案發佈 簡化版")
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 * 你<b> 發佈的是包含所有內容的套件</b>，而不是單一 [的 Substance 圖表](../../compositing-graphs/substance-compositing-graphs.md)。 接著，Substance 3D 資產可以讓你從這個套件中所有 Substance 圖表生成內容。
 * 已發佈的套件完全獨立 <b>：</b>所有所需資源都嵌入於檔案中。 這代表它們比 SBS 檔案更容易分享。
 * Substance 3D 資產的輸出可以完全動態</b>呈現<b>。[解析度不設定;可調整外洩參數。](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md) 然而，現在已無法編輯圖譜。
-* Substance 3D 資產可在 Designer 之外使用，適用於所有 Adobe Substance 3D 產品、Adobe Dimension 以及任何與 Substance 整合[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home)的應用程式。
+* Substance 3D 資產可在 Designer 之外使用，適用於所有 Adobe Substance 3D 產品、Adobe Dimension 以及任何與 Substance 整合[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home)的應用程式。
 * 出版和出口[&#128279;](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)是不同的，務必清楚兩者的差異。
 
 ## 準備出版
