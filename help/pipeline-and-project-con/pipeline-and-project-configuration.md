@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/pipeline-and-project-configuration.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/pipeline-and-project-configuration.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中設定管線和專案設定，以優化你的工作流程與產出。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 管線與專案配置
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -39,17 +39,17 @@ Designer 有三個層級或組態檔，每個層級都有不同的用途。 在 
 </td>
 <td style="border: 0;" valign="top">
 
-![設定檔案階層](../assets/filestructureoverview.png "設定檔案階層")
+![設定檔案階層](pipeline-and-project-configuration.resources/filestructureoverview.png "設定檔案階層")
 
 </td>
 </tr>
 </table>
 
-* <b>[使用者\_Preferences.XML](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md)</b> 包含一般程式設定，其中除一項外皆與專案管線無關。 這個檔案是唯一的，無法替換，Designer 是硬編碼來使用這個檔案的。\
+* <b>[使用者\_Preferences.XML](../pipeline-and-project-con/user-preferences-aut/user-preferences-automating-setup.md）</b> 包含一般程式設定，其中除一項外皆與專案管線無關。 這個檔案是唯一的，無法替換，Designer 是硬編碼來使用這個檔案的。\
   它只包含一個對設定檔的參考。
-* <b>[預設_Configuration.SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md)</b> 可以替換成其他名稱不同的 SBSCFG 檔案，但同時只能使用一個 SBSCFG 檔案。\
+* <b>[預設_Configuration.SBSCFG](../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md）</b> 可以替換成其他名稱不同的 SBSCFG 檔案，但同時只能使用一個 SBSCFG 檔案。\
   它包含多個專案檔案的參考。 *請注意，預設設定中這些檔案並未明確定義，而是硬編碼的！*
-* <b>[Project.SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)</b> 檔案包含與專案/管線相關的設定。 多個專案可以在階層結構中定義，覆蓋或擴展先前定義的專案。
+* <b>[Project.SBSPRJ](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md）</b> 檔案包含與專案/管線相關的設定。 多個專案可以在階層結構中定義，覆蓋或擴展先前定義的專案。
 
 ## 設計管線設定
 

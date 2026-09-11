@@ -10,7 +10,7 @@ helpx_tags: ""
 title: MDL 圖書館
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: ea2e2d76d225a0e17c84c3312934f62aa5ef3915
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # MDL 圖書館
 
-本頁呈現與 [Substance 3D Designer 所包含的 MDL 圖表](../../mdl-graphs/mdl-graphs.md) 及材料相關的內容庫。 同時也說明如何在函式庫[&#128279;](../../interface/the-library/the-library.md)中安裝和管理自訂內容。
+本頁呈現與 [Substance 3D Designer 所包含的 MDL 圖表](../../mdl-graphs/mdl-graphs.md) 及材料相關的內容庫。 同時也說明如何在函式庫](../../interface/the-library/the-library.md)中安裝和管理自訂內容[。
 
 ## 圖書館中的 MDL 內容
 
@@ -43,7 +43,7 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 
 除了內建內容外，你還可以將 *自己的* MDL 模組加入函式庫。
 
-事實上，專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中 MDL</b> 區塊中目錄<b>中列出的任何 MDL 模組，會累積至該區&#x200B;**&#x200B;塊，跨專案檔案。
+事實上，專案設定](../../interface/preferences-window/project-settings/project-settings.md)中 MDL</b> 區[塊中目錄<b>中列出的任何 MDL 模組，會累積至該區&#x200B;**&#x200B;塊，跨專案檔案。
 
 ### NVIDIA vMaterials
 
@@ -52,7 +52,7 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 </td>
 <td style="border: 0;" valign="top">
 
-![圖書館](../../assets/mdl-library.png "中的 MDL 資源 圖書館中的 MDL 資源")
+![圖書館](mdl-library.resources/mdl-library.png "中的 MDL 資源 圖書館中的 MDL 資源")
 
 *函式庫中的「mdl」區塊、vMaterials 函式庫及自訂內容皆有框架*
 
@@ -62,7 +62,7 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 
 ## 3D 視圖中的 MDL 內容
 
-當使用 Iray 渲染器時，函式庫中所有可用的 MDL 模組皆可在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中使用。
+當使用 Iray 渲染器時，函式庫中所有可用的 MDL 模組皆可在 3D 視圖](../../interface/3d-view/3d-view.md)中使用[。
 
 打開 <b>材質</b> 選單，並開啟 *場景材質的子選單* ，瀏覽可用的 MDL 模組。 這些名單包括：
 
@@ -71,6 +71,6 @@ Designer 包含 MDL 模組，包含撰寫 MDL 圖的基本建構模組，以及�
 * NVIDIA [vMaterials](https://developer.nvidia.com/vmaterials)
 * 載入的 [MDL 圖](../../mdl-graphs/mdl-graphs.md)
 
-![3D 中檢視](../../assets/mdl-apply-in-3dview-material-list.png "MDL 材料")
+![3D 中檢視](mdl-library.resources/mdl-apply-in-3dview-material-list.png "MDL 材料")
 
 *3D 視圖中的 MDL 材質*
