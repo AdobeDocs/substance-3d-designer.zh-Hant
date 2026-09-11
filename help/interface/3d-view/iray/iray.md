@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 伊雷
 
-本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 3D 檢視面板中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
+本頁介紹 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 3D 檢視面板中的 Iray 渲染器，提供互動路徑追蹤，支援 CPU 及/或 GPU 加速（僅限 Nvidia GPU）進行寫實渲染。
 
 >[!WARNING]
 > 
