@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library/function-nodes-random/hash-functions.html"
 breadcrumb-title: ''
 description: 在函數圖中使用雜湊函數，根據輸入座標產生確定性的隨機值。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 雜湊函數
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![雜湊節點：圖示](../../../../../assets/hash-icon.png "雜湊節點：圖示"){width="200px"}
+![雜湊節點：圖示](hash-functions.resources/hash-icon.png "雜湊節點：圖示"){width="200px"}
 
 <b>收錄於：</b> 隨機函數>
 
@@ -82,12 +82,12 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![雜湊 14 範例](../../../../../assets/hash14-example.png "雜湊 14 範例"){zoomable="yes"}
+![雜湊 14 範例](hash-functions.resources/hash14-example.png "雜湊 14 範例"){zoomable="yes"}
 
 </td>
 <td style="border: 0;" valign="top">
 
-![雜湊 32 範例](../../../../../assets/hash32-example.png "雜湊 32 範例"){zoomable="yes"}
+![雜湊 32 範例](hash-functions.resources/hash32-example.png "雜湊 32 範例"){zoomable="yes"}
 
 </td>
 </tr>
