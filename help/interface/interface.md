@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface.html"
 breadcrumb-title: ''
 description: 了解 Substance 3D Designer 的工作區介面，包括檢視、面板與自訂選項。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 工作空間
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 ## 圖視圖
 
-[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[&#x200B; 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
+[Graph View dock](../interface/the-graph-view/the-graph-view.md) 是 Substance 3D Designer 中最重要的視窗。 它能顯示 Designer[ 中任何圖形（Substance 圖](../compositing-graphs/substance-compositing-graphs.md)、 [Substance 函數圖](../function-graphs/function-graphs.md)、 [FX-Map 圖](../function-graphs/fxmaps/fxmaps.md)）的節點網絡，並允許你建立與編輯這些圖。
 
 ![圖視圖](interface.resources/graph-6.png "圖視圖")
 
@@ -117,6 +117,6 @@ ht-degree: 0%
 
 ## 圖書館
 
-[Library 底座](../interface/the-library/the-library.md) 預設提供 Designer 函式庫中所有內容的存取權，以及你的 [自訂內容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。 為了更了解函式庫中原子節點與實例節點的差異，請務必閱讀 [節點概覽](https://helpx.adobe.com/substance-designer/using/nodes-overview.html)。
+[Library 底座](../interface/the-library/the-library.md) 預設提供 Designer 函式庫中所有內容的存取權，以及你的 [自訂內容](../interface/the-library/managing-custom-content/managing-custom-content-and-filters.md)。
 
 ![圖書館圖書館](interface.resources/library-3.jpg "")

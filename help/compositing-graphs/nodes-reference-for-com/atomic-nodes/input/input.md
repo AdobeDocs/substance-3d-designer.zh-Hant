@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ''
 description: 使用 Input 節點建立 Substance 圖表的輸入參數，供使用者公開與調整。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 輸入
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -44,56 +44,11 @@ ht-degree: 0%
 
 與 [輸出節點](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，你必須明確放置色彩、灰階或值輸入。 無法自行建立「中立」輸入，並根據連接的裝置改變類型。
 
-輸入節點不如輸出節點[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter) 時。
-
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
+輸入節點不如輸出節點](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要[：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) 時。
 
 ## 參數
 
-</td>
-<td style="border: 0;" valign="top">
-
-### 致敬
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 獨立國家
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 整合屬性
-
-</td>
-</tr>
-</table>
-
-## 參數
-
-預設情況下，如果沒有插電，輸入色彩或灰階會回傳黑色。 你可以設定不同的預設值，或是從總管[&#128279;](../../../../interface/the-explorer-window/the-explorer-window.md)拖曳現有[的點陣資源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)到圖表中的輸入節點，以便在欄位中預覽這些資料。這只適用於色彩和灰階輸入。 預設值在其他情境中使用時是持久的，預覽點陣圖則在其他情況下被捨棄。
+預設情況下，如果沒有插電，輸入色彩或灰階會回傳黑色。 你可以設定不同的預設值，或是從總管](../../../../interface/the-explorer-window/the-explorer-window.md)拖曳現有[的點陣資源](../../../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)[到圖表中的輸入節點，以便在欄位中預覽這些資料。這只適用於色彩和灰階輸入。 預設值在其他情境中使用時是持久的，預覽點陣圖則在其他情況下被捨棄。
 
 如果你想用其他圖的輸出看到，你必須用上述方法匯出該圖成點陣圖，或是使用「上下文內」編輯。
 
@@ -116,21 +71,21 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; vertical-align: top">
 
 當有多個輸入時，你需要注意圖如何 [從這些輸入繼承其基底參數](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) 。\
 基礎參數包括 <b>輸出大小</b>、 <b>輸出格式</b> 及 <b>平鋪模式</b>等。
 
-</td>
-<td width="33.33%" style="border: 0;" valign="top">
+輸入可以定義為 [主要輸入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 這個輸入接著驅動所有輸入的屬性，繼承方法設定為 *相對於父*&#x200B;輸入。 這是輸入節點預設&#x200B;*設定的繼承方法*。
 
-[![Substance 圖中的主要輸入](input.resources/node-primary-input.png)](https://helpx.adobe.com/Primary%20input%20in%20Substance%20graph)
+</td>
+<td width="25%" style="border: 0;" valign="top">
+
+![Substance 圖中的主要輸入](input.resources/node-primary-input.png)
 
 </td>
 </tr>
 </table>
-
-輸入可以定義為 [主要輸入](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。 這個輸入接著驅動所有輸入的屬性，繼承方法設定為 *相對於父*&#x200B;輸入。 這是輸入節點預設&#x200B;*設定的繼承方法*。
 
 你可以在節點上點擊 *右鍵* ，並在情境選單中選擇 <b>「設定為主要輸入」選項，將該輸入節點設為圖表的主輸入</b> 。\
 節點的主要輸入會在連接器&#x200B;*上用*&#x200B;一個小黑點標記（在本節旁的範例中以紅色圈圈標示）。
@@ -145,11 +100,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> *Substance 3D 資產（SBSAR）[&#128279;](https://helpx.adobe.com/tw/substance-3d-assets.html)不支援*輸入節點&#x200B;*的相對於輸入*&#x200B;繼承方法。在發佈套件前，將所有輸入節點的繼承方法設為 *相對於父* 節點。
+> *Substance 3D 資產（SBSAR）](../../../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)不支援*[輸入節點&#x200B;*的相對於輸入*&#x200B;繼承方法。在發佈套件前，將所有輸入節點的繼承方法設為 *相對於父* 節點。
 
 ## 整合屬性
 
-輸入不會直接傳送到 3D 視圖，但其使用屬性會被 [Substance 3D Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 用來自動填補特定地圖（多用於 [濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter)）。
+輸入不會直接傳送到 3D 視圖，但其使用屬性會被 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 用來自動填補特定地圖（多用於 [濾鏡](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)）。
 
 此外，使用屬性也會用於 [連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)，以匹配正確的輸入與輸出欄位。
 

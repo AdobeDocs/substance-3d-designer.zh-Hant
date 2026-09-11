@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/incorrect-image-output.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/incorrect-image-output.html"
 breadcrumb-title: ''
 description: 排除 Substance 3D Designer 中錯誤的影像輸出問題，並學習如何修正渲染問題。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 影像輸出錯誤
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f72773d86b681ce0e815c5595067b1593cdd1f0a
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（錯誤）](../../assets/error.svg) 子嗣**
+**![（錯誤）](incorrect-image-output.resources/error.svg) 子嗣**
 
 影像輸出的漸層是階梯式的，而非平滑的。 階梯移動是因為 *影像所使用的明值範圍過於狹窄*&#x200B;所致。\
 這表示沒有足夠的數值來平滑地從梯度的一個步驟過渡到下一個階段。
@@ -43,13 +43,13 @@ ht-degree: 0%
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/demo-stepping-8-bit.png){width="256px"}![](../../assets/demo-stepping-8-bit-2.png){width="256px"}![](../../assets/demo-stepping-8-bit-3.png){width="256px"}
+![](incorrect-image-output.resources/demo-stepping-8-bit.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-2.png){width="256px"}![](incorrect-image-output.resources/demo-stepping-8-bit-3.png){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（滴答）](../../assets/check.svg) 建議步驟**
+**![（滴答）](incorrect-image-output.resources/check.svg) 建議步驟**
 
 檢查 **節點及所有上游節點的輸出格式** （即位元深度），並確保這些節點至少使用 *16位元整數精度*。
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-<b>![（錯誤）](../../assets/error.svg) 問題</b>
+<b>![（錯誤）](incorrect-image-output.resources/error.svg) 子嗣</b>
 
 Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 Substance 3D 檔案圖，如右側圖片所示。\
 輸出看起來解析度很低。
@@ -81,15 +81,15 @@ Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 S
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-sbsar-bitmap-relative-to.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-<b>![（打了](../../assets/check.svg) 推薦步驟</b>
+<b>![（滴答）](incorrect-image-output.resources/check.svg) 建議步驟</b>
 
-確保所有位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小[&#128279;](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
+確保所有位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。[[
 
 若非如此，其參考 [點陣資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設的 256\*256 解析度儲存在已發佈的 Substance 3D 檔案庫中，這會影響*&#x200B;一個或多個輸出的品質* 。
 
@@ -99,20 +99,20 @@ Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 S
 <tr style="border: 0;">
 <td width="58.30%" style="border: 0;" valign="top">
 
-**![（錯誤）](../../assets/error.svg) 子嗣**
+**![（錯誤）](incorrect-image-output.resources/error.svg) 子嗣**
 
 使用某些節點後，形狀會稍微模糊，例如 [轉換 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 或 [混合](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md)。
 
 </td>
 <td width="41.60%" style="border: 0;" valign="top">
 
-![](../../assets/issues-bilinear.jpg){width="256px"}
+![](incorrect-image-output.resources/issues-bilinear.jpg){width="256px"}
 
 </td>
 </tr>
 </table>
 
-**![（滴答）](../../assets/check.svg) 建議步驟**
+**![（滴答）](incorrect-image-output.resources/check.svg) 建議步驟**
 
 當重新排列影像中的像素時，例如調整形狀大小或改變影像解析度時，有兩種方法可以決定來源像素應 *如何映射* 到目的地：
 
@@ -124,4 +124,4 @@ Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 S
 大多數節點（例如 [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) ）在取樣不同解析度的輸入貼圖時，預設採用 *雙線性濾波* ，這可能會造成不必要的模糊。\
 因為 Transformation 2D 節點是原子式&#x200B;*的——非常輕量級——即使不需要轉換*，也可以用 *Output [size](../../compositing-graphs/output-size/output-size.md) 特性來改變材質解析度，然後再傳送到另一個節點，這樣你就能*&#x200B;控制調整大小的影響&#x200B;*。*
 
-在 Pixel 處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)節點的功能[圖](../../function-graphs/function-graphs.md)中，**取樣**&#x200B;節點也包含&#x200B;*相同的選項*，用以控制取樣紋理如何映射到節點的解析度。
+在 Pixel 處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)節點的功能[圖](../../function-graphs/function-graphs.md)中[，**取樣**&#x200B;節點也包含&#x200B;*相同的選項*，用以控制取樣紋理如何映射到節點的解析度。
