@@ -89,7 +89,7 @@ Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 S
 
 <b>![（滴答）](incorrect-image-output.resources/check.svg) 建議步驟</b>
 
-確保所有位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。[[
+確保所有位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點的輸出大小[&#128279;](../../compositing-graphs/output-size/output-size.md)屬性都設定為&#x200B;*絕對[*&#x200B;繼承方法](../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)。
 
 若非如此，其參考 [點陣資源](../../resources/bitmap-resource/bitmap-resource.md) 將以預設的 256\*256 解析度儲存在已發佈的 Substance 3D 檔案庫中，這會影響*&#x200B;一個或多個輸出的品質* 。
 
@@ -124,4 +124,4 @@ Substance 3D 檔案庫（SBSAR）輸出的影像品質明顯低於其發布的 S
 大多數節點（例如 [Blend](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blend.md) ）在取樣不同解析度的輸入貼圖時，預設採用 *雙線性濾波* ，這可能會造成不必要的模糊。\
 因為 Transformation 2D 節點是原子式&#x200B;*的——非常輕量級——即使不需要轉換*，也可以用 *Output [size](../../compositing-graphs/output-size/output-size.md) 特性來改變材質解析度，然後再傳送到另一個節點，這樣你就能*&#x200B;控制調整大小的影響&#x200B;*。*
 
-在 Pixel 處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)節點的功能[圖](../../function-graphs/function-graphs.md)中[，**取樣**&#x200B;節點也包含&#x200B;*相同的選項*，用以控制取樣紋理如何映射到節點的解析度。
+在 Pixel 處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)節點的功能[圖](../../function-graphs/function-graphs.md)中，**取樣**&#x200B;節點也包含&#x200B;*相同的選項*，用以控制取樣紋理如何映射到節點的解析度。
