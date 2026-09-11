@@ -24,7 +24,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="100.00%" style="border: 0;" valign="top">
 
-使用者_preferences.xml檔案包含專案設定](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中定義[外的所有使用者專屬設定。這些主要是針對特定的使用者介面和效能設定。
+使用者_preferences.xml檔案包含專案設定[&#128279;](../../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)中定義外的所有使用者專屬設定。這些主要是針對特定的使用者介面和效能設定。
 
 唯一需要更改的相關設定是包含專案清單的 [設定檔](../../pipeline-and-project-con/configuration-list-sbscfg/configuration-list-sbscfg.md) 。 這可以透過以下幾種方式來完成。
 
