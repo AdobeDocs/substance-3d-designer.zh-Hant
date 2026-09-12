@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/scripting/plugin-search-paths.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/scripting/plugin-search-paths.html"
 breadcrumb-title: ''
 description: 在 Substance 3D Designer 中設定插件搜尋路徑，指定 Python 插件的位置。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件搜尋路徑
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Designer 會在特定目錄（例如搜尋路徑）中尋找外掛。 本頁說�
 1. 在 <b>Python</b> 標籤中，點擊 *<b>+</b>*按鈕以新增包含外掛的目錄
 1. 點擊 <b>確定</b> 以驗證
 
-![設定 up Python 插件 搜尋路徑 專案設定](../../assets/image-70.png "Up Python 插件搜尋路徑 專案設定")
+![設定 up Python 插件 搜尋路徑 專案設定](plugin-search-paths.resources/image-70.png "Up Python 插件搜尋路徑 專案設定")
 
 ## 使用環境變數
 
