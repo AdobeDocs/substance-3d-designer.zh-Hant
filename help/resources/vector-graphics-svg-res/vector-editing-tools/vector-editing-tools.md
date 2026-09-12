@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # 向量編輯工具
 
-本頁介紹 2D 檢視](https://docs.substance3d.com/display/SDDOC/2D+view)面板中可用於[相容向量圖形的編輯工具。
+本頁介紹 2D 檢視[&#128279;](https://docs.substance3d.com/display/SDDOC/2D+view)面板中可用於相容向量圖形的編輯工具。
 
 ## 概觀
 
@@ -28,9 +28,9 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[2D View](https://docs.substance3d.com/display/SDDOC/2D+view) 面板提供基本的向量編輯工具，讓你能直接在 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中[手動創建或編輯向量圖形&#x200B;**。這些工具特別有用，例如快速製作 *遮罩* 或 *圖案*。
+[2D View](https://docs.substance3d.com/display/SDDOC/2D+view) 面板提供基本的向量編輯工具，讓你能直接在 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中手動創建或編輯向量圖形&#x200B;**。這些工具特別有用，例如快速製作 *遮罩* 或 *圖案*。
 
-這些工具支援筆輸入。 要善用手寫螢幕，你可以[先拔掉](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace)[2D視窗](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然後放置並調整大小，讓繪畫更舒適。
+這些工具支援筆輸入。 要善用手寫螢幕，你可以[先拔掉](https://docs.substance3d.com/display/SDDOC/Customizing+your+workspace) [2D視窗](https://docs.substance3d.com/display/SDDOC/2D+view)面板，然後放置並調整大小，讓繪畫更舒適。
 
 編輯可以 *單獨*&#x200B;還原，而 2D 檢視面板的其他功能在編輯向量圖時仍 *可使用* ，例如 [直方圖](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Histogram) 面板、 [平貼顯示](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Viewport)和 [背景影像](https://docs.substance3d.com/display/SDDOC/2D+view#id-2Dview-Backgroundimage)。
 
@@ -51,21 +51,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-> 你只能&#x200B;*在全新或匯](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)入的 8 位元*[向量圖形資源[](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上繪圖&#x200B;*。*
+> 你只能&#x200B;*在全新或匯[&#128279;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)入的 8 位元*向量圖形資源[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上繪圖&#x200B;*。*
 
 ![新 SVG 資源對話框](vector-editing-tools.resources/2dview-new-vector-image.png "新 SVG 資源對話框"){width="512px"}
 
 ## 啟用向量編輯工具
 
-當符合向量圖形影像的以下條件時，向量編輯工具會在 2D 檢視](https://docs.substance3d.com/display/SDDOC/2D+view)面板中自動[啟用：
+當符合向量圖形影像的以下條件時，向量編輯工具會在 2D 檢視[&#128279;](https://docs.substance3d.com/display/SDDOC/2D+view)面板中自動啟用：
 
 * 向量圖形影像是[新資源或匯入資源](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)
-* 點陣圖會顯示在 2D 視圖](https://docs.substance3d.com/display/SDDOC/2D+view)面板中[
+* 點陣圖會顯示在 2D 視圖[&#128279;](https://docs.substance3d.com/display/SDDOC/2D+view)面板中
 
 **&#x200B;新的向量圖形影像可透過以下方式產生：
 
 * 在[檔案總管](https://docs.substance3d.com/display/SDDOC/The+Explorer+Window)面板中，點擊 SBS 套件&#x200B;*上的 RMB*&#x200B;或套件內的&#x200B;*資料夾*，開啟其上下文選單，然後開啟&#x200B;**新子**&#x200B;選單並選擇 **SVG** 選項
-* 在圖表[](https://docs.substance3d.com/display/SDDOC/The+Graph+view)中建立一個 [SVG 節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)，並在情境選單中選擇&#x200B;**「來自新資源......**」的選項
+* 在圖表[&#128279;](https://docs.substance3d.com/display/SDDOC/The+Graph+view)中建立一個 [SVG 節點](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/svg/svg.md)，並在情境選單中選擇&#x200B;**「來自新資源......**」的選項
 
 **新的向量資料**&#x200B;視窗會打開，讓你設定&#x200B;*新的向量圖形資源的名稱*&#x200B;和&#x200B;*解析度*。
 
@@ -99,11 +99,11 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 
 ## 工具
 
-繪畫工具和選項排列在 *2D 視圖](https://docs.substance3d.com/display/SDDOC/2D+view)面板的工具[列*&#x200B;中。這些工具列可透過點擊並按住&#x200B;**左鍵&#x200B;****（以三線表示）將工具列移至&#x200B;*面板任一側*&#x200B;或以&#x200B;*浮動工具列*&#x200B;形式移動，然後在指定位置放開&#x200B;**左鍵**。
+繪畫工具和選項排列在 *2D 視圖[&#128279;](https://docs.substance3d.com/display/SDDOC/2D+view)面板的工具列*&#x200B;中。這些工具列可透過點擊並按住&#x200B;**左鍵&#x200B;**&#x200B;**（以三線表示）將工具列移至&#x200B;*面板任一側*&#x200B;或以&#x200B;*浮動工具列*&#x200B;形式移動，然後在指定位置放開&#x200B;**&#x200B;左鍵**。
 
 啟用向量編輯工具時，會顯示兩個工具列：
 
-* **工具選擇****工具列**：讓你選擇&#x200B;*工具**以及填充/輪廓顏色*，預設位於 *2D 檢視面板的左側*
+* **工具選擇**&#x200B;**工具列**：讓你選擇&#x200B;*工具**以及填充/輪廓顏色*，預設位於 *2D 檢視面板的左側*
 * **工具選項工具列**：讓你設定&#x200B;*目前選取工具**的選項*，預設位於 *2D 檢視面板的上方*
 
 鍵盤快捷鍵讓你能快速存取工具，並在工具/函式名稱後的括號內標示：
