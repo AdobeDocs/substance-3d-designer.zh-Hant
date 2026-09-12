@@ -61,7 +61,7 @@ Designer 允許你載入 [3D 場景](../glossary/glossary.md) ，在上下文中
 
 * <b>材質：</b> 場景中使用的所有材質都可以用 [Designer 建立的複製品覆蓋](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) 。 你可以編輯 [該複製品的材質屬性](../interface/3d-view/material-properties/material-properties.md) ，並使用Substance圖中的原始值或貼圖。
 * <b>網格：</b> 幾何體可以直接在視窗中選擇，或從 [場景瀏覽器](../interface/3d-view/scene-browser/scene-browser.md)中選取，以存取其材質動作（[覆寫](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、 [重置](../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)、 [提取至實體圖](../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)）
-* <b>燈光：</b>場景瀏覽器中所有燈光都可以被關閉[](../interface/3d-view/scene-browser/scene-browser.md)。
+* <b>燈光：</b>場景瀏覽器中所有燈光都可以被關閉[&#128279;](../interface/3d-view/scene-browser/scene-browser.md)。
 * <b>攝影機：</b> 場景中偵測到的任何攝影機，都會作為預設加入到由 Designer 新增的攝影機上。
 
 ![3D 場景](working-with-3d-scenes.resources/loaded3DScene.png "內容 3D 場景內容"){zoomable="yes"}
@@ -121,7 +121,7 @@ Designer 對其 3D 場景使用了 USD 描述。 其版面配置可在場景瀏�
 
 >[!NOTE]
 >
-> 在 3D View 中導航與視覺化場景的說明已在 3D View 文件](../interface/3d-view/3d-view.md)中有說明[。
+> 在 3D View 中導航與視覺化場景的說明已在 3D View 文件[&#128279;](../interface/3d-view/3d-view.md)中有說明。
 
 <table>
 <tr style="border: 0;">
@@ -152,9 +152,9 @@ Designer 建立的任何物品會在場景瀏覽器中以 <b>粗體標籤</b> �
 
 儲存的場景狀態也可以作為 3D View 的預設狀態，因此每當新建 3D View 時，該狀態都會被使用。 如果你想在 Sphere 2-Tiles 網格上預設預覽材質，且平鋪值為 2，並搭配特定環境貼圖，這很有用。
 
-與場景狀態檔案相關的動作位於 3D View 的場景選單中，並在此處有[](../interface/3d-view/3d-view.md)詳細說明。
+與場景狀態檔案相關的動作位於 3D View 的場景選單中，並在此處有[&#128279;](../interface/3d-view/3d-view.md)詳細說明。
 
-場景狀態檔案使用 XML 格式，並且如果專案設定中有別[名，也會使用[別名](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)。](../interface/preferences-window/project-settings/project-settings.md)
+場景狀態檔案使用 XML 格式，並且如果專案設定中有別[&#128279;](../interface/preferences-window/project-settings/project-settings.md)名，也會使用[別名](../pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)。
 
 >[!NOTE]
 >
