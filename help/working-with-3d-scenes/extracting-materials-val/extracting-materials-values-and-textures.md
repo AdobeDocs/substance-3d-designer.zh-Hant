@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
 breadcrumb-title: ''
 description: 從 3D 場景中擷取材質屬性，用於 Substance 圖，用於材質製作工作流程。
 helpx_creative_field: ""
