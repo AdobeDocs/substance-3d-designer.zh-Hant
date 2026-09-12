@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-13-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-13-0.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 13.0 版本的發佈說明，了解新節點、Substance Engine 9.0 以及入口節點。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 
 這次 Substance 3D Designer 的 13.0.0 版本為材質美術帶來了大量愛，新增了大量節點，Substance Engine 9.0 首次引入了迴圈，並且在圖表上新增了一個很棒的元素：傳送節點。 為了讓更多用戶滿意，我們推出了全新的主畫面並提供更多語言支援。
 
-如前版本所述，此版本不再支援 Substance 模型圖：這表示你無法在 Designer 中開啟、編輯或匯出這類圖表。 你可以在我們的社群論壇找到我們做出這個決定[&#128279;](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)的所有理由。
+如前版本所述，此版本不再支援 Substance 模型圖：這表示你無法在 Designer 中開啟、編輯或匯出這類圖表。 你可以在我們的社群論壇找到我們做出這個決定[](https://community.adobe.com/t5/substance-3d-designer-discussions/substance-model-graphs-end-of-life/td-p/13693731)的所有理由。
 
 *發行日期：2023年6月6日*
 
-![材料利用路徑](../../assets/Paths2.png "材料利用路徑")
+![材料利用路徑](version-13-0.resources/Paths2.png "材料利用路徑")
 
 *插畫： [席琳·達梅隆](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 這些節點將提供許多可能性，且肯定有許多創意應用。 請參考使用 [路徑與樣條工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) 的章節，了解重要概念，幫助你熟悉這套工具組。
 
-![使用樣鍵](../../assets/Splines.png "的材料 使用樣鍵的材料")
+![使用樣鍵](version-13-0.resources/Splines.png "的材料 使用樣鍵的材料")
 
 *插畫作者： [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -55,28 +55,28 @@ ht-degree: 0%
 * [樣條多重二次方程](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-poly-quadratic/spline-poly-quadratic.md)：由一組點組成;
 * [花鍵圓](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-circle/spline-circle.md)：沿著圓形設計。
 
-你也可以在樣條線之間建立<b>橋接</b>，讓樣條線數量在 2 個或 N 個樣條[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines/spline-bridge-2-splines.md) [&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)線之間有完整的組合。
+你也可以在樣條線之間建立<b>橋接</b>，讓樣條線數量在 2 個或 N 個樣條[](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-2-splines/spline-bridge-2-splines.md)](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-bridge-list/spline-bridge-list.md)線之間[有完整的組合。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 三次樣](../../assets/SplineCubic-Demo.gif "條 三次")
+![樣條 三次樣](version-13-0.resources/SplineCubic-Demo.gif "條 三次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條 複數 二次](../../assets/SplinePolyQuadratic-Demo.gif "樣條 多元")
+![樣條 複數 二次](version-13-0.resources/SplinePolyQuadratic-Demo.gif "樣條 多元")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條圈](../../assets/SplineCircle-Demo.gif "樣條圈 樣條圈")
+![樣條圈](version-13-0.resources/SplineCircle-Demo.gif "樣條圈 樣條圈")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條橋列表](../../assets/SplineBridge-List_Demo.gif "樣條橋列表")
+![樣條橋列表](version-13-0.resources/SplineBridge-List_Demo.gif "樣條橋列表")
 
 </td>
 </tr>
@@ -88,23 +88,23 @@ ht-degree: 0%
 
 #### 修改
 
-我們也提供工具，讓你能重新調整和調整花鍵。 你會找到一個節點來套用[二維轉換](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)，比如旋轉、平移、縮放，還有另一個節點用來扭曲[&#128279;](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>形狀及另外兩個節點以調整 [厚度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>或是樣 [條的高度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) 。
+我們也提供工具，讓你能重新調整和調整花鍵。 你會找到一個節點來套用[二維轉換](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-2d-transform/spline-2d-transform.md)，比如旋轉、平移、縮放，還有另一個節點用來扭曲[](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-warp/spline-warp.md)<b> </b>形狀及另外兩個節點以調整 [厚度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-thickness/spline-sample-thickness.md)<b> </b>或是樣 [條的高度](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-tools/spline-sample-height/spline-sample-height.md) 。
 
 <table>
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 2D 轉換](../../assets/Spline2DTransform-Demo1.gif "樣條 2D 轉換")
+![樣條 2D 轉換](version-13-0.resources/Spline2DTransform-Demo1.gif "樣條 2D 轉換")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲折](../../assets/SplineWarp-Demo.gif "花鍵")
+![樣條曲折](version-13-0.resources/SplineWarp-Demo.gif "花鍵")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條樣本厚度](../../assets/SplineSampleThickness-Demo.gif "樣條樣本厚度")
+![樣條樣本厚度](version-13-0.resources/SplineSampleThickness-Demo.gif "樣條樣本厚度")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條灰階散射樣條灰階散射 樣條灰階](../../assets/ScatterOnSplineGrayscale-Demo.gif "散射")
+![樣條灰階散射樣條灰階散射 樣條灰階](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "散射")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條填充](../../assets/SplineFill-Demo.gif "樣條填充")
+![樣條填充](version-13-0.resources/SplineFill-Demo.gif "樣條填充")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條映射器 顏色](../../assets/SplineMapperColor-Demo.gif "樣條映射器 顏色")
+![樣條映射器 顏色](version-13-0.resources/SplineMapperColor-Demo.gif "樣條映射器 顏色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條流映射器](../../assets/SplineFlowMapper-Demo.gif "樣條流映射器")
+![樣條流映射器](version-13-0.resources/SplineFlowMapper-Demo.gif "樣條流映射器")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從面罩到路徑](../../assets/MaskToPaths-Demo2.gif "從面罩到路徑")
+![從面罩到路徑](version-13-0.resources/MaskToPaths-Demo2.gif "從面罩到路徑")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從面具到路徑2](../../assets/MaskToPaths-Demo1.gif "面具到路徑2")
+![從面具到路徑2](version-13-0.resources/MaskToPaths-Demo1.gif "面具到路徑2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -192,20 +192,20 @@ ht-degree: 0%
 
 Substance Engine v9 也帶來了以下改進：
 
-* 在漸層地圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)節點的漸層編輯器中新增實體模式（即完全沒有插值）
+* 在漸層地圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)節點的漸層編輯器中新增實體模式[（即完全沒有插值）
 * Substance 函數圖中的原子 pow（） 節點
 * 在取樣器節點中新增邊框包裹選項（夾到邊緣，重複）
-* 曲速[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md) [與定向曲速](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)節點的最近取樣
+* 曲速](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)[與定向曲速](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/directional-warp/directional-warp.md)節點的[最近取樣
 
 ## 入口節點
 
-[Portal](../../interface/the-graph-view/graph-items/graph-items.md) 節點是 Dot[&#128279;](../../interface/the-graph-view/graph-items/graph-items.md) 節點的新擴充，可以隱藏圖形中的連結。
+[Portal](../../interface/the-graph-view/graph-items/graph-items.md) 節點是 Dot](../../interface/the-graph-view/graph-items/graph-items.md) 節點的新擴充[，可以隱藏圖形中的連結。
 
 多虧了這個功能，你可以透過隱藏非常長的連線來提升圖的可讀性，並且能從圖中任何地方快速存取關鍵節點。
 
 這個新功能在這篇專門 [的教學](https://www.adobe.com/go/designer-tutorial-portals)中有完整說明。
 
-![入口節點](../../assets/PortalNodeFinal.gif "入口節點")
+![入口節點](version-13-0.resources/PortalNodeFinal.gif "入口節點")
 
 ## 主畫面
 
@@ -216,9 +216,9 @@ Substance Engine v9 也帶來了以下改進：
 * 一個學習頁面，你可以找到學習資源的連結，例如介紹新功能或快速發現技巧的教學;
 * 直接連結到「最新資訊」畫面、關於頁面、Substance 3D網站、支援社群論壇等。
 
-![主畫面 - 主](../../assets/HomeScreen.png "畫面 - 主畫面 - 主頁")
+![主畫面 - 主](version-13-0.resources/HomeScreen.png "畫面 - 主畫面 - 主頁")
 
-![主畫面 - 學習](../../assets/LearnPage.png "主畫面 - 學習")
+![主畫面 - 學習](version-13-0.resources/LearnPage.png "主畫面 - 學習")
 
 ## 新語言
 
