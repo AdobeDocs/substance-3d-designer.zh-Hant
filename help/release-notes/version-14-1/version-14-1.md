@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-14-1.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-14-1.html"
 breadcrumb-title: ''
 description: 請參閱 Substance 3D Designer 14.1 版本的發行說明，了解節點排列工具以及新的樣條線與路徑節點。
 helpx_creative_field: ""
