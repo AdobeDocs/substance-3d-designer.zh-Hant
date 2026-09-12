@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 向量編輯工具
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '1850'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 </td>
 <td style="border: 0;" valign="top">
 
-![](../../../assets/2dview-vectorediting-main.png){width="512px"}
+![](vector-editing-tools.resources/2dview-vectorediting-main.png){width="512px"}
 
 </td>
 </tr>
@@ -53,7 +53,7 @@ ht-degree: 0%
 >
 > 你只能&#x200B;*在全新或匯[&#128279;](https://docs.substance3d.com/display/SDDOC/Importing%2C+Linking+and+New+Resources)入的 8 位元*向量圖形資源[&#128279;](../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)上繪圖&#x200B;*。*
 
-![新 SVG 資源對話框](../../../assets/2dview-new-vector-image.png "新 SVG 資源對話框"){width="512px"}
+![新 SVG 資源對話框](vector-editing-tools.resources/2dview-new-vector-image.png "新 SVG 資源對話框"){width="512px"}
 
 ## 啟用向量編輯工具
 
@@ -87,7 +87,7 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 **Adobe Illustrator** 使用者可參考附上的圖片以獲取推薦的 SVG *匯出設定。*
 
 +++Adobe Illustrator 匯出選項
-![Illustrator SVG](../../../assets/demo-svg.png "匯出選項 Illustrator SVG 匯出選項")
+![Illustrator SVG](vector-editing-tools.resources/demo-svg.png "匯出選項 Illustrator SVG 匯出選項")
 
 
 
@@ -109,7 +109,7 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 鍵盤快捷鍵讓你能快速存取工具，並在工具/函式名稱後的括號內標示：
 
 +++色彩選擇
-![](../../../assets/2dview-paintingtools-icon-colors-primary.png)![](../../../assets/2dview-paintingtools-icon-colors-secondary.png) **顏色選擇***縮圖*&#x200B;可以讓你為向量形狀定義&#x200B;*填色*&#x200B;和&#x200B;*輪廓*&#x200B;顏色。你可以用以下方式開啟 **每種顏色的色彩編輯器** ：
+![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-primary.png)![](vector-editing-tools.resources/2dview-paintingtools-icon-colors-secondary.png) **顏色選擇***縮圖*&#x200B;可以讓你為向量形狀定義&#x200B;*填色*&#x200B;和&#x200B;*輪廓*&#x200B;顏色。你可以用以下方式開啟 **每種顏色的色彩編輯器** ：
 
 * **填色：** 點擊 *填色* 的縮圖（上方），或在畫布上雙擊 LMB
 
@@ -122,11 +122,11 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 +++
 
 +++轉型
-![轉換工具](../../../assets/2dview-vectorediting-transformation.png "轉換工具"){width="512px"}
+![轉換工具](vector-editing-tools.resources/2dview-vectorediting-transformation.png "轉換工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-transformation.png) <b>變換</b>工具（<b>V</b>）可以選擇形狀，這些形狀會被納入變形裝置中。這個裝置讓你能執行以下動作：
+![](vector-editing-tools.resources/2dview-vectorediting-icon-transformation.png) <b>變換</b>工具（<b>V</b>）可以選擇形狀，這些形狀會被納入變形裝置中。這個裝置讓你能執行以下動作：
 
 <b>移動：在</b>裝置內&#x200B;*點擊並長按左鍵*
 
@@ -137,11 +137,11 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 +++
 
 +++節點
-![節點工具](../../../assets/2dview-vectorediting-node.png "節點工具"){width="512px"}
+![節點工具](vector-editing-tools.resources/2dview-vectorediting-node.png "節點工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-node.png) <b>節點</b>工具（<b>A</b>）允許你選擇所選形狀的各個頂點（即節點），並編輯其位置與handle，並新增或移除頂點。一旦選擇了形狀，可以執行以下操作：
+![](vector-editing-tools.resources/2dview-vectorediting-icon-node.png) <b>節點</b>工具（<b>A</b>）允許你選擇所選形狀的各個頂點（即節點），並編輯其位置與handle，並新增或移除頂點。一旦選擇了形狀，可以執行以下操作：
 
 <b>新增頂點：</b> 在形狀輪廓上按 Ctrl+LMB
 
@@ -160,11 +160,11 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 +++
 
 +++形狀
-![形狀工具](../../../assets/2dview-vectorediting-main.png "形狀工具"){width="512px"}
+![形狀工具](vector-editing-tools.resources/2dview-vectorediting-main.png "形狀工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icons-shape.png) <b></b>形狀工具（<b>M</b>）提供一組基本形狀，使用當前填充&#x200B;**&#x200B;色，可從以下基礎建立並編輯：
+![](vector-editing-tools.resources/2dview-vectorediting-icons-shape.png) <b></b>形狀工具（<b>M</b>）提供一組基本形狀，使用當前填充&#x200B;**&#x200B;色，可從以下基礎建立並編輯：
 
 * <b>矩形;</b>
 
@@ -179,11 +179,11 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 +++
 
 +++筆
-![筆工具](../../../assets/2dview-vectorediting-pen.png "筆工具 筆工具"){width="512px"}
+![筆工具](vector-editing-tools.resources/2dview-vectorediting-pen.png "筆工具 筆工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-pen.png) <b></b> Pen 工具（<b>P</b>）允許你用目前&#x200B;*的填充*&#x200B;顏色繪製新的自訂形狀。有兩種模式可供選擇：
+![](vector-editing-tools.resources/2dview-vectorediting-icon-pen.png) <b></b> Pen 工具（<b>P</b>）允許你用目前&#x200B;*的填充*&#x200B;顏色繪製新的自訂形狀。有兩種模式可供選擇：
 
 在<b>路徑</b>模式中，圖形是一次繪&#x200B;*製*&#x200B;一個頂點。可用的控制措施如下：
 
@@ -208,17 +208,17 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 +++
 
 +++外露
-![擠出工具](../../../assets/2dview-vectorediting-extrude.png "擠出工具"){width="512px"}
+![擠出工具](vector-editing-tools.resources/2dview-vectorediting-extrude.png "擠出工具"){width="512px"}
 
 
 
-![](../../../assets/2dview-vectorediting-icon-extrude.png) **擠出**&#x200B;工具（E）*會將一個設定直徑*&#x200B;的形狀&#x200B;*組合起來*，沿路徑&#x200B;**&#x200B;繪製，並依&#x200B;*照選項工具列中設定的合併模式*&#x200B;將結果套用到畫布上。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude.png) **擠出**&#x200B;工具（E）*會將一個設定直徑*&#x200B;的形狀&#x200B;*組合起來*，沿路徑&#x200B;**&#x200B;繪製，並依&#x200B;*照選項工具列中設定的合併模式*&#x200B;將結果套用到畫布上。
 
 *以下繪圖模式*&#x200B;可供選擇：
 
-![](../../../assets/2dview-vectorediting-icon-extrude-freeformpng.png)**自由形態**：按住左鍵，直接用筆在畫布上拖&#x200B;**&#x200B;動形狀。當筆劃結束時，形狀會加在一起。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-freeformpng.png)**自由形態**：按住左鍵，直接用筆在畫布上拖&#x200B;**&#x200B;動形狀。當筆劃結束時，形狀會加在一起。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-polygonal.png)**Polygonal**：透過點擊 LMB 來添加角度，一次繪製一個面&#x200B;*的形狀*。當按下 Enter 鍵時，這個形狀會被加在一起。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-polygonal.png)**Polygonal**：透過點擊 LMB 來添加角度，一次繪製一個面&#x200B;*的形狀*。當按下 Enter 鍵時，這個形狀會被加在一起。
 
 繪製的形狀可用以下參數控制：
 
@@ -228,19 +228,19 @@ Designer *僅* 支援使用 **SVG** 檔案格式的向量圖形。
 
 完成圖紙後，該形狀會被加在一起，並透過以下可用的 *合併模式*&#x200B;之一與目前選中的形狀合併：
 
-![](../../../assets/2dview-vectorediting-icon-extrude-nomerge.png)**禁止合併**：圖形會作為獨立物件&#x200B;*繪製*&#x200B;在所選形狀&#x200B;*上*&#x200B;方。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-nomerge.png)**禁止合併**：圖形會作為獨立物件&#x200B;*繪製*&#x200B;在所選形狀&#x200B;*上*&#x200B;方。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-union.png)**Union**：將&#x200B;*形狀加入*&#x200B;所選形狀。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-union.png)**Union**：將&#x200B;*形狀加入*&#x200B;所選形狀。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-subtract.png)**減法**：將&#x200B;*該形狀從選取的形狀中切割出來*。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-subtract.png)**減法**：將&#x200B;*該形狀從選取的形狀中切割出來*。
 
-![](../../../assets/2dview-vectorediting-icon-extrude-intersection.png)**交點**：只&#x200B;*剩下新形狀與所選形狀的重疊*&#x200B;部分。
+![](vector-editing-tools.resources/2dview-vectorediting-icon-extrude-intersection.png)**交點**：只&#x200B;*剩下新形狀與所選形狀的重疊*&#x200B;部分。
 
 +++
 
 ## 形狀操作
 
-![Shape 運算](../../../assets/2dview-vectorediting-shape-operations.png "Shape 運算"){width="512px"}
+![Shape 運算](vector-editing-tools.resources/2dview-vectorediting-shape-operations.png "Shape 運算"){width="512px"}
 
 除了上述工具外，還可透過點擊右鍵時的情境選單對 *選取*&#x200B;的圖形執行多種操作。 這些操作幾乎都有鍵盤快捷鍵（括號內），並依下列類別組織：
 

@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 插件套件
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: f0ba7fcd041b7c683b77de11d923d71bec338d08
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 安裝外掛套件
 
-![插件管理器](../../assets/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
+![插件管理器](plugins-packages.resources/screenshot-from-2019-07-18-11-48-56.png "插件管理器")
 
 外掛套件可透過<b>外掛管理員</b>的工具<b></b>選單安裝：
 

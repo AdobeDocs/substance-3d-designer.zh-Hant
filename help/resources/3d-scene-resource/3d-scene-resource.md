@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 3D 場景資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 在資源總管載[入後，點選&#x200B;*右鍵*，然後在情境選單中選擇<b>「烘焙模型資訊</b>](../../interface/the-explorer-window/the-explorer-window.md)」選項
 * [會出現烘焙模型資訊](../../bakers/bakers.md)對話框，讓你可以設定並執行任何網格貼圖烘焙
 
-![烘焙網格貼圖](../../assets/bake-model-information.gif "烘焙網格貼圖"){width="512px"}
+![烘焙網格貼圖](3d-scene-resource.resources/bake-model-information.gif "烘焙網格貼圖"){width="512px"}
 
 ## UDIM/UV-tile 的使用
 

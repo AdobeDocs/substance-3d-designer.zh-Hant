@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 11.3
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: dca126adc56c78e85d281a00f90cf9affbb35c31
 workflow-type: tm+mt
 source-wordcount: '1284'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 新的模型圖功能
 
-![](../../assets/banner-model.jpg)
+![](version-11-3.resources/banner-model.jpg)
 
 模型圖中加入了許多改進，以擴展建模能力：
 
@@ -41,7 +41,7 @@ ht-degree: 0%
   * 顆粒修剪
   * 來自實例的粒子
 
-  ![](../../assets/particle-pruning.gif)
+  ![](version-11-3.resources/particle-pruning.gif)
 
 * <b>新的建模與變形節點</b>\
   新增了更多節點以創造更複雜的形狀，點擊每個節點以了解更多：
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ### 提升互通性
 
-![](../../assets/banner-sendto.jpg)
+![](version-11-3.resources/banner-sendto.jpg)
 
 send-o 動作已擴充，新增兩種可能性：
 
@@ -71,24 +71,24 @@ send-o 動作已擴充，新增兩種可能性：
 
 ### 其他
 
-![](../../assets/banner-misc-3.jpg)
+![](version-11-3.resources/banner-misc-3.jpg)
 
 已完成多項生活品質改善：
 
 * **輸入相對於輸入的差異**\
   在 Relative to inputs 中設定的圖輸入，現在會繼承連接節點的大小，而不是預設的父圖大小。 這使得透過不同大小的輸入管理不同解析度變得容易許多。
 
-  ![](../../assets/relative-to-inputs.jpg){width="400px"}
+  ![](version-11-3.resources/relative-to-inputs.jpg){width="400px"}
 
 * **新圖形視窗**\
   新的圖形視窗經過重新設計，現在允許更清楚地看到特定範本的細節，並能直接在現有套件中建立新的圖形。
 
-  ![](../../assets/new-graph.png){width="400px"}
+  ![](version-11-3.resources/new-graph.png){width="400px"}
 
 * **關閉所有包裹**\
   這是一個小動作，讓管理多個套件變得不那麼繁瑣。 使用 **File** > **關閉所有** Close All 來關閉目前已開啟的所有套件。
 
-  ![](../../assets/close-all-packages.png)
+  ![](version-11-3.resources/close-all-packages.png)
 
 * **最大化當前視圖**\
   使用新的標題列 **圖示** 或快捷鍵 **SHIFT+Space** 將視窗展開到全螢幕。 這也可以用於浮動窗。
@@ -98,16 +98,16 @@ send-o 動作已擴充，新增兩種可能性：
 
 ### 內容
 
-![](../../assets/render-content.jpg)
+![](version-11-3.resources/render-content.jpg)
 
 此版本新增了擴散節點，並改進了 PBR 渲染節點：
 
 * <b>擴散節點</b>\
   新的擴散色彩、擴散灰階和擴散 UV 節點允許根據輸入遮罩產生柔和的出血模糊效果。
 
-  ![](../../assets/diffusion-normal.jpg){width="230px"}
+  ![](version-11-3.resources/diffusion-normal.jpg){width="230px"}
 
-  ![](../../assets/diffusion-grayscale.jpg) ![](../../assets/diffusion-uv.jpg)
+  ![](version-11-3.resources/diffusion-grayscale.jpg) ![](version-11-3.resources/diffusion-uv.jpg)
 
 * **改良版 PBR 渲染節點**\
   此節點有以下變更：

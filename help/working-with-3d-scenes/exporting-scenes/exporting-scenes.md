@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 匯出場景
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 1%
@@ -30,7 +30,7 @@ ht-degree: 1%
 >
 > Designer 新增到場景的所有項目都會包含在匯出的場景中：預設相機、預設環境，所有材質都會複製任何額外的燈光。
 
-![場景匯出動作](../../assets/exportActions.png "場景匯出動作"){zoomable="yes"}
+![場景匯出動作](exporting-scenes.resources/exportActions.png "場景匯出動作"){zoomable="yes"}
 
 <table>
 <tr style="border: 0;">
@@ -65,7 +65,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![匯出場景檔案 - 扁平](../../assets/exportFlattened.png "化 匯出場景檔案 - 扁平化"){zoomable="yes"}
+![匯出場景檔案 - 扁平](exporting-scenes.resources/exportFlattened.png "化 匯出場景檔案 - 扁平化"){zoomable="yes"}
 
 </td>
 </tr>
@@ -84,7 +84,7 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-![匯出場景檔案 - 分層](../../assets/exportLayered.png "匯出場景檔案 - 分層"){zoomable="yes"}
+![匯出場景檔案 - 分層](exporting-scenes.resources/exportLayered.png "匯出場景檔案 - 分層"){zoomable="yes"}
 
 </td>
 </tr>

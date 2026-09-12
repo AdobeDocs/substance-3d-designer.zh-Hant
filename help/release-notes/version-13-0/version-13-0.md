@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 13.0
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 *發行日期：2023年6月6日*
 
-![材料利用路徑](../../assets/Paths2.png "材料利用路徑")
+![材料利用路徑](version-13-0.resources/Paths2.png "材料利用路徑")
 
 *插畫： [席琳·達梅隆](https://www.artstation.com/cline)*
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 這些節點將提供許多可能性，且肯定有許多創意應用。 請參考使用 [路徑與樣條工具](../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) 的章節，了解重要概念，幫助你熟悉這套工具組。
 
-![使用樣鍵](../../assets/Splines.png "的材料 使用樣鍵的材料")
+![使用樣鍵](version-13-0.resources/Splines.png "的材料 使用樣鍵的材料")
 
 *插畫作者： [Louise Melin](https://www.artstation.com/troglodette)*
 
@@ -61,22 +61,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 三次樣](../../assets/SplineCubic-Demo.gif "條 三次")
+![樣條 三次樣](version-13-0.resources/SplineCubic-Demo.gif "條 三次")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條 複數 二次](../../assets/SplinePolyQuadratic-Demo.gif "樣條 多元")
+![樣條 複數 二次](version-13-0.resources/SplinePolyQuadratic-Demo.gif "樣條 多元")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條圈](../../assets/SplineCircle-Demo.gif "樣條圈 樣條圈")
+![樣條圈](version-13-0.resources/SplineCircle-Demo.gif "樣條圈 樣條圈")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條橋列表](../../assets/SplineBridge-List_Demo.gif "樣條橋列表")
+![樣條橋列表](version-13-0.resources/SplineBridge-List_Demo.gif "樣條橋列表")
 
 </td>
 </tr>
@@ -94,17 +94,17 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條 2D 轉換](../../assets/Spline2DTransform-Demo1.gif "樣條 2D 轉換")
+![樣條 2D 轉換](version-13-0.resources/Spline2DTransform-Demo1.gif "樣條 2D 轉換")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條曲折](../../assets/SplineWarp-Demo.gif "花鍵")
+![樣條曲折](version-13-0.resources/SplineWarp-Demo.gif "花鍵")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條樣本厚度](../../assets/SplineSampleThickness-Demo.gif "樣條樣本厚度")
+![樣條樣本厚度](version-13-0.resources/SplineSampleThickness-Demo.gif "樣條樣本厚度")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -125,22 +125,22 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![樣條灰階散射樣條灰階散射 樣條灰階](../../assets/ScatterOnSplineGrayscale-Demo.gif "散射")
+![樣條灰階散射樣條灰階散射 樣條灰階](version-13-0.resources/ScatterOnSplineGrayscale-Demo.gif "散射")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條填充](../../assets/SplineFill-Demo.gif "樣條填充")
+![樣條填充](version-13-0.resources/SplineFill-Demo.gif "樣條填充")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條映射器 顏色](../../assets/SplineMapperColor-Demo.gif "樣條映射器 顏色")
+![樣條映射器 顏色](version-13-0.resources/SplineMapperColor-Demo.gif "樣條映射器 顏色")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![樣條流映射器](../../assets/SplineFlowMapper-Demo.gif "樣條流映射器")
+![樣條流映射器](version-13-0.resources/SplineFlowMapper-Demo.gif "樣條流映射器")
 
 </td>
 </tr>
@@ -156,12 +156,12 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![從面罩到路徑](../../assets/MaskToPaths-Demo2.gif "從面罩到路徑")
+![從面罩到路徑](version-13-0.resources/MaskToPaths-Demo2.gif "從面罩到路徑")
 
 </td>
 <td style="border: 0;" valign="top">
 
-![從面具到路徑2](../../assets/MaskToPaths-Demo1.gif "面具到路徑2")
+![從面具到路徑2](version-13-0.resources/MaskToPaths-Demo1.gif "面具到路徑2")
 
 </td>
 <td style="border: 0;" valign="top">
@@ -205,7 +205,7 @@ Substance Engine v9 也帶來了以下改進：
 
 這個新功能在這篇專門 [的教學](https://www.adobe.com/go/designer-tutorial-portals)中有完整說明。
 
-![入口節點](../../assets/PortalNodeFinal.gif "入口節點")
+![入口節點](version-13-0.resources/PortalNodeFinal.gif "入口節點")
 
 ## 主畫面
 
@@ -216,9 +216,9 @@ Substance Engine v9 也帶來了以下改進：
 * 一個學習頁面，你可以找到學習資源的連結，例如介紹新功能或快速發現技巧的教學;
 * 直接連結到「最新資訊」畫面、關於頁面、Substance 3D網站、支援社群論壇等。
 
-![主畫面 - 主](../../assets/HomeScreen.png "畫面 - 主畫面 - 主頁")
+![主畫面 - 主](version-13-0.resources/HomeScreen.png "畫面 - 主畫面 - 主頁")
 
-![主畫面 - 學習](../../assets/LearnPage.png "主畫面 - 學習")
+![主畫面 - 學習](version-13-0.resources/LearnPage.png "主畫面 - 學習")
 
 ## 新語言
 

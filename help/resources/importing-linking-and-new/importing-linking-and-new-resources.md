@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 匯入、連結與新資源
 user-guide-description: ''
 user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 |                                                                                                                                                                         | 新增 | 匯入 | 連結 |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| 圖（[實體圖](../../compositing-graphs/substance-compositing-graphs.md)、 [物質函數圖](../../function-graphs/function-graphs.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| [點陣圖](../../resources/bitmap-resource/bitmap-resource.md)、[向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 3D 場景、 [字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 建立在 SBS 檔案旁邊 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 可在 Designer 中編輯 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="../../assets/error.svg"/></div> |
-| 外部剪輯會自動同步 | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="../../assets/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
-| 嵌入已發表的SBSAR中 | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="../../assets/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="../../assets/check.svg"/></div> |
+| 圖（[實體圖](../../compositing-graphs/substance-compositing-graphs.md)、 [物質函數圖](../../function-graphs/function-graphs.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| [點陣圖](../../resources/bitmap-resource/bitmap-resource.md)、[向量圖形（SVG）](../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 3D 場景、 [字型](../../resources/font-resource/font-resource.md) | <div><img alt="（錯誤）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 建立在 SBS 檔案旁邊 | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| 可在 Designer 中編輯 | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（錯誤）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/error.svg"/></div> |
+| 外部剪輯會自動同步 | <div><img alt="（錯誤）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（錯誤）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/error.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
+| 嵌入已發表的SBSAR中 | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）" data-preserve-html="true" src="importing-linking-and-new-resources.resources/check.svg"/></div> | <div><img alt="（滴答聲）&quot; data-preserve-html=&quot;true" src="importing-linking-and-new-resources.resources/check.svg"/></div> |
 
 ## 新資源
 
@@ -69,4 +69,4 @@ ht-degree: 0%
 > 我們建議對這些項目保持謹慎，並採取必要措施，預期 *刪除套件中項目可能導致的依賴性* 失效。\
 > 這些行動可能包括 *在刪除前移除所有這些資源的使用* 。
 
-![「資源被刪除」警告](../../assets/confirm-item-removal.png "「資源被刪除」警告"){width="512px"}
+![「資源被刪除」警告](importing-linking-and-new-resources.resources/confirm-item-removal.png "「資源被刪除」警告"){width="512px"}
