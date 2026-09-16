@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
 breadcrumb-title: ""
 description: 使用 Input 節點建立 Substance 圖表的輸入參數，供使用者公開與調整。
 helpx_creative_field: ""
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 與 [輸出節點](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，你必須明確放置色彩、灰階或值輸入。 無法自行建立「中立」輸入，並根據連接的裝置改變類型。
 
-輸入節點不如輸出節點[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter) 時。
+輸入節點不如輸出節點[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter) 時。
 
 ## 參數
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 ## 整合屬性
 
-輸入不會直接傳送到 3D 視圖，但其使用屬性會被 [Substance 3D Painter](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/home) 用來自動填補特定地圖（多用於 [濾鏡](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/effects/filter)）。
+輸入不會直接傳送到 3D 視圖，但其使用屬性會被 [Substance 3D Painter](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/home) 用來自動填補特定地圖（多用於 [濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter)）。
 
 此外，使用屬性也會用於 [連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)，以匹配正確的輸入與輸出欄位。
 
