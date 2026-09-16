@@ -64,7 +64,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
-> 在本文件的本頁](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式[。
+> 在本文件的本頁[&#128279;](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式。
 
 | 模式 | 窗戶 | macOS |
 | --- | --- | --- |

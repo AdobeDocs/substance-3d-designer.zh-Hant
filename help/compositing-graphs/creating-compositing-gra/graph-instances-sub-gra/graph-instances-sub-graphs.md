@@ -44,7 +44,7 @@ ht-degree: 0%
 
 此外，將原始節點替換為引用新圖的實例節點，則應在事後手動完成。
 
-最後，你應該決定在將專案發佈到可共享的 SBSAR 檔案時，是否應該讓子圖暴露給使用者。 詳見圖屬性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的[「SBSAR 暴露」參數。
+最後，你應該決定在將專案發佈到可共享的 SBSAR 檔案時，是否應該讓子圖暴露給使用者。 詳見圖屬性[&#128279;](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的「SBSAR 暴露」參數。
 
 ### 關於繼承
 
@@ -65,13 +65,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在檢查來源圖時，只要&#x200B;**在偏好設定](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區[段勾選&#x200B;***上下文編輯**選項，就可以使用實例圖*&#x200B;的輸入資料。
+> 在檢查來源圖時，只要&#x200B;**在偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區段勾選&#x200B;***上下文編輯**&#x200B;選項，就可以使用實例圖*&#x200B;的輸入資料。
 
-![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 **Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 **Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
+![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
 右鍵點擊該節點以開啟其上下文選單，並選擇 **載入套件** 選項。
 
 >[!NOTE]
 >
 > **原子節點**
 > 
-> *原子*&#x200B;節點是直接透過 Substance 引擎中的程式碼實作的，並非&#x200B;**&#x200B;圖的實例，因此稱為 atomic：它們是 *Substance 圖](../../../compositing-graphs/substance-compositing-graphs.md)中所有*&#x200B;其他節點[最小&#x200B;*的建構單元*。
+> *原子*&#x200B;節點是直接透過 Substance 引擎中的程式碼實作的，並非&#x200B;**&#x200B;圖的實例，因此稱為 atomic：它們是 *Substance 圖[&#128279;](../../../compositing-graphs/substance-compositing-graphs.md)中所有*&#x200B;其他節點最小&#x200B;*的建構單元*。

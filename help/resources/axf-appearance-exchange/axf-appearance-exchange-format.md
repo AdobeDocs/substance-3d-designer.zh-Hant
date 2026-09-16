@@ -60,7 +60,7 @@ AxF 檔案匯入工作流程可從以下兩種方法之一開始：
 
 +++主畫面
 
-點擊<b>主畫面](../../interface/home-screen/home-screen.md)左側的「匯入 AxF...</b>」按鈕[。
+點擊<b>主畫面[&#128279;](../../interface/home-screen/home-screen.md)左側的「匯入 AxF...</b>」按鈕。
 
 ![AxF：從主畫面](axf-appearance-exchange-format.resources/axf_home-screen.png "開始匯入 AxF：從主畫面開始匯入"){width="600px"}
 
@@ -92,7 +92,7 @@ AxF 檔案匯入工作流程可從以下兩種方法之一開始：
 
 ### 結果
 
-點擊<b>確定</b>按鈕後，檔案總管](../../interface/the-explorer-window/the-explorer-window.md)會建立[一個套件。該套件包含以下資源：
+點擊<b>確定</b>按鈕後，檔案總管[&#128279;](../../interface/the-explorer-window/the-explorer-window.md)會建立一個套件。該套件包含以下資源：
 
 <table>
 <tr style="border: 0;">
@@ -103,7 +103,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 每個子資料夾包含另一個子資料夾，裡面有 *從 AxF 檔案中提取的材質貼圖* 。 最後這個子資料夾以材質材質表示&#x200B;*命名*（目前僅限 <b>SVBRDF</b>）。
 
 每個範本的圖表會在匯入對話框的範本</b>區塊中建立<b>。\
-以 Substance 圖形](../../compositing-graphs/substance-compositing-graphs.md)為例[，這些圖已預先設定，包含從 AxF 檔案擷取的材質與資料，以及您所選的範本設定（詳見下方圖範本章節）。
+以 Substance 圖形[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)為例，這些圖已預先設定，包含從 AxF 檔案擷取的材質與資料，以及您所選的範本設定（詳見下方圖範本章節）。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -120,7 +120,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-有專門針對 Substance 圖形](../../compositing-graphs/substance-compositing-graphs.md)的 AxF 工作流程[的圖形範本。
+有專門針對 Substance 圖形[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)的 AxF 工作流程的圖形範本。
 
 點擊 <b>「新增範本</b> 」按鈕，並在下拉選單中選擇想要的圖表類型。
 
@@ -161,7 +161,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 對於所有加入模板</b>清單的<b>實體圖範本，會執行以下額外操作：
 
-對於任何[](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)輸入節點，若&#x200B;*其使用*&#x200B;與從 AxF 檔案擷取的紋理識別碼&#x200B;*相符*，該輸入節點會被一個參考該紋理的位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點取代[;
+對於任何[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)輸入節點，若&#x200B;*其使用*&#x200B;與從 AxF 檔案擷取的紋理識別碼&#x200B;*相符*，該輸入節點會被一個參考該紋理的位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點取代;
 
 圖的<b>解析度</b>屬性（即輸出大小）會自動設定為等於或高於最大&#x200B;*擷取紋理解析度*&#x200B;的二的冪次方;
 
@@ -179,7 +179,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 > 
 > 它們指定了著色屬性，這些屬性對於正確解讀貼圖中的數值至關重要。
 > 
-> 因此，更改這些設定會導致在 3D 視圖](../../interface/3d-view/3d-view.md)中視覺[化材質時呈現錯誤。
+> 因此，更改這些設定會導致在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中視覺化材質時呈現錯誤。
 
 </td>
 <td style="border: 0;" valign="top">
@@ -192,7 +192,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 ## 匯出 AxF 檔案
 
-現有的 AxF 檔案可以直接從 Designer 編輯，資源會透過 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)[更新。
+現有的 AxF 檔案可以直接從 Designer 編輯，資源會透過 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)的輸出[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)更新。
 
 由於能將圖形輸出匯出為 AxF 檔案，Designer 中典型的 AxF 工作流程可能如下：
 
@@ -252,7 +252,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 ### 將輸出映射到 AxF 資源
 
-匯出至現有 AxF 檔案時，其資源會透過圖形輸出更新。 設計者會將資源識別碼匹配到[](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)輸出節點，輸出節點與使用量識別碼相同<b></b>。
+匯出至現有 AxF 檔案時，其資源會透過圖形輸出更新。 設計者會將資源識別碼匹配到[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)輸出節點，輸出節點與使用量識別碼相同<b></b>。
 
 此外，輸出的 <b>群組</b> 屬性 *必須* 設為「AxF」，才能在 AxF 匯出對話框中列出（見上文）。
 
@@ -274,7 +274,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 ## 在 3D 檢視中檢視 AxF 檔案
 
-在 3D 視圖](../../interface/3d-view/3d-view.md)中渲染 AxF SVBRDF 材質[的方法取決於匯入設定。[](#import)
+在 3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)中渲染 AxF SVBRDF 材質的方法取決於匯入設定。[&#128279;](#import)
 
 +++轉換為PBR
 
@@ -295,19 +295,19 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 著色器可在<b>材質選單中取得：開啟場景材質的子選單（預設為「預設」），並在 AxF SVBRDF</b> 條目中選擇任一技術<b></b>。
 
-在同一<b>子選單中的編輯</b>選項，在屬性](../../interface/properties/properties.md)底座中顯示著色器的屬性[。\
+在同一<b>子選單中的編輯</b>選項，在屬性[&#128279;](../../interface/properties/properties.md)底座中顯示著色器的屬性。\
 特別是， <b>平鋪</b> 特性讓你能調整模型貼圖的平鋪，讓你能以適當的比例想像材質。
 
-選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View](../../interface/3d-view/3d-view.md) 中視覺化其輸出[。
+選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中視覺化其輸出。
 
 ![AxF： SVBRDF GLSLFX 著色器](axf-appearance-exchange-format.resources/axf_glslfx-svbrdf.png "AxF： SVBRDF GLSLFX 著色器"){width="600px"}
 
 這個著色器目前 *仍在開發* 中，有些功能仍未被支援。 因此，雖然它能提供材料特性的概覽，但不應用於細微調整。
 
-在同一<b>子選單中的編輯</b>選項，在屬性](../../interface/properties/properties.md)底座中顯示著色器的屬性[。\
+在同一<b>子選單中的編輯</b>選項，在屬性[&#128279;](../../interface/properties/properties.md)底座中顯示著色器的屬性。\
 特別是， <b>平鋪</b> 特性讓你能調整模型貼圖的平鋪，讓你能以適當的比例想像材質。
 
-選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View](../../interface/3d-view/3d-view.md) 中視覺化其輸出[。
+選擇著色器後，在圖表空白處點選 RMB，並選擇<b>「3D View</b> 中的輸出」選項，以在 3D View[&#128279;](../../interface/3d-view/3d-view.md) 中視覺化其輸出。
 
 ![AxF：版本觀看](axf-appearance-exchange-format.resources/axf-view-for-edit.gif "AxF：版本觀看")
 <i>注意：</i> 請忽略從切換到 Iray 渲染器的影片部分，直到最後，因為 Iray 渲染器和 MDL 支援在 Designer 16.0.0 版本中已被 <i>移除</i> 。
