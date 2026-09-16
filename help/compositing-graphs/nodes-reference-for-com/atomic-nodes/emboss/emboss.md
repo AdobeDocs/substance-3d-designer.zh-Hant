@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
 breadcrumb-title: ""
 description: 使用 Emboss 節點在材質上製作壓紋效果，為表面細節增加深度與層次感。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 壓印
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss")
+![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="emboss.resources/emboss-tooltip.gif" alt="Emboss 工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="Emboss 工具提示" /></div>
 
 這個節點在類似 PBR 的專案中不常用，但在你想要簡單烘焙光照的情況下，它確實能用到。 另外， [Emboss With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) 和 [Uber Emboss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) 也提供類似但更廣泛的功能。
 

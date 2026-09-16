@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: 使用方向模糊節點，將模糊效果套用特定方向，以產生動態模糊和條紋效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![原子節點：方向模糊](directional-blur.resources/comp_dirmotionblur_1.png "原子節點：方向模糊")
+![原子節點：方向模糊](directional-blur.resources/comp_dirmotionblur_1.png "原子節點：方向模糊"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +35,9 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向模糊工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向模糊工具提示" /></div>
 
-與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了更長且高品質的替代方案，並在性能上有所取捨
+與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了[更長且高品質的替代方案，並在性能上有所取捨
 
 
 ## 方向性模糊與各向異性模糊

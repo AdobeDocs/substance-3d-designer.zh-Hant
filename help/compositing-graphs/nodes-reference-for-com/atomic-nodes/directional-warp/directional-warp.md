@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
 breadcrumb-title: ""
 description: 使用方向扭曲節點對貼圖施加方向扭曲，以創造流動與動態效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向曲速
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：方向扭曲](directional-warp.resources/comp_directionalwarp_1.png "原子節點：方向扭曲")
+![原子節點：方向扭曲](directional-warp.resources/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向曲速工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向曲速工具提示" /></div>
 
 扭曲節點是一個相當簡單但實用的節點，是其他更進階效果的良好基礎。 還有更進階的替代方案，例如其他相關節點如 [斜率模糊（Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) ）和 [向量扭曲（Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)）。
 

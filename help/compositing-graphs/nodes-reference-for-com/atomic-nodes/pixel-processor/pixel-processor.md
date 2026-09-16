@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
 breadcrumb-title: ""
 description: 使用 Pixel Processor 節點，透過自訂表達式處理個別像素，進行進階紋理操作。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 像素處理器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![原子節點：像素處理器](pixel-processor.resources/comp_pixelprocessor_1.png "原子節點：像素處理器")
+![原子節點：像素處理器](pixel-processor.resources/comp_pixelprocessor_1.png "原子節點：像素處理器"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,9 +37,9 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="像素處理器工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="像素處理器工具提示" /></div>
 
-與 FX-Map[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md) 類似，它需要設定內部功能才能執行任何操作。Pixel 處理器與 FX-Map 的不同之處在於，它不專注於放置圖案，而是有多項功能控制圖案形狀與位置。 取而代之的是，每個像素都以一個函式並行執行，每個像素都不知道鄰近像素的計算結果。
+與 FX-Map](../../../../function-graphs/fxmaps/fxmaps.md) 類似[，它需要設定內部功能才能執行任何操作。Pixel 處理器與 FX-Map 的不同之處在於，它不專注於放置圖案，而是有多項功能控制圖案形狀與位置。 取而代之的是，每個像素都以一個函式並行執行，每個像素都不知道鄰近像素的計算結果。
 
 Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)，僅使用單一值，且能提供比 Pixel 處理器更好的優化。
 
@@ -48,13 +48,13 @@ Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes
 
 >[!TIP]
 >
-> 本文件的範例物質圖表[&#128279;](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)章節中，有一個帶註解的專案檔案展示了像素處理器節點的簡單使用方法。
+> 本文件的範例物質圖表](../../../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)章節中，[有一個帶註解的專案檔案展示了像素處理器節點的簡單使用方法。
 > 
 > [價值處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)節點是學習 [Substance 函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md)的良好起點。
 > 
 > 另外要考慮，使用這類圖並執行數學運算是從這個節點取得任何東西的必要條件。
 > 
-> 我們也建議熟悉 UV、[&#128279;](../../../../glossary/glossary.md) [材質取樣](../../../../glossary/glossary.md)和向量的概念。
+> 我們也建議熟悉 UV、](../../../../glossary/glossary.md)[材質取樣](../../../../glossary/glossary.md)和向量的概念[。
 
 
 ## 參數

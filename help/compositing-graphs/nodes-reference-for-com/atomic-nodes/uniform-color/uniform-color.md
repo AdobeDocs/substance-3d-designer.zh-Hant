@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/uniform-color.html"
 breadcrumb-title: ""
 description: 使用 Uniform Color 節點來產生均勻的色彩貼圖，以建立純色填充和底層。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 制服顏色
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 1%
@@ -22,7 +22,7 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![原子節點：均勻顏色](uniform-color.resources/comp_uniform_1.png "原子節點：均勻顏色")
+![原子節點：均勻顏色](uniform-color.resources/comp_uniform_1.png "原子節點：均勻顏色"){width="100%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
@@ -35,7 +35,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="統一色彩工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="uniform-color.resources/uniform-color-tooltip.gif" alt="統一色彩工具提示" /></div>
 
 
 >[!TIP]
@@ -44,7 +44,7 @@ ht-degree: 1%
 > 
 > 這兩種調整都降低了節點的計算時間與記憶體佔用量：
 > 
-> * 如果需要灰階值，請確保節點的色彩模式[&#128279;](#parameters)切換為「灰階」。
+> * 如果需要灰階值，請確保節點的色彩模式](#parameters)切換[為「灰階」。
 > * 由於節點輸出是平面色，你可以使用最低解析度。 將節點的「[輸出大小](../../../../compositing-graphs/output-size/output-size.md)」參數設定為使用「絕對」 [繼承法](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md) ，解析度為 16x16 像素。
 
 

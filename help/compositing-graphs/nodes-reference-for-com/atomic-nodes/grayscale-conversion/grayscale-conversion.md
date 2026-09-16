@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/grayscale-conversion.html"
 breadcrumb-title: ""
 description: 使用灰階轉換節點，利用各種轉換方法將色彩紋理轉換成灰階。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 灰階轉換
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：灰階轉換](grayscale-conversion.resources/comp_grayscaleconversion_1.png "原子節點：灰階轉換")
+![原子節點：灰階轉換](grayscale-conversion.resources/comp_grayscaleconversion_1.png "原子節點：灰階轉換"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="灰階轉換工具提示" /></div>
+<div data-preserve-html="true" align="center"><img src="grayscale-conversion.resources/grayscale-conversion-tooltip.gif" alt="灰階轉換工具提示" /></div>
 
 大多數節點可設定為灰階或彩色輸出，且因簡潔與效能考量，灰階較為優先。
 

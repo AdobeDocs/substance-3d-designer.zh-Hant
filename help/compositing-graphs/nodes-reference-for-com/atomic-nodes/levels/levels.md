@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
 breadcrumb-title: ""
 description: 使用等級節點調整材質的亮度、對比度和色調範圍，以進行色彩校正和增強。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 關卡
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
+source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
 workflow-type: tm+mt
 source-wordcount: '549'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="20%" style="border: 0;" valign="top">
 
-![原子節點：關卡](levels.resources/comp_levels_1.png "原子節點：關卡")
+![原子節點：關卡](levels.resources/comp_levels_1.png "原子節點：關卡"){width="100%"}
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +35,7 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 </tr>
 </table>
 
-<div data-preserve-html="true" style="text-align: center;"><img src="levels.resources/levels-tooltip.gif" alt="關卡提示" /></div>
+<div data-preserve-html="true" align="center"><img src="levels.resources/levels-tooltip.gif" alt="關卡提示" /></div>
 
 它是 Substance 3D Designer 中核心且最實用的節點之一，經常用於重新映射和調整圖表中的數值，因為它提供了最精確且準確的介面來調整數值。
 
