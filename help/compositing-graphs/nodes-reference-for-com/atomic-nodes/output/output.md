@@ -1,22 +1,20 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 輸出
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '790'
 ht-degree: 0%
-
 ---
-
 
 # 輸出
 
@@ -24,18 +22,20 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0; width: 30%; vertical-align: top">
 
-![原子節點：輸出](output.resources/comp_output_1.png "原子節點：輸出"){width="200px"}
+![原子節點：輸出](output.resources/comp_output_1.png "原子節點：輸出"){width="20%"}
 
 </td>
 <td style="border: 0; vertical-align: top">
 
 輸出節點指定 <b>物質圖的結果</b> ，或若存在多個輸出節點則指定其結果之一。
 
-連接到圖的輸出節點的影像或值，由任何代表該圖的實例節點輸出[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，並可[匯出為圖輸出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。
+連接到圖的輸出節點的影像或值，由任何代表該圖的實例節點輸出[，並可[匯出為圖輸出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)
 
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="output.resources/output-tooltip.gif" alt="輸出工具提示" /></div>
 
 同樣地，當已發佈的 [SBSAR 檔案](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 包含此圖時，該檔案可輸出該影像，並用於任何使用該檔案的整合或外掛。
 
@@ -51,15 +51,15 @@ ht-degree: 0%
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <b>識別碼</b> *弦* | 輸出的唯一識別碼。 此屬性不能留空，且不得包含特殊字元或空格。   識別碼是因為節點的標籤是空白的，「Label」屬性會留空。 它也可以用來命名 [匯出的材質](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。 |
 | <b>描述</b> *弦* | 輸出工具提示的可選描述是 Substance 圖表。 |
-| <b>唱片公司</b> *弦* | 此標記用於輸出節點，並在代表此圖的實例節點[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中作為對應連接器。標籤可能包含空格和特殊字元。 |
-| <b>使用者資料</b> *弦* | 可選的元資料可用於特定過濾操作。 [Substance 3D Painter](https://www.adobe.com/tw/products/substance3d/apps/painter.html) 利用這些資料來 [推動部分功能](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)...... |
+| <b>唱片公司</b> *弦* | 此標記用於輸出節點，並在代表此圖的實例節點](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)中作為對應連接器[。標籤可能包含空格和特殊字元。 |
+| <b>使用者資料</b> *弦* | 可選的元資料可用於特定過濾操作。 [Substance 3D Painter](https://www.adobe.com/products/substance3d/apps/painter.html) 利用這些資料來 [推動部分功能](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/content/creating-custom-effects/user-data)...... |
 | <b>團體</b> *弦* | 屬性用於將輸出群組在一起，用於 Designer [的連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。   具有相同「群組」屬性的輸出會在「Compact Material」連結建立模式下以單一連線呈現。 |
 
 ## 整合屬性
 
-這些屬性是供整合或外掛使用，使用已發佈的 SBSAR 檔案[&#128279;](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中的圖表。
+這些屬性是供整合或外掛使用，使用已發佈的 SBSAR 檔案](../../../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)中的[圖表。
 
-因此，它們對點陣圖匯出[&#128279;](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的格式沒有影響。此外，Designer 中僅 <b>使用使用</b> 屬性，詳情請見下文。
+因此，它們對點陣圖匯出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的格式[沒有影響。此外，Designer 中僅 <b>使用使用</b> 屬性，詳情請見下文。
 
 +++ 使用情況
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 由於圖形輸出通常是特定紋理通道的最終結果，輸出可以自動傳送到3D View所用著色器的適當取樣器。
 
-事實上，若 <b>輸出 Usage</b> 屬性 *與 3D View 中的取樣器使用* 量相符，會連接到該取樣器。 例如，一個有 `basecolor` 使用情況的輸出會連接到 `basecolor` 3D View 著色器的取樣器。 （了解更多： [&#x200B; 以3D視圖](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)查看資料）
+事實上，若 <b>輸出 Usage</b> 屬性 *與 3D View 中的取樣器使用* 量相符，會連接到該取樣器。 例如，一個有 `basecolor` 使用情況的輸出會連接到 `basecolor` 3D View 著色器的取樣器。 （了解更多： [ 以3D視圖](../../../../interface/3d-view/3d-view.md#view-data-in-3d-view)查看資料）
 
 在圖形檢視中[點選空白區域的 RMB，並在情境選單中選擇<b>「3D 檢視</b>中的輸出」選項，將所有輸出連接到 3D 檢視取樣器，並有&#x200B;*相同的使用情況*。](../../../../interface/the-graph-view/the-graph-view.md)
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 * 任何代表該圖的實例節點的縮圖
 * 在 2D 視圖中檢視這些實例節點
-* 該圖的縮圖在圖書館中（點此[&#128279;](../../../../interface/preferences-window/project-settings/project-settings.md)了解如何新增資源）
+* 該圖的縮圖在圖書館中（點此](../../../../interface/preferences-window/project-settings/project-settings.md)了解如何新增資源[）
 
 此功能允許您將圖形輸出以任意順序排列，獨立於圖形作為節點的視覺化方式。
 

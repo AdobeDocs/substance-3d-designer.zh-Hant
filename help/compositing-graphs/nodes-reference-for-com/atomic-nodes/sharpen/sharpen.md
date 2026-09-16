@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+breadcrumb-title: ""
 description: 使用銳化節點來強化貼圖細節和邊緣，創造清晰且明確的表面細節。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Sharpen
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 磨利
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 2%
-
 ---
-
 
 # 磨利
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![銳利節點圖示 銳化節點圖示](sharpen.resources/sharpen-4.png "")
+![銳利節點圖示 銳化節點圖示](sharpen.resources/sharpen-4.png ""){width="20%"}
 
 <b>收錄於：</b> 原子節點
 
@@ -38,6 +36,8 @@ ht-degree: 2%
 </td>
 </tr>
 </table>
+
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="sharpen.resources/sharpen-tooltip.gif" alt="銳利工具提示" /></div>
 
 雖然名稱不同，但數學上與 Photoshop 的 Unsharp Mask 非常相似。 它對像是基色貼圖這類的貼圖效果不錯，但在像法線貼圖和金屬貼圖這類貼圖上應該避免使用。
 

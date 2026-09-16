@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+breadcrumb-title: ""
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 梯度圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1157'
 ht-degree: 0%
-
 ---
-
 
 # 梯度圖
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="200px"}
+![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,31 +35,11 @@ ht-degree: 0%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></div>
+
 該節點提供先進且功能豐富的漸層編輯器，能精確映射多種顏色：請前往 [本頁的漸層編輯器](#gradient-editor) 區了解更多。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 範例
-
-## 參數
 
 |  |  |
 | --- | --- |
@@ -78,7 +56,7 @@ ht-degree: 0%
 * 點擊漸層編輯器</b>按鈕上的<b>左鍵;
 * 在漸層條中的針腳上按雙擊左鍵。 點擊的針腳會在漸層編輯器中自動被選中，讓你可以直接編輯它的數值。
 
-![漸層編輯器](gradient-map.resources/image2017-2-17-16-13-5.png "漸層編輯器")
+![漸層編輯器](gradient-map.resources/image2017-2-17-16-13-5.png "漸層編輯器"){width="20%"}
 
 ### 編輯漸層圖釘
 
@@ -346,11 +324,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>輸入</b> *灰階* 初級 | 要處理的灰階影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階* |  |
 
 ## 範例
 

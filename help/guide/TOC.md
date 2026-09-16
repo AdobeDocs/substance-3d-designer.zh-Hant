@@ -3,13 +3,11 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 447b0e3beb6c147063de7e2642d646a988de060e
+source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
 workflow-type: tm+mt
 source-wordcount: '1900'
 ht-degree: 3%
-
 ---
-
 
 # Substance 3D Designer {#using}
 
@@ -418,7 +416,7 @@ ht-degree: 3%
           + [正常組合](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-combine/normal-combine.md)
           + [正常反轉](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-invert/normal-invert.md)
           + [正常歸一化](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-normalize/normal-normalize.md)
-          + [正常索貝爾](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
+          + [諾曼·索貝爾](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)
           + [垂直高度](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height/normal-to-height.md)
           + [垂直至高度的指揮部](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-to-height-hq/normal-to-height-hq.md)
           + [法線轉換](/help/compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-transform/normal-transform.md)
@@ -518,7 +516,7 @@ ht-degree: 3%
           + [皮革服飾](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/leather-wear/leather-wear.md)
           + [亮](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/light/light.md)
           + [面具製作器](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/mask-builder/mask-builder.md)
-          + [金屬邊緣 eear](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
+          + [金屬邊緣磨損](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/metal-edge-wear/metal-edge-wear.md)
           + [油漆磨損](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/paint-wear/paint-wear.md)
           + [選擇性土壤](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/selective-dirt/selective-dirt.md)
           + [防曬漂白水](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/mask-generators/sun-bleach/sun-bleach.md)
@@ -547,7 +545,7 @@ ht-degree: 3%
           + [路徑工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
           + [路徑格式規範](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md)
           + [路徑二維轉換](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-2d-transform/path-2d-transform.md)
-          + [面具到人](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
+          + [面具到路徑](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/mask-to-paths/mask-to-paths.md)
           + [路徑多邊形](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-polygon/paths-polygon.md)
           + [預覽路徑](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/preview-paths/preview-paths.md)
           + [路徑扭曲](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-warp/paths-warp.md)
@@ -622,7 +620,7 @@ ht-degree: 3%
     + [迭代節點](/help/function-graphs/fxmaps/the-iterate-node/the-iterate-node.md)
     + [象限節點](/help/function-graphs/fxmaps/the-quadrant-node/the-quadrant-node.md)
     + 在 FX-Maps 中使用 Substance 函數圖表{#using-substance-function-graphs-in-fx-maps}
-      + [在 FX-Maps 中使用 Substance 函數圖形](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
+      + [在 FX-Maps 中使用 Substance 函數圖表](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-functions-in-fxmaps.md)
       + [迭代並$number變數](/help/function-graphs/fxmaps/using-functions-in-fxmaps/iterate-and-number-var/iterate-and-number-variable.md)
       + [使用 Sampler 節點](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-sampler-nodes/using-the-sampler-nodes.md)
       + [使用 Set/Sequence 節點](/help/function-graphs/fxmaps/using-functions-in-fxmaps/using-the-set-sequence/using-the-set-sequence-nodes.md)

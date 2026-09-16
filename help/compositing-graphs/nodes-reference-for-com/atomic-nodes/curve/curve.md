@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+breadcrumb-title: ""
 description: 使用 Curve 節點調整材質值，使用可自訂曲線來精確控制顏色和亮度。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 曲線
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '608'
 ht-degree: 0%
-
 ---
-
 
 # 曲線
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="200px"}
+![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="20%"}
 
 </td>
 <td width="100.00%" style="border: 0;" valign="top">
@@ -37,53 +35,13 @@ ht-degree: 0%
 </tr>
 </table>
 
+<div data-preserve-html="true" style="display: block; margin: auto;"><img src="curve.resources/curve-tooltip.gif" alt="曲線提示" /></div>
+
 與大多數其他節點不同，Curve 節點沒有典型的標準介面，包含滑桿和參數，而是呈現完整的曲線編輯器。 請參閱下方可擴充的使用說明。
 
 [然而，這也意味著曲線節點中的任何參數都無法暴露給子圖](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 唯一的選擇是使用 [多開關（Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) ）來切換不同的曲線曲線。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 參數
-
-### 曲線編輯器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸入連接器
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -99,7 +57,7 @@ ht-degree: 0%
 
 要建立一個點，只需雙擊曲線視圖中的任意位置：
 
-![](curve.resources/createmovepoint.gif)
+![](curve.resources/createmovepoint.gif){width="20%"}
 
 ### 控制點數影響
 
@@ -259,11 +217,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>輸入</b> *灰階/彩色* 原色 | 要處理的影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 
