@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: 使用 Channels Shuffle 節點在材質中重新排列色彩通道，來創造色彩效果和通道切換。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 頻道切換
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌"){width="20%"}
+![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 將一或兩個輸入影像的色彩通道重新排列成輸出影像。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="頻道洗牌工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="頻道洗牌工具提示" /></div>
 
 頻道洗牌有基本選項，但在大多數頻道打包或剝離並設定 Alpha 頻道的情況下，使用 [RGBA 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)、 [RGBA 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md)、 [Alpha 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) 和 [Alpha 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)會更快。 它們被設定成執行預設動作，不需要更改多個參數，之後再轉換成灰階。 如果你想要更進階、有更多混合選項的版本，可以看看 [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md)。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: 使用漸變（動態）節點來建立可由輸入參數和數值控制的動態漸層。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 漸變（動態）
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度動態](gradient-dynamic.resources/comp_dyngradient_1.png "原子節點：梯度動態"){width="20%"}
+![原子節點：梯度動態](gradient-dynamic.resources/comp_dyngradient_1.png "原子節點：梯度動態")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 利用另一張影像中由一列或一列像素提供的漸層，重新映射影像中的灰階值。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="漸變動態工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="漸變動態工具提示" /></div>
 
 這主要避免了無法暴露參數的問題，因為顏色參數會移到節點外。 這就是讓它變得「動態」的原因。
 

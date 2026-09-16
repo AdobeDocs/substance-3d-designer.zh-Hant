@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: 使用 Blend 節點，利用各種混合模式將兩個材質混合在一起，以創造合成效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -22,26 +22,26 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：混合](blend.resources/comp_blend_1.png "原子節點：混合"){width="20%"}
+![原子節點：混合](blend.resources/comp_blend_1.png "原子節點：混合")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 使用指定的混合模式及可選遮罩將兩張影像合併。
 
-它是所有原子節點中最有用的節點，幾乎你在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中建立的任何圖都會使用這個節點。
+它是所有原子節點中最有用的節點，幾乎你在 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中[建立的任何圖都會使用這個節點。
 
 </td>
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blend.resources/blend-tooltip.gif" alt="Blend 工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blend.resources/blend-tooltip.gif" alt="Blend 工具提示" /></div>
 
-它的功能類似於 Substance 3D Painter[&#128279;](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html) 中，兩個層層疊疊，透過你在頂層設定的混合模式來混合。
+它的功能類似於 Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 或 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html) 中，兩個層層疊[疊，透過你在頂層設定的混合模式來混合。
 
 >[!TIP]
 >
-> 在這個專門頁面[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)中了解混合節點中可用的混合模式。
+> 在這個專門頁面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)中了解混合節點[中可用的混合模式。
 
 
 

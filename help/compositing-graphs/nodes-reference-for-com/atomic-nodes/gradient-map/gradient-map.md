@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 梯度圖
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="20%"}
+![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 用自訂漸層重新映射影像中的灰階值。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></div>
 
 該節點提供先進且功能豐富的漸層編輯器，能精確映射多種顏色：請前往 [本頁的漸層編輯器](#gradient-editor) 區了解更多。
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 * 點擊漸層編輯器</b>按鈕上的<b>左鍵;
 * 在漸層條中的針腳上按雙擊左鍵。 點擊的針腳會在漸層編輯器中自動被選中，讓你可以直接編輯它的數值。
 
-![漸層編輯器](gradient-map.resources/image2017-2-17-16-13-5.png "漸層編輯器"){width="20%"}
+![漸層編輯器](gradient-map.resources/image2017-2-17-16-13-5.png "漸層編輯器")
 
 ### 編輯漸層圖釘
 
@@ -233,7 +233,7 @@ ht-degree: 0%
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   RGB、HSV 和 Alpha 滑桿讓你能透過調整滑桿或直接設定數值來精確設定顏色。
 
@@ -267,7 +267,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 選取的顏色會在顏色縮圖的上半部預覽。\
 下半部顯示先前使用的顏色。 雙擊左鍵，就能把調整過的顏色還原回來。
@@ -285,7 +285,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 此外，以下功能可在顏色縮圖下方作為按鈕使用：
 

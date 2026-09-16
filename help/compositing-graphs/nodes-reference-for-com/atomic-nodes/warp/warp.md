@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
 breadcrumb-title: ""
 description: 使用 Warp 節點對貼圖套用失真效果，以創造變形和位移效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 曲速
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：扭曲](warp.resources/comp_warp_1.png "原子節點：扭曲"){width="20%"}
+![原子節點：扭曲](warp.resources/comp_warp_1.png "原子節點：扭曲")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 根據從獨立梯度輸入計算的斜率，將輸入影像中的像素值位移，導致變形。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="warp.resources/warp-tooltip.gif" alt="曲速提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="warp.resources/warp-tooltip.gif" alt="曲速提示" /></div>
 
 節點操作起來有點棘手，因為效果的結果非常依賴漸層輸入：對漸層做些微調整，在相同的強度值下，視覺上會有很大差異。 記得多調整漸層輸入的對比度、亮度和縮放，還有這個節點上的強度滑桿。
 

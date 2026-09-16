@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 使用 Transformation 2D 節點對貼圖套用 2D 轉換，包括平移、旋轉和縮放。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 轉換二維
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="20%"}
+![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 對影像應用二維轉換矩陣：平移、旋轉、縮放、對稱與剪切。
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="Transformation-2D 工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="Transformation-2D 工具提示" /></div>
 
 這是一個非常有用且廣泛應用的節點，允許增加平鋪、移除平鋪、將影像置於特定位置、拉伸或壓縮輸入等。
 
@@ -46,9 +46,9 @@ ht-degree: 0%
 >
 > 停用平鋪
 > 
-> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法[&#128279;](../../../../glossary/glossary.md)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
+> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法](../../../../glossary/glossary.md)設[為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
-> ![](transformation-2d.resources/tilingmode.png){width="20%"}
+> ![](transformation-2d.resources/tilingmode.png)
 
 >[!NOTE]
 >

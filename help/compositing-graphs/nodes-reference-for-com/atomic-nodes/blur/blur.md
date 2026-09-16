@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
 breadcrumb-title: ""
 description: 用模糊節點對貼圖套用模糊效果，讓細節更平滑並創造柔焦效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 2%
@@ -22,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![模糊節點圖示](blur.resources/blur-9.png){width="20%"}
+![模糊節點圖示](blur.resources/blur-9.png)
 
 **收錄於：** 原子節點
 
@@ -33,7 +33,7 @@ ht-degree: 2%
 
 ## 說明
 
-模糊節點執行「框模糊」操作：將像素值在設定距離內取平均，造成模糊且不銳利的畫面。 它提供了 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中最簡單、最快且最基本的模糊操作。
+模糊節點執行「框模糊」操作：將像素值在設定距離內取平均，造成模糊且不銳利的畫面。 它提供了 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中[最簡單、最快且最基本的模糊操作。
 
 雖然模糊適合快速且簡單的操作，例如稍微柔化邊緣，但在更嚴苛的情境 [下，Blur HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) 是更好的選擇，兩者在效能和品質之間取得平衡。
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="blur.resources/blur-tooltip.gif" alt="模糊工具提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="blur.resources/blur-tooltip.gif" alt="模糊工具提示" /></div>
 
 ## 參數
 

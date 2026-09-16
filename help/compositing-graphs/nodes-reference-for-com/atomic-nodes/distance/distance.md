@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: 使用距離節點計算形狀的距離貼圖，用於製作遮罩和程序化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 距離
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 1%
@@ -20,12 +20,12 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td width="20%" style="border: 0;" valign="top">
 
-![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離"){width="20%"}
+![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 找出遮罩中最近白色像素的位置，並從該位置輸出漸層，或是來源影像中該位置的顏色。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="distance.resources/distance-tooltip.gif" alt="距離提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="distance.resources/distance-tooltip.gif" alt="距離提示" /></div>
 
 向外擴展的衰落會在遇到另一個單元時終止：它們永遠不會重疊。 內部操作實際上是計算並顯示到最近像素 >0.5 的距離，距離節點設為夾位/最大值。
 
@@ -70,17 +70,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="20%"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="20%"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="20%"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

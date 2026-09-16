@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: 使用 Text 節點生成帶有可自訂字型與樣式的文字紋理，以創造基於文字的圖案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 文字
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: b2c99a199364ff62b5790b72bcfef02a35d58ca2
+source-git-commit: 0cb0df528e7f0eb6f3c2d51e35302744952718d5
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 1%
@@ -22,10 +22,10 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td width="33.33%" style="border: 0;" valign="top">
 
-![原子節點：文字](text.resources/comp_text_1.png "原子節點：文字"){width="20%"}
+![原子節點：文字](text.resources/comp_text_1.png "原子節點：文字")
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 文字節點提供了一種讓使用者在圖表中放置文字的方法。 使用者也可以選擇字型、對齊和旋轉等設定，來自訂文字位置。
 
@@ -35,7 +35,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" style="display: block; margin: auto;"><img src="text.resources/text-tooltip.gif" alt="文字提示" /></div>
+<div data-preserve-html="true" style="text-align: center;"><img src="text.resources/text-tooltip.gif" alt="文字提示" /></div>
 
 僅支援 Truetype（.ttf）及部分 Opentype 字型。 如果清單中缺少字型，這大概就是原因。 <b>字型不能被當作參數來暴露。</b>
 
