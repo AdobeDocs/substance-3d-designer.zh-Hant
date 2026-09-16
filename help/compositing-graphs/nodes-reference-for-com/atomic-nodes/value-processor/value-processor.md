@@ -29,7 +29,7 @@ ht-degree: 1%
 
 計算一個 [物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md) 並輸出結果。
 
-它與像素處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)相當[，但不同之處在於它不會為每個像素計算函數，而是計算單一值，並將其呈現[在物質圖](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)中。
+它與像素處理器[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)相當，但不同之處在於它不會為每個像素計算函數，而是計算單一值，並將其呈現[在物質圖](../../../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)中。
 
 </td>
 </tr>
