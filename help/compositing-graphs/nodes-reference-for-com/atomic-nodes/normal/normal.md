@@ -37,7 +37,7 @@ ht-degree: 1%
 
 <div data-preserve-html="true" style="display: block; margin: auto;"><img src="normal.resources/normal-tooltip.gif" alt="一般提示" /></div>
 
-這是一個非常實用的節點，經常用來將高度圖輸入轉換為即時就緒材質的法線貼圖。 在「正常 Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)」和「身高到正常世界單位」中也有替代方案[。
+這是一個非常實用的節點，經常用來將高度圖輸入轉換為即時就緒材質的法線貼圖。 在「正常 Sobel[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)」和「身高到正常世界單位」中也有替代方案。
 
 
 
