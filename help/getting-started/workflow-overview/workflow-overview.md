@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/workflow-overview.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/workflow-overview.html"
 breadcrumb-title: ""
 description: 從頭到尾學習 Substance 3D Designer 中製作程序材質的基本工作流程。
 helpx_creative_field: ""

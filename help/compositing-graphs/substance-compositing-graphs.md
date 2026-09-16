@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: 學習 Substance 3D Designer 中的 Substance 合成圖，用於建立程序貼圖與材質工作流程。
 helpx_creative_field: ""

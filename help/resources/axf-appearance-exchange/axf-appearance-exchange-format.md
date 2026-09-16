@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/resources/axf-appearance-exchange-format.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/axf-appearance-exchange-format.html"
 breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中匯入並使用 AxF 外觀交換格式資源來匯入材料。
 helpx_creative_field: ""
@@ -142,7 +142,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 有兩種類型的 Substance 圖範本可供選擇：
 
 <b>AxF 轉為金屬粗糙度</b>，以及 <b>AxF 轉為鏡面光澤度</b>，這些都是&#x200B;**&#x200B;轉換模板，讓你能將 AxF 材質映射到標準 PBR 模型。\
-這些素材可搭配預設的 3D View 著色器使用，並與 Designer、 [Sampler](https://www.adobe.com/products/substance3d-sampler.html) 製作的其他 PBR 材質或從我們的 [3D 資產](https://substance3d.adobe.com/assets/) 庫取得結合。
+這些素材可搭配預設的 3D View 著色器使用，並與 Designer、 [Sampler](https://www.adobe.com/tw/products/substance3d-sampler.html) 製作的其他 PBR 材質或從我們的 [3D 資產](https://substance3d.adobe.com/assets/) 庫取得結合。
 
 <b>AxF to AxF</b> 是一個 *直通* 模板，讓你能在原地編輯 AxF 材質，並將這些變更匯出成現有 AxF 檔案中的新圖層。 請參考下方「匯出 AxF 檔案」以了解更多資訊。
 

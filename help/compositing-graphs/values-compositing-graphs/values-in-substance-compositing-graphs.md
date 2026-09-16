@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: 學習 Substance 合成圖中的值類型與資料處理，以有效製作素材。
 helpx_creative_field: ""
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 物質圖中的值
 
-自從 2019.1.0 版本引入 [Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) Engine v7 後，現在可以處理 Substance 圖中的數值，而[不僅僅是函數](../../function-graphs/function-graphs.md)。 值資料是函數（如整數、浮點數和布林等）中使用的資料，因此與代表整張影像像素值的彩色或灰階影像資料有明顯區別。 具體來說，提到值資料時，指 *的是整數 1、整數 2、整數 3 和整數 4、浮點數 1、浮點數 2、浮點數 3、浮點數 4 以及布林值*。 每種顏色都有明顯的編碼，且大多不會互換。
+自從 2019.1.0 版本引入 [Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) Engine v7 後，現在可以處理 Substance 圖中的數值，而[不僅僅是函數](../../function-graphs/function-graphs.md)。 值資料是函數（如整數、浮點數和布林等）中使用的資料，因此與代表整張影像像素值的彩色或灰階影像資料有明顯區別。 具體來說，提到值資料時，指 *的是整數 1、整數 2、整數 3 和整數 4、浮點數 1、浮點數 2、浮點數 3、浮點數 4 以及布林值*。 每種顏色都有明顯的編碼，且大多不會互換。
 
 這有幾個應用案例，例如：
 
