@@ -37,7 +37,7 @@ ht-degree: 1%
 
 <div data-preserve-html="true" style="text-align: center;"><img src="directional-blur.resources/directional-blur-tooltip.gif" alt="方向模糊工具提示" /></div>
 
-與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了[更長且高品質的替代方案，並在性能上有所取捨
+與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了更長且高品質的替代方案，並在性能上有所取捨
 
 
 ## 方向性模糊與各向異性模糊
