@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
 breadcrumb-title: ""
 description: 使用距離節點計算形狀的距離貼圖，用於製作遮罩和程序化效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 距離
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '395'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="20%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="distance.resources/distance-tooltip.gif" alt="距離提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="distance.resources/distance-tooltip.gif" alt="距離提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 向外擴展的衰落會在遇到另一個單元時終止：它們永遠不會重疊。 內部操作實際上是計算並顯示到最近像素 >0.5 的距離，距離節點設為夾位/最大值。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
 breadcrumb-title: ""
 description: 使用 Curve 節點調整材質值，使用可自訂曲線來精確控制顏色和亮度。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 曲線
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '611'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="curve.resources/curve-tooltip.gif" alt="曲線提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="curve.resources/curve-tooltip.gif" alt="曲線提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 與大多數其他節點不同，Curve 節點沒有典型的標準介面，包含滑桿和參數，而是呈現完整的曲線編輯器。 請參閱下方可擴充的使用說明。
 
@@ -68,7 +76,7 @@ ht-degree: 0%
 為了獲得精確結果，曲線節點為每個點提供不同的模式：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -107,7 +115,7 @@ ht-degree: 0%
 只要在右上角的下拉選單中選擇你想通過的曲線：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 

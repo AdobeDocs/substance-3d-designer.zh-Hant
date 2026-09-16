@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
 breadcrumb-title: ""
 description: 使用漸變（動態）節點來建立可由輸入參數和數值控制的動態漸層。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 漸變（動態）
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '313'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：梯度動態](gradient-dynamic.resources/comp_dyngradient_1.png "原子節點：梯度動態"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="漸變動態工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="漸變動態工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 這主要避免了無法暴露參數的問題，因為顏色參數會移到節點外。 這就是讓它變得「動態」的原因。
 

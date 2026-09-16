@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
 breadcrumb-title: ""
 description: 使用 FX-Map 節點將函數圖套用到材質上，以建立程序式圖案與效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 效果圖
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '321'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：FX-Map](fx-map.resources/fxmap.png "原子節點：FX-Map"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="FX-Map 提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="FX-Map 提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 類似 [於 Pixel 處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)，你必須定義並建立決定該節點行為與輸出的函式。
 
@@ -57,7 +65,7 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 | <b>背景</b> *浮動/漂浮4* | 設定背景起始色，合成結果。 |
 | <b>渲染區域</b> *Float4* | 讓你設定FX-Map兩側的起始像素範圍，產生拉伸效果。 |
 | <b>鋪磚區域</b> *Float4* | 這樣可以讓你偏移 FX-Map 的平鋪距離。 |
-| <b>Cull 外面</b> *布林值* | 透過剔除[&#128279;](../../../../glossary/glossary.md)超出正常範圍的模式進行優化。 |
+| <b>Cull 外面</b> *布林值* | 透過剔除](../../../../glossary/glossary.md)超出正常範圍的模式進行優化[。 |
 | <b>粗糙度</b> *浮標* | 功能為深度與不透明度的倍增器。 它對效果貼圖混合過程施加偏壓。 |
 | <b>全域不透明度</b> *浮標* | 設定FX-map輸出的全域不透明度。 |
 

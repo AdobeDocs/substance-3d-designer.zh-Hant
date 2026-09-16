@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/sharpen.html"
 breadcrumb-title: ""
 description: 使用銳化節點來強化貼圖細節和邊緣，創造清晰且明確的表面細節。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 磨利
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![銳利節點圖示 銳化節點圖示](sharpen.resources/sharpen-4.png "")
 
@@ -37,7 +37,13 @@ ht-degree: 2%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="銳利工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="sharpen.resources/sharpen-tooltip.gif" alt="銳利工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 雖然名稱不同，但數學上與 Photoshop 的 Unsharp Mask 非常相似。 它對像是基色貼圖這類的貼圖效果不錯，但在像法線貼圖和金屬貼圖這類貼圖上應該避免使用。
 

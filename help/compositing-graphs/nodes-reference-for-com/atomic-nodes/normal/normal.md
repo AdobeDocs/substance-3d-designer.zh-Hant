@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/normal.html"
 breadcrumb-title: ""
 description: 使用法線節點來處理和操作法線貼圖貼圖，以控制表面細節和光照。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 正常
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '220'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：正常](normal.resources/comp_normal_1.png "原子節點：正常"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,9 +37,15 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="normal.resources/normal-tooltip.gif" alt="一般提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="normal.resources/normal-tooltip.gif" alt="一般提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
-這是一個非常實用的節點，經常用來將高度圖輸入轉換為即時就緒材質的法線貼圖。 在「正常 Sobel[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)」和「身高到正常世界單位」中也有替代方案。
+這是一個非常實用的節點，經常用來將高度圖輸入轉換為即時就緒材質的法線貼圖。 在「正常 Sobel](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/normal-map/normal-sobel/normal-sobel.md)」和「身高到正常世界單位」中也有替代方案[。
 
 
 

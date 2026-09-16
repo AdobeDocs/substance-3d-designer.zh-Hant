@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
 breadcrumb-title: ""
 description: 使用 Channels Shuffle 節點在材質中重新排列色彩通道，來創造色彩效果和通道切換。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 頻道切換
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '267'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -37,7 +39,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="頻道洗牌工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="頻道洗牌工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 頻道洗牌有基本選項，但在大多數頻道打包或剝離並設定 Alpha 頻道的情況下，使用 [RGBA 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)、 [RGBA 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md)、 [Alpha 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) 和 [Alpha 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)會更快。 它們被設定成執行預設動作，不需要更改多個參數，之後再轉換成灰階。 如果你想要更進階、有更多混合選項的版本，可以看看 [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md)。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 使用 Transformation 2D 節點對貼圖套用 2D 轉換，包括平移、旋轉和縮放。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 轉換二維
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="Transformation-2D 工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="Transformation-2D 工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 這是一個非常有用且廣泛應用的節點，允許增加平鋪、移除平鋪、將影像置於特定位置、拉伸或壓縮輸入等。
 
@@ -46,7 +54,7 @@ ht-degree: 0%
 >
 > 停用平鋪
 > 
-> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法[&#128279;](../../../../glossary/glossary.md)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
+> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法](../../../../glossary/glossary.md)設[為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 

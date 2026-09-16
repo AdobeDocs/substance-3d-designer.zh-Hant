@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
 breadcrumb-title: ""
 description: 使用 Text 節點生成帶有可自訂字型與樣式的文字紋理，以創造基於文字的圖案。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 文字
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '268'
 ht-degree: 1%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 1%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：文字](text.resources/comp_text_1.png "原子節點：文字"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 1%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="text.resources/text-tooltip.gif" alt="文字提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="text.resources/text-tooltip.gif" alt="文字提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 僅支援 Truetype（.ttf）及部分 Opentype 字型。 如果清單中缺少字型，這大概就是原因。 <b>字型不能被當作參數來暴露。</b>
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
 breadcrumb-title: ""
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 梯度圖
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 961ee151245fbc3266574676bd535c374bd0e3ad
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1160'
 ht-degree: 0%
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top">
 
 ![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
 <td style="border: 0;" valign="top">
@@ -35,7 +37,13 @@ ht-degree: 0%
 </tr>
 </table>
 
-<div data-preserve-html="true" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></div>
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
+</tr>
+</table>
 
 該節點提供先進且功能豐富的漸層編輯器，能精確映射多種顏色：請前往 [本頁的漸層編輯器](#gradient-editor) 區了解更多。
 
@@ -240,7 +248,7 @@ ht-degree: 0%
   或者，在滑桿下方的專用輸入欄位使用十六進位碼。
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![色彩選擇器 - RGB、HSV 與 Alpha 滑桿](gradient-map.resources/image2017-2-17-18-31-41.png "顏色選擇器 - RGB、HSV 與 Alpha 滑桿")
 
