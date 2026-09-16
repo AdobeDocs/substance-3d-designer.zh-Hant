@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs.html"
+breadcrumb-title: ""
 description: 學習 Substance 3D Designer 中的 Substance 合成圖，用於建立程序貼圖與材質工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 物質圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 
 # 物質圖
 
@@ -59,7 +57,7 @@ Substance 圖是[支援最廣泛的圖](../getting-started/overview/overview.md)
 
 
 
-濾波圖會將法線貼圖作為 [輸入](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)（並自訂預覽）， [將其轉換為曲率](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ，然後 [調整對比](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) 度，產生一個凸邊遮罩作為最終 [輸出](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
+濾波圖會將法線貼圖作為 [輸入](../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) （並有自訂預覽）， [將其轉換為曲率](../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/curvature-smooth/curvature-smooth.md) ，然後 [調整對比](../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) 度，產生一個凸邊遮罩作為最終 [輸出](../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)。
 
 直方圖中設定的對比值可以被曝光，這使得這個濾波器與動態輸入槽結合使用時，既簡單又實用。
 

@@ -3,9 +3,9 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 881117156de44a7776822e05c585a8d52d24afbc
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1905'
 ht-degree: 3%
 ---
 
@@ -130,7 +130,9 @@ ht-degree: 3%
       + [價值處理器](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)
       + [曲速](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/warp/warp.md)
       + [輸出](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
-      + [輸入](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+      + [輸入顏色](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
+      + [輸入灰階](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
+      + [輸入值](/help/compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
     + 節點函式庫{#node-library}
       + [節點函式庫](/help/compositing-graphs/nodes-reference-for-com/node-library/node-library.md)
       + 材質產生器{#texture-generators}

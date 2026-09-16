@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph.html"
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中建立 Substance 合成圖，以建立程序化貼圖工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Creating a Substance graph
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 建立物質圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 0%
-
 ---
-
 
 # 建立物質圖
 
@@ -28,7 +26,7 @@ ht-degree: 0%
 
 要開始建立新的 [Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，你可以使用以下其中一種方法：
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -44,7 +42,7 @@ ht-degree: 0%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -60,7 +58,7 @@ ht-degree: 0%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -76,7 +74,7 @@ ht-degree: 0%
   </tr>
   </table>
 
-* &#x200B;
+* 
   <table>
   <tr style="border: 0;">
   <td style="border: 0;" valign="top">
@@ -106,7 +104,7 @@ ht-degree: 0%
 
 ### 範本
 
-Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它們可能包含 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，這些簡單的節點用來傳遞數值給這些輸出——例如 [統一顏色（Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)）以及 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點。
+Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它們可能包含 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，這些簡單的節點用來傳遞數值給這些輸出——例如 [統一顏色（Uniform color](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/uniform-color/uniform-color.md)）以及 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 節點。
 
 雙擊列表中的範本，或選取該範本並點擊 <b>建立</b> 按鈕，使用該範本建立新的物質圖表。 預設情況下，新圖會被放入一個新的未儲存套件中。
 
@@ -165,7 +163,7 @@ Designer 包含帶有預設節點的圖形範本，幫助你更快上手。 它�
 
 將每個範本項目的資訊圖示滑鼠移至，會顯示一個提示，裡面有關於該範本的額外資訊：
 
-<b>類型：</b> 範本所要產生的資產類型。 這可以在圖屬性[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)中編輯。
+<b>類型：</b> 範本所要產生的資產類型。 這可以在圖屬性](../../compositing-graphs/graph-parameters/graph-parameters.md)中編輯[。
 
 <b>說明：</b> 關於範本的詳細資訊，如其整合的工作流程、預期使用情境及使用建議。
 

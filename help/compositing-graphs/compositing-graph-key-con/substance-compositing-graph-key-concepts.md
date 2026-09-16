@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
+breadcrumb-title: ""
 description: 學習Substance合成圖的關鍵概念，包括節點、連接與工作流程基礎。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 實體圖的關鍵概念
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 
 # 實體圖的關鍵概念
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 ## 子圖/出版
 
-[發佈圖](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 或建立子圖是兩個非常相似且抽象的概念。 這表示任何圖或節點網絡都可以「打包」在一起，並轉化為可重複使用的獨立資源。 子圖[&#128279;](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的建立大多是在應用程式內部完成，目的是讓某些內容能在高效且智慧的工作流程中重複使用，避免重複一組節點。發佈時還需額外匯出為 Substance 3D 資產（SBSAR）格式，讓你的節點網路圖能在應用程式外使用，例如為 Unreal Engine 製作材質時。
+[發佈圖](../publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md) 或建立子圖是兩個非常相似且抽象的概念。 這表示任何圖或節點網絡都可以「打包」在一起，並轉化為可重複使用的獨立資源。 子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)的建立[大多是在應用程式內部完成，目的是讓某些內容能在高效且智慧的工作流程中重複使用，避免重複一組節點。發佈時還需額外匯出為 Substance 3D 資產（SBSAR）格式，讓你的節點網路圖能在應用程式外使用，例如為 Unreal Engine 製作材質時。
 
 輸入、輸出與暴露參數在此概念中極為重要，因為它們是圖形作為子圖或已發佈 Substance 3D 資產時，仍能與其互動的唯一方式。 原因如下：
 
@@ -43,7 +41,7 @@ ht-degree: 0%
 * 輸出可以且應該唯一 <b>命名</b> 以識別，這在匯出時很有幫助。
 * 任何節點右側的每個連接器其實都是一個輸出（更多資訊請參見「子圖」）
 
-[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)類似於輸出，是一個空的槽位，供你或其他使用者連接自己的資料。它允許在外部使用者定義的影像資料中建立圖形，例如修改輸入影像的濾鏡（例如模糊或對比度調整）。
+[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)類似於輸出，是一個空的槽位，供你或其他使用者連接自己的資料。它允許在外部使用者定義的影像資料中建立圖形，例如修改輸入影像的濾鏡（例如模糊或對比度調整）。
 
 以下是你應該知道的幾件關於輸入的事：
 

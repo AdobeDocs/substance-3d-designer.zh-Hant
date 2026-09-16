@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
+breadcrumb-title: ""
 description: 利用圖實例與子圖來建立可重複使用的圖元件與模組化材質工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 圖實例與子圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # 圖實例與子圖
 
@@ -42,11 +40,11 @@ ht-degree: 0%
 
 節點可透過選擇節點並在情境選單中使用「從選取中建立圖形」快速分割成新圖。 接著會提示你設定新圖的識別碼，該識別碼應該是唯一的。
 
-請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 和 [輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，將這些連結帶到子圖。
+請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 和 [輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，將這些連結帶到子圖。
 
 此外，將原始節點替換為引用新圖的實例節點，則應在事後手動完成。
 
-最後，你應該決定在將專案發佈到可共享的 SBSAR 檔案時，是否應該讓子圖暴露給使用者。 詳見圖屬性[&#128279;](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的「SBSAR 暴露」參數。
+最後，你應該決定在將專案發佈到可共享的 SBSAR 檔案時，是否應該讓子圖暴露給使用者。 詳見圖屬性](../../../compositing-graphs/graph-parameters/graph-parameters.md)中的[「SBSAR 暴露」參數。
 
 ### 關於繼承
 
@@ -67,13 +65,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 在檢查來源圖時，只要&#x200B;**在偏好設定[&#128279;](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區段勾選&#x200B;***上下文編輯**&#x200B;選項，就可以使用實例圖*&#x200B;的輸入資料。
+> 在檢查來源圖時，只要&#x200B;**在偏好設定](../../../interface/preferences-window/preferences-window.md)的圖**&#x200B;區[段勾選&#x200B;***上下文編輯**選項，就可以使用實例圖*&#x200B;的輸入資料。
 
-![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 &#x200B;** Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 &#x200B;** Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
+![（減）](graph-instances-sub-graphs.resources/forbidden.svg)**&#x200B;無法檢查從 **Substance 3D 資產（SBSAR）**&#x200B;實例載入的圖表，因為這些圖表已經被編譯完成。你只能在 **Explorer** 面板載入資產，檢查顯示的圖表列表及其參數。 這些實例節點有 *綠色* 標籤。\
 右鍵點擊該節點以開啟其上下文選單，並選擇 **載入套件** 選項。
 
 >[!NOTE]
 >
 > **原子節點**
 > 
-> *原子*&#x200B;節點是直接透過 Substance 引擎中的程式碼實作的，並非&#x200B;**&#x200B;圖的實例，因此稱為 atomic：它們是 *Substance 圖[&#128279;](../../../compositing-graphs/substance-compositing-graphs.md)中所有*&#x200B;其他節點最小&#x200B;*的建構單元*。
+> *原子*&#x200B;節點是直接透過 Substance 引擎中的程式碼實作的，並非&#x200B;**&#x200B;圖的實例，因此稱為 atomic：它們是 *Substance 圖](../../../compositing-graphs/substance-compositing-graphs.md)中所有*&#x200B;其他節點[最小&#x200B;*的建構單元*。

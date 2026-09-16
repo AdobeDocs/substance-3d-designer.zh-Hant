@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中使用可見的 if 表達式，根據條件控制參數的可見性。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
@@ -8,26 +8,24 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 可見的 if 表達式
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 
 # 可見的 if 表達式
 
 「可見的如果」表達式讓你能 <b>控制圖形中輸入、輸出和參數的可見性</b> 。
 
-在暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，你可能想根據其他參數的狀態隱藏或顯示參數或節點連接器。例如，只有當布林參數按鈕設為 `true`時才會顯示滑桿，否則不會有影響，可能會讓使用者感到困惑。
+在暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時[，你可能想根據其他參數的狀態隱藏或顯示參數或節點連接器。例如，只有當布林參數按鈕設為 `true`時才會顯示滑桿，否則不會有影響，可能會讓使用者感到困惑。
 
 為達成此目標，你可以在 Visible if</b> 屬性中輸入&#x200B;*邏輯表達<b>*&#x200B;式：
 
 * 圖的 [輸入參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點;
+* 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 節點;
 * 圖的 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。
 
 ![切換輸入參數可見](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "性切換輸入參數可見性"){width="512px"}
@@ -62,8 +60,8 @@ input["identifier"]
 
 >[!WARNING]
 >
-> **識別**&#x200B;碼必須是&#x200B;*現有輸入參數&#x200B;**Identifier**&#x200B;屬性的精確*&#x200B;名稱，且必須區&#x200B;*分*&#x200B;大小寫。你 *不能* 用標籤來指稱參數。\
->  若不存在參考參數，或邏輯表達式無效，*則會在 Visible if **屬性上顯示**&#x200B;警告*。
+> **識別**&#x200B;碼必須是&#x200B;*現有輸入參數&#x200B;**Identifier**屬性的精確*&#x200B;名稱，且必須區&#x200B;*分*&#x200B;大小寫。你 *不能* 用標籤來指稱參數。\
+>  若不存在參考參數，或邏輯表達式無效，*則會在 Visible if **屬性上顯示**警告*。
 
 ### 可用營運商
 
