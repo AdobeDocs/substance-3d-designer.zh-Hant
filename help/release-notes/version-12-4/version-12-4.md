@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-12-4.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 請參閱 Substance 3D Designer 12.4 版本的發行說明，了解新功能、改進與錯誤修正。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 12.4
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 版本 12.4
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ba25885fb45039d7cbdc79af4792a1fa0f83564a
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
 
 # 版本 12.4
 
@@ -58,7 +56,7 @@ ht-degree: 0%
 
 ### 將影像輸入轉換成色彩/灰階
 
-透過節點的情境選單快速切換 [輸入顏色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 和 [輸入灰階](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 。
+透過節點的情境選單快速切換 [輸入色彩](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 與 [輸入灰階](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md) 。
 
 ![](version-12-4.resources/final-switch.gif){width="640px"}
 

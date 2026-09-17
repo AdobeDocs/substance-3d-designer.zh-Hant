@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用漸層貼圖節點，將灰階值對應到顏色，使用漸層斜坡進行色彩調整和效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 梯度圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
 source-wordcount: '1160'
 ht-degree: 0%
-
 ---
-
 
 # 梯度圖
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="200px"}
+![原子節點：梯度映射](gradient-map.resources/comp_gradient_1.png "原子節點：梯度映射"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 用自訂漸層重新映射影像中的灰階值。
 
@@ -37,31 +37,17 @@ ht-degree: 0%
 </tr>
 </table>
 
-該節點提供先進且功能豐富的漸層編輯器，能精確映射多種顏色：請前往 [本頁的漸層編輯器](#gradient-editor) 區了解更多。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-map.resources/gradient-map-tooltip.gif" alt="漸層地圖工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
-## 範例
+該節點提供先進且功能豐富的漸層編輯器，能精確映射多種顏色：請前往 [本頁的漸層編輯器](#gradient-editor) 區了解更多。
 
-## 參數
+
 
 |  |  |
 | --- | --- |
@@ -255,14 +241,14 @@ ht-degree: 0%
 
   <table>
   <tr style="border: 0;">
-  <td width="100.00%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   RGB、HSV 和 Alpha 滑桿讓你能透過調整滑桿或直接設定數值來精確設定顏色。
 
   或者，在滑桿下方的專用輸入欄位使用十六進位碼。
 
   </td>
-  <td width="33.33%" style="border: 0;" valign="top">
+  <td style="border: 0;" valign="top">
 
   ![色彩選擇器 - RGB、HSV 與 Alpha 滑桿](gradient-map.resources/image2017-2-17-18-31-41.png "顏色選擇器 - RGB、HSV 與 Alpha 滑桿")
 
@@ -289,7 +275,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 選取的顏色會在顏色縮圖的上半部預覽。\
 下半部顯示先前使用的顏色。 雙擊左鍵，就能把調整過的顏色還原回來。
@@ -307,7 +293,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 此外，以下功能可在顏色縮圖下方作為按鈕使用：
 
@@ -346,11 +332,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>輸入</b> *灰階* 初級 | 要處理的灰階影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階* |  |
 
 ## 範例
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/warp.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Warp 節點對貼圖套用失真效果，以創造變形和位移效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Warp
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 曲速
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 1%
-
+source-wordcount: '260'
+ht-degree: 0%
 ---
-
 
 # 曲速
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：扭曲](warp.resources/comp_warp_1.png "原子節點：扭曲"){width="200px"}
+![原子節點：扭曲](warp.resources/comp_warp_1.png "原子節點：扭曲"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 根據從獨立梯度輸入計算的斜率，將輸入影像中的像素值位移，導致變形。
 
@@ -37,44 +37,19 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="warp.resources/warp-tooltip.gif" alt="曲速提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 節點操作起來有點棘手，因為效果的結果非常依賴漸層輸入：對漸層做些微調整，在相同的強度值下，視覺上會有很大差異。 記得多調整漸層輸入的對比度、亮度和縮放，還有這個節點上的強度滑桿。
 
 如果你熟悉法線貼圖，可以想像這個節點的運作類似於將漸層輸入轉換成 [法線貼圖](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md)，然後將基礎輸入扭曲成法線貼圖向量定義的方向。 事實上，這同樣的效果也可以用 [向量曲速](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)實現。 類似的效果也出現在 [《斜坡模糊](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md)》中。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -90,11 +65,6 @@ ht-degree: 1%
 | <b>輸入</b> *灰階/彩色* 原色 | 彩色或灰階影像。 |
 | <b>梯度輸入</b> *灰階* | 灰階輸入影像的漸變斜率決定了輸出影像中的扭曲效應。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

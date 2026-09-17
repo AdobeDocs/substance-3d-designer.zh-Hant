@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/properties.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Substance 3D Designer 中的屬性面板來檢視和編輯節點屬性及圖形參數。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > Properties
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 屬性
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 16eb8a173e984f842c820f3b8f0c3e140040bdfa
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 0%
-
 ---
-
 
 # 屬性
 
@@ -61,7 +59,7 @@ ht-degree: 0%
 
 節點提供<b>特定參數</b>或<b>實例參數</b>（視其為[原子節點](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/atomic-nodes.md)或[實例](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)而定），以及<b>用於處理[值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md)的輸入值</b>。
 
-[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)與 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)原子節點是例外，因為它們具備 <b>整合屬性</b> 與 <b>可見性</b> 條件。 這兩組屬性也可以在圖屬性的輸入與輸出中中央存取。
+[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 與 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 原子節點是例外，因為它們具備 <b>整合屬性</b> 與 <b>可見性</b> 條件。 這兩組屬性也可以在圖屬性的輸入與輸出中中央存取。
 
 圖表還有幾個額外的分類。 <b>輸入參數</b>列出[暴露的參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)，<b></b>輸入與<b>輸出</b>列出輸入與輸出節點的所有屬性。[你可以在專門頁面找到所有圖屬性的詳細說明。](../../compositing-graphs/graph-parameters/graph-parameters.md)
 

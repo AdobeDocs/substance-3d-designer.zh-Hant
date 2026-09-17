@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 合成圖中管理與組織參數，以改善工作流程組織。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Manage parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 管理參數
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
-
 ---
-
 
 # 管理參數
 
@@ -165,11 +163,11 @@ ht-degree: 0%
 
 [梯度圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/gradient-map/gradient-map.md)
 
-[輸入顏色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入顏色](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[輸入灰階](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入灰階](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[輸入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)
 

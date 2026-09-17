@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/values-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習 Substance 合成圖中的值類型與資料處理，以有效製作素材。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Values in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 物質圖中的值
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '508'
 ht-degree: 0%
-
 ---
-
 
 # 物質圖中的值
 
@@ -32,10 +30,10 @@ ht-degree: 0%
 
 兩個新的原子節點與以下值相符：
 
-|  |  |
-| --- | --- |
+|                                                                                                                                                                                                                                                                                                                                                                                                                                       |  |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| --- |
 | <div><img alt="價值處理器節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r0-column-c0_image" src="values-in-substance-compositing-graphs.resources/valueprocessor.png" title="價值處理器節點圖示" width="100px"/></div>  <b>[價值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)</b> | [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)可以接收任意數量的灰階或色彩輸入，並允許你根據這些輸入從計算中回傳單一值。 |
-| <div><img alt="值輸入節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="值輸入節點圖示" width="100px"/></div>  **[價值輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)** | [Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)允許你在子圖上建立一個明確定義為 Value 的輸入槽。 |
+| <div><img alt="值輸入節點圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dx_table_row-r1-column-c0_image" src="values-in-substance-compositing-graphs.resources/inputnumeric.png" title="值輸入節點圖示" width="100px"/></div>  **[輸入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)** | [Value Input](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)允許你在子圖上建立一個明確定義為 Value 的輸入槽。 |
 
 此外，其他節點也會以特定方式處理：
 
@@ -51,9 +49,9 @@ ht-degree: 0%
 
 使用價值與一般實體圖工作略有不同：
 
-值連接只能來自[值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、[值輸入或](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。這其實代表 Value 處理器是唯一能從零建立 Value 連線的方式，沒有「靜態值」節點或類似的東西。 相反地，建立一個值處理器，放置靜態值並將其設為輸出，以達成相同的結果。
+值連接只能從 [值處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)、 [輸入值](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)或 [子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)建立。 這其實代表 Value 處理器是唯一能從零建立 Value 連線的方式，沒有「靜態值」節點或類似的東西。 相反地，建立一個值處理器，放置靜態值並將其設為輸出，以達成相同的結果。
 
-值處理器只能回傳單一值，如果你想回傳多個值，或是值組或值群組，就必須建立 [子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
+Value Processor 只能回傳一個 Value，如果你想回傳多個 Value，或是 Value 群組，就必須建立 [一個子圖](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)。
 
 為了突出顯示 Value 的暴露或使用位置，任何有 Value Inputs 或 Value Outputs 的節點都會以粗黃色邊框標示：
 

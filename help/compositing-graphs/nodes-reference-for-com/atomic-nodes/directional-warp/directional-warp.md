@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-warp.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用方向扭曲節點對貼圖施加方向扭曲，以創造流動與動態效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Directional warp
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 方向曲速
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 1%
-
+source-wordcount: '231'
+ht-degree: 0%
 ---
-
 
 # 方向曲速
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：方向扭曲](directional-warp.resources/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="200px"}
+![原子節點：方向扭曲](directional-warp.resources/comp_directionalwarp_1.png "原子節點：方向扭曲"){width="100%"}
+
+**<b>收錄於：</b> 原子節點**
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 根據強度圖，將像素沿指定方向位移，這可能導致變形。
 
@@ -37,42 +37,17 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="directional-warp.resources/directional-warp-tooltip.gif" alt="方向曲速工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 扭曲節點是一個相當簡單但實用的節點，是其他更進階效果的良好基礎。 還有更進階的替代方案，例如其他相關節點如 [斜率模糊（Slope Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/slope-blur/slope-blur.md) ）和 [向量扭曲（Vector Warp](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/vector-warp/vector-warp.md)）。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -90,11 +65,6 @@ ht-degree: 1%
 | <b>輸入</b> *灰階/彩色* 原色 | 應該套用變形效果的灰階或彩色輸入影像。 |
 | <b>強度輸入</b> *灰階* | 灰階影像定義了輸入影像應該施加<b></b>多少扭曲。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

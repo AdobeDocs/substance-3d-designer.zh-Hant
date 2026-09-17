@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/text.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Text 節點生成帶有可自訂字型與樣式的文字紋理，以創造基於文字的圖案。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Text
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 文字
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '268'
 ht-degree: 1%
-
 ---
-
 
 # 文字
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：文字](text.resources/comp_text_1.png "原子節點：文字"){width="200px"}
+![原子節點：文字](text.resources/comp_text_1.png "原子節點：文字"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 文字節點提供了一種讓使用者在圖表中放置文字的方法。 使用者也可以選擇字型、對齊和旋轉等設定，來自訂文字位置。
 
@@ -37,44 +37,19 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="text.resources/text-tooltip.gif" alt="文字提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 僅支援 Truetype（.ttf）及部分 Opentype 字型。 如果清單中缺少字型，這大概就是原因。 <b>字型不能被當作參數來暴露。</b>
 
 當一個以文字為基礎的圖形發佈到 sbsar 時，字型會嵌入套件中，就像點陣圖和其他資源一樣，以確保它能在所有系統和應用程式中正常運作。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -96,11 +71,6 @@ ht-degree: 1%
 | --- | --- |
 | <b>背景</b> *灰階/彩色* 原色 | 輸出影像的背景色。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

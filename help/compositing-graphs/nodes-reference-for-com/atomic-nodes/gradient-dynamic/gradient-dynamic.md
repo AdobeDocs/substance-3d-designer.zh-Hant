@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/gradient-dynamic.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用漸變（動態）節點來建立可由輸入參數和數值控制的動態漸層。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Gradient (Dynamic)
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 漸變（動態）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 1%
-
+source-wordcount: '313'
+ht-degree: 0%
 ---
-
 
 # 漸變（動態）
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：梯度動態](gradient-dynamic.resources/comp_dyngradient_1.png "原子節點：梯度動態"){width="200px"}
+![原子節點：梯度動態](gradient-dynamic.resources/comp_dyngradient_1.png "原子節點：梯度動態"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 利用另一張影像中由一列或一列像素提供的漸層，重新映射影像中的灰階值。
 
 它作為漸層節點的一個小替代方案，但與漸層節點不同的是，漸層色彩鍵並非內部定義，而是來自外部輸入。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="gradient-dynamic.resources/gradient-dynamic-tooltip.gif" alt="漸變動態工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -45,50 +53,7 @@ ht-degree: 1%
 
 另外，也可用漸層輸入位置滑桿在單一 Ramp 輸入中交替切換多個漸層。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸入連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -105,11 +70,6 @@ ht-degree: 1%
 | <b>灰階輸入</b> *灰階* 初級 | 灰階影像要重新映射。 |
 | <b>梯度輸入</b> *彩色/灰階* | 梯度取樣自此影像 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *彩色/灰階* |  |
 
 ## 範例
 

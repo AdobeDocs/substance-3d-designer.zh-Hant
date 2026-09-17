@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 在 Substance 3D Designer 中存取原子節點，進行基本操作，包括輸入、輸出、混合及色彩調整。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 原子節點
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
-
 ---
-
 
 # 原子節點
 
@@ -129,16 +127,16 @@ ht-degree: 1%
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子節點：輸入顏色](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子節點：輸入顏色](atomic-nodes.resources/comp_inputcolor.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
-[輸入顏色](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入顏色](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)
 
 </td>
 <td style="border: 0;" valign="top">
 
-[![原子節點：輸入灰階](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子節點：輸入灰階](atomic-nodes.resources/comp_inputgrayscale.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
-[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) [&#128279;](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入灰階](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-grayscale/input-grayscale.md)
 
 </td>
 </tr>
@@ -148,9 +146,9 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-[![原子節點：輸入值](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[![原子節點：輸入值](atomic-nodes.resources/comp_inputnumeric.png)](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
-[輸入值](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)
+[輸入值](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-value/input-value.md)
 
 </td>
 <td style="border: 0;" valign="top">

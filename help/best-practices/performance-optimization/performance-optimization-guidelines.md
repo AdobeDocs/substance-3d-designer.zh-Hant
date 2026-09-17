@@ -41,7 +41,7 @@ ht-degree: 0%
 +++
 
 +++切換圖的父解析度較慢
-它會重新計算圖形、快取和所有縮圖。 最好使用[<b>匯出對話框](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的批次</b>標籤，這樣可以避免大量且不必要的重新計算（例如匯出到 8192 解析度時）。
+它會重新計算圖形、快取和所有縮圖。 最好使用[匯出對話框](../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)的批次<b></b>標籤，這樣可以避免大量且不必要的重新計算（例如匯出到 8192 解析度時）。
 
 +++
 

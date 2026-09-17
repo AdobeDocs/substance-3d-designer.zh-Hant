@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習 Substance 合成圖中的繼承運作方式，以建立可重複使用的圖階層與變體。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Inheritance in Substance graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 實質圖中的繼承
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
-
 ---
-
 
 # 實質圖中的繼承
 
@@ -196,7 +194,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 </tr>
 </table>
 
-其中一個輸入可設定為圖形的&#x200B;**主輸入，**&#x200B;方法是點擊&#x200B;**該[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)節點的右鍵**，並在情境選單中選擇&#x200B;**「設定為主要輸入**」選項。
+其中一個輸入可設定為圖形的&#x200B;**主輸入，**&#x200B;方法是點擊&#x200B;**該[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)節點的右鍵**，並在情境選單中選擇&#x200B;**「設定為主要輸入**」選項。
 
 </td>
 <td style="border: 0;" valign="top">

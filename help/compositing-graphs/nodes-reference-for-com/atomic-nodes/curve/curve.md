@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/curve.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Curve 節點調整材質值，使用可自訂曲線來精確控制顏色和亮度。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Curve
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 曲線
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
-
 
 # 曲線
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="200px"}
+![原子節點：曲線](curve.resources/comp_curve_1.png "原子節點：曲線"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 用自訂曲線重新映射影像中的數值。
 
@@ -37,53 +37,19 @@ ht-degree: 0%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="curve.resources/curve-tooltip.gif" alt="曲線提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 與大多數其他節點不同，Curve 節點沒有典型的標準介面，包含滑桿和參數，而是呈現完整的曲線編輯器。 請參閱下方可擴充的使用說明。
 
 [然而，這也意味著曲線節點中的任何參數都無法暴露給子圖](../../../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。 唯一的選擇是使用 [多開關（Multi-Switch](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blending/multi-switch/multi-switch.md) ）來切換不同的曲線曲線。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 參數
-
-### 曲線編輯器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸入連接器
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -105,12 +71,12 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 為了獲得精確結果，曲線節點為每個點提供不同的模式：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-5-36.png)
 
@@ -142,14 +108,14 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 當你輸入 是色彩節點時，你可以調整每個通道的曲線：
 
 只要在右上角的下拉選單中選擇你想通過的曲線：
 
 </td>
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 ![](curve.resources/image2017-2-17-14-52-43.png)
 
@@ -165,7 +131,7 @@ ht-degree: 0%
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 如果你右鍵點擊曲線視圖，會看到更多選項。
 
@@ -259,11 +225,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>輸入</b> *灰階/彩色* 原色 | 要處理的影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

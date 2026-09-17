@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/fx-map.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 FX-Map 節點將函數圖套用到材質上，以建立程序式圖案與效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > FX-Map
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 效果圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 
 # 效果圖
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：FX-Map](fx-map.resources/fxmap.png "原子節點：FX-Map"){width="200px"}
+![原子節點：FX-Map](fx-map.resources/fxmap.png "原子節點：FX-Map"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與邏輯函數控制每個圖案的分布。
 
@@ -37,27 +37,16 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 </tr>
 </table>
 
-類似 [於 Pixel 處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)，你必須定義並建立決定該節點行為與輸出的函式。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="fx-map.resources/fxmap-tooltip.gif" alt="FX-Map 提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+類似 [於 Pixel 處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)，你必須定義並建立決定該節點行為與輸出的函式。
+
 
 >[!TIP]
 >
@@ -67,9 +56,6 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 >
 > 建議在嘗試使用 FX-Map 節點前，對軟體的各個面向非常熟悉，並且能順利建立 [參數的數學函數](../../../../function-graphs/function-graphs.md) 。
 
-## 範例
-
-## 參數
 
 請記住，與其他節點不同，FX-Map 的大部分行為並非由參數決定，而是 [透過編輯其內的 FX-Map 函式](../../../../function-graphs/fxmaps/fxmaps.md) 。
 
@@ -94,11 +80,6 @@ FX-Map 可以反覆複製並細分影像或圖案的輸入，並透過參數與�
 | <b>背景</b> *灰階/彩色* 原色 | 輸出影像的背景色。 |
 | <b>輸入影像#</b> *灰階/彩色* |  |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

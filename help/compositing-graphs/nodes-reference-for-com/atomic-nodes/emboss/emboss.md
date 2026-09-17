@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/emboss.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Emboss 節點在材質上製作壓紋效果，為表面細節增加深度與層次感。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Emboss
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 壓印
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 1%
-
+source-wordcount: '258'
+ht-degree: 0%
 ---
-
 
 # 壓印
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss"){width="200px"}
+![原子節點：Emboss](emboss.resources/comp_emboss_1.png "原子節點：Emboss"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 透過依照指定的光源方向，將影像中形狀的側面打亮，施加壓印效果。
 
@@ -37,42 +37,17 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="emboss.resources/emboss-tooltip.gif" alt="Emboss 工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 這個節點在類似 PBR 的專案中不常用，但在你想要簡單烘焙光照的情況下，它確實能用到。 另外， [Emboss With Gloss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/emboss-with-gloss/emboss-with-gloss.md) 和 [Uber Emboss](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/effects/uber-emboss/uber-emboss.md) 也提供類似但更廣泛的功能。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -90,11 +65,6 @@ ht-degree: 1%
 | <b>輸入</b> *灰階/彩色* 原色 | 提供底色、無陰影的顏色。 把它當作一種擴散或底色質感。 |
 | <b>強度輸入</b> *灰階* | 代表用來計算表面光照的高度圖。 黑色代表低，白色代表高。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

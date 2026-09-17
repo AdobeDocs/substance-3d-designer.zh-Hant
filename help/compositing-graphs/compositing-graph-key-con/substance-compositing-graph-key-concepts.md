@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/substance-compositing-graph-key-concepts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習Substance合成圖的關鍵概念，包括節點、連接與工作流程基礎。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Substance graph key concepts
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 實體圖的關鍵概念
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 4f8830fa9ab6012f0a7ba5054eb171b151c44874
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 0%
-
 ---
-
 
 # 實體圖的關鍵概念
 
@@ -43,7 +41,7 @@ ht-degree: 0%
 * 輸出可以且應該唯一 <b>命名</b> 以識別，這在匯出時很有幫助。
 * 任何節點右側的每個連接器其實都是一個輸出（更多資訊請參見「子圖」）
 
-[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)類似於輸出，是一個空的槽位，供你或其他使用者連接自己的資料。它允許在外部使用者定義的影像資料中建立圖形，例如修改輸入影像的濾鏡（例如模糊或對比度調整）。
+[輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)類似於輸出，是一個空的槽位，供你或其他使用者連接自己的資料。它允許在外部使用者定義的影像資料中建立圖形，例如修改輸入影像的濾鏡（例如模糊或對比度調整）。
 
 以下是你應該知道的幾件關於輸入的事：
 

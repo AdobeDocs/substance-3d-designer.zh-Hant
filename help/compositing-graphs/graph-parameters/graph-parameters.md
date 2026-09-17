@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/graph-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中建立和管理圖表參數，以控制材料屬性與行為。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Graph parameters
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 圖參數
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: de08d20ea8428939ccfd3f31497c0f17421b9254
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '1492'
 ht-degree: 0%
-
 ---
-
 
 # 圖參數
 
@@ -143,7 +141,7 @@ ht-degree: 0%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-在此部分，會列出圖中 [所有的輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點。
+在此部分，會列出圖中 [所有的輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 節點。
 
 你可以用拖放方式重新排序每個物品最左邊的把手。
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/distance.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用距離節點計算形狀的距離貼圖，用於製作遮罩和程序化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Distance
@@ -8,32 +8,40 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 距離
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '395'
 ht-degree: 1%
-
 ---
-
 
 # 距離
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離"){width="200px"}
+![原子節點：距離](distance.resources/comp_distance_1.png "原子節點：距離"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 找出遮罩中最近白色像素的位置，並從該位置輸出漸層，或是來源影像中該位置的顏色。
 
 此節點會從輸入最大值中任意像素在0.5灰階值範圍內產生向外線性漸變（漸層）。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="distance.resources/distance-tooltip.gif" alt="距離提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 
@@ -45,40 +53,7 @@ ht-degree: 1%
 
 更多資訊請參考以下 [範例](#examples) 。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -96,11 +71,6 @@ ht-degree: 1%
 | <b>遮罩輸入</b> *灰階* 初級 | 灰階遮罩，邊界需計算距離值。   從影像中擷取一個二元遮罩，使用0.5的閾值，該閾值以上為白色，低於此閾值為黑色。 |
 | <b>來源輸入</b> *彩色/灰階* | 可選的灰階影像，從中複製「遮罩輸入」最近邊界的像素值。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *彩色/灰階* |  |
 
 ## 範例
 
@@ -108,17 +78,17 @@ ht-degree: 1%
 <tr style="border: 0;">
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex01.gif){width="250px"}
+![](distance.resources/distance-ex01.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex02.gif){width="250px"}
+![](distance.resources/distance-ex02.gif)
 
 </td>
 <td style="border: 0;" valign="top">
 
-![](distance.resources/distance-ex03.gif){width="250px"}
+![](distance.resources/distance-ex03.gif)
 
 </td>
 </tr>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/pixel-processor.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Pixel Processor 節點，透過自訂表達式處理個別像素，進行進階紋理操作。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Pixel processor
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 像素處理器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 
 # 像素處理器
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：像素處理器](pixel-processor.resources/comp_pixelprocessor_1.png "原子節點：像素處理器"){width="200px"}
+![原子節點：像素處理器](pixel-processor.resources/comp_pixelprocessor_1.png "原子節點：像素處理器"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 產生一張影像，每個像素的值是指定 [物質函數圖](../../../../function-graphs/the-function-graph/the-function-graph.md)的結果。
 
@@ -39,31 +39,20 @@ ht-degree: 0%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="pixel-processor.resources/pixel-processor-tooltip.gif" alt="像素處理器工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 與 FX-Map[&#128279;](../../../../function-graphs/fxmaps/fxmaps.md) 類似，它需要設定內部功能才能執行任何操作。Pixel 處理器與 FX-Map 的不同之處在於，它不專注於放置圖案，而是有多項功能控制圖案形狀與位置。 取而代之的是，每個像素都以一個函式並行執行，每個像素都不知道鄰近像素的計算結果。
 
 Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/value-processor/value-processor.md)，僅使用單一值，且能提供比 Pixel 處理器更好的優化。
 
 對於習慣在節點式編輯器中建立 [著色器](../../../../glossary/glossary.md) 函式的人來說，Pixel 處理器應該能提供熟悉的環境。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -75,20 +64,6 @@ Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes
 > 
 > 我們也建議熟悉 UV、[&#128279;](../../../../glossary/glossary.md) [材質取樣](../../../../glossary/glossary.md)和向量的概念。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -103,11 +78,6 @@ Pixel 處理器類似 [於 Value 處理器](../../../../compositing-graphs/nodes
 | --- | --- |
 | <b>輸入影像#</b> *灰階/彩色* | 使用 [樣本色彩](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 或 [樣本灰階](../../../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/sampler-nodes/sampler-nodes.md) 節點來存取指定索引輸入中的數值。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

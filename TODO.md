@@ -1,9 +1,8 @@
 ---
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '87'
 ht-degree: 4%
-
 ---
 # TODO
 
@@ -34,7 +33,6 @@ ht-degree: 4%
 ## 修正方法
 
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
-* 缺少「負整數」項目及 parameters-not-working-as-expected.md 中斷裂連結[&#128279;](help/technical-issues/parameters-not-working/parameters-not-working-as-expected.md)
 
 ## 調查
 

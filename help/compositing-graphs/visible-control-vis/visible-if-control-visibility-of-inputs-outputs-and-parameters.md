@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/visible-if-control-visibility-of-inputs-outputs-and-parameters.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中使用可見的 if 表達式，根據條件控制參數的可見性。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter > Visible if expressions
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 可見的 if 表達式
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 1%
-
 ---
-
 
 # 可見的 if 表達式
 
@@ -27,7 +25,7 @@ ht-degree: 1%
 為達成此目標，你可以在 Visible if</b> 屬性中輸入&#x200B;*邏輯表達<b>*&#x200B;式：
 
 * 圖的 [輸入參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md);
-* 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 節點;
+* 圖的 [輸入](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 節點;
 * 圖的 [輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點。
 
 ![切換輸入參數可見](visible-if-control-visibility-of-inputs-outputs-and-parameters.resources/visible-if-example.gif "性切換輸入參數可見性"){width="512px"}

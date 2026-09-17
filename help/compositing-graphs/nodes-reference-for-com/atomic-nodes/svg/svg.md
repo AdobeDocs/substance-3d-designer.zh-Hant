@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/svg.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 SVG 節點匯入並渲染 SVG 向量圖形作為材質，以建立可縮放的圖形元素。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > SVG
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: SVG
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 0%
-
 ---
-
 
 # SVG
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：SVG](svg.resources/comp_svg_1.png "原子節點：SVG"){width="200px"}
+![原子節點：SVG](svg.resources/comp_svg_1.png "原子節點：SVG"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 將 [SVG 影像](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md) 渲染成點陣圖。 換句話說，就是將向量形狀映射到像素。
 
@@ -37,27 +37,16 @@ ht-degree: 0%
 </tr>
 </table>
 
-你可以從零開始建立節點，或是把 SVG 檔丟進圖譜檢視。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="svg.resources/svg-tooltip.gif" alt="SVG 工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+你可以從零開始建立節點，或是把 SVG 檔丟進圖譜檢視。
+
 
 >[!TIP]
 >
@@ -79,20 +68,6 @@ ht-degree: 0%
 > 
 > 請點此[&#128279;](../../../../resources/vector-graphics-svg-res/vector-graphics-svg-resource.md)了解更多關於這些限制的資訊。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 範例
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -112,11 +87,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>背景</b> *灰階/彩色* 原色 | 設定輸出影像的背景色，或用於未被向量圖形覆蓋的區域。   *連接時會覆蓋「[背景色](#parameters)」參數。* |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/creating-a-substance-compositing-graph/graph-instances-sub-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 利用圖實例與子圖來建立可重複使用的圖元件與模組化材質工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Creating a Substance compositing graph > Graph instances and subgraphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 圖實例與子圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 7e53313d3c368803a95ebb1f9eee712ae2a05817
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
 
 # 圖實例與子圖
 
@@ -42,7 +40,7 @@ ht-degree: 0%
 
 節點可透過選擇節點並在情境選單中使用「從選取中建立圖形」快速分割成新圖。 接著會提示你設定新圖的識別碼，該識別碼應該是唯一的。
 
-請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md) 和 [輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，將這些連結帶到子圖。
+請注意，如果所選節點連接圖中其他節點，你也應該在新圖中建立 [輸入](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md) 和 [輸出](../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md) 節點，將這些連結帶到子圖。
 
 此外，將原始節點替換為引用新圖的實例節點，則應在事後手動完成。
 

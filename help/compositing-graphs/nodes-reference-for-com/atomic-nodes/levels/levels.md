@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/levels.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用等級節點調整材質的亮度、對比度和色調範圍，以進行色彩校正和增強。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Levels
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 關卡
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8b6f65bd88f3c83bf6682c7bca91615166389a91
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 1%
-
+source-wordcount: '552'
+ht-degree: 0%
 ---
-
 
 # 關卡
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：關卡](levels.resources/comp_levels_1.png "原子節點：關卡"){width="200px"}
+![原子節點：關卡](levels.resources/comp_levels_1.png "原子節點：關卡"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 調整影像陰影、中間調與高光的全域色調範圍與色彩平衡。
 
@@ -37,39 +37,25 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="levels.resources/levels-tooltip.gif" alt="關卡提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 它是 Substance 3D Designer 中核心且最實用的節點之一，經常用於重新映射和調整圖表中的數值，因為它提供了最精確且準確的介面來調整數值。
 
 雖然它是重要的節點，但在某些情況下介面會有點笨重，所以一定要考慮 [Auto Level](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/auto-levels/auto-levels.md)、 [Contrast/Luminosity](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/contrast-luminosity/contrast-luminosity.md) 和 [Histogram Scan](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/histogram-scan/histogram-scan.md) 作為替代方案。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-## 範例
-
-## 參數
 
 節點提供兩種介面來調整數值：直方圖與滑桿。 你可以用「特定參數」標頭欄最右邊的按鈕切換：
 
 <table>
 <tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0;" valign="top">
 
 高亮的黃色按鈕用來切換直方圖（上方）數值滑桿（下方）的介面
 
@@ -129,11 +115,6 @@ Levels節點允許你透過設定輸入與輸出重映射因子來重新映射�
 | --- | --- |
 | <b>輸入</b> *灰階/彩色* 原色 | 要處理的影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

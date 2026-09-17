@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Transformation 2D 節點對貼圖套用 2D 轉換，包括平移、旋轉和縮放。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Transformation 2D
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 轉換二維
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9aaf135d4c336ea0cff865524ad1ccd5dcc225bd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 0%
-
 ---
-
 
 # 轉換二維
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="200px"}
+![原子節點：轉換二維](transformation-2d.resources/comp_transformation_1.png "原子節點：轉換二維"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 對影像應用二維轉換矩陣：平移、旋轉、縮放、對稱與剪切。
 
@@ -37,29 +37,18 @@ ht-degree: 0%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="transformation-2d.resources/transformation2d-tooltip.gif" alt="Transformation-2D 工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 這是一個非常有用且廣泛應用的節點，允許增加平鋪、移除平鋪、將影像置於特定位置、拉伸或壓縮輸入等。
 
 然而，它在某些應用上可能無法完全匹配，因此以下節點可能值得關注： [安全轉換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/safe-transform/safe-transform.md)、 [非平方轉換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/non-square-transform/non-square-transform.md)、 [四邊轉換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/quad-transform/quad-transform.md) 及 [梯形轉換](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/transforms/trapezoid-transform/trapezoid-transform.md)。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 >[!TIP]
 >
@@ -73,20 +62,6 @@ ht-degree: 0%
 >
 > 節點屬性中的縮放與旋轉值是 *相對於當前變換*&#x200B;的，直到你點擊「套用」按鈕後才會套用到 2D 視圖。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -105,11 +80,6 @@ ht-degree: 0%
 | --- | --- |
 | <b>輸入</b> *灰階/彩色* 原色 | 那個形象要被改造。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

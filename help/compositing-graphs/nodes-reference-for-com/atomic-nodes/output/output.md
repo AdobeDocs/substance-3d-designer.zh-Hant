@@ -1,39 +1,47 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/output.html"
-breadcrumb-title: ''
-description: ''
+breadcrumb-title: ""
+description: ""
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Output
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 輸出
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 31d4d930c789d693362ef3a16c72016bd030a89b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '793'
 ht-degree: 0%
-
 ---
-
 
 # 輸出
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0; width: 30%; vertical-align: top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：輸出](output.resources/comp_output_1.png "原子節點：輸出"){width="200px"}
+![原子節點：輸出](output.resources/comp_output_1.png "原子節點：輸出"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td style="border: 0; vertical-align: top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 輸出節點指定 <b>物質圖的結果</b> ，或若存在多個輸出節點則指定其結果之一。
 
 連接到圖的輸出節點的影像或值，由任何代表該圖的實例節點輸出[&#128279;](../../../../compositing-graphs/inheritance-compositing/inheritance-in-substance-compositing-graphs.md)，並可[匯出為圖輸出](../../../../compositing-graphs/exporting-bitmaps/exporting-bitmaps.md)。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="output.resources/output-tooltip.gif" alt="輸出工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
 

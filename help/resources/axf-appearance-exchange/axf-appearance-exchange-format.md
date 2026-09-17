@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/resources/axf-appearance-exchange-format.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中匯入並使用 AxF 外觀交換格式資源來匯入材料。
 helpx_creative_field: ""
 helpx_description: Designer > Resources > AxF (Appearance eXchange Format)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: AxF（外觀交換格式）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9b772dfaab124991f6c6420f451179304d2731cd
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
 source-wordcount: '2140'
 ht-degree: 0%
-
 ---
-
 
 # AxF（外觀交換格式）
 
@@ -163,7 +161,7 @@ Resources <b></b> 資料夾會為從 AxF 檔案匯入的每種材料提供一個
 
 對於所有加入模板</b>清單的<b>實體圖範本，會執行以下額外操作：
 
-對於[<b>任何與&#x200B;*從 AxF 檔案擷取的紋理識別碼*&#x200B;相符&#x200B;*的輸入</b>](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input/input.md)節點*，該輸入節點會被一個引用該紋理的節點取代[位圖](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md);
+對於任何[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/input-color/input-color.md)輸入節點，若&#x200B;*其使用*&#x200B;與從 AxF 檔案擷取的紋理識別碼&#x200B;*相符*，該輸入節點會被一個參考該紋理的位圖[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)節點取代;
 
 圖的<b>解析度</b>屬性（即輸出大小）會自動設定為等於或高於最大&#x200B;*擷取紋理解析度*&#x200B;的二的冪次方;
 

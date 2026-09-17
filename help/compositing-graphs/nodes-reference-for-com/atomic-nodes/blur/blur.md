@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blur.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 用模糊節點對貼圖套用模糊效果，讓細節更平滑並創造柔焦效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Blur
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 模糊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: a22681c0410386966a80a0170c62fae57da6ef74
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 2%
-
 ---
-
 
 # 模糊
 
@@ -24,7 +22,7 @@ ht-degree: 2%
 <tr style="border: 0;">
 <td width="41.60%" style="border: 0;" valign="top">
 
-![模糊節點圖示](blur.resources/blur-9.png){width="200px"}
+![模糊節點圖示](blur.resources/blur-9.png)
 
 **收錄於：** 原子節點
 
@@ -40,6 +38,14 @@ ht-degree: 2%
 雖然模糊適合快速且簡單的操作，例如稍微柔化邊緣，但在更嚴苛的情境 [下，Blur HQ](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/blur-hq/blur-hq.md) 是更好的選擇，兩者在效能和品質之間取得平衡。
 
 </td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%"></td>
+<td style="border: 0; text-align: center"><img src="blur.resources/blur-tooltip.gif" alt="模糊工具提示" /></td>
+<td style="border: 0; width: 15%"></td>
 </tr>
 </table>
 

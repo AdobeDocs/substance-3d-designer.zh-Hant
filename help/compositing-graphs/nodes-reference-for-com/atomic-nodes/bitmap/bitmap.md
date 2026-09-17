@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/bitmap.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Bitmap 節點匯入並使用 bitmap 影像作為 Substance 合成圖中的貼圖。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Bitmap
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 位圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 989234054615406114d2f7664ebee6f8c86f4bf2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '456'
 ht-degree: 0%
-
 ---
-
 
 # 位圖
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：點陣](bitmap.resources/comp_bitmap.png "圖原子節點：點陣圖"){width="200px"}
+![原子節點：點陣](bitmap.resources/comp_bitmap.png "圖原子節點：點陣圖"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 將 [點陣圖資源](../../../../resources/bitmap-resource/bitmap-resource.md) 載入圖中。
 
@@ -39,27 +39,16 @@ ht-degree: 0%
 </tr>
 </table>
 
-你可以從零開始建立節點，或是將 [支援格式的點陣](../../../../glossary/glossary.md) 圖放入圖譜檢視中。
-
 <table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="bitmap.resources/bitmap-tooltip.gif" alt="點陣圖提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
 </tr>
 </table>
+
+你可以從零開始建立節點，或是將 [支援格式的點陣](../../../../glossary/glossary.md) 圖放入圖譜檢視中。
+
 
 >[!TIP]
 >
@@ -74,30 +63,6 @@ ht-degree: 0%
 > * 另一方面，刪除 [檔案總管中的位圖資源](../../../../resources/bitmap-resource/bitmap-resource.md) 時要小心：該資源仍能在該工作階段的圖表中運作，因為它被存放在快取中，但下次載入 [套件](../../../../glossary/glossary.md)時該資源會被標記為遺失。
 > * 當 Substance 圖被 [煮熟](../../../../glossary/glossary.md)時，點陣解析度會固定在圖中解析度，而非基於原始大小。 建議確保點陣圖節點的「輸出大小」 [基參數](../../../../glossary/glossary.md) 使用「絕對」 [繼承方法](../../../../glossary/glossary.md)，節點後 [接一個設定為「相對於父節點」（即主機圖解析度）的二維](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 轉換節點。
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 參數
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 點陣圖繪製工具
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -111,11 +76,6 @@ ht-degree: 0%
 
 點陣圖可以在 Designer 中編輯。 在本節[&#128279;](../../../../resources/bitmap-resource/bitmap-painting-tools/bitmap-painting-tools.md)了解更多編輯工具的資訊。
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

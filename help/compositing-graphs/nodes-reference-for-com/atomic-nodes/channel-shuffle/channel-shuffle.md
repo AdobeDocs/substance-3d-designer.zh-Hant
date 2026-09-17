@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/channel-shuffle.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Channels Shuffle 節點在材質中重新排列色彩通道，來創造色彩效果和通道切換。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Channels shuffle
@@ -8,26 +8,26 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 頻道切換
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: ca8beeed4bcddc6518237761ba87c319a1624018
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 1%
-
+source-wordcount: '267'
+ht-degree: 0%
 ---
-
 
 # 頻道切換
 
 <table>
 <tr style="border: 0;">
-<td width="33.33%" style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌"){width="200px"}
+![原子節點：頻道洗牌](channel-shuffle.resources/comp_shuffle.png "原子節點：頻道洗牌"){width="100%"}
+
+<b>收錄於：</b> 原子節點
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
 將一或兩個輸入影像的色彩通道重新排列成輸出影像。
 
@@ -39,42 +39,17 @@ ht-degree: 1%
 </tr>
 </table>
 
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="channel-shuffle.resources/channels-shuffle-tooltip.gif" alt="頻道洗牌工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
+
 頻道洗牌有基本選項，但在大多數頻道打包或剝離並設定 Alpha 頻道的情況下，使用 [RGBA 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-merge/rgba-merge.md)、 [RGBA 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/rgba-split/rgba-split.md)、 [Alpha 合併](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-merge/alpha-merge.md) 和 [Alpha 分割](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/channels/alpha-split/alpha-split.md)會更快。 它們被設定成執行預設動作，不需要更改多個參數，之後再轉換成灰階。 如果你想要更進階、有更多混合選項的版本，可以看看 [Channel Mixer](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/adjustments/channel-mixer/channel-mixer.md)。
 
-<table>
-<tr style="border: 0;">
-<td width="100.00%" style="border: 0;" valign="top">
 
-
-
-</td>
-<td width="83.33%" style="border: 0;" valign="top">
-
-
-
-</td>
-<td width="100.00%" style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 輸出連接器
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 範例
-
-</td>
-</tr>
-</table>
 
 ## 參數
 
@@ -92,11 +67,6 @@ ht-degree: 1%
 | <b>輸入 1</b> *彩色/灰階* PRIMARY | 主要輸入影像。 |
 | <b>輸入 2</b> *彩色/灰階* | 次要輸入影像。 |
 
-## 輸出連接器
-
-|  |  |
-| --- | --- |
-| <b>產出</b> *灰階/彩色* |  |
 
 ## 範例
 

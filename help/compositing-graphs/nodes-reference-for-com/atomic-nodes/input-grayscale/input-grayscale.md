@@ -1,50 +1,55 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input.html"
-breadcrumb-title: ''
-description: 使用 Input 節點建立 Substance 圖表的輸入參數，供使用者公開與調整。
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/input-grayscale.html"
+breadcrumb-title: ""
+description: 使用 Input 灰階節點建立 Substance 圖形的灰階輸入參數，供使用者曝光與調整。
 helpx_creative_field: ""
-helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input
+helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Atomic nodes > Input grayscale
 helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
-title: 輸入
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+title: 輸入灰階
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '804'
 ht-degree: 0%
-
 ---
 
-
-# 輸入
+# 輸入灰階
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:33.33%; vertical-align:top" width="33.33%" valign="top">
 
-![原子節點：輸入顏色](input.resources/comp_inputcolor_1.png "原子節點：輸入顏色"){width="200px"}
+![原子節點：輸入灰階](input-grayscale.resources/comp_inputgrayscale_1.png "原子節點：輸入灰階"){width="100%"}
 
-</td>
-<td style="border: 0;" valign="top">
-
-![原子節點：輸入灰階](input.resources/comp_inputgrayscale_1.png "原子節點：輸入灰階"){width="200px"}
+<b>收錄於：</b> 原子節點
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0; width:66.66%; vertical-align:top" width="66.66%" valign="top">
 
-![原子節點：輸入值](input.resources/comp_inputnumeric_1.png "原子節點：輸入值"){width="200px"}
-
-</td>
-</tr>
-</table>
+## 說明
 
 輸入節點是一種特殊類型的節點，會在你的圖中創造動態槽位，讓任何輸入在圖被用於其他情境時都能被連接起來。
 
 與 [輸出節點](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)不同，你必須明確放置色彩、灰階或值輸入。 無法自行建立「中立」輸入，並根據連接的裝置改變類型。
 
-輸入節點不如輸出節點[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter) 時。
+輸入節點不如輸出節點[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)重要：你可以擁有完美運作且先進的圖形，不需要輸入。輸入只在你想以外部輸入為基礎來製作圖形或節點實例結果時使用，例如在建立 [實例](../../../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 或 [Substance 3D Painter 的濾鏡](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/effects/filter) 時。
+
+另見： [輸入顏色](../input-color/input-color.md)、 [輸入值](../input-value/input-value.md)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr style="border: 0">
+<td style="border: 0; width: 15%" width="15%"></td>
+<td style="border: 0; text-align: center" align="center"><img src="input-grayscale.resources/input-grayscale-tooltip.gif" alt="輸入灰階工具提示" /></td>
+<td style="border: 0; width: 15%" width="15%"></td>
+</tr>
+</table>
 
 ## 參數
 
@@ -61,11 +66,11 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>識別碼</b> *弦* | 唯一必須且獨特的屬性。 不可包含空格。   這個模組用於標記輸入（如果沒有設定標籤），以及區分不同的輸出。 不要只把這些設定放在「input\_1」！ |
+| <b>識別碼</b> *弦* | 唯一必須且獨特的屬性。 不可包含空格。 這個模組用於標記輸入（如果沒有設定標籤），以及區分不同的輸出。 不要只把這些設定放在「input\_1」！ |
 | <b>描述</b> *弦* | Designer 函式庫與 Painter 書架中使用的可選描述。 |
-| <b>唱片公司</b> *弦* | UI 標籤 用於 Designer 和 Painter UI 中漂亮的標籤。 可以包含空格。   建議用類似識別碼的名稱，只是用空白鍵代替底線。 |
+| <b>唱片公司</b> *弦* | UI 標籤 用於 Designer 和 Painter UI 中漂亮的標籤。 可以包含空格。 建議用類似識別碼的名稱，只是用空白鍵代替底線。 |
 | <b>使用者資料</b> *弦* | 額外且可選的使用者資料可用於特定的過濾操作，基本上是一個萬用字元、自訂資料欄位。 |
-| <b>團體</b> *弦* | Group 屬性用於將輸入群組在一起，用於設計者的 [連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。   具有相同（大小寫區分）群組屬性的輸入，將以單一連接方式呈現為緊湊材質模式。 |
+| <b>團體</b> *弦* | Group 屬性用於將輸入群組在一起，用於設計者的 [連結建立模式](../../../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)。 具有相同（大小寫區分）群組屬性的輸入，將以單一連接方式呈現為緊湊材質模式。 |
 
 ## 繼承
 
@@ -81,7 +86,7 @@ ht-degree: 0%
 </td>
 <td width="25%" style="border: 0;" valign="top">
 
-![Substance 圖中的主要輸入](input.resources/node-primary-input.png)
+![Substance 圖中的主要輸入](input-grayscale.resources/node-primary-input.png)
 
 </td>
 </tr>
@@ -112,6 +117,6 @@ ht-degree: 0%
 
 |  |  |
 | --- | --- |
-| <b>組成部分</b> *弦* | 這決定了最終輸入中實際包含哪些通道。   這是舊有設定，現在已經不再被積分和圖形使用。 |
+| <b>組成部分</b> *弦* | 這決定了最終輸入中實際包含哪些通道。 這是舊有設定，現在已經不再被積分和圖形使用。 |
 | <b>使用情況</b> *弦* | 為此輸入定義一種型別或使用方式。 它指示其他節點應該如何連接到這個輸入。 |
 | <b>色彩空間</b> *弦* | 設定該輸入應解讀的色彩空間。 |

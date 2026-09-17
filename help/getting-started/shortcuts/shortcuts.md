@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/shortcuts.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習 Substance 3D Designer 中的快捷鍵，以加快工作流程並提升生產力。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Shortcuts
@@ -8,25 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 捷徑
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c460f605a97021efd2143941c28a977e12452299
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '339'
 ht-degree: 9%
-
 ---
-
 
 # 捷徑
 
 在此頁面上，您可以找到 Substance 3D Designer 所有捷徑的概述。
-
-## 目錄
-
-[鍵圖](#keymaps)
-
-[捷徑列表](#shortcuts-lists)
 
 ## 鍵圖
 
