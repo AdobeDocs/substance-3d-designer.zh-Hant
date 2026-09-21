@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-dirty.html"
 breadcrumb-title: ""
 description: 使用 Grunge Scratches Dirty 節點來新增髒刮痕圖案，創造風化和老化的材質效果。
 helpx_creative_field: ""

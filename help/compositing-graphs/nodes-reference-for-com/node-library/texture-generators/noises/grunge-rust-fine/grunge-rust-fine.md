@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rust-fine.html"
 breadcrumb-title: ""
 description: 使用 Grunge Rust Fine 節點生成細緻的鏽蝕圖案，為金屬增添腐蝕和風化效果。
 helpx_creative_field: ""

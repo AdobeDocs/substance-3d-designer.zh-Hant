@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-006.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-map-006.html"
 breadcrumb-title: ""
 description: 使用 Grunge Map 006 節點生成程序化的垃圾搖滾圖案，以創造老化與風化的材料表面。
 helpx_creative_field: ""

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/fur-2.html"
 breadcrumb-title: ""
 description: 使用 Fur 2 節點來建立毛皮貼圖，並加強模擬頭髮和纖維材質的控制。
 helpx_creative_field: ""
