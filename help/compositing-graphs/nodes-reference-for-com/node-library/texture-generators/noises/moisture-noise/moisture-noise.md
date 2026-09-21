@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/moisture-noise.html"
+breadcrumb-title: ""
 description: 使用濕度噪音節點產生濕氣和凝結圖案，創造濕潤表面效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Moisture noise 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 濕氣噪音 1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '365'
 ht-degree: 1%
-
 ---
-
 
 # 濕氣噪音 1
 
@@ -71,32 +69,23 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![濕氣噪音 1 - 範例 1](moisture-noise.resources/moisture_noise_1_1.png "濕氣噪音 1 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![濕氣雜訊1 - 範例2](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif "濕氣雜訊1 - 範例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![濕氣雜訊1 - 範例3](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif "濕氣雜訊1 - 範例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![濕氣雜訊1 - 範例4](moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif "濕氣雜訊1 - 範例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/moisture_noise_1_1.png" class="modal-image" alt="濕氣雜訊 1 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="濕氣噪音 1 - 範例 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="濕氣噪音 1 - 範例 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="moisture-noise.resources/noise_moisture_noise_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="濕氣噪音 1 - 範例 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

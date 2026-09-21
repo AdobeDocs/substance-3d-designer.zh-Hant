@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise.html"
+breadcrumb-title: ""
 description: 利用白噪音節點產生白噪音模式，創造材質變化與隨機效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 白噪音
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '145'
 ht-degree: 2%
-
 ---
-
 
 # 白噪音
 
@@ -59,17 +57,14 @@ ht-degree: 2%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![白噪音 - 範例1](white-noise.resources/white_noise_v2_1.png "白噪音 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![白噪音 - 範例2](white-noise.resources/white_noise_v2_speed0.6_aniso0.gif "白噪音 - 範例2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="white-noise.resources/white_noise_v2_1.png" class="modal-image" alt="白噪音 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="white-noise.resources/white_noise_v2_speed0.6_aniso0.gif" class="modal-image" alt="白噪音 - 範例二" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

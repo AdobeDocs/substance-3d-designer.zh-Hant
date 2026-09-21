@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-spots-dirty.html"
+breadcrumb-title: ""
 description: 使用 Grunge Spots 的髒污節點來添加髒污點圖案，創造風化與老化的材質效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Spots Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 垃圾搖滾辨識骯髒
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '124'
 ht-degree: 2%
-
 ---
-
 
 # 垃圾搖滾辨識骯髒
 
@@ -55,13 +53,14 @@ ht-degree: 2%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant2.jpg" class="modal-image" alt="垃圾搖滾發現髒污 - 範例一" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-spots-dirty.resources/grungespotsdirty-variant.jpg" class="modal-image" alt="垃圾搖滾 Spots Dirty - 範例二" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
