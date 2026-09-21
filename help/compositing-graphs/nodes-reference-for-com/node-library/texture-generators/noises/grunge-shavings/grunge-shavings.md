@@ -31,7 +31,7 @@ ht-degree: 1%
 
 ## 說明
 
-**Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中的 [Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
+**Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中的 Grunge Shavings** 節點會產生一張類似散落在表面上的 grunge 地圖。
 
 </td>
 </tr>
