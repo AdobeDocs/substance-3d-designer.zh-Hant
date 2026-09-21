@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-scratches-rough.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Grunge Scratches Rough 節點加入粗糙刮痕圖案，創造重度磨損和損傷效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Scratches Rough
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 垃圾搖滾刮刮粗糙
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '258'
 ht-degree: 1%
-
 ---
-
 
 # 垃圾搖滾刮刮粗糙
 
@@ -66,13 +64,14 @@ ht-degree: 1%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant.jpg" class="modal-image" alt="Grunge 刮擦粗糙 - 範例一" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-scratches-rough.resources/grungescratchesrough-variant2.jpg" class="modal-image" alt="垃圾搖滾刮擦粗糙 - 範例二" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

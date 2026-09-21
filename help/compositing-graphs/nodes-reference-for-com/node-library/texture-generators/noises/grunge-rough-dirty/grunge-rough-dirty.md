@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-rough-dirty.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Grunge Rough Dirty 節點來產生粗糙與髒污泥的材質，以添加風化表面細節。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Rough Dirty
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 垃圾搖滾 粗獷 骯髒
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 988f0cb19339a2ab3ca4ef392fef7ca723254cd9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 2%
-
+source-wordcount: '157'
+ht-degree: 1%
 ---
-
 
 # 垃圾搖滾 粗獷 骯髒
 
@@ -57,13 +55,14 @@ ht-degree: 2%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant.jpg" class="modal-image" alt="垃圾搖滾粗獷髒髒 - 範例一" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-rough-dirty.resources/grungeroughdirty-variant2.jpg" class="modal-image" alt="垃圾搖滾粗獷髒髒 - 範例二" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

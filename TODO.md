@@ -1,8 +1,8 @@
 ---
-source-git-commit: cd632984ee7783acd19a9a8ea2945130a1855935
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 ---
 # TODO
 
@@ -29,6 +29,9 @@ ht-degree: 4%
   * 效果圖
   * 像素處理器
   * 預設集
+* 更新 AGENTS.md 與管理技能：
+  * 圖片：置中、放大
+  * 表格：自動/固定版面、文字對齊
 
 ## 修正方法
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi-fractal.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 3D Voronoi 分形節點，根據 3D 位置產生分形 Voronoi 圖案，用於體積紋理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi Fractal
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 沃羅諾伊分形
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 
 # 3D 沃羅諾伊分形
 
@@ -74,27 +72,27 @@ ht-degree: 0%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant6.jpg" class="modal-image" alt="3D Voronoi 分形 - 範例 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant2.jpg" class="modal-image" alt="3D Voronoi 分形 - 範例 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant4.jpg" class="modal-image" alt="3D 沃羅諾伊分形 - 範例 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant5.jpg" class="modal-image" alt="3D Voronoi 分形 - 範例 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant.jpg" class="modal-image" alt="3D Voronoi 分形 - 範例 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi-fractal.resources/3dvoronoifractal-variant3.jpg" class="modal-image" alt="3D Voronoi 分形 - 範例 6" />
         </td>
     </tr>
 </table>

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/white-noise-fast.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用白噪音快速節點產生快速白噪音模式，以快速變化貼圖與隨機化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > White Noise Fast
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 白噪音快訊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: db5ad9a6ad1d03fedcc3d760cc8886501d16b87f
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
-
+source-wordcount: '70'
+ht-degree: 2%
 ---
-
 
 # 白噪音快訊
 
@@ -41,10 +39,12 @@ ht-degree: 3%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="white-noise-fast.resources/white-noise-fast-1.png" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="white-noise-fast.resources/white-noise-fast-1.png" class="modal-image" alt="白噪音快速播放 - 範例一" />
         </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
     </tr>
 </table>

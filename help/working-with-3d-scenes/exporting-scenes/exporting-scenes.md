@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 在 Designer 裡用 3D View 場景選單中的「匯出場景」動作，匯出所有編輯的 3D 場景。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Exporting scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 匯出場景
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 1%
-
+source-wordcount: '366'
+ht-degree: 0%
 ---
-
 
 # 匯出場景
 
@@ -31,26 +29,6 @@ ht-degree: 1%
 > Designer 新增到場景的所有項目都會包含在匯出的場景中：預設相機、預設環境，所有材質都會複製任何額外的燈光。
 
 ![場景匯出動作](exporting-scenes.resources/exportActions.png "場景匯出動作"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 匯出場景
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 將場景匯出為圖層
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 材質
-
-</td>
-</tr>
-</table>
 
 ## 匯出場景
 

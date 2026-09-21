@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/messy-fibers-3.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Messy Fibers 3 節點生成複雜的纖維圖案，創造布料與紡織質感效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Messy fibers 3
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 混亂纖維 3
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 5a6c28b9acabf15714a1fd8bb4e7593192555fa2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '309'
 ht-degree: 1%
-
 ---
-
 
 # 混亂纖維 3
 
@@ -68,32 +66,23 @@ Messy 纖維</b>結構噪音的變體<b>。
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![混亂纖維3 - 範例1](messy-fibers-3.resources/messy_fibers_3_1.png "混亂纖維3 - 範例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![混亂纖維3 - 範例2](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif "混亂纖維3 - 範例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![雜亂纖維3 - 範例3](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif "雜亂纖維3 - 範例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![混亂纖維3 - 範例4](messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif "混亂纖維3 - 範例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/messy_fibers_3_1.png" class="modal-image" alt="混亂纖維3 - 範例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.gif" class="modal-image" alt="雜亂纖維 3 - 範例 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso1.gif" class="modal-image" alt="混亂纖維 3 - 範例 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="messy-fibers-3.resources/noise_messy_fibers_3_v2_speed0.1_aniso0.6.gif" class="modal-image" alt="混亂纖維 3 - 範例 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

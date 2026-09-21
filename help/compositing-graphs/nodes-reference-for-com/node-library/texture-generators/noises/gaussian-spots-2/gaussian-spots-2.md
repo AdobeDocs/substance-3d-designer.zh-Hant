@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/gaussian-spots-2.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Gaussian Spots 2 節點來產生進階的高斯點圖案，以創造有機的紋理變化。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Gaussian spots 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 高斯斑點 2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: a2d6381b9bf224008fa412ef70c9b63b9b2756e8
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '260'
 ht-degree: 1%
-
 ---
-
 
 # 高斯斑點 2
 
@@ -66,32 +64,23 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![高斯斑點 2 - 範例 1](gaussian-spots-2.resources/gaussian_spots_2_1.png "高斯斑點 2 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![高斯斑點 2 - 範例 2](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif "高斯斑點 2 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![高斯斑點2 - 範例3](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif "高斯斑點2 - 範例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![高斯斑點2 - 範例4](gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif "高斯斑點2 - 範例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/gaussian_spots_2_1.png" class="modal-image" alt="高斯斑點 2 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso0.gif" class="modal-image" alt="高斯斑點 2 - 範例 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.6_aniso1.gif" class="modal-image" alt="高斯斑點 2 - 範例 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="gaussian-spots-2.resources/noise_gaussian_spots_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="高斯斑點 2 - 範例 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

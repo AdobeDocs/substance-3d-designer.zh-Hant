@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 中匯入、編輯及操作 3D 場景，以預覽並測試你的材質。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 與3D場景合作
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '862'
 ht-degree: 0%
-
 ---
-
 
 # 與3D場景合作
 
@@ -32,26 +30,6 @@ Designer 允許你載入 [3D 場景](../glossary/glossary.md) ，在上下文中
 匯出為 USD 格式時，此工作流程可完全 <b>非破壞</b>性，僅匯出編輯與新增內容。
 
 首先，你需要載入一個 3D 場景來處理，並且能在 Designer 中跨次工作階段保留其狀態。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 3D 場景內容
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 載入場景
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 場景狀態檔案
-
-</td>
-</tr>
-</table>
 
 ## 3D 場景內容
 

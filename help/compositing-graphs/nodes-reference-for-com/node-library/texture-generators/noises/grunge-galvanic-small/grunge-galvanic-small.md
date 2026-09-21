@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/grunge-galvanic-small.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 利用 Grunge 電化小節點產生小規模的電化學腐蝕圖案，以達到金屬風化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Grunge Galvanic Small
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 垃圾搖滾電鋼小隊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1668632724231982c98a508ae7f87642c5888648
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '133'
 ht-degree: 2%
-
 ---
-
 
 # 垃圾搖滾電鋼小隊
 
@@ -56,13 +54,14 @@ ht-degree: 2%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant2.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant2.jpg" class="modal-image" alt="Grunge Galvanic Small - 範例 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant.jpg" />
+        <td style="border: 0;">
+            <img src="grunge-galvanic-small.resources/grungegalvanicsmall-variant.jpg" class="modal-image" alt="Grunge Galvanic Small - 範例 2" />
         </td>
+        <td style="border: 0;"></td>
     </tr>
 </table>
