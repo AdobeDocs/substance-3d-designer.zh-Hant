@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/overriding-scene-materials.html"
+breadcrumb-title: ""
 description: 在 3D 場景中覆寫現有材質，並用你自己的 Substance 材質來測試和預覽。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Overriding scene materials
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 覆蓋場景素材
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '889'
 ht-degree: 0%
-
 ---
-
 
 # 覆蓋場景素材
 
@@ -25,26 +23,6 @@ ht-degree: 0%
 你的材質可以從零開始建立，也可以是經過調整的場景材質，再 [提取成物質圖](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)。
 
 ![覆寫場景材質、微調並將其重置到場景狀態](overriding-scene-materials.resources/tweakOverriddenMaterial.gif "覆寫場景材質、微調並將其重置為場景狀態"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 覆蓋場景素材
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 重置到場景狀態
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 連通材料
-
-</td>
-</tr>
-</table>
 
 ## 覆蓋場景素材
 

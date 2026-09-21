@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/extracting-materials-values-and-textures.html"
+breadcrumb-title: ""
 description: 從 3D 場景中擷取材質屬性，用於 Substance 圖，用於材質製作工作流程。
 helpx_creative_field: ""
 helpx_description: Designer > Working with 3D scenes > Extracting materials values and textures
@@ -8,39 +8,17 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 提取材質值與紋理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fa12f0ba789f700924fa0a6f3cbc0726c5f468e9
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: b1404a9f03e3156f5fba0e499bbe41dbc79b7308
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '853'
 ht-degree: 0%
-
 ---
-
 
 # 提取材質值與紋理
 
 材料的性質可以被提取出來，用於物質圖。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 來自貼圖的新圖表
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 萃取質地
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 萃取值
-
-</td>
-</tr>
-</table>
 
 ## 來自貼圖的新圖表
 

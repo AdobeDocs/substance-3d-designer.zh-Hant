@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-1.html"
+breadcrumb-title: ""
 description: 利用 Cells 1 節點產生基本的細胞圖案，創造有機與生物紋理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 細胞1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '360'
 ht-degree: 1%
-
 ---
-
 
 # 細胞1
 
@@ -73,32 +71,23 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![格子 1 - 範例 1](cells-1.resources/cells_1_1.png "格子 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![格子 1 - 範例 2](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif "格子 1 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![格子 1 - 範例 3](cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif "格子 1 - 範例 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![格子 1 - 範例 4](cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif "格子 1 - 範例 4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-1.resources/cells_1_1.png" class="modal-image" alt="單元 1 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.3.gif" class="modal-image" alt="單元 1 - 範例 2" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.5_aniso0.6.gif" class="modal-image" alt="單元 1 - 範例 3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-1.resources/noise_cells_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="單元 1 - 範例 4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

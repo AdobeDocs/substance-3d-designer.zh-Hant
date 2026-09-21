@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/3d-voronoi.html"
+breadcrumb-title: ""
 description: 使用 3D Voronoi 節點根據 3D 世界位置產生 Voronoi 圖案，以建立體積細胞紋理。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > 3D Voronoi
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 沃羅諾伊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '563'
 ht-degree: 0%
-
 ---
-
 
 # 3D 沃羅諾伊
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
 <b>3D Voronoi</b> 節點根據位置圖</b>輸入在 3D 空間<b>中產生 Voronoi 雜訊。
 
-此節點可用 Cube 3D GBuffers[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試。
+此節點可用 Cube 3D GBuffers](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/cube-3d-gbuffers/cube-3d-gbuffers.md) 作為輸入，取代實際烘焙的貼圖（如下方範例圖片所示）進行測試[。
 
 </td>
 </tr>
@@ -68,27 +66,27 @@ ht-degree: 0%
 
 ## 範例
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" />
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant.jpg" class="modal-image" alt="3D Voronoi - 範例 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant5.jpg" class="modal-image" alt="3D Voronoi - 範例 2" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant2.jpg" class="modal-image" alt="3D Voronoi - 範例 3" />
         </td>
     </tr>
-    <tr style="border: 0; background: transparent">
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" />
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant4.jpg" class="modal-image" alt="3D Voronoi - 範例 4" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant3.jpg" class="modal-image" alt="3D Voronoi - 範例 5" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" />
+        <td style="border: 0;">
+            <img src="3d-voronoi.resources/3dvoronoi-variant6.jpg" class="modal-image" alt="3D Voronoi - 範例 6" />
         </td>
     </tr>
 </table>

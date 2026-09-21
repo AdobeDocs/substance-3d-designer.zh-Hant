@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/directional-scratches.html"
+breadcrumb-title: ""
 description: 使用方向刮痕節點來創造方向性刮痕圖案，為材質添加磨損和損壞效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Directional scratches
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 方向刮擦
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '345'
 ht-degree: 1%
-
 ---
-
 
 # 方向刮擦
 
@@ -68,47 +66,25 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向刮擦 - 範例 1](directional-scratches.resources/directional_scratches_1.png "方向刮擦 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![方向刮擦 - 範例 2](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif "方向刮擦 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向刮擦 - 範例 3](directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif "方向刮擦 - 範例 3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![方向刮痕 - 範例 4](directional-scratches.resources/noise-directional-scrat-1.gif "方向刮痕 - 範例 4"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![方向性刮擦 - 範例 5](directional-scratches.resources/noise-directional-scrat-2.gif "方向性刮擦 - 範例 5"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/directional_scratches_1.png" class="modal-image" alt="方向性刮擦 - 範例一" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.gif" class="modal-image" alt="方向性刮痕 - 範例二" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scratches-speed0.3-aniso0.6.gif" class="modal-image" alt="方向刮痕 - 範例三" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-1.gif" class="modal-image" alt="方向刮擦 - 範例四" />
+        </td>
+        <td style="border: 0;">
+            <img src="directional-scratches.resources/noise-directional-scrat-2.gif" class="modal-image" alt="方向性刮痕 - 範例 5" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

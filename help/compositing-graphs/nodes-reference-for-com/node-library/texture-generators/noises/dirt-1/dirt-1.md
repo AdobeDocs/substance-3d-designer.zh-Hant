@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/dirt-1.html"
+breadcrumb-title: ""
 description: 使用 Dirt 1 節點生成基本泥土圖案，用於製作風化表面細節和累積效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Dirt 1
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 泥土1
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 1241ebb4d1e67c9ed9d86285a6397ddc335e0f37
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '247'
 ht-degree: 1%
-
 ---
-
 
 # 泥土1
 
@@ -66,32 +64,23 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![泥土1 - 範例1](dirt-1.resources/dirt_1_1.png "泥土1 - 範例1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![泥土1 - 範例2](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif "泥土1 - 範例2"){zoomable="yes"}
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![泥土1 - 範例3](dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif "泥土1 - 範例3"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![泥土1 - 範例4](dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif "泥土1 - 範例4"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-1.resources/dirt_1_1.png" class="modal-image" alt="泥土1 - 範例1" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso0.gif" class="modal-image" alt="泥土1 - 範例2" />
+        </td>
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.6_aniso1.gif" class="modal-image" alt="泥土1 - 範例3" />
+        </td>
+    </tr>
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="dirt-1.resources/noise_dirt_1_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="泥土1 - 範例4" />
+        </td>
+        <td style="border: 0;"></td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

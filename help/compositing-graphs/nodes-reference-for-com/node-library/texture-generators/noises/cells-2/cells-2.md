@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/cells-2.html"
+breadcrumb-title: ""
 description: 利用 Cells 2 節點產生中間細胞圖案，創造有機與生物質感效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Cells 2
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 細胞2
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 77626800e9c3434a519ca045aad1e185d9dc1476
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 1%
-
+source-wordcount: '200'
+ht-degree: 2%
 ---
-
 
 # 細胞2
 
@@ -66,17 +64,14 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![格子 2 - 範例 1](cells-2.resources/cells_2_1.png "格子 2 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![格子 2 - 範例 2](cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif "格子 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="cells-2.resources/cells_2_1.png" class="modal-image" alt="細胞 2 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="cells-2.resources/noise_cells_2_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="單元 2 - 範例 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>

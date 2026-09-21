@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/texture-generators/noises/anisotropic-noise.html"
+breadcrumb-title: ""
 description: 使用各向異性雜訊節點來產生方向性雜訊圖案，以創造各向異性紋理效果。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Nodes reference for Substance compositing graphs > Node library > Texture Generators > Noises > Anisotropic noise
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 各向異性雜訊
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 8be4dabbdf7bd618ca2ee21c64655952474b9df2
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 5c22e4674afb51c0dcb1334853e889ea0f5bc748
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '240'
 ht-degree: 1%
-
 ---
-
 
 # 各向異性雜訊
 
@@ -67,17 +65,14 @@ ht-degree: 1%
 
 ## 範例
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-![各向異性雜訊 - 範例 1](anisotropic-noise.resources/anisotropic_noise_v2_1.png "各向異性雜訊 - 範例 1"){zoomable="yes"}
-
-</td>
-<td style="border: 0;" valign="top">
-
-![各向異性雜訊 - 範例 2](anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif "各向異性雜訊 - 範例 2"){zoomable="yes"}
-
-</td>
-</tr>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/anisotropic_noise_v2_1.png" class="modal-image" alt="各向異性雜訊 - 範例 1" />
+        </td>
+        <td style="border: 0;">
+            <img src="anisotropic-noise.resources/noise_anisotropic_noise_v2_speed0.3_aniso0.6.gif" class="modal-image" alt="各向異性雜訊 - 範例 2" />
+        </td>
+        <td style="border: 0;"></td>
+    </tr>
 </table>
