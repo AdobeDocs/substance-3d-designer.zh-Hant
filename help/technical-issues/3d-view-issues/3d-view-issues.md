@@ -52,7 +52,7 @@ Substance 3D Designer 不使用系統的 *獨立* GPU（<b>dGP</b>），而是�
 ![（滴答）](3d-view-issues.resources/check.svg)**建議步驟**
 
 3D 視圖中可用的鑲嵌技術，透過細分網格以在使用位移時提供更多細節，這包含一個準備步驟，無論實際是否施加鑲嵌，都會執行。
-本節](../../interface/3d-view/displacement/displacement.md#per-mesh)的[提示是透過關閉場景中每個`Mesh`物件的細分處理來解決效能問題。
+本節[&#128279;](../../interface/3d-view/displacement/displacement.md#per-mesh)的提示是透過關閉場景中每個`Mesh`物件的細分處理來解決效能問題。
 
 ## 3D 物體是平面的
 
@@ -104,7 +104,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 支援的 GPU 包括 NVIDIA RTX 20 系列（圖靈）或更高版本，依據 Designer 的 [系統需求](../../getting-started/system-requirements/system-requirements.md)。
 
-你可以預設繼續使用 OpenGL 渲染器，方法是在專案設定](../../interface/preferences-window/project-settings/project-settings.md)中新增[選項：
+你可以預設繼續使用 OpenGL 渲染器，方法是在專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中新增選項：
 
 1. 前往編輯>偏好設定>專案
 2. 選擇列表中最後一個專案檔案
@@ -134,7 +134,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 支援的 GPU 包括 NVIDIA RTX 20 系列（圖靈）或更高版本，依據 Designer 的 [系統需求](../../getting-started/system-requirements/system-requirements.md)。
 
-在預設設定下，如果專案設定](../../interface/preferences-window/project-settings/project-settings.md)中的「預設渲染器」選項設為「預設（預設渲染器）」[，3D 視圖會自動退回到 OpenGL 渲染器。
+在預設設定下，如果專案設定[&#128279;](../../interface/preferences-window/project-settings/project-settings.md)中的「預設渲染器」選項設為「預設（預設渲染器）」，3D 視圖會自動退回到 OpenGL 渲染器。
 
 你可以依照以下步驟找到並調整這個選項：
 
@@ -157,7 +157,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 ![（錯誤）](3d-view-issues.resources/error.svg)**子嗣**
 
-在處理傳送到&#x200B;**高度**[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的資料後，物件看起來有些體積，但&#x200B;*看起來完全平滑*，彷彿在陰影中忽略了高度資訊。
+在處理傳送到&#x200B;**高度**&#x200B;[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的資料後，物件看起來有些體積，但&#x200B;*看起來完全平滑*，彷彿在陰影中忽略了高度資訊。
 
 <table style="margin-left: 0; margin-right: 0;">
 <tr style="border: 0;">
@@ -165,11 +165,11 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 ![（滴答）](3d-view-issues.resources/check.svg)**建議步驟**
 
-確保高度資料已轉換為連接到&#x200B;**法線**[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的法線&#x200B;*。*
+確保高度資料已轉換為連接到&#x200B;**法線**&#x200B;[輸出](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/output/output.md)的法線&#x200B;*。*
 
 使用 **鑲嵌位移技術（Tessellation Displacement** technique）時（見上文「3D 物件是平面的」），物件可能會 *隨高度資料變形* ，但其表面 *不會對光有* 不同反應，除非 *法線* 也被修改以考慮高度資料。
 
-解決方案很簡單：將流中最後一個節點連接到 Normal [](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 節點。根據你正在處理的材質調整該節點的 **強度** 參數，並將法線節點連接到 **法線** 輸出。
+解決方案很簡單：將流中最後一個節點連接到 Normal [&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/normal/normal.md) 節點。根據你正在處理的材質調整該節點的 **強度** 參數，並將法線節點連接到 **法線** 輸出。
 
 </td>
 <td style="border: 0; width: 40%; vertical-align: top">
@@ -231,7 +231,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 例如，刻度為 2 且偏壓為 -1，將 x 值 `[0, 1]` 從 調整到 `[-1, 1]` 如下： `x * 2 - 1`。
 
-除非由 3D 網格指定，否則 Designer 不會套用法線縮放和偏壓。 若缺少該資訊，覆蓋任何資料](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時[，控制台會發出警告：
+除非由 3D 網格指定，否則 Designer 不會套用法線縮放和偏壓。 若缺少該資訊，覆蓋任何資料[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時，控制台會發出警告：
 
 ```
 [SceneGraph]No 'scale' or 'bias' defined on the UsdUVTexture shader '/root/material/<materialName>' (the rendering may be incorrect)
@@ -242,7 +242,7 @@ Designer [15.0.0](../../release-notes/version-15-0/version-15-0.md) 推出了我
 
 對於之前匯出成 USD 格式的場景：用最新版本的 USD 重新匯出場景，該版本會包含必要的資料。 如果有與正常比例和偏壓相關的屬性，請特別注意，這會依匯出場景的軟體而異。
 
-在覆寫材質](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時[，Designer 會處理網格並計算與其法線、切線和雙法線相關的缺失資料。如果 Designer 預設的縮放和偏壓恰好符合網格所需的，那麼覆蓋後的網格看起來就會正確。
+在覆寫材質[&#128279;](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)時，Designer 會處理網格並計算與其法線、切線和雙法線相關的缺失資料。如果 Designer 預設的縮放和偏壓恰好符合網格所需的，那麼覆蓋後的網格看起來就會正確。
 
 ## 啟動 3D 檢視時當機
 

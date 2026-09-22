@@ -71,7 +71,7 @@ ht-degree: 0%
 >鑲嵌技術包含一個無論實際是否進行鑲嵌都會持續的準備步驟。 （也就是說） `Tessellation factor = 1`
 >對於高多邊形網格，此步驟可能耗時且在使用位移時顯著影響效能。
 >
->如果不需要鑲嵌，你可以在場景瀏覽器](../scene-browser/scene-browser.md#scene-tree)中物件的[屬性`Mesh`中設定 **Refine level** 參數為 ，`0`完全停用此技術。
+>如果不需要鑲嵌，你可以在場景瀏覽器[&#128279;](../scene-browser/scene-browser.md#scene-tree)中物件的屬性`Mesh`中設定 **Refine level** 參數為 ，`0`完全停用此技術。
 
 ### 依材質分類
 
