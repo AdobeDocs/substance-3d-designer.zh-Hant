@@ -1,7 +1,7 @@
 ---
-source-git-commit: 0f214099ae94088d37122a5d474d3e70d4ccf46f
+source-git-commit: 2266f844db20e938884afc335de4a6f753dff288
 workflow-type: tm+mt
-source-wordcount: '102'
+source-wordcount: '107'
 ht-degree: 3%
 ---
 # TODO
@@ -35,6 +35,7 @@ ht-degree: 3%
 
 ## 修正方法
 
+* 修復頁面中 `BnW spots 2` 破損的圖片
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
 
 ## 調查
