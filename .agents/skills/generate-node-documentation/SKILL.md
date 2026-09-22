@@ -1,13 +1,12 @@
 ---
 name: generate-node-documentation
-description: ""
-source-git-commit: 475af5f27b827f66289993dbd8367904c1baf42b
+description: |
+  如何撰寫一個 Substance 3D Designer 的節點參考頁面，使其與 help/compositing-graphs/nodes-reference-for-com/node-library/ 之間的標準版面相符。 每當建立或編輯節點頁面（節點描述、輸入、輸出、參數或範例）時，請使用此技能，該頁面位於該節點函式庫樹或等效的函數節點/原子節點參考頁面下。 涵蓋資料夾/目錄慣例、簡潔前置、圖示/描述表、錨定的輸入/輸出/參數表，以及範例畫廊。 對於一般的 Adobe Experience League Markdown 規則（如呼叫、連結、UICONTROL/DNL、圖片）請使用 write-experience-league-markdown 技能;此技能僅涵蓋節點頁面結構。 典型範例：help/compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md
+source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 4%
-
+source-wordcount: '976'
+ht-degree: 3%
 ---
-
 
 # 產生節點文件
 
@@ -23,12 +22,12 @@ ht-degree: 4%
 * 該資料夾命名為 kebab-case 節點標題;它包含&#x200B;**一個**`.md`檔案名稱完全相同。
 * 頁面內嵌的所有媒體（圖示、範例圖片、GIF 都存在於姊 **妹節點中
   `<node-name>.resources/`**`.md`資料夾 與 並列 ，並以相對路徑（例如 `<node-name>.resources/<file>.png`）。 不要將節點頁面指向共享 `help/assets/` 資料夾——也就是逐漸淘汰的舊有模式;新 和編輯後的頁面會使用自己的 `.resources` 資料夾。
-* 每一頁在 中都有對應的條目。`help/guide/TOC.md`在新增或移動頁面、更新 `TOC.md` 與資料夾配置（參見 CLAUDE.md 的資料夾/目錄）大會）。
+* 每一頁在 中都有對應的條目。`help/guide/TOC.md`在新增或移動頁面、更新 `TOC.md` 與資料夾配置合而為一（參見 AGENTS.md 的資料夾/目錄）大會）。
 
 ## 前言
 
 節點頁面僅使用 **最小** 區塊， `title` 且採用麵包屑式
-`description`. （這與 11 欄位的舊有區塊文件 CLAUDE.md 不同常規內容頁。）
+`description`. （這與 11 欄位的遺留區塊文件 AGENTS.md 不同常規內容頁。）
 
 ```yaml
 ---
@@ -76,6 +75,8 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 * 內嵌重音為 `<b>…</b>` / `<i>…</i>`。
 * 開場旁白在句首使用 `<i>Note:</i>` / `<i>Tip:</i>` 。
 * 在 HTML 裡用`&gt;`來做 `In:` `>` 。以類別為例 /子類別名稱來自節點本身;不要自己創造。
+* 對於有多個版本的節點（例如彩色/灰階/明暗或編號變體）如同格子1/格子2），並附上最後一段描述，引用彼此具有相對連結的版本，中間以單一換行分隔。 範例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. 可選的呼喊
 
@@ -130,24 +131,25 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 
 ### &#x200B;7. 範例
 
-僅在有範例圖片或 GIF 時才包含。 使用 HTML 圖庫表格;一個 `<td>`每張圖片附有可選說明;三張圖片後換行為新圖片 `<tr>` 。 媒體路徑指向頁面資料夾 `.resources` 。
+僅在有範例圖片或 GIF 時才包含。 使用無邊框、固定版面的 HTML圖庫表格;每張圖片一張 `<td>` ;三張圖片後換新 `<tr>` 一張。 媒體路徑指向頁面資料夾 `.resources` 。 每個都用 HTML `<img>` 元素範例中，當 `class="modal-image"` ，已發佈的影像在標準中開啟影像檢視器。 提供 `alt` 有意義的文字，以識別節點與範例數字。 請勿在本畫廊中使用 Markdown 影像語法。
 
 ```html
 ## Examples
 
-<table style="margin-top: 32px; margin-bottom: 32px">
-    <tr style="border: 0">
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file>.gif" /><br><i>Caption</i>
+<table style="table-layout:fixed">
+    <tr style="border: 0;">
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file>.gif" class="modal-image" alt="<Node title> - Example 1" />
         </td>
-        <td style="border: 0; background: transparent">
-            <img src="./<node-name>.resources/<file2>.jpg" /><br><i>Another caption</i>
+        <td style="border: 0;">
+            <img src="<node-name>.resources/<file2>.jpg" class="modal-image" alt="<Node title> - Example 2" />
         </td>
     </tr>
 </table>
 ```
 
-在部分填滿的最後一行中，將尾隨單元格保持空（`<td …></td>`），而不是正在回流。 如果來源沒有說明文字，請省略。
+保留桌子 `style="table-layout:fixed"` 和 `style="border: 0;"`屬性與圖所示完全相同;不要添加邊框、邊界或背景樣式。
+在最後一排部分填滿的後續格子保持空（`<td style="border: 0;"></td>`） 而不是回流。 使用現有的圖片順序與檔名。 如果頁面有說明文字，請保留為 `alt` 文字而不是加上可見的標題標記。 當頁面沒有範例媒體。
 
 ## 典範型別值
 

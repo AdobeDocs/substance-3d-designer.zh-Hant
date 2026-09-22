@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 場景瀏覽器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 0%
-
 ---
-
 
 # 場景瀏覽器
 
@@ -30,26 +28,6 @@ ht-degree: 0%
 
 ![場景瀏覽器 - 已載入的 3D 場景](scene-browser.resources/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
 
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 場景樹
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 切換場景中的物件
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 連接材料
-
-</td>
-</tr>
-</table>
-
 ## 場景樹
 
 <table>
@@ -59,6 +37,8 @@ ht-degree: 0%
 場景瀏覽器會顯示以階層樹狀排列的物件清單。
 
 物件會被子系到其他物件，直到場景的根節點。 父物件有一個箭頭按鈕，用來展開或摺疊其子物件的清單。
+
+有些物件的屬性可以在屬性底座中選取時顯示和編輯[&#128279;](../../../interface/properties/properties.md)：環境、攝影機、燈光、`Mesh`物件和材質[覆蓋](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 檢視
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: c7bf2522b15bef308d1471ca234c6619091f95fc
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '3514'
+source-wordcount: '3549'
 ht-degree: 0%
-
 ---
-
 
 # 3D 檢視
 
@@ -169,20 +167,21 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 請注意，Designer [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md) 著色器不同，只有標有「Common」標籤的設定在切換渲染器時會保留。
 
-要更改目前的著色器，請前往<b> </b>「材料」選單，然後開啟你想編輯的素材子選單。
+要更改目前的著色器，請到 **材質** 選單，然後打開你想編輯材質的子選單。
 
-例如，要調整「平面（高解析度）」場景中「預設」材質的「高度比例」屬性，請前往「材質>預設>編輯屬性」。 接著在屬性底座找到「高度比例」屬性。
+例如，要調整「平面（高解析度）」場景中「材質」的材質屬性`Default`，請前往 **「材質>預設」>「編輯屬性**」。 然後在物業碼頭找到該材料屬性。
 
 著色器可以透過子選單中的「重置材質」或「重置到場景狀態」動作來重置。 如果你是在 3D 視圖中查看 Substance 圖的輸出，你需要重新套用它們。
 
 >[!NOTE]
 >
-> 關於鑲嵌
+> **關於鑲嵌**
 > 
-> 「Tessellation factor」屬性會依所選 3D 渲染器而異：
+> 網格的鑲嵌可以透過位移彈出視窗中的鑲嵌因子&#x200B;**參數來調整**。[&#128279;](displacement/displacement.md#tessellation)
+> 該參數所控制的特定性質會依目前的 3D 渲染器而異：
 > 
-> * <b>光柵器/GPU 路徑追蹤器：</b> 位於渲染器設定（渲染器>編輯設定），會影響 *整個場景*。
-> * <b>OpenGL：</b> 位於材料屬性中，影響材料。
+> * **光柵化器/GPU 路徑追蹤器：** 每個物件的屬性，名為 **Refine 層**&#x200B;級。 在場景瀏覽器[&#128279;](scene-browser/scene-browser.md)中選擇物件`Mesh`以顯示其屬性並直接編輯。
+> * **OpenGL：** 一種稱為 **Tessellation factor** 的材質屬性。 直接到 [材質屬性](#change-shader-properties) 編輯。
 
 ![匯出場景](3d-view.resources/3d-view-export-scene.gif "匯出場景")
 
