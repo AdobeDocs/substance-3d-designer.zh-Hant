@@ -75,8 +75,8 @@ description: "Designer > Substance compositing graphs > Nodes reference for Subs
 * 內嵌重音為 `<b>…</b>` / `<i>…</i>`。
 * 開場旁白在句首使用 `<i>Note:</i>` / `<i>Tip:</i>` 。
 * 在 HTML 裡用`&gt;`來做 `In:` `>` 。以類別為例 /子類別名稱來自節點本身;不要自己創造。
-* 對於有多個版本的節點（例如彩色/灰階/明暗或編號變體）如同格子1/格子2），並附上最後一段描述，引用彼此具有相對連結的版本，中間以單一換行分隔。 範例： `See also: [Input
-grayscale](../input-grayscale/input-grayscale.md), [Input value](../input-value/input-value.md)`。
+* 對於有多個版本的節點（例如彩色/灰階/明暗或編號變體）如同格子1/格子2），並附上最後一段描述，引用彼此具有相對連結的版本，中間以單一換行分隔。 範例： &grave;See also: [&#128279;](../input-grayscale/input-grayscale.md)Input
+grayscale, [Input value](../input-value/input-value.md)&grave;。
 
 ### &#x200B;3. 可選的呼喊
 

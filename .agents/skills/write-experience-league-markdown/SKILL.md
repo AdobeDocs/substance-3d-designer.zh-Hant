@@ -136,8 +136,8 @@ Experience League 透過自訂流程渲染 GitHub 風味的 Markdown還有自己
 </table>
 ```
 
-* 支援的表格元素包括 `<table>`、 `<tbody>`、 `<thead>``<tfoot>`、
-  `<tr>`、、`<th>``<td>`、`<col>``<colgroup>`、以及 ，以及 ，以及 支持內嵌元素如 `<p>`、 `<br>`、 `<ol>``<b>``<i>``<ul>`和
+* 支援的表格元素包括 `<table>`、 `<tbody>`、 `<thead>`&#x200B;`<tfoot>`、
+  `<tr>`、、`<th>`&#x200B;`<td>`、`<col>`&#x200B;`<colgroup>`、以及 ，以及 ，以及 支持內嵌元素如 `<p>`、 `<br>`、 `<ol>`&#x200B;`<b>`&#x200B;`<i>`&#x200B;`<ul>`和
   `<li>`.
 * 不要在 HTML 表格中使用 Markdown 語法。 例如，Markdown筆記、圖片和連結可能會直接呈現;請改用 HTML 語法。
   `UICONTROL` 而 `DNL` 本地化標籤則是例外。
@@ -151,7 +151,7 @@ Experience League 透過自訂流程渲染 GitHub 風味的 Markdown還有自己
 ## 程式碼
 
 * 內嵌代碼：單一回溯刻數。
-* 有圍欄區塊：三重回溯，並可選語法語言標註（` ```python `、 ` ```javascript `，等）。
+* 有圍欄區塊：三重回溯，並可選語法語言標註（` `&#x200B;``python `、 ` ``&#x200B;`javascript `，等）。
 
 ## 筆記/警示區塊
 
@@ -171,7 +171,7 @@ Experience League 透過自訂流程渲染 GitHub 風味的 Markdown還有自己
 >This is an IMPORTANT note.
 ```
 
-支援類型：`NOTE`， `TIP`， `IMPORTANT`， `CAUTION``WARNING`，
+支援類型：`NOTE`， `TIP`， `IMPORTANT`， `CAUTION`&#x200B;`WARNING`，
 `ADMINISTRATION`, `AVAILABILITY`, `PREREQUISITES`, `ERROR`, `INFO`, `SUCCESS`.
 
 ## 影片嵌入
