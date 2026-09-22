@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+breadcrumb-title: ""
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Scene browser
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 場景瀏覽器
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 9297416d538a70b80b8be3b2d23a3c442a79a23b
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '789'
 ht-degree: 0%
-
 ---
-
 
 # 場景瀏覽器
 
@@ -26,29 +24,9 @@ ht-degree: 0%
 
 由於 Designer 使用 [USD](https://openusd.org/release/index.html) 來描述和管理其場景，其術語與概念都位於該場景樹中。
 
-透過點擊 3D 視圖場景工具列[&#128279;](../../../interface/3d-view/3d-view.md)中專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
+透過點擊 3D 視圖場景工具列](../../../interface/3d-view/3d-view.md)中[專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
 
 ![場景瀏覽器 - 已載入的 3D 場景](scene-browser.resources/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 場景樹
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 切換場景中的物件
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 連接材料
-
-</td>
-</tr>
-</table>
 
 ## 場景樹
 
@@ -59,6 +37,8 @@ ht-degree: 0%
 場景瀏覽器會顯示以階層樹狀排列的物件清單。
 
 物件會被子系到其他物件，直到場景的根節點。 父物件有一個箭頭按鈕，用來展開或摺疊其子物件的清單。
+
+有些物件的屬性可以在屬性底座中選取時顯示和編輯[：環境、攝影機、燈光、`Mesh`物件和材質[覆蓋](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。](../../../interface/properties/properties.md)
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -87,7 +67,7 @@ ht-degree: 0%
 
 當使用「編輯...」時，在燈光、攝影機和環境選單中操作，這些都是被編輯的物件，無論場景中是否有其他燈光、攝影機或環境。
 
-這些物件在匯出[&#128279;](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時會包含在場景中。
+這些物件在匯出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時[會包含在場景中。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">

@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 使用位移彈出視窗快速調整 3D 場景中套用在網格上的位移與細分。
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 3D 視圖 - 位移彈出視窗
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 
 # 位移彈出視窗
 
@@ -67,6 +65,13 @@ ht-degree: 0%
 使用 [光柵化器](../3d-renderers/3d-renderers.md#rasterizer) 或 [GPU Pathtracer](../3d-renderers/3d-renderers.md#gpu-pathtracer) 渲染器時，場景中的每個網格物件都有 *獨立的*&#x200B;細分值。
 
 細分是情境性化的：它優化的方式是只有具有 *非均勻高度值* 的表面，或&#x200B;*非平面高度圖*&#x200B;會被細分，無論參數值為何。
+
+>[!TIP]
+>
+>鑲嵌技術包含一個無論實際是否進行鑲嵌都會持續的準備步驟。 （也就是說） `Tessellation factor = 1`
+>對於高多邊形網格，此步驟可能耗時且在使用位移時顯著影響效能。
+>
+>如果不需要鑲嵌，你可以在場景瀏覽器](../scene-browser/scene-browser.md#scene-tree)中物件的[屬性`Mesh`中設定 **Refine level** 參數為 ，`0`完全停用此技術。
 
 ### 依材質分類
 

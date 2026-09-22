@@ -1,6 +1,6 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/camera/post-effects.html"
-breadcrumb-title: ''
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+breadcrumb-title: ""
 description: 對 3D 視角相機套用後製效果，以增強材質預覽與視覺化效果。
 helpx_creative_field: ""
 helpx_description: Designer > Interface > 3D view > Camera > Post effects
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 後續影響
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 45cd3aec3baf2c35bae9e48540f6e7fb3a665541
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 10be7678f386c925d4bff6d59e2b85ffc04becd8
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 2%
-
+source-wordcount: '726'
+ht-degree: 1%
 ---
-
 
 # 後續影響
 
@@ -27,31 +25,6 @@ ht-degree: 2%
 這些效果是內部開發的，僅提供給 Rasterizer 和 GPU Pathtracer [渲染器](../../../../interface/3d-view/3d-renderers/3d-renderers.md)使用。
 
 在儲存 [3D 場景資源](../../../../resources/3d-scene-resource/3d-scene-resource.md) 或 [場景狀態檔案](../../../../working-with-3d-scenes/working-with-3d-scenes.md) 時啟用的任何後製效果，都會被保存為場景狀態的一部分。
-
-<table>
-<tr style="border: 0;">
-<td style="border: 0;" valign="top">
-
-## 色調對應
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 光暈
-
-</td>
-<td style="border: 0;" valign="top">
-
-### 景深
-
-</td>
-<td style="border: 0;" valign="top">
-
-
-
-</td>
-</tr>
-</table>
 
 ## 色調對應
 
