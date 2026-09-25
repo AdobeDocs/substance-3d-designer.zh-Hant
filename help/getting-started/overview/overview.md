@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
 helpx_description: Designer > Getting started > Overview
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 概觀
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: baf36ab85717512cc9e52d67d00293eabb5ebcf6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '923'
 ht-degree: 0%
-
 ---
-
 
 # 概觀
 
@@ -24,13 +22,13 @@ ht-degree: 0%
 
 以下是它與其他應用的比較：
 
-|  | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
-| --- | --- | --- | --- |
-| <b>學習曲線</b> | 低 | 中 | 高 |
-| <b>作者資料</b> | 是的 | 是的 | 是的 |
-| <b>作者 3D 模型</b> | 不 | 有限\* | 有限\* |
-| <b>作者過濾器、模式與效果</b> | 不 | 限制 | 是的 |
-| <b>匯出參數內容</b> | 不 | 不 | 是的 |
+|                                          | <div><img alt="Substance 3D 取樣圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c1_position_position-par_image_713298714" src="overview.resources/sa-appicon-noshadow-256.png" title="Substance 3D 取樣圖示" width="64px"/></div>  Substance 3D 取樣器 | <div><img alt="Substance 3D Painter 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c2_position_position-par_image" src="overview.resources/pt-appicon-noshadow-256.png" width="64px"/></div>  Substance 3D 畫家 | <div><img alt="Substance 3D Designer 圖示" class="" data-preserve-html="true" id="root_content_flex_items_position_position-par_dynamic_grid_items_grid-cell_position-par_dx_table_row-r0-column-c3_position_position-par_image" src="overview.resources/ds-appicon-noshadow-256.png" title="Substance 3D Designer 圖示" width="64px"/></div>  Substance 3D Designer |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **學習曲線** | 低 | 中 | 高 |
+| **作者資料** | 是的 | 是的 | 是的 |
+| **作者 3D 模型** | 不 | 有限\* | 有限\* |
+| **作者過濾器、模式與效果** | 不 | 限制 | 是的 |
+| **匯出參數內容** | 不 | 不 | 是的 |
 
 \*：僅位移，請參見 <b>3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能。
 
@@ -44,13 +42,13 @@ ht-degree: 0%
 
 Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不同複雜度的方式製作內容。 [工作流程會在專門頁面](../../getting-started/workflow-overview/workflow-overview.md)中進一步說明，但以下是使用該軟體的好處：
 
-<b>[非線性](../../compositing-graphs/substance-compositing-graphs.md)</b>：你可以同時撰寫多個貼圖輸出。編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是 Basecolor、Roughness、Normal 等貼圖。
+**[非線性](../../compositing-graphs/substance-compositing-graphs.md)：** 你可以同時撰寫多個材質輸出。 編輯一個遮罩或滑桿，任何連接的輸出都會自動重新計算。 不再需要另外製作像是底色、粗糙度、法線等貼圖。
 
-<b>[非破壞](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)</b>性：你可以逆轉任何動作&#x200B;*而不*&#x200B;損失任何工作。這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
+**[非破壞性](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)：** 你可以逆轉任何動作 *而不* 損失任何工作。 這樣可以更快地反覆迭代和實驗，找到更有效率的工作流程。
 
-<b>[整合烘焙](../../bakers/bakers.md)</b>：在軟體內直接使用先進且極速的網狀烘焙工具。你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
+**[整合烘焙](../../bakers/bakers.md)：** 在軟體內直接存取先進且極速的網狀烘焙工具。 你不再需要在獨立軟體中進行烘焙，也不必進行冗長的匯入和匯出流程。
 
-<b>[參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)</b>化：你可以透過單一滑桿或下拉選單來控制材質的幾乎任何面向。這讓你能在單一資產上加入無限的控制與變化。
+**[參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)化：** 你幾乎可以透過一個滑桿或下拉選單來控制材質的任何面向。 這讓你能在單一資產上加入無限的控制與變化。
 
 ## 檔案類型
 
@@ -58,35 +56,36 @@ Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不�
 
 <table>
 <tr style="border: 0;">
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/ds-sbs-48.png)
 
-### 物質3D檔案
+**Substance 3D 檔案**\
+（包裹）
 
-*(\*.SBS）*
+`\*.sbs`
 
 Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Substance 檔案時，你可以 **檢視並編輯圖**&#x200B;中的所有節點。 它們以套件形式呈現，可以包含任意數量的資源，如圖表、函式、位圖、網格等。它們較難分享，計算速度較慢。 它們只能在 Substance 3D Designer 和 Substance Player 中開啟。
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/sbsar-48.png)
 
-### Substance 3D 資產
+**Substance 3D 檔案庫**
 
-*(\*.SBSAR）*
+`\*.sbsar`
 
 Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
 
 </td>
-<td style="border: 0;" valign="top">
+<td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### 靜態檔案
+**靜態檔案**
 
-*(\*.TGA、\*.BMP、\*.PNG、\*。FBX、\*。OBJ等...*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer 始終支援匯出為靜態檔案格式。 2D 影像可以匯出成點陣圖檔案，3D 模型可以匯出成常見的 3D 檔案類型。 匯出為靜態檔案時， **所有動態功能都會消失**。 影像被鎖定在解析度上，3D 模型被鎖定在多邊形數量上。
 
@@ -102,12 +101,12 @@ Substance 3D 檔案可以包含多種資源，這些資源服務於不同的用�
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/graph-5.png){width="150px"}](../../compositing-graphs/substance-compositing-graphs.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
 ### 物質圖
 
@@ -121,12 +120,12 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/function-1.png){width="150px"}](../../function-graphs/function-graphs.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
 ### 實體函數圖
 
@@ -140,12 +139,12 @@ Substance 圖允許你產生並處理 *2D 影像資料* ，然後輸出到一個
 
 <table>
 <tr style="border: 0;">
-<td width="16.67%" style="border: 0;" valign="top">
+<td width="16.67%" style="border: 0;">
 
 [![](overview.resources/folder-4.png){width="150px"}](../../resources/importing-linking-and-new/importing-linking-and-new-resources.md)
 
 </td>
-<td width="100.00%" style="border: 0;" valign="top">
+<td width="100.00%" style="border: 0;">
 
 ### 非圖資源
 

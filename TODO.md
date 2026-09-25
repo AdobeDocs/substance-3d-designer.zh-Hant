@@ -1,8 +1,8 @@
 ---
-source-git-commit: e888ac71160a080fffba861f2bb716dcd56008a6
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 2%
+source-wordcount: '229'
+ht-degree: 1%
 ---
 # TODO
 
@@ -31,9 +31,15 @@ ht-degree: 2%
 * 更新 AGENTS.md 與管理技能：
   * 圖片：置中、放大
   * 表格：自動/固定版面、文字對齊
+* DESIGNER-12465： `Refine level` 當高度圖缺失或平坦時，參數為惰性
+* DESIGNER-12652：指引使用者 OpenGL 渲染器的效能故障排除指南
+* DESIGNER-11866：色調映射函數
+* DESIGNER-10655：新增範例 + 參考資料以支援 Pixel 處理器與 FX-Maps 的範例專案
+
 
 ## 修正方法
 
+* overview.md 中固定圖示 [大小](help/getting-started/overview/overview.md)
 * 修復頁面中 `BnW spots 2` 破損的圖片
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
 
@@ -41,7 +47,7 @@ ht-degree: 2%
 
 * 前後對比組件
 
-## 學習中心
+## 學習中心（`learning` 分校）
 
 - 了解哪些會阻擋下載 SBS 檔案（有人在這裡[&#128279;](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問過）
 - 了解我們如何在不公開或納入目錄的情況下，進行即時測試頁面
