@@ -37,7 +37,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 實例化圖表是 Designer 中的一個關鍵流程。 它允許你透過將圖或圖的一部分打包成可重複使用的節點來建立自己的節點。 這些稱為 [實例節點](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) ，透過重複使用圖表來提升工作效率。\
 舉例來說：你有沒有發展出一套很棒的邊緣磨損技巧？ 把它拆分成獨立的圖表，並在其他專案中重複使用！
 
-關於圖實例的更多資訊，有[專門的區塊](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)介紹其在 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)中的[應用。
+關於圖實例的更多資訊，有[專門的區塊](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md)介紹其在 Substance 圖[&#128279;](../../compositing-graphs/substance-compositing-graphs.md)中的應用。
 
 ![圖參數簡化](workflow-overview.resources/parameters-5.png "圖參數"){zoomable="yes"}
 
@@ -46,7 +46,7 @@ Substance 3D Designer 是一款基於節點的編輯器。 這表示幾乎所有
 操作鏈中的任何節點都會有某種控制：按鈕、滑桿、可調整的設定，這些都會影響最終結果。\
 如果你建立子圖或想將 Substance 檔案匯出到其他應用程式，你可以為圖表建立自己的「控制面板」，讓其他使用者能用完全獨特的控制面板調整和修改圖表。
 
-在這裡](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)了解自訂參數[的基本概念，或者更深入[地開始揭露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。
+在這裡[&#128279;](../../compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)了解自訂參數的基本概念，或者更深入[地開始揭露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)。
 
 ## 圖類型
 
@@ -124,7 +124,7 @@ Substance 圖是 [支援最廣泛的圖](../../getting-started/overview/overview
 
 函式可用於多種情境，主要包括：
 * 修改暴露參數的 [行為](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)
-* 撰寫像素處理器](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或[FX-Map的行為[](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
+* 撰寫像素處理器[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/pixel-processor/pixel-processor.md)或FX-Map的行為[&#128279;](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/fx-map/fx-map.md)
 * 在 Substance 圖中，為了特定目的使用 [數值](../../compositing-graphs/values-compositing-graphs/values-in-substance-compositing-graphs.md) 而非圖片
 
 </td>
@@ -139,7 +139,7 @@ Substance 圖是 [支援最廣泛的圖](../../getting-started/overview/overview
 
 ![簡單函數圖簡單函數圖](workflow-overview.resources/lerpfunction.png ""){width="256px" zoomable="yes"}
 
-在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則使用 0.8，中間的任何值會線性插值。 這種函式在暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見[，但會使用自訂函數。
+在暴露參數的情境下，這是一個簡單的函數。 它會得到一個名為「強度」的輸入浮點數值，該值從 0 到 1（一個容易理解的範圍），並重新映射到 0.1 到 0.8 的設定範圍。 這表示如果使用者將強度設為 0，內部會使用 0.1;如果 UI 設為 1，則使用 0.8，中間的任何值會線性插值。 這種函式在暴露參數[&#128279;](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時很常見，但會使用自訂函數。
 
 這個函式也可以以類似 HLSL 或 GLSL 的偽代碼來撰寫 `lerp(0.1, 0.8, Intensity)` 。
 

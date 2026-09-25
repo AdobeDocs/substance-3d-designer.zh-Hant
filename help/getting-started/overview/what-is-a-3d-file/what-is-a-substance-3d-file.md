@@ -24,7 +24,7 @@ Substance 圖之所以動態，是因為與傳統點陣圖檔案不同，Substan
 
 例如，可以即時改變物體上的灰塵量、足球隊球衣的顏色，或切割石地板的圖案。 你的想像力幾乎是唯一的限制。
 
-套件可以&#x200B;*發佈*&#x200B;到已編譯的自包含 **Substance 3D 檔案**&#x200B;檔（`*.sbsar`），使其所包含的圖形能用於有 Substance 整合](https://www.adobe.com/products/substance3d/plugins.html)的[外部應用程式。
+套件可以&#x200B;*發佈*&#x200B;到已編譯的自包含 **Substance 3D 檔案**&#x200B;檔（`*.sbsar`），使其所包含的圖形能用於有 Substance 整合[&#128279;](https://www.adobe.com/products/substance3d/plugins.html)的外部應用程式。
 
 Substance 圖可以產生 100% 程序化&#x200B;**的紋理**，導致套件檔案大小非常輕巧。
 

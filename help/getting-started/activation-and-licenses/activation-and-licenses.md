@@ -34,8 +34,8 @@ ht-degree: 0%
 
 有三種選擇：
 
-* <b>評估此產品</b>：舊有試驗已不再提供。 你可以在這裡或使用 Creative Cloud Desktop 開始為每個 Substance 3D 應用程式[](https://www.adobe.com/creativecloud/3d-augmented-reality.html)開啟 30 天試用。每個試驗都獨立於其他Substance 3D應用程式，所以你可以一次嘗試一個或全部。
-* <b>使用授權檔案</b>啟用：請於 2022 年 9 月 30 日前，使用 Substance 3D 網站](https://store.substance3d.com/user)帳號頁面[下載的授權檔案（<b>\*.key</b>）啟用產品。
+* <b>評估此產品</b>：舊有試驗已不再提供。 你可以在這裡或使用 Creative Cloud Desktop 開始為每個 Substance 3D 應用程式[&#128279;](https://www.adobe.com/creativecloud/3d-augmented-reality.html)開啟 30 天試用。每個試驗都獨立於其他Substance 3D應用程式，所以你可以一次嘗試一個或全部。
+* <b>使用授權檔案</b>啟用：請於 2022 年 9 月 30 日前，使用 Substance 3D 網站[&#128279;](https://store.substance3d.com/user)帳號頁面下載的授權檔案（<b>\*.key</b>）啟用產品。
 * <b>使用您的帳戶</b>啟用：舊有物質帳戶已無法再用於啟用。
 
 >[!IMPORTANT]

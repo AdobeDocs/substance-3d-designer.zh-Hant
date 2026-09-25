@@ -70,7 +70,7 @@ ht-degree: 0%
 >
 > **TDR（僅限 Windows）**
 > 
-> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保&#x200B;**逾時偵測與恢復（TDR）**&#x200B;值符合本頁](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的[建議。
+> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保&#x200B;**逾時偵測與恢復（TDR）**&#x200B;值符合本頁[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的建議。
 
 ## 不支援的配置
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 ## 使用平板
 
-Windows 平板用戶&#x200B;****&#x200B;應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+Windows 平板用戶&#x200B;**&#x200B;**&#x200B;應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 語言
 
