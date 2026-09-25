@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/shortcuts.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/shortcuts.html"
 breadcrumb-title: ""
 description: 學習 Substance 3D Designer 中的快捷鍵，以加快工作流程並提升生產力。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 捷徑
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 9%
@@ -43,6 +43,8 @@ ht-degree: 9%
 | 還原 | Ctrl + Z | ⌘ + Z |
 | 取消復原 | Ctrl + Y | ⌘ + Y |
 
+{style="table-layout:fixed"}
+
 ### 圖視圖
 
 **觀景窗**
@@ -60,17 +62,21 @@ ht-degree: 9%
 | 節點選單 | 空白鍵 | 空白鍵 |
 | 自行車 [導航腳](../../interface/the-graph-view/graph-items/graph-items.md) | F2 | F2 |
 
+{style="table-layout:fixed"}
+
 **連結建立模式**
 
 >[!NOTE]
 >
-> 在本文件的本頁[&#128279;](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式。
+> 在本文件的本頁](../../interface/the-graph-view/link-creation-modes/link-creation-modes.md)了解連結建立模式[。
 
 | 模式 | 窗戶 | macOS |
 |:-----------------|:--------|:------|
 | 標準 | 1 | 1 |
 | 材質 | 2 | 2 |
 | 緻密材料 | 3 | 3 |
+
+{style="table-layout:fixed"}
 
 **當圖中選取物件時**
 
@@ -84,6 +90,8 @@ ht-degree: 9%
 | 停靠/脫離節點 | D | D |
 | 停用節點 | ⇧ + D | ⇧ + D |
 
+{style="table-layout:fixed"}
+
 ### 2D 視角
 
 | 動作 | 窗戶 | macOS |
@@ -94,6 +102,8 @@ ht-degree: 9%
 | 重置為100%比例 | Z | Z |
 | 視圖配合 | F | F |
 | 切換磁磚顯示 | 空白鍵 | 空白鍵 |
+
+{style="table-layout:fixed"}
 
 ### 3D 檢視
 
@@ -106,3 +116,5 @@ ht-degree: 9%
 | 暫時切換至Point Light 1控制 | ⇧（保持） | ⇧（保持） |
 | 軌道點燈光1號 | 左鍵+阻力 | 左鍵+阻力 |
 | 多莉角燈塔1號 | 人民幣 + 阻力 | 人民幣 + 阻力 |
+
+{style="table-layout:fixed"}

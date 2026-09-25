@@ -1,7 +1,7 @@
 ---
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '229'
 ht-degree: 1%
 ---
 # TODO
@@ -39,6 +39,7 @@ ht-degree: 1%
 
 ## 修正方法
 
+* overview.md 中固定圖示 [大小](help/getting-started/overview/overview.md)
 * 修復頁面中 `BnW spots 2` 破損的圖片
 * 在節點頁面中固定第一個範例圖片的連結（例如 新聲音）
 
@@ -48,9 +49,9 @@ ht-degree: 1%
 
 ## 學習中心（`learning` 分校）
 
-- 了解哪些會阻擋下載 SBS 檔案（有人在這裡[&#128279;](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問過）
+- 了解哪些會阻擋下載 SBS 檔案（有人在這裡](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問[過）
 - 了解我們如何在不公開或納入目錄的情況下，進行即時測試頁面
-- 樣本清單的篩選選項：Microsite？ （[範例](https://experienceleague.adobe.com/zh-hant/tools/campaign-error-codes)）
+- 樣本清單的篩選選項：Microsite？ （[範例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自動化建構範例物品
   - 從檔案（JSON、YAML、...）中擷取元資料
   - 內嵌縮圖（點擊放大）

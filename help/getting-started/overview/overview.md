@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
@@ -10,15 +10,15 @@ helpx_tags: ""
 title: 概觀
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '923'
 ht-degree: 0%
 ---
 
 # 概觀
 
-[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
+[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
 
 以下是它與其他應用的比較：
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 | **作者過濾器、模式與效果** | 不 | 限制 | 是的 |
 | **匯出參數內容** | 不 | 不 | 是的 |
 
-\*：僅位移，請參見 <b>3D 視圖[&#128279;](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能。
+\*：僅位移，請參見 <b>3D 視圖](../../interface/3d-view/3d-view.md)區塊中的場景匯出</b>功能[。
 
 簡言之，Substance 3D Designer 應該被視為目前最技術性、最先進的貼圖應用程式。
 
@@ -60,9 +60,10 @@ Substance 3D Designer 是一款基於節點的編輯器，允許你以多種不�
 
 ![](overview.resources/ds-sbs-48.png)
 
-### 物質3D檔案
+**Substance 3D 檔案**\
+（包裹）
 
-*(\*.SBS）*
+`\*.sbs`
 
 Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Substance 檔案時，你可以 **檢視並編輯圖**&#x200B;中的所有節點。 它們以套件形式呈現，可以包含任意數量的資源，如圖表、函式、位圖、網格等。它們較難分享，計算速度較慢。 它們只能在 Substance 3D Designer 和 Substance Player 中開啟。
 
@@ -71,20 +72,20 @@ Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Su
 
 ![](overview.resources/sbsar-48.png)
 
-### Substance 3D 資產
+**Substance 3D 檔案庫**
 
-*(\*.SBSAR）*
+`\*.sbsar`
 
-Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
+Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
 
 </td>
 <td style="border: 0;">
 
 ![](overview.resources/bmp-96.png){width="48px"}
 
-### 靜態檔案
+**靜態檔案**
 
-*(\*.TGA、\*.BMP、\*.PNG、\*。FBX、\*。OBJ等...*
+`\*.tga, \*.bmp, \*.png, \*.fbx, \*.obj , ...`
 
 Substance 3D Designer 始終支援匯出為靜態檔案格式。 2D 影像可以匯出成點陣圖檔案，3D 模型可以匯出成常見的 3D 檔案類型。 匯出為靜態檔案時， **所有動態功能都會消失**。 影像被鎖定在解析度上，3D 模型被鎖定在多邊形數量上。
 
