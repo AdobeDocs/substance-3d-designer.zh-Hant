@@ -49,7 +49,7 @@ ht-degree: 1%
 
 ## 學習中心（`learning` 分校）
 
-- 了解哪些會阻擋下載 SBS 檔案（有人在這裡](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問[過）
+- 了解哪些會阻擋下載 SBS 檔案（有人在這裡[&#128279;](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問過）
 - 了解我們如何在不公開或納入目錄的情況下，進行即時測試頁面
 - 樣本清單的篩選選項：Microsite？ （[範例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自動化建構範例物品
