@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started.html"
 breadcrumb-title: ""
 description: 學習 Substance 3D Designer 的基本原理，並開始以逐步指南製作程序性材質。
 helpx_creative_field: ""

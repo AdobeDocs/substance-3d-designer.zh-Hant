@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/activation-and-licenses.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/activation-and-licenses.html"
 breadcrumb-title: ""
 description: 學習如何啟用 Substance 3D Designer 並管理所有功能與能力的授權。
 helpx_creative_field: ""
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 | 版本 | 啟動過程 |
 |:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 創意雲端桌面（CCD） | 從 CCD 應用程式安裝產品，然後啟動。 如果你遇到授權問題，請參考這些頁面： [應用程式因訂閱錯誤](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) 無法啟動 / [帳號、方案與帳單協助](https://helpx.adobe.com/account/individual.html) |
+| 創意雲端桌面（CCD） | 從 CCD 應用程式安裝產品，然後啟動。 如果你遇到授權問題，請參考這些頁面： [應用程式因訂閱錯誤](https://helpx.adobe.com/tw/creative-cloud/apps/troubleshoot/launch-issues/apps-wont-launch-due-to-subscription-error.html) 無法啟動 / [帳號、方案與帳單協助](https://helpx.adobe.com/tw/account/individual.html) |
 | 蒸汽 | 直接從你的 Steam 遊戲庫啟動產品。 |
 | 實質（獨立作品） | 請參考下方說明的啟動流程。 |
 
