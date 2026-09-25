@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/overview.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/overview.html"
 breadcrumb-title: ""
 description: 了解 Substance 3D Designer 的概覽，並了解其在製作程序材質與貼圖方面的功能。
 helpx_creative_field: ""
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 概觀
 
-[Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
+[Substance 3D Designer](https://www.adobe.com/tw/products/substance3d-designer.html) 是一款用於在節點介面中建立 2D 材質、材質與濾鏡的應用程式，重點在於程序生成、參數化及非破壞性工作流程。 它是 Substance 3D 生態系統中運行時間最長的應用程式，而用它製作的資源也最具多樣性與動態性。
 
 以下是它與其他應用的比較：
 
@@ -76,7 +76,7 @@ Substance 檔案是 **Designer 的主要原始檔案** 。 當你打開一個 Su
 
 `\*.sbsar`
 
-Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/en/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
+Substance Archives 是<b> 經過編譯、優化的</b> Substance 檔案。 它們計算起來快得多，且可以輕鬆分享，不會有參考問題。 參數仍可調整，但編輯圖表時會 <b>被鎖定</b>。 Substance Archives 可用於所有 Substance 3D 應用程式，以及任何具備 [Substance 3D 整合](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/ecosystem/home) （部分包含外部外掛）的應用程式，例如 Autodesk 3DS Max 與 Maya、Unreal Engine 或 Unity Engine。
 
 </td>
 <td style="border: 0;">
