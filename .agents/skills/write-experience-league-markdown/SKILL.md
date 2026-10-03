@@ -1,7 +1,7 @@
 ---
 name: write-experience-league-markdown
 description: |
-  Adobe Experience League 發佈的 Markdown 內容撰寫時的語法規則、自訂擴充功能與陷阱。 在創建或編輯任何說明/本倉庫（或其他 Experience League 內容倉庫）頁面時，請使用此技能——標題、連結、圖片、表格、備註/警示區塊、UICONTROL/DNL 標籤、影片嵌入、錨點及已知的渲染陷阱。 資料來源：https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown
+  Adobe Experience League 發佈的 Markdown 內容撰寫時的語法規則、自訂擴充功能與陷阱。 在創建或編輯任何說明/本倉庫（或其他 Experience League 內容倉庫）頁面時，請使用此技能——標題、連結、圖片、表格、備註/警示區塊、UICONTROL/DNL 標籤、影片嵌入、錨點及已知的渲染陷阱。 資料來源：https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/writing-essentials/markdown
 source-git-commit: ed17c57a1aa9669a602d4523bdef20cd7d82db75
 workflow-type: tm+mt
 source-wordcount: '1263'
