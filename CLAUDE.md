@@ -62,7 +62,7 @@ user-guide-title: ""
 
 * 英語是真理的來源;其他語言都是從英語翻譯而來。
 * 所有指向其他文件頁面的連結必須是 **相對** 連結;所有指向外部資源的連結必須是 **絕對** 連結。
-* 內容是以 GitHub 風格的 Markdown 撰寫，並搭配 Experience League 自訂的擴充功能/陷阱，詳情可 [在此](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/writing-essentials/markdown)處說明。 具體細節就用 `write-experience-league-markdown` 技能（如果有的話）。
+* 內容是以 GitHub 風格的 Markdown 撰寫，並搭配 Experience League 自訂的擴充功能/陷阱，詳情可 [在此](https://experienceleague.adobe.com/zh-hant/docs/contributor/contributor-guide/writing-essentials/markdown)處說明。 具體細節就用 `write-experience-league-markdown` 技能（如果有的話）。
 * 每個提交的變更都會經過自動的 lint 檢查和 CI 中的連結驗證（見下文）——在假設有規則適用或連結需要修正之前，先檢查 `markdownlint_custom.json` 並 `linkcheckexclude.json` 確認。
 
 &#x200B;# 驗證/配置
