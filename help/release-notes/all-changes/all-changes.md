@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/all-changes.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 檢視 Substance 3D Designer 版本中的所有變更與更新，以追蹤功能演進與改進。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > All changes
@@ -8,19 +8,36 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 所有變動
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 470ce4ff25b81c710c4b446b160c29663c31d356
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: 323708f930162cdc9f1a8df90f191e447e888797
 workflow-type: tm+mt
-source-wordcount: '32107'
+source-wordcount: '32210'
 ht-degree: 0%
-
 ---
-
 
 # 所有變動
 
 ## 版本 16
+
+### 16.0.7
+
+*（2026年10月8日發行）*
+
+**補充：**
+
+* [引擎]更新物質引擎至v9.6.1
+* [OpenGL]&#x200B;[OpenPBR]提升VNDF取樣的數值穩定性及小幅ALU優化
+
+**修正：**
+
+* [3D 視角]&#x200B;[美元]在特定美元場景中覆寫材質後，表面外觀錯誤
+* [內容]向量變形：不支援平鋪模式
+* [安全性]修正了 PLY 檔案解析中 NULL 指標去參考的漏洞
+* [安全性]修正了 FBX 檔案解析中堆疊溢位的漏洞
+* [安全性]修正了 SBSAR 檔案解析中的堆疊溢位漏洞
+* [安全性]修正了 SBSAR 檔案解析中越界讀取的漏洞
+* [安全性]修正了 FBX 檔案解析中越界寫入的漏洞
 
 ### 16.0.6
 
