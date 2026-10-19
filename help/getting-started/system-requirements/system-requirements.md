@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/getting-started/system-requirements.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/getting-started/system-requirements.html"
 breadcrumb-title: ""
 description: 請檢視 Substance 3D Designer 的系統需求，確保您的電腦符合必要規格。
 helpx_creative_field: ""
@@ -10,9 +10,9 @@ helpx_tags: ""
 title: 系統需求
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: aeb517a0def4b5bc2de723633f8932dfc03f052c
+source-git-commit: 0250b1ff7cba48ff8d2909e01ccc4618aa4708a3
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '873'
 ht-degree: 0%
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ### 窗戶
 
-|             | 最低限度 | 推薦 | 最佳 |
-|:------------|:---------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
+|  | 最低限度 | 推薦 | 最佳 |
+| --- | --- | --- | --- |
 | **作業系統** | Windows 11 64 位元版本 23H2 | Windows 11 64 位元版本 24H1 | Windows 11 64 位元版本 24H2 |
 | **中央處理器** | Intel Core i5<br>AMD Ryzen 5 | Intel Core i7<br>AMD Ryzen 7 | Intel Core i9<br>AMD Ryzen 9 |
 | **GPU** | NVIDIA GeForce RTX 2060 超級<br>NVIDIA Quadro RTX 4000<br>AMD Radeon RX 5700 XT<br>AMD Radeon Pro W5700 | NVIDIA GeForce RTX 3080<br>、NVIDIA Quadro RTX A4000<br>、AMD Radeon RX 6800 XT<br>、AMD Radeon Pro W7700 | NVIDIA GeForce RTX 4090<br>、NVIDIA Quadro RTX 5000、Ada 世代<br>AMD Radeon RX 7900、XTX<br>AMD Radeon Pro W7800 |
@@ -35,19 +35,23 @@ ht-degree: 0%
 
 ### macOS
 
-|             | 最低限度 | 推薦 | 最佳 |
-|:------------|:----------------------------------|:----------------------------------|:----------------------------------|
-| **作業系統** | macOS 14 Sonoma | macOS 26 Tahoe | macOS 26 Tahoe |
+|  | 最低限度 | 推薦 | 最佳 |
+| --- | --- | --- | --- |
+| **作業系統** | macOS 15 Sequoia | macOS 27 金門 | macOS 27 金門 |
 | **中央處理器** | 蘋果 M1 | 蘋果 M2 Pro | Apple M4 Pro |
 | **GPU** | 蘋果 M1 | 蘋果 M2 Pro | Apple M4 Pro |
 | **記憶體** | 16 GB | 32 GB | 64 GB |
 | **儲存** | SSD 有 30 GB 可用空間 | SSD 有 50 GB 可用空間 | SSD 有 70 GB 可用空間 |
 
+>[!WARNING]
+>
+> 針對以 [VFX 參考平台](https://vfxplatform.com/) 為目標的管線，Substance 3D Designer 仍可安裝於 macOS 14 Sonoma 上。 然而，Designer 不再在低於最低系統需求的作業系統版本上進行測試，因此穩定性並不保證。 建議更新到較新的作業系統版本。
+
 ### Linux
 
 | 企業號 | 蒸汽 |
-|:------------------|:-------------|
-| RHEL 8</br>RHEL 9 | Ubuntu 22.04 |
+| --- | --- |
+| RHEL 8<br>RHEL 9 | Ubuntu 22.04 |
 
 ## 一般建議
 
@@ -69,8 +73,8 @@ ht-degree: 0%
 >[!TIP]
 >
 > **TDR（僅限 Windows）**
-> 
-> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保&#x200B;**逾時偵測與恢復（TDR）**&#x200B;值符合本頁[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的建議。
+>
+> 為了在執行大量 GPU 運算時保持最佳穩定性——例如渲染複雜圖形、在 3D 視圖中渲染、從 3D 視圖匯出場景等——強烈建議確保&#x200B;**逾時偵測與恢復（TDR）**&#x200B;值符合本頁](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)文件中的[建議。
 
 ## 不支援的配置
 
@@ -100,10 +104,10 @@ ht-degree: 0%
 
 以下是應用程式正常運行所需的最低 GPU 驅動版本清單。 隨著新版本發布，此列表可能會有所變動。
 
-要下載新驅動程式請參考： [GPU 驅動程式過](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)時。
+要下載新驅動程式請參考： [GPU 驅動程式過](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-has-outdated-drivers)時。
 
 | 作業系統 | NVIDIA | AMD | 英特爾 |
-|:------------|:-----------------------------|:-----------------------------------------|:------------|
+| --- | --- | --- | --- |
 | **窗戶** | GeForce 451.48 Quadro 451.48 | Radeon 19.7.1 Radeon Pro / FirePro 18.Q4 | 15.33 |
 | **Linux** | 535.129.03 | Radeon 23.20 Pro 23.Q3 | 無支撐 |
 
@@ -117,7 +121,7 @@ ht-degree: 0%
 
 **DXR** 要求以下最低配置：
 
-* **Windows 10** 版本 1809，請參閱 [此頁面](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/bakers/features/gpu-raytracing) 以獲取更多資訊
+* **Windows 10** 版本 1809，請參閱 [此頁面](https://experienceleague.adobe.com/en/docs/substance-3d/bakers/features/gpu-raytracing) 以獲取更多資訊
 * **採用 Pascal 架構** 的 GPU（Nvidia GeForce 10XX）
 
 >[!TIP]
@@ -126,7 +130,7 @@ ht-degree: 0%
 
 ## 使用平板
 
-Windows 平板用戶&#x200B;**&#x200B;**&#x200B;應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
+Windows 平板用戶&#x200B;****&#x200B;應依以下頁面所述設定，以獲得最可靠的體驗：[設定筆與平板](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/configuring-pens-and-tablets)。
 
 ## 語言
 
