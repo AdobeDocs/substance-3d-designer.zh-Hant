@@ -1,7 +1,7 @@
 ---
-source-git-commit: 21ee545724852c876444dcf3ed4a82af8d1e3715
+source-git-commit: d52b7765f51d2f7702d9a6d1b590e24db76c7d9d
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '243'
 ht-degree: 1%
 ---
 # TODO
@@ -13,6 +13,7 @@ ht-degree: 1%
 
 ## 新增設施
 
+* 捷徑：為 macOS 新增觸控板捷徑
 * Adobe Docs 上 Python API 文件的入口
 * 「文件彈出視窗」頁面中的範例
 * 詞彙表：
@@ -36,6 +37,9 @@ ht-degree: 1%
 * DESIGNER-11866：色調映射函數
 * DESIGNER-10655：新增範例 + 參考資料以支援 Pixel 處理器與 FX-Maps 的範例專案
 
+## 變動
+
+* [進行中] 更新與完整「鍵盤快捷鍵」頁面
 
 ## 修正方法
 
