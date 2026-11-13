@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 > 停用平鋪
 > 
-> 將「平鋪模式」[基底參數](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter)的繼承方法](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance)設[為「絕對」，這樣你就可以將參數值設為「無平鋪」：
+> 將「平鋪模式」[基底參數](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter)的繼承方法[&#128279;](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
