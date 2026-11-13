@@ -1,7 +1,7 @@
 ---
 title: 設定粗糙度
 description: 設定SDF場景素材的粗糙度。
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 設定SDF場景素材的粗糙度。
 
-接著可以針對 Shape splatter v2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 SDF 粗糙度&#x200B;*輸出中所有已濺射的 SDF 形狀*，取得此值。
+接著可以針對 Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 的 SDF 粗糙度&#x200B;*輸出[中所有已濺射的 SDF 形狀*，取得此值。
 
 </td>
 </tr>
@@ -32,7 +32,7 @@ ht-degree: 1%
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../working-with-sdf-functions.md)
 
 ## 輸入
 

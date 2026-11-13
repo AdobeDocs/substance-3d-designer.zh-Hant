@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/directional-blur.html"
 breadcrumb-title: ""
 description: 使用方向模糊節點，將模糊效果套用特定方向，以產生動態模糊和條紋效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 方向模糊
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 </tr>
 </table>
 
-與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了更長且高品質的替代方案，並在性能上有所取捨
+與「模糊」類似，它也是一種較快且品質較低的操作。 Anisotropic Blur](../../../../compositing-graphs/nodes-reference-for-com/node-library/filters/blurs/anisotropic-blur/anisotropic-blur.md) 提供了[更長且高品質的替代方案，並在性能上有所取捨
 
 
 ## 方向性模糊與各向異性模糊
@@ -83,7 +83,7 @@ ht-degree: 1%
 
 |  |  |
 | --- | --- |
-| <b>輸入</b> *灰階/彩色* [原色](../../../../learning-tutorials/essentials/glossary/glossary.md#primary-input) | 要處理的影像。 |
+| <b>輸入</b> *灰階/彩色* [原色](../../../../glossary/glossary.md) | 要處理的影像。 |
 
 
 ## 範例

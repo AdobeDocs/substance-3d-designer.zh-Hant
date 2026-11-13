@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 16.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2246'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ### 形狀散射的新方法
 
-新的 [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點解鎖了之前一直具挑戰性的複雜散射行為，包含&#x200B;**更多形狀分布方法**（泊松圓盤、均勻分布）*預設無*&#x200B;碰撞，並能透過密度貼&#x200B;**圖控制&#x200B;*特定區域**&#x200B;形狀的乾淨收集*。\
+新的 [Shape splatter v2](../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 節點解鎖了之前一直具挑戰性的複雜散射行為，包含&#x200B;**更多形狀分布方法**（泊松圓盤、均勻分布）*預設無*&#x200B;碰撞，並能透過密度貼&#x200B;**圖控制&#x200B;*特定區域**形狀的乾淨收集*。\
 進階使用者可設定 *由函數圖定義的自訂分布* 。
 
 <table style="margin-top: 32px; margin-bottom: 32px">
@@ -115,7 +115,7 @@ ht-degree: 0%
             <p><b>Rusty bolts</b> <a href="../../compositing-graphs/creating-compositing-gra/material-samples/material-samples.md">材質範例</a>可供跳躍 Shape splatter v2 系列節點及其功能。</p><p>圖表有組織並註解，引導你了解結構、節點設定與技巧。</p><p>它也 <i>完全可</i> 編輯，可以作為沙盒，讓你更實際地了解 Shape splatter v2 工具組。 你可以製作任意多的範例圖表，歡迎隨意嘗試！</p>
         </td>
         <td style="border: none; width: 20%; vertical-align: top; text-align: right">
-            <img src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
+            <img src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-functions-material-sample.png" alt="3D 檢視節點的包圍框架功能，用於 SDF 功能。" />
         </td>
     </tr>
 </table>
@@ -144,9 +144,9 @@ SDF 函數包含一 [組新的節點](../../function-graphs/nodes-reference-for-
 
 >[!INFO]
 > 
-> 請前往 [「與 SDF 功能](../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md) 合作」頁面，開始操作這些節點。
+> 請前往 [「與 SDF 功能](../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md) 合作」頁面，開始操作這些節點。
 
-<img style="display: block; margin: auto" src="../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 功能節點" />
+<img style="display: block; margin: auto" src="../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.resources/working-with-sdf-mograph.gif" alt="SDF 功能節點" />
 
 輕量化節點搭配清晰易讀的圖示，讓打造 3D SDF 函式比你想像中還要容易，尤其是這個工具組的新成員......
 
@@ -228,7 +228,7 @@ OpenPBR 著色器支援的效果比現有著色器更多，例如薄膜和薄牆
 
 ## 3D 視圖中的位移控制
 
-現在在 3D 視圖中調整位移與細分變得更快且更容易，且在 3D 視圖工具列中新增的位移彈出視窗[&#128279;](../../interface/3d-view/displacement/displacement.md)中，直接存取。
+現在在 3D 視圖中調整位移與細分變得更快且更容易，且在 3D 視圖工具列中新增的位移彈出視窗](../../interface/3d-view/displacement/displacement.md)中，直接存取[。
 
 調整 **高度比例**、 **高度等級** 和 **細分** 值，避免在材質屬性和渲染器設定中反覆調整。
 

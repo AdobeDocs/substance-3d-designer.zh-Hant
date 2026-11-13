@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/function-graphs/nodes-reference-for-function-graphs/function-node-library.html"
 breadcrumb-title: ""
 description: 以實例節點形式存取現成的 Substance 功能圖，以加快工作流程並提升功能。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 函式節點函式庫
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 2%
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <table>
 <tr style="border: 0;">
@@ -463,15 +463,15 @@ Hejl tonemapper
 
 常態分布
 
-隨機均勻 &lbrack;-1， 1&lbrack;
+隨機均勻 [-1， 1[
 
-隨機均勻 &lbrack;a， b&lbrack;
+隨機均勻 [a， b[
 
-隨機均勻浮點2 &lbrack;a， b&lbrack;
+隨機均勻浮點2 [a， b[
 
-隨機均勻浮點3 &lbrack;a， b&lbrack;
+隨機均勻浮點3 [a， b[
 
-隨機均勻浮點4 &lbrack;a， b&lbrack;
+隨機均勻浮點4 [a， b[
 
 </td>
 </tr>

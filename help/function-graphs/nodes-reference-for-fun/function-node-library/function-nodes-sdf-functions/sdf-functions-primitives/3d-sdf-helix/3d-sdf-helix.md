@@ -1,7 +1,7 @@
 ---
 title: 螺旋（約）
 description: Designer > Substance 合成圖 > Nodes 參考 Node 函式庫 > Node 函式庫 > SDF 函數 > Primitive > Helix（約）
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
@@ -32,7 +32,7 @@ SDF 函數用於螺旋的近似，螺旋是沿著繞軸向上曲線繞行的曲�
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../working-with-sdf-functions.md)
 
 ## 輸入
 

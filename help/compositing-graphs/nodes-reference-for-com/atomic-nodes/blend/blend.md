@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/blend.html"
 breadcrumb-title: ""
 description: 使用 Blend 節點，利用各種混合模式將兩個材質混合在一起，以創造合成效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 混合
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 使用指定的混合模式及可選遮罩將兩張影像合併。
 
-它是所有原子節點中最有用的節點，幾乎你在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中建立的任何圖都會使用這個節點。
+它是所有原子節點中最有用的節點，幾乎你在 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中[建立的任何圖都會使用這個節點。
 
 </td>
 </tr>
@@ -45,11 +45,11 @@ ht-degree: 0%
 </tr>
 </table>
 
-它的功能類似於 Substance 3D Painter[&#128279;](https://www.adobe.com/tw/products/substance3d-painter.html) 或 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html) 中，兩個層層疊疊，透過你在頂層設定的混合模式來混合。
+它的功能類似於 Substance 3D Painter](https://www.adobe.com/products/substance3d-painter.html) 或 [Photoshop](https://www.adobe.com/ch_fr/products/photoshop/landpa.html) 中，兩個層層疊[疊，透過你在頂層設定的混合模式來混合。
 
 >[!TIP]
 >
-> 在這個專門頁面[&#128279;](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)中了解混合節點中可用的混合模式。
+> 在這個專門頁面](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)中了解混合節點[中可用的混合模式。
 
 
 
@@ -58,9 +58,9 @@ ht-degree: 0%
 |  |  |
 | --- | --- |
 | <b>不透明度</b> *浮標* | 前景圖層的不透明度與背景融合。 它獨立於不透明度輸入運作，並作為額外的乘數。 |
-| <b>混合模式</b> *整數*[靜態](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 設定要使用的混合操作。   請參閱 [專門的混合模式](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)頁面。 |
-| <b>Alpha 混合</b> *整數*[靜態](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 判斷當色彩輸入具有 Alpha 通道時的混合行為：<ul data-preserve-html="true"> <li data-preserve-html="true">使用來源 alpha</li> <li data-preserve-html="true">忽略 alpha</li> <li data-preserve-html="true">純α混合</li> <li data-preserve-html="true">預乘 alpha 混合</li> </ul> |
-| <b>耕作區域</b> *Float4* [靜態](../../../../learning-tutorials/essentials/glossary/glossary.md#static-parameter) | 允許設定自訂裁切區域，作為額外的不透明度遮罩。 裁切的區域只顯示背景。 |
+| <b>混合模式</b> *整數*[靜態](../../../../glossary/glossary.md) | 設定要使用的混合操作。   請參閱 [專門的混合模式](../../../../compositing-graphs/nodes-reference-for-com/atomic-nodes/blend/blending-modes-des/blending-modes-description.md)頁面。 |
+| <b>Alpha 混合</b> *整數*[靜態](../../../../glossary/glossary.md) | 判斷當色彩輸入具有 Alpha 通道時的混合行為：<ul data-preserve-html="true"> <li data-preserve-html="true">使用來源 alpha</li> <li data-preserve-html="true">忽略 alpha</li> <li data-preserve-html="true">純α混合</li> <li data-preserve-html="true">預乘 alpha 混合</li> </ul> |
+| <b>耕作區域</b> *Float4* [靜態](../../../../glossary/glossary.md) | 允許設定自訂裁切區域，作為額外的不透明度遮罩。 裁切的區域只顯示背景。 |
 
 ## 輸入連接器
 

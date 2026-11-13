@@ -3,36 +3,16 @@ user-guide-title: Substance 3D Designer
 breadcrumb-title: Substance 3D Designer
 user-guide-description: Substance 3D Designer
 nudge: true
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '1915'
+source-wordcount: '1905'
 ht-degree: 3%
 ---
 
 # Substance 3D Designer {#using}
 
 + [使用者指南](/help/home/home.md)
-+ 學習與教學{#learning-tutorials}
-  + 必備資料{#essentials}
-    + 最佳實務{#best-practices}
-      + [最佳實務](/help/learning-tutorials/essentials/best-practices/best-practices.md)
-      + [檔案大小減少指引](/help/learning-tutorials/essentials/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
-      + [圖建立禮儀](/help/learning-tutorials/essentials/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
-      + [效能優化指引](/help/learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)
-    + 關鍵概念{#key-concepts}
-      + [實體圖的關鍵概念](/help/learning-tutorials/essentials/key-concepts/substance-graph-key-concepts.md)
-    + [詞彙表](/help/learning-tutorials/essentials/glossary/glossary.md)
-  + [開始](../learning-tutorials/getting-started/getting-started.md)
-  + 節點{#nodes}
-    + [樣條曲線工作](/help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md)
-    + [與 SDF 函式的處理](/help/learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
-  + 3D 檢視{#3d-view}
-    + 與3D場景合作{#working-with-3d-scenes}
-      + [與3D場景合作](/help/learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)
-      + [覆蓋場景素材](/help/learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)
-      + [提取材料的明暗與紋理](/help/learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md)
-      + [匯出場景](/help/learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
-  + [所有取樣](../learning-tutorials/all-samples/all-samples.md)
++ [詞彙表](/help/glossary/glossary.md)
 + 開始{#getting-started}
   + [開始](/help/getting-started/getting-started.md)
   + [啟動與執照](/help/getting-started/activation-and-licenses/activation-and-licenses.md)
@@ -100,6 +80,7 @@ ht-degree: 3%
   + [依賴性警告](/help/resources/warnings-from-dep/warnings-from-dependencies.md)
 + 物質圖{#substance-graphs}
   + [物質圖](/help/compositing-graphs/substance-compositing-graphs.md)
+  + [實體圖的關鍵概念](/help/compositing-graphs/compositing-graph-key-con/substance-compositing-graph-key-concepts.md)
   + 建立物質圖{#creating-a-substance-graph}
     + [建立物質圖](/help/compositing-graphs/creating-compositing-gra/creating-a-substance-compositing-graph.md)
     + [材料樣本](/help/compositing-graphs/creating-compositing-gra/material-samples/material-samples.md)
@@ -560,6 +541,7 @@ ht-degree: 3%
           + [三平面](/help/compositing-graphs/nodes-reference-for-com/node-library/mesh-based-generators/utilities-mesh-based-gen/tri-planar/tri-planar.md)
       + 樣條路徑工具{#spline-path-tools}
         + [樣條路徑工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/spline-paths-tools.md)
+        + [使用路徑樣條工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md)
         + [樣條路徑](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-to-spline/paths-to-spline.md)
         + 路徑工具{#path-tools}
           + [路徑工具](/help/compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/path-tools.md)
@@ -664,6 +646,7 @@ ht-degree: 3%
     + 函式節點函式庫{#function-node-library}
       + [函式節點函式庫](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-node-library.md)
       + SDF 功能{#sdf-functions}
+        + [與 SDF 函式的處理](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
         + 基本體{#sdf-functions-primitives}
           + [有帽錐體](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone/3d-sdf-capped-cone.md)
           + [有帽錐（2分）](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/sdf-functions-primitives/3d-sdf-capped-cone-2-points/3d-sdf-capped-cone-2-points.md)
@@ -719,9 +702,19 @@ ht-degree: 3%
       + 隨機{#random}
         + [隨機](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/function-nodes-random.md)
         + [雜湊函數](/help/function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-random/hash-functions/hash-functions.md)
++ 與3D場景合作{#working-with-3d-scenes}
+  + [與3D場景合作](/help/working-with-3d-scenes/working-with-3d-scenes.md)
+  + [覆蓋場景素材](/help/working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)
+  + [提取材料的明暗與紋理](/help/working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md)
+  + [匯出場景](/help/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)
 + 烘焙師{#bakers}
   + [烘焙師](/help/bakers/bakers.md)
   + [Bakers 舊有介面](/help/bakers/bakers-legacy-interface/bakers-legacy-interface.md)
++ 最佳實務{#best-practices}
+  + [最佳實務](/help/best-practices/best-practices.md)
+  + [檔案大小減少指引](/help/best-practices/filesize-reduction-gui/filesize-reduction-guidelines.md)
+  + [圖建立禮儀](/help/best-practices/graph-creation-etiquette/graph-creation-etiquette.md)
+  + [效能優化指引](/help/best-practices/performance-optimization/performance-optimization-guidelines.md)
 + 管線與專案配置{#pipeline-and-project-configuration}
   + [管線與專案配置](/help/pipeline-and-project-con/pipeline-and-project-configuration.md)
   + [專案設定檔 - SBSPRJ](/help/pipeline-and-project-con/project-configuration-fil/project-configuration-files-sbsprj.md)

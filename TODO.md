@@ -1,7 +1,7 @@
 ---
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '243'
 ht-degree: 1%
 ---
 # TODO
@@ -41,10 +41,6 @@ ht-degree: 1%
 
 * [進行中] 更新與完整「鍵盤快捷鍵」頁面
 
-## 變動
-
-* 重組 [：利用樣條曲線](help/learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) 來優先排序樣條
-
 ## 修正方法
 
 * overview.md 中固定圖示 [大小](help/getting-started/overview/overview.md)
@@ -57,20 +53,14 @@ ht-degree: 1%
 
 ## 學習中心（`learning` 分校）
 
-- 了解哪些會阻擋下載 SBS 檔案（有人在這裡[&#128279;](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問過）
+- 了解哪些會阻擋下載 SBS 檔案（有人在這裡](https://adobe-3di.slack.com/archives/CMF1JGMLY/p1790005804708379)問[過）
 - 了解我們如何在不公開或納入目錄的情況下，進行即時測試頁面
-- 樣本清單的篩選選項：Microsite？ （[範例](https://experienceleague.adobe.com/zh-hant/tools/campaign-error-codes)）
+- 樣本清單的篩選選項：Microsite？ （[範例](https://experienceleague.adobe.com/en/tools/campaign-error-codes)）
 - 自動化建構範例物品
   - 從檔案（JSON、YAML、...）中擷取元資料
   - 內嵌縮圖（點擊放大）
   - 範例項目中的複雜度標記
 - 提供樣本作者SBS驗證工具
 - 提及可從 3D 資產下載的 SBS 檔案（訂閱有效）
-
-### 新增設施
-
-* 登陸頁面
-* 「新功能」專區
-* 「功能」部分（？）
 
 詞彙表的微型網站？

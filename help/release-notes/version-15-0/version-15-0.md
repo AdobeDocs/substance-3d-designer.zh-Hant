@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-0.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/release-notes/version-15-0.html"
 breadcrumb-title: ""
 description: 請參閱 Substance 3D Designer 15.0 版本的發佈說明，了解新的 3D 渲染器及原生 USD 支援。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 版本 15.0
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 新光柵化器與路徑追蹤器
 
-這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX[&#128279;](https://materialx.org/) 等技術。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
+這次新版本讓你可以使用進階 [的 3D 渲染器](../../interface/3d-view/3d-renderers/3d-renderers.md)，包含光柵化模式（可在處理材質時即時預覽）和路徑追蹤模式（光線追蹤模式，以獲得完美且精確的渲染效果）。 這款新渲染器透過光柵化模式的陰影等功能增強功能，提升畫質與效能，並設計以支援未來如 MaterialX](https://materialx.org/) 等技術[。它補充了 Designer 中現有的 OpenGL 與 Iray 渲染器，並與 Substance 3D Viewer 及 Substance 3D Sampler 中的渲染器相符，確保整個生態系統的統一體驗。
 
 ![光柵化器中的陰影與半透明](version-15-0.resources/feature_1b.png)
 
@@ -53,16 +53,16 @@ ht-degree: 0%
 
 ## 資產版在背景下的說明
 
-當你在製作材質時，可能會想 [在特定的 3D 場景](../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md)中預覽。 這也是為什麼我們加入了匯入並渲染完整場景的功能，包含所有材質、攝影機和燈光。 更棒的是，如果這個場景參考了 MaterialX 著色器，光柵器會正確渲染出來！
+當你在製作材質時，可能會想 [在特定的 3D 場景](../../working-with-3d-scenes/working-with-3d-scenes.md)中預覽。 這也是為什麼我們加入了匯入並渲染完整場景的功能，包含所有材質、攝影機和燈光。 更棒的是，如果這個場景參考了 MaterialX 著色器，光柵器會正確渲染出來！
 
 ![USD 場景已載入並用 Designer 渲染](version-15-0.resources/feature_2.png)
 
-匯入後，你可以選擇網格（用 SHIFT + 點擊或多虧場景瀏覽器）並 [覆蓋其](../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)材質來處理場景。 你可以：
+匯入後，你可以選擇網格（用 SHIFT + 點擊或多虧場景瀏覽器）並 [覆蓋其](../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)材質來處理場景。 你可以：
 
 * 建立或載入一張圖表，然後套用到場景材質上。
-* 透過將現有材質 [的貼圖](../../learning-tutorials/3d-view/working-with-3d-scenes/extracting-materials/extracting-materials.md) 提取成新圖形來調整。
+* 透過將現有材質 [的貼圖](../../working-with-3d-scenes/extracting-materials-val/extracting-materials-values-and-textures.md) 提取成新圖形來調整。
 
-最後，當你的 3D 場景編輯完成後，你可以 [匯出](../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md) 成新檔案，或是原始檔案的新圖層，避免資料遺失（僅限 USD 格式）。
+最後，當你的 3D 場景編輯完成後，你可以 [匯出](../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md) 成新檔案，或是原始檔案的新圖層，避免資料遺失（僅限 USD 格式）。
 
 最後但同樣重要的是，現在支援更多3D格式，適用於進口和出口：USD（+ USDA、USDC、USDZ）、STL、PLY和GLTF，以及現有的FBX和OBJ。
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 ### 修正方法
 
 * [3D 視圖]匯出的 USD 場景中的貼圖未正確套用
-* [3D 視圖]&#x200B;[UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
+* [3D 視圖][UDIM]當圖偏好設定中關閉自動開啟圖時，無法在 3D 視圖中查看 UDIM 圖形輸出
 * [麵包師們]「反外名。」和「平均。 非適用烘焙者的法線格為空白且可編輯
 * [烘焙者]「刷新」動作在偏好設定中關閉光線追蹤後端時會使用該功能
 * [烘焙師]在「刷新所有烘焙地圖」過程中失敗後，烘焙師被封鎖為忙碌

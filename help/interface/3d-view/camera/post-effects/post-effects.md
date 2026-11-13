@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ""
 description: 對 3D 視角相機套用後製效果，以增強材質預覽與視覺化效果。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 後續影響
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 1%
@@ -24,7 +24,7 @@ ht-degree: 1%
 
 這些效果是內部開發的，僅提供給 Rasterizer 和 GPU Pathtracer [渲染器](../../../../interface/3d-view/3d-renderers/3d-renderers.md)使用。
 
-在儲存 [3D 場景資源](../../../../resources/3d-scene-resource/3d-scene-resource.md) 或 [場景狀態檔案](../../../../learning-tutorials/3d-view/working-with-3d-scenes/working-with-3d-scenes.md) 時啟用的任何後製效果，都會被保存為場景狀態的一部分。
+在儲存 [3D 場景資源](../../../../resources/3d-scene-resource/3d-scene-resource.md) 或 [場景狀態檔案](../../../../working-with-3d-scenes/working-with-3d-scenes.md) 時啟用的任何後製效果，都會被保存為場景狀態的一部分。
 
 ## 色調對應
 

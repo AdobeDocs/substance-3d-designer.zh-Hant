@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/node-library/spline-paths-tools/path-tools.html"
 breadcrumb-title: ""
 description: 存取所有路徑工具節點，用於建立、操作及轉換你的物質圖中的路徑。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 路徑工具
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> 我們建議學習 [如何使用路徑與樣條鍵工具](../../../../../learning-tutorials/nodes/working-with-path-and-splines/working-with-path-and-spline-tools.md) ，以充分利用這些工具組。
+> 我們建議學習 [如何使用路徑與樣條鍵工具](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/working-with-path-and-spl/working-with-path-and-spline-tools.md) ，以充分利用這些工具組。
 > 
 > 對於進階使用者， [路徑格式規範](../../../../../compositing-graphs/nodes-reference-for-com/node-library/spline-paths-tools/path-tools/paths-format-spe/paths-format-specifications.md) 說明了路徑資料如何編碼成彩色影像，並提供直接操作這些資料的技巧。
 

@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 場景瀏覽器
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 44076f66b3e266dc57516b743f7cfe35c2ff82d1
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 3D 視圖的場景瀏覽器會列出場景中的所有元素及其階層結構。
 
-它提供選擇物件、切換可見性，以及選擇哪些材質要 [覆蓋場景材質](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)的控制。
+它提供選擇物件、切換可見性，以及選擇哪些材質要 [覆蓋場景材質](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)的控制。
 
 由於 Designer 使用 [USD](https://openusd.org/release/index.html) 來描述和管理其場景，其術語與概念都位於該場景樹中。
 
-透過點擊 3D 視圖場景工具列[&#128279;](../../../interface/3d-view/3d-view.md)中專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
+透過點擊 3D 視圖場景工具列](../../../interface/3d-view/3d-view.md)中[專用的切換按鈕![](scene-browser.resources/sceneBrowser-toggleButton.png)來顯示。
 
 ![場景瀏覽器 - 已載入的 3D 場景](scene-browser.resources/loaded3DScene.png "場景瀏覽器 - 已載入的 3D 場景"){zoomable="yes"}
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 物件會被子系到其他物件，直到場景的根節點。 父物件有一個箭頭按鈕，用來展開或摺疊其子物件的清單。
 
-有些物件的屬性可以在屬性底座中選取時顯示和編輯[&#128279;](../../../interface/properties/properties.md)：環境、攝影機、燈光、`Mesh`物件和材質[覆蓋](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)。
+有些物件的屬性可以在屬性底座中選取時顯示和編輯[：環境、攝影機、燈光、`Mesh`物件和材質[覆蓋](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)。](../../../interface/properties/properties.md)
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -67,7 +67,7 @@ ht-degree: 0%
 
 當使用「編輯...」時，在燈光、攝影機和環境選單中操作，這些都是被編輯的物件，無論場景中是否有其他燈光、攝影機或環境。
 
-這些物件在匯出[&#128279;](../../../learning-tutorials/3d-view/working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時會包含在場景中。
+這些物件在匯出](../../../working-with-3d-scenes/exporting-scenes/exporting-scenes.md)時[會包含在場景中。
 
 </td>
 <td width="33.33%" style="border: 0;" valign="top">
@@ -136,9 +136,9 @@ ht-degree: 0%
 
 Designer 列出的材質是場景樹中至少用於一個網格的材質物件。
 
-當 [覆蓋](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md) 這些材料時，Designer 會建立一份副本，並加上數字後綴。
+當 [覆蓋](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md) 這些材料時，Designer 會建立一份副本，並加上數字後綴。
 
-被覆寫的材料會在其上下文選單中提供額外項目：「[連接材料](../../../learning-tutorials/3d-view/working-with-3d-scenes/overriding-scene-materials/overriding-scene-materials.md)」子選單列出所有可用材料可用來覆寫該材料。
+被覆寫的材料會在其上下文選單中提供額外項目：「[連接材料](../../../working-with-3d-scenes/overriding-scene-mat/overriding-scene-materials.md)」子選單列出所有可用材料可用來覆寫該材料。
 
 </td>
 <td style="border: 0;" valign="top">

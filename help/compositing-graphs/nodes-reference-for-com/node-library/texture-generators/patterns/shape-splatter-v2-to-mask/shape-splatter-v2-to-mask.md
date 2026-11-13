@@ -1,7 +1,7 @@
 ---
 title: 從 Shape Splatter v2 轉為遮罩
 description: Designer > Substance 合成圖 > Nodes 參考 Substance 合成圖 > Node 函式庫 > Generator > Pattern > Shape splatter v2 以遮罩
-source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
-> 此節點需要由 Shape splatter v2[&#128279;](../shape-splatter-v2/shape-splatter-v2.md) 節點產生的輸入資料。
+> 此節點需要由 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點產生[的輸入資料。
 > 
 > Shape splatter v2 系列的其他節點：
 > * [Shape splatter v2 映射器灰階](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)
@@ -38,9 +38,9 @@ ht-degree: 0%
 
 >[!TIP]
 > 
-> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
+> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 

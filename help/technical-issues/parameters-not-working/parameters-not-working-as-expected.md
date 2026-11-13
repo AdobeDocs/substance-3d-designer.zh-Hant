@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ""
 description: 排除 Substance 圖參數不正常的問題並尋找解決方案。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 參數未如預期運作
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 0%
@@ -24,11 +24,11 @@ ht-degree: 0%
 
 ![（錯誤）](parameters-not-working-as-expected.resources/error.svg)<b>子嗣</b>
 
-在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的 Substance 3D 資產（SBSAR）參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
+在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的 Substance 3D 資產（SBSAR）[參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
 
 ![（滴答）](parameters-not-working-as-expected.resources/check.svg)<b>建議步驟</b>
 
-缺少的參數很可能[是靜態參數](../../learning-tutorials/essentials/glossary/glossary.md#static-parameter)，*圖在處理*&#x200B;完成後無法即時編輯&#x200B;**，以快速且有效率地執行演算法。每次圖表被 *編輯* 或 *發佈*&#x200B;時，Designer 都會進行煮食。 受此類限制影響的參數列於[本文件「暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」頁面的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分。
+缺少的參數很可能[是靜態參數](../../glossary/glossary.md)，*圖在處理*&#x200B;完成後無法即時編輯&#x200B;**，以快速且有效率地執行演算法。每次圖表被 *編輯* 或 *發佈*&#x200B;時，Designer 都會進行煮食。 受此類限制影響的參數列於[本文件「暴露參數](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)」頁面的[限制](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)部分。
 
 因此，靜態參數在 Designer 中可見且可編輯，但在已發佈的 Substance 3D 資產中則隱藏&#x200B;**。你可以使用 [預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md) 查看這些限制的生效，然後再發佈到 Substance 3D 資產。
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 ![（滴答）](parameters-not-working-as-expected.resources/check.svg)<b>建議步驟</b>
 
-負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2[&#128279;](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。
+負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的[負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。
