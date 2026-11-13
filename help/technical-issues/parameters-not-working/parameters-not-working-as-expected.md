@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ![（錯誤）](parameters-not-working-as-expected.resources/error.svg)<b>子嗣</b>
 
-在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的 Substance 3D 資產（SBSAR）[參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
+在使用 [Designer 的預覽模式](../../compositing-graphs/manage-parameters/exposing-a-parameter/exposing-a-parameter.md)時，或該圖發佈[&#128279;](../../compositing-graphs/publishing-asset-files/publishing-substance-3d-asset-files-sbsar.md)的 Substance 3D 資產（SBSAR）參數清單中，部分已暴露的圖形參數未&#x200B;*被列出*。
 
 ![（滴答）](parameters-not-working-as-expected.resources/check.svg)<b>建議步驟</b>
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 ![（滴答）](parameters-not-working-as-expected.resources/check.svg)<b>建議步驟</b>
 
-負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的[負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。
+負整數目前尚未得到適當支援。 作為一個變通方法，可以用 Integer2[&#128279;](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/constant-nodes/constant-nodes.md) 值中的負整數值，再用 [Swizzle 整](../../function-graphs/nodes-reference-for-fun/atomic-function-nodes/vector-and-swizzle-nodes/vector-and-swizzle-nodes.md)數節點提取它。
