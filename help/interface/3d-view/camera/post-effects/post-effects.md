@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/camera/post-effects.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/camera/post-effects.html"
 breadcrumb-title: ""
 description: 對 3D 視角相機套用後製效果，以增強材質預覽與視覺化效果。
 helpx_creative_field: ""

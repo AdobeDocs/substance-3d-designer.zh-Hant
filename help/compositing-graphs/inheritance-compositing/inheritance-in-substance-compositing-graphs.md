@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: 學習 Substance 合成圖中的繼承運作方式，以建立可重複使用的圖階層與變體。
 helpx_creative_field: ""
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 實質圖中的繼承
 
-本頁說明繼承如何在 Substance 3D Designer[&#128279;](https://www.adobe.com/products/substance3d-designer.html) 中應用[於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，以及繼承對圖的輸出影響。
+本頁說明繼承如何在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中應用[於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，以及繼承對圖的輸出影響。
 
 ![繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "繼承方法"){width="1400px"}
 

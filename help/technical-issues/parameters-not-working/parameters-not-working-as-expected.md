@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/parameters-not-working-as-expected.html"
 breadcrumb-title: ""
 description: 排除 Substance 圖參數不正常的問題並尋找解決方案。
 helpx_creative_field: ""
