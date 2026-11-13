@@ -1,13 +1,11 @@
 ---
 title: Shape splatter v2 映射器灰階
 description: Designer > Substance 合成圖 > Nodes 參考 > Node 庫 > Generator > Pattern > Shape splatter v2 mapper 灰階
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1766'
 ht-degree: 0%
-
 ---
-
 
 # Shape splatter v2 映射器灰階
 

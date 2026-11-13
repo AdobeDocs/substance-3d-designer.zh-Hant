@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/manage-parameters/exposing-a-parameter.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何在 Substance 3D Designer 合成圖中暴露參數，使材質可自訂且可重複使用。
 helpx_creative_field: ""
 helpx_description: Designer > Substance compositing graphs > Exposing a parameter
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 暴露參數
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 69056338cc47db71e0754c72495d33a2a3c36dea
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2267'
 ht-degree: 0%
-
 ---
-
 
 # 暴露參數
 

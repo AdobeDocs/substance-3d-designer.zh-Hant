@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/publishing-substance-3d-asset-files-sbsar.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 學習如何從 Designer 發佈 Substance 3D 資產檔案（SBSAR），以便在其他應用程式和引擎中使用。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Publishing Substance 3D asset files (SBSAR)
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 發布 Substance 3D 資產檔案（SBSAR）
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 65a0ec6dc38e7595406c0c531be72ad1670dfb86
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
-
 ---
-
 
 # 發布 Substance 3D 資產檔案（SBSAR）
 

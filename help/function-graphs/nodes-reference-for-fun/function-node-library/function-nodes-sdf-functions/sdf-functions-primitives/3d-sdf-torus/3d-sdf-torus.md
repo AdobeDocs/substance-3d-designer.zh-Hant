@@ -1,13 +1,11 @@
 ---
 title: 環面
 description: Designer > Substance 合成圖 > Node 參考 Node 函式庫>> SDF 函式 >Primitive > Torus 的 Node 函式
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 
 # 環面
 

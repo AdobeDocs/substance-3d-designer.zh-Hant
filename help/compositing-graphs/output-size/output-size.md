@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/output-size.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 為 Substance 合成圖設定輸出大小，以控制材質解析度與品質。
 helpx_creative_field: ""
 helpx_description: Designer > Substance graphs > Output size
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 輸出大小
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 46563ec789547cc1add76655dbad02f5099927a6
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 5%
-
 ---
-
 
 # 輸出大小
 

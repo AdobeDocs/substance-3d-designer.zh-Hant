@@ -1,13 +1,11 @@
 ---
 title: Shape Splatter v2 映射器顏色
 description: Designer > Substance 合成圖 > Nodes 參考 Node 函式庫 >> Generator > Pattern > Shape splatter v2 mapper colors 的 Substance 合成圖
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
-
 ---
-
 
 # Shape Splatter v2 映射器顏色
 

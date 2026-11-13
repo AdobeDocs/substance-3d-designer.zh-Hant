@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/function-graphs/sample-function-graphs.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 探索 Substance 3D Designer 中的範例函數圖，學習進階技術與最佳實務。
 helpx_creative_field: ""
 helpx_description: Designer > Function graphs > Sample function graphs
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 範例函數圖
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 81c39001686736d41614fd59247d53e6d8438def
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 0%
-
 ---
-
 
 # 範例函數圖
 

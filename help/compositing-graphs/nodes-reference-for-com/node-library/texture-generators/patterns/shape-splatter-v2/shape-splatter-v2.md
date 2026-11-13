@@ -1,13 +1,11 @@
 ---
 title: 形狀濺血 v2
 description: Designer > Substance 合成圖 > Nodes 參考 > Node 庫 > Generator > Pattern > Shape splatter v2 的 Substance 合成圖
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
-
 ---
-
 
 # 形狀濺血 v2
 

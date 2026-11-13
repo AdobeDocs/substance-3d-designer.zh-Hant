@@ -1,6 +1,6 @@
 ---
 helpx_url: ""
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 了解 Designer 中可用的 SDF 函數節點，這些節點讓你能在 Shape splatter v2 和 3D 檢視器節點中撰寫 SDF 函數，產生 3D 形狀。
 helpx_creative_field: ""
 helpx_description: ""
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 與 SDF 函式的處理
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
-
 ---
-
 
 # 與 SDF 函式的處理
 

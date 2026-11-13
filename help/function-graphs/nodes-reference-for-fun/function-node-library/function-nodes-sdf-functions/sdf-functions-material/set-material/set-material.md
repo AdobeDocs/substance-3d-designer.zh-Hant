@@ -1,13 +1,11 @@
 ---
 title: 舞台布景材料
 description: 設定 SDF 場景材質的基色、粗糙度與金屬度。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 
 # 舞台布景材料
 

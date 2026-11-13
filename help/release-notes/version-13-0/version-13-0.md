@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-13-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 請參閱 Substance 3D Designer 13.0 版本的發佈說明，了解新節點、Substance Engine 9.0 以及入口節點。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 13.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 版本 13.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: e540abf8ed046d72f116e9e43ae0743c5ae39c24
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1671'
 ht-degree: 0%
-
 ---
-
 
 # 版本 13.0
 

@@ -1,6 +1,6 @@
 ---
 helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/release-notes/version-15-0.html"
-breadcrumb-title: ''
+breadcrumb-title: ""
 description: 請參閱 Substance 3D Designer 15.0 版本的發佈說明，了解新的 3D 渲染器及原生 USD 支援。
 helpx_creative_field: ""
 helpx_description: Designer > Release Notes > Version 15.0
@@ -8,15 +8,13 @@ helpx_experience_level: ""
 helpx_learn_topic: ""
 helpx_tags: ""
 title: 版本 15.0
-user-guide-description: ''
-user-guide-title: ''
-source-git-commit: fde9d7a455c1c7b366323c119f4c1f9a2c114952
+user-guide-description: ""
+user-guide-title: ""
+source-git-commit: c3acf6cdb931126827d2a35dec1135800788ed81
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 0%
-
 ---
-
 
 # 版本 15.0
 
