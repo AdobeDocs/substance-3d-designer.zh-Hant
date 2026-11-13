@@ -1,13 +1,11 @@
 ---
 title: Shape Splatter v2 映射器顏色
 description: Designer > Substance 合成圖 > Nodes 參考 Node 函式庫 >> Generator > Pattern > Shape splatter v2 mapper colors 的 Substance 合成圖
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 0%
-
 ---
-
 
 # Shape Splatter v2 映射器顏色
 
@@ -24,7 +22,7 @@ ht-degree: 0%
 
 ## 說明
 
-利用 Shape splatter v2[&#128279;](../shape-splatter-v2/shape-splatter-v2.md) 節點生成並散布的形狀，利用該節點提供的額外資料，將彩色影像映射到形狀上。<br><br>影像可作為獨立的圖案輸入提供，或打包於格網圖集中，並可透過 UV 映射、三面投影或自訂映射套用到形狀上。<br><br>形狀可以均勻或隨機地調整顏色。
+利用 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點生成並散布[的形狀，利用該節點提供的額外資料，將彩色影像映射到形狀上。<br><br>影像可作為獨立的圖案輸入提供，或打包於格網圖集中，並可透過 UV 映射、三面投影或自訂映射套用到形狀上。<br><br>形狀可以均勻或隨機地調整顏色。
 
 另 [見 Shape splatter v2 灰階](../shape-splatter-v2-mapper-grayscale/shape-splatter-v2-mapper-grayscale.md)映射器。
 
@@ -34,7 +32,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
-> 此節點需要由 Shape splatter v2[&#128279;](../shape-splatter-v2/shape-splatter-v2.md) 節點產生的輸入資料。
+> 此節點需要由 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點產生[的輸入資料。
 > 
 > Shape splatter v2 系列的其他節點：
 > * [從 Shape Splatter v2 轉為遮罩](../shape-splatter-v2-to-mask/shape-splatter-v2-to-mask.md)
@@ -43,9 +41,9 @@ ht-degree: 0%
 
 >[!TIP]
 > 
-> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
+> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 |                                 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:--------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <b>網格圖集輸入</b> *顏色* | 一張彩色圖案圖像，排列成格子佈局。<br><br>格子大小應該與 Shape splatter v2[&#128279;](../shape-splatter-v2/shape-splatter-v2.md) 節點所用的大小相符。<br><br>使用 [Grid atlas 的顏色](../grid-atlas-color/grid-atlas-color.md)節點將不同的圖案打包到格子圖集中。 |
+| <b>網格圖集輸入</b> *顏色* | 一張彩色圖案圖像，排列成格子佈局。<br><br>格子大小應該與 Shape splatter v2](../shape-splatter-v2/shape-splatter-v2.md) 節點所用[的大小相符。<br><br>使用 [Grid atlas 的顏色](../grid-atlas-color/grid-atlas-color.md)節點將不同的圖案打包到格子圖集中。 |
 | <b>模式輸入 1</b> *顏色* | 這是映射到形狀的#1圖案的彩色圖片。<br><br><i>提示：</i> 使用接近圖案在散佈時可能擁有的最大尺寸解析度。 |
 | <b>模式輸入 2</b> *顏色* | #2圖案的彩色影像，映射到這些形狀。<br><br><i>提示：</i> 使用接近圖案在散射時可能擁有的最大尺寸解析度。 |
 | <b>模式輸入 3</b> *顏色* | #3圖案的彩色影像，映射到這些形狀。<br><br><i>提示：</i> 使用接近圖案在散佈時可能擁有的最大大小的解析度。 |

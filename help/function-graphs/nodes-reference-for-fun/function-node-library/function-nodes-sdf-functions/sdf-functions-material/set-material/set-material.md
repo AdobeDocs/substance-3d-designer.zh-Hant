@@ -1,13 +1,11 @@
 ---
 title: 舞台布景材料
 description: 設定 SDF 場景材質的基色、粗糙度與金屬度。
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
-
 ---
-
 
 # 舞台布景材料
 
@@ -26,7 +24,7 @@ ht-degree: 0%
 
 設定 SDF 場景材質的基色、粗糙度與金屬度。
 
-這些值接著可以取回 Shape splatter v2[&#128279;](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 輸出中所有已濺射的 SDF 形狀。
+這些值接著可以取回 Shape splatter v2](../../../../../../compositing-graphs/nodes-reference-for-com/node-library/texture-generators/patterns/shape-splatter-v2/shape-splatter-v2.md) 輸出[中所有已濺射的 SDF 形狀。
 
 </td>
 </tr>
@@ -34,7 +32,7 @@ ht-degree: 0%
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 輸入
 

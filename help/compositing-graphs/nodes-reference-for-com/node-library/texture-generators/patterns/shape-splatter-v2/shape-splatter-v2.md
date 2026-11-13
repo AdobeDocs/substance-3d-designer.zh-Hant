@@ -1,13 +1,11 @@
 ---
 title: 形狀濺血 v2
 description: Designer > Substance 合成圖 > Nodes 參考 > Node 庫 > Generator > Pattern > Shape splatter v2 的 Substance 合成圖
-source-git-commit: 824d0741467f908abf5aa8fd658cebe5b5c70b61
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '4234'
 ht-degree: 0%
-
 ---
-
 
 # 形狀濺血 v2
 
@@ -41,9 +39,9 @@ ht-degree: 0%
 
 >[!TIP]
 >
-> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
+> [**「Rusty bolts」**&#x200B;材質範例](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md#material-sample)可供開始使用 Shape splatter v2 節點。
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../function-graphs/nodes-reference-for-fun/function-node-library/function-nodes-sdf-functions/working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 <a name="inputs"></a>
 

@@ -1,13 +1,11 @@
 ---
 title: 旋轉
 description: Designer > Substance 合成圖 > Node 參考 Node 圖庫>> SDF 函式 > Transform > Rotate
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 
 # 旋轉
 
@@ -34,7 +32,7 @@ ht-degree: 0%
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 輸入
 

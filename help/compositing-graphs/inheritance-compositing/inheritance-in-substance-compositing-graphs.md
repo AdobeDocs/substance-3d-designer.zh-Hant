@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/inheritance-in-substance-compositing-graphs.html"
 breadcrumb-title: ""
 description: 學習 Substance 合成圖中的繼承運作方式，以建立可重複使用的圖階層與變體。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 實質圖中的繼承
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: c460f605a97021efd2143941c28a977e12452299
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # 實質圖中的繼承
 
-本頁說明繼承如何在 Substance 3D Designer[&#128279;](https://www.adobe.com/tw/products/substance3d-designer.html) 中應用[於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，以及繼承對圖的輸出影響。
+本頁說明繼承如何在 Substance 3D Designer](https://www.adobe.com/products/substance3d-designer.html) 中[應用[於 Substance 圖](../../compositing-graphs/substance-compositing-graphs.md)，以及繼承對圖的輸出影響。
 
 ![繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-overview-1.jpg "繼承方法"){width="1400px"}
 
@@ -28,7 +28,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 >[!NOTE]
 >
-> 本文件的範例物質圖表[&#128279;](../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)區段提供了示範繼承的註解專案檔案。
+> 本文件的範例物質圖表](../../compositing-graphs/sample-compositing-graphs/sample-substance-compositing-graphs.md)區段提供了[示範繼承的註解專案檔案。
 
 ### 繼承方法
 
@@ -91,7 +91,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 ### 繼承方法的變更
 
-在屬性面板中，節點屬性的基礎參數[&#128279;](../../compositing-graphs/graph-parameters/graph-parameters.md)區塊中列出的所有參數，都有一個（圖示）<b>「設定繼承方法</b>」下拉按鈕，位於標籤對面。\
+在屬性面板中，節點屬性的基礎參數](../../compositing-graphs/graph-parameters/graph-parameters.md)區塊中列出[的所有參數，都有一個（圖示）<b>「設定繼承方法</b>」下拉按鈕，位於標籤對面。\
 這個按鈕讓你選擇應該用來執行參數的繼承方法。
 
 ![變更繼承方法](inheritance-in-substance-compositing-graphs.resources/inheritance-change.gif "變更繼承方法"){width="512px"}
@@ -123,16 +123,16 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 圖的父圖是 *它所處的上下文* ：
 
 * 如果該圖是實例化成另一個宿主圖的&#x200B;**&#x200B;子圖，則該子圖的父圖就是&#x200B;*實例節點*。該實例節點的父節點是 *主機圖*。
-* 如果該圖是根圖，則父圖即為 *應用程式本身* 及其對特定參數設定的值。 例如，圖形會繼承自<b>圖檢視工具列[&#128279;](../../interface/the-graph-view/the-graph-view.md)中的父大小</b>參數設定。
+* 如果該圖是根圖，則父圖即為 *應用程式本身* 及其對特定參數設定的值。 例如，圖形會繼承自<b>圖檢視工具列](../../interface/the-graph-view/the-graph-view.md)中的[父大小</b>參數設定。
 
 >[!WARNING]
 >
 > 當將套件發佈到 Substance 3D 資產檔案（SBSAR）時，家長身份會 *依現狀* 套用。 這表示將任何參數設為 *絕對* 繼承方法，該參數會 *鎖定* 在已發佈資產中的當前值。\
-> 雖然這對[點陣](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)圖節點或[優化](../../best-practices/performance-optimization/performance-optimization-guidelines.md)目的（例如）很理想，但我們&#x200B;*強烈*&#x200B;建議在處理 Substance 圖時，除非有&#x200B;*明確且刻意的用途*，否則應使用&#x200B;*相對*&#x200B;繼承方法。
+> 雖然這對[點陣](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/bitmap/bitmap.md)圖節點或[優化](../../learning-tutorials/essentials/best-practices/performance-optimization/performance-optimization-guidelines.md)目的（例如）很理想，但我們&#x200B;*強烈*&#x200B;建議在處理 Substance 圖時，除非有&#x200B;*明確且刻意的用途*，否則應使用&#x200B;*相對*&#x200B;繼承方法。
 
 ### 情境編輯
 
-在圖實例節點使用 [上下文編輯](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 時，圖的父節點即為 *實例節點*。 此時，<b>圖檢視工具列[&#128279;](../../interface/the-graph-view/the-graph-view.md)中的父大小</b>設定會被&#x200B;*停用*，因為圖會繼承實例節點的基礎參數。
+在圖實例節點使用 [上下文編輯](../../compositing-graphs/creating-compositing-gra/graph-instances-sub-gra/graph-instances-sub-graphs.md) 時，圖的父節點即為 *實例節點*。 此時，<b>圖檢視工具列](../../interface/the-graph-view/the-graph-view.md)中的[父大小</b>設定會被&#x200B;*停用*，因為圖會繼承實例節點的基礎參數。
 
 此特性是&#x200B;*上下文編輯的重點*，應&#x200B;**&#x200B;在設定繼承方法及評估任何節點基參數的當前值時納入考量。
 
@@ -207,7 +207,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 當該圖作為實例節點實例化到另一個圖時，該實例節點所有設定為 *相對於輸入* 的基底參數都會繼承該 *輸入*&#x200B;所連接的資料。 實例節點的主要輸入可由連接器上的小黑點識別。
 
-其他設定為&#x200B;*相對於父*&#x200B;節點的輸入，會繼承相同的基底參數值，因為它們繼&#x200B;**&#x200B;承自圖，圖繼承自&#x200B;*實例節點\*，而實例節點\**&#x200B;繼承自主輸入。
+其他設定為&#x200B;*相對於父*&#x200B;節點的輸入，會繼承相同的基底參數值，因為它們繼&#x200B;**&#x200B;承自圖，圖繼承自&#x200B;*實例節點\*，而實例節點\**繼承自主輸入。
 
 \*：如果圖使用*&#x200B;了相對於父* 繼承法，這是正確的。
 
@@ -280,7 +280,7 @@ Substance 圖中的所有節點都可以 *繼承* 來源的某些參數值。 �
 
 如果節點有多個輸出，你可以用兩種簡單方法檢查它們的解析度和精度：
 
-* 雙擊<b>輸出接頭&#x200B;*的左鍵*</b>即可在2D視圖[&#128279;](../../interface/2d-view/2d-view.md)中顯示影像，並檢查2D視圖視窗左下角&#x200B;*顯示*&#x200B;的影像資訊
+* 雙擊<b>輸出接頭&#x200B;*的左鍵*</b>即可在2D視圖](../../interface/2d-view/2d-view.md)中顯示影像[，並檢查2D視圖視窗左下角&#x200B;*顯示*&#x200B;的影像資訊
 * 建立一個 [Levels](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/levels/levels.md) 或 [Transformation 2D](../../compositing-graphs/nodes-reference-for-com/atomic-nodes/transformation-2d/transformation-2d.md) 節點，並將其輸入連接到你想檢查的輸出。 節點預設會 *繼承輸出* ，然後你可以檢查節點下方的值。
 
 現在你可以往圖中節點鏈往上走，嘗試找出 *第一個出現意外值的節點* 。 檢查其基礎參數的繼承方法。

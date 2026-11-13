@@ -1,13 +1,11 @@
 ---
 title: 細長圓柱體
 description: Designer > Substance 合成圖 >節點參考 Node library > Node library > SDF 函式 > 原始>延長圓柱
-source-git-commit: 68fa6e85c7fe7318a4dafd491f9dc9e945a458e2
+source-git-commit: 3f5ca55e459e04f5b81755565c6f674dbc3c845c
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 
 # 細長圓柱體
 
@@ -34,7 +32,7 @@ SDF函數用於可調整長度、半徑及邊緣圓潤度的細長圓柱體。<b
 
 >[!INFO]
 > 
-> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../working-with-sdf-functions.md)
+> 欲了解更多涉及 SDF 函數的概念與工作流程，請前往專門頁面： [使用 SDF 函數](../../../../../../learning-tutorials/nodes/working-with-sdf-functions/working-with-sdf-functions.md)
 
 ## 輸入
 

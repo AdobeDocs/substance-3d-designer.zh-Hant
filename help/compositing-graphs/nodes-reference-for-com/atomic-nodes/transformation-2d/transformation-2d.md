@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
+helpx_url: "https://helpx.adobe.com/substance-3d-designer/substance-compositing-graphs/nodes-reference-for-substance-compositing-graphs/atomic-nodes/transformation-2d.html"
 breadcrumb-title: ""
 description: 使用 Transformation 2D 節點對貼圖套用 2D 轉換，包括平移、旋轉和縮放。
 helpx_creative_field: ""
@@ -10,7 +10,7 @@ helpx_tags: ""
 title: 轉換二維
 user-guide-description: ""
 user-guide-title: ""
-source-git-commit: 11ab41b58a2dfcb6dd048c55f7a6138a003a2833
+source-git-commit: 690c13636931baf27895640648dd4a90b10c5d08
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -54,7 +54,7 @@ ht-degree: 0%
 >
 > 停用平鋪
 > 
-> 將「平鋪模式」[基底參數](../../../../glossary/glossary.md)的繼承方法[&#128279;](../../../../glossary/glossary.md)設為「絕對」，這樣你就可以將參數值設為「無平鋪」：
+> 將「平鋪模式」[基底參數](../../../../learning-tutorials/essentials/glossary/glossary.md#base-parameter)的繼承方法](../../../../learning-tutorials/essentials/glossary/glossary.md#inheritance)設[為「絕對」，這樣你就可以將參數值設為「無平鋪」：
 > 
 > ![](transformation-2d.resources/tilingmode.png)
 
@@ -69,8 +69,8 @@ ht-degree: 0%
 | --- | --- |
 | <b>轉換矩陣</b> *Float4* | 打開底層的轉換矩陣進行直接編輯。 允許你改變旋轉和縮放。 也可以透過 2D 視角中的裝置調整。   警告：這些調整與視圖不直接相關，且是可分階段進行的相對調整。 |
 | <b>偏移</b> *Float2* | 定義影像的二維位移。 允許你改變位置或偏移，也可以透過 2D 視角的裝置調整。   這直接關聯到 2D 視圖輸出。 |
-| <b>Mipmap 模式</b> *整數* | 允許你切換到手動 [mipmap](../../../../glossary/glossary.md) 等級，透過貼圖過濾減少影像中的雜訊。 |
-| <b>Mipmap 層級</b> *整數* | 設定 [要使用的 mipmap](../../../../glossary/glossary.md) 電平。     *當「Mipmap 模式」設為「手動」時可用* |
+| <b>Mipmap 模式</b> *整數* | 允許你切換到手動 [mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) 等級，透過貼圖過濾減少影像中的雜訊。 |
+| <b>Mipmap 層級</b> *整數* | 設定 [要使用的 mipmap](../../../../learning-tutorials/essentials/glossary/glossary.md#mipmap) 電平。     *當「Mipmap 模式」設為「手動」時可用* |
 | <b>霧面色</b> *Float4* | 當轉換平鋪時所用的背景顏色是被禁用的。 也就是說，設定當轉換後的輸入未覆蓋輸出區域時所使用的顏色。   如果用RGBA顏色工作，可以做成透明。 |
 | <b>過濾</b> *整數* | 設定所使用的降取樣方法。 降低 Mipmap Level 時效果不太好。 |
 
