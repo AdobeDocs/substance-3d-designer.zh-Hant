@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/working-with-3d-scenes/exporting-scenes.html"
 breadcrumb-title: ""
 description: 在 Designer 裡用 3D View 場景選單中的「匯出場景」動作，匯出所有編輯的 3D 場景。
 helpx_creative_field: ""

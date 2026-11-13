@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view/scene-browser.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view/scene-browser.html"
 breadcrumb-title: ""
 description: 使用場景瀏覽器來導航和管理視窗中的 3D 場景元素、材質與物件。
 helpx_creative_field: ""

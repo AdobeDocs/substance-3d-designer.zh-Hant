@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/interface/3d-view.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/interface/3d-view.html"
 breadcrumb-title: ""
 description: 使用 Substance 3D Designer 中的 3D 視圖來預覽 3D 物件上的材質並測試光照條件。
 helpx_creative_field: ""
@@ -220,7 +220,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 >
 > **TDR（僅限 Windows）**
 > 
-> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
+> 此功能要求<b>逾時偵測與恢復（TDR</b>）與我們文件本頁[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d-painter/using/technical-support/technical-issues/gpu-issues/gpu-drivers-crash-with-long-computations-tdr-crash)建議的值相符，依據設計者技術[要求](../../getting-started/system-requirements/system-requirements.md)。
 
 ## 選單列
 
@@ -304,7 +304,7 @@ Designer 預設有幾種不同的 [著色器](../../glossary/glossary.md) ，每
 
 <b>載入定義...： </b>（僅限 OpenGL 渲染器）讓你能載入自訂 [的 GLSLFX 著色器。](../../interface/3d-view/glslfx-shaders/glslfx-shaders.md) 著色器會加入上述清單。
 
-<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質[&#128279;](https://experienceleague.adobe.com/en/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值會被帶入。
+<b>重設共用參數：</b> 重置所有在著色器間共用的參數。 例如，在 Rasterizer/GPU Pathtracer 與 OpenGL 渲染器之間切換時，Adobe 標準材質[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/substance-3d/general-knowledge/asm/adobe-standard-material)中的多個參數值會被帶入。
 
 <b>更名：</b> 更換本素材的標籤。
 

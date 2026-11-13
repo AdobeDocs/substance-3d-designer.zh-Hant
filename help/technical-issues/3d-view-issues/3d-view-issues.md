@@ -1,5 +1,5 @@
 ---
-helpx_url: "https://helpx.adobe.com/substance-3d-designer/technical-issues/3d-view-issues.html"
+helpx_url: "https://helpx.adobe.com/tw/substance-3d-designer/technical-issues/3d-view-issues.html"
 breadcrumb-title: ""
 description: 排除 Substance 3D Designer 中的 3D View 問題，包括渲染、顯示及效能問題。
 helpx_creative_field: ""
